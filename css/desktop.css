@@ -1036,8 +1036,9 @@
    MOBILE BOTTOM NAV BAR — Hidden on desktop
    ═══════════════════════════════════════════════════════════ */
 .mobile-bottom-nav,
-.mobile-footer {
-  display: none;
+.mobile-footer,
+.mob-submenu-overlay {
+  display: none !important;
 }
 
 /* Mobile: hide desktop layout, show mobile nav */
@@ -1075,11 +1076,8 @@
     grid-template-columns: 1fr !important;
   }
 
-  /* ── Product summary cards: constrained width on mobile ── */
+  /* ── Product summary cards: match detail card style on mobile ── */
   .product-summary-card {
-    max-width: 320px;
-    margin-left: auto;
-    margin-right: auto;
     border-radius: 14px;
     padding: 14px;
     border-left-width: 4px;
@@ -1207,86 +1205,65 @@
     color: #4ade80;
   }
 
-  /* ── Submenus (Identify & More) ── */
-  .mob-nav-submenu {
-    display: none;
-    position: absolute;
-    bottom: 100%;
-    left: 50%;
-    transform: translateX(-50%);
+  /* ── Submenu overlays (Identify & More) ── */
+  .mob-submenu-overlay {
+    /* display controlled by JS inline style; default is none */
+    position: fixed;
+    bottom: 68px;
+    left: 12px;
+    right: 12px;
+    flex-direction: column;
     background: var(--card-bg, #fff);
     border: 1px solid var(--border, #e2e8f0);
-    border-radius: 14px;
+    border-radius: 16px;
     padding: 8px 0;
-    box-shadow: 0 -8px 24px rgba(0, 0, 0, 0.12);
-    min-width: 200px;
+    box-shadow: 0 -8px 30px rgba(0, 0, 0, 0.15);
     z-index: 10000;
-    margin-bottom: 8px;
+    max-height: 60vh;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
   }
 
-  .mob-nav-submenu.show {
-    display: block;
-  }
-
-  [data-theme="dark"] .mob-nav-submenu {
+  [data-theme="dark"] .mob-submenu-overlay {
     background: #1e293b;
     border-color: #334155;
-    box-shadow: 0 -8px 24px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 -8px 30px rgba(0, 0, 0, 0.5);
   }
 
-  .mob-nav-submenu button,
-  .mob-nav-submenu a {
+  .mob-submenu-overlay button,
+  .mob-submenu-overlay a {
     display: block;
     width: 100%;
     text-align: left;
-    padding: 12px 18px;
+    padding: 14px 20px;
     border: none;
     background: none;
-    font-size: 0.9rem;
+    font-size: 0.95rem;
     font-weight: 500;
     color: var(--text-main, #1e293b);
     cursor: pointer;
     transition: background 0.1s;
+    box-sizing: border-box;
   }
 
-  .mob-nav-submenu button:hover,
-  .mob-nav-submenu a:hover {
-    background: rgba(22, 163, 74, 0.06);
-  }
-
-  .mob-nav-submenu button:active,
-  .mob-nav-submenu a:active {
-    background: rgba(22, 163, 74, 0.12);
-  }
-
-  [data-theme="dark"] .mob-nav-submenu button,
-  [data-theme="dark"] .mob-nav-submenu a {
-    color: #e2e8f0;
-  }
-
-  [data-theme="dark"] .mob-nav-submenu button:hover,
-  [data-theme="dark"] .mob-nav-submenu a:hover {
+  .mob-submenu-overlay button:active,
+  .mob-submenu-overlay a:active {
     background: rgba(22, 163, 74, 0.1);
   }
 
-  .mob-nav-sep {
+  [data-theme="dark"] .mob-submenu-overlay button,
+  [data-theme="dark"] .mob-submenu-overlay a {
+    color: #e2e8f0;
+  }
+
+  .mob-sub-sep {
     height: 1px;
     background: var(--border, #e2e8f0);
-    margin: 4px 12px;
+    margin: 4px 16px;
   }
 
-  [data-theme="dark"] .mob-nav-sep {
+  [data-theme="dark"] .mob-sub-sep {
     background: #334155;
-  }
-
-  /* More menu — align right so it doesn't overflow right edge */
-  .mob-nav-more-menu {
-    left: auto;
-    right: 4px;
-    transform: none;
-    max-height: 70vh;
-    overflow-y: auto;
-    -webkit-overflow-scrolling: touch;
   }
 
   /* ── Floating compare button: raise above bottom nav ── */

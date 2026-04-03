@@ -1557,55 +1557,56 @@
     </div>
   </footer>
 
-  <!-- ═══ MOBILE BOTTOM NAV BAR ═══ -->
+  <!-- ═══ MOBILE BOTTOM NAV — Submenus as separate overlays ═══ -->
+
+  <!-- Identify submenu (positioned by JS above the nav) -->
+  <div class="mob-submenu-overlay" id="mob-id-submenu" style="display:none;">
+    <button onclick="mobNavSwitch('weeds')">🌾 Weeds</button>
+    <button onclick="mobNavSwitch('pests')">🐛 Pests</button>
+    <button onclick="mobNavSwitch('diseases')">🦠 Diseases</button>
+  </div>
+
+  <!-- More submenu -->
+  <div class="mob-submenu-overlay mob-more-overlay" id="mob-more-submenu" style="display:none;">
+    <button onclick="mobNavSwitch('apvma')">🏛️ APVMA Registry</button>
+    <button onclick="mobNavSwitch('tank')">🚜 Tank Mix</button>
+    <button onclick="mobNavSwitch('cost')">💰 Cost Compare</button>
+    <button onclick="mobNavSwitch('container')">🛢️ Container Calc</button>
+    <div class="mob-sub-sep"></div>
+    <button onclick="openPanel('units');mobNavCloseAll();">📏 Unit Converter</button>
+    <button onclick="openPanel('finance');mobNavCloseAll();">💸 Finance</button>
+    <button onclick="openPanel('calc');mobNavCloseAll();">🔢 Calculator</button>
+    <button onclick="openPanel('history');mobNavCloseAll();">📜 History</button>
+    <div class="mob-sub-sep"></div>
+    <a href="lawn-turf-guide.html" style="text-decoration:none;color:inherit;">🌿 Lawn & Turf Guide</a>
+    <div class="mob-sub-sep"></div>
+    <button onclick="openPanel('about');mobNavCloseAll();">ℹ️ About</button>
+    <button onclick="openPanel('contact');mobNavCloseAll();">📧 Contact</button>
+    <button onclick="openPanel('disclaimer');mobNavCloseAll();">⚖️ Disclaimer</button>
+    <button onclick="openPanel('privacy');mobNavCloseAll();">🔒 Privacy</button>
+    <button onclick="openPanel('terms');mobNavCloseAll();">📄 Terms</button>
+  </div>
+
+  <!-- Bottom nav bar — 5 buttons only, no nested children -->
   <nav class="mobile-bottom-nav" id="mobile-bottom-nav" aria-label="Mobile navigation">
     <button class="mob-nav-btn active" data-tab="search" onclick="mobNavSwitch('search')">
-      <span class="mob-nav-icon">🔍</span>
-      <span class="mob-nav-label">Labels</span>
+      <span class="mob-nav-icon">🔍</span><span class="mob-nav-label">Labels</span>
     </button>
     <button class="mob-nav-btn" data-tab="permits" onclick="mobNavSwitch('permits')">
-      <span class="mob-nav-icon">📋</span>
-      <span class="mob-nav-label">Permits</span>
+      <span class="mob-nav-icon">📋</span><span class="mob-nav-label">Permits</span>
     </button>
     <button class="mob-nav-btn" data-tab="identify" onclick="mobNavOpenIdentify(event)">
-      <span class="mob-nav-icon">🔬</span>
-      <span class="mob-nav-label">Identify</span>
-      <div class="mob-nav-submenu" id="mob-id-submenu">
-        <button onclick="mobNavSwitch('weeds');event.stopPropagation();">🌾 Weeds</button>
-        <button onclick="mobNavSwitch('pests');event.stopPropagation();">🐛 Pests</button>
-        <button onclick="mobNavSwitch('diseases');event.stopPropagation();">🦠 Diseases</button>
-      </div>
+      <span class="mob-nav-icon">🔬</span><span class="mob-nav-label">Identify</span>
     </button>
     <button class="mob-nav-btn" data-tab="sds" onclick="mobNavSwitch('sds')">
-      <span class="mob-nav-icon">🛡️</span>
-      <span class="mob-nav-label">SDS</span>
+      <span class="mob-nav-icon">🛡️</span><span class="mob-nav-label">SDS</span>
     </button>
     <button class="mob-nav-btn" data-tab="more" onclick="mobNavToggleMore(event)">
-      <span class="mob-nav-icon">⋯</span>
-      <span class="mob-nav-label">More</span>
-      <div class="mob-nav-submenu mob-nav-more-menu" id="mob-more-submenu">
-        <button onclick="mobNavSwitch('apvma');event.stopPropagation();">🏛️ APVMA Registry</button>
-        <button onclick="mobNavSwitch('tank');event.stopPropagation();">🚜 Tank Mix Calculator</button>
-        <button onclick="mobNavSwitch('cost');event.stopPropagation();">💰 Cost Compare</button>
-        <button onclick="mobNavSwitch('container');event.stopPropagation();">🛢️ Container Calculator</button>
-        <div class="mob-nav-sep"></div>
-        <button onclick="openPanel('units');mobNavCloseAll();event.stopPropagation();">📏 Unit Converter</button>
-        <button onclick="openPanel('finance');mobNavCloseAll();event.stopPropagation();">💸 Finance</button>
-        <button onclick="openPanel('calc');mobNavCloseAll();event.stopPropagation();">🔢 Calculator</button>
-        <button onclick="openPanel('history');mobNavCloseAll();event.stopPropagation();">📜 History</button>
-        <div class="mob-nav-sep"></div>
-        <a href="lawn-turf-guide.html" onclick="event.stopPropagation();" style="text-decoration:none;">🌿 Lawn & Turf Guide</a>
-        <div class="mob-nav-sep"></div>
-        <button onclick="openPanel('about');mobNavCloseAll();event.stopPropagation();">ℹ️ About</button>
-        <button onclick="openPanel('contact');mobNavCloseAll();event.stopPropagation();">📧 Contact</button>
-        <button onclick="openPanel('disclaimer');mobNavCloseAll();event.stopPropagation();">⚖️ Disclaimer</button>
-        <button onclick="openPanel('privacy');mobNavCloseAll();event.stopPropagation();">🔒 Privacy</button>
-        <button onclick="openPanel('terms');mobNavCloseAll();event.stopPropagation();">📄 Terms</button>
-      </div>
+      <span class="mob-nav-icon">⋯</span><span class="mob-nav-label">More</span>
     </button>
   </nav>
 
-  <!-- Mobile footer (above bottom nav) -->
+  <!-- Mobile footer -->
   <footer class="mobile-footer" id="mobile-footer">
     <span>© 2026 Spray Hub</span>
     <span class="mob-footer-sep">·</span>
@@ -1620,7 +1621,6 @@
     window.mobNavSwitch = function(tab) {
       mobNavCloseAll();
       if (typeof switchAgriSubTab === 'function') switchAgriSubTab(tab);
-      // Update active state
       document.querySelectorAll('.mob-nav-btn').forEach(function(btn) {
         btn.classList.remove('active');
         var dt = btn.getAttribute('data-tab');
@@ -1633,28 +1633,25 @@
       e.stopPropagation();
       var sub = document.getElementById('mob-id-submenu');
       var moreSub = document.getElementById('mob-more-submenu');
-      if (moreSub) moreSub.classList.remove('show');
-      if (sub) sub.classList.toggle('show');
+      moreSub.style.display = 'none';
+      sub.style.display = sub.style.display === 'none' ? 'flex' : 'none';
     };
 
     window.mobNavToggleMore = function(e) {
       e.stopPropagation();
       var sub = document.getElementById('mob-more-submenu');
       var idSub = document.getElementById('mob-id-submenu');
-      if (idSub) idSub.classList.remove('show');
-      if (sub) sub.classList.toggle('show');
+      idSub.style.display = 'none';
+      sub.style.display = sub.style.display === 'none' ? 'flex' : 'none';
     };
 
     window.mobNavCloseAll = function() {
-      var s1 = document.getElementById('mob-id-submenu');
-      var s2 = document.getElementById('mob-more-submenu');
-      if (s1) s1.classList.remove('show');
-      if (s2) s2.classList.remove('show');
+      document.getElementById('mob-id-submenu').style.display = 'none';
+      document.getElementById('mob-more-submenu').style.display = 'none';
     };
 
-    // Close submenus on tap outside
     document.addEventListener('click', function(e) {
-      if (!e.target.closest('.mobile-bottom-nav')) {
+      if (!e.target.closest('.mobile-bottom-nav') && !e.target.closest('.mob-submenu-overlay')) {
         mobNavCloseAll();
       }
     });
