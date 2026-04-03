@@ -1,4 +1,4 @@
-const CACHE_NAME = 'sprayhub-v196';
+const CACHE_NAME = 'sprayhub-v197';
 
 const ASSETS = [
   './',
@@ -6,6 +6,7 @@ const ASSETS = [
   './lawn-turf-guide.html',
   './manifest.json',
   './robots.txt',
+  './sitemap.xml',
   './images/favicon.ico',
   './images/favicon-16.png',
   './images/favicon-32.png',

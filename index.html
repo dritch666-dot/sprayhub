@@ -10,8 +10,10 @@
   <meta name="description" content="Spray Hub is Australia's free offline agricultural chemical reference. Search 242+ product label rates, 354 Safety Data Sheets, 680 APVMA permits, and identify 1,100+ weeds, pests &amp; diseases. Spray calculators included.">
   <meta name="keywords" content="spray rate calculator, agricultural chemical database, APVMA permits, herbicide rates, insecticide rates, fungicide rates, weed identification Australia, pest identification, product label search, SDS safety data sheet, tank mix calculator, crop protection, Australian farming, spray hub">
   <meta name="author" content="Spray Hub">
-  <meta name="robots" content="index, follow">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
   <link rel="canonical" href="https://sprayhub.com.au/">
+  <link rel="alternate" hreflang="en-AU" href="https://sprayhub.com.au/">
+  <link rel="alternate" hreflang="x-default" href="https://sprayhub.com.au/">
 
   <!-- Open Graph (Facebook, LinkedIn, iMessage) -->
   <meta property="og:type" content="website">
@@ -43,7 +45,7 @@
   <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png">
   <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 
-  <!-- Structured Data (Schema.org) -->
+  <!-- Structured Data (Schema.org) — WebApplication -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -53,6 +55,7 @@
     "description": "Australia's free offline agricultural chemical reference. Search product label rates, Safety Data Sheets, APVMA permits, and identify weeds, pests and diseases.",
     "applicationCategory": "ReferenceApplication",
     "operatingSystem": "Any (PWA)",
+    "browserRequirements": "Requires JavaScript. Works offline after first load.",
     "offers": {
       "@type": "Offer",
       "price": "0",
@@ -63,10 +66,38 @@
       "name": "Spray Hub",
       "url": "https://sprayhub.com.au"
     },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "5",
-      "ratingCount": "1"
+    "inLanguage": "en-AU",
+    "isAccessibleForFree": true
+  }
+  </script>
+
+  <!-- Structured Data — WebSite (enables sitelinks search box) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Spray Hub",
+    "url": "https://sprayhub.com.au",
+    "description": "Australian agricultural chemical database and spray rate calculator",
+    "inLanguage": "en-AU"
+  }
+  </script>
+
+  <!-- Structured Data — Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Spray Hub",
+    "url": "https://sprayhub.com.au",
+    "logo": "https://sprayhub.com.au/images/logo-stacked.png",
+    "description": "Free agricultural chemical reference and spray calculator for Australian farmers, turf managers, and home gardeners.",
+    "areaServed": "AU",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "Customer Service",
+      "email": "dritch666+SprayHub@gmail.com",
+      "url": "https://sprayhub.com.au"
     }
   }
   </script>
@@ -78,6 +109,15 @@
 
 <body>
   <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <noscript>
+    <div style="padding:2rem;text-align:center;font-family:system-ui,sans-serif;max-width:600px;margin:0 auto;">
+      <h1>Spray Hub — Australian Agricultural Chemical Database</h1>
+      <p>Spray Hub is a free offline agricultural chemical reference for Australian farmers, turf managers, and home gardeners. Search 242+ product label rates, 354 Safety Data Sheets, 680 APVMA permits, and identify 1,100+ weeds, pests and diseases. Includes spray rate calculators for tank mixing, cost comparison, and container coverage.</p>
+      <p>This application requires JavaScript to run. Please enable JavaScript in your browser to use Spray Hub.</p>
+      <p><a href="https://sprayhub.com.au/">sprayhub.com.au</a></p>
+    </div>
+  </noscript>
 
   <!-- Desktop Sidebar Navigation -->
   <aside class="desktop-sidebar" id="desktop-sidebar">
@@ -150,7 +190,7 @@
   <!-- Desktop Website Header — full-width bar above everything -->
   <header class="desktop-topbar" id="desktop-topbar">
     <div class="topbar-left">
-      <span class="topbar-logo">🌱</span>
+      <img src="images/favicon-32.png" alt="Spray Hub — Australian Agricultural Chemical Database" width="32" height="32" class="topbar-logo-img" style="vertical-align:middle;margin-right:6px;">
       <span class="topbar-title">Spray Hub</span>
       <span class="topbar-tagline">Australian Agricultural Chemical Database</span>
     </div>
@@ -255,7 +295,7 @@
       <!-- Tank Mix -->
       <div id="agri-tank" class="hidden">
         <div class="product-lookup-box">
-          <h4>📖 Product Label Database</h4>
+          <h2>📖 Product Label Database</h2>
           <div class="form-two-col">
             <div class="form-group">
               <label class="form-label">Select Product</label>
@@ -447,7 +487,7 @@
         <!-- Cards are always rendered by renderComparisonGrid() in JS -->
         <div class="chem-grid"></div>
         <div class="winner-banner hidden" id="winner-banner">
-          <h3 id="winner-name">🏆 Chemical A is Cheaper!</h3>
+          <h2 id="winner-name">🏆 Chemical A is Cheaper!</h2>
           <p id="winner-savings">Save $0.10 per tank</p>
           <p id="winner-percent">(16.7% Savings)</p>
         </div>
@@ -512,7 +552,7 @@
       <div id="agri-permits" class="hidden">
         <div class="premium-search-container">
           <div class="search-title-block">
-            <h3>APVMA Minor Use Permits</h3>
+            <h2>APVMA Minor Use Permits</h2>
             <p>Searchable register of APVMA minor use permits. Permits linked to products in the label database appear
               as buttons on product cards in Label Search.</p>
           </div>
@@ -542,7 +582,7 @@
       <div id="agri-apvma" class="hidden" style="display: none;">
         <div class="premium-search-container">
           <div class="search-title-block">
-            <h3>APVMA PubCRIS Registry</h3>
+            <h2>APVMA PubCRIS Registry</h2>
             <p>Live offline database of all 18,700 registered Australian chemical labels.</p>
           </div>
 
@@ -572,7 +612,7 @@
       <div id="agri-weeds" class="hidden">
         <div class="premium-search-container">
           <div class="search-title-block">
-            <h3>Weed Identification</h3>
+            <h2>Weed Identification</h2>
             <p>Search 1089 common weeds by name, family, or visual characteristics. Use the filters below to narrow results by leaf arrangement, flower color, or control method.</p>
           </div>
           <div class="search-input-wrap">
@@ -624,7 +664,7 @@
       <div id="agri-pests" class="hidden">
         <div class="premium-search-container">
           <div class="search-title-block">
-            <h3>Pests & Insects</h3>
+            <h2>Pests &amp; Insects</h2>
             <p>Search 499 pests and insects by name, type, order, or linked products. Use the filters below to narrow results by pest type or taxonomic order.</p>
           </div>
           <div class="search-input-wrap">
@@ -662,7 +702,7 @@
       <div id="agri-diseases" class="hidden">
         <div class="premium-search-container">
           <div class="search-title-block">
-            <h3>Plant Diseases</h3>
+            <h2>Plant Diseases</h2>
             <p>Search 487 plant diseases by name, pathogen, type, or linked fungicide products. Use the filters below to narrow results by disease type.</p>
           </div>
           <div class="search-input-wrap">
@@ -696,7 +736,7 @@
       <div id="agri-sds" class="hidden">
         <div class="premium-search-container">
           <div class="search-title-block">
-            <h3>Safety Data Sheets (SDS)</h3>
+            <h2>Safety Data Sheets (SDS)</h2>
             <p>Standalone registry of 200+ offline product safety documents. SDS with linked labels show "View Product
               Label" button.</p>
           </div>
@@ -1118,279 +1158,279 @@
   </button>
 
   <!-- Label Database Framework -->
-  <script src="js/database.js"></script>
-  <script src="js/labels/0463nufarmcopperhydroxide500fu.js"></script>
-  <script src="js/labels/22846adamaventurimaxweblabela4.js"></script>
-  <script src="js/labels/5218payback29oct2017.js"></script>
-  <script src="js/labels/access.js"></script>
-  <script src="js/labels/acramite.js"></script>
-  <script src="js/labels/agcopp750wgsdsgrochemaustralia.js"></script>
-  <script src="js/labels/agrifos600.js"></script>
-  <script src="js/labels/agristar.js"></script>
-  <script src="js/labels/albatross.js"></script>
-  <script src="js/labels/altacor.js"></script>
-  <script src="js/labels/atlantisod.js"></script>
-  <script src="js/labels/alphascud.js"></script>
-  <script src="js/labels/applaud.js"></script>
-  <script src="js/labels/associate.js"></script>
-  <script src="js/labels/astral.js"></script>
-  <script src="js/labels/avatarevo.js"></script>
-  <script src="js/labels/basta.js"></script>
-  <script src="js/labels/belt.js"></script>
-  <script src="js/labels/benevia.js"></script>
-  <script src="js/labels/biffo.js"></script>
-  <script src="js/labels/biopestoil.js"></script>
-  <script src="js/labels/boxergold.js"></script>
-  <script src="js/labels/botector.js"></script>
-  <script src="js/labels/bravado720.js"></script>
-  <script src="js/labels/bulldock.js"></script>
-  <script src="js/labels/calibre100ec.js"></script>
-  <script src="js/labels/campbelltridim.js"></script>
-  <script src="js/labels/cando.js"></script>
-  <script src="js/labels/captan800wg.js"></script>
-  <script src="js/labels/chess.js"></script>
-  <script src="js/labels/conqueror.js"></script>
-  <script src="js/labels/copit.js"></script>
-  <script src="js/labels/corragen.js"></script>
+  <script defer src="js/database.js"></script>
+  <script defer src="js/labels/0463nufarmcopperhydroxide500fu.js"></script>
+  <script defer src="js/labels/22846adamaventurimaxweblabela4.js"></script>
+  <script defer src="js/labels/5218payback29oct2017.js"></script>
+  <script defer src="js/labels/access.js"></script>
+  <script defer src="js/labels/acramite.js"></script>
+  <script defer src="js/labels/agcopp750wgsdsgrochemaustralia.js"></script>
+  <script defer src="js/labels/agrifos600.js"></script>
+  <script defer src="js/labels/agristar.js"></script>
+  <script defer src="js/labels/albatross.js"></script>
+  <script defer src="js/labels/altacor.js"></script>
+  <script defer src="js/labels/atlantisod.js"></script>
+  <script defer src="js/labels/alphascud.js"></script>
+  <script defer src="js/labels/applaud.js"></script>
+  <script defer src="js/labels/associate.js"></script>
+  <script defer src="js/labels/astral.js"></script>
+  <script defer src="js/labels/avatarevo.js"></script>
+  <script defer src="js/labels/basta.js"></script>
+  <script defer src="js/labels/belt.js"></script>
+  <script defer src="js/labels/benevia.js"></script>
+  <script defer src="js/labels/biffo.js"></script>
+  <script defer src="js/labels/biopestoil.js"></script>
+  <script defer src="js/labels/boxergold.js"></script>
+  <script defer src="js/labels/botector.js"></script>
+  <script defer src="js/labels/bravado720.js"></script>
+  <script defer src="js/labels/bulldock.js"></script>
+  <script defer src="js/labels/calibre100ec.js"></script>
+  <script defer src="js/labels/campbelltridim.js"></script>
+  <script defer src="js/labels/cando.js"></script>
+  <script defer src="js/labels/captan800wg.js"></script>
+  <script defer src="js/labels/chess.js"></script>
+  <script defer src="js/labels/conqueror.js"></script>
+  <script defer src="js/labels/copit.js"></script>
+  <script defer src="js/labels/corragen.js"></script>
   <!-- cropro_zeus.js removed: duplicate of pctcroprozeus.js (same APVMA 58368) -->
-  <script src="js/labels/crucial.js"></script>
-  <script src="js/labels/danadim.js"></script>
-  <script src="js/labels/delegate.js"></script>
-  <script src="js/labels/deluge.js"></script>
-  <script src="js/labels/designer.js"></script>
-  <script src="js/labels/dipeldf.js"></script>
-  <script src="js/labels/dithane.js"></script>
-  <script src="js/labels/dropzone.js"></script>
-  <script src="js/labels/dualgold.js"></script>
-  <script src="js/labels/entrustorganic.js"></script>
-  <script src="js/labels/ficam.js"></script>
-  <script src="js/labels/flupropanate.js"></script>
-  <script src="js/labels/flystarbait.js"></script>
+  <script defer src="js/labels/crucial.js"></script>
+  <script defer src="js/labels/danadim.js"></script>
+  <script defer src="js/labels/delegate.js"></script>
+  <script defer src="js/labels/deluge.js"></script>
+  <script defer src="js/labels/designer.js"></script>
+  <script defer src="js/labels/dipeldf.js"></script>
+  <script defer src="js/labels/dithane.js"></script>
+  <script defer src="js/labels/dropzone.js"></script>
+  <script defer src="js/labels/dualgold.js"></script>
+  <script defer src="js/labels/entrustorganic.js"></script>
+  <script defer src="js/labels/ficam.js"></script>
+  <script defer src="js/labels/flupropanate.js"></script>
+  <script defer src="js/labels/flystarbait.js"></script>
   <!-- fontelis.js removed: duplicate of cortevafontelis.js (same APVMA 65510) -->
-  <script src="js/labels/gamma.js"></script>
-  <script src="js/labels/graslan.js"></script>
-  <script src="js/labels/grazon_extra.js"></script>
-  <script src="js/labels/hasten.js"></script>
+  <script defer src="js/labels/gamma.js"></script>
+  <script defer src="js/labels/graslan.js"></script>
+  <script defer src="js/labels/grazon_extra.js"></script>
+  <script defer src="js/labels/hasten.js"></script>
   <!-- insectigone.js removed: duplicate of pctinsectigone.js (same APVMA 51943) -->
-  <script src="js/labels/kamba_m.js"></script>
-  <script src="js/labels/kocide.js"></script>
-  <script src="js/labels/lancer.js"></script>
+  <script defer src="js/labels/kamba_m.js"></script>
+  <script defer src="js/labels/kocide.js"></script>
+  <script defer src="js/labels/lancer.js"></script>
   <!-- lontrel.js removed: duplicate of cortevalontreldadvanced.js -->
-  <script src="js/labels/lunaexperience.js"></script>
-  <script src="js/labels/lunasensation.js"></script>
-  <script src="js/labels/magnate.js"></script>
-  <script src="js/labels/mavrik.js"></script>
-  <script src="js/labels/mcpa.js"></script>
-  <script src="js/labels/methomyl.js"></script>
-  <script src="js/labels/microthioldisperss.js"></script>
-  <script src="js/labels/movento.js"></script>
-  <script src="js/labels/nexus.js"></script>
-  <script src="js/labels/nimrod.js"></script>
-  <script src="js/labels/nimitz.js"></script>
-  <script src="js/labels/octavewp.js"></script>
-  <script src="js/labels/orius430sc.js"></script>
-  <script src="js/labels/outright.js"></script>
-  <script src="js/labels/paramite.js"></script>
+  <script defer src="js/labels/lunaexperience.js"></script>
+  <script defer src="js/labels/lunasensation.js"></script>
+  <script defer src="js/labels/magnate.js"></script>
+  <script defer src="js/labels/mavrik.js"></script>
+  <script defer src="js/labels/mcpa.js"></script>
+  <script defer src="js/labels/methomyl.js"></script>
+  <script defer src="js/labels/microthioldisperss.js"></script>
+  <script defer src="js/labels/movento.js"></script>
+  <script defer src="js/labels/nexus.js"></script>
+  <script defer src="js/labels/nimrod.js"></script>
+  <script defer src="js/labels/nimitz.js"></script>
+  <script defer src="js/labels/octavewp.js"></script>
+  <script defer src="js/labels/orius430sc.js"></script>
+  <script defer src="js/labels/outright.js"></script>
+  <script defer src="js/labels/paramite.js"></script>
   <!-- pctholdingsptyltd.js removed: duplicate of raizon.js (same APVMA 70360) -->
-  <script src="js/labels/pendimethalin.js"></script>
-  <script src="js/labels/penncozeb.js"></script>
-  <script src="js/labels/penncozeb750df.js"></script>
-  <script src="js/labels/piston250.js"></script>
-  <script src="js/labels/pirimor.js"></script>
-  <script src="js/labels/polyramdf.js"></script>
-  <script src="js/labels/proclaimopti.js"></script>
-  <script src="js/labels/prodigy.js"></script>
-  <script src="js/labels/productnameactipster500sl.js"></script>
-  <script src="js/labels/productnameimtradecyborgplus10.js"></script>
-  <script src="js/labels/nordox750wg.js"></script>
-  <script src="js/labels/productnamesurefireassault150e.js"></script>
-  <script src="js/labels/productnameswitch.js"></script>
-  <script src="js/labels/teppan50sl.js"></script>
-  <script src="js/labels/productnamevayego200sc.js"></script>
-  <script src="js/labels/productnamevertentoplinazolint.js"></script>
-  <script src="js/labels/progibbsg.js"></script>
-  <script src="js/labels/protak.js"></script>
-  <script src="js/labels/prowesslabel.js"></script>
-  <script src="js/labels/raizon.js"></script>
-  <script src="js/labels/reactor.js"></script>
-  <script src="js/labels/reactorred.js"></script>
+  <script defer src="js/labels/pendimethalin.js"></script>
+  <script defer src="js/labels/penncozeb.js"></script>
+  <script defer src="js/labels/penncozeb750df.js"></script>
+  <script defer src="js/labels/piston250.js"></script>
+  <script defer src="js/labels/pirimor.js"></script>
+  <script defer src="js/labels/polyramdf.js"></script>
+  <script defer src="js/labels/proclaimopti.js"></script>
+  <script defer src="js/labels/prodigy.js"></script>
+  <script defer src="js/labels/productnameactipster500sl.js"></script>
+  <script defer src="js/labels/productnameimtradecyborgplus10.js"></script>
+  <script defer src="js/labels/nordox750wg.js"></script>
+  <script defer src="js/labels/productnamesurefireassault150e.js"></script>
+  <script defer src="js/labels/productnameswitch.js"></script>
+  <script defer src="js/labels/teppan50sl.js"></script>
+  <script defer src="js/labels/productnamevayego200sc.js"></script>
+  <script defer src="js/labels/productnamevertentoplinazolint.js"></script>
+  <script defer src="js/labels/progibbsg.js"></script>
+  <script defer src="js/labels/protak.js"></script>
+  <script defer src="js/labels/prowesslabel.js"></script>
+  <script defer src="js/labels/raizon.js"></script>
+  <script defer src="js/labels/reactor.js"></script>
+  <script defer src="js/labels/reactorred.js"></script>
   <!-- readsafetydirections...js removed: duplicate of 22846adamaventurimaxweblabela4.js (same APVMA 89849, Venturi Max) -->
-  <script src="js/labels/red_dye.js"></script>
-  <script src="js/labels/reglone.js"></script>
-  <script src="js/labels/ridomilgoldmzwg.js"></script>
-  <script src="js/labels/roundup_ultramax.js"></script>
-  <script src="js/labels/rovralaquaflo.js"></script>
-  <script src="js/labels/salibro.js"></script>
-  <script src="js/labels/samurai.js"></script>
+  <script defer src="js/labels/red_dye.js"></script>
+  <script defer src="js/labels/reglone.js"></script>
+  <script defer src="js/labels/ridomilgoldmzwg.js"></script>
+  <script defer src="js/labels/roundup_ultramax.js"></script>
+  <script defer src="js/labels/rovralaquaflo.js"></script>
+  <script defer src="js/labels/salibro.js"></script>
+  <script defer src="js/labels/samurai.js"></script>
   <!-- score.js removed: duplicate of syngentascore.js (same APVMA 45810) -->
-  <script src="js/labels/sencor.js"></script>
-  <script src="js/labels/seranadeopti.js"></script>
-  <script src="js/labels/serenadeprime.js"></script>
-  <script src="js/labels/simodis.js"></script>
-  <script src="js/labels/sinmas.js"></script>
-  <script src="js/labels/sivantoprime.js"></script>
-  <script src="js/labels/sorcerer.js"></script>
-  <script src="js/labels/spray_seed.js"></script>
-  <script src="js/labels/spraytop.js"></script>
-  <script src="js/labels/starane.js"></script>
-  <script src="js/labels/stealth.js"></script>
-  <script src="js/labels/stomp_xtra.js"></script>
-  <script src="js/labels/striker.js"></script>
-  <script src="js/labels/success_neo.js"></script>
-  <script src="js/labels/sunnypgr.js"></script>
-  <script src="js/labels/surefire.js"></script>
-  <script src="js/labels/surefirebuffalo.js"></script>
-  <script src="js/labels/surefireglyphosate.js"></script>
-  <script src="js/labels/surefiremultiturf.js"></script>
-  <script src="js/labels/synertrolhorti.js"></script>
+  <script defer src="js/labels/sencor.js"></script>
+  <script defer src="js/labels/seranadeopti.js"></script>
+  <script defer src="js/labels/serenadeprime.js"></script>
+  <script defer src="js/labels/simodis.js"></script>
+  <script defer src="js/labels/sinmas.js"></script>
+  <script defer src="js/labels/sivantoprime.js"></script>
+  <script defer src="js/labels/sorcerer.js"></script>
+  <script defer src="js/labels/spray_seed.js"></script>
+  <script defer src="js/labels/spraytop.js"></script>
+  <script defer src="js/labels/starane.js"></script>
+  <script defer src="js/labels/stealth.js"></script>
+  <script defer src="js/labels/stomp_xtra.js"></script>
+  <script defer src="js/labels/striker.js"></script>
+  <script defer src="js/labels/success_neo.js"></script>
+  <script defer src="js/labels/sunnypgr.js"></script>
+  <script defer src="js/labels/surefire.js"></script>
+  <script defer src="js/labels/surefirebuffalo.js"></script>
+  <script defer src="js/labels/surefireglyphosate.js"></script>
+  <script defer src="js/labels/surefiremultiturf.js"></script>
+  <script defer src="js/labels/synertrolhorti.js"></script>
   <!-- talendo.js removed: duplicate of cortevatalendo.js (same APVMA 64165) -->
-  <script src="js/labels/tempra.js"></script>
-  <script src="js/labels/termighty.js"></script>
-  <script src="js/labels/terrador.js"></script>
-  <script src="js/labels/terrain.js"></script>
-  <script src="js/labels/thiovitjet.js"></script>
-  <script src="js/labels/transform.js"></script>
-  <script src="js/labels/transform_wg.js"></script>
-  <script src="js/labels/tribase.js"></script>
-  <script src="js/labels/triflurx.js"></script>
-  <script src="js/labels/trumpsprayoil.js"></script>
-  <script src="js/labels/uptake.js"></script>
-  <script src="js/labels/vaniva.js"></script>
-  <script src="js/labels/vivusmax.js"></script>
-  <script src="js/labels/vayegoforte.js"></script>
-  <script src="js/labels/vendex.js"></script>
-  <script src="js/labels/vesta.js"></script>
-  <script src="js/labels/versys.js"></script>
-  <script src="js/labels/vigilant.js"></script>
-  <script src="js/labels/websiteimtecdypro700wpinsectic.js"></script>
-  <script src="js/labels/weedmaster_dst.js"></script>
-  <script src="js/labels/weedmaster_duo.js"></script>
-  <script src="js/labels/worldsagcoppoxwg15kgpage1of6ag.js"></script>
-  <script src="js/labels/xentariwg.js"></script>
-  <script src="js/labels/zanoctine.js"></script>
-  <script src="js/labels/zampro.js"></script>
-  <script src="js/labels/zeemil50g.js"></script>
-  <script src="js/labels/adamadiuron900wg.js"></script>
-  <script src="js/labels/adamabugmaster.js"></script>
-  <script src="js/labels/adamafarmozine900wg.js"></script>
-  <script src="js/labels/adamafirepower900.js"></script>
-  <script src="js/labels/adamapalmero750wg.js"></script>
-  <script src="js/labels/adamapriority.js"></script>
-  <script src="js/labels/adamaplemax.js"></script>
-  <script src="js/labels/adamasphinx.js"></script>
-  <script src="js/labels/adamatrivor.js"></script>
-  <script src="js/labels/adamauraganwg.js"></script>
-  <script src="js/labels/agnovaflute50ew.js"></script>
-  <script src="js/labels/arystalamitron700wg.js"></script>
-  <script src="js/labels/basfaero.js"></script>
-  <script src="js/labels/basfbelanty.js"></script>
-  <script src="js/labels/basfcabrio.js"></script>
-  <script src="js/labels/basfcolliss.js"></script>
-  <script src="js/labels/basfefficon.js"></script>
-  <script src="js/labels/basfmerivon.js"></script>
-  <script src="js/labels/basfvivando.js"></script>
-  <script src="js/labels/bayeralion.js"></script>
-  <script src="js/labels/campbellabsolve.js"></script>
-  <script src="js/labels/campbellcheers720.js"></script>
-  <script src="js/labels/campbellfludy230sc.js"></script>
-  <script src="js/labels/cortevafontelis.js"></script>
-  <script src="js/labels/cortevalontreldadvanced.js"></script>
+  <script defer src="js/labels/tempra.js"></script>
+  <script defer src="js/labels/termighty.js"></script>
+  <script defer src="js/labels/terrador.js"></script>
+  <script defer src="js/labels/terrain.js"></script>
+  <script defer src="js/labels/thiovitjet.js"></script>
+  <script defer src="js/labels/transform.js"></script>
+  <script defer src="js/labels/transform_wg.js"></script>
+  <script defer src="js/labels/tribase.js"></script>
+  <script defer src="js/labels/triflurx.js"></script>
+  <script defer src="js/labels/trumpsprayoil.js"></script>
+  <script defer src="js/labels/uptake.js"></script>
+  <script defer src="js/labels/vaniva.js"></script>
+  <script defer src="js/labels/vivusmax.js"></script>
+  <script defer src="js/labels/vayegoforte.js"></script>
+  <script defer src="js/labels/vendex.js"></script>
+  <script defer src="js/labels/vesta.js"></script>
+  <script defer src="js/labels/versys.js"></script>
+  <script defer src="js/labels/vigilant.js"></script>
+  <script defer src="js/labels/websiteimtecdypro700wpinsectic.js"></script>
+  <script defer src="js/labels/weedmaster_dst.js"></script>
+  <script defer src="js/labels/weedmaster_duo.js"></script>
+  <script defer src="js/labels/worldsagcoppoxwg15kgpage1of6ag.js"></script>
+  <script defer src="js/labels/xentariwg.js"></script>
+  <script defer src="js/labels/zanoctine.js"></script>
+  <script defer src="js/labels/zampro.js"></script>
+  <script defer src="js/labels/zeemil50g.js"></script>
+  <script defer src="js/labels/adamadiuron900wg.js"></script>
+  <script defer src="js/labels/adamabugmaster.js"></script>
+  <script defer src="js/labels/adamafarmozine900wg.js"></script>
+  <script defer src="js/labels/adamafirepower900.js"></script>
+  <script defer src="js/labels/adamapalmero750wg.js"></script>
+  <script defer src="js/labels/adamapriority.js"></script>
+  <script defer src="js/labels/adamaplemax.js"></script>
+  <script defer src="js/labels/adamasphinx.js"></script>
+  <script defer src="js/labels/adamatrivor.js"></script>
+  <script defer src="js/labels/adamauraganwg.js"></script>
+  <script defer src="js/labels/agnovaflute50ew.js"></script>
+  <script defer src="js/labels/arystalamitron700wg.js"></script>
+  <script defer src="js/labels/basfaero.js"></script>
+  <script defer src="js/labels/basfbelanty.js"></script>
+  <script defer src="js/labels/basfcabrio.js"></script>
+  <script defer src="js/labels/basfcolliss.js"></script>
+  <script defer src="js/labels/basfefficon.js"></script>
+  <script defer src="js/labels/basfmerivon.js"></script>
+  <script defer src="js/labels/basfvivando.js"></script>
+  <script defer src="js/labels/bayeralion.js"></script>
+  <script defer src="js/labels/campbellabsolve.js"></script>
+  <script defer src="js/labels/campbellcheers720.js"></script>
+  <script defer src="js/labels/campbellfludy230sc.js"></script>
+  <script defer src="js/labels/cortevafontelis.js"></script>
+  <script defer src="js/labels/cortevalontreldadvanced.js"></script>
   <!-- cortevasuccessneo.js removed: duplicate of success_neo.js (same APVMA 64109, success_neo has more data) -->
-  <script src="js/labels/cortevatalendo.js"></script>
-  <script src="js/labels/cortevaubeniq.js"></script>
-  <script src="js/labels/cortevaverpixo.js"></script>
-  <script src="js/labels/cortevasuccessultra.js"></script>
-  <script src="js/labels/cortevatordonregrowthmaster.js"></script>
-  <script src="js/labels/cortevazorvec.js"></script>
-  <script src="js/labels/azamaxxtra.js"></script>
+  <script defer src="js/labels/cortevatalendo.js"></script>
+  <script defer src="js/labels/cortevaubeniq.js"></script>
+  <script defer src="js/labels/cortevaverpixo.js"></script>
+  <script defer src="js/labels/cortevasuccessultra.js"></script>
+  <script defer src="js/labels/cortevatordonregrowthmaster.js"></script>
+  <script defer src="js/labels/cortevazorvec.js"></script>
+  <script defer src="js/labels/azamaxxtra.js"></script>
   <!-- fmccoragen.js removed — replaced by corragen.js (same APVMA 61519, more complete with permits) -->
-  <script src="js/labels/fmcexirel.js"></script>
-  <script src="js/labels/fmcvantacor.js"></script>
-  <script src="js/labels/fmctrojan.js"></script>
-  <script src="js/labels/gpflupropanategranular.js"></script>
-  <script src="js/labels/imtradeclethodim240ec.js"></script>
-  <script src="js/labels/imtradekersel850wg.js"></script>
-  <script src="js/labels/agnovakusabi300sc.js"></script>
-  <script src="js/labels/uplmainman500wg.js"></script>
-  <script src="js/labels/uplranman400sc.js"></script>
+  <script defer src="js/labels/fmcexirel.js"></script>
+  <script defer src="js/labels/fmcvantacor.js"></script>
+  <script defer src="js/labels/fmctrojan.js"></script>
+  <script defer src="js/labels/gpflupropanategranular.js"></script>
+  <script defer src="js/labels/imtradeclethodim240ec.js"></script>
+  <script defer src="js/labels/imtradekersel850wg.js"></script>
+  <script defer src="js/labels/agnovakusabi300sc.js"></script>
+  <script defer src="js/labels/uplmainman500wg.js"></script>
+  <script defer src="js/labels/uplranman400sc.js"></script>
   <!-- lovelandactivator.js removed: duplicate of nufarmactivator.js (same APVMA 41517, old Loveland branding) -->
-  <script src="js/labels/nufarmexpand.js"></script>
-  <script src="js/labels/nufarmactivator.js"></script>
-  <script src="js/labels/nufarmintervene.js"></script>
-  <script src="js/labels/nufarm24db500.js"></script>
-  <script src="js/labels/nufarmarcher750.js"></script>
-  <script src="js/labels/nufarmmcpaamine750.js"></script>
-  <script src="js/labels/nufarmsentry.js"></script>
-  <script src="js/labels/nufarmpyroxasulfone850wg.js"></script>
-  <script src="js/labels/nufarmsinker.js"></script>
-  <script src="js/labels/ocpazamax.js"></script>
-  <script src="js/labels/pctcroprozeus.js"></script>
-  <script src="js/labels/pctinsectigone.js"></script>
-  <script src="js/labels/pctreactor.js"></script>
-  <script src="js/labels/surefireamine625.js"></script>
-  <script src="js/labels/surefirerspectrum200sc.js"></script>
-  <script src="js/labels/surefiresvista200sc.js"></script>
-  <script src="js/labels/surefireweedpro540.js"></script>
-  <script src="js/labels/surefireweedprobioaqua360.js"></script>
-  <script src="js/labels/sipcamatrazine500sc.js"></script>
-  <script src="js/labels/admiraladvance.js"></script>
-  <script src="js/labels/sumitomochateau.js"></script>
-  <script src="js/labels/syngentadurivo.js"></script>
-  <script src="js/labels/syngentaminectoforte.js"></script>
-  <script src="js/labels/syngentamiravis.js"></script>
-  <script src="js/labels/syngentaridomilgold.js"></script>
-  <script src="js/labels/syngentascholar.js"></script>
-  <script src="js/labels/syngentakaratezeon.js"></script>
-  <script src="js/labels/syngentascore.js"></script>
-  <script src="js/labels/uplbuffit.js"></script>
-  <script src="js/labels/uplfascinate.js"></script>
-  <script src="js/labels/uplshenzi.js"></script>
-  <script src="js/labels/uplsprinta.js"></script>
-  <script src="js/labels/valentprogibb.js"></script>
-  <script src="js/labels/gravitateadjuvant707.js"></script>
+  <script defer src="js/labels/nufarmexpand.js"></script>
+  <script defer src="js/labels/nufarmactivator.js"></script>
+  <script defer src="js/labels/nufarmintervene.js"></script>
+  <script defer src="js/labels/nufarm24db500.js"></script>
+  <script defer src="js/labels/nufarmarcher750.js"></script>
+  <script defer src="js/labels/nufarmmcpaamine750.js"></script>
+  <script defer src="js/labels/nufarmsentry.js"></script>
+  <script defer src="js/labels/nufarmpyroxasulfone850wg.js"></script>
+  <script defer src="js/labels/nufarmsinker.js"></script>
+  <script defer src="js/labels/ocpazamax.js"></script>
+  <script defer src="js/labels/pctcroprozeus.js"></script>
+  <script defer src="js/labels/pctinsectigone.js"></script>
+  <script defer src="js/labels/pctreactor.js"></script>
+  <script defer src="js/labels/surefireamine625.js"></script>
+  <script defer src="js/labels/surefirerspectrum200sc.js"></script>
+  <script defer src="js/labels/surefiresvista200sc.js"></script>
+  <script defer src="js/labels/surefireweedpro540.js"></script>
+  <script defer src="js/labels/surefireweedprobioaqua360.js"></script>
+  <script defer src="js/labels/sipcamatrazine500sc.js"></script>
+  <script defer src="js/labels/admiraladvance.js"></script>
+  <script defer src="js/labels/sumitomochateau.js"></script>
+  <script defer src="js/labels/syngentadurivo.js"></script>
+  <script defer src="js/labels/syngentaminectoforte.js"></script>
+  <script defer src="js/labels/syngentamiravis.js"></script>
+  <script defer src="js/labels/syngentaridomilgold.js"></script>
+  <script defer src="js/labels/syngentascholar.js"></script>
+  <script defer src="js/labels/syngentakaratezeon.js"></script>
+  <script defer src="js/labels/syngentascore.js"></script>
+  <script defer src="js/labels/uplbuffit.js"></script>
+  <script defer src="js/labels/uplfascinate.js"></script>
+  <script defer src="js/labels/uplshenzi.js"></script>
+  <script defer src="js/labels/uplsprinta.js"></script>
+  <script defer src="js/labels/valentprogibb.js"></script>
+  <script defer src="js/labels/gravitateadjuvant707.js"></script>
   <!-- nexusadjuvant.js removed: duplicate of nexus.js (same APVMA 60131, nexusadjuvant had wrong active) -->
-  <script src="js/labels/nufarm_sempra.js"></script>
-  <script src="js/labels/nufarmcollide700.js"></script>
-  <script src="js/labels/adamauptown.js"></script>
-  <script src="js/labels/syngentavaniva.js"></script>
-  <script src="js/labels/uplpollinus.js"></script>
-  <script src="js/labels/cortevalontreladvanced.js"></script>
-  <script src="js/labels/nufarmdicambam.js"></script>
-  <script src="js/labels/nufarmkamba750.js"></script>
-  <script src="js/labels/kelpieazine900.js"></script>
-  <script src="js/labels/syngentamiravisduo.js"></script>
-  <script src="js/labels/cortevasalibroreklemel.js"></script>
-  <script src="js/labels/tridim250ec.js"></script>
-  <script src="js/labels/imtradetyranex500.js"></script>
-  <script src="js/labels/imiguard350.js"></script>
-  <script src="js/labels/fuzilierherbicide.js"></script>
-  <script src="js/labels/infinityultra.js"></script>
-  <script src="js/labels/inteco.js"></script>
-  <script src="js/labels/interrupt240sc.js"></script>
-  <script src="js/labels/adamabumper625ec.js"></script>
-  <script src="js/labels/bayerflint500wg.js"></script>
-  <script src="js/labels/basftermidorresidual.js"></script>
-  <script src="js/labels/kensoethephon720.js"></script>
-  <script src="js/labels/campbelllonhro100wg.js"></script>
-  <script src="js/labels/campbellpoachek.js"></script>
+  <script defer src="js/labels/nufarm_sempra.js"></script>
+  <script defer src="js/labels/nufarmcollide700.js"></script>
+  <script defer src="js/labels/adamauptown.js"></script>
+  <script defer src="js/labels/syngentavaniva.js"></script>
+  <script defer src="js/labels/uplpollinus.js"></script>
+  <script defer src="js/labels/cortevalontreladvanced.js"></script>
+  <script defer src="js/labels/nufarmdicambam.js"></script>
+  <script defer src="js/labels/nufarmkamba750.js"></script>
+  <script defer src="js/labels/kelpieazine900.js"></script>
+  <script defer src="js/labels/syngentamiravisduo.js"></script>
+  <script defer src="js/labels/cortevasalibroreklemel.js"></script>
+  <script defer src="js/labels/tridim250ec.js"></script>
+  <script defer src="js/labels/imtradetyranex500.js"></script>
+  <script defer src="js/labels/imiguard350.js"></script>
+  <script defer src="js/labels/fuzilierherbicide.js"></script>
+  <script defer src="js/labels/infinityultra.js"></script>
+  <script defer src="js/labels/inteco.js"></script>
+  <script defer src="js/labels/interrupt240sc.js"></script>
+  <script defer src="js/labels/adamabumper625ec.js"></script>
+  <script defer src="js/labels/bayerflint500wg.js"></script>
+  <script defer src="js/labels/basftermidorresidual.js"></script>
+  <script defer src="js/labels/kensoethephon720.js"></script>
+  <script defer src="js/labels/campbelllonhro100wg.js"></script>
+  <script defer src="js/labels/campbellpoachek.js"></script>
 
-  <script src="js/permits-registry.js"></script>
-  <script src="js/permits-ui.js"></script>
-  <script src="js/sds-registry.js"></script>
-  <script src="js/sds-ui.js"></script>
-  <script src="js/wiki-thumbs.js?v=201"></script>
-  <script src="js/weeds-registry.js?v=202"></script>
-  <script src="js/weeds-ui.js?v=201"></script>
-  <script src="js/pests-registry.js?v=201"></script>
-  <script src="js/pests-ui.js?v=201"></script>
-  <script src="js/diseases-registry.js?v=201"></script>
-  <script src="js/diseases-ui.js?v=201"></script>
-  <script src="js/pubcris-offline-registry.js"></script>
-  <script src="js/apvma-registry.js"></script>
-  <script src="js/label-requests.js"></script>
-  <script src="js/search.js"></script>
-  <script src="js/calculators.js"></script>
-  <script src="js/app.js"></script>
+  <script defer src="js/permits-registry.js"></script>
+  <script defer src="js/permits-ui.js"></script>
+  <script defer src="js/sds-registry.js"></script>
+  <script defer src="js/sds-ui.js"></script>
+  <script defer src="js/wiki-thumbs.js?v=201"></script>
+  <script defer src="js/weeds-registry.js?v=202"></script>
+  <script defer src="js/weeds-ui.js?v=201"></script>
+  <script defer src="js/pests-registry.js?v=201"></script>
+  <script defer src="js/pests-ui.js?v=201"></script>
+  <script defer src="js/diseases-registry.js?v=201"></script>
+  <script defer src="js/diseases-ui.js?v=201"></script>
+  <script defer src="js/pubcris-offline-registry.js"></script>
+  <script defer src="js/apvma-registry.js"></script>
+  <script defer src="js/label-requests.js"></script>
+  <script defer src="js/search.js"></script>
+  <script defer src="js/calculators.js"></script>
+  <script defer src="js/app.js"></script>
   <script>
     // Back to top button visibility
     (function() {
