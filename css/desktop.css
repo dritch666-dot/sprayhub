@@ -1075,17 +1075,20 @@
     grid-template-columns: 1fr !important;
   }
 
-  /* ── Product summary cards: match product detail card sizing ── */
+  /* ── Product summary cards: constrained width on mobile ── */
   .product-summary-card {
-    border-radius: 16px;
-    padding: 18px;
-    border-left-width: 5px;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    max-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 14px;
+    padding: 14px;
+    border-left-width: 4px;
+    box-shadow: 0 2px 6px -1px rgba(0, 0, 0, 0.06);
   }
 
   /* ── Tighten main container padding on mobile ── */
   .main-container {
-    padding: 0 12px !important;
+    padding: 0 16px !important;
     margin: 12px auto !important;
   }
 
