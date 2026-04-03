@@ -1,0 +1,1521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO Core -->
+  <title>Spray Hub — Australian Agricultural Chemical Database &amp; Spray Rate Calculator</title>
+  <meta name="description" content="Spray Hub is Australia's free offline agricultural chemical reference. Search 242+ product label rates, 354 Safety Data Sheets, 680 APVMA permits, and identify 1,100+ weeds, pests &amp; diseases. Spray calculators included.">
+  <meta name="keywords" content="spray rate calculator, agricultural chemical database, APVMA permits, herbicide rates, insecticide rates, fungicide rates, weed identification Australia, pest identification, product label search, SDS safety data sheet, tank mix calculator, crop protection, Australian farming, spray hub">
+  <meta name="author" content="Spray Hub">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://sprayhub.com.au/">
+
+  <!-- Open Graph (Facebook, LinkedIn, iMessage) -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Spray Hub">
+  <meta property="og:title" content="Spray Hub — Australian Agricultural Chemical Database">
+  <meta property="og:description" content="Free offline spray rate calculator &amp; chemical reference for Australian farmers. 242+ products, 680 permits, 1,100+ weeds, pests &amp; diseases.">
+  <meta property="og:url" content="https://sprayhub.com.au/">
+  <meta property="og:image" content="https://sprayhub.com.au/images/og-sprayhub.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="en_AU">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Spray Hub — Australian Agricultural Chemical Database">
+  <meta name="twitter:description" content="Free offline spray rate calculator &amp; chemical reference. 242+ products, 680 permits, 1,100+ weeds, pests &amp; diseases.">
+  <meta name="twitter:image" content="https://sprayhub.com.au/images/og-sprayhub.png">
+
+  <!-- PWA -->
+  <meta name="theme-color" content="#16a34a">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Spray Hub">
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Favicon -->
+  <link rel="icon" href="images/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+
+  <!-- Structured Data (Schema.org) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Spray Hub",
+    "url": "https://sprayhub.com.au",
+    "description": "Australia's free offline agricultural chemical reference. Search product label rates, Safety Data Sheets, APVMA permits, and identify weeds, pests and diseases.",
+    "applicationCategory": "ReferenceApplication",
+    "operatingSystem": "Any (PWA)",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "AUD"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "Spray Hub",
+      "url": "https://sprayhub.com.au"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "ratingCount": "1"
+    }
+  }
+  </script>
+
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/desktop.css">
+</head>
+
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Desktop Sidebar Navigation -->
+  <aside class="desktop-sidebar" id="desktop-sidebar">
+    <div class="sidebar-header"></div>
+    <nav class="sidebar-nav">
+      <div class="sidebar-group-label">SEARCH</div>
+      <button class="sidebar-item active" data-section="search" onclick="switchAgriSubTab('search')">
+        <span class="sidebar-icon">🔍</span> Label Search
+      </button>
+      <div class="sidebar-group-label">IDENTIFY</div>
+      <button class="sidebar-item" data-section="weeds" onclick="switchAgriSubTab('weeds')">
+        <span class="sidebar-icon">🌾</span> Weeds
+        <span class="sidebar-count" id="sidebar-weeds">-</span>
+      </button>
+      <button class="sidebar-item" data-section="pests" onclick="switchAgriSubTab('pests')">
+        <span class="sidebar-icon">🐛</span> Pests & Insects
+        <span class="sidebar-count" id="sidebar-pests">-</span>
+      </button>
+      <button class="sidebar-item" data-section="diseases" onclick="switchAgriSubTab('diseases')">
+        <span class="sidebar-icon">🦠</span> Diseases
+        <span class="sidebar-count" id="sidebar-diseases">-</span>
+      </button>
+      <div class="sidebar-group-label">GUIDES</div>
+      <a class="sidebar-item" href="lawn-turf-guide.html" style="text-decoration:none; color:inherit;">
+        <span class="sidebar-icon">🌿</span> Lawn & Turf Care
+      </a>
+      <div class="sidebar-group-label">REGISTRIES</div>
+      <button class="sidebar-item" data-section="apvma" onclick="switchAgriSubTab('apvma')">
+        <span class="sidebar-icon">🏛️</span> APVMA Registry
+      </button>
+      <button class="sidebar-item" data-section="sds" onclick="switchAgriSubTab('sds')">
+        <span class="sidebar-icon">🛡️</span> SDS Database
+      </button>
+      <button class="sidebar-item" data-section="permits" onclick="switchAgriSubTab('permits')">
+        <span class="sidebar-icon">📋</span> Permits
+      </button>
+      <div class="sidebar-group-label sidebar-collapsible" onclick="toggleSidebarGroup(this)">CALCULATORS <span class="sidebar-chevron">▸</span></div>
+      <div class="sidebar-group-items" style="display:none;">
+        <button class="sidebar-item" data-section="tank" onclick="switchAgriSubTab('tank')">
+          <span class="sidebar-icon">🚜</span> Tank Mix
+        </button>
+        <button class="sidebar-item" data-section="cost" onclick="switchAgriSubTab('cost')">
+          <span class="sidebar-icon">💰</span> Cost Compare
+        </button>
+        <button class="sidebar-item" data-section="container" onclick="switchAgriSubTab('container')">
+          <span class="sidebar-icon">📦</span> Container Coverage
+        </button>
+      </div>
+      <div class="sidebar-group-label sidebar-collapsible" onclick="toggleSidebarGroup(this)">TOOLS <span class="sidebar-chevron">▸</span></div>
+      <div class="sidebar-group-items" style="display:none;">
+        <button class="sidebar-item sidebar-tool" onclick="openPanel('units')">
+          <span class="sidebar-icon">📏</span> Unit Converter
+        </button>
+        <button class="sidebar-item sidebar-tool" onclick="openPanel('finance')">
+          <span class="sidebar-icon">💸</span> Finance / GST
+        </button>
+        <button class="sidebar-item sidebar-tool" onclick="openPanel('calc')">
+          <span class="sidebar-icon">🔢</span> Calculator
+        </button>
+        <button class="sidebar-item sidebar-tool" onclick="openPanel('history')">
+          <span class="sidebar-icon">📜</span> History
+        </button>
+      </div>
+    </nav>
+    <div class="sidebar-footer">
+      <div class="sidebar-stats" id="sidebar-stats">-</div>
+    </div>
+  </aside>
+
+  <!-- Desktop Website Header — full-width bar above everything -->
+  <header class="desktop-topbar" id="desktop-topbar">
+    <div class="topbar-left">
+      <span class="topbar-logo">🌱</span>
+      <span class="topbar-title">Spray Hub</span>
+      <span class="topbar-tagline">Australian Agricultural Chemical Database</span>
+    </div>
+    <div class="topbar-right">
+      <div class="topbar-stats">
+        <span class="topbar-stat"><strong id="stat-products">-</strong> Products</span>
+        <span class="topbar-stat-sep">·</span>
+        <span class="topbar-stat"><strong id="stat-sds">-</strong> SDS</span>
+        <span class="topbar-stat-sep">·</span>
+        <span class="topbar-stat"><strong id="stat-permits">-</strong> Permits</span>
+        <span class="topbar-stat-sep">·</span>
+        <span class="topbar-stat"><strong id="stat-weeds">-</strong> Weeds</span>
+        <span class="topbar-stat-sep">·</span>
+        <span class="topbar-stat"><strong id="stat-pests">-</strong> Pests</span>
+        <span class="topbar-stat-sep">·</span>
+        <span class="topbar-stat"><strong id="stat-diseases">-</strong> Diseases</span>
+      </div>
+      <button class="topbar-theme-btn" onclick="toggleTheme()" aria-label="Toggle dark mode" title="Toggle theme">🌙</button>
+    </div>
+  </header>
+
+  <!-- Mobile Header (hidden on desktop) -->
+  <header class="app-header mobile-only-header">
+    <div class="header-content">
+      <div class="logo">
+        <div class="logo-icon">🌱</div>
+        <div class="logo-text">
+          <h1>Spray Hub</h1>
+          <p>v1.15 · DB build 204 · 242 products · 354 SDS · 1107 weeds · 474 pests · 487 diseases</p>
+        </div>
+      </div>
+      <div class="header-actions">
+        <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle dark mode"
+          title="Toggle theme">🌙</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="desktop-main" id="desktop-main">
+  <main class="main-container" id="main-content">
+    <!-- Main Ag View (Replaces old dashboard) -->
+    <div id="main-agri-view">
+      <!-- Mobile/Tablet Nav (Hidden on desktop via CSS) -->
+      <div class="primary-nav mobile-only-nav">
+        <button class="nav-tab active" onclick="switchAgriSubTab('search')" id="nav-search">
+          <span class="nav-icon">🔍</span> Label Search
+        </button>
+        <div class="tools-dropdown">
+          <button class="nav-tab tools-btn" onclick="toggleRegMenu(event)" id="nav-reg-menu">
+            <span class="nav-icon">🏛️</span> Registries <span class="dropdown-arrow">▼</span>
+          </button>
+          <div class="tools-menu" id="reg-menu">
+            <button class="tools-menu-item" onclick="switchAgriSubTab('apvma'); closeRegMenu();">🏛️ APVMA Registry</button>
+            <button class="tools-menu-item" onclick="switchAgriSubTab('sds'); closeRegMenu();">🛡️ SDS Database</button>
+            <button class="tools-menu-item" onclick="switchAgriSubTab('permits'); closeRegMenu();">📋 Permits</button>
+          </div>
+        </div>
+        <div class="tools-dropdown">
+          <button class="nav-tab tools-btn" onclick="toggleIdMenu(event)" id="nav-id-menu">
+            <span class="nav-icon">🔬</span> Identify <span class="dropdown-arrow">▼</span>
+          </button>
+          <div class="tools-menu" id="id-menu">
+            <button class="tools-menu-item" onclick="switchAgriSubTab('weeds'); closeIdMenu();">🌾 Weeds</button>
+            <button class="tools-menu-item" onclick="switchAgriSubTab('pests'); closeIdMenu();">🐛 Pests & Insects</button>
+            <button class="tools-menu-item" onclick="switchAgriSubTab('diseases'); closeIdMenu();">🦠 Diseases</button>
+            <div style="border-top:1px solid rgba(255,255,255,0.15); margin:4px 0;"></div>
+            <a class="tools-menu-item" href="lawn-turf-guide.html" style="text-decoration:none; color:inherit; display:flex; align-items:center;">🌿 Lawn & Turf Guide</a>
+          </div>
+        </div>
+        <div class="nav-divider"></div>
+        <div class="tools-dropdown">
+          <button class="nav-tab tools-btn" onclick="toggleCalcMenu(event)" id="nav-calc-menu">
+            <span class="nav-icon">🚜</span> Calculators <span class="dropdown-arrow">▼</span>
+          </button>
+          <div class="tools-menu" id="calc-menu">
+            <button class="tools-menu-item" onclick="switchAgriSubTab('tank'); closeCalcMenu();">🚜 Tank Mix</button>
+            <button class="tools-menu-item" onclick="switchAgriSubTab('cost'); closeCalcMenu();">💰 Cost
+              Compare</button>
+            <button class="tools-menu-item" onclick="switchAgriSubTab('container'); closeCalcMenu();">🛢️
+              Container</button>
+          </div>
+        </div>
+        <div class="tools-dropdown">
+          <button class="nav-tab tools-btn" onclick="toggleToolsMenu(event)" id="nav-tools">
+            <span class="nav-icon">🧰</span> Tools <span class="dropdown-arrow">▼</span>
+          </button>
+          <div class="tools-menu" id="tools-menu">
+            <button class="tools-menu-item" onclick="openPanel('units'); closeToolsMenu();">📏 Unit Converter</button>
+            <button class="tools-menu-item" onclick="openPanel('finance'); closeToolsMenu();">💸 Finance</button>
+            <button class="tools-menu-item" onclick="openPanel('calc'); closeToolsMenu();">🔢 Calculator</button>
+            <button class="tools-menu-item" onclick="openPanel('history'); closeToolsMenu();">📜 History</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Ag Tool Content Area -->
+    <div class="agri-content-area">
+
+      <!-- Tank Mix -->
+      <div id="agri-tank" class="hidden">
+        <div class="product-lookup-box">
+          <h4>📖 Product Label Database</h4>
+          <div class="form-two-col">
+            <div class="form-group">
+              <label class="form-label">Select Product</label>
+              <select id="product-select" class="form-select" onchange="updateProductData()">
+                <option value="">-- Select Product --</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Select Crop</label>
+              <select id="crop-select" class="form-select" onchange="updateWeedOptions()">
+                <option value="">-- Select Crop --</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-two-col">
+            <div class="form-group">
+              <label class="form-label">Select State</label>
+              <select id="state-select" class="form-select" onchange="updateWeedOptions()">
+                <option value="">-- Select State --</option>
+                <option value="NSW">NSW</option>
+                <option value="Vic">Victoria</option>
+                <option value="SA">South Australia</option>
+                <option value="WA">Western Australia</option>
+                <option value="Qld">Queensland</option>
+                <option value="Tas">Tasmania</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Select Weed</label>
+              <select id="weed-select" class="form-select" onchange="applyLabelRate()">
+                <option value="">-- Select Weed --</option>
+              </select>
+            </div>
+          </div>
+          <div id="label-info" class="hidden"
+            style="margin-top:12px; padding:12px; background:var(--card-bg); border-radius:8px;">
+            <div style="display:flex; justify-content:space-between; margin-bottom:8px;">
+              <span style="font-size:0.85rem; color:var(--text-sub);">Label Rate:</span>
+              <span id="label-rate-display" style="font-weight:600; color:var(--agri-green);">-</span>
+            </div>
+            <div style="display:flex; justify-content:space-between;">
+              <span style="font-size:0.85rem; color:var(--text-sub);">Growth Stage:</span>
+              <span id="label-stage-display" style="font-weight:600; color:var(--text-main);">-</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Rate + unit -->
+        <div class="form-group">
+          <label class="form-label">Label Rate</label>
+          <div style="display:flex;gap:8px;">
+            <input type="number" id="agri-rate-input" class="form-input" placeholder="e.g. 500"
+              oninput="calculateTankMix()" inputmode="decimal" style="flex:2;min-width:0;">
+            <select id="agri-rate-unit" class="form-select" onchange="calculateTankMix()" style="flex:1.8;min-width:0;">
+              <option value="mL/ha">mL/ha</option>
+              <option value="L/ha">L/ha</option>
+              <option value="g/ha">g/ha</option>
+              <option value="kg/ha">kg/ha</option>
+              <option value="mL/100L">mL/100L</option>
+              <option value="g/100L">g/100L</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Spray vol + tank size -->
+        <div class="form-two-col">
+          <div class="form-group">
+            <label class="form-label">Spray Volume (L/ha)</label>
+            <input type="number" id="agri-spray-vol" class="form-input" value="100" oninput="calculateTankMix()"
+              inputmode="decimal">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Tank Size (L)</label>
+            <input type="number" id="agri-tank-size" class="form-input" value="2000" oninput="calculateTankMix()"
+              inputmode="decimal">
+          </div>
+        </div>
+
+        <!-- Primary result -->
+        <div class="result-box" style="border-color:var(--agri-green);">
+          <div style="display:flex;justify-content:space-between;align-items:center;">
+            <div>
+              <div class="result-value" id="tank-result-amount" style="color:var(--agri-green);">---</div>
+              <div class="result-label">per tank</div>
+            </div>
+            <div style="text-align:right;">
+              <div style="font-size:1.1rem;font-weight:700;color:var(--text-sub);" id="tank-result-ha">---</div>
+              <div class="result-label">area coverage</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Extra chemicals -->
+        <div style="margin-top:14px;">
+          <div id="extra-chemicals-list"></div>
+          <button onclick="addTankChemical()" class="add-chemical-btn">+ Add Chemical to Tank</button>
+        </div>
+
+        <!-- Tank total -->
+        <div id="tank-total-row" class="hidden result-box" style="border-color:var(--primary);margin-top:12px;">
+          <div class="result-value" id="tank-total-amount" style="color:var(--primary);">---</div>
+          <div class="result-label">Total chemical in tank</div>
+        </div>
+      </div>
+
+      <!-- Container Coverage -->
+      <div id="agri-container" class="hidden">
+        <!-- Label rate + unit -->
+        <div class="form-group">
+          <label class="form-label">Label Rate</label>
+          <div style="display:flex;gap:8px;">
+            <input type="number" id="cont-rate-val" class="form-input" placeholder="e.g. 500"
+              oninput="calculateContainerCoverage()" inputmode="decimal" style="flex:2;min-width:0;">
+            <select id="cont-rate-unit" class="form-select" onchange="calculateContainerCoverage()"
+              style="flex:1.8;min-width:0;">
+              <option value="mL/ha">mL/ha</option>
+              <option value="L/ha">L/ha</option>
+              <option value="g/ha">g/ha</option>
+              <option value="kg/ha">kg/ha</option>
+              <option value="mL/100L">mL/100L</option>
+              <option value="g/100L">g/100L</option>
+            </select>
+          </div>
+        </div>
+        <!-- Container size + unit -->
+        <div class="form-group">
+          <label class="form-label">Container Size</label>
+          <div style="display:flex;gap:8px;">
+            <input type="number" id="cont-size-val" class="form-input" placeholder="e.g. 5"
+              oninput="calculateContainerCoverage()" inputmode="decimal" style="flex:2;min-width:0;">
+            <select id="cont-size-unit" class="form-select" onchange="calculateContainerCoverage()"
+              style="flex:1.8;min-width:0;">
+              <option value="L">L</option>
+              <option value="mL">mL</option>
+              <option value="kg">kg</option>
+              <option value="g">g</option>
+            </select>
+          </div>
+        </div>
+        <!-- Spray vol + ref tank -->
+        <div class="form-two-col">
+          <div class="form-group">
+            <label class="form-label">Spray Volume (L/ha)</label>
+            <input type="number" id="cont-spray-vol" class="form-input" value="100"
+              oninput="calculateContainerCoverage()" inputmode="decimal">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Tank Size (L)</label>
+            <input type="number" id="cont-ref-tank" class="form-input" value="2000"
+              oninput="calculateContainerCoverage()" inputmode="decimal">
+          </div>
+        </div>
+        <!-- Results — three boxes -->
+        <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;margin-top:4px;">
+          <div class="result-box" style="border-color:var(--agri-green);text-align:center;padding:12px 8px;">
+            <div class="result-value" id="cont-ha-result" style="color:var(--agri-green);font-size:1.15rem;">---</div>
+            <div class="result-label">Area (ha)</div>
+          </div>
+          <div class="result-box" style="border-color:var(--primary);text-align:center;padding:12px 8px;">
+            <div class="result-value" id="cont-spray-result" style="color:var(--primary);font-size:1.15rem;">---</div>
+            <div class="result-label">Total Spray</div>
+          </div>
+          <div class="result-box" style="border-color:#f59e0b;text-align:center;padding:12px 8px;">
+            <div class="result-value" id="cont-tanks-result" style="color:#f59e0b;font-size:1.15rem;">---</div>
+            <div class="result-label" id="cont-tanks-label">Full Tanks</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cost Compare -->
+      <div id="agri-cost" class="hidden">
+        <div class="info-box"
+          style="margin-bottom: 12px; display: flex; justify-content: space-between; align-items: center;">
+          <div><strong>💰 Cost Compare:</strong> Compare chemical costs by rate, container size and price.</div>
+          <button onclick="resetCostCompare()" class="secondary-btn"
+            style="padding: 6px 12px; font-size: 0.8rem; margin-left: 10px;">Reset</button>
+        </div>
+
+        <div style="display:flex;align-items:center;gap:8px;margin-bottom:16px;padding:10px 14px;
+                    background:var(--card-bg);border-radius:10px;border:1px solid var(--border);">
+          <span style="font-size:0.82rem;font-weight:600;color:var(--text-sub);white-space:nowrap;">🚜 Tank Size</span>
+          <input type="number" id="cost-tank-size" class="form-input" value="100" oninput="calculateCostComparison()"
+            inputmode="decimal" style="width:90px;flex:none;text-align:center;">
+          <span style="font-size:0.82rem;color:var(--text-sub);">L</span>
+          <span style="font-size:0.7rem;color:var(--text-sub);margin-left:2px;">e.g. 10 = backpack · 400 = 4-wheeler ·
+            2000 = boom</span>
+        </div>
+
+        <!-- Cards are always rendered by renderComparisonGrid() in JS -->
+        <div class="chem-grid"></div>
+        <div class="winner-banner hidden" id="winner-banner">
+          <h3 id="winner-name">🏆 Chemical A is Cheaper!</h3>
+          <p id="winner-savings">Save $0.10 per tank</p>
+          <p id="winner-percent">(16.7% Savings)</p>
+        </div>
+      </div>
+
+      <!-- Nozzle Calibrator -->
+      <div id="agri-nozzle" class="hidden">
+        <div class="info-box" style="margin-bottom: 20px;">
+          <strong>🚿 Nozzle Calibrator:</strong> Check your sprayer's output or find the right nozzle for your job.
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Calibration Mode</label>
+          <select id="nozzle-mode" class="form-select" onchange="toggleNozzleMode()">
+            <option value="check">Check Output (L/ha)</option>
+            <option value="select">Select Nozzle (L/min)</option>
+          </select>
+        </div>
+
+        <div class="form-two-col">
+          <div class="form-group">
+            <label class="form-label">Spraying Speed (km/h)</label>
+            <input type="number" id="nozzle-speed" class="form-input" value="12" oninput="calculateNozzle()"
+              inputmode="decimal">
+          </div>
+          <div class="form-group">
+            <label class="form-label">Nozzle Spacing (cm)</label>
+            <input type="number" id="nozzle-spacing" class="form-input" value="50" oninput="calculateNozzle()"
+              inputmode="decimal">
+          </div>
+        </div>
+
+        <!-- Mode: Check Output -->
+        <div id="nozzle-mode-check">
+          <div class="form-group">
+            <label class="form-label">Nozzle Flow Rate (L/min)</label>
+            <input type="number" id="nozzle-flow" class="form-input" value="1.2" step="0.1" oninput="calculateNozzle()"
+              inputmode="decimal">
+          </div>
+          <div class="result-box" style="border-color:var(--primary);">
+            <div class="result-value" id="nozzle-output-lha">120.0 L/ha</div>
+            <div class="result-label">Sprayer Output</div>
+          </div>
+        </div>
+
+        <!-- Mode: Select Nozzle -->
+        <div id="nozzle-mode-select" class="hidden">
+          <div class="form-group">
+            <label class="form-label">Target Rate (L/ha)</label>
+            <input type="number" id="nozzle-target" class="form-input" value="100" oninput="calculateNozzle()"
+              inputmode="decimal">
+          </div>
+          <div class="result-box" style="border-color:var(--agri-green);">
+            <div class="result-value" id="nozzle-output-lmin">1.00 L/min</div>
+            <div class="result-label">Required flow per nozzle</div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- APVMA Minor Use Permits -->
+      <div id="agri-permits" class="hidden">
+        <div class="premium-search-container">
+          <div class="search-title-block">
+            <h3>APVMA Minor Use Permits</h3>
+            <p>Searchable register of APVMA minor use permits. Permits linked to products in the label database appear
+              as buttons on product cards in Label Search.</p>
+          </div>
+          <div class="search-input-wrap">
+            <span class="search-icon-prefix">📋</span>
+            <input type="text" id="permits-search-input" class="form-input search-input premium-search-input"
+              placeholder="Search by permit number, product name, or active ingredient..." autocomplete="off"
+              autocorrect="off" spellcheck="false" oninput="runPermitsSearch()">
+            <span class="search-icon-suffix" onclick="clearPermitsSearch()">✕</span>
+          </div>
+        </div>
+
+        <!-- Results header — outside container for full-width grid -->
+        <div class="search-results-header">
+          <span id="permits-result-count" class="search-result-count"></span>
+          <button id="permits-linked-filter" class="permits-linked-toggle" onclick="togglePermitsLinkedFilter()">🏷️
+            Linked to App</button>
+        </div>
+
+        <!-- Results grid — full width, matches label search -->
+        <div id="permits-results" class="apvma-grid">
+          <div class="search-prompt">Loading permits...</div>
+        </div>
+      </div>
+
+      <!-- APVMA PubCRIS Registry Search -->
+      <div id="agri-apvma" class="hidden" style="display: none;">
+        <div class="premium-search-container">
+          <div class="search-title-block">
+            <h3>APVMA PubCRIS Registry</h3>
+            <p>Live offline database of all 18,700 registered Australian chemical labels.</p>
+          </div>
+
+          <div class="search-input-wrap">
+            <span class="search-icon-prefix">🏛️</span>
+            <input type="text" id="apvma-search-input" class="form-input search-input premium-search-input"
+              placeholder="Search by product name, APVMA number, or holder company..." autocomplete="off"
+              autocorrect="off" spellcheck="false" oninput="runApvmaSearch()">
+            <span class="search-icon-suffix" onclick="clearApvmaSearch()">✕</span>
+          </div>
+        </div>
+
+        <!-- Results header — outside container for full-width grid -->
+        <div class="search-results-header">
+          <span id="apvma-result-count" class="search-result-count"></span>
+          <button id="apvma-inapp-filter" class="permits-linked-toggle active" onclick="toggleApvmaInAppFilter()">🏷️ In
+            App</button>
+        </div>
+
+        <!-- Results grid — full width -->
+        <div id="apvma-results" class="apvma-grid">
+          <div class="search-prompt">Start typing an APVMA number or chemical name to search the registry.</div>
+        </div>
+      </div>
+
+      <!-- Weeds Identification Search -->
+      <div id="agri-weeds" class="hidden">
+        <div class="premium-search-container">
+          <div class="search-title-block">
+            <h3>Weed Identification</h3>
+            <p>Search 1089 common weeds by name, family, or visual characteristics. Use the filters below to narrow results by leaf arrangement, flower color, or control method.</p>
+          </div>
+          <div class="search-input-wrap">
+            <span class="search-icon-prefix">🌾</span>
+            <input type="text" id="weeds-search-input" class="form-input search-input premium-search-input"
+              placeholder="Search by name, scientific name, synonym, family..."
+              autocomplete="off" autocorrect="off" spellcheck="false" oninput="runWeedsSearch()">
+            <span class="search-icon-suffix" onclick="clearWeedsSearch()">✕</span>
+          </div>
+
+          <!-- Filter pill rows -->
+          <div class="weed-filter-section">
+            <div class="weed-filter-label">🌿 Leaf Arrangement <span class="leaf-info-btn" onclick="this.parentElement.querySelector('.leaf-info-tooltip').classList.toggle('show')" aria-label="What do these mean?"><svg width="16" height="16" viewBox="0 0 18 18" style="vertical-align:middle;"><circle cx="9" cy="9" r="9" fill="#3b82f6"/><text x="9" y="13.2" text-anchor="middle" font-size="12.5" font-weight="700" fill="#fff" font-family="system-ui,sans-serif">?</text></svg></span>
+              <div class="leaf-info-tooltip">
+                <div class="leaf-info-close" onclick="event.stopPropagation();this.parentElement.classList.remove('show')">✕</div>
+                <div class="leaf-info-title">Leaf Arrangement Guide</div>
+                <div class="leaf-info-item"><span class="leaf-info-icon">🌿</span><strong>Alternate</strong> — One leaf per node, staggered along the stem</div>
+                <div class="leaf-info-item"><span class="leaf-info-icon">🌱</span><strong>Basal</strong> — Leaves grow from the base of the plant only (rosette)</div>
+                <div class="leaf-info-item"><span class="leaf-info-icon">🍃</span><strong>Opposite</strong> — Two leaves at each node, directly across from each other</div>
+                <div class="leaf-info-item"><span class="leaf-info-icon">🖐️</span><strong>Palmate</strong> — Leaflets radiate from a single point, like fingers on a hand</div>
+                <div class="leaf-info-item"><span class="leaf-info-icon">🔄</span><strong>Whorled</strong> — Three or more leaves arranged in a ring around each node</div>
+              </div>
+            </div>
+            <div class="weed-pill-row" id="weeds-leaf-pills"></div>
+          </div>
+          <div class="weed-filter-section">
+            <div class="weed-filter-label">🌸 Flower Color</div>
+            <div class="weed-pill-row" id="weeds-flower-pills"></div>
+          </div>
+          <div class="weed-filter-section">
+            <div class="weed-filter-label">🛠️ Control Method</div>
+            <div class="weed-pill-row" id="weeds-control-pills"></div>
+          </div>
+
+          <!-- Active filter bar -->
+          <div id="weeds-filter-bar" class="weed-filter-bar" style="display:none;"></div>
+
+          <!-- Result count -->
+          <div class="search-meta-row" style="margin-top:10px;">
+            <span id="weeds-result-count" class="result-count">1089 weeds</span>
+          </div>
+        </div>
+
+        <!-- Results grid -->
+        <div id="weeds-results" class="weeds-grid"></div>
+      </div>
+
+      <!-- Pests & Insects Search -->
+      <div id="agri-pests" class="hidden">
+        <div class="premium-search-container">
+          <div class="search-title-block">
+            <h3>Pests & Insects</h3>
+            <p>Search 499 pests and insects by name, type, order, or linked products. Use the filters below to narrow results by pest type or taxonomic order.</p>
+          </div>
+          <div class="search-input-wrap">
+            <span class="search-icon-prefix">🐛</span>
+            <input type="text" id="pests-search-input" class="form-input search-input premium-search-input"
+              placeholder="Search by pest name, scientific name, crop, product..."
+              autocomplete="off" autocorrect="off" spellcheck="false" oninput="runPestsSearch()">
+            <span class="search-icon-suffix" onclick="clearPestsSearch()">✕</span>
+          </div>
+
+          <!-- Filter pill rows -->
+          <div class="pest-filter-section">
+            <div class="pest-filter-label">🐛 Pest Type</div>
+            <div class="pest-pill-row" id="pests-type-pills"></div>
+          </div>
+          <div class="pest-filter-section">
+            <div class="pest-filter-label">🔬 Taxonomic Order</div>
+            <div class="pest-pill-row" id="pests-order-pills"></div>
+          </div>
+
+          <!-- Active filter bar -->
+          <div id="pests-filter-bar" class="pest-filter-bar" style="display:none;"></div>
+
+          <!-- Result count -->
+          <div class="search-meta-row" style="margin-top:10px;">
+            <span id="pests-result-count" class="result-count">499 pests</span>
+          </div>
+        </div>
+
+        <!-- Results grid -->
+        <div id="pests-results" class="pests-grid"></div>
+      </div>
+
+      <!-- Diseases Search -->
+      <div id="agri-diseases" class="hidden">
+        <div class="premium-search-container">
+          <div class="search-title-block">
+            <h3>Plant Diseases</h3>
+            <p>Search 487 plant diseases by name, pathogen, type, or linked fungicide products. Use the filters below to narrow results by disease type.</p>
+          </div>
+          <div class="search-input-wrap">
+            <span class="search-icon-prefix">🦠</span>
+            <input type="text" id="diseases-search-input" class="form-input search-input premium-search-input"
+              placeholder="Search by disease name, pathogen, crop, product..."
+              autocomplete="off" autocorrect="off" spellcheck="false" oninput="runDiseasesSearch()">
+            <span class="search-icon-suffix" onclick="clearDiseasesSearch()">✕</span>
+          </div>
+
+          <!-- Filter pill rows -->
+          <div class="disease-filter-section">
+            <div class="disease-filter-label">🦠 Disease Type</div>
+            <div class="disease-pill-row" id="diseases-type-pills"></div>
+          </div>
+
+          <!-- Active filter bar -->
+          <div id="diseases-filter-bar" class="disease-filter-bar" style="display:none;"></div>
+
+          <!-- Result count -->
+          <div class="search-meta-row" style="margin-top:10px;">
+            <span id="diseases-result-count" class="result-count">487 diseases</span>
+          </div>
+        </div>
+
+        <!-- Results grid -->
+        <div id="diseases-results" class="diseases-grid"></div>
+      </div>
+
+      <!-- SDS Database Search -->
+      <div id="agri-sds" class="hidden">
+        <div class="premium-search-container">
+          <div class="search-title-block">
+            <h3>Safety Data Sheets (SDS)</h3>
+            <p>Standalone registry of 200+ offline product safety documents. SDS with linked labels show "View Product
+              Label" button.</p>
+          </div>
+
+          <div class="search-input-wrap">
+            <span class="search-icon-prefix">🛡️</span>
+            <input type="text" id="sds-search-input" class="form-input search-input premium-search-input"
+              placeholder="Search by product name, company, or chemical..." autocomplete="off" autocorrect="off"
+              spellcheck="false" oninput="runSdsSearch()">
+            <span class="search-icon-suffix" onclick="clearSdsSearch()">✕</span>
+          </div>
+        </div>
+
+        <!-- Results header — outside container for full-width grid -->
+        <div class="search-results-header">
+          <span id="sds-result-count" class="search-result-count"></span>
+        </div>
+
+        <!-- Results grid — full width, matches label search -->
+        <div id="sds-results" class="apvma-grid">
+          <div class="search-prompt">Loading Safety Documents...</div>
+        </div>
+      </div>
+
+      <!-- Label Search -->
+      <div id="agri-search" class="hidden">
+        <div class="premium-search-container premium-search-container--compact desktop-search-bar">
+
+          <!-- LEFT: Main search + category pills -->
+          <div class="desktop-search-left">
+            <div class="search-input-wrap">
+              <span class="search-icon-prefix">🔍</span>
+              <input type="text" id="search-input" class="form-input search-input premium-search-input"
+                placeholder="Product, active, chemical group, weed, crop..."
+                autocomplete="off" autocorrect="off" spellcheck="false">
+              <span class="search-tips-icon" onclick="toggleSearchTips()" title="How search works"
+                aria-label="How search works">
+                <svg width="18" height="18" viewBox="0 0 18 18" style="vertical-align:middle;"><circle cx="9" cy="9" r="9" fill="#3b82f6"/><text x="9" y="13.2" text-anchor="middle" font-size="12.5" font-weight="700" fill="#fff" font-family="system-ui,sans-serif">?</text></svg>
+              </span>
+              <span class="search-icon-suffix" onclick="resetSearch()" title="Clear all"
+                aria-label="Clear all">✕</span>
+            </div>
+
+            <!-- Search tips popup -->
+            <div id="search-tips-popup" class="search-tips-popup hidden">
+              <div class="search-tips-header">
+                <span class="search-tips-title">How search works</span>
+                <span class="search-tips-close" onclick="toggleSearchTips()">✕</span>
+              </div>
+              <div class="search-tips-body">
+                <div class="search-tip-row">
+                  <span class="search-tip-dot search-tip-dot--yellow"></span>
+                  <span><strong>Search everything</strong> — type any words. Finds products where ALL words match across name, active ingredient, group, crops, weeds, pests, permits.</span>
+                </div>
+                <div class="search-tip-row">
+                  <span class="search-tip-dot search-tip-dot--green"></span>
+                  <span><strong>Crop</strong> — narrows to products registered for that crop (label or permit).</span>
+                </div>
+                <div class="search-tip-row">
+                  <span class="search-tip-dot search-tip-dot--orange"></span>
+                  <span><strong>Pest / Weed</strong> — narrows to products targeting that pest, weed, or disease.</span>
+                </div>
+                <div class="search-tip-row">
+                  <span class="search-tip-dot search-tip-dot--blue"></span>
+                  <span><strong>Product &amp; State</strong> — jump to a specific product or filter by state registration.</span>
+                </div>
+                <div class="search-tip-extra">
+                  <strong>Tips:</strong> <code>"exact phrase"</code> for exact match · Use <code>%</code> to join words · Filters combine — crop + pest finds products covering both
+                </div>
+              </div>
+            </div>
+
+            <!-- Category pills -->
+            <div id="category-pills" class="category-pills-row">
+              <button class="category-pill active" data-category="" onclick="selectCategoryPill(this)">All</button>
+            </div>
+
+            <!-- Cross-database scope toggles -->
+            <div class="search-scope-row">
+              <span class="scope-label">Also search:</span>
+              <label class="scope-pill"><input type="checkbox" id="scope-sds" checked> 🛡️ SDS</label>
+              <label class="scope-pill"><input type="checkbox" id="scope-permits" checked> 📋 Permits</label>
+              <label class="scope-pill"><input type="checkbox" id="scope-apvma" checked> 🏛️ APVMA Registry</label>
+            </div>
+          </div>
+
+          <!-- RIGHT: Filter fields -->
+          <div class="desktop-search-right">
+            <div class="desktop-filter-label">Narrow results <span>filters combine</span></div>
+            <div class="desktop-filter-grid">
+              <div class="search-input-wrap search-input-wrap--mini">
+                <span class="search-icon-prefix search-icon-prefix--mini">🌱</span>
+                <input type="text" id="crop-filter-input" class="form-input search-input premium-search-input premium-search-input--mini"
+                  placeholder="Crop…" autocomplete="off" autocorrect="off" spellcheck="false">
+                <span class="filter-clear-btn" id="crop-clear-btn" onclick="clearCropFilter()" title="Clear">✕</span>
+              </div>
+              <div class="search-input-wrap search-input-wrap--mini">
+                <span class="search-icon-prefix search-icon-prefix--mini">🐛</span>
+                <input type="text" id="pest-filter-input" class="form-input search-input premium-search-input premium-search-input--mini"
+                  placeholder="Pest / weed / disease…" autocomplete="off" autocorrect="off" spellcheck="false">
+                <span class="filter-clear-btn" id="pest-clear-btn" onclick="clearPestFilter()" title="Clear">✕</span>
+              </div>
+              <div class="search-input-wrap search-input-wrap--mini">
+                <span class="search-icon-prefix search-icon-prefix--mini">📦</span>
+                <input type="text" id="product-filter-input" class="form-input search-input premium-search-input premium-search-input--mini"
+                  placeholder="Product…" autocomplete="off" autocorrect="off" spellcheck="false">
+                <span class="filter-clear-btn" id="product-clear-btn" onclick="clearProductFilter()" title="Clear">✕</span>
+              </div>
+              <div class="search-input-wrap search-input-wrap--mini">
+                <span class="search-icon-prefix search-icon-prefix--mini">📍</span>
+                <input type="text" id="state-filter-input" class="form-input search-input premium-search-input premium-search-input--mini"
+                  placeholder="State…" autocomplete="off" autocorrect="off" spellcheck="false">
+                <span class="filter-clear-btn" id="state-clear-btn" onclick="clearStateFilter()" title="Clear">✕</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Active filter summary bar (spans full width) -->
+          <div class="filter-active-bar hidden" id="filter-active-bar">
+            <span class="filter-active-summary" id="filter-active-summary"></span>
+            <button class="filter-clear-all-btn" onclick="resetSearch()">Clear all</button>
+          </div>
+
+          <!-- Old section labels hidden but kept for mobile CSS compatibility -->
+          <div class="filter-section-label" style="display:none;">
+            <span>🔍 Search everything</span>
+            <span class="filter-section-line"></span>
+            <span class="filter-section-hint">matches all words</span>
+          </div>
+          <div class="filter-section-label" style="display:none;">
+            <span>🌱 Narrow results</span>
+            <span class="filter-section-line"></span>
+            <span class="filter-section-hint">filters combine</span>
+          </div>
+
+          <!-- Hidden elements for JS compatibility -->
+          <select id="search-category-filter" class="hidden" style="display:none;">
+            <option value="">All Categories</option>
+          </select>
+          <select id="search-product-filter" class="hidden" style="display:none;">
+            <option value="">All Products</option>
+          </select>
+          <select id="search-state-filter" class="hidden" style="display:none;">
+            <option value="">All States</option>
+          </select>
+        </div>
+
+        <!-- Results header -->
+        <div class="search-results-header">
+          <span id="search-result-count" class="search-result-count"></span>
+        </div>
+
+        <!-- Results grid -->
+        <div id="search-results" class="search-results-grid">
+        </div>
+
+        <!-- Cross-database results -->
+        <div id="cross-search-sections"></div>
+      </div>
+    </div>
+
+    <!-- Modal Overlay Container -->
+    <div id="modal-overlay" class="modal-overlay hidden" onclick="closeModalOnBackdrop(event)">
+      <div class="modal-content">
+
+        <!-- Calculator Panels converted to Modals -->
+        <!-- Units Panel -->
+        <div id="panel-units" class="calculator-panel hidden">
+          <div class="panel-header">
+            <h2 class="panel-title">📏 Unit Converter</h2>
+            <button class="close-modal-btn" onclick="closePanel()" aria-label="Close">✕</button>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Category</label>
+            <select id="category" class="form-select" onchange="updateUnits()">
+              <option value="length">Length</option>
+              <option value="weight">Weight / Mass</option>
+              <option value="temperature">Temperature</option>
+              <option value="volume">Volume</option>
+              <option value="area">Area</option>
+              <option value="speed">Speed</option>
+              <option value="time">Time</option>
+            </select>
+          </div>
+          <div class="conversion-grid">
+            <div class="form-group">
+              <label class="form-label">From</label>
+              <input type="number" id="input-val" class="form-input" value="1" oninput="calculate()"
+                inputmode="decimal">
+              <select id="unit-from" class="form-select" onchange="calculate()" style="margin-top:8px;"></select>
+            </div>
+            <button onclick="swapUnits()" class="swap-btn" aria-label="Swap units">⇄</button>
+            <div class="form-group">
+              <label class="form-label">To</label>
+              <div class="result-box" style="margin-top:0; min-height:100px;">
+                <div class="result-value" id="output-val">0</div>
+                <div class="result-label" id="output-unit-label">Meters</div>
+              </div>
+              <select id="unit-to" class="form-select" onchange="calculate()" style="margin-top:8px;"></select>
+            </div>
+          </div>
+        </div>
+
+        <!-- Finance Panel -->
+        <div id="panel-finance" class="calculator-panel hidden">
+          <div class="panel-header">
+            <h2 class="panel-title">💰 Finance Tools</h2>
+            <button class="close-modal-btn" onclick="closePanel()" aria-label="Close">✕</button>
+          </div>
+          <div class="form-group">
+            <label class="form-label" style="color:var(--finance-gold); font-weight:700;">Australian GST (10%)</label>
+            <div class="gst-buttons">
+              <button id="gst-add-btn" onclick="setGstMode('add')">Add GST</button>
+              <button id="gst-remove-btn" onclick="setGstMode('remove')">Remove GST</button>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Amount ($)</label>
+              <input type="number" id="gst-amount" class="form-input" placeholder="0.00" oninput="calculateGST()"
+                inputmode="decimal">
+            </div>
+            <div class="result-box" style="border-color:var(--finance-gold);">
+              <div class="result-value" id="gst-total" style="color:var(--finance-gold);">$0.00</div>
+              <div class="result-label">GST: <span id="gst-tax">$0.00</span></div>
+            </div>
+          </div>
+          <hr>
+          <div class="form-group">
+            <label class="form-label" style="color:var(--finance-gold); font-weight:700;">Percentage Calculator</label>
+            <div class="form-two-col">
+              <input type="number" id="pct-val" class="form-input" placeholder="Value" oninput="calculatePct()"
+                inputmode="decimal">
+              <input type="number" id="pct-rate" class="form-input" placeholder="%" oninput="calculatePct()"
+                inputmode="decimal">
+            </div>
+            <div class="result-box" style="border-color:var(--finance-gold);">
+              <div class="result-value" id="pct-result" style="color:var(--finance-gold);">0</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Calculator Panel -->
+        <div id="panel-calc" class="calculator-panel hidden">
+          <div class="panel-header">
+            <h2 class="panel-title">🔢 Calculator</h2>
+            <button class="close-modal-btn" onclick="closePanel()" aria-label="Close">✕</button>
+          </div>
+          <div class="calc-wrapper">
+            <div class="calc-display">
+              <div class="calc-history-line" id="calc-history"></div>
+              <div class="calc-current" id="calc-display">0</div>
+            </div>
+            <div class="calc-grid">
+              <button class="calc-btn clear" onclick="clearCalc()">AC</button>
+              <button class="calc-btn clear" onclick="deleteChar()">⌫</button>
+              <button class="calc-btn operator" onclick="appendCalc('%')">%</button>
+              <button class="calc-btn operator" onclick="appendCalc('/')">÷</button>
+              <button class="calc-btn num" onclick="appendCalc('7')">7</button>
+              <button class="calc-btn num" onclick="appendCalc('8')">8</button>
+              <button class="calc-btn num" onclick="appendCalc('9')">9</button>
+              <button class="calc-btn operator" onclick="appendCalc('*')">×</button>
+              <button class="calc-btn num" onclick="appendCalc('4')">4</button>
+              <button class="calc-btn num" onclick="appendCalc('5')">5</button>
+              <button class="calc-btn num" onclick="appendCalc('6')">6</button>
+              <button class="calc-btn operator" onclick="appendCalc('-')">−</button>
+              <button class="calc-btn num" onclick="appendCalc('1')">1</button>
+              <button class="calc-btn num" onclick="appendCalc('2')">2</button>
+              <button class="calc-btn num" onclick="appendCalc('3')">3</button>
+              <button class="calc-btn operator" onclick="appendCalc('+')">+</button>
+              <button class="calc-btn zero num" onclick="appendCalc('0')">0</button>
+              <button class="calc-btn num" onclick="appendCalc('.')">.</button>
+              <button class="calc-btn equals" onclick="calculateResult()">=</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- History Panel -->
+        <div id="panel-history" class="calculator-panel hidden">
+          <div class="panel-header">
+            <h2 class="panel-title">📜 Calculation History</h2>
+            <button class="close-modal-btn" onclick="closePanel()" aria-label="Close">✕</button>
+          </div>
+          <div class="history-header">
+            <span id="history-count">0 items</span>
+            <button class="back-btn" onclick="clearHistory()"
+              style="background:var(--error); color:white; border:none;">Clear All</button>
+          </div>
+          <div class="history-list" id="history-full">
+            <div class="no-history">No history yet</div>
+          </div>
+          <button class="clear-history-btn" onclick="clearHistory()">Clear All History</button>
+        </div>
+
+        <!-- ═══ FOOTER PAGE PANELS ═══ -->
+
+        <!-- About Panel -->
+        <div id="panel-about" class="calculator-panel footer-page-panel hidden">
+          <div class="panel-header">
+            <h2 class="panel-title">About</h2>
+            <button class="close-modal-btn" onclick="closePanel()" aria-label="Close">✕</button>
+          </div>
+          <div class="footer-page-body">
+            <h3>About Spray Hub</h3>
+            <p>Spray Hub is an independent agricultural chemical reference tool built for Australian farmers, agronomists, turf managers, and home gardeners. It provides fast, offline-capable access to product label rates, Safety Data Sheets, APVMA permits, and weed, pest and disease identification data.</p>
+            <h3>What We Offer</h3>
+            <p>Our database currently contains <strong>242 registered products</strong> across 38 companies, <strong>354 Safety Data Sheets</strong>, <strong>680 APVMA permits</strong>, and identification records for <strong>1,107 weeds</strong>, <strong>474 pests</strong> and <strong>487 diseases</strong>. The spray calculators cover tank mixing, cost comparison, container coverage and nozzle calibration.</p>
+            <h3>Our Purpose</h3>
+            <p>Spray Hub was created to give people in the field quick, reliable access to label information without needing mobile coverage. All data is sourced directly from registered APVMA product labels and official permit documents. The app works fully offline once loaded.</p>
+            <h3>Get in Touch</h3>
+            <p>For questions or feedback, please visit the Contact page or email us at <a href="mailto:dritch666+SprayHub@gmail.com">dritch666+SprayHub@gmail.com</a>.</p>
+            <p class="footer-page-version">Version 1.15 · Build 204</p>
+          </div>
+        </div>
+
+        <!-- Contact Panel -->
+        <div id="panel-contact" class="calculator-panel footer-page-panel hidden">
+          <div class="panel-header">
+            <h2 class="panel-title">Contact</h2>
+            <button class="close-modal-btn" onclick="closePanel()" aria-label="Close">✕</button>
+          </div>
+          <div class="footer-page-body">
+            <h3>Get in Touch</h3>
+            <p>If you have questions, feedback, or would like to report an error in the label data, we'd love to hear from you.</p>
+            <div class="contact-info-block">
+              <p><strong>Email:</strong> <a href="mailto:dritch666+SprayHub@gmail.com">dritch666+SprayHub@gmail.com</a></p>
+              <p><strong>Location:</strong> Queensland, Australia</p>
+            </div>
+            <h3>Reporting Data Errors</h3>
+            <p>Accuracy is critical. If you find a rate, withholding period, or pest/crop entry that doesn't match the registered label, please email us with the product name and the specific error. We will verify against the APVMA-registered label and correct it promptly.</p>
+            <h3>Response Time</h3>
+            <p>We aim to respond to all enquiries within 48 hours. Data error reports are prioritised.</p>
+          </div>
+        </div>
+
+        <!-- Disclaimer Panel -->
+        <div id="panel-disclaimer" class="calculator-panel footer-page-panel hidden">
+          <div class="panel-header">
+            <h2 class="panel-title">Disclaimer</h2>
+            <button class="close-modal-btn" onclick="closePanel()" aria-label="Close">✕</button>
+          </div>
+          <div class="footer-page-body">
+            <h3>Important — Always Read the Label</h3>
+            <p><strong>This tool is a reference aid only.</strong> It does not replace the registered product label. Users must always read and follow the complete, current product label before purchasing, mixing, applying or storing any agricultural chemical product.</p>
+            <h3>No Professional Advice</h3>
+            <p>The information provided in this application does not constitute professional agronomic, chemical, legal or safety advice. While every effort is made to ensure the data is accurate and up to date, this tool should not be relied upon as the sole basis for chemical application decisions.</p>
+            <h3>Accuracy and Currency</h3>
+            <p>Product label data, permit conditions and SDS information can change at any time. The APVMA may amend, suspend or cancel registrations and permits without notice. Always verify current registration status and permit conditions at <a href="https://apvma.gov.au" target="_blank" rel="noopener noreferrer">apvma.gov.au</a> before use.</p>
+            <h3>Limitation of Liability</h3>
+            <p>To the maximum extent permitted by law, Spray Hub, its developer and contributors accept no liability for any loss, damage, injury or claim arising from the use of, or reliance on, any information provided in this application. This includes but is not limited to crop damage, off-target damage, environmental harm, prosecution for misuse, or any direct, indirect, incidental or consequential losses.</p>
+            <h3>Third-Party Content</h3>
+            <p>This application contains links to external websites including the APVMA, permit portal and PubCRIS registry. These sites are operated by third parties and we have no control over their content, availability or privacy practices.</p>
+            <h3>Your Responsibility</h3>
+            <p>It is the user's legal obligation to comply with all applicable state and federal legislation regarding the purchase, storage, handling and application of agricultural chemicals. State-based restrictions, critical use conditions and withholding periods on the registered label are legally binding.</p>
+          </div>
+        </div>
+
+        <!-- Privacy Policy Panel -->
+        <div id="panel-privacy" class="calculator-panel footer-page-panel hidden">
+          <div class="panel-header">
+            <h2 class="panel-title">Privacy Policy</h2>
+            <button class="close-modal-btn" onclick="closePanel()" aria-label="Close">✕</button>
+          </div>
+          <div class="footer-page-body">
+            <h3>Overview</h3>
+            <p>Spray Hub is committed to protecting your privacy. This policy explains what data we collect, how we use it and your rights.</p>
+            <h3>Data We Collect</h3>
+            <p><strong>We do not collect personal data.</strong> This application runs entirely in your web browser. There are no user accounts, no login, no analytics tracking, no cookies and no data transmitted to any server. All product data is stored locally on your device via the service worker cache.</p>
+            <h3>Offline Operation</h3>
+            <p>The application is designed as a Progressive Web App (PWA) that works offline. Once loaded, all data resides on your device. No information is sent back to us.</p>
+            <h3>Contact Form</h3>
+            <p>If you contact us via email, we will receive your email address and message content. This information is used solely to respond to your enquiry and is not shared with any third party.</p>
+            <h3>Third-Party Links</h3>
+            <p>This application contains links to external websites (APVMA, PubCRIS, Google Images). These sites have their own privacy policies which we do not control. We encourage you to review their policies when visiting.</p>
+            <h3>Changes to This Policy</h3>
+            <p>We may update this privacy policy from time to time. Changes will be reflected on this page with an updated effective date.</p>
+            <p class="footer-page-version">Effective: 1 April 2026</p>
+          </div>
+        </div>
+
+        <!-- Terms of Use Panel -->
+        <div id="panel-terms" class="calculator-panel footer-page-panel hidden">
+          <div class="panel-header">
+            <h2 class="panel-title">Terms of Use</h2>
+            <button class="close-modal-btn" onclick="closePanel()" aria-label="Close">✕</button>
+          </div>
+          <div class="footer-page-body">
+            <h3>Acceptance of Terms</h3>
+            <p>By accessing and using Spray Hub, you agree to be bound by these Terms of Use. If you do not agree, please do not use this application.</p>
+            <h3>Permitted Use</h3>
+            <p>This application is provided for personal and professional reference use by agricultural professionals in Australia. You may use it to look up product label rates, SDS information, permit data and identification records for weeds, pests and diseases.</p>
+            <h3>Prohibited Use</h3>
+            <p>You may not reproduce, redistribute, sell or commercially exploit any part of this application or its data without prior written consent. You may not scrape, harvest or bulk-download data from the application. You may not use this tool to provide chemical recommendations to third parties as a substitute for reading the registered product label.</p>
+            <h3>Intellectual Property</h3>
+            <p>The application code, design and database structure are the intellectual property of the developer. Product label data, SDS content and permit information are sourced from publicly available APVMA-registered documents and remain the property of their respective registrants.</p>
+            <h3>No Warranty</h3>
+            <p>This application is provided "as is" without warranty of any kind, express or implied. We do not warrant that the information is complete, accurate, current or error-free. See our Disclaimer for full details on limitation of liability.</p>
+            <h3>Governing Law</h3>
+            <p>These terms are governed by the laws of Queensland, Australia. Any disputes will be subject to the exclusive jurisdiction of the courts of Queensland.</p>
+            <p class="footer-page-version">Effective: 1 April 2026</p>
+          </div>
+        </div>
+
+      </div> <!-- \modal-content -->
+    </div> <!-- \modal-overlay -->
+  </main>
+
+  <div class="toast" id="toast">Copied!</div>
+  <div class="install-prompt" id="install-prompt">
+    <span>📱 Install App</span>
+    <button onclick="installApp()">Install</button>
+    <button onclick="dismissInstall()">✕</button>
+  </div>
+
+  <button id="fab-compare" class="fab-compare hidden" onclick="openComparisonView()">
+    <span>⚖️ Compare (0)</span>
+  </button>
+
+  <button id="back-to-top" class="back-to-top hidden" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Back to top" title="Back to top">
+    ⬆
+  </button>
+
+  <!-- Label Database Framework -->
+  <script src="js/database.js"></script>
+  <script src="js/labels/0463nufarmcopperhydroxide500fu.js"></script>
+  <script src="js/labels/22846adamaventurimaxweblabela4.js"></script>
+  <script src="js/labels/5218payback29oct2017.js"></script>
+  <script src="js/labels/access.js"></script>
+  <script src="js/labels/acramite.js"></script>
+  <script src="js/labels/agcopp750wgsdsgrochemaustralia.js"></script>
+  <script src="js/labels/agrifos600.js"></script>
+  <script src="js/labels/agristar.js"></script>
+  <script src="js/labels/albatross.js"></script>
+  <script src="js/labels/altacor.js"></script>
+  <script src="js/labels/atlantisod.js"></script>
+  <script src="js/labels/alphascud.js"></script>
+  <script src="js/labels/applaud.js"></script>
+  <script src="js/labels/associate.js"></script>
+  <script src="js/labels/astral.js"></script>
+  <script src="js/labels/avatarevo.js"></script>
+  <script src="js/labels/basta.js"></script>
+  <script src="js/labels/belt.js"></script>
+  <script src="js/labels/benevia.js"></script>
+  <script src="js/labels/biffo.js"></script>
+  <script src="js/labels/biopestoil.js"></script>
+  <script src="js/labels/boxergold.js"></script>
+  <script src="js/labels/botector.js"></script>
+  <script src="js/labels/bravado720.js"></script>
+  <script src="js/labels/bulldock.js"></script>
+  <script src="js/labels/calibre100ec.js"></script>
+  <script src="js/labels/campbelltridim.js"></script>
+  <script src="js/labels/cando.js"></script>
+  <script src="js/labels/captan800wg.js"></script>
+  <script src="js/labels/chess.js"></script>
+  <script src="js/labels/conqueror.js"></script>
+  <script src="js/labels/copit.js"></script>
+  <script src="js/labels/corragen.js"></script>
+  <!-- cropro_zeus.js removed: duplicate of pctcroprozeus.js (same APVMA 58368) -->
+  <script src="js/labels/crucial.js"></script>
+  <script src="js/labels/danadim.js"></script>
+  <script src="js/labels/delegate.js"></script>
+  <script src="js/labels/deluge.js"></script>
+  <script src="js/labels/designer.js"></script>
+  <script src="js/labels/dipeldf.js"></script>
+  <script src="js/labels/dithane.js"></script>
+  <script src="js/labels/dropzone.js"></script>
+  <script src="js/labels/dualgold.js"></script>
+  <script src="js/labels/entrustorganic.js"></script>
+  <script src="js/labels/ficam.js"></script>
+  <script src="js/labels/flupropanate.js"></script>
+  <script src="js/labels/flystarbait.js"></script>
+  <!-- fontelis.js removed: duplicate of cortevafontelis.js (same APVMA 65510) -->
+  <script src="js/labels/gamma.js"></script>
+  <script src="js/labels/graslan.js"></script>
+  <script src="js/labels/grazon_extra.js"></script>
+  <script src="js/labels/hasten.js"></script>
+  <!-- insectigone.js removed: duplicate of pctinsectigone.js (same APVMA 51943) -->
+  <script src="js/labels/kamba_m.js"></script>
+  <script src="js/labels/kocide.js"></script>
+  <script src="js/labels/lancer.js"></script>
+  <!-- lontrel.js removed: duplicate of cortevalontreldadvanced.js -->
+  <script src="js/labels/lunaexperience.js"></script>
+  <script src="js/labels/lunasensation.js"></script>
+  <script src="js/labels/magnate.js"></script>
+  <script src="js/labels/mavrik.js"></script>
+  <script src="js/labels/mcpa.js"></script>
+  <script src="js/labels/methomyl.js"></script>
+  <script src="js/labels/microthioldisperss.js"></script>
+  <script src="js/labels/movento.js"></script>
+  <script src="js/labels/nexus.js"></script>
+  <script src="js/labels/nimrod.js"></script>
+  <script src="js/labels/nimitz.js"></script>
+  <script src="js/labels/octavewp.js"></script>
+  <script src="js/labels/orius430sc.js"></script>
+  <script src="js/labels/outright.js"></script>
+  <script src="js/labels/paramite.js"></script>
+  <!-- pctholdingsptyltd.js removed: duplicate of raizon.js (same APVMA 70360) -->
+  <script src="js/labels/pendimethalin.js"></script>
+  <script src="js/labels/penncozeb.js"></script>
+  <script src="js/labels/penncozeb750df.js"></script>
+  <script src="js/labels/piston250.js"></script>
+  <script src="js/labels/pirimor.js"></script>
+  <script src="js/labels/polyramdf.js"></script>
+  <script src="js/labels/proclaimopti.js"></script>
+  <script src="js/labels/prodigy.js"></script>
+  <script src="js/labels/productnameactipster500sl.js"></script>
+  <script src="js/labels/productnameimtradecyborgplus10.js"></script>
+  <script src="js/labels/nordox750wg.js"></script>
+  <script src="js/labels/productnamesurefireassault150e.js"></script>
+  <script src="js/labels/productnameswitch.js"></script>
+  <script src="js/labels/teppan50sl.js"></script>
+  <script src="js/labels/productnamevayego200sc.js"></script>
+  <script src="js/labels/productnamevertentoplinazolint.js"></script>
+  <script src="js/labels/progibbsg.js"></script>
+  <script src="js/labels/protak.js"></script>
+  <script src="js/labels/prowesslabel.js"></script>
+  <script src="js/labels/raizon.js"></script>
+  <script src="js/labels/reactor.js"></script>
+  <script src="js/labels/reactorred.js"></script>
+  <!-- readsafetydirections...js removed: duplicate of 22846adamaventurimaxweblabela4.js (same APVMA 89849, Venturi Max) -->
+  <script src="js/labels/red_dye.js"></script>
+  <script src="js/labels/reglone.js"></script>
+  <script src="js/labels/ridomilgoldmzwg.js"></script>
+  <script src="js/labels/roundup_ultramax.js"></script>
+  <script src="js/labels/rovralaquaflo.js"></script>
+  <script src="js/labels/salibro.js"></script>
+  <script src="js/labels/samurai.js"></script>
+  <!-- score.js removed: duplicate of syngentascore.js (same APVMA 45810) -->
+  <script src="js/labels/sencor.js"></script>
+  <script src="js/labels/seranadeopti.js"></script>
+  <script src="js/labels/serenadeprime.js"></script>
+  <script src="js/labels/simodis.js"></script>
+  <script src="js/labels/sinmas.js"></script>
+  <script src="js/labels/sivantoprime.js"></script>
+  <script src="js/labels/sorcerer.js"></script>
+  <script src="js/labels/spray_seed.js"></script>
+  <script src="js/labels/spraytop.js"></script>
+  <script src="js/labels/starane.js"></script>
+  <script src="js/labels/stealth.js"></script>
+  <script src="js/labels/stomp_xtra.js"></script>
+  <script src="js/labels/striker.js"></script>
+  <script src="js/labels/success_neo.js"></script>
+  <script src="js/labels/sunnypgr.js"></script>
+  <script src="js/labels/surefire.js"></script>
+  <script src="js/labels/surefirebuffalo.js"></script>
+  <script src="js/labels/surefireglyphosate.js"></script>
+  <script src="js/labels/surefiremultiturf.js"></script>
+  <script src="js/labels/synertrolhorti.js"></script>
+  <!-- talendo.js removed: duplicate of cortevatalendo.js (same APVMA 64165) -->
+  <script src="js/labels/tempra.js"></script>
+  <script src="js/labels/termighty.js"></script>
+  <script src="js/labels/terrador.js"></script>
+  <script src="js/labels/terrain.js"></script>
+  <script src="js/labels/thiovitjet.js"></script>
+  <script src="js/labels/transform.js"></script>
+  <script src="js/labels/transform_wg.js"></script>
+  <script src="js/labels/tribase.js"></script>
+  <script src="js/labels/triflurx.js"></script>
+  <script src="js/labels/trumpsprayoil.js"></script>
+  <script src="js/labels/uptake.js"></script>
+  <script src="js/labels/vaniva.js"></script>
+  <script src="js/labels/vivusmax.js"></script>
+  <script src="js/labels/vayegoforte.js"></script>
+  <script src="js/labels/vendex.js"></script>
+  <script src="js/labels/vesta.js"></script>
+  <script src="js/labels/versys.js"></script>
+  <script src="js/labels/vigilant.js"></script>
+  <script src="js/labels/websiteimtecdypro700wpinsectic.js"></script>
+  <script src="js/labels/weedmaster_dst.js"></script>
+  <script src="js/labels/weedmaster_duo.js"></script>
+  <script src="js/labels/worldsagcoppoxwg15kgpage1of6ag.js"></script>
+  <script src="js/labels/xentariwg.js"></script>
+  <script src="js/labels/zanoctine.js"></script>
+  <script src="js/labels/zampro.js"></script>
+  <script src="js/labels/zeemil50g.js"></script>
+  <script src="js/labels/adamadiuron900wg.js"></script>
+  <script src="js/labels/adamabugmaster.js"></script>
+  <script src="js/labels/adamafarmozine900wg.js"></script>
+  <script src="js/labels/adamafirepower900.js"></script>
+  <script src="js/labels/adamapalmero750wg.js"></script>
+  <script src="js/labels/adamapriority.js"></script>
+  <script src="js/labels/adamaplemax.js"></script>
+  <script src="js/labels/adamasphinx.js"></script>
+  <script src="js/labels/adamatrivor.js"></script>
+  <script src="js/labels/adamauraganwg.js"></script>
+  <script src="js/labels/agnovaflute50ew.js"></script>
+  <script src="js/labels/arystalamitron700wg.js"></script>
+  <script src="js/labels/basfaero.js"></script>
+  <script src="js/labels/basfbelanty.js"></script>
+  <script src="js/labels/basfcabrio.js"></script>
+  <script src="js/labels/basfcolliss.js"></script>
+  <script src="js/labels/basfefficon.js"></script>
+  <script src="js/labels/basfmerivon.js"></script>
+  <script src="js/labels/basfvivando.js"></script>
+  <script src="js/labels/bayeralion.js"></script>
+  <script src="js/labels/campbellabsolve.js"></script>
+  <script src="js/labels/campbellcheers720.js"></script>
+  <script src="js/labels/campbellfludy230sc.js"></script>
+  <script src="js/labels/cortevafontelis.js"></script>
+  <script src="js/labels/cortevalontreldadvanced.js"></script>
+  <!-- cortevasuccessneo.js removed: duplicate of success_neo.js (same APVMA 64109, success_neo has more data) -->
+  <script src="js/labels/cortevatalendo.js"></script>
+  <script src="js/labels/cortevaubeniq.js"></script>
+  <script src="js/labels/cortevaverpixo.js"></script>
+  <script src="js/labels/cortevasuccessultra.js"></script>
+  <script src="js/labels/cortevatordonregrowthmaster.js"></script>
+  <script src="js/labels/cortevazorvec.js"></script>
+  <script src="js/labels/azamaxxtra.js"></script>
+  <!-- fmccoragen.js removed — replaced by corragen.js (same APVMA 61519, more complete with permits) -->
+  <script src="js/labels/fmcexirel.js"></script>
+  <script src="js/labels/fmcvantacor.js"></script>
+  <script src="js/labels/fmctrojan.js"></script>
+  <script src="js/labels/gpflupropanategranular.js"></script>
+  <script src="js/labels/imtradeclethodim240ec.js"></script>
+  <script src="js/labels/imtradekersel850wg.js"></script>
+  <script src="js/labels/agnovakusabi300sc.js"></script>
+  <script src="js/labels/uplmainman500wg.js"></script>
+  <script src="js/labels/uplranman400sc.js"></script>
+  <!-- lovelandactivator.js removed: duplicate of nufarmactivator.js (same APVMA 41517, old Loveland branding) -->
+  <script src="js/labels/nufarmexpand.js"></script>
+  <script src="js/labels/nufarmactivator.js"></script>
+  <script src="js/labels/nufarmintervene.js"></script>
+  <script src="js/labels/nufarm24db500.js"></script>
+  <script src="js/labels/nufarmarcher750.js"></script>
+  <script src="js/labels/nufarmmcpaamine750.js"></script>
+  <script src="js/labels/nufarmsentry.js"></script>
+  <script src="js/labels/nufarmpyroxasulfone850wg.js"></script>
+  <script src="js/labels/nufarmsinker.js"></script>
+  <script src="js/labels/ocpazamax.js"></script>
+  <script src="js/labels/pctcroprozeus.js"></script>
+  <script src="js/labels/pctinsectigone.js"></script>
+  <script src="js/labels/pctreactor.js"></script>
+  <script src="js/labels/surefireamine625.js"></script>
+  <script src="js/labels/surefirerspectrum200sc.js"></script>
+  <script src="js/labels/surefiresvista200sc.js"></script>
+  <script src="js/labels/surefireweedpro540.js"></script>
+  <script src="js/labels/surefireweedprobioaqua360.js"></script>
+  <script src="js/labels/sipcamatrazine500sc.js"></script>
+  <script src="js/labels/admiraladvance.js"></script>
+  <script src="js/labels/sumitomochateau.js"></script>
+  <script src="js/labels/syngentadurivo.js"></script>
+  <script src="js/labels/syngentaminectoforte.js"></script>
+  <script src="js/labels/syngentamiravis.js"></script>
+  <script src="js/labels/syngentaridomilgold.js"></script>
+  <script src="js/labels/syngentascholar.js"></script>
+  <script src="js/labels/syngentakaratezeon.js"></script>
+  <script src="js/labels/syngentascore.js"></script>
+  <script src="js/labels/uplbuffit.js"></script>
+  <script src="js/labels/uplfascinate.js"></script>
+  <script src="js/labels/uplshenzi.js"></script>
+  <script src="js/labels/uplsprinta.js"></script>
+  <script src="js/labels/valentprogibb.js"></script>
+  <script src="js/labels/gravitateadjuvant707.js"></script>
+  <!-- nexusadjuvant.js removed: duplicate of nexus.js (same APVMA 60131, nexusadjuvant had wrong active) -->
+  <script src="js/labels/nufarm_sempra.js"></script>
+  <script src="js/labels/nufarmcollide700.js"></script>
+  <script src="js/labels/adamauptown.js"></script>
+  <script src="js/labels/syngentavaniva.js"></script>
+  <script src="js/labels/uplpollinus.js"></script>
+  <script src="js/labels/cortevalontreladvanced.js"></script>
+  <script src="js/labels/nufarmdicambam.js"></script>
+  <script src="js/labels/nufarmkamba750.js"></script>
+  <script src="js/labels/kelpieazine900.js"></script>
+  <script src="js/labels/syngentamiravisduo.js"></script>
+  <script src="js/labels/cortevasalibroreklemel.js"></script>
+  <script src="js/labels/tridim250ec.js"></script>
+  <script src="js/labels/imtradetyranex500.js"></script>
+  <script src="js/labels/imiguard350.js"></script>
+  <script src="js/labels/fuzilierherbicide.js"></script>
+  <script src="js/labels/infinityultra.js"></script>
+  <script src="js/labels/inteco.js"></script>
+  <script src="js/labels/interrupt240sc.js"></script>
+  <script src="js/labels/adamabumper625ec.js"></script>
+  <script src="js/labels/bayerflint500wg.js"></script>
+  <script src="js/labels/basftermidorresidual.js"></script>
+  <script src="js/labels/kensoethephon720.js"></script>
+  <script src="js/labels/campbelllonhro100wg.js"></script>
+  <script src="js/labels/campbellpoachek.js"></script>
+
+  <script src="js/permits-registry.js"></script>
+  <script src="js/permits-ui.js"></script>
+  <script src="js/sds-registry.js"></script>
+  <script src="js/sds-ui.js"></script>
+  <script src="js/wiki-thumbs.js?v=201"></script>
+  <script src="js/weeds-registry.js?v=202"></script>
+  <script src="js/weeds-ui.js?v=201"></script>
+  <script src="js/pests-registry.js?v=201"></script>
+  <script src="js/pests-ui.js?v=201"></script>
+  <script src="js/diseases-registry.js?v=201"></script>
+  <script src="js/diseases-ui.js?v=201"></script>
+  <script src="js/pubcris-offline-registry.js"></script>
+  <script src="js/apvma-registry.js"></script>
+  <script src="js/label-requests.js"></script>
+  <script src="js/search.js"></script>
+  <script src="js/calculators.js"></script>
+  <script src="js/app.js"></script>
+  <script>
+    // Back to top button visibility
+    (function() {
+      var btn = document.getElementById('back-to-top');
+      if (!btn) return;
+      window.addEventListener('scroll', function() {
+        if (window.scrollY > 400) {
+          btn.classList.remove('hidden');
+        } else {
+          btn.classList.add('hidden');
+        }
+      }, { passive: true });
+    })();
+  </script>
+
+  <!-- Desktop sidebar navigation integration -->
+  <script>
+    (function() {
+      var _origSwitch = window.switchAgriSubTab;
+      window.switchAgriSubTab = function(tab) {
+        if (_origSwitch) _origSwitch(tab);
+
+        // Update sidebar active state
+        document.querySelectorAll('.sidebar-item[data-section]').forEach(function(item) {
+          item.classList.remove('active');
+          if (item.getAttribute('data-section') === tab) {
+            item.classList.add('active');
+            // Auto-expand parent group if item is inside a collapsed group
+            var group = item.closest('.sidebar-group-items');
+            if (group && group.style.display === 'none') {
+              group.style.display = '';
+              var label = group.previousElementSibling;
+              if (label && label.classList.contains('sidebar-collapsible')) {
+                label.classList.add('open');
+              }
+            }
+          }
+        });
+
+        // Scroll main content to top
+        var mainEl = document.getElementById('desktop-main');
+        if (mainEl) mainEl.scrollTop = 0;
+        window.scrollTo(0, 0);
+      };
+    })();
+
+    // Collapsible sidebar groups
+    function toggleSidebarGroup(label) {
+      label.classList.toggle('open');
+      var items = label.nextElementSibling;
+      if (items && items.classList.contains('sidebar-group-items')) {
+        items.style.display = items.style.display === 'none' ? '' : 'none';
+      }
+    }
+
+    // Auto-update all stats from live registry data
+    window.addEventListener('load', function() {
+      var el = function(id) { return document.getElementById(id); };
+
+      // Count products from productDatabase
+      var productCount = window.productDatabase ? Object.keys(window.productDatabase).length : 0;
+      // Count unique companies
+      var companies = {};
+      if (window.productDatabase) {
+        Object.keys(window.productDatabase).forEach(function(k) {
+          var c = window.productDatabase[k].company;
+          if (c) companies[c] = true;
+        });
+      }
+      var companyCount = Object.keys(companies).length;
+
+      var sdsCount = window.sdsRegistry ? window.sdsRegistry.length : 0;
+      var permitCount = (window.permitsRegistry && window.permitsRegistry.permits) ? window.permitsRegistry.permits.length : 0;
+      var weedCount = window.weedsRegistry ? window.weedsRegistry.length : 0;
+      var pestCount = window.pestsRegistry ? window.pestsRegistry.length : 0;
+      var diseaseCount = window.diseasesRegistry ? window.diseasesRegistry.length : 0;
+
+      // Topbar stats
+      if (el('stat-products')) el('stat-products').textContent = productCount;
+      if (el('stat-sds')) el('stat-sds').textContent = sdsCount;
+      if (el('stat-permits')) el('stat-permits').textContent = permitCount;
+      if (el('stat-weeds')) el('stat-weeds').textContent = weedCount;
+      if (el('stat-pests')) el('stat-pests').textContent = pestCount;
+      if (el('stat-diseases')) el('stat-diseases').textContent = diseaseCount;
+
+      // Sidebar count badges
+      if (el('sidebar-weeds')) el('sidebar-weeds').textContent = weedCount;
+      if (el('sidebar-pests')) el('sidebar-pests').textContent = pestCount;
+      if (el('sidebar-diseases')) el('sidebar-diseases').textContent = diseaseCount;
+
+      // Sidebar footer stats
+      if (el('sidebar-stats')) el('sidebar-stats').textContent = productCount + ' products · ' + companyCount + ' companies';
+    });
+  </script>
+  </div><!-- /desktop-main -->
+
+  <!-- Desktop Website Footer — fixed full-width bar, always visible -->
+  <footer class="desktop-footer" id="desktop-footer">
+    <div class="footer-inner">
+      <!-- Left: Brand -->
+      <span class="footer-brand-strip">
+        <span class="footer-logo">🌱</span>
+        <span class="footer-brand-name">Spray Hub</span>
+      </span>
+
+      <!-- Centre: Standard page links -->
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="#" onclick="openPanel('about');return false;">About</a>
+        <a href="#" onclick="openPanel('contact');return false;">Contact</a>
+        <a href="#" onclick="openPanel('disclaimer');return false;">Disclaimer</a>
+        <a href="#" onclick="openPanel('privacy');return false;">Privacy Policy</a>
+        <a href="#" onclick="openPanel('terms');return false;">Terms of Use</a>
+        <span class="footer-nav-sep"></span>
+        <a href="https://apvma.gov.au" target="_blank" rel="noopener noreferrer">APVMA.gov.au</a>
+        <a href="https://portal.apvma.gov.au/pubcris" target="_blank" rel="noopener noreferrer">PubCRIS</a>
+      </nav>
+
+      <!-- Right: Version & legal -->
+      <span class="footer-right">
+        <span class="footer-version">v1.15 · Build 204 · 38 companies</span>
+        <span class="footer-sep">·</span>
+        <span class="footer-copyright">© 2026 Spray Hub. Always read the label.</span>
+      </span>
+    </div>
+  </footer>
+</body>
+
+</html>

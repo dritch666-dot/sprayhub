@@ -1,0 +1,39 @@
+{
+"associate": {
+"name": "Nufarm Associate®",
+"group": "Group 2 (Sulfonylurea)",
+"modeOfAction": "Inhibits acetolactate synthase (ALS)",
+"formulation": "Water Dispersible Granule (WDG)",
+"crops": {
+"cereals": {
+"name": "Cereals (Wheat, Barley, Triticale, Cereal Rye)",
+"weeds": [
+{ "weed": "Wild Radish", "states": ["NSW", "Vic", "SA", "WA", "Qld"], "rate": "5", "rateMax": "7", "stage": "Small to rosette", "unit": "g/ha" },
+{ "weed": "Paterson's Curse", "states": ["SA", "NSW", "WA", "Tas", "Vic"], "rate": "5", "rateMax": "7", "stage": "Before bolting", "unit": "g/ha" },
+{ "weed": "Volunteer Canola", "states": ["All"], "rate": "5", "rateMax": "5", "stage": "Small", "unit": "g/ha" },
+{ "weed": "Soursob", "states": ["Vic", "SA", "WA", "Tas", "NSW"], "rate": "5", "rateMax": "10", "stage": "Actively growing", "unit": "g/ha" },
+{ "weed": "Capeweed", "states": ["WA", "SA", "NSW", "Vic", "Qld", "Tas"], "rate": "5", "rateMax": "5", "stage": "2-6 leaf", "unit": "g/ha" }
+]
+}
+},
+"restraints": [
+"DO NOT store suspension for more than 2 days",
+"DO NOT apply to crops under stress",
+"DO NOT store tank mixes",
+"DO NOT apply if rainfall expected within 2 hours"
+],
+"compatibility": {
+"compatible": ["Nufarm Agritone 750", "Nufarm 2,4-D Amine 625", "Glyphosate"],
+"incompatible": ["Achieve", "Mataven 90"]
+},
+"recropping": {
+"ph_56_85": {
+"10_days": ["Wheat"],
+"6_weeks": ["Barley", "Cereal Rye", "Triticale"],
+"9_months": ["Chickpeas", "Canola", "Lupins"],
+"14_months": ["Maize", "Sorghum", "Sunflower"]
+},
+"ph_86_plus": "Bioassay Required"
+}
+}
+}

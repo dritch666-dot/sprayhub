@@ -1,0 +1,59 @@
+# ═══════════════════════════════════════════
+# Spray Hub — .gitignore (Public Website Repo)
+# ═══════════════════════════════════════════
+
+# PDF archives (large binaries, not needed for website)
+Source labels/
+SDS Labels/
+APVMA - Permits/
+
+# Dev scripts (internal tools, not for production)
+_dev-scripts/
+_reference/
+tools/
+convert-to-webp.js
+download-thumbs.js
+redownload-thumbs.js
+final-thumbs.js
+grab-last-3.js
+last-thumbs.js
+repair-final.js
+repair-registries.js
+repair-v2.js
+repair-v3.js
+
+# Internal documentation (not for public)
+CLAUDE.md
+Labels To Add.txt
+Lawn Products To Add.txt
+*.md
+Label Workflow Audit Report.docx
+
+# Spreadsheet data files
+*.xlsx
+*.docx
+
+# Branding research docs (in parent folder, not here)
+App-Branding-Name-Research.html
+SprayHub-Image-Prompts.html
+SprayHub-Brand-Guide.html
+
+# Skills folder (internal)
+skills/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Node
+node_modules/
+
+# Backups
+*.bak
+search-backup/
+search-backup-v2/
+
+# Extraction queue (admin only)
+js/extraction-queue.js
+.claude/

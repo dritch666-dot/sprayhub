@@ -1,0 +1,28 @@
+{
+  "appName": "Spray Hub",
+  "domain": "sprayhub.com.au",
+  "currentVersion": "2.0.0",
+  "versionHistory": [
+    {
+      "version": "1.0.0",
+      "date": "2026-02-28",
+      "cacheVersion": "v45",
+      "labelCount": 192,
+      "notes": "Initial release — base search, Tank Mix, Container Coverage, Cost Comparison, Nozzle calculators, SDS, Permits, APVMA registry."
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-03-08",
+      "cacheVersion": "v85",
+      "labelCount": 212,
+      "notes": "Major update — 20 new products, fixed 51 label data errors, phrase search, category pill filters, collapsible filter panel, search tips popup, UI cleanup."
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-04-03",
+      "cacheVersion": "v195",
+      "labelCount": 242,
+      "notes": "Rebrand to Spray Hub (sprayhub.com.au). Full SEO overhaul, Open Graph, structured data, dynamic stats, desktop layout redesign, collapsible sidebar, Lawn & Turf Care Guide."
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+# Spray Hub — sprayhub.com.au
+# Agricultural Chemical Database & Spray Rate Calculator
+
+User-agent: *
+Allow: /
+
+# Sitemap (create and upload when site is live)
+Sitemap: https://sprayhub.com.au/sitemap.xml

@@ -1,0 +1,107 @@
+:root {
+--primary: #6366f1;
+--primary-light: #818cf8;
+--primary-dark: #4f46e5;
+--agri-green: #10b981;
+--agri-light: #34d399;
+--finance-gold: #f59e0b;
+--finance-light: #fbbf24;
+--bg: #f8fafc;
+--card-bg: #ffffff;
+--text-main: #1e293b;
+--text-sub: #64748b;
+--border: #e2e8f0;
+--success: #10b981;
+--warning: #f59e0b;
+--error: #ef4444;
+--shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
+--shadow-md: 0 4px 6px -1px rgba(0,0,0,0.1);
+--shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.1);
+--radius: 16px;
+}
+
+[data-theme="dark"] {
+--bg: #0f172a;
+--card-bg: #1e293b;
+--text-main: #f1f5f9;
+--text-sub: #94a3b8;
+--border: #334155;
+--shadow-sm: 0 1px 2px rgba(0,0,0,0.3);
+--shadow-md: 0 4px 6px -1px rgba(0,0,0,0.4);
+--shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.5);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+
+body {
+background:
+  radial-gradient(ellipse 80% 60% at 8% 10%,   rgba(16, 185, 129, 0.10) 0%, transparent 55%),
+  radial-gradient(ellipse 65% 55% at 93% 88%,  rgba(99, 102, 241, 0.10) 0%, transparent 55%),
+  radial-gradient(ellipse 50% 40% at 58% 0%,   rgba(245, 158, 11, 0.06) 0%, transparent 50%),
+  linear-gradient(160deg, #f0f9ff 0%, #f8fafc 45%, #f5f3ff 100%);
+min-height: 100vh;
+color: var(--text-main);
+transition: all 0.3s;
+}
+
+[data-theme="dark"] body {
+background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+}
+
+.skip-link {
+position: absolute;
+top: -40px;
+left: 0;
+background: var(--primary);
+color: white;
+padding: 8px 16px;
+z-index: 1000;
+text-decoration: none;
+font-weight: 600;
+}
+
+.skip-link:focus { top: 0; }
+
+.hidden { display: none !important; }
+
+/* Utility Classes */
+.form-two-col {
+display: grid;
+grid-template-columns: 1fr;
+gap: 15px;
+}
+
+@media (min-width: 600px) {
+.form-two-col {
+grid-template-columns: 1fr 1fr;
+}
+}
+
+.info-box {
+background: #ecfdf5;
+border: 1px solid #a7f3d0;
+color: #065f46;
+padding: 14px;
+border-radius: 8px;
+margin-top: 15px;
+font-size: 0.8rem;
+line-height: 1.5;
+}
+
+[data-theme="dark"] .info-box { background: #064e3b; border-color: #059669; color: #6ee7b7; }
+
+.swap-btn {
+background: var(--bg);
+border: 1px solid var(--border);
+border-radius: 50%;
+width: 50px;
+height: 50px;
+cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: center;
+transition: all 0.2s;
+font-size: 1.3rem;
+}
+
+.swap-btn:hover { background: var(--primary); color: white; border-color: var(--primary); transform: rotate(180deg); }

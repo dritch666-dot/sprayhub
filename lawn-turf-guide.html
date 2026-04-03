@@ -1,0 +1,2097 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lawn & Turf Care Guide — Australian Edition</title>
+<style>
+:root {
+  --primary: #16a34a;
+  --primary-light: #22c55e;
+  --primary-dark: #15803d;
+  --bg: #f0fdf4;
+  --card-bg: #ffffff;
+  --text-main: #1e293b;
+  --text-sub: #64748b;
+  --border: #e2e8f0;
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.1);
+  --radius: 12px;
+  --herb-green: #16a34a;
+  --insect-purple: #7e22ce;
+  --fungi-blue: #0284c7;
+  --fert-amber: #d97706;
+  --mite-red: #dc2626;
+  --turf-teal: #0d9488;
+}
+[data-theme="dark"] {
+  --bg: #0f172a;
+  --card-bg: #1e293b;
+  --text-main: #f1f5f9;
+  --text-sub: #94a3b8;
+  --border: #334155;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: linear-gradient(160deg, #f0fdf4 0%, #f8fafc 45%, #ecfdf5 100%);
+  color: var(--text-main);
+  min-height: 100vh;
+  line-height: 1.6;
+}
+[data-theme="dark"] body { background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); }
+
+/* ── DESKTOP TOPBAR ─────────────────────────────────────── */
+.desktop-topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 44px;
+  background: #16a34a;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  z-index: 1002;
+  font-family: inherit;
+}
+[data-theme="dark"] .desktop-topbar { background: #0f172a; border-bottom-color: #334155; }
+.topbar-left { display: flex; align-items: center; gap: 10px; }
+.topbar-logo { font-size: 1.15rem; line-height: 1; }
+.topbar-title { font-size: 0.92rem; font-weight: 700; color: #fff; letter-spacing: 0.2px; }
+.topbar-tagline {
+  font-size: 0.72rem; color: rgba(255,255,255,0.7); font-weight: 400;
+  margin-left: 6px; padding-left: 12px; border-left: 1px solid rgba(255,255,255,0.25);
+}
+.topbar-right { display: flex; align-items: center; gap: 16px; }
+.topbar-stats { display: flex; align-items: center; gap: 5px; font-size: 0.72rem; color: rgba(255,255,255,0.7); font-weight: 500; }
+.topbar-stat strong { color: #fff; font-weight: 700; }
+[data-theme="dark"] .topbar-stat strong { color: #e2e8f0; }
+[data-theme="dark"] .topbar-stats { color: #64748b; }
+.topbar-stat-sep { color: rgba(255,255,255,0.35); font-size: 0.55rem; margin: 0 1px; }
+[data-theme="dark"] .topbar-stat-sep { color: #475569; }
+.topbar-theme-btn {
+  width: 30px; height: 30px; border: 1px solid rgba(255,255,255,0.3); border-radius: 6px;
+  background: rgba(255,255,255,0.12); cursor: pointer; font-size: 0.9rem;
+  display: flex; align-items: center; justify-content: center; transition: all 0.15s ease; flex-shrink: 0;
+}
+.topbar-theme-btn:hover { background: rgba(255,255,255,0.25); transform: scale(1.05); }
+[data-theme="dark"] .topbar-theme-btn { background: #1e293b; border-color: #334155; }
+[data-theme="dark"] .topbar-theme-btn:hover { background: #334155; }
+
+/* ── DESKTOP SIDEBAR ───────────────────────────────────── */
+.desktop-sidebar {
+  position: fixed; top: 44px; left: 0; width: 240px; height: calc(100vh - 44px);
+  background: rgba(255,255,255,0.92); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+  border-right: 1px solid var(--border); display: flex; flex-direction: column;
+  z-index: 1000; overflow-y: auto; overflow-x: hidden; scrollbar-width: thin; font-family: inherit;
+}
+[data-theme="dark"] .desktop-sidebar { background: rgba(15,23,42,0.95); border-right-color: #334155; }
+.sidebar-nav { flex: 1; padding: 8px 0; overflow-y: auto; }
+.sidebar-group-label {
+  padding: 16px 16px 6px; font-size: 0.65rem; font-weight: 700; letter-spacing: 0.8px;
+  color: var(--text-sub); text-transform: uppercase;
+}
+.sidebar-group-label:first-child { padding-top: 8px; }
+.sidebar-item {
+  display: flex; align-items: center; width: 100%; padding: 10px 16px; border: none;
+  background: transparent; color: var(--text-main); font-size: 0.85rem; font-weight: 500;
+  cursor: pointer; transition: all 0.15s ease; text-align: left; gap: 10px;
+  border-left: 3px solid transparent; font-family: inherit; white-space: nowrap; text-decoration: none;
+}
+[data-theme="dark"] .sidebar-item { color: #e2e8f0; }
+.sidebar-item:hover { background: rgba(16,185,129,0.08); color: #10b981; }
+[data-theme="dark"] .sidebar-item:hover { background: rgba(16,185,129,0.15); }
+.sidebar-item.active { background: rgba(16,185,129,0.12); color: #10b981; font-weight: 600; border-left-color: #10b981; }
+[data-theme="dark"] .sidebar-item.active { background: rgba(16,185,129,0.2); color: #34d399; }
+.sidebar-icon { font-size: 1rem; width: 20px; text-align: center; flex-shrink: 0; }
+.sidebar-footer { padding: 12px 16px; border-top: 1px solid var(--border); flex-shrink: 0; }
+[data-theme="dark"] .sidebar-footer { border-top-color: #334155; }
+.sidebar-theme-toggle {
+  width: 100%; padding: 8px 12px; border: 1px solid var(--border); border-radius: 8px;
+  background: var(--card-bg); color: var(--text-main); cursor: pointer; font-size: 0.82rem;
+  font-weight: 500; text-align: left; transition: all 0.15s ease; font-family: inherit;
+}
+[data-theme="dark"] .sidebar-theme-toggle { background: #1e293b; border-color: #334155; color: #e2e8f0; }
+.sidebar-theme-toggle:hover { border-color: #6366f1; background: rgba(99,102,241,0.05); }
+.sidebar-stats { font-size: 0.68rem; color: var(--text-sub); margin-top: 8px; text-align: center; }
+
+/* ── DESKTOP FOOTER ────────────────────────────────────── */
+.desktop-footer {
+  position: fixed; bottom: 0; left: 0; right: 0; height: 38px;
+  background: rgba(255,255,255,0.94); backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);
+  border-top: 1px solid var(--border); z-index: 1001; font-family: inherit;
+}
+[data-theme="dark"] .desktop-footer { background: rgba(15,23,42,0.94); border-top-color: #334155; }
+.footer-inner { display: flex; align-items: center; justify-content: space-between; height: 100%; padding: 0 24px; gap: 20px; }
+.footer-brand-strip { display: flex; align-items: center; gap: 8px; flex-shrink: 0; }
+.footer-logo { font-size: 0.9rem; line-height: 1; }
+.footer-brand-name { font-size: 0.76rem; font-weight: 700; color: var(--text-main); white-space: nowrap; }
+[data-theme="dark"] .footer-brand-name { color: #f1f5f9; }
+.footer-nav { display: flex; align-items: center; gap: 6px; flex: 1; justify-content: center; min-width: 0; overflow: hidden; }
+.footer-nav a {
+  font-size: 0.72rem; color: var(--text-sub); text-decoration: none; white-space: nowrap;
+  padding: 3px 6px; border-radius: 4px; transition: color 0.15s ease, background-color 0.15s ease;
+}
+.footer-nav a:hover { color: #16a34a; background: rgba(22,163,74,0.08); }
+[data-theme="dark"] .footer-nav a:hover { color: #4ade80; background: rgba(74,222,128,0.1); }
+.footer-nav-sep { width: 1px; height: 14px; background: var(--border); flex-shrink: 0; margin: 0 2px; }
+[data-theme="dark"] .footer-nav-sep { background: #334155; }
+.footer-right { display: flex; align-items: center; gap: 6px; flex-shrink: 0; }
+.footer-sep { color: var(--text-sub); font-size: 0.68rem; opacity: 0.5; }
+.footer-version { font-size: 0.68rem; color: var(--text-sub); font-weight: 600; white-space: nowrap; }
+.footer-copyright { font-size: 0.68rem; color: var(--text-sub); white-space: nowrap; }
+
+/* ── MOBILE HEADER (shown on mobile only) ──────────────── */
+.mobile-header {
+  background: linear-gradient(135deg, #15803d, #16a34a, #059669);
+  color: white; padding: 20px 16px; text-align: center; position: relative; z-index: 100;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.15); display: none;
+}
+.mobile-header h1 { font-size: 1.4em; font-weight: 700; margin-bottom: 4px; }
+.mobile-header p { font-size: 0.82em; opacity: 0.9; }
+.mobile-header-actions { display: flex; gap: 10px; justify-content: center; margin-top: 10px; }
+.mobile-header-btn {
+  background: rgba(255,255,255,0.2); color: white; border: 1px solid rgba(255,255,255,0.3);
+  padding: 6px 14px; border-radius: 8px; font-size: 0.8em; cursor: pointer;
+  text-decoration: none; transition: background 0.2s;
+}
+.mobile-header-btn:hover { background: rgba(255,255,255,0.3); }
+
+/* ── MOBILE NAVIGATION TABS ────────────────────────────── */
+.nav-tabs {
+  display: none; /* Hidden on desktop, shown on mobile */
+  justify-content: center; flex-wrap: wrap; gap: 4px; padding: 10px 12px;
+  background: var(--card-bg); border-bottom: 1px solid var(--border);
+  position: sticky; top: 0; z-index: 99; -webkit-overflow-scrolling: touch;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+.nav-tab {
+  flex-shrink: 0; padding: 8px 14px; border: none; background: transparent;
+  color: var(--text-sub); font-size: 0.78em; font-weight: 600; cursor: pointer;
+  border-radius: 8px; transition: all 0.2s; white-space: nowrap;
+}
+.nav-tab.active { background: var(--primary); color: white; }
+.nav-tab:hover:not(.active) { background: #f1f5f9; }
+
+/* ── MAIN CONTENT AREA ─────────────────────────────────── */
+.desktop-main {
+  margin-left: 240px; padding-top: 44px; padding-bottom: 44px; min-height: 100vh;
+}
+.content { max-width: 900px; margin: 0 auto; padding: 24px 32px; }
+.section { display: none; }
+.section.active { display: block; }
+
+/* Cards */
+.card {
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-md);
+  padding: 18px;
+  margin-bottom: 16px;
+  border: 1px solid var(--border);
+}
+.card h2 {
+  font-size: 1.15em;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: var(--primary-dark);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.card h3 {
+  font-size: 0.95em;
+  font-weight: 600;
+  margin: 14px 0 8px;
+  color: var(--text-main);
+}
+.card p, .card li { font-size: 0.88em; color: var(--text-sub); margin-bottom: 6px; }
+.card ul { padding-left: 18px; }
+.card li { margin-bottom: 4px; }
+
+/* Grass Type Cards */
+.grass-grid { display: grid; grid-template-columns: 1fr; gap: 14px; }
+@media (min-width: 600px) { .grass-grid { grid-template-columns: 1fr 1fr; } }
+
+.grass-card {
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--border);
+  overflow: hidden;
+}
+.grass-card-header {
+  padding: 12px 16px;
+  color: white;
+  font-weight: 700;
+  font-size: 0.95em;
+}
+.grass-warm .grass-card-header { background: linear-gradient(135deg, #16a34a, #15803d); }
+.grass-cool .grass-card-header { background: linear-gradient(135deg, #0284c7, #0369a1); }
+.grass-card-body { padding: 14px 16px; }
+.grass-card-body p { font-size: 0.82em; color: var(--text-sub); margin-bottom: 6px; }
+
+.grass-stat {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: #f1f5f9;
+  padding: 3px 10px;
+  border-radius: 6px;
+  font-size: 0.75em;
+  font-weight: 600;
+  color: var(--text-main);
+  margin: 2px 4px 2px 0;
+}
+
+/* Product Tables */
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.82em;
+  margin: 10px 0;
+}
+.product-table th {
+  background: #f8fafc;
+  padding: 8px 10px;
+  text-align: left;
+  font-weight: 600;
+  color: var(--text-main);
+  border-bottom: 2px solid var(--border);
+  font-size: 0.85em;
+}
+.product-table td {
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--border);
+  color: var(--text-sub);
+  vertical-align: top;
+}
+.product-table tr:hover { background: #f0fdf4; }
+
+/* Category Badge */
+.cat-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 6px;
+  font-size: 0.72em;
+  font-weight: 700;
+  color: white;
+}
+.cat-herb { background: var(--herb-green); }
+.cat-insect { background: var(--insect-purple); }
+.cat-fungi { background: var(--fungi-blue); }
+.cat-fert { background: var(--fert-amber); }
+.cat-mite { background: var(--mite-red); }
+.cat-pgr { background: #ec4899; }
+
+/* Safety Matrix */
+.safety-matrix {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.78em;
+  margin: 10px 0;
+}
+.safety-matrix th, .safety-matrix td {
+  padding: 6px 8px;
+  border: 1px solid var(--border);
+  text-align: center;
+}
+.safety-matrix th { background: #f8fafc; font-weight: 600; }
+.safe { background: #dcfce7; color: #166534; font-weight: 600; }
+.caution { background: #fef9c3; color: #854d0e; font-weight: 600; }
+.danger { background: #fee2e2; color: #991b1b; font-weight: 600; }
+.na { background: #f1f5f9; color: #94a3b8; }
+
+/* Season Calendar */
+.season-grid { display: grid; grid-template-columns: 1fr; gap: 12px; }
+@media (min-width: 600px) { .season-grid { grid-template-columns: 1fr 1fr; } }
+
+.season-card {
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  padding: 14px;
+  border-left: 4px solid;
+  box-shadow: var(--shadow-sm);
+}
+.season-spring { border-color: #16a34a; }
+.season-summer { border-color: #dc2626; }
+.season-autumn { border-color: #d97706; }
+.season-winter { border-color: #0284c7; }
+.season-card h3 { font-size: 0.92em; margin-bottom: 8px; }
+.season-card p, .season-card li { font-size: 0.8em; color: var(--text-sub); }
+.season-card ul { padding-left: 16px; }
+
+/* Weed/Pest/Disease Cards */
+.problem-card {
+  background: var(--card-bg);
+  border-radius: 10px;
+  padding: 14px;
+  margin-bottom: 12px;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
+}
+.problem-card h4 {
+  font-size: 0.9em;
+  font-weight: 700;
+  color: var(--text-main);
+  margin-bottom: 4px;
+}
+.problem-card .sci-name {
+  font-size: 0.78em;
+  font-style: italic;
+  color: var(--text-sub);
+  margin-bottom: 6px;
+}
+.problem-card p { font-size: 0.82em; color: var(--text-sub); margin-bottom: 4px; }
+.problem-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.7em;
+  font-weight: 600;
+  margin: 2px 4px 2px 0;
+}
+.tag-broadleaf { background: #dcfce7; color: #166534; }
+.tag-grassy { background: #dbeafe; color: #1e40af; }
+.tag-sedge { background: #fef3c7; color: #92400e; }
+.tag-product { background: #f3e8ff; color: #6b21a8; }
+
+/* Card with thumbnail layout */
+.card-with-thumb {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+}
+.card-thumb-wrap {
+  flex-shrink: 0;
+  width: 90px;
+  height: 90px;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #f1f5f9;
+  border: 1px solid var(--border);
+}
+[data-theme="dark"] .card-thumb-wrap {
+  background: #1e293b;
+  border-color: #334155;
+}
+.card-thumb {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 8px;
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+}
+.card-thumb:hover { opacity: 0.8; }
+.card-thumb-wrap.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8em;
+}
+.card-detail-col {
+  flex: 1;
+  min-width: 0;
+}
+/* View Images button */
+.view-images-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  background: #f1f5f9;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 0.72em;
+  font-weight: 600;
+  color: var(--primary-dark);
+  text-decoration: none;
+  margin-top: 6px;
+  transition: background 0.2s;
+}
+.view-images-btn:hover { background: #dcfce7; }
+[data-theme="dark"] .view-images-btn { background: #1e293b; color: #22c55e; border-color: #334155; }
+[data-theme="dark"] .view-images-btn:hover { background: #334155; }
+
+/* Product link buttons */
+.prod-link-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  padding: 3px 8px;
+  background: #f3e8ff;
+  border: 1px solid #d8b4fe;
+  border-radius: 5px;
+  font-size: 0.7em;
+  font-weight: 600;
+  color: #6b21a8;
+  text-decoration: none;
+  margin: 2px 3px 2px 0;
+  transition: background 0.2s;
+}
+.prod-link-btn:hover { background: #e9d5ff; }
+[data-theme="dark"] .prod-link-btn { background: #3b0764; color: #d8b4fe; border-color: #6b21a8; }
+
+/* Grass card thumb */
+.grass-card-body-flex {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+.grass-thumb-wrap {
+  flex-shrink: 0;
+  width: 100px;
+  height: 80px;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #f1f5f9;
+  border: 1px solid var(--border);
+}
+.grass-thumb {
+  width: 100px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.grass-thumb:hover { opacity: 0.8; }
+.grass-detail-col { flex: 1; min-width: 0; }
+
+/* Search */
+.search-box {
+  width: 100%;
+  padding: 10px 14px;
+  border: 2px solid var(--border);
+  border-radius: 10px;
+  font-size: 0.9em;
+  margin-bottom: 14px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+.search-box:focus { border-color: var(--primary); }
+
+/* Collapsible */
+.collapsible-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px 0;
+}
+.collapsible-header::after {
+  content: '\25BC';
+  font-size: 0.7em;
+  transition: transform 0.2s;
+  color: var(--text-sub);
+}
+.collapsible-header.open::after { transform: rotate(180deg); }
+.collapsible-body { display: none; padding-top: 8px; }
+.collapsible-body.open { display: block; }
+
+/* Back to top */
+.back-top {
+  position: fixed;
+  bottom: 80px;
+  right: 24px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--primary);
+  color: white;
+  border: none;
+  font-size: 1.2em;
+  cursor: pointer;
+  box-shadow: var(--shadow-lg);
+  display: none;
+  z-index: 90;
+  align-items: center;
+  justify-content: center;
+}
+.back-top.visible { display: flex; }
+
+/* ── RESPONSIVE BREAKPOINTS ────────────────────────────── */
+
+/* Tablet/small desktop */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .desktop-sidebar { width: 200px; }
+  .desktop-main { margin-left: 200px; }
+  .sidebar-item { font-size: 0.8rem; padding: 8px 12px; }
+  .topbar-stats { display: none; }
+  .topbar-tagline { display: none; }
+  .footer-right { display: none; }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .desktop-sidebar, .desktop-topbar, .desktop-footer { display: none !important; }
+  .desktop-main { margin-left: 0; padding-top: 0; padding-bottom: 0; }
+  .mobile-header { display: block !important; }
+  .nav-tabs { display: flex !important; }
+  .content { padding: 16px; }
+  .back-top { bottom: 20px; right: 20px; }
+}
+
+@media (max-width: 480px) {
+  .product-table { font-size: 0.75em; }
+  .product-table th, .product-table td { padding: 6px; }
+  .mobile-header h1 { font-size: 1.2em; }
+  .nav-tab { font-size: 0.72em; padding: 6px 10px; }
+}
+
+/* Print styles */
+@media print {
+  .desktop-topbar, .desktop-sidebar, .desktop-footer, .mobile-header, .nav-tabs, .back-top { display: none !important; }
+  .desktop-main { margin-left: 0; padding-top: 0; padding-bottom: 0; }
+  .section { display: block !important; page-break-inside: avoid; }
+  body { background: white; }
+}
+</style>
+</head>
+<body>
+
+<!-- Desktop Sidebar Navigation -->
+<aside class="desktop-sidebar" id="desktop-sidebar">
+  <nav class="sidebar-nav">
+    <div class="sidebar-group-label">MAIN APP</div>
+    <a class="sidebar-item" href="index-desktop.html" style="text-decoration:none; color:inherit;">
+      <span class="sidebar-icon">🌱</span> Spray Hub
+    </a>
+    <div class="sidebar-group-label">LAWN &amp; TURF GUIDE</div>
+    <button class="sidebar-item active" data-section="grass" onclick="showSectionSidebar('grass')">
+      <span class="sidebar-icon">🌿</span> Grass Types
+    </button>
+    <button class="sidebar-item" data-section="weeds" onclick="showSectionSidebar('weeds')">
+      <span class="sidebar-icon">🌾</span> Weeds
+    </button>
+    <button class="sidebar-item" data-section="pests" onclick="showSectionSidebar('pests')">
+      <span class="sidebar-icon">🐛</span> Pests
+    </button>
+    <button class="sidebar-item" data-section="diseases" onclick="showSectionSidebar('diseases')">
+      <span class="sidebar-icon">🦠</span> Diseases
+    </button>
+    <div class="sidebar-group-label">PRODUCTS</div>
+    <button class="sidebar-item" data-section="herbicides" onclick="showSectionSidebar('herbicides')">
+      <span class="sidebar-icon">🧪</span> Herbicides
+    </button>
+    <button class="sidebar-item" data-section="insecticides" onclick="showSectionSidebar('insecticides')">
+      <span class="sidebar-icon">🛡️</span> Insecticides
+    </button>
+    <button class="sidebar-item" data-section="fungicides" onclick="showSectionSidebar('fungicides')">
+      <span class="sidebar-icon">💊</span> Fungicides
+    </button>
+    <button class="sidebar-item" data-section="fertilisers" onclick="showSectionSidebar('fertilisers')">
+      <span class="sidebar-icon">🌱</span> Fertilisers
+    </button>
+    <div class="sidebar-group-label">CARE</div>
+    <button class="sidebar-item" data-section="calendar" onclick="showSectionSidebar('calendar')">
+      <span class="sidebar-icon">📅</span> Seasonal Care
+    </button>
+    <button class="sidebar-item" data-section="products" onclick="showSectionSidebar('products')">
+      <span class="sidebar-icon">📦</span> All Products
+    </button>
+  </nav>
+  <div class="sidebar-footer">
+    <div class="sidebar-stats">Lawn &amp; Turf Care · Australian Edition</div>
+  </div>
+</aside>
+
+<!-- Desktop Topbar -->
+<header class="desktop-topbar" id="desktop-topbar">
+  <div class="topbar-left">
+    <span class="topbar-logo">🌿</span>
+    <span class="topbar-title">Lawn &amp; Turf Care Guide</span>
+    <span class="topbar-tagline">Australian Edition — Grass Types, Products, Weeds, Pests, Diseases &amp; Seasonal Care</span>
+  </div>
+  <div class="topbar-right">
+    <div class="topbar-stats">
+      <span class="topbar-stat"><strong>6</strong> Grass Types</span>
+      <span class="topbar-stat-sep">·</span>
+      <span class="topbar-stat"><strong>15</strong> Weeds</span>
+      <span class="topbar-stat-sep">·</span>
+      <span class="topbar-stat"><strong>10</strong> Pests</span>
+      <span class="topbar-stat-sep">·</span>
+      <span class="topbar-stat"><strong>8</strong> Diseases</span>
+    </div>
+    <button class="topbar-theme-btn" onclick="toggleTheme()" aria-label="Toggle dark mode" title="Toggle theme">🌙</button>
+  </div>
+</header>
+
+<!-- Mobile Header (hidden on desktop) -->
+<div class="mobile-header">
+  <h1>Lawn &amp; Turf Care Guide</h1>
+  <p>Australian Edition — Grass Types, Products, Weeds, Pests, Diseases &amp; Seasonal Care</p>
+  <div class="mobile-header-actions">
+    <a href="index-desktop.html" class="mobile-header-btn">Back to Label Search</a>
+    <button class="mobile-header-btn" onclick="toggleTheme()">Dark Mode</button>
+  </div>
+</div>
+
+<!-- Mobile Navigation (hidden on desktop) -->
+<div class="nav-tabs" id="navTabs">
+  <button class="nav-tab active" onclick="showSection('grass')">Grass Types</button>
+  <button class="nav-tab" onclick="showSection('weeds')">Weeds</button>
+  <button class="nav-tab" onclick="showSection('pests')">Pests</button>
+  <button class="nav-tab" onclick="showSection('diseases')">Diseases</button>
+  <button class="nav-tab" onclick="showSection('herbicides')">Herbicides</button>
+  <button class="nav-tab" onclick="showSection('insecticides')">Insecticides</button>
+  <button class="nav-tab" onclick="showSection('fungicides')">Fungicides</button>
+  <button class="nav-tab" onclick="showSection('fertilisers')">Fertilisers</button>
+  <button class="nav-tab" onclick="showSection('calendar')">Seasonal Care</button>
+  <button class="nav-tab" onclick="showSection('products')">All Products</button>
+</div>
+
+<!-- Main Content Area -->
+<div class="desktop-main">
+<div class="content">
+
+<!-- ========== GRASS TYPES ========== -->
+<div class="section active" id="sec-grass">
+
+<div class="card">
+  <h2>Warm-Season Grasses</h2>
+  <p>Best suited for most of Australia. Thrive in temperatures of 25&ndash;35&deg;C. Active in spring/summer, semi-dormant in winter.</p>
+</div>
+
+<div class="grass-grid">
+
+<div class="grass-card grass-warm">
+  <div class="grass-card-header">Buffalo (Stenotaphrum secundatum)</div>
+  <div class="grass-card-body">
+    <div class="grass-card-body-flex">
+      <div class="grass-thumb-wrap loading" id="grass-thumb-buffalo">🌱</div>
+      <div class="grass-detail-col">
+        <p>Australia's most popular lawn grass. Broad leaf, excellent shade tolerance, low maintenance. Modern soft-leaf varieties (Sir Walter DNA Certified, Sapphire, Palmetto, Prestige) are softer to touch than old-style buffalo.</p>
+        <p><strong>Popular varieties:</strong> Sir Walter DNA Certified, Sapphire Soft Leaf, Palmetto, Matilda, Prestige</p>
+      </div>
+    </div>
+    <span class="grass-stat">Mow: 30&ndash;50 mm</span>
+    <span class="grass-stat">Shade: Excellent</span>
+    <span class="grass-stat">Drought: Good</span>
+    <span class="grass-stat">Wear: Moderate</span>
+    <span class="grass-stat">Salt: Good</span>
+    <p style="margin-top:8px"><strong>Best for:</strong> Family lawns, shaded areas, coastal regions. All climate zones except alpine.</p>
+    <p><strong>Key note:</strong> Many common herbicides (dicamba, certain phenoxys) will DAMAGE buffalo grass. Always check the label for buffalo safety before spraying.</p>
+    <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=Stenotaphrum+secundatum+buffalo+grass+lawn" target="_blank" rel="noopener">📷 View Images</a>
+  </div>
+</div>
+
+<div class="grass-card grass-warm">
+  <div class="grass-card-header">Couch / Bermuda (Cynodon dactylon)</div>
+  <div class="grass-card-body">
+    <div class="grass-card-body-flex">
+      <div class="grass-thumb-wrap loading" id="grass-thumb-couch">🌱</div>
+      <div class="grass-detail-col">
+        <p>Fine-textured, dense turf with excellent wear recovery. The most widely used sports turf grass in Australia. Requires more sun than buffalo but handles heavy foot traffic.</p>
+        <p><strong>Popular varieties:</strong> TifTuf Hybrid Bermuda, Wintergreen, Grand Prix, Legend Couch, Stadium</p>
+      </div>
+    </div>
+    <span class="grass-stat">Mow: 10&ndash;30 mm</span>
+    <span class="grass-stat">Shade: Poor</span>
+    <span class="grass-stat">Drought: Excellent</span>
+    <span class="grass-stat">Wear: Excellent</span>
+    <span class="grass-stat">Salt: Good</span>
+    <p style="margin-top:8px"><strong>Best for:</strong> Full-sun lawns, sports fields, high-traffic areas, warm climates (Qld, NSW, WA, SA).</p>
+    <p><strong>Key note:</strong> Susceptible to couch mite. Goes brown/dormant in winter in southern states. Tolerates most herbicides well.</p>
+    <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=Cynodon+dactylon+couch+grass+lawn" target="_blank" rel="noopener">📷 View Images</a>
+  </div>
+</div>
+
+<div class="grass-card grass-warm">
+  <div class="grass-card-header">Kikuyu (Cenchrus clandestinus)</div>
+  <div class="grass-card-body">
+    <div class="grass-card-body-flex">
+      <div class="grass-thumb-wrap loading" id="grass-thumb-kikuyu">🌱</div>
+      <div class="grass-detail-col">
+        <p>Extremely vigorous, fast-growing, and hard-wearing. Cheapest turf option. Can become invasive &mdash; requires regular edging. Bright lime-green colour.</p>
+        <p><strong>Popular varieties:</strong> Eureka Kikuyu, Kenda Kikuyu, Village Green</p>
+      </div>
+    </div>
+    <span class="grass-stat">Mow: 30&ndash;50 mm</span>
+    <span class="grass-stat">Shade: Moderate</span>
+    <span class="grass-stat">Drought: Good</span>
+    <span class="grass-stat">Wear: Excellent</span>
+    <span class="grass-stat">Salt: Poor</span>
+    <p style="margin-top:8px"><strong>Best for:</strong> Large areas, acreage, slopes, budget-friendly lawns. Popular in NSW, Vic, SA.</p>
+    <p><strong>Key note:</strong> Heavy thatch builder &mdash; needs regular dethatching. Aggressive runner can invade garden beds. Susceptible to Helminthosporium leaf spot.</p>
+    <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=Cenchrus+clandestinus+kikuyu+grass+lawn" target="_blank" rel="noopener">📷 View Images</a>
+  </div>
+</div>
+
+<div class="grass-card grass-warm">
+  <div class="grass-card-header">Zoysia (Zoysia spp.)</div>
+  <div class="grass-card-body">
+    <div class="grass-card-body-flex">
+      <div class="grass-thumb-wrap loading" id="grass-thumb-zoysia">🌱</div>
+      <div class="grass-detail-col">
+        <p>Dense, carpet-like turf with fine to medium leaves. Excellent drought and heat tolerance. Slower growing than couch or kikuyu, so lower maintenance once established.</p>
+        <p><strong>Popular varieties:</strong> Sir Grange Zoysia, Empire Zoysia, Nara Native Zoysia, Oz Tuff</p>
+      </div>
+    </div>
+    <span class="grass-stat">Mow: 10&ndash;50 mm</span>
+    <span class="grass-stat">Shade: Good</span>
+    <span class="grass-stat">Drought: Excellent</span>
+    <span class="grass-stat">Wear: Good</span>
+    <span class="grass-stat">Salt: Excellent</span>
+    <p style="margin-top:8px"><strong>Best for:</strong> Hot, dry climates (Qld, WA, SA, northern NSW). Low-water gardens, coastal areas.</p>
+    <p><strong>Key note:</strong> Slow to establish &mdash; takes 6&ndash;12 months for full coverage from turf. Very slow recovery from wear damage.</p>
+    <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=Zoysia+japonica+zoysia+grass+lawn" target="_blank" rel="noopener">📷 View Images</a>
+  </div>
+</div>
+</div>
+
+<div class="card" style="margin-top: 16px;">
+  <h2>Cool-Season Grasses</h2>
+  <p>Best for southern Australia (Vic, Tas, ACT, SA highlands). Active in autumn/spring, can struggle in hot summers.</p>
+</div>
+
+<div class="grass-grid">
+<div class="grass-card grass-cool">
+  <div class="grass-card-header">Tall Fescue (Festuca arundinacea)</div>
+  <div class="grass-card-body">
+    <div class="grass-card-body-flex">
+      <div class="grass-thumb-wrap loading" id="grass-thumb-fescue">🌱</div>
+      <div class="grass-detail-col">
+        <p>Broad-bladed cool-season grass with deep roots giving excellent drought tolerance for a cool-season type. Stays green year-round in mild climates. Good shade tolerance.</p>
+        <p><strong>Popular varieties:</strong> RTF (Rhizomatous Tall Fescue), Houndog, Arid 3, Marathon</p>
+      </div>
+    </div>
+    <span class="grass-stat">Mow: 40&ndash;75 mm</span>
+    <span class="grass-stat">Shade: Good</span>
+    <span class="grass-stat">Drought: Good</span>
+    <span class="grass-stat">Wear: Moderate</span>
+    <p style="margin-top:8px"><strong>Best for:</strong> Melbourne, Canberra, Hobart, Adelaide Hills. Year-round green lawns in cool climates.</p>
+    <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=Festuca+arundinacea+tall+fescue+lawn" target="_blank" rel="noopener">📷 View Images</a>
+  </div>
+</div>
+
+<div class="grass-card grass-cool">
+  <div class="grass-card-header">Perennial Ryegrass (Lolium perenne)</div>
+  <div class="grass-card-body">
+    <div class="grass-card-body-flex">
+      <div class="grass-thumb-wrap loading" id="grass-thumb-ryegrass">🌱</div>
+      <div class="grass-detail-col">
+        <p>Fine-textured, fast-germinating cool-season grass. Often used for winter oversowing of couch lawns to maintain green colour year-round. Struggles in hot summers.</p>
+        <p><strong>Popular varieties:</strong> Jackaroo, Colosseum, Horizon, Jumpstart</p>
+      </div>
+    </div>
+    <span class="grass-stat">Mow: 25&ndash;50 mm</span>
+    <span class="grass-stat">Shade: Moderate</span>
+    <span class="grass-stat">Drought: Poor</span>
+    <span class="grass-stat">Wear: Good</span>
+    <p style="margin-top:8px"><strong>Best for:</strong> Winter oversowing, cool southern climates, sports turf (Vic, Tas, ACT). Fast repair from seed.</p>
+    <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=Lolium+perenne+perennial+ryegrass+lawn" target="_blank" rel="noopener">📷 View Images</a>
+  </div>
+</div>
+</div>
+
+<div class="card" style="margin-top: 16px;">
+  <h2>Mowing Height Quick Reference</h2>
+  <table class="product-table">
+    <thead><tr><th>Grass Type</th><th>Summer (mm)</th><th>Winter (mm)</th><th>Frequency</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Buffalo</strong></td><td>35&ndash;50</td><td>40&ndash;60</td><td>Every 7&ndash;14 days</td></tr>
+      <tr><td><strong>Couch</strong></td><td>10&ndash;25</td><td>15&ndash;30</td><td>Every 5&ndash;10 days</td></tr>
+      <tr><td><strong>Kikuyu</strong></td><td>30&ndash;40</td><td>35&ndash;50</td><td>Every 5&ndash;10 days</td></tr>
+      <tr><td><strong>Zoysia</strong></td><td>10&ndash;35</td><td>20&ndash;40</td><td>Every 10&ndash;21 days</td></tr>
+      <tr><td><strong>Tall Fescue</strong></td><td>50&ndash;75</td><td>50&ndash;65</td><td>Every 7&ndash;14 days</td></tr>
+      <tr><td><strong>Perennial Ryegrass</strong></td><td>25&ndash;40</td><td>30&ndash;50</td><td>Every 7&ndash;10 days</td></tr>
+    </tbody>
+  </table>
+  <p style="font-size:0.78em; color:var(--text-sub); margin-top:8px;">Rule of thumb: never remove more than one-third of the leaf blade in a single mow. Raise the height in summer to protect roots from heat stress.</p>
+</div>
+
+</div>
+
+<!-- ========== WEEDS ========== -->
+<div class="section" id="sec-weeds">
+<div class="card">
+  <h2>Common Australian Lawn Weeds</h2>
+  <p>Weeds are classified as broadleaf, grassy, or sedge. This determines which herbicide type to use.</p>
+</div>
+
+<input type="text" class="search-box" id="weedSearch" placeholder="Search weeds..." oninput="filterCards('weedSearch','weed-list')">
+
+<div id="weed-list">
+
+<div class="problem-card" data-search="bindii jo jo soliva sessilis prickle broadleaf">
+  <div class="card-with-thumb">
+    <div class="card-thumb-wrap loading" id="weed-thumb-bindii">🌿</div>
+    <div class="card-detail-col">
+      <h4>Bindii (Jo-Jo)</h4>
+      <div class="sci-name">Soliva sessilis</div>
+      <span class="problem-tag tag-broadleaf">Broadleaf</span>
+    </div>
+  </div>
+  <p><strong>ID:</strong> Low-growing rosette with finely divided carrot-like leaves. In spring, forms hard seed capsules with painful spurs at ground level.</p>
+  <p><strong>Season:</strong> Germinates autumn, flowers late winter/spring. Treat before seed heads form (June&ndash;August).</p>
+  <p><strong>Control:</strong> Bromoxynil + MCPA (All Purpose Weed Control, Bin-Die) or Bow and Arrow (MCPA + clopyralid + diflufenican). Apply in winter before prickles set.</p>
+  <div style="margin-top:8px">
+    <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=Soliva+sessilis+bindii+lawn+weed" target="_blank" rel="noopener">📷 View Images</a>
+    <a class="prod-link-btn" href="Source labels/Nufarm_Dicamba_M_Herbicide_Label.pdf" target="_blank">🏷 Dicamba M</a>
+    <a class="prod-link-btn" href="Source labels/Corteva_Lontrel_Advanced_Herbicide_Label.pdf" target="_blank">🏷 Lontrel Advanced</a>
+  </div>
+</div>
+
+<div class="problem-card" data-search="white clover trifolium repens broadleaf">
+  <div class="card-with-thumb">
+    <div class="card-thumb-wrap loading" id="weed-thumb-clover">🌿</div>
+    <div class="card-detail-col">
+      <h4>White Clover</h4>
+      <div class="sci-name">Trifolium repens</div>
+      <span class="problem-tag tag-broadleaf">Broadleaf</span>
+    </div>
+  </div>
+  <p><strong>ID:</strong> Three oval-shaped leaflets with white V-shaped markings. White to pink ball-shaped flowers. Creeping stems that root at nodes.</p>
+  <p><strong>Season:</strong> Year-round, most active spring/autumn.</p>
+  <p><strong>Control:</strong> MCPA, dicamba + MCPA (Dicamba M), or clopyralid (Lontrel). Clover indicates low nitrogen &mdash; increase fertiliser.</p>
+  <div style="margin-top:8px">
+    <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=Trifolium+repens+white+clover+lawn+weed" target="_blank" rel="noopener">📷 View Images</a>
+    <a class="prod-link-btn" href="Source labels/Nufarm_Dicamba_M_Herbicide_Label.pdf" target="_blank">🏷 Dicamba M</a>
+    <a class="prod-link-btn" href="Source labels/Corteva_Lontrel_Advanced_Herbicide_Label.pdf" target="_blank">🏷 Lontrel Advanced</a>
+  </div>
+</div>
+
+<div class="problem-card" data-search="nutgrass purple nutsedge cyperus rotundus sedge">
+  <div class="card-with-thumb">
+    <div class="card-thumb-wrap loading" id="weed-thumb-nutgrass">🌿</div>
+    <div class="card-detail-col">
+      <h4>Nutgrass</h4>
+      <div class="sci-name">Cyperus rotundus</div>
+      <span class="problem-tag tag-sedge">Sedge</span>
+    </div>
+  </div>
+  <p><strong>ID:</strong> Triangular stems (roll between fingers &mdash; you'll feel the edges). Glossy narrow leaves, reddish-brown seed heads. Underground tubers (nuts) make it very persistent.</p>
+  <p><strong>Season:</strong> Active spring/summer. Spreads aggressively via underground tubers.</p>
+  <p><strong>Control:</strong> Halosulfuron-methyl (Sempra) is the most effective selective option. Monument (trifloxysulfuron) also works. Very difficult to eradicate &mdash; multiple applications needed.</p>
+  <div style="margin-top:8px">
+    <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=Cyperus+rotundus+nutgrass+lawn+weed" target="_blank" rel="noopener">📷 View Images</a>
+    <a class="prod-link-btn" href="Source labels/Nufarm_Sempra_Label.pdf" target="_blank">🏷 Sempra</a>
+  </div>
+</div>
+
+<div class="problem-card" data-search="onion weed nothoscordum inodorum grassy bulb">
+  <div class="card-with-thumb">
+    <div class="card-thumb-wrap loading" id="weed-thumb-onionweed">🌿</div>
+    <div class="card-detail-col">
+      <h4>Onion Weed</h4>
+      <div class="sci-name">Nothoscordum inodorum</div>
+      <span class="problem-tag tag-grassy">Bulbous weed</span>
+    </div>
+  </div>
+  <p><strong>ID:</strong> Thin, strappy leaves 15&ndash;30 cm long rising from a central bulb. White star-shaped flowers on tall stems. Smells faintly of onion when crushed. Spreads by bulbils.</p>
+  <p><strong>Season:</strong> Year-round, flowers spring/summer.</p>
+  <p><strong>Control:</strong> Very difficult. Hand dig ensuring all bulbils removed. No highly effective selective herbicide &mdash; spot-treat with glyphosate (kills surrounding grass). Repeated treatment over multiple seasons.</p>
+  <div style="margin-top:8px">
+    <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=Nothoscordum+inodorum+onion+weed" target="_blank" rel="noopener">📷 View Images</a>
+  </div>
+</div>
+
+<div class="problem-card" data-search="winter grass annual meadow poa annua grassy">
+  <div class="card-with-thumb">
+    <div class="card-thumb-wrap loading" id="weed-thumb-wintergrass">🌿</div>
+    <div class="card-detail-col">
+      <h4>Winter Grass (Annual Meadow Grass)</h4>
+      <div class="sci-name">Poa annua</div>
+      <span class="problem-tag tag-grassy">Grassy weed</span>
+    </div>
+  </div>
+  <p><strong>ID:</strong> Light green tufted grass with boat-shaped leaf tips. Produces white seed heads at low mowing heights. Lighter colour than surrounding turf.</p>
+  <p><strong>Season:</strong> Germinates autumn (Feb&ndash;May), active through winter, dies in summer heat.</p>
+  <p><strong>Control:</strong> Pre-emergent herbicides are best: prodiamine (Barricade, Spartan), oxadiazon (Ronstar, Oxafert), pendimethalin (Stomp). Apply late summer/early autumn before germination. Post-emergent: Monument (trifloxysulfuron) on couch only.</p>
+  <div style="margin-top:8px">
+    <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=Poa+annua+winter+grass+lawn+weed" target="_blank" rel="noopener">📷 View Images</a>
+  </div>
+</div>
+
+<div class="problem-card" data-search="summer grass digitaria crabgrass grassy">
+  <div class="card-with-thumb">
+    <div class="card-thumb-wrap loading" id="weed-thumb-summergrass">🌿</div>
+    <div class="card-detail-col">
+      <h4>Summer Grass (Crabgrass)</h4>
+      <div class="sci-name">Digitaria spp.</div>
+      <span class="problem-tag tag-grassy">Grassy weed</span>
+    </div>
+  </div>
+  <p><strong>ID:</strong> Low-growing, spreading grass with flat stems that radiate outward from a central point. Finger-like seed heads. Light green colour, coarser than couch.</p>
+  <p><strong>Season:</strong> Germinates spring (Sept&ndash;Nov), active through summer, dies with first frosts.</p>
+  <p><strong>Control:</strong> Pre-emergent: prodiamine (Barricade), oxadiazon (Oxafert, Ronstar). Apply in early spring before soil temps reach 14&deg;C. Post-emergent: DSMA (couch only &mdash; check label for other grasses), quinclorac.</p>
+  <div style="margin-top:8px">
+    <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=Digitaria+sanguinalis+summer+grass+crabgrass+lawn+weed" target="_blank" rel="noopener">📷 View Images</a>
+  </div>
+</div>
+
+<div class="problem-card" data-search="crowsfoot goosegrass eleusine indica grassy">
+  <div class="card-with-thumb">
+    <div class="card-thumb-wrap loading" id="weed-thumb-crowsfoot">🌿</div>
+    <div class="card-detail-col">
+      <h4>Crowsfoot (Goosegrass)</h4>
+      <div class="sci-name">Eleusine indica</div>
+      <span class="problem-tag tag-grassy">Grassy weed</span>
+    </div>
+  </div>
+  <p><strong>ID:</strong> Flat, silvery-white centre with dark green leaves radiating outward. Distinctive finger-like seed heads (2&ndash;7 spikes). Tough, wiry stems.</p>
+  <p><strong>Season:</strong> Summer annual, germinates late spring.</p>
+  <p><strong>Control:</strong> Pre-emergent: prodiamine (Barricade), oxadiazon. Post-emergent: DSMA (couch only). Hand removal effective for small infestations.</p>
+  <div style="margin-top:8px">
+    <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=Eleusine+indica+crowsfoot+goosegrass+lawn+weed" target="_blank" rel="noopener">📷 View Images</a>
+  </div>
+</div>
+
+<div class="problem-card" data-search="paspalum paspalum dilatatum grassy">
+  <div class="card-with-thumb">
+    <div class="card-thumb-wrap loading" id="weed-thumb-paspalum">🌿</div>
+    <div class="card-detail-col">
+      <h4>Paspalum</h4>
+      <div class="sci-name">Paspalum dilatatum</div>
+      <span class="problem-tag tag-grassy">Grassy weed</span>
+    </div>
+  </div>
+  <p><strong>ID:</strong> Clumping perennial grass with broad, coarse leaves. Produces distinctive V-shaped seed heads with sticky seeds. Darker green than most lawn grasses.</p>
+  <p><strong>Season:</strong> Active spring through autumn.</p>
+  <p><strong>Control:</strong> No effective selective herbicide for paspalum in most warm-season lawns. DSMA provides suppression only. Spot-treat with glyphosate or hand dig. Prevention via dense, healthy turf.</p>
+  <div style="margin-top:8px">
+    <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=Paspalum+dilatatum+paspalum+lawn+weed" target="_blank" rel="noopener">📷 View Images</a>
+  </div>
+</div>
+
+<div class="problem-card" data-search="dandelion taraxacum officinale broadleaf">
+  <div class="card-with-thumb">
+    <div class="card-thumb-wrap loading" id="weed-thumb-dandelion">🌿</div>
+    <div class="card-detail-col">
+      <h4>Dandelion</h4>
+      <div class="sci-name">Taraxacum officinale</div>
+      <span class="problem-tag tag-broadleaf">Broadleaf</span>
+    </div>
+  </div>
+  <p><strong>ID:</strong> Rosette of deeply toothed leaves. Yellow flower heads on hollow stalks that become white fluffy seed balls. Deep taproot.</p>
+  <p><strong>Season:</strong> Year-round, flowers mainly spring.</p>
+  <p><strong>Control:</strong> MCPA, dicamba + MCPA, bromoxynil + MCPA. Easily controlled with most broadleaf selective herbicides. Ensure taproot removal if hand pulling.</p>
+  <div style="margin-top:8px">
+    <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=Taraxacum+officinale+dandelion+lawn+weed" target="_blank" rel="noopener">📷 View Images</a>
+    <a class="prod-link-btn" href="Source labels/Nufarm_Dicamba_M_Herbicide_Label.pdf" target="_blank">🏷 Dicamba M</a>
+  </div>
+</div>
+
+<div class="problem-card" data-search="creeping oxalis oxalis corniculata broadleaf">
+  <div class="card-with-thumb">
+    <div class="card-thumb-wrap loading" id="weed-thumb-oxalis">🌿</div>
+    <div class="card-detail-col">
+      <h4>Creeping Oxalis</h4>
+      <div class="sci-name">Oxalis corniculata</div>
+      <span class="problem-tag tag-broadleaf">Broadleaf</span>
+    </div>
+  </div>
+  <p><strong>ID:</strong> Clover-like with three heart-shaped leaflets (often purplish). Small yellow flowers. Explosive seed capsules that shoot seeds when touched.</p>
+  <p><strong>Season:</strong> Year-round, most aggressive spring/summer.</p>
+  <p><strong>Control:</strong> Pre-emergent: oxadiazon (Oxafert). Post-emergent: dicamba + MCPA, or bromoxynil + MCPA. Multiple applications usually needed. Very persistent.</p>
+  <div style="margin-top:8px">
+    <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=Oxalis+corniculata+creeping+oxalis+lawn+weed" target="_blank" rel="noopener">📷 View Images</a>
+    <a class="prod-link-btn" href="Source labels/Nufarm_Dicamba_M_Herbicide_Label.pdf" target="_blank">🏷 Dicamba M</a>
+  </div>
+</div>
+
+<div class="problem-card" data-search="cudweed gnaphalium broadleaf">
+  <div class="card-with-thumb">
+    <div class="card-thumb-wrap loading" id="weed-thumb-cudweed">🌿</div>
+    <div class="card-detail-col">
+      <h4>Cudweed</h4>
+      <div class="sci-name">Gamochaeta spp.</div>
+      <span class="problem-tag tag-broadleaf">Broadleaf</span>
+    </div>
+  </div>
+  <p><strong>ID:</strong> Woolly/silvery rosette leaves close to the ground. Upright flower stems with clusters of small brownish flowers. Soft, fuzzy feel.</p>
+  <p><strong>Season:</strong> Autumn/winter/spring.</p>
+  <p><strong>Control:</strong> Bromoxynil + MCPA, dicamba + MCPA. Responds well to most broadleaf selective herbicides.</p>
+  <div style="margin-top:8px">
+    <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=Gamochaeta+purpurea+cudweed+lawn+weed" target="_blank" rel="noopener">📷 View Images</a>
+    <a class="prod-link-btn" href="Source labels/Nufarm_Dicamba_M_Herbicide_Label.pdf" target="_blank">🏷 Dicamba M</a>
+  </div>
+</div>
+
+<div class="problem-card" data-search="plantain plantago major broadleaf">
+  <div class="card-with-thumb">
+    <div class="card-thumb-wrap loading" id="weed-thumb-plantain">🌿</div>
+    <div class="card-detail-col">
+      <h4>Plantain</h4>
+      <div class="sci-name">Plantago major / P. lanceolata</div>
+      <span class="problem-tag tag-broadleaf">Broadleaf</span>
+    </div>
+  </div>
+  <p><strong>ID:</strong> Broad oval leaves (broadleaf plantain) or narrow lance-shaped leaves (narrow-leaf plantain) in a rosette. Prominent parallel veins. Tall seed spikes.</p>
+  <p><strong>Season:</strong> Year-round.</p>
+  <p><strong>Control:</strong> MCPA, dicamba + MCPA, bromoxynil + MCPA. Hand dig for small numbers &mdash; ensure taproot removed.</p>
+  <div style="margin-top:8px">
+    <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=Plantago+major+plantain+lawn+weed" target="_blank" rel="noopener">📷 View Images</a>
+    <a class="prod-link-btn" href="Source labels/Nufarm_Dicamba_M_Herbicide_Label.pdf" target="_blank">🏷 Dicamba M</a>
+  </div>
+</div>
+
+<div class="problem-card" data-search="mullumbimby couch kyllinga brevifolia sedge">
+  <div class="card-with-thumb">
+    <div class="card-thumb-wrap loading" id="weed-thumb-mullumbimby">🌿</div>
+    <div class="card-detail-col">
+      <h4>Mullumbimby Couch</h4>
+      <div class="sci-name">Kyllinga brevifolia</div>
+      <span class="problem-tag tag-sedge">Sedge</span>
+    </div>
+  </div>
+  <p><strong>ID:</strong> Looks like a miniature sedge/grass. Fine-textured, bright green, forms dense mats. Small round white/green flower heads on short stems. Triangular stems.</p>
+  <p><strong>Season:</strong> Active spring through autumn in warm, wet areas.</p>
+  <p><strong>Control:</strong> Halosulfuron-methyl (Sempra), Monument (trifloxysulfuron). Improving drainage reduces prevalence.</p>
+  <div style="margin-top:8px">
+    <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=Kyllinga+brevifolia+mullumbimby+couch+lawn+weed" target="_blank" rel="noopener">📷 View Images</a>
+    <a class="prod-link-btn" href="Source labels/Nufarm_Sempra_Label.pdf" target="_blank">🏷 Sempra</a>
+  </div>
+</div>
+
+<div class="problem-card" data-search="capeweed arctotheca calendula broadleaf">
+  <div class="card-with-thumb">
+    <div class="card-thumb-wrap loading" id="weed-thumb-capeweed">🌿</div>
+    <div class="card-detail-col">
+      <h4>Capeweed</h4>
+      <div class="sci-name">Arctotheca calendula</div>
+      <span class="problem-tag tag-broadleaf">Broadleaf</span>
+    </div>
+  </div>
+  <p><strong>ID:</strong> Large rosette with deeply lobed grey-green leaves, white-woolly underneath. Large yellow daisy-like flowers in spring.</p>
+  <p><strong>Season:</strong> Autumn/winter/spring annual.</p>
+  <p><strong>Control:</strong> Bromoxynil + MCPA, dicamba + MCPA. Responds well to most broadleaf herbicides. Treat while young, before flowering.</p>
+  <div style="margin-top:8px">
+    <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=Arctotheca+calendula+capeweed+lawn+weed" target="_blank" rel="noopener">📷 View Images</a>
+    <a class="prod-link-btn" href="Source labels/Nufarm_Dicamba_M_Herbicide_Label.pdf" target="_blank">🏷 Dicamba M</a>
+  </div>
+</div>
+
+<div class="problem-card" data-search="cat's ear hypochaeris radicata flatweed broadleaf">
+  <div class="card-with-thumb">
+    <div class="card-thumb-wrap loading" id="weed-thumb-catsear">🌿</div>
+    <div class="card-detail-col">
+      <h4>Cat's Ear (Flatweed)</h4>
+      <div class="sci-name">Hypochaeris radicata</div>
+      <span class="problem-tag tag-broadleaf">Broadleaf</span>
+    </div>
+  </div>
+  <p><strong>ID:</strong> Rosette of hairy, lobed leaves (similar to dandelion but with rounded lobes and hairy surface). Branched flower stems with yellow flowers. Multiple flower heads per stem (unlike dandelion which has one).</p>
+  <p><strong>Season:</strong> Year-round, flowers spring/summer.</p>
+  <p><strong>Control:</strong> MCPA, dicamba + MCPA, bromoxynil + MCPA. Easy to control with broadleaf herbicides.</p>
+  <div style="margin-top:8px">
+    <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=Hypochaeris+radicata+cats+ear+flatweed+lawn+weed" target="_blank" rel="noopener">📷 View Images</a>
+    <a class="prod-link-btn" href="Source labels/Nufarm_Dicamba_M_Herbicide_Label.pdf" target="_blank">🏷 Dicamba M</a>
+  </div>
+</div>
+
+</div>
+</div>
+
+<!-- ========== PESTS ========== -->
+<div class="section" id="sec-pests">
+<div class="card">
+  <h2>Common Australian Lawn Pests</h2>
+  <p>Most lawn damage in Australia is caused by root-feeding beetle larvae (curl grubs) and leaf-eating caterpillars (armyworm, sod webworm). Timing of treatment is critical.</p>
+</div>
+
+<div class="problem-card">
+  <div class="card-with-thumb">
+    <div class="card-thumb-wrap loading" id="pest-thumb-blackbeetle">🐛</div>
+    <div class="card-detail-col">
+      <h4>African Black Beetle</h4>
+      <div class="sci-name">Heteronychus arator</div>
+    </div>
+  </div>
+  <p><strong>ID:</strong> Adults are shiny black beetles 12&ndash;15 mm long with a broad shovel-like head. Larvae are creamy-white C-shaped curl grubs with brown heads, up to 25&ndash;30 mm.</p>
+  <p><strong>Damage:</strong> Larvae feed on grass roots causing brown patches that lift easily like a carpet. Adults chew stems at soil level. Birds digging in lawn indicates grubs.</p>
+  <p><strong>Season:</strong> Adults active Oct&ndash;Mar. Eggs laid Nov&ndash;Jan. Larvae peak damage Feb&ndash;May.</p>
+  <p><strong>Control:</strong> Preventative: Acelepryn (chlorantraniliprole) applied Nov&ndash;Dec gives 6 months protection. Curative: bifenthrin (Rumbler), beta-cyfluthrin (Baythroid Advanced), fipronil.</p>
+  <div style="margin-top:8px">
+    <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=Heteronychus+arator+african+black+beetle+lawn" target="_blank" rel="noopener">📷 View Images</a>
+  </div>
+</div>
+
+<div class="problem-card">
+  <div class="card-with-thumb">
+    <div class="card-thumb-wrap loading" id="pest-thumb-argentinescarab">🐛</div>
+    <div class="card-detail-col">
+      <h4>Argentine Scarab</h4>
+      <div class="sci-name">Cyclocephala signaticollis</div>
+    </div>
+  </div>
+  <p><strong>ID:</strong> Adults are tan-brown beetles similar in size to African Black Beetle but lighter with faint wing-cover stripes. Larvae are white curl grubs, slightly smaller.</p>
+  <p><strong>Damage:</strong> Larvae feed on roots, causing spongy turf and brown patches. Can reach 350+ larvae per m&sup2; in severe infestations.</p>
+  <p><strong>Season:</strong> Adults active Nov&ndash;Feb. Larvae feeding Dec&ndash;May.</p>
+  <p><strong>Control:</strong> Acelepryn (chlorantraniliprole) for prevention. Bifenthrin for active infestations. Same approach as African Black Beetle.</p>
+  <div style="margin-top:8px">
+    <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=Cyclocephala+signaticollis+argentine+scarab+lawn+grub" target="_blank" rel="noopener">📷 View Images</a>
+  </div>
+</div>
+
+<div class="problem-card">
+  <div class="card-with-thumb">
+    <div class="card-thumb-wrap loading" id="pest-thumb-armyworm">🐛</div>
+    <div class="card-detail-col">
+      <h4>Lawn Armyworm</h4>
+      <div class="sci-name">Spodoptera mauritia</div>
+    </div>
+  </div>
+  <p><strong>ID:</strong> Caterpillars up to 40 mm, dark green/brown with pale stripes along the body. Feed at night, hide in thatch during the day. Moths are grey-brown.</p>
+  <p><strong>Damage:</strong> Chew grass blades, often creating large areas of closely-cropped or bare turf almost overnight. Feed in "armies" moving across the lawn.</p>
+  <p><strong>Season:</strong> Most active late summer/autumn (Feb&ndash;May) in warm, humid conditions.</p>
+  <p><strong>Control:</strong> Fast-acting: bifenthrin (Rumbler, Battle), beta-cyfluthrin (Baythroid Advanced). Preventative: Acelepryn. Apply late afternoon for best caterpillar contact. Water in lightly.</p>
+  <div style="margin-top:8px">
+    <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=Spodoptera+mauritia+lawn+armyworm+caterpillar" target="_blank" rel="noopener">📷 View Images</a>
+  </div>
+</div>
+
+<div class="problem-card">
+  <div class="card-with-thumb">
+    <div class="card-thumb-wrap loading" id="pest-thumb-webworm">🐛</div>
+    <div class="card-detail-col">
+      <h4>Sod Webworm</h4>
+      <div class="sci-name">Herpetogramma licarsisalis</div>
+    </div>
+  </div>
+  <p><strong>ID:</strong> Small cream/brown caterpillars (20&ndash;25 mm) that live in silk-lined tunnels in the thatch layer. Adults are small fawn moths that fly up when you walk across the lawn at dusk.</p>
+  <p><strong>Damage:</strong> Chew grass blades at the base, leaving small irregular brown patches. Green frass (droppings) visible in thatch.</p>
+  <p><strong>Season:</strong> Spring through autumn, multiple generations.</p>
+  <p><strong>Control:</strong> Bifenthrin, Acelepryn. Water the lawn first to bring larvae to the surface, then apply insecticide late afternoon.</p>
+  <div style="margin-top:8px">
+    <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=Herpetogramma+licarsisalis+sod+webworm+lawn" target="_blank" rel="noopener">📷 View Images</a>
+  </div>
+</div>
+
+<div class="problem-card">
+  <div class="card-with-thumb">
+    <div class="card-thumb-wrap loading" id="pest-thumb-billbug">🐛</div>
+    <div class="card-detail-col">
+      <h4>Billbug (La Plata Weevil)</h4>
+      <div class="sci-name">Sphenophorus brunnipennis</div>
+    </div>
+  </div>
+  <p><strong>ID:</strong> Snouted weevils 10&ndash;13 mm long, dark brown/black. Larvae are creamy-white legless grubs with orange heads found inside grass stems and crowns.</p>
+  <p><strong>Damage:</strong> Larvae bore into stems and crowns, causing yellowing and thinning. Turf pulls up easily. Sawdust-like frass at the base of stems.</p>
+  <p><strong>Season:</strong> Adults active spring. Larvae damage peaks summer/autumn.</p>
+  <p><strong>Control:</strong> Acelepryn (preventative, very effective), bifenthrin. Keep lawn healthy and well-fertilised to outgrow mild damage.</p>
+  <div style="margin-top:8px">
+    <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=Sphenophorus+brunnipennis+billbug+lawn+weevil" target="_blank" rel="noopener">📷 View Images</a>
+  </div>
+</div>
+
+<div class="problem-card">
+  <div class="card-with-thumb">
+    <div class="card-thumb-wrap loading" id="pest-thumb-couchmite">🐛</div>
+    <div class="card-detail-col">
+      <h4>Couch Mite (Couch Grass Mite)</h4>
+      <div class="sci-name">Aceria cynodoniensis</div>
+    </div>
+  </div>
+  <p><strong>ID:</strong> Microscopic eriophyid mites &mdash; invisible to the naked eye. Diagnosis is by symptoms only: "witches broom" rosette growth at nodes, shortened internodes, tufted distorted growth.</p>
+  <p><strong>Damage:</strong> Causes stunted, tufted "witches broom" growth in couch grass. Affected areas appear clumpy and fail to form smooth turf.</p>
+  <p><strong>Season:</strong> Year-round, worst in warm conditions.</p>
+  <p><strong>Control:</strong> Abamectin (Agador), or mite growth regulators (Finesse &mdash; hexythiazox). No fast knockdown &mdash; ongoing treatment needed. Remove heavily affected turf and replace.</p>
+  <div style="margin-top:8px">
+    <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=couch+mite+witches+broom+bermuda+grass+Aceria+cynodoniensis" target="_blank" rel="noopener">📷 View Images</a>
+  </div>
+</div>
+
+<div class="problem-card">
+  <div class="card-with-thumb">
+    <div class="card-thumb-wrap loading" id="pest-thumb-molecricket">🐛</div>
+    <div class="card-detail-col">
+      <h4>Mole Cricket</h4>
+      <div class="sci-name">Gryllotalpa spp.</div>
+    </div>
+  </div>
+  <p><strong>ID:</strong> Large (30&ndash;50 mm) cylindrical insects with powerful shovel-like front legs for burrowing. Velvety brown body. Active at night &mdash; creates raised tunnels visible on the surface.</p>
+  <p><strong>Damage:</strong> Tunnelling uproots grass and severs roots. Some species also feed on roots. Raised soil mounds and tunnels visible. Worst on sandy soils.</p>
+  <p><strong>Season:</strong> Active spring/summer.</p>
+  <p><strong>Control:</strong> Bifenthrin (apply evening, water in). Fipronil granules. Acelepryn for long-term control. Apply when surface is moist and mole crickets are near the surface.</p>
+  <div style="margin-top:8px">
+    <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=Gryllotalpa+mole+cricket+lawn+damage" target="_blank" rel="noopener">📷 View Images</a>
+  </div>
+</div>
+
+<div class="problem-card">
+  <div class="card-with-thumb">
+    <div class="card-thumb-wrap loading" id="pest-thumb-cutworm">🐛</div>
+    <div class="card-detail-col">
+      <h4>Black Cutworm</h4>
+      <div class="sci-name">Agrotis ipsilon</div>
+    </div>
+  </div>
+  <p><strong>ID:</strong> Dark grey/brown caterpillars up to 45 mm that curl into a C-shape when disturbed. Feed at night, hide in burrows during the day.</p>
+  <p><strong>Damage:</strong> Cut grass stems at ground level, creating circular bare patches (especially in newly laid turf). Burrows with green frass at entrance.</p>
+  <p><strong>Season:</strong> Spring through autumn.</p>
+  <p><strong>Control:</strong> Bifenthrin, beta-cyfluthrin, Acelepryn. Apply late afternoon. Keep thatch levels down to reduce harbourage.</p>
+  <div style="margin-top:8px">
+    <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=Agrotis+ipsilon+black+cutworm+caterpillar+lawn" target="_blank" rel="noopener">📷 View Images</a>
+  </div>
+</div>
+
+<div class="problem-card">
+  <div class="card-with-thumb">
+    <div class="card-thumb-wrap loading" id="pest-thumb-fallarmyworm">🐛</div>
+    <div class="card-detail-col">
+      <h4>Fall Armyworm</h4>
+      <div class="sci-name">Spodoptera frugiperda</div>
+    </div>
+  </div>
+  <p><strong>ID:</strong> Caterpillars up to 35 mm with a distinctive inverted Y-shaped marking on the head. Body colour varies from green to brown/black with three pale dorsal stripes. Larger larvae have dark spots with short spines. Moths are grey-brown with mottled forewings.</p>
+  <p><strong>Damage:</strong> Aggressive leaf feeder &mdash; can devastate a lawn within days. Chews through grass blades from the edges, creating ragged transparent "window pane" damage. Feeds both day and night unlike native armyworm.</p>
+  <p><strong>Season:</strong> Year-round in tropical/subtropical regions. Active spring through autumn in temperate areas. Classified as endemic in Australia since detection in 2020 &mdash; now present in all states except SA and Tas.</p>
+  <p><strong>Control:</strong> Same products as native armyworm: Acelepryn (preventative), bifenthrin (Rumbler, Battle), beta-cyfluthrin (Baythroid Advanced) for active infestations. Apply late afternoon. Early detection is critical &mdash; check for frass and chewed leaf edges regularly.</p>
+  <div style="margin-top:8px">
+    <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=Spodoptera+frugiperda+fall+armyworm+caterpillar" target="_blank" rel="noopener">📷 View Images</a>
+  </div>
+</div>
+
+<div class="problem-card">
+  <div class="card-with-thumb">
+    <div class="card-thumb-wrap loading" id="pest-thumb-ants">🐛</div>
+    <div class="card-detail-col">
+      <h4>Ants (Various species)</h4>
+      <div class="sci-name">Aphaenogaster spp. / Iridomyrmex spp.</div>
+    </div>
+  </div>
+  <p><strong>ID:</strong> Various species build mounds in lawns, undermining root zones and creating uneven surfaces. Funnel ants (Aphaenogaster) are worst in sandy soils.</p>
+  <p><strong>Damage:</strong> Mound building creates bumpy surface and smothers grass. Excavations undermine root zones.</p>
+  <p><strong>Control:</strong> Bifenthrin granules or liquid applied to mounds and watered in. Fipronil-based baits. For funnel ants: liquid bifenthrin poured into nest holes.</p>
+  <div style="margin-top:8px">
+    <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=funnel+ants+lawn+Australia+Aphaenogaster" target="_blank" rel="noopener">📷 View Images</a>
+  </div>
+</div>
+
+</div>
+
+<!-- ========== DISEASES ========== -->
+<div class="section" id="sec-diseases">
+<div class="card">
+  <h2>Common Australian Lawn Diseases</h2>
+  <p>Most lawn diseases are fungal and thrive in specific temperature and moisture conditions. Correct identification is critical &mdash; treating the wrong disease wastes time and money.</p>
+</div>
+
+<div class="problem-card">
+  <div class="card-with-thumb">
+    <div class="card-thumb-wrap loading" id="disease-thumb-brownpatch">🍂</div>
+    <div class="card-detail-col">
+      <h4>Brown Patch</h4>
+      <div class="sci-name">Rhizoctonia solani</div>
+    </div>
+  </div>
+  <p><strong>Affects:</strong> All grass types, especially tall fescue, ryegrass, couch, buffalo.</p>
+  <p><strong>ID:</strong> Circular brown/tan patches 15 cm to 1 m+ diameter. Dark "smoke ring" border visible in early morning dew on actively spreading patches. Leaves pull easily from the sheath.</p>
+  <p><strong>Conditions:</strong> Warm humid weather (day temps 25&ndash;35&deg;C), night temps above 20&deg;C, prolonged leaf wetness.</p>
+  <p><strong>Control:</strong> Azoxystrobin (Heritage), propiconazole (Bumper), trifloxystrobin + tebuconazole (Edict Duo), iprodione (Voltar). Reduce evening watering, improve air circulation.</p>
+  <div style="margin-top:8px">
+    <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=Rhizoctonia+solani+brown+patch+lawn+disease" target="_blank" rel="noopener">📷 View Images</a>
+    <a class="prod-link-btn" href="Source labels/Adama_Bumper 625 EC_label.pdf" target="_blank">🏷 Bumper 625 EC</a>
+  </div>
+</div>
+
+<div class="problem-card">
+  <div class="card-with-thumb">
+    <div class="card-thumb-wrap loading" id="disease-thumb-dollarspot">🍂</div>
+    <div class="card-detail-col">
+      <h4>Dollar Spot</h4>
+      <div class="sci-name">Clarireedia jacksonii (formerly Sclerotinia homoeocarpa)</div>
+    </div>
+  </div>
+  <p><strong>Affects:</strong> Couch, zoysia, buffalo, bentgrass, ryegrass.</p>
+  <p><strong>ID:</strong> Small (20&ndash;50 mm) bleached straw-coloured spots, often with hourglass-shaped lesions on individual leaves. White cottony mycelium visible in morning dew.</p>
+  <p><strong>Conditions:</strong> Moderate temps (15&ndash;30&deg;C), heavy dew, low nitrogen fertility, dry soil with wet leaves.</p>
+  <p><strong>Control:</strong> Propiconazole (Bumper 625 EC), iprodione (Voltar), chlorothalonil (Chlortan 720), tebuconazole (Dedicate Forte). Increase nitrogen fertiliser &mdash; low N is a major contributor.</p>
+  <div style="margin-top:8px">
+    <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=dollar+spot+lawn+disease+Clarireedia" target="_blank" rel="noopener">📷 View Images</a>
+    <a class="prod-link-btn" href="Source labels/Adama_Bumper 625 EC_label.pdf" target="_blank">🏷 Bumper 625 EC</a>
+  </div>
+</div>
+
+<div class="problem-card">
+  <div class="card-with-thumb">
+    <div class="card-thumb-wrap loading" id="disease-thumb-helminth">🍂</div>
+    <div class="card-detail-col">
+      <h4>Helminthosporium Leaf Spot</h4>
+      <div class="sci-name">Bipolaris / Drechslera / Exserohilum spp.</div>
+    </div>
+  </div>
+  <p><strong>Affects:</strong> Kikuyu (especially), couch, buffalo, fescue, ryegrass.</p>
+  <p><strong>ID:</strong> Small brown to purple spots on leaf blades that enlarge into oval lesions. In kikuyu: pinhead-sized brown/purple spots. In couch: white or black blotching. Severe cases cause "melting out" where whole plants collapse.</p>
+  <p><strong>Conditions:</strong> Warm (20&ndash;30&deg;C), wet/humid weather. Worst with excessive nitrogen and low mowing height.</p>
+  <p><strong>Control:</strong> Chlorothalonil (Chlortan), propiconazole, azoxystrobin (Heritage), iprodione. Raise mowing height, reduce nitrogen in warm wet weather, improve drainage.</p>
+  <div style="margin-top:8px">
+    <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=Helminthosporium+leaf+spot+Bipolaris+lawn+turf+disease" target="_blank" rel="noopener">📷 View Images</a>
+    <a class="prod-link-btn" href="Source labels/Adama_Bumper 625 EC_label.pdf" target="_blank">🏷 Bumper 625 EC</a>
+  </div>
+</div>
+
+<div class="problem-card">
+  <div class="card-with-thumb">
+    <div class="card-thumb-wrap loading" id="disease-thumb-greyleaf">🍂</div>
+    <div class="card-detail-col">
+      <h4>Grey Leaf Spot</h4>
+      <div class="sci-name">Pyricularia grisea</div>
+    </div>
+  </div>
+  <p><strong>Affects:</strong> Perennial ryegrass, St. Augustine/buffalo grass.</p>
+  <p><strong>ID:</strong> Small olive-green spots that rapidly enlarge to tan/grey oval lesions with dark brown borders. Twisted, scorched-looking leaves. Can cause rapid thinning.</p>
+  <p><strong>Conditions:</strong> Hot (28&ndash;35&deg;C), humid, prolonged leaf wetness. Worst with excess nitrogen.</p>
+  <p><strong>Control:</strong> Azoxystrobin (Heritage), trifloxystrobin (Flint), chlorothalonil. Reduce nitrogen, avoid evening irrigation.</p>
+  <div style="margin-top:8px">
+    <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=Pyricularia+grisea+grey+leaf+spot+lawn+disease" target="_blank" rel="noopener">📷 View Images</a>
+  </div>
+</div>
+
+<div class="problem-card">
+  <div class="card-with-thumb">
+    <div class="card-thumb-wrap loading" id="disease-thumb-springdead">🍂</div>
+    <div class="card-detail-col">
+      <h4>Spring Dead Spot</h4>
+      <div class="sci-name">Ophiosphaerella spp.</div>
+    </div>
+  </div>
+  <p><strong>Affects:</strong> Couch grass (bermudagrass) &mdash; primarily in southern, cooler regions.</p>
+  <p><strong>ID:</strong> Circular dead patches (10&ndash;50 cm) that appear in spring as couch breaks dormancy. Dead areas are bleached and sunken. Roots are blackened and rotted. Patches reappear in the same location each year.</p>
+  <p><strong>Conditions:</strong> Cold winter temperatures, wet soils, high pH (alkaline). Disease infects roots in autumn but symptoms show in spring.</p>
+  <p><strong>Control:</strong> Preventative fungicides applied in autumn: propiconazole, tebuconazole, fenarimol. Aeration and improving drainage helps. Acidifying fertilisers (ammonium sulphate) can reduce severity.</p>
+  <div style="margin-top:8px">
+    <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=Ophiosphaerella+spring+dead+spot+couch+bermuda+lawn" target="_blank" rel="noopener">📷 View Images</a>
+  </div>
+</div>
+
+<div class="problem-card">
+  <div class="card-with-thumb">
+    <div class="card-thumb-wrap loading" id="disease-thumb-pythium">🍂</div>
+    <div class="card-detail-col">
+      <h4>Pythium Blight</h4>
+      <div class="sci-name">Pythium spp.</div>
+    </div>
+  </div>
+  <p><strong>Affects:</strong> All grass types, especially ryegrass, fescue in warm/wet conditions.</p>
+  <p><strong>ID:</strong> Greasy, dark, water-soaked patches that collapse rapidly. White cottony mycelium visible early morning. Grass feels slimy. Can kill turf in 24&ndash;48 hours in severe cases.</p>
+  <p><strong>Conditions:</strong> Hot (above 30&deg;C), humid, waterlogged. Poor drainage, over-irrigation, compacted soil.</p>
+  <p><strong>Control:</strong> Phosphorous acid (Phosphoguard), metalaxyl (Subdue), propamocarb. Improve drainage, reduce irrigation frequency, avoid mowing when wet.</p>
+  <div style="margin-top:8px">
+    <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=Pythium+blight+lawn+disease+turf" target="_blank" rel="noopener">📷 View Images</a>
+  </div>
+</div>
+
+<div class="problem-card">
+  <div class="card-with-thumb">
+    <div class="card-thumb-wrap loading" id="disease-thumb-fusarium">🍂</div>
+    <div class="card-detail-col">
+      <h4>Fusarium Patch (Microdochium Patch)</h4>
+      <div class="sci-name">Microdochium nivale (formerly Fusarium nivale)</div>
+    </div>
+  </div>
+  <p><strong>Affects:</strong> Ryegrass, fescue, bentgrass (cool-season grasses mainly).</p>
+  <p><strong>ID:</strong> Small water-soaked spots (2&ndash;5 cm) that enlarge to 20 cm, changing from tan to brown to light grey. Orange-brown margins. White/pink mycelium in humid conditions.</p>
+  <p><strong>Conditions:</strong> Cool to cold (0&ndash;16&deg;C), wet, overcast conditions. Excessive nitrogen in late autumn.</p>
+  <p><strong>Control:</strong> Iprodione (Voltar), propiconazole, fludioxonil (Medallion). Reduce autumn nitrogen, improve air movement, avoid late afternoon watering.</p>
+  <div style="margin-top:8px">
+    <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=Microdochium+nivale+fusarium+patch+lawn+disease" target="_blank" rel="noopener">📷 View Images</a>
+  </div>
+</div>
+
+<div class="problem-card">
+  <div class="card-with-thumb">
+    <div class="card-thumb-wrap loading" id="disease-thumb-rust">🍂</div>
+    <div class="card-detail-col">
+      <h4>Rust</h4>
+      <div class="sci-name">Puccinia spp.</div>
+    </div>
+  </div>
+  <p><strong>Affects:</strong> Ryegrass, zoysia, couch, buffalo.</p>
+  <p><strong>ID:</strong> Orange/yellow/brown dusty pustules on leaf blades and stems. Rubs off on fingers, shoes, and clothing. Affected grass looks yellowish-orange from a distance.</p>
+  <p><strong>Conditions:</strong> Moderate temps (15&ndash;25&deg;C), high humidity, low light, low nitrogen, drought stress.</p>
+  <p><strong>Control:</strong> Propiconazole, azoxystrobin, trifloxystrobin. Increase nitrogen and watering to promote vigorous growth &mdash; healthy turf outgrows mild rust infections.</p>
+  <div style="margin-top:8px">
+    <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=Puccinia+rust+lawn+grass+disease+turf" target="_blank" rel="noopener">📷 View Images</a>
+  </div>
+</div>
+
+</div>
+
+<!-- ========== HERBICIDES ========== -->
+<div class="section" id="sec-herbicides">
+<div class="card">
+  <h2>Lawn Herbicides &mdash; Australian Products</h2>
+  <p>Choosing the right herbicide depends on your grass type and the weed you're targeting. Buffalo grass is sensitive to many herbicides &mdash; always check the label.</p>
+</div>
+
+<div class="card">
+  <h3>Selective Post-Emergent Herbicides (broadleaf weeds)</h3>
+  <table class="product-table">
+    <thead><tr><th>Product</th><th>Active Ingredient(s)</th><th>Targets</th><th>Buffalo Safe?</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Bow and Arrow</strong></td><td>MCPA 300 g/L + Clopyralid 20 g/L + Diflufenican 15 g/L</td><td>Bindii, clover, dandelion, capeweed, cudweed, thistles, plantain</td><td class="safe">Yes</td></tr>
+      <tr><td><strong>All Purpose Weed Control (Amgrow)</strong></td><td>Bromoxynil 200 g/L + MCPA 200 g/L</td><td>Broadleaf weeds including bindii, clover, dandelion, capeweed</td><td class="safe">Yes (soft-leaf)</td></tr>
+      <tr><td><strong>Bin-Die</strong></td><td>Bromoxynil + MCPA</td><td>Bindii, clover, cudweed, capeweed</td><td class="safe">Yes (soft-leaf)</td></tr>
+      <tr><td><strong>Buffalo Weed Control (Yates)</strong></td><td>Bromoxynil + MCPA</td><td>Broadleaf weeds in buffalo lawns</td><td class="safe">Yes</td></tr>
+      <tr><td><strong>Dicamba M (Surefire)</strong> <a class="prod-link-btn" href="Source labels/Nufarm_Dicamba_M_Herbicide_Label.pdf" target="_blank">🏷 View Label</a></td><td>Dicamba 40 g/L + MCPA 340 g/L</td><td>Bindii, clover, dandelion, plantain, thistle, capeweed, oxalis</td><td class="danger">NO</td></tr>
+      <tr><td><strong>Kamba M (Nufarm)</strong> <a class="prod-link-btn" href="Source labels/Nufarm_KambaM_Label.pdf" target="_blank">🏷 View Label</a></td><td>Dicamba 40 g/L + MCPA 340 g/L</td><td>Broadleaf weeds in couch, kikuyu, zoysia lawns</td><td class="danger">NO</td></tr>
+      <tr><td><strong>Lontrel Advanced (Corteva)</strong> <a class="prod-link-btn" href="Source labels/Corteva_Lontrel_Advanced_Herbicide_Label.pdf" target="_blank">🏷 View Label</a></td><td>Clopyralid 600 g/L</td><td>Clover, thistles, capeweed, bindii</td><td class="safe">Yes</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="card">
+  <h3>Selective Post-Emergent Herbicides (grassy weeds &amp; sedges)</h3>
+  <table class="product-table">
+    <thead><tr><th>Product</th><th>Active Ingredient(s)</th><th>Targets</th><th>Notes</th></tr></thead>
+    <tbody>
+      <tr><td><strong>DSMA (Barmac/Apparent)</strong></td><td>DSMA 720 g/L</td><td>Summer grass, crabgrass, paspalum (suppression), crowsfoot</td><td>Safe on couch. NOT safe on kikuyu, buffalo, QLD blue couch. Zoysia not on label &mdash; check first</td></tr>
+      <tr><td><strong>Sempra (Nufarm)</strong> <a class="prod-link-btn" href="Source labels/Nufarm_Sempra_Label.pdf" target="_blank">🏷 View Label</a></td><td>Halosulfuron-methyl 750 g/kg</td><td>Nutgrass (purple nutsedge), Mullumbimby couch, sedges</td><td>Safe on most warm-season grasses. Best selective nutgrass control</td></tr>
+      <tr><td><strong>Monument Liquid (Syngenta)</strong></td><td>Trifloxysulfuron-sodium 750 g/kg</td><td>Winter grass, nutgrass, sedges, mullumbimby couch, paspalum (suppression)</td><td>Couch and zoysia lawns only. NOT for buffalo or kikuyu</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="card">
+  <h3>Pre-Emergent Herbicides</h3>
+  <table class="product-table">
+    <thead><tr><th>Product</th><th>Active Ingredient(s)</th><th>Targets</th><th>Duration</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Barricade (Syngenta)</strong></td><td>Prodiamine 480 g/L</td><td>Winter grass, summer grass, crabgrass, crowsfoot, annual grasses</td><td>Up to 6 months</td></tr>
+      <tr><td><strong>Spartan (Apparent)</strong></td><td>Prodiamine 500 g/L</td><td>Winter grass, summer grass, crabgrass, crowsfoot, annual grasses</td><td>Up to 6 months</td></tr>
+      <tr><td><strong>Oxafert (Lawn Solutions)</strong></td><td>Oxadiazon 10 g/kg + fertiliser</td><td>Winter grass, summer grass, crabgrass, creeping oxalis, crowsfoot</td><td>8&ndash;12 weeks</td></tr>
+      <tr><td><strong>Ronstar (Bayer)</strong></td><td>Oxadiazon 250 g/L</td><td>Winter grass, summer grass, crabgrass, crowsfoot</td><td>8&ndash;12 weeks</td></tr>
+      <tr><td><strong>Onset 10 GR (Indigo)</strong></td><td>Prodiamine 10 g/kg</td><td>Winter grass, summer grass, crabgrass, annual grasses</td><td>Up to 6 months</td></tr>
+      <tr><td><strong>Pendimethalin (various)</strong> <a class="prod-link-btn" href="Source labels/Nufarm_Pendimethalin440_Label.pdf" target="_blank">🏷 View Label</a></td><td>Pendimethalin 440 g/L</td><td>Annual ryegrass, winter grass, crabgrass</td><td>6&ndash;8 weeks</td></tr>
+    </tbody>
+  </table>
+  <p style="font-size:0.78em; margin-top:8px; color:var(--text-sub);"><strong>Timing:</strong> Apply pre-emergent for winter grass in Feb&ndash;April (before autumn germination). Apply for summer grass in Aug&ndash;Oct (before spring germination). Do not apply to newly seeded or newly turfed lawns.</p>
+</div>
+
+<div class="card">
+  <h3>Non-Selective Herbicides (spot treatment only)</h3>
+  <table class="product-table">
+    <thead><tr><th>Product</th><th>Active Ingredient(s)</th><th>Use</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Roundup / Zero (various)</strong></td><td>Glyphosate 360&ndash;540 g/L</td><td>Spot-painting individual weeds (paspalum, onion weed). Path/driveway knockdown. Will kill lawn if spray drifts.</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="card">
+  <h3>Herbicide Safety by Grass Type</h3>
+  <table class="safety-matrix">
+    <thead><tr><th>Active / Product</th><th>Buffalo</th><th>Couch</th><th>Kikuyu</th><th>Zoysia</th><th>Fescue</th></tr></thead>
+    <tbody>
+      <tr><td>Bromoxynil + MCPA (Bin-Die, Amgrow)</td><td class="safe">Safe</td><td class="safe">Safe</td><td class="safe">Safe</td><td class="safe">Safe</td><td class="caution">Check</td></tr>
+      <tr><td>Bow and Arrow (MCPA + clopyralid + diflufenican)</td><td class="safe">Safe</td><td class="safe">Safe</td><td class="safe">Safe</td><td class="safe">Safe</td><td class="caution">Check</td></tr>
+      <tr><td>Dicamba + MCPA</td><td class="danger">Damage</td><td class="safe">Safe</td><td class="safe">Safe</td><td class="caution">Caution</td><td class="safe">Safe</td></tr>
+      <tr><td>DSMA</td><td class="danger">Damage</td><td class="safe">Safe</td><td class="danger">Damage</td><td class="caution">Check</td><td class="danger">Damage</td></tr>
+      <tr><td>Prodiamine (pre-em)</td><td class="safe">Safe</td><td class="safe">Safe</td><td class="safe">Safe</td><td class="safe">Safe</td><td class="safe">Safe</td></tr>
+      <tr><td>Oxadiazon (pre-em)</td><td class="safe">Safe</td><td class="safe">Safe</td><td class="safe">Safe</td><td class="safe">Safe</td><td class="safe">Safe</td></tr>
+      <tr><td>Monument (trifloxysulfuron)</td><td class="danger">Damage</td><td class="safe">Safe</td><td class="danger">Damage</td><td class="safe">Safe</td><td class="danger">Damage</td></tr>
+      <tr><td>Sempra (halosulfuron)</td><td class="safe">Safe</td><td class="safe">Safe</td><td class="safe">Safe</td><td class="safe">Safe</td><td class="caution">Check</td></tr>
+      <tr><td>Clopyralid (Lontrel)</td><td class="safe">Safe</td><td class="safe">Safe</td><td class="safe">Safe</td><td class="safe">Safe</td><td class="safe">Safe</td></tr>
+    </tbody>
+  </table>
+  <p style="font-size:0.78em; margin-top:8px; color:var(--text-sub);"><strong>Always read the product label.</strong> "Safe" means the active is generally tolerated at label rates. Stress, heat, drought, or over-application can still cause damage to any grass type.</p>
+</div>
+
+</div>
+
+<!-- ========== INSECTICIDES ========== -->
+<div class="section" id="sec-insecticides">
+<div class="card">
+  <h2>Lawn Insecticides &mdash; Australian Products</h2>
+  <p>Match your product to the pest: preventative long-residual products for grubs before they hatch, fast knockdown contact products for active armyworm/caterpillar infestations.</p>
+</div>
+
+<div class="card">
+  <h3>Preventative / Long-Residual Insecticides</h3>
+  <table class="product-table">
+    <thead><tr><th>Product</th><th>Active</th><th>Group</th><th>Pests Controlled</th><th>Duration</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Acelepryn (Syngenta)</strong></td><td>Chlorantraniliprole 200 g/L</td><td>28</td><td>African Black Beetle larvae, Argentine Scarab, billbug, armyworm, sod webworm, cutworm</td><td>Up to 6 months</td></tr>
+      <tr><td><strong>Acelepryn GR (Syngenta)</strong></td><td>Chlorantraniliprole 2 g/kg</td><td>28</td><td>Same as above &mdash; granular formulation, no spraying needed</td><td>Up to 6 months</td></tr>
+      <tr><td><strong>Merit (Bayer)</strong></td><td>Imidacloprid 200 g/L</td><td>4A</td><td>African Black Beetle, scarab larvae, billbug</td><td>2&ndash;3 months</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="card">
+  <h3>Fast Knockdown / Contact Insecticides</h3>
+  <table class="product-table">
+    <thead><tr><th>Product</th><th>Active</th><th>Group</th><th>Pests Controlled</th><th>Speed</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Rumbler 100 SC (Indigo)</strong></td><td>Bifenthrin 100 g/L</td><td>3A</td><td>Armyworm, sod webworm, African Black Beetle (adult), billbug, ants, mole cricket</td><td>Fast (hours)</td></tr>
+      <tr><td><strong>Baythroid Advanced (Yates)</strong><br><span style="font-size:0.85em; color:var(--text-sub);">See also:</span> <a class="prod-link-btn" href="Source labels/Bayer_Bulldock25EC_Label.pdf" target="_blank">🏷 Bulldock 25 EC</a></td><td>Beta-cyfluthrin 25 g/L</td><td>3A</td><td>Armyworm, lawn grubs, grasshoppers, mole cricket</td><td>Fast (hours)</td></tr>
+      <tr><td><strong>Battle Insecticide (Apparent)</strong></td><td>Bifenthrin 100 g/L</td><td>3A</td><td>Armyworm, sod webworm, lawn beetles, ants</td><td>Fast (hours)</td></tr>
+      <tr><td><strong>Yates Insect Killer for Lawns</strong></td><td>Bifenthrin granular</td><td>3A</td><td>African Black Beetle, curl grubs, armyworm, ants, mole cricket</td><td>Contact kill</td></tr>
+      <tr><td><strong>Fipronil (various)</strong></td><td>Fipronil 100 g/L</td><td>2B</td><td>Ants (including funnel ants), lawn beetles, mole cricket</td><td>Moderate</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="card">
+  <h3>Miticides (for Couch Mite)</h3>
+  <table class="product-table">
+    <thead><tr><th>Product</th><th>Active</th><th>Group</th><th>Target</th><th>Notes</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Agador (Indigo)</strong></td><td>Abamectin 18 g/L</td><td>6</td><td>Couch grass mite</td><td>Kills nymphs and adults. Apply with surfactant. Multiple apps needed.</td></tr>
+      <tr><td><strong>Finesse (Syngenta)</strong></td><td>Hexythiazox 500 g/L</td><td>10A</td><td>Couch grass mite</td><td>Mite growth regulator &mdash; sterilises females, kills larvae/nymphs. Does NOT kill adults. Long residual.</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="card">
+  <h3>Recommended Treatment Strategy</h3>
+  <p><strong>For grubs (preventative):</strong> Apply Acelepryn in November&ndash;December, before peak egg hatch. One application provides up to 6 months protection.</p>
+  <p><strong>For active caterpillar infestations:</strong> Apply a fast-acting pyrethroid (bifenthrin or beta-cyfluthrin) in late afternoon when caterpillars become active. Water the lawn 30 minutes before to bring pests to the surface.</p>
+  <p><strong>For couch mite:</strong> Apply Agador (abamectin) at first signs of witches broom growth. Follow up 14 days later. Combine with Finesse for long-term suppression. Remove heavily infested turf and retop-dress/re-turf.</p>
+</div>
+
+</div>
+
+<!-- ========== FUNGICIDES ========== -->
+<div class="section" id="sec-fungicides">
+<div class="card">
+  <h2>Lawn Fungicides &mdash; Australian Products</h2>
+  <p>Most lawn fungicides are preventative or early curative &mdash; apply at first sign of disease for best results. Rotate between chemical groups to prevent resistance.</p>
+</div>
+
+<div class="card">
+  <table class="product-table">
+    <thead><tr><th>Product</th><th>Active Ingredient(s)</th><th>Group</th><th>Diseases Controlled</th><th>Type</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Heritage Maxx (Syngenta)</strong></td><td>Azoxystrobin 95 g/L</td><td>11</td><td>Brown patch, grey leaf spot, Helminthosporium, rust, Pythium</td><td>Systemic</td></tr>
+      <tr><td><strong>Bumper 625 EC (Adama)</strong> <a class="prod-link-btn" href="Source labels/Adama_Bumper 625 EC_label.pdf" target="_blank">🏷 View Label</a></td><td>Propiconazole 625 g/L</td><td>3</td><td>Dollar spot, brown patch, spring dead spot, rust, Helminthosporium</td><td>Systemic</td></tr>
+      <tr><td><strong>Edict Duo (Campbell)</strong></td><td>Trifloxystrobin 100 g/L + Tebuconazole 200 g/L</td><td>11 + 3</td><td>Brown patch, dollar spot, rust, Helminthosporium, grey leaf spot</td><td>Dual systemic</td></tr>
+      <tr><td><strong>Dedicate Forte Stressgard (Bayer)</strong></td><td>Tebuconazole 200 g/L</td><td>3</td><td>Dollar spot, brown patch, fusarium, spring dead spot, Helminthosporium</td><td>Systemic</td></tr>
+      <tr><td><strong>Banner Maxx II (Syngenta)</strong></td><td>Propiconazole 145 g/L</td><td>3</td><td>Dollar spot, fusarium, spring dead spot, brown patch, anthracnose</td><td>Systemic</td></tr>
+      <tr><td><strong>Chlortan 720 (Surefire)</strong></td><td>Chlorothalonil 720 g/L</td><td>M5</td><td>Dollar spot, Helminthosporium, grey leaf spot, brown patch</td><td>Contact (multi-site)</td></tr>
+      <tr><td><strong>Voltar GT 250 (Indigo)</strong><br><span style="font-size:0.85em; color:var(--text-sub);">See also:</span> <a class="prod-link-btn" href="Source labels/FMC_RovralAquaflo_Label.pdf" target="_blank">🏷 Rovral Aquaflo</a></td><td>Iprodione 250 g/L</td><td>2</td><td>Dollar spot, brown patch, fusarium, Helminthosporium</td><td>Contact</td></tr>
+      <tr><td><strong>Medallion (Syngenta)</strong></td><td>Fludioxonil 125 g/L</td><td>12</td><td>Fusarium, brown patch, Helminthosporium, anthracnose</td><td>Contact</td></tr>
+      <tr><td><strong>Velista (Syngenta)</strong></td><td>Penthiopyrad 200 g/L</td><td>7</td><td>Broad spectrum &mdash; dollar spot, brown patch, spring dead spot, Helminthosporium</td><td>Systemic (SDHI)</td></tr>
+      <tr><td><strong>Phosphoguard (Apparent)</strong></td><td>Phosphorous acid 400 g/L</td><td>P7</td><td>Pythium, Phytophthora</td><td>Systemic</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="card">
+  <h3>Fungicide Rotation Guide</h3>
+  <p>Rotate between different FRAC groups to prevent disease resistance building up.</p>
+  <table class="product-table">
+    <thead><tr><th>Application</th><th>Product Example</th><th>Group</th></tr></thead>
+    <tbody>
+      <tr><td>Application 1</td><td>Heritage Maxx (azoxystrobin)</td><td>Group 11</td></tr>
+      <tr><td>Application 2</td><td>Bumper 625 EC (propiconazole)</td><td>Group 3</td></tr>
+      <tr><td>Application 3</td><td>Voltar GT 250 (iprodione)</td><td>Group 2</td></tr>
+      <tr><td>Application 4</td><td>Chlortan 720 (chlorothalonil)</td><td>Group M5</td></tr>
+    </tbody>
+  </table>
+  <p style="font-size:0.78em; margin-top:8px; color:var(--text-sub);">Never use the same chemical group more than twice in a row. Multi-site contact fungicides (Group M) have lowest resistance risk.</p>
+</div>
+
+</div>
+
+<!-- ========== FERTILISERS ========== -->
+<div class="section" id="sec-fertilisers">
+<div class="card">
+  <h2>Lawn Fertilisers &mdash; Australian Products</h2>
+  <p>NPK = Nitrogen (N), Phosphorus (P), Potassium (K). Nitrogen drives leaf growth and green colour. Phosphorus promotes root development. Potassium strengthens stress tolerance and disease resistance.</p>
+</div>
+
+<div class="card">
+  <h3>NPK Guide by Goal</h3>
+  <table class="product-table">
+    <thead><tr><th>Goal</th><th>Best NPK Ratio</th><th>When</th></tr></thead>
+    <tbody>
+      <tr><td>New lawn / establishment</td><td>High P (e.g. 5:6:6 or 12:12:5)</td><td>At planting / first 6 weeks</td></tr>
+      <tr><td>Green-up / growth boost</td><td>High N (e.g. 20:0:8 or 26:2:9)</td><td>Spring and summer</td></tr>
+      <tr><td>Balanced maintenance</td><td>Even ratio (e.g. 10:5:6 or 16:4:8)</td><td>Year-round feeds</td></tr>
+      <tr><td>Winter hardening</td><td>High K (e.g. 3:1:8 or 12:2:14)</td><td>Late autumn</td></tr>
+      <tr><td>Iron for deep green colour</td><td>N + Fe (e.g. 18:0:12 +Fe)</td><td>Any time &mdash; good for cool weather green-up without pushing soft growth</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="card">
+  <h3>Popular Australian Lawn Fertiliser Products</h3>
+  <table class="product-table">
+    <thead><tr><th>Product</th><th>NPK + Extras</th><th>Type</th><th>Best For</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Scotts Lawn Builder + Grub Killer</strong></td><td>22:1.3:6.6 + insecticide</td><td>Slow release granular</td><td>Feed + grub protection in one</td></tr>
+      <tr><td><strong>Scotts Lawn Builder All Purpose</strong></td><td>23:2:4</td><td>Slow release granular</td><td>General maintenance, all grass types</td></tr>
+      <tr><td><strong>Seasol for Lush Green Lawns</strong></td><td>22:1:7 + seaweed + trace elements</td><td>Liquid hose-on</td><td>Health tonic + feed combined</td></tr>
+      <tr><td><strong>Oxafert Plus (Lawn Solutions)</strong></td><td>16:2:5 + oxadiazon + thiamethoxam</td><td>Granular combo</td><td>Feed + pre-emergent weed + insect control</td></tr>
+      <tr><td><strong>Yates Dynamic Lifter Organic</strong></td><td>3.7:2:1.8</td><td>Pelletised organic</td><td>Soil health, organic lawns, gentle slow feed</td></tr>
+      <tr><td><strong>Lawn Solutions Lawn Launcher</strong></td><td>5:6:6 + trace elements</td><td>Granular starter</td><td>New turf establishment</td></tr>
+      <tr><td><strong>LawnPride GroPro 18-1-10</strong></td><td>18:1:10</td><td>Slow release granular</td><td>Professional grade maintenance</td></tr>
+      <tr><td><strong>Pure N (Indigo)</strong></td><td>46:0:0 (urea)</td><td>Fast release granular</td><td>Quick green-up (use sparingly)</td></tr>
+      <tr><td><strong>Iron Guard (Apparent)</strong></td><td>Chelated iron + nitrogen</td><td>Liquid</td><td>Deep green colour without excessive growth</td></tr>
+      <tr><td><strong>Seasol (original)</strong></td><td>Seaweed extract (minimal NPK)</td><td>Liquid tonic</td><td>Root health, stress recovery, soil conditioning (NOT a fertiliser replacement)</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="card">
+  <h3>Fertiliser Calendar</h3>
+  <table class="product-table">
+    <thead><tr><th>Month</th><th>What to Apply</th><th>Why</th></tr></thead>
+    <tbody>
+      <tr><td><strong>September</strong> (early spring)</td><td>Balanced NPK (e.g. 16:4:8) or high-N granular</td><td>Kick-start spring growth after winter dormancy</td></tr>
+      <tr><td><strong>November</strong></td><td>High-N slow release (e.g. 20:0:8)</td><td>Sustain summer growth and colour</td></tr>
+      <tr><td><strong>January&ndash;February</strong></td><td>Liquid seaweed tonic (Seasol) + iron</td><td>Reduce heat stress, maintain colour without pushing soft growth</td></tr>
+      <tr><td><strong>March</strong> (early autumn)</td><td>Balanced NPK (e.g. 16:4:8)</td><td>Prepare lawn for cooler months, support root recovery</td></tr>
+      <tr><td><strong>May</strong> (late autumn)</td><td>High-K winter hardener (e.g. 3:1:8) or starter fertiliser</td><td>Strengthen cell walls for cold/frost resistance</td></tr>
+      <tr><td><strong>Winter</strong></td><td>Iron only (chelated iron) or nothing</td><td>Maintain green colour without promoting soft growth prone to disease</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="card">
+  <h3>Soil Health Extras</h3>
+  <p><strong>Wetting agents:</strong> Seasol Super Soil Wetter &amp; Conditioner, Lawn Soaker (Lawnpride). Apply in spring and autumn to combat hydrophobic (water-repelling) soils &mdash; very common in sandy Australian soils.</p>
+  <p><strong>Soil pH:</strong> Most lawn grasses prefer pH 6.0&ndash;7.0. Test with a home soil pH kit. If too acidic: apply garden lime (calcium carbonate). If too alkaline: apply elemental sulphur or ammonium sulphate fertiliser.</p>
+  <p><strong>Top dressing:</strong> Apply a thin layer (3&ndash;5 mm) of washed river sand or sandy loam in spring to level the lawn, fill low spots, and reduce thatch. Do not bury more than one-third of the leaf blade.</p>
+</div>
+
+</div>
+
+<!-- ========== SEASONAL CARE ========== -->
+<div class="section" id="sec-calendar">
+<div class="card">
+  <h2>Australian Lawn Care Calendar</h2>
+  <p>Seasonal guide for warm-season lawns (buffalo, couch, kikuyu, zoysia). Cool-season lawns (fescue, ryegrass) have reversed growth patterns.</p>
+</div>
+
+<div class="season-grid">
+
+<div class="season-card season-spring">
+  <h3>Spring (September &ndash; November)</h3>
+  <ul>
+    <li><strong>Mow:</strong> Every 7&ndash;10 days. Lower mowing height gradually (don't scalp). Remove thatch build-up.</li>
+    <li><strong>Fertilise:</strong> Apply balanced NPK fertiliser in early September. Second application late October/November.</li>
+    <li><strong>Weed:</strong> Apply pre-emergent for summer grass/crabgrass (Aug&ndash;Sept). Post-emergent for broadleaf weeds as needed.</li>
+    <li><strong>Pests:</strong> Apply Acelepryn in November for season-long grub prevention. Watch for early armyworm activity.</li>
+    <li><strong>Water:</strong> Deep water 2&ndash;3 times per week (20&ndash;25 mm per session) rather than daily light watering.</li>
+    <li><strong>Aerate:</strong> Core aerate in October if soil is compacted. Best time for warm-season aeration.</li>
+    <li><strong>Dethatch:</strong> Dethatch (vertimow) kikuyu and couch if thatch exceeds 20 mm. Buffalo: light dethatch only, never scalp.</li>
+  </ul>
+</div>
+
+<div class="season-card season-summer">
+  <h3>Summer (December &ndash; February)</h3>
+  <ul>
+    <li><strong>Mow:</strong> Every 5&ndash;7 days. Raise mowing height 5&ndash;10 mm above spring setting to protect roots from heat.</li>
+    <li><strong>Fertilise:</strong> Light liquid feed (seaweed + iron) in January. Avoid heavy nitrogen in extreme heat (&gt;35&deg;C).</li>
+    <li><strong>Weed:</strong> Spot-treat any breakthrough weeds. Avoid broad herbicide applications in extreme heat (&gt;32&deg;C).</li>
+    <li><strong>Pests:</strong> Monitor for armyworm and sod webworm (most active late summer). Treat active infestations with bifenthrin in the evening.</li>
+    <li><strong>Disease:</strong> Watch for brown patch in humid areas (night temps &gt;20&deg;C). Reduce evening watering. Fungicide if needed.</li>
+    <li><strong>Water:</strong> Deep water early morning (before 8 am). 25&ndash;30 mm twice weekly. Let lawn slightly stress between waterings to encourage deep roots.</li>
+  </ul>
+</div>
+
+<div class="season-card season-autumn">
+  <h3>Autumn (March &ndash; May)</h3>
+  <ul>
+    <li><strong>Mow:</strong> Every 10&ndash;14 days as growth slows. Maintain regular height.</li>
+    <li><strong>Fertilise:</strong> Balanced NPK feed in March. High-K winter hardener in May.</li>
+    <li><strong>Weed:</strong> Apply pre-emergent for winter grass (Feb&ndash;April). Spot-treat remaining broadleaf weeds.</li>
+    <li><strong>Pests:</strong> Check for curl grub damage (brown patches that peel back). Treat with bifenthrin if active.</li>
+    <li><strong>Disease:</strong> Watch for dollar spot as dew-heavy mornings increase. Watch for Fusarium in cool-season grasses.</li>
+    <li><strong>Top-dress:</strong> Apply washed sand or sandy loam in March/April to level lawn and reduce thatch.</li>
+    <li><strong>Oversow:</strong> In southern areas, oversow couch lawns with ryegrass seed (April) for winter green colour.</li>
+  </ul>
+</div>
+
+<div class="season-card season-winter">
+  <h3>Winter (June &ndash; August)</h3>
+  <ul>
+    <li><strong>Mow:</strong> Every 3&ndash;4 weeks or as needed. Don't mow wet grass. Maintain height at upper range.</li>
+    <li><strong>Fertilise:</strong> No major feeds. Iron supplement for green colour if desired. Avoid nitrogen (promotes soft growth prone to frost damage).</li>
+    <li><strong>Weed:</strong> Treat bindii now (June&ndash;August) before spring prickles form. Bromoxynil + MCPA is buffalo safe.</li>
+    <li><strong>Pests:</strong> Minimal pest activity. Clean and service mower.</li>
+    <li><strong>Disease:</strong> Watch for Fusarium in cool-season lawns. Reduce foot traffic on dormant warm-season lawns.</li>
+    <li><strong>Water:</strong> Reduce to natural rainfall unless unusually dry. Over-watering in winter promotes disease.</li>
+    <li><strong>Plan:</strong> Order pre-emergent for spring application. Plan any lawn renovation for September.</li>
+  </ul>
+</div>
+
+</div>
+
+<div class="card" style="margin-top: 16px;">
+  <h3>Watering Quick Reference</h3>
+  <table class="product-table">
+    <thead><tr><th>Season</th><th>Frequency</th><th>Amount per Session</th><th>Best Time</th></tr></thead>
+    <tbody>
+      <tr><td>Spring</td><td>2&ndash;3 times/week</td><td>20&ndash;25 mm</td><td>Early morning (6&ndash;8 am)</td></tr>
+      <tr><td>Summer</td><td>2&ndash;3 times/week</td><td>25&ndash;30 mm</td><td>Early morning (before 8 am)</td></tr>
+      <tr><td>Autumn</td><td>1&ndash;2 times/week</td><td>15&ndash;20 mm</td><td>Morning</td></tr>
+      <tr><td>Winter</td><td>Natural rainfall</td><td>Supplement if dry (10&ndash;15 mm)</td><td>Late morning (avoid frost hours)</td></tr>
+    </tbody>
+  </table>
+  <p style="font-size:0.78em; color:var(--text-sub); margin-top: 8px;">The "footprint test": walk across the lawn &mdash; if your footprints remain visible (grass doesn't spring back), it's time to water. Deep, infrequent watering encourages deeper roots and better drought tolerance.</p>
+</div>
+
+<div class="card" style="margin-top: 16px;">
+  <h3>Spring Lawn Renovation (Scalping)</h3>
+  <p>A spring renovation resets the lawn after winter dormancy. Best done October&ndash;December when warm-season grasses are actively growing. Steps:</p>
+  <table class="product-table">
+    <thead><tr><th>Step</th><th>Action</th><th>Notes</th></tr></thead>
+    <tbody>
+      <tr><td><strong>1. Scalp</strong></td><td>Mow very low (lowest setting) to remove dead leaf and thatch</td><td>Couch/kikuyu: can scalp aggressively. Buffalo: leave some leaf &mdash; never scalp to dirt. Zoysia: moderate scalp only (slow recovery).</td></tr>
+      <tr><td><strong>2. Dethatch</strong></td><td>Rake or vertimow to pull out thatch layer</td><td>Only if thatch exceeds 15&ndash;20 mm. Buffalo: light dethatch only.</td></tr>
+      <tr><td><strong>3. Aerate</strong></td><td>Core aerate compacted areas (especially clay soils)</td><td>Use a hollow-tine aerator for best results. Leave cores on surface to break down.</td></tr>
+      <tr><td><strong>4. Top-dress</strong></td><td>Apply 3&ndash;5 mm washed river sand or sandy loam</td><td>Level low spots. Work into aeration holes. Don't bury more than one-third of leaf blade.</td></tr>
+      <tr><td><strong>5. Fertilise</strong></td><td>Apply balanced NPK or starter fertiliser</td><td>High-P starter (e.g. 5:6:6) for renovation; balanced NPK for healthy lawns.</td></tr>
+      <tr><td><strong>6. Water</strong></td><td>Deep water daily for 7&ndash;14 days to promote recovery</td><td>Keep soil moist but not waterlogged. Reduce frequency as lawn fills in.</td></tr>
+    </tbody>
+  </table>
+  <p style="font-size:0.78em; color:var(--text-sub); margin-top:8px;"><strong>Do not renovate</strong> if the lawn is still dormant or if overnight temperatures are below 15&deg;C. The lawn needs to be actively growing to recover from scalping.</p>
+</div>
+
+</div>
+
+<!-- ========== ALL PRODUCTS ========== -->
+<div class="section" id="sec-products">
+<div class="card">
+  <h2>Complete Product List &mdash; Labels Needed for App</h2>
+  <p>All products mentioned in this guide that need their labels sourced and added to the Spray Hub app.</p>
+</div>
+
+<input type="text" class="search-box" id="productSearch" placeholder="Search products..." oninput="filterTable('productSearch','product-master')">
+
+<div class="card">
+  <table class="product-table" id="product-master">
+    <thead><tr><th>Product</th><th>Active Ingredient(s)</th><th>Category</th><th>Manufacturer</th><th>APVMA</th></tr></thead>
+    <tbody>
+      <tr><td>Acelepryn</td><td>Chlorantraniliprole 200 g/L</td><td><span class="cat-badge cat-insect">Insecticide</span></td><td>Syngenta</td><td>Registered</td></tr>
+      <tr><td>Acelepryn GR</td><td>Chlorantraniliprole 2 g/kg</td><td><span class="cat-badge cat-insect">Insecticide</span></td><td>Syngenta</td><td>85185</td></tr>
+      <tr><td>Agador</td><td>Abamectin 18 g/L</td><td><span class="cat-badge cat-mite">Miticide</span></td><td>Indigo</td><td>Registered</td></tr>
+      <tr><td>All Purpose Weed Control</td><td>Bromoxynil 200 g/L + MCPA 200 g/L</td><td><span class="cat-badge cat-herb">Herbicide</span></td><td>Amgrow</td><td>Registered</td></tr>
+      <tr><td>Banner Maxx II</td><td>Propiconazole 145 g/L</td><td><span class="cat-badge cat-fungi">Fungicide</span></td><td>Syngenta</td><td>Registered</td></tr>
+      <tr><td>Barricade</td><td>Prodiamine 480 g/L</td><td><span class="cat-badge cat-herb">Herbicide</span></td><td>Syngenta</td><td>Registered</td></tr>
+      <tr><td>Battle Insecticide</td><td>Bifenthrin 100 g/L</td><td><span class="cat-badge cat-insect">Insecticide</span></td><td>Apparent</td><td>Registered</td></tr>
+      <tr><td>Baythroid Advanced</td><td>Beta-cyfluthrin 25 g/L</td><td><span class="cat-badge cat-insect">Insecticide</span></td><td>Yates/Bayer</td><td>Registered</td></tr>
+      <tr><td>Bin-Die</td><td>Bromoxynil + MCPA</td><td><span class="cat-badge cat-herb">Herbicide</span></td><td>Various</td><td>Registered</td></tr>
+      <tr><td>Bow and Arrow</td><td>MCPA 300 g/L + Clopyralid 20 g/L + Diflufenican 15 g/L</td><td><span class="cat-badge cat-herb">Herbicide</span></td><td>Turf Culture</td><td>Registered</td></tr>
+      <tr><td>Bumper 625 EC <a class="prod-link-btn" href="Source labels/Adama_Bumper 625 EC_label.pdf" target="_blank">🏷 View Label</a></td><td>Propiconazole 625 g/L</td><td><span class="cat-badge cat-fungi">Fungicide</span></td><td>Adama</td><td class="safe">In app</td></tr>
+      <tr><td>Chlortan 720</td><td>Chlorothalonil 720 g/L</td><td><span class="cat-badge cat-fungi">Fungicide</span></td><td>Surefire</td><td>Registered</td></tr>
+      <tr><td>Dedicate Forte Stressgard</td><td>Tebuconazole 200 g/L</td><td><span class="cat-badge cat-fungi">Fungicide</span></td><td>Bayer</td><td>Registered</td></tr>
+      <tr><td>Dicamba M <a class="prod-link-btn" href="Source labels/Nufarm_Dicamba_M_Herbicide_Label.pdf" target="_blank">🏷 View Label</a></td><td>Dicamba 40 g/L + MCPA 340 g/L</td><td><span class="cat-badge cat-herb">Herbicide</span></td><td>Surefire</td><td class="safe">In app</td></tr>
+      <tr><td>DSMA</td><td>DSMA 720 g/L</td><td><span class="cat-badge cat-herb">Herbicide</span></td><td>Barmac/Apparent</td><td>Registered</td></tr>
+      <tr><td>Edict Duo</td><td>Trifloxystrobin 100 g/L + Tebuconazole 200 g/L</td><td><span class="cat-badge cat-fungi">Fungicide</span></td><td>Campbell</td><td>Registered</td></tr>
+      <tr><td>Finesse</td><td>Hexythiazox 500 g/L</td><td><span class="cat-badge cat-mite">Miticide</span></td><td>Syngenta</td><td>Registered</td></tr>
+      <tr><td>Heritage Maxx</td><td>Azoxystrobin 95 g/L</td><td><span class="cat-badge cat-fungi">Fungicide</span></td><td>Syngenta</td><td>Registered</td></tr>
+      <tr><td>Lontrel Advanced <a class="prod-link-btn" href="Source labels/Corteva_Lontrel_Advanced_Herbicide_Label.pdf" target="_blank">🏷 View Label</a></td><td>Clopyralid 600 g/L</td><td><span class="cat-badge cat-herb">Herbicide</span></td><td>Corteva</td><td class="safe">In app</td></tr>
+      <tr><td>Medallion</td><td>Fludioxonil 125 g/L</td><td><span class="cat-badge cat-fungi">Fungicide</span></td><td>Syngenta</td><td>Registered</td></tr>
+      <tr><td>Merit</td><td>Imidacloprid 200 g/L</td><td><span class="cat-badge cat-insect">Insecticide</span></td><td>Bayer</td><td>Registered</td></tr>
+      <tr><td>Monument Liquid</td><td>Trifloxysulfuron-sodium 750 g/kg</td><td><span class="cat-badge cat-herb">Herbicide</span></td><td>Syngenta</td><td>Registered</td></tr>
+      <tr><td>Onset 10 GR</td><td>Prodiamine 10 g/kg</td><td><span class="cat-badge cat-herb">Herbicide</span></td><td>Indigo</td><td>Registered</td></tr>
+      <tr><td>Oxafert</td><td>Oxadiazon 10 g/kg + fertiliser</td><td><span class="cat-badge cat-herb">Herb + Fert</span></td><td>Lawn Solutions</td><td>Registered</td></tr>
+      <tr><td>Phosphoguard</td><td>Phosphorous acid 400 g/L</td><td><span class="cat-badge cat-fungi">Fungicide</span></td><td>Apparent</td><td>Registered</td></tr>
+      <tr><td>Ronstar</td><td>Oxadiazon 250 g/L</td><td><span class="cat-badge cat-herb">Herbicide</span></td><td>Bayer</td><td>Registered</td></tr>
+      <tr><td>Rumbler 100 SC</td><td>Bifenthrin 100 g/L</td><td><span class="cat-badge cat-insect">Insecticide</span></td><td>Indigo</td><td>Registered</td></tr>
+      <tr><td>Sempra <a class="prod-link-btn" href="Source labels/Nufarm_Sempra_Label.pdf" target="_blank">🏷 View Label</a></td><td>Halosulfuron-methyl 750 g/kg</td><td><span class="cat-badge cat-herb">Herbicide</span></td><td>Nufarm</td><td class="safe">In app</td></tr>
+      <tr><td>Spartan</td><td>Prodiamine 500 g/L</td><td><span class="cat-badge cat-herb">Herbicide</span></td><td>Apparent</td><td>Registered</td></tr>
+      <tr><td>Velista</td><td>Penthiopyrad 200 g/L</td><td><span class="cat-badge cat-fungi">Fungicide</span></td><td>Syngenta</td><td>Registered</td></tr>
+      <tr><td>Voltar GT 250</td><td>Iprodione 250 g/L</td><td><span class="cat-badge cat-fungi">Fungicide</span></td><td>Indigo</td><td>Registered</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="card">
+  <h3>Summary</h3>
+  <p><strong>Total products listed:</strong> 31</p>
+  <p><strong>Already in app:</strong> 4 (Bumper 625 EC, Dicamba M, Lontrel Advanced, Sempra) + related labels: Kamba M, Pendimethalin, Bulldock 25 EC, Rovral Aquaflo</p>
+  <p><strong>Labels to source:</strong> 23</p>
+  <p>Breakdown: 8 Herbicides, 6 Insecticides, 9 Fungicides, 2 Miticides, 2 Combination products</p>
+</div>
+
+</div>
+
+</div><!-- end .content -->
+</div><!-- end .desktop-main -->
+
+<!-- Desktop Footer -->
+<footer class="desktop-footer" id="desktop-footer">
+  <div class="footer-inner">
+    <span class="footer-brand-strip">
+      <span class="footer-logo">🌿</span>
+      <span class="footer-brand-name">Lawn &amp; Turf Care Guide</span>
+    </span>
+    <nav class="footer-nav" aria-label="Footer navigation">
+      <a href="index-desktop.html">Spray Hub</a>
+      <span class="footer-nav-sep"></span>
+      <a href="index-desktop.html#about">About</a>
+      <a href="index-desktop.html#contact">Contact</a>
+      <a href="index-desktop.html#disclaimer">Disclaimer</a>
+      <a href="index-desktop.html#privacy">Privacy Policy</a>
+      <a href="index-desktop.html#terms">Terms of Use</a>
+      <span class="footer-nav-sep"></span>
+      <a href="https://apvma.gov.au" target="_blank" rel="noopener noreferrer">APVMA.gov.au</a>
+      <a href="https://portal.apvma.gov.au/pubcris" target="_blank" rel="noopener noreferrer">PubCRIS</a>
+    </nav>
+    <span class="footer-right">
+      <span class="footer-version">Australian Edition</span>
+      <span class="footer-sep">·</span>
+      <span class="footer-copyright">&copy; 2026 Always read the label.</span>
+    </span>
+  </div>
+</footer>
+
+<!-- Back to top -->
+<button class="back-top" id="backTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">&#8593;</button>
+
+<script>
+// Theme toggle
+function toggleTheme() {
+  document.body.dataset.theme = document.body.dataset.theme === 'dark' ? '' : 'dark';
+}
+
+// Tab switching (mobile nav tabs)
+function showSection(id) {
+  document.querySelectorAll('.section').forEach(function(s) { s.classList.remove('active'); });
+  document.querySelectorAll('.nav-tab').forEach(function(t) { t.classList.remove('active'); });
+  document.getElementById('sec-' + id).classList.add('active');
+  event.target.classList.add('active');
+  // Also update sidebar active state
+  updateSidebarActive(id);
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// Sidebar navigation (desktop)
+function showSectionSidebar(id) {
+  document.querySelectorAll('.section').forEach(function(s) { s.classList.remove('active'); });
+  document.getElementById('sec-' + id).classList.add('active');
+  updateSidebarActive(id);
+  // Also update mobile nav tabs
+  document.querySelectorAll('.nav-tab').forEach(function(t) { t.classList.remove('active'); });
+  var tabs = document.querySelectorAll('.nav-tab');
+  tabs.forEach(function(t) {
+    if (t.textContent.trim().toLowerCase().replace(/\s+/g, '') === getSectionLabel(id).toLowerCase().replace(/\s+/g, '')) {
+      t.classList.add('active');
+    }
+  });
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function updateSidebarActive(id) {
+  document.querySelectorAll('.desktop-sidebar .sidebar-item[data-section]').forEach(function(item) {
+    item.classList.toggle('active', item.getAttribute('data-section') === id);
+  });
+}
+
+function getSectionLabel(id) {
+  var map = { grass: 'Grass Types', weeds: 'Weeds', pests: 'Pests', diseases: 'Diseases',
+    herbicides: 'Herbicides', insecticides: 'Insecticides', fungicides: 'Fungicides',
+    fertilisers: 'Fertilisers', calendar: 'Seasonal Care', products: 'All Products' };
+  return map[id] || id;
+}
+
+// Search filter for cards
+function filterCards(inputId, listId) {
+  var q = document.getElementById(inputId).value.toLowerCase();
+  var cards = document.getElementById(listId).querySelectorAll('.problem-card');
+  cards.forEach(function(card) {
+    var text = (card.getAttribute('data-search') || '') + ' ' + card.textContent.toLowerCase();
+    card.style.display = text.includes(q) ? '' : 'none';
+  });
+}
+
+// Search filter for tables
+function filterTable(inputId, tableId) {
+  var q = document.getElementById(inputId).value.toLowerCase();
+  var rows = document.getElementById(tableId).querySelectorAll('tbody tr');
+  rows.forEach(function(row) {
+    row.style.display = row.textContent.toLowerCase().includes(q) ? '' : 'none';
+  });
+}
+
+// Back to top button
+window.addEventListener('scroll', function() {
+  document.getElementById('backTop').classList.toggle('visible', window.scrollY > 400);
+});
+
+// === Wikipedia / iNaturalist Thumbnail Fetcher ===
+// 4-step cascade: Wikipedia (sci) -> Wikipedia (alt title) -> iNaturalist -> emoji fallback
+(function() {
+  var thumbQueue = [];
+  var thumbTimer = null;
+  var THUMB_SIZE = 160;
+
+  // Store original emoji per element so we can restore on failure
+  var emojiMap = {};
+
+  // Alternative Wikipedia titles for species where the exact scientific name
+  // doesn't match the Wikipedia article (redirects, common-name articles, genus pages)
+  var wikiAlt = {
+    'Cyclocephala signaticollis': 'Cyclocephala',           // No species page, genus has image
+    'Aceria cynodoniensis': 'Eriophyidae',                  // Mite family page
+    'Sphenophorus brunnipennis': 'Sphenophorus',            // Genus page
+    'Gamochaeta purpurea': 'Gamochaeta',                    // Genus page
+    'Clarireedia jacksonii': 'Dollar spot',                 // Disease common name article
+    'Microdochium nivale': 'Fusarium patch',                // Disease common name article
+    'Pyricularia grisea': 'Magnaporthe grisea',             // Old accepted name on Wikipedia
+    'Ophiosphaerella': 'Spring dead spot',                  // Disease common name
+    'Bipolaris': 'Helminthosporium',                        // More common genus name
+    'Nothoscordum inodorum': 'Nothoscordum',                // Genus page
+  };
+
+  // Scientific name -> element ID mapping for all cards
+  var thumbTargets = [
+    // Grasses
+    { sci: 'Stenotaphrum secundatum', common: 'Buffalo grass', id: 'grass-thumb-buffalo' },
+    { sci: 'Cynodon dactylon', common: 'Bermuda grass', id: 'grass-thumb-couch' },
+    { sci: 'Cenchrus clandestinus', common: 'Kikuyu grass', id: 'grass-thumb-kikuyu' },
+    { sci: 'Zoysia japonica', common: 'Zoysia grass', id: 'grass-thumb-zoysia' },
+    { sci: 'Festuca arundinacea', common: 'Tall fescue', id: 'grass-thumb-fescue' },
+    { sci: 'Lolium perenne', common: 'Perennial ryegrass', id: 'grass-thumb-ryegrass' },
+    // Weeds
+    { sci: 'Soliva sessilis', common: 'Bindii', id: 'weed-thumb-bindii' },
+    { sci: 'Trifolium repens', common: 'White clover', id: 'weed-thumb-clover' },
+    { sci: 'Cyperus rotundus', common: 'Nutgrass', id: 'weed-thumb-nutgrass' },
+    { sci: 'Nothoscordum inodorum', common: 'Onion weed', id: 'weed-thumb-onionweed' },
+    { sci: 'Poa annua', common: 'Annual meadow grass', id: 'weed-thumb-wintergrass' },
+    { sci: 'Digitaria sanguinalis', common: 'Crabgrass', id: 'weed-thumb-summergrass' },
+    { sci: 'Eleusine indica', common: 'Goosegrass', id: 'weed-thumb-crowsfoot' },
+    { sci: 'Paspalum dilatatum', common: 'Paspalum', id: 'weed-thumb-paspalum' },
+    { sci: 'Taraxacum officinale', common: 'Dandelion', id: 'weed-thumb-dandelion' },
+    { sci: 'Oxalis corniculata', common: 'Creeping oxalis', id: 'weed-thumb-oxalis' },
+    { sci: 'Gamochaeta purpurea', common: 'Cudweed', id: 'weed-thumb-cudweed' },
+    { sci: 'Plantago major', common: 'Broadleaf plantain', id: 'weed-thumb-plantain' },
+    { sci: 'Kyllinga brevifolia', common: 'Kyllinga', id: 'weed-thumb-mullumbimby' },
+    { sci: 'Arctotheca calendula', common: 'Cape weed', id: 'weed-thumb-capeweed' },
+    { sci: 'Hypochaeris radicata', common: 'Catsear', id: 'weed-thumb-catsear' },
+    // Pests
+    { sci: 'Heteronychus arator', common: 'African black beetle', id: 'pest-thumb-blackbeetle' },
+    { sci: 'Cyclocephala signaticollis', common: 'Argentine scarab', id: 'pest-thumb-argentinescarab' },
+    { sci: 'Spodoptera mauritia', common: 'Lawn armyworm', id: 'pest-thumb-armyworm' },
+    { sci: 'Herpetogramma licarsisalis', common: 'Sod webworm moth', id: 'pest-thumb-webworm' },
+    { sci: 'Sphenophorus brunnipennis', common: 'Billbug weevil', id: 'pest-thumb-billbug' },
+    { sci: 'Aceria cynodoniensis', common: 'Couch mite', id: 'pest-thumb-couchmite' },
+    { sci: 'Gryllotalpa', common: 'Mole cricket', id: 'pest-thumb-molecricket' },
+    { sci: 'Agrotis ipsilon', common: 'Black cutworm', id: 'pest-thumb-cutworm' },
+    { sci: 'Spodoptera frugiperda', common: 'Fall armyworm', id: 'pest-thumb-fallarmyworm' },
+    { sci: 'Aphaenogaster', common: 'Funnel ant', id: 'pest-thumb-ants' },
+    // Diseases
+    { sci: 'Rhizoctonia solani', common: 'Brown patch', id: 'disease-thumb-brownpatch' },
+    { sci: 'Clarireedia jacksonii', common: 'Dollar spot', id: 'disease-thumb-dollarspot' },
+    { sci: 'Bipolaris', common: 'Helminthosporium leaf spot', id: 'disease-thumb-helminth' },
+    { sci: 'Pyricularia grisea', common: 'Grey leaf spot', id: 'disease-thumb-greyleaf' },
+    { sci: 'Ophiosphaerella', common: 'Spring dead spot', id: 'disease-thumb-springdead' },
+    { sci: 'Pythium', common: 'Pythium blight', id: 'disease-thumb-pythium' },
+    { sci: 'Microdochium nivale', common: 'Fusarium patch', id: 'disease-thumb-fusarium' },
+    { sci: 'Puccinia', common: 'Rust disease grass', id: 'disease-thumb-rust' }
+  ];
+
+  function restoreEmoji(elId) {
+    var wrap = document.getElementById(elId);
+    if (!wrap) return;
+    var emoji = emojiMap[elId] || '🌿';
+    wrap.textContent = emoji;
+    wrap.classList.add('loading');
+  }
+
+  function setThumbImage(elId, url) {
+    var wrap = document.getElementById(elId);
+    if (!wrap) return;
+    var img = document.createElement('img');
+    img.src = url;
+    img.alt = '';
+    img.className = wrap.id.indexOf('grass') === 0 ? 'grass-thumb' : 'card-thumb';
+    img.onerror = function() {
+      // Remove broken image and restore emoji
+      if (wrap.contains(img)) wrap.removeChild(img);
+      restoreEmoji(elId);
+    };
+    img.onload = function() { wrap.classList.remove('loading'); };
+    wrap.textContent = '';
+    wrap.classList.remove('loading');
+    wrap.appendChild(img);
+  }
+
+  function fetchWikiByTitle(title, elId, nextFn) {
+    var url = 'https://en.wikipedia.org/w/api.php?action=query&titles=' +
+      encodeURIComponent(title) + '&prop=pageimages&format=json&pithumbsize=' +
+      THUMB_SIZE + '&origin=*';
+    fetch(url).then(function(r) { return r.json(); }).then(function(data) {
+      var pages = data.query && data.query.pages;
+      if (!pages) { nextFn(); return; }
+      var pageId = Object.keys(pages)[0];
+      var thumb = pages[pageId] && pages[pageId].thumbnail;
+      if (thumb && thumb.source) {
+        setThumbImage(elId, thumb.source);
+      } else {
+        nextFn();
+      }
+    }).catch(function() { nextFn(); });
+  }
+
+  function fetchINat(sciName, elId, commonName) {
+    var q = sciName || commonName || '';
+    var url = 'https://api.inaturalist.org/v1/taxa?q=' + encodeURIComponent(q) + '&per_page=1';
+    fetch(url).then(function(r) { return r.json(); }).then(function(data) {
+      if (data.results && data.results.length > 0 && data.results[0].default_photo) {
+        var photoUrl = data.results[0].default_photo.medium_url || data.results[0].default_photo.square_url;
+        if (photoUrl) {
+          setThumbImage(elId, photoUrl);
+          return;
+        }
+      }
+      // iNat failed too — try Wikipedia with common name as last resort
+      if (commonName) {
+        fetchWikiByTitle(commonName, elId, function() {
+          // All sources exhausted — emoji stays
+        });
+      }
+    }).catch(function() {
+      if (commonName) {
+        fetchWikiByTitle(commonName, elId, function() {});
+      }
+    });
+  }
+
+  function loadThumb(item) {
+    var sciName = item.sci;
+    var elId = item.id;
+    var commonName = item.common || '';
+    var altTitle = wikiAlt[sciName];
+
+    // Step 1: Try Wikipedia with scientific name
+    fetchWikiByTitle(sciName, elId, function() {
+      // Step 2: Try Wikipedia with alternative title (if exists)
+      if (altTitle) {
+        fetchWikiByTitle(altTitle, elId, function() {
+          // Step 3: Try iNaturalist (which also tries Wiki common name as step 4)
+          fetchINat(sciName, elId, commonName);
+        });
+      } else {
+        // Step 3: Try iNaturalist directly
+        fetchINat(sciName, elId, commonName);
+      }
+    });
+  }
+
+  function processQueue() {
+    if (thumbQueue.length === 0) return;
+    var item = thumbQueue.shift();
+    loadThumb(item);
+    if (thumbQueue.length > 0) {
+      thumbTimer = setTimeout(processQueue, 120);
+    }
+  }
+
+  // Start loading thumbnails after page loads
+  window.addEventListener('load', function() {
+    // Store original emoji text for each wrap element
+    thumbTargets.forEach(function(t) {
+      var el = document.getElementById(t.id);
+      if (el) emojiMap[t.id] = el.textContent.trim();
+    });
+    thumbQueue = thumbTargets.slice();
+    thumbTimer = setTimeout(processQueue, 300);
+  });
+})();
+</script>
+
+</body>
+</html>

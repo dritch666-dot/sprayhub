@@ -1,0 +1,78 @@
+// js/labels/terrador.js
+productDatabase.terrador = {
+    id: 'terrador',
+    name: "Nufarm Terrad'or® 700 WG",
+    company: "Nufarm",
+    active: "Tiafenacil (700 g/kg)",
+    group: "Group G (Herbicide)",
+  formulation: "Water Dispersible Granule (WG)",
+  modeOfAction: "PPO inhibitor (Protoporphyrinogen oxidase inhibitor)",
+    category: "Herbicides",
+    classification: { type: "Herbicide", timing: ["Contact"] },
+    signalHeading: "CAUTION",
+    apvma: "88074",
+    labelPdf: "Source labels/Nufarm_Terrador700WG_Label.pdf",
+  sdsPdf:           "SDS Labels/TERRADOR_700WG_HERBICIDE.pdf",
+    crops: [
+      {
+        crop: "Prior to sowing the following winter or summer broadacre crops, or starting a fallow and for fallow maintenance: Cereals; Pulses; Canola; Mustard (oilseed cultivars) (Brassica juncea); Cotton; as per the plantback table",
+        cropList: ["Prior to sowing the following winter or summer broadacre crops", "or starting a fallow", "for fallow maintenance: Cereals", "Pulses", "Canola", "Mustard (oilseed cultivars) (Brassica juncea)", "Cotton", "as per the plantback table"],
+        weeds: [
+          { weed: "Annual ryegrass (Lolium rigidum) including populations with weak levels of glyphosate resistance.", pestList: ["Annual Ryegrass Including Populations With Weak Levels Of Glyphosate Resistance."], states: ["All"], rate: "40", unit: "g/ha", notes: "A tank mixture of Terrad’or® and CRUCIAL® has been demonstrated to provide higher levels of final control to annual ryegrass plants with a weak level of glyphosate resistance; compared to applications of glyphosate standalone. In populations where a moderate or strong glyphosate resistance level exists; use alternate management strategies. Plants that exhibit weak resistance have 70% or more stunting compared to untreated plants when treated with glyphosate alone. This use pattern should be u..." },
+          { weed: "Annual grass and broadleaf weeds are controlled as listed in Section 2 weed table. Terrad’or® will also increase speed of brownout of treated broadleaf and grass weeds, especially at the highest application rate.", pestList: ["Annual Grass And Broadleaf Weeds Are Controlled As Listed In Section 2 Weed Table. Terrad\u2019Or\u00ae Will Also Increase Speed Of Brownout Of Treated Broadleaf And Grass Weeds", "Especially At The Highest Application Rate."], states: ["All"], rate: "20", rateMax: "40", unit: "g/ha", notes: "Observe the plant-back periods listed in the GENERAL INSTRUCTIONS. Sow following crops with a seeder that will move treated soil away from crop row (e.g. knife point with press wheels). Use of seeding machinery, or planting under conditions where product or treated soil remains or moves back into the crop row may result in crop damage. This may be caused by factors such as inappropriate seeding machinery, narrow row spacings, fast travel speeds, soil type, wind, heavy rainfall or irrigation a..." },
+          { weed: "Flaxleaf fleabane (Conyza bonariensis) Sowthistle (Sonchus oleraceus)", pestList: ["Flaxleaf Fleabane Sowthistle"], states: ["All"], rate: "1.1", rateMax: "1.8", unit: "L/ha", rateText: "First spray application: 1.1-1.8 L/ha Nufarm CRUCIAL® Advanced Technology Herbicide^ + 0.65-1.1 L/ha", notes: "Apply at stem elongation to flowering stage of weeds. For adequate coverage use a minimum application water volume of 80 L/ha. Refer to CRUCIAL® and Amicide® Advance 700 labels for further information. A sequential application of Terrad’or® (refer below) is recommended for situations where incomplete control is achieved with the first application, or where there are spray misses/shadowing, failures due to resistance, or under periods of temperature and/or moisture stress. For smaller weed siz..." }
+        ]
+      },
+      {
+        crop: "Weed Table — All Situations",
+        cropList: ["Weed Table \u2014 All Situations"],
+        weeds: [
+          { weed: "Afghan melon (Citrullus lanatus)", pestList: ["Afghan Melon"], states: ["All"], rate: "40", unit: "g/ha" },
+          { weed: "Annual ryegrass (Lolium rigidum)", pestList: ["Annual Ryegrass"], states: ["All"], rate: "40", unit: "g/ha", notes: "Only controlled when used with CRUCIAL®" },
+          { weed: "Barley grass (Hordeum leporinum.)", pestList: ["Barley Grass"], states: ["All"], rate: "15", unit: "g/ha" },
+          { weed: "Barnyard grass (Echinochloa colona)", pestList: ["Barnyard Grass"], states: ["All"], rate: "40", unit: "g/ha", notes: "Only controlled when used with CRUCIAL®. Under Summer (hot) conditions, dense infestations may require follow-up treatment for complete control." },
+          { weed: "Bellvine (Ipomea plebeian)", pestList: ["Bellvine"], states: ["All"], rate: "20", unit: "g/ha" },
+          { weed: "Bladder ketmia (Hibiscus trionum)", pestList: ["Bladder Ketmia"], states: ["All"], rate: "20", unit: "g/ha" },
+          { weed: "Brome grass (Bromus spp.)", pestList: ["Brome Grass"], states: ["All"], rate: "15", unit: "g/ha", notes: "Only controlled when used with CRUCIAL®" },
+          { weed: "Caltrop (Tribulus terrestris)", pestList: ["Caltrop"], states: ["All"], rate: "20", unit: "g/ha", notes: "Only controlled when used with CRUCIAL®" },
+          { weed: "Capeweed (Arctotheca calendula)", pestList: ["Capeweed"], states: ["All"], rate: "15", unit: "g/ha" },
+          { weed: "Clammy Goosefoot (Chenopodium pumilio)", pestList: ["Clammy Goosefoot"], states: ["All"], rate: "20", unit: "g/ha", notes: "Only controlled when used with CRUCIAL®" },
+          { weed: "Cow-vine (Ipomoea lonchophylla)", pestList: ["Cow-Vine"], states: ["All"], rate: "15", unit: "g/ha" },
+          { weed: "Double gee (Emex australis)", pestList: ["Double Gee"], states: ["All"], rate: "15", unit: "g/ha", notes: "Only controlled when used with CRUCIAL®" },
+          { weed: "Dwarf amaranthus (Amaranthus macrocarpus)", pestList: ["Dwarf Amaranthus"], states: ["All"], rate: "15", unit: "g/ha", notes: "Only controlled when used with CRUCIAL®" },
+          { weed: "Fat hen (Chenopodium album.)", pestList: ["Fat Hen"], states: ["All"], rate: "15", unit: "g/ha" },
+          { weed: "Forage rape (Brassica campestris spp)", pestList: ["Forage Rape"], states: ["All"], rate: "15", unit: "g/ha" },
+          { weed: "Fumitory (Fumaria densiflora)", pestList: ["Fumitory"], states: ["All"], rate: "15", unit: "g/ha" },
+          { weed: "Heliotrope (Heliotropium europaeum)", pestList: ["Heliotrope"], states: ["All"], rate: "15", unit: "g/ha", notes: "Terrad’or® used without CRUCIAL® controls small weeds up to 15cm and supresses large weeds (15-30 cm)." },
+          { weed: "Marshmallow (Malva parviflora)", pestList: ["Marshmallow"], states: ["All"], rate: "15", unit: "g/ha" },
+          { weed: "Medic (Medicago polymorpha)", pestList: ["Medic"], states: ["All"], rate: "15", unit: "g/ha", notes: "Only controlled when used with CRUCIAL®" },
+          { weed: "Native vigna (Vigna lanceolata)", pestList: ["Native Vigna"], states: ["All"], rate: "20", unit: "g/ha" },
+          { weed: "Phalaris (Phalaris tuberosa)", pestList: ["Phalaris"], states: ["All"], rate: "15", unit: "g/ha", notes: "Only controlled when used with CRUCIAL® for seedling plants." },
+          { weed: "Prickly lettuce (Lactuca serriola)", pestList: ["Prickly Lettuce"], states: ["All"], rate: "15", unit: "g/ha", notes: "Only controlled when used with CRUCIAL®" },
+          { weed: "Redroot pigweed (Amaranthus retroflexus)", pestList: ["Redroot Pigweed"], states: ["All"], rate: "20", unit: "g/ha", notes: "Only controlled when used with CRUCIAL®" },
+          { weed: "Saffron Thistle (Carthamus lanatus)", pestList: ["Saffron Thistle"], states: ["All"], rate: "15", unit: "g/ha", notes: "Only controlled when used with CRUCIAL®" },
+          { weed: "Silvergrass (Vulpia bromoides)", pestList: ["Silvergrass"], states: ["All"], rate: "30", unit: "g/ha", notes: "Only controlled when used with CRUCIAL®" },
+          { weed: "Sorrel (Rumex acetose)", pestList: ["Sorrel"], states: ["All"], rate: "15", unit: "g/ha", notes: "Terrad’or® will provide suppression at the 40 g/ha rate without CRUCIAL®, but will provide control with CRUCIAL® at a minimum 15 g/ha rate." },
+          { weed: "Sowthistle (Sonchus oleraceus)", pestList: ["Sowthistle"], states: ["All"], rate: "20", unit: "g/ha" },
+          { weed: "Stork’s-bill (Erodium botrys)", pestList: ["Stork\u2019S-Bill"], states: ["All"], rate: "15", unit: "g/ha", notes: "Only controlled when used with CRUCIAL®" },
+          { weed: "Sub clover (Trifolium subterraneum)", pestList: ["Sub Clover"], states: ["All"], rate: "15", unit: "g/ha" },
+          { weed: "Volunteer barley (Hordeum vulgare)", pestList: ["Volunteer Barley"], states: ["All"], rate: "20", unit: "g/ha", notes: "Only controlled when used with CRUCIAL®" },
+          { weed: "Volunteer canola (Brassica nupus)", pestList: ["Volunteer Canola"], states: ["All"], rate: "15", unit: "g/ha" },
+          { weed: "Volunteer cotton (Gossypium spp.)", pestList: ["Volunteer Cotton"], states: ["All"], rate: "40", unit: "g/ha" },
+          { weed: "Volunteer faba beans (Vicia faba)", pestList: ["Volunteer Faba Beans"], states: ["All"], rate: "15", unit: "g/ha" },
+          { weed: "Volunteer field peas (Pisum sativum arvense)", pestList: ["Volunteer Field Peas"], states: ["All"], rate: "20", unit: "g/ha", notes: "Only controlled when used with CRUCIAL®" },
+          { weed: "Volunteer lentils (Lens culinaris)", pestList: ["Volunteer Lentils"], states: ["All"], rate: "20", unit: "g/ha" },
+          { weed: "Volunteer lupins (Lupinus angustifolius)", pestList: ["Volunteer Lupins"], states: ["All"], rate: "20", unit: "g/ha" },
+          { weed: "Volunteer narrow leaf lupins (Lupinus angustifolius)", pestList: ["Volunteer Narrow Leaf Lupins"], states: ["All"], rate: "20", unit: "g/ha" },
+          { weed: "Volunteer mung beans (Vigna radiata)", pestList: ["Volunteer Mung Beans"], states: ["All"], rate: "15", unit: "g/ha", notes: "Only controlled when used with CRUCIAL®" },
+          { weed: "Volunteer oats (Avena sativa)", pestList: ["Volunteer Oats"], states: ["All"], rate: "15", unit: "g/ha" },
+          { weed: "Volunteer vetch (Vicia sativa.)", pestList: ["Volunteer Vetch"], states: ["All"], rate: "15", unit: "g/ha", notes: "Only controlled when used with CRUCIAL®" },
+          { weed: "Volunteer wheat (Triticum aestivum)", pestList: ["Volunteer Wheat"], states: ["All"], rate: "20", unit: "g/ha" },
+          { weed: "Wild oats (Avena spp.)", pestList: ["Wild Oats"], states: ["All"], rate: "20", unit: "g/ha", notes: "Only controlled when used with CRUCIAL®" },
+          { weed: "Wild radish (Raphanus raphanistrum)", pestList: ["Wild Radish"], states: ["All"], rate: "15", unit: "g/ha" },
+          { weed: "Wild turnip (Rapistrum rugosum)", pestList: ["Wild Turnip"], states: ["All"], rate: "15", unit: "g/ha" },
+          { weed: "Wintergrass (Poa annua)", pestList: ["Wintergrass"], states: ["All"], rate: "20", unit: "g/ha", notes: "Only controlled when used with CRUCIAL®" }
+        ]
+      }
+    ]
+};
