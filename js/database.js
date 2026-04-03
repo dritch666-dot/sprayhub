@@ -4,6 +4,7 @@
 // Each label file merges into productDatabase at load time
 // ─────────────────────────────────────────────────────────
 const productDatabase = {};
+window.productDatabase = productDatabase;
 
 // ── Helpers used by the Tank Mix dropdowns ──────────────
 
