@@ -1491,14 +1491,44 @@ mark.search-highlight-pest {
   .crop-pest-filter-row {
     grid-template-columns: 1fr;
   }
-  .filter-fields-grid {
-    grid-template-columns: 1fr;
-  }
   .category-pills-row {
     gap: 6px;
   }
   .category-pill {
     padding: 5px 11px;
+    font-size: 0.78rem;
+  }
+}
+
+/* ── Mobile: tighten margins & make filters fit ──────── */
+@media (max-width: 480px) {
+  .main-container {
+    padding: 0 8px;
+    margin: 10px auto;
+  }
+  .premium-search-container {
+    padding: 14px 10px;
+    margin-bottom: 14px;
+    border-radius: 12px;
+  }
+  .filter-fields-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+  }
+  .premium-search-input--mini {
+    padding: 9px 26px 9px 32px !important;
+    font-size: 0.82rem !important;
+  }
+  .search-icon-prefix--mini {
+    left: 8px;
+    font-size: 0.9rem;
+  }
+  .filter-clear-btn {
+    right: 4px;
+    font-size: 0.78rem;
+    padding: 2px 4px;
+  }
+  .filter-section-label {
     font-size: 0.78rem;
   }
 }
@@ -2182,12 +2212,16 @@ mark.search-highlight-pest {
 /* Responsive */
 @media (max-width: 767px) {
   .main-container {
-    padding: 0 16px;
-    margin: 16px auto;
+    padding: 0 10px;
+    margin: 12px auto;
   }
 
   .app-header {
-    padding: 16px;
+    padding: 14px 12px;
+  }
+
+  .premium-search-container {
+    padding: 16px 14px;
   }
 
   .tool-card {
