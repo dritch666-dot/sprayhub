@@ -1,4 +1,4 @@
-const CACHE_NAME = 'sprayhub-v205';
+const CACHE_NAME = 'sprayhub-v206';
 
 const ASSETS = [
   './',
@@ -17,9 +17,9 @@ const ASSETS = [
   './images/android-chrome-512.png',
   './images/logo-stacked.png',
   './images/logo-white.png',
-  './css/styles.css?v=205',
-  './css/components.css?v=205',
-  './css/desktop.css?v=205',
+  './css/styles.css?v=206',
+  './css/components.css?v=206',
+  './css/desktop.css?v=206',
   './js/app.js',
   './js/calculators.js',
   './js/database.js',
