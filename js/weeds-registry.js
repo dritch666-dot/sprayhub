@@ -9,7 +9,16 @@ window.weedsRegistry = [
       }
     ],
     "thumbnail": "images/weeds/noogoora-burr.webp",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=*Noogoora%20Burr%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=*Noogoora%20Burr%20weed%20Australia",
+    "scientificName": "Xanthium occidentale",
+    "family": "Asteraceae",
+    "synonyms": [
+      "Clotburr",
+      "Cockle Burr",
+      "Cockleburr",
+      "Clotbur",
+      "Large Cockleburr"
+    ]
   },
   {
     "commonName": "*Variegated Thistle",
@@ -21,7 +30,16 @@ window.weedsRegistry = [
       }
     ],
     "thumbnail": "images/weeds/variegated-thistle.webp",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=*Variegated%20Thistle%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=*Variegated%20Thistle%20weed%20Australia",
+    "scientificName": "Silybum marianum",
+    "family": "Asteraceae",
+    "synonyms": [
+      "Spotted Thistle",
+      "Milk Thistle",
+      "Bull Thistle",
+      "Spotted Milk Thistle",
+      "St. Mary's Thistle"
+    ]
   },
   {
     "commonName": "Acacia",
@@ -38,7 +56,16 @@ window.weedsRegistry = [
       }
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Acacia%20weed%20Australia",
-    "thumbnail": "images/weeds/prickly-acacia.webp"
+    "thumbnail": "images/weeds/prickly-acacia.webp",
+    "scientificName": "Acacia",
+    "family": "Fabaceae",
+    "synonyms": [
+      "Pibaarak",
+      "Wattle",
+      "Mulga",
+      "Myall",
+      "Wattles"
+    ]
   },
   {
     "commonName": "Active Growth Spring To Summer",
@@ -860,7 +887,13 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Angophora%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/5250c838-a103-412c-903c-8381d36fc855/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/5250c838-a103-412c-903c-8381d36fc855/large"
+    "alaLargeImage": "https://images.ala.org.au/image/5250c838-a103-412c-903c-8381d36fc855/large",
+    "scientificName": "Angophora",
+    "family": "Myrtaceae",
+    "synonyms": [
+      "Apples",
+      "Apple Trees"
+    ]
   },
   {
     "commonName": "Annual and Perennial Grasses",
@@ -1634,7 +1667,15 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Arctotheca%20calendula%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Arctotheca%20calendula%20weed%20Australia",
+    "scientificName": "Arctotheca calendula",
+    "family": "Asteraceae",
+    "synonyms": [
+      "Cape Weed",
+      "African Marigold",
+      "Capeweed",
+      "Cape Dandelion"
+    ]
   },
   {
     "commonName": "Argentine peppercress",
@@ -2209,7 +2250,16 @@ window.weedsRegistry = [
       }
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Awnless%20Barnyard%20Grass%20weed%20Australia",
-    "thumbnail": "images/weeds/awnless-barnyard.webp"
+    "thumbnail": "images/weeds/awnless-barnyard.webp",
+    "scientificName": "Echinochloa colona",
+    "family": "Poaceae",
+    "synonyms": [
+      "Awnless Barnyard-Grass",
+      "Barnyard Grass",
+      "Swamp Grass",
+      "River Grass",
+      "Jungle Rice"
+    ]
   },
   {
     "commonName": "Azolla",
@@ -2671,7 +2721,13 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Barnard%20Grass%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Barnard%20Grass%20weed%20Australia",
+    "scientificName": "Echinochloa",
+    "family": "Poaceae",
+    "synonyms": [
+      "Barnyard Grass",
+      "Barnyard Grasses"
+    ]
   },
   {
     "commonName": "Barnyard grass",
@@ -3551,7 +3607,12 @@ window.weedsRegistry = [
       }
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Bifora%20testiculata%20weed%20Australia",
-    "thumbnail": "images/weeds/bifora.webp"
+    "thumbnail": "images/weeds/bifora.webp",
+    "scientificName": "Bifora testiculata",
+    "family": "Apiaceae",
+    "synonyms": [
+      "Bifora"
+    ]
   },
   {
     "commonName": "Billygoat weed",
@@ -3768,7 +3829,13 @@ window.weedsRegistry = [
       }
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Bitou%20Brush%2FBoneseed%20weed%20Australia",
-    "thumbnail": "images/weeds/boneseed.webp"
+    "thumbnail": "images/weeds/boneseed.webp",
+    "scientificName": "Euryops chrysanthemoides",
+    "family": "Asteraceae",
+    "synonyms": [
+      "Boneseeds",
+      "Paris Daisy"
+    ]
   },
   {
     "commonName": "Bitou bush",
@@ -4100,7 +4167,13 @@ window.weedsRegistry = [
       }
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Black%20Or%20Spear%20Thistle%20weed%20Australia",
-    "thumbnail": "images/weeds/spear-thistle.webp"
+    "thumbnail": "images/weeds/spear-thistle.webp",
+    "scientificName": "Cirsium",
+    "family": "Asteraceae",
+    "synonyms": [
+      "Thistle",
+      "Thistles"
+    ]
   },
   {
     "commonName": "Black Scale",
@@ -4714,7 +4787,12 @@ window.weedsRegistry = [
       }
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Bluetop%2FBillygoat%20Weed%20weed%20Australia",
-    "thumbnail": "images/weeds/billygoat-weed.webp"
+    "thumbnail": "images/weeds/billygoat-weed.webp",
+    "scientificName": "Praxelis clematidea",
+    "family": "Asteraceae",
+    "synonyms": [
+      "Giant Bluetop"
+    ]
   },
   {
     "commonName": "Boggabri weed",
@@ -5083,7 +5161,13 @@ window.weedsRegistry = [
       }
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Boxthorn%20African%20weed%20Australia",
-    "thumbnail": "images/weeds/boxthorn.webp"
+    "thumbnail": "images/weeds/boxthorn.webp",
+    "scientificName": "Lycium ferocissimum",
+    "family": "Solanaceae",
+    "synonyms": [
+      "African Boxthorn",
+      "African Box-Thorn"
+    ]
   },
   {
     "commonName": "Boysenberry",
@@ -5162,7 +5246,12 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Brassica%20napus%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/f328e5d6-ad08-417d-874c-6514df29dbb1/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/f328e5d6-ad08-417d-874c-6514df29dbb1/large"
+    "alaLargeImage": "https://images.ala.org.au/image/f328e5d6-ad08-417d-874c-6514df29dbb1/large",
+    "scientificName": "Brassica napus",
+    "family": "Brassicaceae",
+    "synonyms": [
+      "Canola"
+    ]
   },
   {
     "commonName": "Brazilian nightshade",
@@ -5353,7 +5442,16 @@ window.weedsRegistry = [
       }
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Broadleaf%20Dock%20weed%20Australia",
-    "thumbnail": "images/weeds/dock.webp"
+    "thumbnail": "images/weeds/dock.webp",
+    "scientificName": "Rumex obtusifolius",
+    "family": "Polygonaceae",
+    "synonyms": [
+      "Paenehua",
+      "Paewhenua",
+      "Broad-Leaf Dock",
+      "Broad Dock",
+      "Broad-Leaved Dock"
+    ]
   },
   {
     "commonName": "Broadleaf privet",
@@ -5597,7 +5695,16 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Bromus%20diandrus%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/71e84597-0134-4f65-b5fb-09e8471ccb51/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/71e84597-0134-4f65-b5fb-09e8471ccb51/large"
+    "alaLargeImage": "https://images.ala.org.au/image/71e84597-0134-4f65-b5fb-09e8471ccb51/large",
+    "scientificName": "Bromus diandrus",
+    "family": "Poaceae",
+    "synonyms": [
+      "Great Brome",
+      "Giant Brome",
+      "Jabbers",
+      "Brome Grass",
+      "Ripgut Brome"
+    ]
   },
   {
     "commonName": "Brown box",
@@ -5814,7 +5921,12 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Bullich%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/806b5e7f-eb16-4167-aabf-61519b60bd5b/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/806b5e7f-eb16-4167-aabf-61519b60bd5b/large"
+    "alaLargeImage": "https://images.ala.org.au/image/806b5e7f-eb16-4167-aabf-61519b60bd5b/large",
+    "scientificName": "Eucalyptus megacarpa",
+    "family": "Myrtaceae",
+    "synonyms": [
+      "Blue Gum of Western Australia"
+    ]
   },
   {
     "commonName": "Bunch Elongation — Sultanas Fresh Fruit",
@@ -6166,7 +6278,13 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=California%20Thistle%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/43a6cb6c-e96a-4eef-9d65-01dfbc2c4432/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/43a6cb6c-e96a-4eef-9d65-01dfbc2c4432/large"
+    "alaLargeImage": "https://images.ala.org.au/image/43a6cb6c-e96a-4eef-9d65-01dfbc2c4432/large",
+    "scientificName": "Eschscholzia californica",
+    "family": "Papaveraceae",
+    "synonyms": [
+      "Californian Poppy",
+      "California Poppy"
+    ]
   },
   {
     "commonName": "Californian thistle",
@@ -7357,7 +7475,14 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Casuarina%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/56707903-93d7-4672-b1a2-d90ca97a36ee/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/56707903-93d7-4672-b1a2-d90ca97a36ee/large"
+    "alaLargeImage": "https://images.ala.org.au/image/56707903-93d7-4672-b1a2-d90ca97a36ee/large",
+    "scientificName": "Casuarina",
+    "family": "Casuarinaceae",
+    "synonyms": [
+      "Oaks",
+      "Queensland Oak",
+      "Shea-Oaks"
+    ]
   },
   {
     "commonName": "Cat's claw creeper",
@@ -7401,7 +7526,12 @@ window.weedsRegistry = [
       }
     ],
     "thumbnail": "images/weeds/catsear.webp",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Cat's-ear%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Cat's-ear%20weed%20Australia",
+    "scientificName": "Hypochaeris",
+    "family": "Asteraceae",
+    "synonyms": [
+      "Cat's Ear"
+    ]
   },
   {
     "commonName": "Catsear",
@@ -7638,7 +7768,9 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Chamomile%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/2a612e50-2957-42a9-a1fc-dd10e137e8b2/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/2a612e50-2957-42a9-a1fc-dd10e137e8b2/large"
+    "alaLargeImage": "https://images.ala.org.au/image/2a612e50-2957-42a9-a1fc-dd10e137e8b2/large",
+    "scientificName": "Oncosiphon",
+    "family": "Asteraceae"
   },
   {
     "commonName": "Charlock",
@@ -8140,7 +8272,14 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Chinese%20Mint%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/f73240fc-fc03-4d8f-8e4f-f5caeb0d57e5/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/f73240fc-fc03-4d8f-8e4f-f5caeb0d57e5/large"
+    "alaLargeImage": "https://images.ala.org.au/image/f73240fc-fc03-4d8f-8e4f-f5caeb0d57e5/large",
+    "scientificName": "Ziziphus mauritiana",
+    "family": "Rhamnaceae",
+    "synonyms": [
+      "Indian Jujube",
+      "Chinese Apple",
+      "Chinee Apple"
+    ]
   },
   {
     "commonName": "Chinese scrub",
@@ -8692,7 +8831,12 @@ window.weedsRegistry = [
       }
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Clovers%20weed%20Australia",
-    "thumbnail": "images/weeds/clover.webp"
+    "thumbnail": "images/weeds/clover.webp",
+    "scientificName": "Trifolium",
+    "family": "Fabaceae",
+    "synonyms": [
+      "Clover"
+    ]
   },
   {
     "commonName": "Coastal button grass",
@@ -8741,7 +8885,14 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Cobbler's%20Peg%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/60c63b9b-7107-4a5f-9b6e-109431f26965/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/60c63b9b-7107-4a5f-9b6e-109431f26965/large"
+    "alaLargeImage": "https://images.ala.org.au/image/60c63b9b-7107-4a5f-9b6e-109431f26965/large",
+    "scientificName": "Bidens pilosa",
+    "family": "Asteraceae",
+    "synonyms": [
+      "Cobbler's Pegs",
+      "Pitch Forks",
+      "Broomstick"
+    ]
   },
   {
     "commonName": "Cobbler's pegs",
@@ -8822,7 +8973,13 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Cobblers%20Pegs%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/78802e20-4d06-46ff-9925-96bf21722db6/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/78802e20-4d06-46ff-9925-96bf21722db6/large"
+    "alaLargeImage": "https://images.ala.org.au/image/78802e20-4d06-46ff-9925-96bf21722db6/large",
+    "scientificName": "Glossocardia bidens",
+    "family": "Asteraceae",
+    "synonyms": [
+      "Native Cobblers Pegs",
+      "Cobbler's Tack"
+    ]
   },
   {
     "commonName": "Cocksfoot",
@@ -9145,7 +9302,16 @@ window.weedsRegistry = [
       }
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Common%20Crowsfoot%20or%20Common%20Storksbill%20weed%20Australia",
-    "thumbnail": "images/weeds/common-storksbill.webp"
+    "thumbnail": "images/weeds/common-storksbill.webp",
+    "scientificName": "Erodium cicutarium",
+    "family": "Geraniaceae",
+    "synonyms": [
+      "Common Herons-Bill",
+      "Common Heron's-Bill",
+      "Common Crowfoot",
+      "Storksbill",
+      "Common Storksbill"
+    ]
   },
   {
     "commonName": "Common fumitory",
@@ -9381,7 +9547,15 @@ window.weedsRegistry = [
       }
     ],
     "thumbnail": "images/weeds/common-ice-plant.webp",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Common%20Ice-Plant%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Common%20Ice-Plant%20weed%20Australia",
+    "scientificName": "Mesembryanthemum crystallinum",
+    "family": "Aizoaceae",
+    "synonyms": [
+      "Common Iceplant",
+      "Common Ice Plant",
+      "Ice-Plant",
+      "Iceplant"
+    ]
   },
   {
     "commonName": "Common Peppercress",
@@ -9393,7 +9567,13 @@ window.weedsRegistry = [
       }
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Common%20Peppercress%20weed%20Australia",
-    "thumbnail": "images/weeds/peppercress.webp"
+    "thumbnail": "images/weeds/peppercress.webp",
+    "scientificName": "Lepidium africanum",
+    "family": "Brassicaceae",
+    "synonyms": [
+      "Rubble Peppercress",
+      "Peppercress"
+    ]
   },
   {
     "commonName": "Common pigweed",
@@ -9654,7 +9834,14 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Common%20Sow%20Thistle%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/31cdd78d-c77e-4926-9409-655f57862744/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/31cdd78d-c77e-4926-9409-655f57862744/large"
+    "alaLargeImage": "https://images.ala.org.au/image/31cdd78d-c77e-4926-9409-655f57862744/large",
+    "scientificName": "Sonchus oleraceus",
+    "family": "Asteraceae",
+    "synonyms": [
+      "Pūhā",
+      "Pūwhā",
+      "Rauriki"
+    ]
   },
   {
     "commonName": "Common sowthistle",
@@ -9965,7 +10152,13 @@ window.weedsRegistry = [
       }
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Convolvulus%20Vines%20weed%20Australia",
-    "thumbnail": "images/weeds/convolvulus.webp"
+    "thumbnail": "images/weeds/convolvulus.webp",
+    "scientificName": "Convolvulus",
+    "family": "Convolvulaceae",
+    "synonyms": [
+      "Bindweeds",
+      "Bindweed"
+    ]
   },
   {
     "commonName": "Conyza bonariensis",
@@ -10589,7 +10782,13 @@ window.weedsRegistry = [
       }
     ],
     "thumbnail": "images/weeds/cow-vine.webp",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Cow-Vine%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Cow-Vine%20weed%20Australia",
+    "scientificName": "Ipomoea lonchophylla",
+    "family": "Convolvulaceae",
+    "synonyms": [
+      "Cowvine",
+      "Common Cow-Vine"
+    ]
   },
   {
     "commonName": "Cowpea",
@@ -10766,7 +10965,16 @@ window.weedsRegistry = [
       }
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Crassula%20sieberiana%20weed%20Australia",
-    "thumbnail": "images/weeds/crassula.webp"
+    "thumbnail": "images/weeds/crassula.webp",
+    "scientificName": "Crassula sieberiana",
+    "family": "Crassulaceae",
+    "synonyms": [
+      "Sieber Crassula",
+      "Australian Stonecrop",
+      "Austral Stonecrop",
+      "Austral Crassula",
+      "Silver Crassula"
+    ]
   },
   {
     "commonName": "Creasing Reduction — Navel And Valencia Oranges",
@@ -10830,7 +11038,9 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Creeping%20Buttercup%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/c1ed2794-0b26-4c65-93b6-013b86a8feaa/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/c1ed2794-0b26-4c65-93b6-013b86a8feaa/large"
+    "alaLargeImage": "https://images.ala.org.au/image/c1ed2794-0b26-4c65-93b6-013b86a8feaa/large",
+    "scientificName": "Ranunculus repens",
+    "family": "Ranunculaceae"
   },
   {
     "commonName": "Creeping cinderella weed",
@@ -11216,7 +11426,14 @@ window.weedsRegistry = [
       }
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Crowsfoot%20weed%20Australia",
-    "thumbnail": "images/weeds/crowsfoot-grass.webp"
+    "thumbnail": "images/weeds/crowsfoot-grass.webp",
+    "scientificName": "Eleusine",
+    "family": "Poaceae",
+    "synonyms": [
+      "Crowsfoot Grass",
+      "Goose Grasses",
+      "Crowsfoot Grasses"
+    ]
   },
   {
     "commonName": "Crowsfoot grass",
@@ -11509,7 +11726,12 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Cupid's%20flower%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/e66828e1-6834-42d0-bc89-cb80a159908c/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/e66828e1-6834-42d0-bc89-cb80a159908c/large"
+    "alaLargeImage": "https://images.ala.org.au/image/e66828e1-6834-42d0-bc89-cb80a159908c/large",
+    "scientificName": "Ipomoea quamoclit",
+    "family": "Convolvulaceae",
+    "synonyms": [
+      "Star of Bethlehem"
+    ]
   },
   {
     "commonName": "Curious weed",
@@ -11943,7 +12165,12 @@ window.weedsRegistry = [
       }
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Deadnettle%20weed%20Australia",
-    "thumbnail": "images/weeds/nettle.webp"
+    "thumbnail": "images/weeds/nettle.webp",
+    "scientificName": "Lamium",
+    "family": "Lamiaceae",
+    "synonyms": [
+      "Deadnettles"
+    ]
   },
   {
     "commonName": "Defoliation",
@@ -11966,7 +12193,14 @@ window.weedsRegistry = [
       }
     ],
     "thumbnail": "images/weeds/dense-flowered-fumitory.webp",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Dense%20flowered%20fumitory%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Dense%20flowered%20fumitory%20weed%20Australia",
+    "scientificName": "Fumaria densiflora",
+    "family": "Papaveraceae",
+    "synonyms": [
+      "Fumitory",
+      "Dense-Flowered Fumitory",
+      "Narrow-Leaved Fumitory"
+    ]
   },
   {
     "commonName": "Dense waterweed",
@@ -12154,7 +12388,14 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Dirty%20Dora%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/9f16ccd3-730a-4187-9b35-44e2cb48b165/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/9f16ccd3-730a-4187-9b35-44e2cb48b165/large"
+    "alaLargeImage": "https://images.ala.org.au/image/9f16ccd3-730a-4187-9b35-44e2cb48b165/large",
+    "scientificName": "Cyperus difformis",
+    "family": "Cyperaceae",
+    "synonyms": [
+      "Variable Flat-Sedge",
+      "Rice Sedge",
+      "Variable Leaf Rush"
+    ]
   },
   {
     "commonName": "Dock",
@@ -12261,7 +12502,12 @@ window.weedsRegistry = [
       }
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Docks%20weed%20Australia",
-    "thumbnail": "images/weeds/dock.webp"
+    "thumbnail": "images/weeds/dock.webp",
+    "scientificName": "Rumex",
+    "family": "Polygonaceae",
+    "synonyms": [
+      "Dock"
+    ]
   },
   {
     "commonName": "Doublegee",
@@ -12622,7 +12868,12 @@ window.weedsRegistry = [
       }
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Dwarf%20Amaranthus%20weed%20Australia",
-    "thumbnail": "images/weeds/amaranth.webp"
+    "thumbnail": "images/weeds/amaranth.webp",
+    "scientificName": "Amaranthus",
+    "family": "Amaranthaceae",
+    "synonyms": [
+      "Amaranth"
+    ]
   },
   {
     "commonName": "Dwarf crumbweed",
@@ -13043,7 +13294,14 @@ window.weedsRegistry = [
       }
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Erodium%20Spp.%20weed%20Australia",
-    "thumbnail": "images/weeds/erodium.webp"
+    "thumbnail": "images/weeds/erodium.webp",
+    "scientificName": "Erodium",
+    "family": "Geraniaceae",
+    "synonyms": [
+      "Crowfoot",
+      "Storksbill",
+      "Heron's Bill"
+    ]
   },
   {
     "commonName": "Especially At The Highest Application Rate.",
@@ -13067,7 +13325,12 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Eucalyptus%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/95d00d32-243a-4fe7-a81a-b4c1dc8969a8/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/95d00d32-243a-4fe7-a81a-b4c1dc8969a8/large"
+    "alaLargeImage": "https://images.ala.org.au/image/95d00d32-243a-4fe7-a81a-b4c1dc8969a8/large",
+    "scientificName": "Eucalyptus",
+    "family": "Myrtaceae",
+    "synonyms": [
+      "Gum Trees"
+    ]
   },
   {
     "commonName": "Eucalyptus Spp.",
@@ -13085,7 +13348,12 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Eucalyptus%20Spp.%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/95d00d32-243a-4fe7-a81a-b4c1dc8969a8/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/95d00d32-243a-4fe7-a81a-b4c1dc8969a8/large"
+    "alaLargeImage": "https://images.ala.org.au/image/95d00d32-243a-4fe7-a81a-b4c1dc8969a8/large",
+    "scientificName": "Eucalyptus",
+    "family": "Myrtaceae",
+    "synonyms": [
+      "Gum Trees"
+    ]
   },
   {
     "commonName": "Eurasian water-milfoil",
@@ -13210,7 +13478,12 @@ window.weedsRegistry = [
       }
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Fallopia%20convolvulus%20weed%20Australia",
-    "thumbnail": "images/weeds/convolvulus.webp"
+    "thumbnail": "images/weeds/convolvulus.webp",
+    "scientificName": "Fallopia convolvulus",
+    "family": "Polygonaceae",
+    "synonyms": [
+      "Black Bindweed"
+    ]
   },
   {
     "commonName": "False castor oil plant",
@@ -13304,7 +13577,13 @@ window.weedsRegistry = [
       }
     ],
     "thumbnail": "images/weeds/fathen.webp",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Fat-Hen%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Fat-Hen%20weed%20Australia",
+    "scientificName": "Chenopodium",
+    "family": "Chenopodiaceae",
+    "synonyms": [
+      "Fat Hen",
+      "Goose Foot"
+    ]
   },
   {
     "commonName": "Fathen",
@@ -13782,7 +14061,13 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Field%20pea%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/5676bc1a-830b-4383-9f6e-a15cae950ae5/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/5676bc1a-830b-4383-9f6e-a15cae950ae5/large"
+    "alaLargeImage": "https://images.ala.org.au/image/5676bc1a-830b-4383-9f6e-a15cae950ae5/large",
+    "scientificName": "Pisum sativum",
+    "family": "Fabaceae",
+    "synonyms": [
+      "Garden Pea",
+      "Pea"
+    ]
   },
   {
     "commonName": "Fierce thornapple",
@@ -13966,7 +14251,16 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Flat%20Weed%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/f958227f-4c48-4276-bfa0-df06fb680a3c/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/f958227f-4c48-4276-bfa0-df06fb680a3c/large"
+    "alaLargeImage": "https://images.ala.org.au/image/f958227f-4c48-4276-bfa0-df06fb680a3c/large",
+    "scientificName": "Hypochaeris radicata",
+    "family": "Asteraceae",
+    "synonyms": [
+      "Rough Cat's Ear",
+      "Hogweed",
+      "Dandelion",
+      "Cats-Ear",
+      "Flat-Weed"
+    ]
   },
   {
     "commonName": "Flatweed/Cats Ear",
@@ -13979,7 +14273,12 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Flatweed%2FCats%20Ear%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/126b163d-a23a-4579-ada6-eeca31c7947b/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/126b163d-a23a-4579-ada6-eeca31c7947b/large"
+    "alaLargeImage": "https://images.ala.org.au/image/126b163d-a23a-4579-ada6-eeca31c7947b/large",
+    "scientificName": "Hypochaeris albiflora",
+    "family": "Asteraceae",
+    "synonyms": [
+      "White Flatweed"
+    ]
   },
   {
     "commonName": "Flax-leaf broom",
@@ -14123,7 +14422,13 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Fleabane%20and%20Others%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/a72f1e7c-b026-42f9-a213-dfcba49adea9/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/a72f1e7c-b026-42f9-a213-dfcba49adea9/large"
+    "alaLargeImage": "https://images.ala.org.au/image/a72f1e7c-b026-42f9-a213-dfcba49adea9/large",
+    "scientificName": "Erigeron",
+    "family": "Asteraceae",
+    "synonyms": [
+      "Fleabane",
+      "Flea Bane"
+    ]
   },
   {
     "commonName": "Fleabanes",
@@ -14455,7 +14760,14 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Fumaria%20bastardii%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/0dd898fa-bee7-479c-a95e-1062ad556e0c/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/0dd898fa-bee7-479c-a95e-1062ad556e0c/large"
+    "alaLargeImage": "https://images.ala.org.au/image/0dd898fa-bee7-479c-a95e-1062ad556e0c/large",
+    "scientificName": "Fumaria bastardii",
+    "family": "Papaveraceae",
+    "synonyms": [
+      "Bastard Fumitory",
+      "Fumitory",
+      "Bastards Fumitory"
+    ]
   },
   {
     "commonName": "Fumaria densiflora",
@@ -14468,7 +14780,14 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Fumaria%20densiflora%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/54d1564e-df81-4b4e-85bb-1f0b46e05e7f/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/54d1564e-df81-4b4e-85bb-1f0b46e05e7f/large"
+    "alaLargeImage": "https://images.ala.org.au/image/54d1564e-df81-4b4e-85bb-1f0b46e05e7f/large",
+    "scientificName": "Fumaria densiflora",
+    "family": "Papaveraceae",
+    "synonyms": [
+      "Fumitory",
+      "Dense-Flowered Fumitory",
+      "Narrow-Leaved Fumitory"
+    ]
   },
   {
     "commonName": "Fumaria officinalis",
@@ -14481,7 +14800,14 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Fumaria%20officinalis%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/f31eb44b-bcfd-403a-bf90-ea85a0d402ca/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/f31eb44b-bcfd-403a-bf90-ea85a0d402ca/large"
+    "alaLargeImage": "https://images.ala.org.au/image/f31eb44b-bcfd-403a-bf90-ea85a0d402ca/large",
+    "scientificName": "Fumaria officinalis",
+    "family": "Papaveraceae",
+    "synonyms": [
+      "Common Fumitory",
+      "The Common Fumitory",
+      "Fumitory"
+    ]
   },
   {
     "commonName": "Fumitories",
@@ -14494,7 +14820,12 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Fumitories%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/caeccaf6-20fb-43de-8666-8f70508da726/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/caeccaf6-20fb-43de-8666-8f70508da726/large"
+    "alaLargeImage": "https://images.ala.org.au/image/caeccaf6-20fb-43de-8666-8f70508da726/large",
+    "scientificName": "Fumaria",
+    "family": "Papaveraceae",
+    "synonyms": [
+      "Fumitory"
+    ]
   },
   {
     "commonName": "Fumitory",
@@ -14899,7 +15230,14 @@ window.weedsRegistry = [
       }
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Geraniums%20weed%20Australia",
-    "thumbnail": "images/weeds/geranium.webp"
+    "thumbnail": "images/weeds/geranium.webp",
+    "scientificName": "Geranium",
+    "family": "Geraniaceae",
+    "synonyms": [
+      "Crane's-Bill",
+      "Crane's Bill",
+      "Cranesbills"
+    ]
   },
   {
     "commonName": "Ghost Gum",
@@ -14912,7 +15250,14 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Ghost%20Gum%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/e2dc3b8c-4bd1-48ec-a001-adc0c6826c3b/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/e2dc3b8c-4bd1-48ec-a001-adc0c6826c3b/large"
+    "alaLargeImage": "https://images.ala.org.au/image/e2dc3b8c-4bd1-48ec-a001-adc0c6826c3b/large",
+    "scientificName": "Corymbia flavescens",
+    "family": "Myrtaceae",
+    "synonyms": [
+      "Cabbage Gum",
+      "Cabbage Ghost Gum",
+      "Bastard Ghost Gum"
+    ]
   },
   {
     "commonName": "Giant devil's fig",
@@ -15773,7 +16118,15 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Great%20Brome%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/71e84597-0134-4f65-b5fb-09e8471ccb51/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/71e84597-0134-4f65-b5fb-09e8471ccb51/large"
+    "alaLargeImage": "https://images.ala.org.au/image/71e84597-0134-4f65-b5fb-09e8471ccb51/large",
+    "scientificName": "Bromus diandrus",
+    "family": "Poaceae",
+    "synonyms": [
+      "Giant Brome",
+      "Jabbers",
+      "Brome Grass",
+      "Ripgut Brome"
+    ]
   },
   {
     "commonName": "Great mullein",
@@ -16301,7 +16654,15 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Guilford%20Grass%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/6b9fbee7-625b-454f-ac60-aa89ec7b2f69/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/6b9fbee7-625b-454f-ac60-aa89ec7b2f69/large"
+    "alaLargeImage": "https://images.ala.org.au/image/6b9fbee7-625b-454f-ac60-aa89ec7b2f69/large",
+    "scientificName": "Romulea rosea",
+    "family": "Iridaceae",
+    "synonyms": [
+      "Onion Grass",
+      "Guildford Grass",
+      "Onion Weed",
+      "Onion-Grass"
+    ]
   },
   {
     "commonName": "Guinea grass",
@@ -16865,7 +17226,9 @@ window.weedsRegistry = [
       }
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Heliotrope.%20weed%20Australia",
-    "thumbnail": "images/weeds/blue-heliotrope.webp"
+    "thumbnail": "images/weeds/blue-heliotrope.webp",
+    "scientificName": "Heliotropium",
+    "family": "Boraginaceae"
   },
   {
     "commonName": "Hemlock",
@@ -17304,7 +17667,15 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Hordeum%20leporinum%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/63c22143-f78c-4106-ba9e-d0d70fb622c8/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/63c22143-f78c-4106-ba9e-d0d70fb622c8/large"
+    "alaLargeImage": "https://images.ala.org.au/image/63c22143-f78c-4106-ba9e-d0d70fb622c8/large",
+    "scientificName": "Hordeum leporinum",
+    "family": "Poaceae",
+    "synonyms": [
+      "Barley Grass",
+      "Wall Barley",
+      "Common Foxtail",
+      "Hare Barley"
+    ]
   },
   {
     "commonName": "Horehound",
@@ -17424,7 +17795,13 @@ window.weedsRegistry = [
       }
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Horned%20Poppy%20weed%20Australia",
-    "thumbnail": "images/weeds/poppy.webp"
+    "thumbnail": "images/weeds/poppy.webp",
+    "scientificName": "Glaucium corniculatum",
+    "family": "Papaveraceae",
+    "synonyms": [
+      "Bristly Horned Poppy",
+      "Red Horned-Poppy"
+    ]
   },
   {
     "commonName": "Horticultural Pesticide And Fertiliser Sprays",
@@ -17915,7 +18292,13 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Ipomoea%20Vines%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/cd3be3fd-f2ee-4db0-a142-825b27dee657/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/cd3be3fd-f2ee-4db0-a142-825b27dee657/large"
+    "alaLargeImage": "https://images.ala.org.au/image/cd3be3fd-f2ee-4db0-a142-825b27dee657/large",
+    "scientificName": "Ipomoea",
+    "family": "Convolvulaceae",
+    "synonyms": [
+      "Morning Glory",
+      "Morning Glories"
+    ]
   },
   {
     "commonName": "Itch grass",
@@ -18247,7 +18630,9 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Jarrah%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/6561942c-a25e-4782-9708-0aebcbb73561/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/6561942c-a25e-4782-9708-0aebcbb73561/large"
+    "alaLargeImage": "https://images.ala.org.au/image/6561942c-a25e-4782-9708-0aebcbb73561/large",
+    "scientificName": "Eucalyptus marginata",
+    "family": "Myrtaceae"
   },
   {
     "commonName": "Jerry jerry",
@@ -18888,7 +19273,14 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Lactuca%20serriola%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/8d27f474-b170-45a7-99ea-5da3ca592dc5/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/8d27f474-b170-45a7-99ea-5da3ca592dc5/large"
+    "alaLargeImage": "https://images.ala.org.au/image/8d27f474-b170-45a7-99ea-5da3ca592dc5/large",
+    "scientificName": "Lactuca serriola",
+    "family": "Asteraceae",
+    "synonyms": [
+      "Prickly Lettuce",
+      "Milk Thistle",
+      "Compass Plant"
+    ]
   },
   {
     "commonName": "Lagarosiphon",
@@ -19207,7 +19599,9 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Lens%20culinaris%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/e5e70d23-3671-4b4f-92e9-0f9e1d993f19/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/e5e70d23-3671-4b4f-92e9-0f9e1d993f19/large"
+    "alaLargeImage": "https://images.ala.org.au/image/e5e70d23-3671-4b4f-92e9-0f9e1d993f19/large",
+    "scientificName": "Lens culinaris",
+    "family": "Leguminosae"
   },
   {
     "commonName": "Lesser canary grass",
@@ -19373,7 +19767,9 @@ window.weedsRegistry = [
       }
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Lettuce%20weed%20Australia",
-    "thumbnail": "images/weeds/prickly-lettuce.webp"
+    "thumbnail": "images/weeds/prickly-lettuce.webp",
+    "scientificName": "Lactuca",
+    "family": "Asteraceae"
   },
   {
     "commonName": "Leucaena",
@@ -19775,7 +20171,16 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Lolium%20perenne%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/78f168b3-09c6-4a6f-b821-fdc8751da6cc/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/78f168b3-09c6-4a6f-b821-fdc8751da6cc/large"
+    "alaLargeImage": "https://images.ala.org.au/image/78f168b3-09c6-4a6f-b821-fdc8751da6cc/large",
+    "scientificName": "Lolium perenne",
+    "family": "Poaceae",
+    "synonyms": [
+      "Perennial Ryegrass",
+      "Rye Grass",
+      "Ray Grass",
+      "Rye-Grass",
+      "Ryegrass"
+    ]
   },
   {
     "commonName": "Lolium rigidum",
@@ -19788,7 +20193,15 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Lolium%20rigidum%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/a21e8542-f662-4b2c-b4ee-69b2a138c0db/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/a21e8542-f662-4b2c-b4ee-69b2a138c0db/large"
+    "alaLargeImage": "https://images.ala.org.au/image/a21e8542-f662-4b2c-b4ee-69b2a138c0db/large",
+    "scientificName": "Lolium rigidum",
+    "family": "Poaceae",
+    "synonyms": [
+      "Wimmera Ryegrass",
+      "Wimmera Rye Grass",
+      "Annual Ryegrass",
+      "Wimmera Rye-Grass"
+    ]
   },
   {
     "commonName": "London rocket",
@@ -19967,7 +20380,14 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Love%20Grasses%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/8b475ec1-eb4b-467a-aed8-43f1ee806fbe/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/8b475ec1-eb4b-467a-aed8-43f1ee806fbe/large"
+    "alaLargeImage": "https://images.ala.org.au/image/8b475ec1-eb4b-467a-aed8-43f1ee806fbe/large",
+    "scientificName": "Eragrostis",
+    "family": "Poaceae",
+    "synonyms": [
+      "Love Grass",
+      "Lovegrasses",
+      "Love-Grass"
+    ]
   },
   {
     "commonName": "Lovegrass",
@@ -20027,7 +20447,15 @@ window.weedsRegistry = [
       }
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Lovegrass%2C%20African%20weed%20Australia",
-    "thumbnail": "images/weeds/lovegrass.webp"
+    "thumbnail": "images/weeds/lovegrass.webp",
+    "scientificName": "Eragrostis curvula",
+    "family": "Poaceae",
+    "synonyms": [
+      "African Love-Grass",
+      "African Love Grass",
+      "African Lovegrass",
+      "Weeping Lovegrass"
+    ]
   },
   {
     "commonName": "Lovegrass/Stink Grass",
@@ -20039,7 +20467,14 @@ window.weedsRegistry = [
       }
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Lovegrass%2FStink%20Grass%20weed%20Australia",
-    "thumbnail": "images/weeds/lovegrass.webp"
+    "thumbnail": "images/weeds/lovegrass.webp",
+    "scientificName": "Eragrostis leptocarpa",
+    "family": "Poaceae",
+    "synonyms": [
+      "Lovegrass",
+      "Drooping Lovegrass",
+      "Slender Lovegrass"
+    ]
   },
   {
     "commonName": "Lucerne",
@@ -20052,7 +20487,12 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Lucerne%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/98f99c6b-4fc0-46a9-9fba-84b72d4ab936/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/98f99c6b-4fc0-46a9-9fba-84b72d4ab936/large"
+    "alaLargeImage": "https://images.ala.org.au/image/98f99c6b-4fc0-46a9-9fba-84b72d4ab936/large",
+    "scientificName": "Sida",
+    "family": "Malvaceae",
+    "synonyms": [
+      "Paddy's Lucerne"
+    ]
   },
   {
     "commonName": "Ludwigia Peruviana",
@@ -20065,7 +20505,9 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Ludwigia%20Peruviana%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/6f8983e1-c137-48d0-acf9-4ed99dee1e69/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/6f8983e1-c137-48d0-acf9-4ed99dee1e69/large"
+    "alaLargeImage": "https://images.ala.org.au/image/6f8983e1-c137-48d0-acf9-4ed99dee1e69/large",
+    "scientificName": "Ludwigia peruviana",
+    "family": "Onagraceae"
   },
   {
     "commonName": "Madeira vine",
@@ -20179,7 +20621,16 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Malva%20parviflora%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/f805090c-45cd-42f6-a6c7-65d55347616a/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/f805090c-45cd-42f6-a6c7-65d55347616a/large"
+    "alaLargeImage": "https://images.ala.org.au/image/f805090c-45cd-42f6-a6c7-65d55347616a/large",
+    "scientificName": "Malva parviflora",
+    "family": "Malvaceae",
+    "synonyms": [
+      "Small-Flower Mallow",
+      "Mallow",
+      "Small-Flowered Mallow",
+      "Little Mallow",
+      "Marshmallow"
+    ]
   },
   {
     "commonName": "Malvastrum",
@@ -20412,7 +20863,13 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Medicago%20spp.%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/98f99c6b-4fc0-46a9-9fba-84b72d4ab936/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/98f99c6b-4fc0-46a9-9fba-84b72d4ab936/large"
+    "alaLargeImage": "https://images.ala.org.au/image/98f99c6b-4fc0-46a9-9fba-84b72d4ab936/large",
+    "scientificName": "Medicago",
+    "family": "Fabaceae",
+    "synonyms": [
+      "Medic",
+      "Medics"
+    ]
   },
   {
     "commonName": "Medics",
@@ -20440,7 +20897,12 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Medics%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/a441c1ce-ce2f-4f63-9d0f-6d44eddd9017/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/a441c1ce-ce2f-4f63-9d0f-6d44eddd9017/large"
+    "alaLargeImage": "https://images.ala.org.au/image/a441c1ce-ce2f-4f63-9d0f-6d44eddd9017/large",
+    "scientificName": "Medicago",
+    "family": "Fabaceae",
+    "synonyms": [
+      "Medic"
+    ]
   },
   {
     "commonName": "Melaleuca",
@@ -20453,7 +20915,16 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Melaleuca%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/4c9700fa-748a-4163-a130-ec84a767a882/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/4c9700fa-748a-4163-a130-ec84a767a882/large"
+    "alaLargeImage": "https://images.ala.org.au/image/4c9700fa-748a-4163-a130-ec84a767a882/large",
+    "scientificName": "Melaleuca",
+    "family": "Myrtaceae",
+    "synonyms": [
+      "Tea-Tree",
+      "Paperbarks",
+      "Tea Trees",
+      "Melaleucas",
+      "Honey Myrtles"
+    ]
   },
   {
     "commonName": "Melons",
@@ -21086,7 +21557,14 @@ window.weedsRegistry = [
       }
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Mimosa%20Pigra%20weed%20Australia",
-    "thumbnail": "images/weeds/mimosa.webp"
+    "thumbnail": "images/weeds/mimosa.webp",
+    "scientificName": "Mimosa pigra",
+    "family": "Fabaceae",
+    "synonyms": [
+      "Giant Sensitive Plant",
+      "Mimosa",
+      "Giant Sensitive Tree"
+    ]
   },
   {
     "commonName": "Ming asparagus",
@@ -22128,7 +22606,14 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Narrowleaf%20Ironbark%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/b3c7fc3e-d578-41d2-984c-5469cdc16e1f/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/b3c7fc3e-d578-41d2-984c-5469cdc16e1f/large"
+    "alaLargeImage": "https://images.ala.org.au/image/b3c7fc3e-d578-41d2-984c-5469cdc16e1f/large",
+    "scientificName": "Eucalyptus panda",
+    "family": "Myrtaceae",
+    "synonyms": [
+      "Yetman Ironbark",
+      "Brogans Ironbark",
+      "Corky Ironbark"
+    ]
   },
   {
     "commonName": "Native amaranth",
@@ -22618,7 +23103,9 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Nodding%20thistle%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/296e0641-0bc4-468f-b455-0f95b40127fc/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/296e0641-0bc4-468f-b455-0f95b40127fc/large"
+    "alaLargeImage": "https://images.ala.org.au/image/296e0641-0bc4-468f-b455-0f95b40127fc/large",
+    "scientificName": "Carduus thoermeri",
+    "family": "Asteraceae"
   },
   {
     "commonName": "Noogoora burr",
@@ -22785,7 +23272,9 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Nothoscordum%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/b9da85ca-a257-4440-8a63-283f540445ec/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/b9da85ca-a257-4440-8a63-283f540445ec/large"
+    "alaLargeImage": "https://images.ala.org.au/image/b9da85ca-a257-4440-8a63-283f540445ec/large",
+    "scientificName": "Nothoscordum",
+    "family": "Alliaceae"
   },
   {
     "commonName": "Nutgrass",
@@ -22932,7 +23421,12 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Oncosiphon%20pilulifer%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/5dbcb3e7-b8d4-434a-8fdb-1253be843d99/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/5dbcb3e7-b8d4-434a-8fdb-1253be843d99/large"
+    "alaLargeImage": "https://images.ala.org.au/image/5dbcb3e7-b8d4-434a-8fdb-1253be843d99/large",
+    "scientificName": "Oncosiphon pilulifer",
+    "family": "Asteraceae",
+    "synonyms": [
+      "Globe Chamomile"
+    ]
   },
   {
     "commonName": "Onehunga",
@@ -22950,7 +23444,16 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Onehunga%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/ec00e8f0-3527-4ab0-b6b6-52a62764ccb8/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/ec00e8f0-3527-4ab0-b6b6-52a62764ccb8/large"
+    "alaLargeImage": "https://images.ala.org.au/image/ec00e8f0-3527-4ab0-b6b6-52a62764ccb8/large",
+    "scientificName": "Soliva sessilis",
+    "family": "Asteraceae",
+    "synonyms": [
+      "Jo-Jo",
+      "Bindyi",
+      "Lawn Burweed",
+      "Jo Jo",
+      "Onehunga Weed"
+    ]
   },
   {
     "commonName": "Onion Weed",
@@ -22962,7 +23465,12 @@ window.weedsRegistry = [
       }
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Onion%20Weed%20weed%20Australia",
-    "thumbnail": "images/weeds/angled-onion-weed.webp"
+    "thumbnail": "images/weeds/angled-onion-weed.webp",
+    "scientificName": "Trachyandra divaricata",
+    "family": "Asphodelaceae",
+    "synonyms": [
+      "Dune Onion Weed"
+    ]
   },
   {
     "commonName": "Opium poppy",
@@ -23123,7 +23631,12 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Paddy%20Melons%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/754523df-8f56-4765-922d-ba6ef075f6ba/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/754523df-8f56-4765-922d-ba6ef075f6ba/large"
+    "alaLargeImage": "https://images.ala.org.au/image/754523df-8f56-4765-922d-ba6ef075f6ba/large",
+    "scientificName": "Cucumis",
+    "family": "Cucurbitaceae",
+    "synonyms": [
+      "Melon"
+    ]
   },
   {
     "commonName": "Paddys Lucerne",
@@ -23136,7 +23649,12 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Paddys%20Lucerne%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/98f99c6b-4fc0-46a9-9fba-84b72d4ab936/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/98f99c6b-4fc0-46a9-9fba-84b72d4ab936/large"
+    "alaLargeImage": "https://images.ala.org.au/image/98f99c6b-4fc0-46a9-9fba-84b72d4ab936/large",
+    "scientificName": "Sida",
+    "family": "Malvaceae",
+    "synonyms": [
+      "Paddy's Lucerne"
+    ]
   },
   {
     "commonName": "Painted spurge",
@@ -23807,7 +24325,12 @@ window.weedsRegistry = [
       }
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Paspalum%20notatum%20weed%20Australia",
-    "thumbnail": "images/weeds/paspalum.webp"
+    "thumbnail": "images/weeds/paspalum.webp",
+    "scientificName": "Paspalum notatum",
+    "family": "Poaceae",
+    "synonyms": [
+      "Bahia Grass"
+    ]
   },
   {
     "commonName": "Paspalum Spp.",
@@ -23819,7 +24342,12 @@ window.weedsRegistry = [
       }
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Paspalum%20Spp.%20weed%20Australia",
-    "thumbnail": "images/weeds/paspalum.webp"
+    "thumbnail": "images/weeds/paspalum.webp",
+    "scientificName": "Paspalum",
+    "family": "Poaceae",
+    "synonyms": [
+      "Paspalum"
+    ]
   },
   {
     "commonName": "Paterson's curse",
@@ -24439,7 +24967,13 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Phalaris%20paradoxa%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/7d733ddd-1ee0-438e-8ceb-1af658e31e5f/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/7d733ddd-1ee0-438e-8ceb-1af658e31e5f/large"
+    "alaLargeImage": "https://images.ala.org.au/image/7d733ddd-1ee0-438e-8ceb-1af658e31e5f/large",
+    "scientificName": "Phalaris paradoxa",
+    "family": "Poaceae",
+    "synonyms": [
+      "Paradox Canary-Grass",
+      "Paradoxa Grass"
+    ]
   },
   {
     "commonName": "Phasey bean",
@@ -24758,7 +25292,14 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Pinkburr%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/43f0038c-0e36-4638-8dda-c026159ac4bb/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/43f0038c-0e36-4638-8dda-c026159ac4bb/large"
+    "alaLargeImage": "https://images.ala.org.au/image/43f0038c-0e36-4638-8dda-c026159ac4bb/large",
+    "scientificName": "Urena lobata",
+    "family": "Malvaceae",
+    "synonyms": [
+      "Urena Weed",
+      "Urena Burr",
+      "Pink Flowered Chinese Burr"
+    ]
   },
   {
     "commonName": "Plains grass",
@@ -24886,7 +25427,12 @@ window.weedsRegistry = [
       }
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Plantains%20weed%20Australia",
-    "thumbnail": "images/weeds/plantain.webp"
+    "thumbnail": "images/weeds/plantain.webp",
+    "scientificName": "Plantago",
+    "family": "Plantaginaceae",
+    "synonyms": [
+      "Plantain"
+    ]
   },
   {
     "commonName": "Poa annua",
@@ -24904,7 +25450,16 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Poa%20annua%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/7e0d032d-1739-4c77-a37c-69782ed2dd12/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/7e0d032d-1739-4c77-a37c-69782ed2dd12/large"
+    "alaLargeImage": "https://images.ala.org.au/image/7e0d032d-1739-4c77-a37c-69782ed2dd12/large",
+    "scientificName": "Poa annua",
+    "family": "Poaceae",
+    "synonyms": [
+      "Winter Grass",
+      "Annual Meadow-Grass",
+      "Annual Meadow Grass",
+      "Goose Grass",
+      "Annual Poa"
+    ]
   },
   {
     "commonName": "Poa tussock",
@@ -25003,7 +25558,15 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Polygonum%20aviculare%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/f4b829d1-1568-48bc-9932-b0f04d79b5c0/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/f4b829d1-1568-48bc-9932-b0f04d79b5c0/large"
+    "alaLargeImage": "https://images.ala.org.au/image/f4b829d1-1568-48bc-9932-b0f04d79b5c0/large",
+    "scientificName": "Polygonum aviculare",
+    "family": "Polygonaceae",
+    "synonyms": [
+      "Hog-Weed",
+      "Knot Grass",
+      "Wireweed",
+      "Hogweed"
+    ]
   },
   {
     "commonName": "Polymeria",
@@ -26197,7 +26760,9 @@ window.weedsRegistry = [
       }
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Radish%20weed%20Australia",
-    "thumbnail": "images/weeds/wild-radish.webp"
+    "thumbnail": "images/weeds/wild-radish.webp",
+    "scientificName": "Raphanus",
+    "family": "Brassicaceae"
   },
   {
     "commonName": "Ragwort",
@@ -26292,7 +26857,16 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Rapeseed%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/ba5777e4-4a94-4807-b6ab-a8a703f3a42e/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/ba5777e4-4a94-4807-b6ab-a8a703f3a42e/large"
+    "alaLargeImage": "https://images.ala.org.au/image/ba5777e4-4a94-4807-b6ab-a8a703f3a42e/large",
+    "scientificName": "Brassica x napus",
+    "family": "Brassicaceae",
+    "synonyms": [
+      "Rape",
+      "Canola",
+      "Turnip",
+      "Wild Mustard",
+      "Coleseed"
+    ]
   },
   {
     "commonName": "Raphanus raphanistrum",
@@ -26305,7 +26879,15 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Raphanus%20raphanistrum%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/ddfefe88-f45a-4361-ad20-9002f5b8ae33/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/ddfefe88-f45a-4361-ad20-9002f5b8ae33/large"
+    "alaLargeImage": "https://images.ala.org.au/image/ddfefe88-f45a-4361-ad20-9002f5b8ae33/large",
+    "scientificName": "Raphanus raphanistrum",
+    "family": "Brassicaceae",
+    "synonyms": [
+      "Wild Radish",
+      "Jointed Charlock",
+      "White Charlock",
+      "Wild Charlock"
+    ]
   },
   {
     "commonName": "Raspberry Primocanes",
@@ -26370,7 +26952,13 @@ window.weedsRegistry = [
       }
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Red%20Azolla%20weed%20Australia",
-    "thumbnail": "images/weeds/azolla.webp"
+    "thumbnail": "images/weeds/azolla.webp",
+    "scientificName": "Azolla rubra",
+    "family": "Salviniaceae",
+    "synonyms": [
+      "Pacific Azolla",
+      "Red Water Fern"
+    ]
   },
   {
     "commonName": "Red bauhinia",
@@ -26548,7 +27136,14 @@ window.weedsRegistry = [
       }
     ],
     "thumbnail": "images/weeds/red-flowered-mallow.webp",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Red%20Flowered%20Mallow%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Red%20Flowered%20Mallow%20weed%20Australia",
+    "scientificName": "Modiola caroliniana",
+    "family": "Malvaceae",
+    "synonyms": [
+      "Red-Flowered Mallow",
+      "Ground Ivy",
+      "Carolina Mallow"
+    ]
   },
   {
     "commonName": "Red gum",
@@ -26592,7 +27187,15 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Red%20Leg%20Grass%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/bcb70f25-0b80-4002-8262-5b5e8a44e353/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/bcb70f25-0b80-4002-8262-5b5e8a44e353/large"
+    "alaLargeImage": "https://images.ala.org.au/image/bcb70f25-0b80-4002-8262-5b5e8a44e353/large",
+    "scientificName": "Bothriochloa macra",
+    "family": "Poaceae",
+    "synonyms": [
+      "Red-Leg Grass",
+      "Red Grass",
+      "Redleg Grass",
+      "Pitted Beard Grass"
+    ]
   },
   {
     "commonName": "Red natal grass",
@@ -27389,7 +27992,9 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Rushes%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/bb61b843-08e1-41d3-a286-5a072c99f916/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/bb61b843-08e1-41d3-a286-5a072c99f916/large"
+    "alaLargeImage": "https://images.ala.org.au/image/bb61b843-08e1-41d3-a286-5a072c99f916/large",
+    "scientificName": "Juncus",
+    "family": "Juncaceae"
   },
   {
     "commonName": "Russian knapweed",
@@ -27536,7 +28141,9 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Safflower%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/510859bf-e6be-4f3b-b504-50014683dd86/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/510859bf-e6be-4f3b-b504-50014683dd86/large"
+    "alaLargeImage": "https://images.ala.org.au/image/510859bf-e6be-4f3b-b504-50014683dd86/large",
+    "scientificName": "Carthamus tinctorius",
+    "family": "Asteraceae"
   },
   {
     "commonName": "Saffron thistle",
@@ -28080,7 +28687,9 @@ window.weedsRegistry = [
       }
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Sedges%20weed%20Australia",
-    "thumbnail": "images/weeds/annual-sedges.webp"
+    "thumbnail": "images/weeds/annual-sedges.webp",
+    "scientificName": "Carex",
+    "family": "Cyperaceae"
   },
   {
     "commonName": "Seed Treatment",
@@ -28307,7 +28916,12 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Setaria%20Spp.%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/c33b7b37-528a-4132-afc5-c6fd8279279f/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/c33b7b37-528a-4132-afc5-c6fd8279279f/large"
+    "alaLargeImage": "https://images.ala.org.au/image/c33b7b37-528a-4132-afc5-c6fd8279279f/large",
+    "scientificName": "Setaria",
+    "family": "Poaceae",
+    "synonyms": [
+      "Pigeon Grass"
+    ]
   },
   {
     "commonName": "Shamrock",
@@ -28462,7 +29076,13 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Shepherds%20Purse%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/9c5e2235-75b7-4dfa-b31b-82e77fe8e4d2/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/9c5e2235-75b7-4dfa-b31b-82e77fe8e4d2/large"
+    "alaLargeImage": "https://images.ala.org.au/image/9c5e2235-75b7-4dfa-b31b-82e77fe8e4d2/large",
+    "scientificName": "Scandix pecten-veneris",
+    "family": "Apiaceae",
+    "synonyms": [
+      "Shepherd's Needle",
+      "Venus's Comb"
+    ]
   },
   {
     "commonName": "Shoebutton ardisia",
@@ -28813,7 +29433,12 @@ window.weedsRegistry = [
       }
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Sifton%20Bush%2FChinese%20Scrub%20weed%20Australia",
-    "thumbnail": "images/weeds/sifton-bush.webp"
+    "thumbnail": "images/weeds/sifton-bush.webp",
+    "scientificName": "Cassinia sifton",
+    "family": "Asteraceae",
+    "synonyms": [
+      "Drooping Sifton Bush"
+    ]
   },
   {
     "commonName": "Signal grass",
@@ -29087,7 +29712,14 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Silverleaf%20Ironbark%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/b3c7fc3e-d578-41d2-984c-5469cdc16e1f/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/b3c7fc3e-d578-41d2-984c-5469cdc16e1f/large"
+    "alaLargeImage": "https://images.ala.org.au/image/b3c7fc3e-d578-41d2-984c-5469cdc16e1f/large",
+    "scientificName": "Eucalyptus panda",
+    "family": "Myrtaceae",
+    "synonyms": [
+      "Yetman Ironbark",
+      "Brogans Ironbark",
+      "Corky Ironbark"
+    ]
   },
   {
     "commonName": "Silverleaf nightshade",
@@ -29248,7 +29880,14 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Sisymbrium%20orientale%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/cde776d1-c431-4ac7-afa0-83982439d82e/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/cde776d1-c431-4ac7-afa0-83982439d82e/large"
+    "alaLargeImage": "https://images.ala.org.au/image/cde776d1-c431-4ac7-afa0-83982439d82e/large",
+    "scientificName": "Sisymbrium orientale",
+    "family": "Brassicaceae",
+    "synonyms": [
+      "Indian Hedge Mustard",
+      "Wild Mustard",
+      "Hedge Mustard"
+    ]
   },
   {
     "commonName": "Size and Colour Enhancement in Cherries",
@@ -29622,7 +30261,16 @@ window.weedsRegistry = [
       }
     ],
     "thumbnail": "images/weeds/small-flowered-mallow.webp",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Small%20Flowered%20Mallow%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Small%20Flowered%20Mallow%20weed%20Australia",
+    "scientificName": "Malva parviflora",
+    "family": "Malvaceae",
+    "synonyms": [
+      "Small-Flower Mallow",
+      "Mallow",
+      "Small-Flowered Mallow",
+      "Little Mallow",
+      "Marshmallow"
+    ]
   },
   {
     "commonName": "Small leaved privet",
@@ -30090,7 +30738,14 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Sonchus%20oleraceus%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/31cdd78d-c77e-4926-9409-655f57862744/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/31cdd78d-c77e-4926-9409-655f57862744/large"
+    "alaLargeImage": "https://images.ala.org.au/image/31cdd78d-c77e-4926-9409-655f57862744/large",
+    "scientificName": "Sonchus oleraceus",
+    "family": "Asteraceae",
+    "synonyms": [
+      "Pūhā",
+      "Pūwhā",
+      "Rauriki"
+    ]
   },
   {
     "commonName": "Sorrel",
@@ -30213,7 +30868,14 @@ window.weedsRegistry = [
       }
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Sorrel%20Sub-Clover%20weed%20Australia",
-    "thumbnail": "images/weeds/sorrel.webp"
+    "thumbnail": "images/weeds/sorrel.webp",
+    "scientificName": "Oxalis",
+    "family": "Oxalidaceae",
+    "synonyms": [
+      "Wood Sorrel",
+      "Wood-Sorrel",
+      "Wood Sorrels"
+    ]
   },
   {
     "commonName": "Sourgrass",
@@ -30955,7 +31617,13 @@ window.weedsRegistry = [
       }
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Spiny%20Spider%20Flower%20weed%20Australia",
-    "thumbnail": "images/weeds/spider-flower.webp"
+    "thumbnail": "images/weeds/spider-flower.webp",
+    "scientificName": "Scaevola",
+    "family": "Goodeniaceae",
+    "synonyms": [
+      "Fan-Flowers",
+      "Fan-Flower"
+    ]
   },
   {
     "commonName": "Spinyhead sida",
@@ -30998,7 +31666,13 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Sporobolus%20Species%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/f7e78c0e-d5b1-4115-a8b5-53e789635574/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/f7e78c0e-d5b1-4115-a8b5-53e789635574/large"
+    "alaLargeImage": "https://images.ala.org.au/image/f7e78c0e-d5b1-4115-a8b5-53e789635574/large",
+    "scientificName": "Sporobolus",
+    "family": "Poaceae",
+    "synonyms": [
+      "Drop-Seeds",
+      "Rat-Tail Grasses"
+    ]
   },
   {
     "commonName": "Spotted medic",
@@ -31293,7 +31967,13 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=St%20Johns%20Wort%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/6a118833-5166-4474-abac-3b9c6f94d719/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/6a118833-5166-4474-abac-3b9c6f94d719/large"
+    "alaLargeImage": "https://images.ala.org.au/image/6a118833-5166-4474-abac-3b9c6f94d719/large",
+    "scientificName": "Hypericum gramineum",
+    "family": "Hypericaceae",
+    "synonyms": [
+      "Small St Johns Wort",
+      "Small St. John's Wort"
+    ]
   },
   {
     "commonName": "Stagger weed",
@@ -31909,7 +32589,14 @@ window.weedsRegistry = [
       }
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Streaked%20rattle%20pod%20weed%20Australia",
-    "thumbnail": "images/weeds/streaked-rattlepod.webp"
+    "thumbnail": "images/weeds/streaked-rattlepod.webp",
+    "scientificName": "Acacia pycnantha",
+    "family": "Fabaceae",
+    "synonyms": [
+      "Golden Wattle",
+      "Black Wattle",
+      "Green Wattle"
+    ]
   },
   {
     "commonName": "Streaked rattlepod",
@@ -31986,7 +32673,13 @@ window.weedsRegistry = [
       }
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Sub-Clover%20weed%20Australia",
-    "thumbnail": "images/weeds/clover.webp"
+    "thumbnail": "images/weeds/clover.webp",
+    "scientificName": "Trifolium subterraneum",
+    "family": "Fabaceae",
+    "synonyms": [
+      "Subterranean Clover",
+      "Sub Clover"
+    ]
   },
   {
     "commonName": "Subterranean clover",
@@ -32236,7 +32929,13 @@ window.weedsRegistry = [
       }
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Sunflower%20weed%20Australia",
-    "thumbnail": "images/weeds/japanese-sunflower.webp"
+    "thumbnail": "images/weeds/japanese-sunflower.webp",
+    "scientificName": "Helianthus annuus",
+    "family": "Asteraceae",
+    "synonyms": [
+      "Common Sunflower",
+      "Annual Sunflower"
+    ]
   },
   {
     "commonName": "Sunflowers",
@@ -32247,7 +32946,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Sunflowers%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Sunflowers%20weed%20Australia",
+    "scientificName": "Helianthus",
+    "family": "Asteraceae",
+    "synonyms": [
+      "Sunflower"
+    ]
   },
   {
     "commonName": "Suppression Of Annual Ryegrass",
@@ -32607,7 +33311,9 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Tall%20Sedge%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/d798aac4-6212-436e-9eed-152b24ce29b2/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/d798aac4-6212-436e-9eed-152b24ce29b2/large"
+    "alaLargeImage": "https://images.ala.org.au/image/d798aac4-6212-436e-9eed-152b24ce29b2/large",
+    "scientificName": "Carex appressa",
+    "family": "Cyperaceae"
   },
   {
     "commonName": "Tar vine",
@@ -32801,7 +33507,15 @@ window.weedsRegistry = [
       }
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Thistle%2C%20Artichoke%20weed%20Australia",
-    "thumbnail": "images/weeds/artichoke.webp"
+    "thumbnail": "images/weeds/artichoke.webp",
+    "scientificName": "Cynara cardunculus",
+    "family": "Asteraceae",
+    "synonyms": [
+      "Cardoon",
+      "Spanish Artichoke",
+      "Artichoke Thistle",
+      "Wild Artichoke"
+    ]
   },
   {
     "commonName": "Thistle, Californian",
@@ -32814,7 +33528,13 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Thistle%2C%20Californian%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/43a6cb6c-e96a-4eef-9d65-01dfbc2c4432/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/43a6cb6c-e96a-4eef-9d65-01dfbc2c4432/large"
+    "alaLargeImage": "https://images.ala.org.au/image/43a6cb6c-e96a-4eef-9d65-01dfbc2c4432/large",
+    "scientificName": "Eschscholzia californica",
+    "family": "Papaveraceae",
+    "synonyms": [
+      "Californian Poppy",
+      "California Poppy"
+    ]
   },
   {
     "commonName": "Thistles",
@@ -32836,7 +33556,12 @@ window.weedsRegistry = [
       }
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Thistles%20weed%20Australia",
-    "thumbnail": "images/weeds/annual-thistles.webp"
+    "thumbnail": "images/weeds/annual-thistles.webp",
+    "scientificName": "Cirsium",
+    "family": "Asteraceae",
+    "synonyms": [
+      "Thistle"
+    ]
   },
   {
     "commonName": "Thorn apples",
@@ -32958,7 +33683,12 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Three%20Corner%20Jack%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/123ce9b8-348b-4612-adf4-23016e092195/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/123ce9b8-348b-4612-adf4-23016e092195/large"
+    "alaLargeImage": "https://images.ala.org.au/image/123ce9b8-348b-4612-adf4-23016e092195/large",
+    "scientificName": "Rumex hypogaeus",
+    "family": "Polygonaceae",
+    "synonyms": [
+      "Three-Corner Jack"
+    ]
   },
   {
     "commonName": "Three Cornered Jack",
@@ -32988,7 +33718,13 @@ window.weedsRegistry = [
       }
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Three-horned%20Bedstraw%20weed%20Australia",
-    "thumbnail": "images/weeds/bedstraw.webp"
+    "thumbnail": "images/weeds/bedstraw.webp",
+    "scientificName": "Galium tricornutum",
+    "family": "Rubiaceae",
+    "synonyms": [
+      "Rough Corn Bedstraw",
+      "Threehorn Bedstraw"
+    ]
   },
   {
     "commonName": "Tiger pear",
@@ -33299,7 +34035,13 @@ window.weedsRegistry = [
       }
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Treacle%20Mustard%20weed%20Australia",
-    "thumbnail": "images/weeds/mustard.webp"
+    "thumbnail": "images/weeds/mustard.webp",
+    "scientificName": "Conringia orientalis",
+    "family": "Brassicaceae",
+    "synonyms": [
+      "Hare's Ear",
+      "Treakle Mustard"
+    ]
   },
   {
     "commonName": "Tree hogweed",
@@ -33598,7 +34340,14 @@ window.weedsRegistry = [
       }
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Turnip%20weed%20Australia",
-    "thumbnail": "images/weeds/turnip-weed.webp"
+    "thumbnail": "images/weeds/turnip-weed.webp",
+    "scientificName": "Brassica tournefortii",
+    "family": "Brassicaceae",
+    "synonyms": [
+      "Wild Turnip",
+      "Mediterranean Turnip",
+      "Turnip-Weed"
+    ]
   },
   {
     "commonName": "Turnip weed",
@@ -34820,7 +35569,9 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Water%20Lilies%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/f39417a6-1099-4554-81fc-06f6e9f2b53a/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/f39417a6-1099-4554-81fc-06f6e9f2b53a/large"
+    "alaLargeImage": "https://images.ala.org.au/image/f39417a6-1099-4554-81fc-06f6e9f2b53a/large",
+    "scientificName": "Nymphaea",
+    "family": "Nymphaeaceae"
   },
   {
     "commonName": "Water lily",
@@ -35295,7 +36046,13 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=White%20Mahogany%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/0109a050-5528-4d3c-9612-e7a9c868fb20/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/0109a050-5528-4d3c-9612-e7a9c868fb20/large"
+    "alaLargeImage": "https://images.ala.org.au/image/0109a050-5528-4d3c-9612-e7a9c868fb20/large",
+    "scientificName": "Eucalyptus psammitica",
+    "family": "Myrtaceae",
+    "synonyms": [
+      "Bastard White Mahogany",
+      "Broad Leaved White Mahogany"
+    ]
   },
   {
     "commonName": "White morning glory",
@@ -35752,7 +36509,12 @@ window.weedsRegistry = [
       }
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Wild%20Oat%20weed%20Australia",
-    "thumbnail": "images/weeds/wild-oats.webp"
+    "thumbnail": "images/weeds/wild-oats.webp",
+    "scientificName": "Avena fatua",
+    "family": "Poaceae",
+    "synonyms": [
+      "Wild Oats"
+    ]
   },
   {
     "commonName": "Wild oats",
@@ -36122,7 +36884,12 @@ window.weedsRegistry = [
       }
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Wild%20Radish%20%E2%80%94%20Suppression%20weed%20Australia",
-    "thumbnail": "images/weeds/wild-radish.webp"
+    "thumbnail": "images/weeds/wild-radish.webp",
+    "scientificName": "Raphanus",
+    "family": "Brassicaceae",
+    "synonyms": [
+      "Radish"
+    ]
   },
   {
     "commonName": "Wild Radish Docks",
@@ -36134,7 +36901,12 @@ window.weedsRegistry = [
       }
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Wild%20Radish%20Docks%20weed%20Australia",
-    "thumbnail": "images/weeds/wild-radish.webp"
+    "thumbnail": "images/weeds/wild-radish.webp",
+    "scientificName": "Raphanus",
+    "family": "Brassicaceae",
+    "synonyms": [
+      "Radish"
+    ]
   },
   {
     "commonName": "Wild Radish Wild Turnip",
@@ -36146,7 +36918,12 @@ window.weedsRegistry = [
       }
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Wild%20Radish%20Wild%20Turnip%20weed%20Australia",
-    "thumbnail": "images/weeds/wild-radish.webp"
+    "thumbnail": "images/weeds/wild-radish.webp",
+    "scientificName": "Raphanus",
+    "family": "Brassicaceae",
+    "synonyms": [
+      "Radish"
+    ]
   },
   {
     "commonName": "Wild rosemary",
@@ -36651,7 +37428,16 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Wintergrass%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/7e0d032d-1739-4c77-a37c-69782ed2dd12/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/7e0d032d-1739-4c77-a37c-69782ed2dd12/large"
+    "alaLargeImage": "https://images.ala.org.au/image/7e0d032d-1739-4c77-a37c-69782ed2dd12/large",
+    "scientificName": "Poa annua",
+    "family": "Poaceae",
+    "synonyms": [
+      "Winter Grass",
+      "Annual Meadow-Grass",
+      "Annual Meadow Grass",
+      "Goose Grass",
+      "Annual Poa"
+    ]
   },
   {
     "commonName": "Wire Grasses",
@@ -37092,7 +37878,14 @@ window.weedsRegistry = [
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Yellow%20Burweed%20weed%20Australia",
     "alaThumbnail": "https://images.ala.org.au/image/6104bf0f-cf9f-40de-b0af-6ebfa439b597/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/6104bf0f-cf9f-40de-b0af-6ebfa439b597/large"
+    "alaLargeImage": "https://images.ala.org.au/image/6104bf0f-cf9f-40de-b0af-6ebfa439b597/large",
+    "scientificName": "Amsinckia calycina",
+    "family": "Boraginaceae",
+    "synonyms": [
+      "Hairy Fiddle-Neck",
+      "Yellow Burrweed",
+      "Yellow Burr-Weed"
+    ]
   },
   {
     "commonName": "Yellow ginger",
@@ -37338,7 +38131,14 @@ window.weedsRegistry = [
       }
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Yorkshire%20Fog%20Grass%20weed%20Australia",
-    "thumbnail": "images/weeds/yorkshire-fog.webp"
+    "thumbnail": "images/weeds/yorkshire-fog.webp",
+    "scientificName": "Holcus",
+    "family": "Poaceae",
+    "synonyms": [
+      "Fog",
+      "Fog Grasses",
+      "Yorkshire Fog"
+    ]
   },
   {
     "commonName": "Yucca",
@@ -37611,8 +38411,8 @@ window.weedsRegistry = [
   },
   {
     "commonName": "Cleavers",
-    "scientificName": "",
-    "family": "",
+    "scientificName": "Galium australe",
+    "family": "Rubiaceae",
     "leafArrangement": "Alternate",
     "flowerColors": [],
     "foliageColors": [
@@ -37639,12 +38439,16 @@ window.weedsRegistry = [
       }
     ],
     "alaThumbnail": "https://images.ala.org.au/image/8d8f781f-3ab2-47ea-9599-df9c2c0a88a5/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/8d8f781f-3ab2-47ea-9599-df9c2c0a88a5/large"
+    "alaLargeImage": "https://images.ala.org.au/image/8d8f781f-3ab2-47ea-9599-df9c2c0a88a5/large",
+    "synonyms": [
+      "Tangled Bedstraw",
+      "Australian Bedstraw"
+    ]
   },
   {
     "commonName": "Black Bindweed",
-    "scientificName": "",
-    "family": "",
+    "scientificName": "Fallopia convolvulus",
+    "family": "Polygonaceae",
     "leafArrangement": "Alternate",
     "flowerColors": [],
     "foliageColors": [
@@ -37768,8 +38572,8 @@ window.weedsRegistry = [
   },
   {
     "commonName": "Common Storks Bill",
-    "scientificName": "",
-    "family": "",
+    "scientificName": "Pelargonium",
+    "family": "Geraniaceae",
     "leafArrangement": "Alternate",
     "flowerColors": [],
     "foliageColors": [
@@ -37796,12 +38600,15 @@ window.weedsRegistry = [
       }
     ],
     "alaThumbnail": "https://images.ala.org.au/image/0073f7aa-68a8-4c85-82e3-6f59961f8bc6/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/0073f7aa-68a8-4c85-82e3-6f59961f8bc6/large"
+    "alaLargeImage": "https://images.ala.org.au/image/0073f7aa-68a8-4c85-82e3-6f59961f8bc6/large",
+    "synonyms": [
+      "Stork's Bill"
+    ]
   },
   {
     "commonName": "Fat Hen",
-    "scientificName": "",
-    "family": "",
+    "scientificName": "Chenopodium",
+    "family": "Chenopodiaceae",
     "leafArrangement": "Alternate",
     "flowerColors": [],
     "foliageColors": [
@@ -37828,12 +38635,15 @@ window.weedsRegistry = [
       }
     ],
     "alaThumbnail": "https://images.ala.org.au/image/c4d98b6c-aa4b-4134-9580-6cdcf91695b6/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/c4d98b6c-aa4b-4134-9580-6cdcf91695b6/large"
+    "alaLargeImage": "https://images.ala.org.au/image/c4d98b6c-aa4b-4134-9580-6cdcf91695b6/large",
+    "synonyms": [
+      "Goose Foot"
+    ]
   },
   {
     "commonName": "Marshmallow",
-    "scientificName": "",
-    "family": "",
+    "scientificName": "Malva parviflora",
+    "family": "Malvaceae",
     "leafArrangement": "Alternate",
     "flowerColors": [],
     "foliageColors": [
@@ -37860,12 +38670,18 @@ window.weedsRegistry = [
       }
     ],
     "alaThumbnail": "https://images.ala.org.au/image/f805090c-45cd-42f6-a6c7-65d55347616a/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/f805090c-45cd-42f6-a6c7-65d55347616a/large"
+    "alaLargeImage": "https://images.ala.org.au/image/f805090c-45cd-42f6-a6c7-65d55347616a/large",
+    "synonyms": [
+      "Small-Flower Mallow",
+      "Mallow",
+      "Small-Flowered Mallow",
+      "Little Mallow"
+    ]
   },
   {
     "commonName": "Smallflower Mallow",
-    "scientificName": "",
-    "family": "",
+    "scientificName": "Malva parviflora",
+    "family": "Malvaceae",
     "leafArrangement": "Alternate",
     "flowerColors": [],
     "foliageColors": [
@@ -37892,12 +38708,19 @@ window.weedsRegistry = [
       }
     ],
     "alaThumbnail": "https://images.ala.org.au/image/f805090c-45cd-42f6-a6c7-65d55347616a/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/f805090c-45cd-42f6-a6c7-65d55347616a/large"
+    "alaLargeImage": "https://images.ala.org.au/image/f805090c-45cd-42f6-a6c7-65d55347616a/large",
+    "synonyms": [
+      "Small-Flower Mallow",
+      "Mallow",
+      "Small-Flowered Mallow",
+      "Little Mallow",
+      "Marshmallow"
+    ]
   },
   {
     "commonName": "Medic",
-    "scientificName": "",
-    "family": "",
+    "scientificName": "Medicago laciniata",
+    "family": "Fabaceae",
     "leafArrangement": "Alternate",
     "flowerColors": [],
     "foliageColors": [
@@ -37923,12 +38746,18 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/annual-medic.webp"
+    "thumbnail": "images/weeds/annual-medic.webp",
+    "synonyms": [
+      "Cut-Leaf Medic",
+      "Cut-Leaved Medic",
+      "Toothed Medic",
+      "Cutleaf Medic"
+    ]
   },
   {
     "commonName": "Pigweed",
-    "scientificName": "",
-    "family": "",
+    "scientificName": "Portulaca",
+    "family": "Portulacaceae",
     "leafArrangement": "Alternate",
     "flowerColors": [],
     "foliageColors": [
@@ -37954,12 +38783,16 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/common-pigweed.webp"
+    "thumbnail": "images/weeds/common-pigweed.webp",
+    "synonyms": [
+      "Purslane",
+      "Purslane Plants"
+    ]
   },
   {
     "commonName": "Stonecrop",
-    "scientificName": "",
-    "family": "",
+    "scientificName": "Sedum",
+    "family": "Crassulaceae",
     "leafArrangement": "Alternate",
     "flowerColors": [],
     "foliageColors": [
@@ -37986,12 +38819,15 @@ window.weedsRegistry = [
       }
     ],
     "alaThumbnail": "https://images.ala.org.au/image/143a9485-d32a-412a-9058-eb89d5539db7/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/143a9485-d32a-412a-9058-eb89d5539db7/large"
+    "alaLargeImage": "https://images.ala.org.au/image/143a9485-d32a-412a-9058-eb89d5539db7/large",
+    "synonyms": [
+      "Stonecrops"
+    ]
   },
   {
     "commonName": "Tares",
-    "scientificName": "",
-    "family": "",
+    "scientificName": "Lolium temulentum",
+    "family": "Poaceae",
     "leafArrangement": "Alternate",
     "flowerColors": [],
     "foliageColors": [
@@ -38018,7 +38854,13 @@ window.weedsRegistry = [
       }
     ],
     "alaThumbnail": "https://images.ala.org.au/image/b454b68a-7e32-44a7-8bb7-d57f7842625c/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/b454b68a-7e32-44a7-8bb7-d57f7842625c/large"
+    "alaLargeImage": "https://images.ala.org.au/image/b454b68a-7e32-44a7-8bb7-d57f7842625c/large",
+    "synonyms": [
+      "Darnel",
+      "Bearded Rye-Grass",
+      "Drake",
+      "Bearded Ryegrass"
+    ]
   },
   {
     "commonName": "Volunteer Chickpea",

@@ -1,10 +1,9 @@
-// 474 entries · updated 2026-04-02
 window.pestsRegistry = [
   {
     "commonName": "28-spotted Ladybird",
-    "scientificName": "",
+    "scientificName": "Henosepilachna vigintioctopunctata",
     "pestType": "Chewing insect",
-    "order": "",
+    "order": "COLEOPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -19,13 +18,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/28spotted_ladybird.webp"
+    "thumbnail": "images/pests/28spotted_ladybird.webp",
+    "family": "COCCINELLIDAE"
   },
   {
     "commonName": "Adult Houseflies",
-    "scientificName": "",
+    "scientificName": "Musca domestica",
     "pestType": "Fly",
-    "order": "",
+    "order": "DIPTERA",
     "cropsAffected": [
       "Around: Industrial sites, feedlot manure heaps, walls, garbage dumps.",
       "Inside: Commercial and industrial facilities and animal houses ONLY in areas inaccessible to livestock and domestic animals.",
@@ -56,7 +56,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/adult-houseflies.webp"
+    "thumbnail": "images/pests/adult-houseflies.webp",
+    "family": "MUSCIDAE"
   },
   {
     "commonName": "African Black Beetle",
@@ -108,13 +109,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/african-black-beetle.webp"
+    "thumbnail": "images/pests/african-black-beetle.webp",
+    "family": "SCARABAEIDAE"
   },
   {
     "commonName": "American Cockroach",
-    "scientificName": "",
+    "scientificName": "Periplaneta americana",
     "pestType": "General pest",
-    "order": "",
+    "order": "Blattodea",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -137,7 +139,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/american-cockroach.webp"
+    "thumbnail": "images/pests/american-cockroach.webp",
+    "family": "BLATTIDAE"
   },
   {
     "commonName": "American serpentine leaf miner",
@@ -158,7 +161,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/american-serpentine-leaf-miner.webp"
+    "thumbnail": "images/pests/american-serpentine-leaf-miner.webp",
+    "family": "AGROMYZIDAE"
   },
   {
     "commonName": "Aphid Mirids",
@@ -181,7 +185,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/aphid-mirids.webp"
+    "thumbnail": "images/pests/aphid-mirids.webp",
+    "family": "APHIDIDAE"
   },
   {
     "commonName": "Aphids Mealybugs Scale",
@@ -204,13 +209,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/aphids-mealybugs-scale.webp"
+    "thumbnail": "images/pests/aphids-mealybugs-scale.webp",
+    "family": "PSEUDOCOCCIDAE"
   },
   {
     "commonName": "Apple Dimpling Bug",
     "scientificName": "Campylomma liebknechti",
     "pestType": "Sucking insect",
-    "order": "",
+    "order": "HEMIPTERA",
     "cropsAffected": [
       "Cotton",
       "Lucerne",
@@ -270,7 +276,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/apple-dimpling-bug.webp"
+    "thumbnail": "images/pests/apple-dimpling-bug.webp",
+    "family": "MIRIDAE"
   },
   {
     "commonName": "Apple Looper",
@@ -302,7 +309,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/apple-looper.webp"
+    "thumbnail": "images/pests/apple-looper.webp",
+    "family": "GEOMETRIDAE"
   },
   {
     "commonName": "Apple Weevil",
@@ -338,13 +346,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/apple-weevil.webp"
+    "thumbnail": "images/pests/apple-weevil.webp",
+    "family": "CURCULIONIDAE"
   },
   {
     "commonName": "Argentine Ant",
-    "scientificName": "",
+    "scientificName": "Linepithema humile",
     "pestType": "Soil pest",
-    "order": "",
+    "order": "Hymenoptera",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -359,7 +368,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/argentine-ant.webp"
+    "thumbnail": "images/pests/argentine-ant.webp",
+    "family": "FORMICIDAE"
   },
   {
     "commonName": "Argentine Stem Weevil",
@@ -400,11 +410,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/argentine-stem-weevil.webp"
+    "thumbnail": "images/pests/argentine-stem-weevil.webp",
+    "family": "CURCULIONIDAE"
   },
   {
     "commonName": "Argentinian scarab",
-    "scientificName": "",
+    "scientificName": "Cyclocephala signaticollis",
     "pestType": "Soil pest",
     "order": "Coleoptera",
     "cropsAffected": [
@@ -423,11 +434,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/argentinian-scarab.webp"
+    "thumbnail": "images/pests/argentinian-scarab.webp",
+    "family": "SCARABAEIDAE"
   },
   {
     "commonName": "Armoured Scale",
-    "scientificName": "",
+    "scientificName": "Diaspididae",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [],
@@ -444,13 +456,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/armoured-scale.webp"
+    "thumbnail": "images/pests/armoured-scale.webp",
+    "family": "DIASPIDIDAE"
   },
   {
     "commonName": "Armyworms",
-    "scientificName": "",
+    "scientificName": "Spodoptera spp.",
     "pestType": "Insect",
-    "order": "",
+    "order": "LEPIDOPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -504,13 +517,14 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "family": "NOCTUIDAE"
   },
   {
     "commonName": "Asynonychus Cervinus",
-    "scientificName": "",
+    "scientificName": "Synonychus",
     "pestType": "Chewing insect",
-    "order": "",
+    "order": "TROMBIDIFORMES",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -526,11 +540,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/asynonychus-cervinus.webp"
+    "thumbnail": "images/pests/asynonychus-cervinus.webp",
+    "family": "TETRANYCHIDAE"
   },
   {
     "commonName": "Auger beetles",
-    "scientificName": "",
+    "scientificName": "Bostrychidae",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [],
@@ -547,13 +562,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/auger-beetles.webp"
+    "thumbnail": "images/pests/auger-beetles.webp",
+    "family": "BOSTRYCHIDAE"
   },
   {
     "commonName": "Australian Cockroach",
-    "scientificName": "",
+    "scientificName": "Periplaneta australasiae",
     "pestType": "General pest",
-    "order": "",
+    "order": "Blattodea",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -576,11 +592,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/australian-cockroach.webp"
+    "thumbnail": "images/pests/australian-cockroach.webp",
+    "family": "BLATTIDAE"
   },
   {
     "commonName": "Australian plague locust",
-    "scientificName": "",
+    "scientificName": "Chortoicetes terminifera",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -600,7 +617,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/australian-plague-locust.webp"
+    "thumbnail": "images/pests/australian-plague-locust.webp",
+    "family": "ACRIDIDAE"
   },
   {
     "commonName": "Autumn Gum Moth",
@@ -623,13 +641,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/autumn-gum-moth.webp"
+    "thumbnail": "images/pests/autumn-gum-moth.webp",
+    "family": "GEOMETRIDAE"
   },
   {
     "commonName": "Avocado Lace Bug",
-    "scientificName": "",
+    "scientificName": "Pseudacysta perseae",
     "pestType": "Sucking insect",
-    "order": "",
+    "order": "HEMIPTERA",
     "cropsAffected": [
       "Avocados"
     ],
@@ -646,13 +665,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/avocado-lace-bug.webp"
+    "thumbnail": "images/pests/avocado-lace-bug.webp",
+    "family": "TINGIDAE"
   },
   {
     "commonName": "Avocado leaf roller",
-    "scientificName": "",
+    "scientificName": "Homona spargotis",
     "pestType": "Chewing insect",
-    "order": "",
+    "order": "LEPIDOPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -693,13 +713,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/avocado-leaf-roller.webp"
+    "thumbnail": "images/pests/avocado-leaf-roller.webp",
+    "family": "TORTRICIDAE"
   },
   {
     "commonName": "Azalea lace bug",
     "scientificName": "Stephanitis pyrioides",
     "pestType": "Sucking insect",
-    "order": "",
+    "order": "HEMIPTERA",
     "cropsAffected": [
       "Roses, Ornamental plants"
     ],
@@ -724,13 +745,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/azalea-lace-bug.webp"
+    "thumbnail": "images/pests/azalea-lace-bug.webp",
+    "family": "TINGIDAE"
   },
   {
     "commonName": "Bactrocera Tryoni",
-    "scientificName": "",
+    "scientificName": "Bactrocera tryoni",
     "pestType": "Fly",
-    "order": "",
+    "order": "Diptera",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -745,7 +767,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/bactrocera-tryoni.webp"
+    "thumbnail": "images/pests/bactrocera-tryoni.webp",
+    "family": "TEPHRITIDAE"
   },
   {
     "commonName": "Balaustium Mite",
@@ -780,7 +803,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/balaustium-mite.webp"
+    "thumbnail": "images/pests/balaustium-mite.webp",
+    "family": "ERYTHRAEIDAE"
   },
   {
     "commonName": "Banana aphid",
@@ -811,7 +835,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/banana-aphid.webp"
+    "thumbnail": "images/pests/banana-aphid.webp",
+    "family": "APHIDIDAE"
   },
   {
     "commonName": "Banana Flower Thrips",
@@ -850,7 +875,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/banana-flower-thrips.webp"
+    "thumbnail": "images/pests/banana-flower-thrips.webp",
+    "family": "THRIPIDAE"
   },
   {
     "commonName": "Banana Fruit Caterpillar",
@@ -871,7 +897,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/banana-fruit-caterpillar.webp"
+    "thumbnail": "images/pests/banana-fruit-caterpillar.webp",
+    "family": "NOCTUIDAE"
   },
   {
     "commonName": "Banana Rust Thrips",
@@ -950,7 +977,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/banana-rust-thrips.webp"
+    "thumbnail": "images/pests/banana-rust-thrips.webp",
+    "family": "THRIPIDAE"
   },
   {
     "commonName": "Banana Scab Moth",
@@ -971,7 +999,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/banana-scab-moth.webp"
+    "thumbnail": "images/pests/banana-scab-moth.webp",
+    "family": "CRAMBIDAE"
   },
   {
     "commonName": "Banana Spider Mite",
@@ -1002,11 +1031,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/banana-spider-mite.webp"
+    "thumbnail": "images/pests/banana-spider-mite.webp",
+    "family": "TETRANYCHIDAE"
   },
   {
     "commonName": "Banana Spotted Mite",
-    "scientificName": "",
+    "scientificName": "Tetranychus lambi",
     "pestType": "Mite",
     "order": "Acari",
     "cropsAffected": [
@@ -1025,13 +1055,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/banana-spotted-mite.webp"
+    "thumbnail": "images/pests/banana-spotted-mite.webp",
+    "family": "TETRANYCHIDAE"
   },
   {
     "commonName": "Banana Spotting Bug",
     "scientificName": "Amblypelta lutescens",
     "pestType": "Sucking insect",
-    "order": "",
+    "order": "HEMIPTERA",
     "cropsAffected": [
       "Avocado",
       "Avocados, Mangoes, Papayas and other Tropical and Sub-tropical Fruits, Inedible Peel (excluding Bananas, Pineapples)",
@@ -1122,7 +1153,8 @@ window.pestsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/pests/banana-spotting-bug.webp"
+    "thumbnail": "images/pests/banana-spotting-bug.webp",
+    "family": "COREIDAE"
   },
   {
     "commonName": "Banana Weevil Borer",
@@ -1184,7 +1216,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/banana-weevil-borer.webp"
+    "thumbnail": "images/pests/banana-weevil-borer.webp",
+    "family": "CURCULIONIDAE"
   },
   {
     "commonName": "Banksia Moth",
@@ -1207,11 +1240,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/banksia-moth.webp"
+    "thumbnail": "images/pests/banksia-moth.webp",
+    "family": "OECOPHORIDAE"
   },
   {
     "commonName": "Barley Grub",
-    "scientificName": "",
+    "scientificName": "Persectania ewingii",
     "pestType": "Chewing insect",
     "order": "Coleoptera",
     "cropsAffected": [
@@ -1234,11 +1268,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/barley-grub.webp"
+    "thumbnail": "images/pests/barley-grub.webp",
+    "family": "NOCTUIDAE"
   },
   {
     "commonName": "Barley Yellow Dwarf Virus",
-    "scientificName": "",
+    "scientificName": "Barley yellow dwarf virus",
     "pestType": "Sucking insect",
     "order": "",
     "cropsAffected": [
@@ -1266,13 +1301,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/barley_yellow_dwarf_virus.webp"
+    "thumbnail": "images/pests/barley_yellow_dwarf_virus.webp",
+    "family": "Luteoviridae"
   },
   {
     "commonName": "Bean Aphid",
-    "scientificName": "",
+    "scientificName": "Aphis fabae",
     "pestType": "Insect",
-    "order": "",
+    "order": "Hemiptera",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -1285,11 +1321,12 @@ window.pestsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/pests/soybean-aphid.webp"
+    "thumbnail": "images/pests/soybean-aphid.webp",
+    "family": "APHIDIDAE"
   },
   {
     "commonName": "Bean looper",
-    "scientificName": "",
+    "scientificName": "Mocis alterna",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [],
@@ -1306,7 +1343,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/bean-looper.webp"
+    "thumbnail": "images/pests/bean-looper.webp",
+    "family": "EREBIDAE"
   },
   {
     "commonName": "Bean Podborer",
@@ -1348,7 +1386,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/bean-podborer.webp"
+    "thumbnail": "images/pests/bean-podborer.webp",
+    "family": "CRAMBIDAE"
   },
   {
     "commonName": "Bean red spider mite",
@@ -1369,7 +1408,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/bean-red-spider-mite.webp"
+    "thumbnail": "images/pests/bean-red-spider-mite.webp",
+    "family": "TETRANYCHIDAE"
   },
   {
     "commonName": "Bean Spider Mite",
@@ -1409,13 +1449,14 @@ window.pestsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/pests/bean-spider-mite.webp"
+    "thumbnail": "images/pests/bean-spider-mite.webp",
+    "family": "TETRANYCHIDAE"
   },
   {
     "commonName": "Beanfly",
-    "scientificName": "",
+    "scientificName": "Ophiomyia phaseoli",
     "pestType": "Insect",
-    "order": "",
+    "order": "DIPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -1427,13 +1468,14 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "family": "AGROMYZIDAE"
   },
   {
     "commonName": "Bed bugs",
-    "scientificName": "",
+    "scientificName": "Cimex lectularius",
     "pestType": "General pest",
-    "order": "",
+    "order": "HEMIPTERA",
     "cropsAffected": [
       "Food processing factories, restaurants, hospitals, domestic & commercial buildings"
     ],
@@ -1458,13 +1500,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/bed-bugs.webp"
+    "thumbnail": "images/pests/bed-bugs.webp",
+    "family": "CIMICIDAE"
   },
   {
     "commonName": "Beet webworm",
     "scientificName": "Spoladea recurvalis",
     "pestType": "Chewing insect",
-    "order": "",
+    "order": "LEPIDOPTERA",
     "cropsAffected": [
       "Fodder beets",
       "Celery"
@@ -1487,11 +1530,12 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/beet-webworm.webp"
+    "thumbnail": "images/pests/beet-webworm.webp",
+    "family": "CRAMBIDAE"
   },
   {
     "commonName": "Bird mites",
-    "scientificName": "",
+    "scientificName": "Ornithonyssus spp.",
     "pestType": "Mite",
     "order": "Acari",
     "cropsAffected": [],
@@ -1508,13 +1552,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/bird-mites.webp"
+    "thumbnail": "images/pests/bird-mites.webp",
+    "family": "MACRONYSSIDAE"
   },
   {
     "commonName": "Black ant",
-    "scientificName": "",
+    "scientificName": "Iridomyrmex spp.",
     "pestType": "Insect/Mite",
-    "order": "",
+    "order": "HYMENOPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -1533,11 +1578,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/black-ant.webp"
+    "thumbnail": "images/pests/black-ant.webp",
+    "family": "FORMICIDAE"
   },
   {
     "commonName": "Black Beetle",
-    "scientificName": "",
+    "scientificName": "Metanastes vulgivagus",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -1556,7 +1602,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/black-beetle.webp"
+    "thumbnail": "images/pests/black-beetle.webp",
+    "family": "SCARABAEIDAE"
   },
   {
     "commonName": "Black Cherry Aphid",
@@ -1588,11 +1635,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/black-cherry-aphid.webp"
+    "thumbnail": "images/pests/black-cherry-aphid.webp",
+    "family": "APHIDIDAE"
   },
   {
     "commonName": "Black citrus aphid",
-    "scientificName": "",
+    "scientificName": "Toxoptera citricida",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -1616,13 +1664,14 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/black-citrus-aphid.webp"
+    "thumbnail": "images/pests/black-citrus-aphid.webp",
+    "family": "APHIDIDAE"
   },
   {
     "commonName": "Black House Ant",
-    "scientificName": "",
+    "scientificName": "Ochetellus glaber",
     "pestType": "General pest",
-    "order": "",
+    "order": "HYMENOPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -1645,13 +1694,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/black-house-ant.webp"
+    "thumbnail": "images/pests/black-house-ant.webp",
+    "family": "FORMICIDAE"
   },
   {
     "commonName": "Black House Spider",
-    "scientificName": "",
+    "scientificName": "Badumna insignis",
     "pestType": "General pest",
-    "order": "",
+    "order": "ARANEAE",
     "cropsAffected": [
       "Spiders"
     ],
@@ -1676,7 +1726,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/black-house-spider.webp"
+    "thumbnail": "images/pests/black-house-spider.webp",
+    "family": "DESIDAE"
   },
   {
     "commonName": "Black peach aphid",
@@ -1748,13 +1799,14 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/black-peach-aphid.webp"
+    "thumbnail": "images/pests/black-peach-aphid.webp",
+    "family": "APHIDIDAE"
   },
   {
     "commonName": "Black Portuguese Millipedes",
-    "scientificName": "",
+    "scientificName": "Ommatoiulus moreleti",
     "pestType": "Soil pest",
-    "order": "",
+    "order": "JULIDA",
     "cropsAffected": [
       "Food processing factories, restaurants, hospitals, domestic & commercial buildings"
     ],
@@ -1779,11 +1831,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/black-portuguese-millipedes.webp"
+    "thumbnail": "images/pests/black-portuguese-millipedes.webp",
+    "family": "JULIDAE"
   },
   {
     "commonName": "Black scale",
-    "scientificName": "",
+    "scientificName": "Lindingaspis rossi",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -1828,11 +1881,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/black-scale.webp"
+    "thumbnail": "images/pests/black-scale.webp",
+    "family": "DIASPIDIDAE"
   },
   {
     "commonName": "Black sunflower scarab",
-    "scientificName": "",
+    "scientificName": "Pseudoheteronyx sp.",
     "pestType": "Soil pest",
     "order": "Coleoptera",
     "cropsAffected": [
@@ -1851,13 +1905,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/black_sunflower_scarab.webp"
+    "thumbnail": "images/pests/black_sunflower_scarab.webp",
+    "family": "SCARABAEIDAE"
   },
   {
     "commonName": "Blackhead Pasture Cockchafer",
     "scientificName": "Aphodius tasmaniae",
     "pestType": "Soil pest",
-    "order": "",
+    "order": "COLEOPTERA",
     "cropsAffected": [
       "Barley, Wheat",
       "Lucerne",
@@ -1894,13 +1949,14 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/blackhead-pasture-cockchafer.webp"
+    "thumbnail": "images/pests/blackhead-pasture-cockchafer.webp",
+    "family": "SCARABAEIDAE"
   },
   {
     "commonName": "Blackheaded Pasture Cockchafer",
     "scientificName": "Aphodius tasmaniae",
     "pestType": "Soil pest",
-    "order": "",
+    "order": "COLEOPTERA",
     "cropsAffected": [
       "Pastures (Legume and grass based)"
     ],
@@ -1917,11 +1973,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/blackheaded-pasture-cockchafer.webp"
+    "thumbnail": "images/pests/blackheaded-pasture-cockchafer.webp",
+    "family": "SCARABAEIDAE"
   },
   {
     "commonName": "Blue Green Aphid",
-    "scientificName": "",
+    "scientificName": "Acyrthosiphon kondoi",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -1947,7 +2004,8 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/blue-green-aphid.webp"
+    "thumbnail": "images/pests/blue-green-aphid.webp",
+    "family": "APHIDIDAE"
   },
   {
     "commonName": "Blue Oat Mite",
@@ -2025,7 +2083,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/blue-oat-mite.webp"
+    "thumbnail": "images/pests/blue-oat-mite.webp",
+    "family": "PENTHALEIDAE"
   },
   {
     "commonName": "Breadfruit Mealybug",
@@ -2046,7 +2105,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/breadfruit-mealybug.webp"
+    "thumbnail": "images/pests/breadfruit-mealybug.webp",
+    "family": "MONOPHLEBIDAE"
   },
   {
     "commonName": "Broad mite",
@@ -2099,7 +2159,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/broad-mite.webp"
+    "thumbnail": "images/pests/broad-mite.webp",
+    "family": "TARSONEMIDAE"
   },
   {
     "commonName": "Brokenbacked Bug",
@@ -2122,13 +2183,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/brokenbacked-bug.webp"
+    "thumbnail": "images/pests/brokenbacked-bug.webp",
+    "family": "MIRIDAE"
   },
   {
     "commonName": "Bronze orange bug",
-    "scientificName": "",
+    "scientificName": "Musgraveia sulciventris",
     "pestType": "Sucking insect",
-    "order": "",
+    "order": "HEMIPTERA",
     "cropsAffected": [
       "Citrus",
       "Citrus (oranges and lemons only)",
@@ -2163,7 +2225,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/bronze-orange-bug.webp"
+    "thumbnail": "images/pests/bronze-orange-bug.webp",
+    "family": "TESSARATOMIDAE"
   },
   {
     "commonName": "Bronzed Field Beetle",
@@ -2186,11 +2249,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/bronzed-field-beetle.webp"
+    "thumbnail": "images/pests/bronzed-field-beetle.webp",
+    "family": "TENEBRIONIDAE"
   },
   {
     "commonName": "Brown Almond Mite",
-    "scientificName": "",
+    "scientificName": "Bryobia rubrioculus",
     "pestType": "Mite",
     "order": "Acari",
     "cropsAffected": [
@@ -2209,11 +2273,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/brown-almond-mite.webp"
+    "thumbnail": "images/pests/brown-almond-mite.webp",
+    "family": "TETRANYCHIDAE"
   },
   {
     "commonName": "Brown Citrus Rust Mite",
-    "scientificName": "",
+    "scientificName": "Tegolophus australis",
     "pestType": "Mite",
     "order": "Acari",
     "cropsAffected": [
@@ -2240,11 +2305,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/brown-citrus-rust-mite.webp"
+    "thumbnail": "images/pests/brown-citrus-rust-mite.webp",
+    "family": "ERIOPHYIDAE"
   },
   {
     "commonName": "Brown Cutworm",
-    "scientificName": "",
+    "scientificName": "Agrotis munda",
     "pestType": "Soil pest",
     "order": "Coleoptera",
     "cropsAffected": [
@@ -2281,11 +2347,12 @@ window.pestsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/pests/brown-cutworm.webp"
+    "thumbnail": "images/pests/brown-cutworm.webp",
+    "family": "NOCTUIDAE"
   },
   {
     "commonName": "Brown flea beetle",
-    "scientificName": "",
+    "scientificName": "Chaetocnema spp.",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -2304,11 +2371,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/brown-flea-beetle.webp"
+    "thumbnail": "images/pests/brown-flea-beetle.webp",
+    "family": "CHRYSOMELIDAE"
   },
   {
     "commonName": "Brown Mirid",
-    "scientificName": "",
+    "scientificName": "Creontiades dilutus",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -2336,11 +2404,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/brown-mirid.webp"
+    "thumbnail": "images/pests/brown-mirid.webp",
+    "family": "MIRIDAE"
   },
   {
     "commonName": "Brown Mite",
-    "scientificName": "",
+    "scientificName": "Bryobia rubrioculus",
     "pestType": "Mite",
     "order": "Acari",
     "cropsAffected": [
@@ -2359,7 +2428,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/brown-mite.webp"
+    "thumbnail": "images/pests/brown-mite.webp",
+    "family": "TETRANYCHIDAE"
   },
   {
     "commonName": "Brown or Pink Cutworm",
@@ -2389,7 +2459,8 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/brown-or-pink-cutworm.webp"
+    "thumbnail": "images/pests/brown-or-pink-cutworm.webp",
+    "family": "NOCTUIDAE"
   },
   {
     "commonName": "Brown Pasture Looper",
@@ -2448,11 +2519,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/brown-pasture-looper.webp"
+    "thumbnail": "images/pests/brown-pasture-looper.webp",
+    "family": "GEOMETRIDAE"
   },
   {
     "commonName": "Brown planthopper",
-    "scientificName": "",
+    "scientificName": "Nilaparvata lugens",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -2471,7 +2543,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/brown-planthopper.webp"
+    "thumbnail": "images/pests/brown-planthopper.webp",
+    "family": "DELPHACIDAE"
   },
   {
     "commonName": "Brown sowthistle aphid",
@@ -2519,11 +2592,12 @@ window.pestsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/pests/brown-sowthistle-aphid.webp"
+    "thumbnail": "images/pests/brown-sowthistle-aphid.webp",
+    "family": "APHIDIDAE"
   },
   {
     "commonName": "Bryobia Mite",
-    "scientificName": "",
+    "scientificName": "Bryobia",
     "pestType": "Mite",
     "order": "Acari",
     "cropsAffected": [
@@ -2580,13 +2654,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/bryobia-mite.webp"
+    "thumbnail": "images/pests/bryobia-mite.webp",
+    "family": "TETRANYCHIDAE"
   },
   {
     "commonName": "Bryobia Mites",
-    "scientificName": "",
+    "scientificName": "Bryobia",
     "pestType": "Insect/Mite",
-    "order": "",
+    "order": "TROMBIDIFORMES",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -2609,13 +2684,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/bryobia-mites.webp"
+    "thumbnail": "images/pests/bryobia-mites.webp",
+    "family": "TETRANYCHIDAE"
   },
   {
     "commonName": "Budworms",
-    "scientificName": "",
+    "scientificName": "Helicoverpa spp.",
     "pestType": "Insect",
-    "order": "",
+    "order": "LEPIDOPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -2639,7 +2715,8 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "family": "NOCTUIDAE"
   },
   {
     "commonName": "Buffel grass seed caterpillar",
@@ -2662,7 +2739,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/buffel-grass-seed-caterpillar.webp"
+    "thumbnail": "images/pests/buffel-grass-seed-caterpillar.webp",
+    "family": "PYRALIDAE"
   },
   {
     "commonName": "Cabbage aphid",
@@ -2757,7 +2835,8 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/cabbage-aphid.webp"
+    "thumbnail": "images/pests/cabbage-aphid.webp",
+    "family": "APHIDIDAE"
   },
   {
     "commonName": "Cabbage centre grub",
@@ -2855,7 +2934,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/cabbage-centre-grub.webp"
+    "thumbnail": "images/pests/cabbage-centre-grub.webp",
+    "family": "CRAMBIDAE"
   },
   {
     "commonName": "Cabbage Cluster Caterpillar",
@@ -2973,7 +3053,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/cabbage-cluster-caterpillar.webp"
+    "thumbnail": "images/pests/cabbage-cluster-caterpillar.webp",
+    "family": "CRAMBIDAE"
   },
   {
     "commonName": "Cabbage Leafminer",
@@ -3006,11 +3087,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/cabbage-leafminer.webp"
+    "thumbnail": "images/pests/cabbage-leafminer.webp",
+    "family": "AGROMYZIDAE"
   },
   {
     "commonName": "Cabbage moth",
-    "scientificName": "",
+    "scientificName": "Mamestra brassicae",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -3131,13 +3213,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/cabbage-moth.webp"
+    "thumbnail": "images/pests/cabbage-moth.webp",
+    "family": "NOCTUIDAE"
   },
   {
     "commonName": "Cabbage White",
-    "scientificName": "",
+    "scientificName": "Pieris rapae",
     "pestType": "Chewing insect",
-    "order": "",
+    "order": "LEPIDOPTERA",
     "cropsAffected": [
       "Brassica Leafy Vegetables (Chinese Cabbage, Kale, Bok Choy, Pak-choi, Tat Soy, Mibuna)",
       "Brassica Vegetables (Broccoli, Brussels Sprouts, Cabbage, Cauliflower)"
@@ -3156,7 +3239,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/cabbage-white.webp"
+    "thumbnail": "images/pests/cabbage-white.webp",
+    "family": "PIERIDAE"
   },
   {
     "commonName": "Cabbage white butterfly",
@@ -3390,13 +3474,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/cabbage-white-butterfly.webp"
+    "thumbnail": "images/pests/cabbage-white-butterfly.webp",
+    "family": "PIERIDAE"
   },
   {
     "commonName": "Cadmus spp.",
-    "scientificName": "",
+    "scientificName": "Cadmus",
     "pestType": "Insect",
-    "order": "",
+    "order": "COLEOPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -3409,11 +3494,12 @@ window.pestsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/pests/cadmus-spp.webp"
+    "thumbnail": "images/pests/cadmus-spp.webp",
+    "family": "CHRYSOMELIDAE"
   },
   {
     "commonName": "California red scale",
-    "scientificName": "",
+    "scientificName": "Aonidiella aurantii",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -3432,13 +3518,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/california-red-scale.webp"
+    "thumbnail": "images/pests/california-red-scale.webp",
+    "family": "DIASPIDIDAE"
   },
   {
     "commonName": "Caliroa Cerasi",
-    "scientificName": "",
+    "scientificName": "Caliroa cerasi",
     "pestType": "Chewing insect",
-    "order": "",
+    "order": "HYMENOPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -3453,11 +3540,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/caliroa-cerasi.webp"
+    "thumbnail": "images/pests/caliroa-cerasi.webp",
+    "family": "TENTHREDINIDAE"
   },
   {
     "commonName": "Carob moth",
-    "scientificName": "",
+    "scientificName": "Ectomyelois ceratoniae",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -3537,11 +3625,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/carob-moth.webp"
+    "thumbnail": "images/pests/carob-moth.webp",
+    "family": "PYRALIDAE"
   },
   {
     "commonName": "Carpet beetles",
-    "scientificName": "",
+    "scientificName": "Anthrenus (Nathrenus) verbasci",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -3568,11 +3657,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/carpet-beetles.webp"
+    "thumbnail": "images/pests/carpet-beetles.webp",
+    "family": "DERMESTIDAE"
   },
   {
     "commonName": "Carpophilus Beetle",
-    "scientificName": "",
+    "scientificName": "Carpophilus",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -3612,13 +3702,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/carpophilus-beetle.webp"
+    "thumbnail": "images/pests/carpophilus-beetle.webp",
+    "family": "NITIDULIDAE"
   },
   {
     "commonName": "Carpophilus Beetles",
-    "scientificName": "",
+    "scientificName": "Carpophilus",
     "pestType": "Insect/Mite",
-    "order": "",
+    "order": "COLEOPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -3636,11 +3727,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/carpophilus-beetles.webp"
+    "thumbnail": "images/pests/carpophilus-beetles.webp",
+    "family": "NITIDULIDAE"
   },
   {
     "commonName": "Castor oil looper",
-    "scientificName": "",
+    "scientificName": "Achaea janata",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -3663,7 +3755,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/castor-oil-looper.webp"
+    "thumbnail": "images/pests/castor-oil-looper.webp",
+    "family": "EREBIDAE"
   },
   {
     "commonName": "Centre Grub",
@@ -3708,13 +3801,14 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/centre-grub.webp"
+    "thumbnail": "images/pests/centre-grub.webp",
+    "family": "CRAMBIDAE"
   },
   {
     "commonName": "Ceratitis Capitata",
-    "scientificName": "",
+    "scientificName": "Ceratitis capitata",
     "pestType": "Fly",
-    "order": "",
+    "order": "Diptera",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -3729,11 +3823,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/ceratitis-capitata.webp"
+    "thumbnail": "images/pests/ceratitis-capitata.webp",
+    "family": "TEPHRITIDAE"
   },
   {
     "commonName": "Cereal Aphid",
-    "scientificName": "",
+    "scientificName": "Rhopalosiphum padi",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -3762,13 +3857,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/cereal-aphid.webp"
+    "thumbnail": "images/pests/cereal-aphid.webp",
+    "family": "APHIDIDAE"
   },
   {
     "commonName": "Cereal Aphids",
-    "scientificName": "",
+    "scientificName": "Aphis",
     "pestType": "Insect",
-    "order": "",
+    "order": "HEMIPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -3781,11 +3877,12 @@ window.pestsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/pests/cereal-aphid.webp"
+    "thumbnail": "images/pests/cereal-aphid.webp",
+    "family": "APHIDIDAE"
   },
   {
     "commonName": "Cherry Aphid",
-    "scientificName": "",
+    "scientificName": "Myzus (Myzus) cerasi",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -3809,11 +3906,12 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/cherry-aphid.webp"
+    "thumbnail": "images/pests/cherry-aphid.webp",
+    "family": "APHIDIDAE"
   },
   {
     "commonName": "Cherry slug",
-    "scientificName": "",
+    "scientificName": "Caliroa cerasi",
     "pestType": "Mollusc",
     "order": "Gastropoda",
     "cropsAffected": [
@@ -3834,11 +3932,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/cherry-slug.webp"
+    "thumbnail": "images/pests/cherry-slug.webp",
+    "family": "TENTHREDINIDAE"
   },
   {
     "commonName": "Childers Canegrub",
-    "scientificName": "",
+    "scientificName": "Antitrogus parvulus",
     "pestType": "Soil pest",
     "order": "Coleoptera",
     "cropsAffected": [
@@ -3857,11 +3956,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/childers-canegrub.webp"
+    "thumbnail": "images/pests/childers-canegrub.webp",
+    "family": "SCARABAEIDAE"
   },
   {
     "commonName": "Chilli Thrips",
-    "scientificName": "",
+    "scientificName": "Thrips",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -3880,13 +3980,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/chilli-thrips.webp"
+    "thumbnail": "images/pests/chilli-thrips.webp",
+    "family": "THRIPIDAE"
   },
   {
     "commonName": "Chrysanthemum Aphid",
-    "scientificName": "",
+    "scientificName": "Coloradoa rufomaculata",
     "pestType": "Insect",
-    "order": "",
+    "order": "HEMIPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -3898,13 +3999,14 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "family": "APHIDIDAE"
   },
   {
     "commonName": "Chrysodeixis Includens",
-    "scientificName": "",
+    "scientificName": "Chrysodeixis",
     "pestType": "Chewing insect",
-    "order": "",
+    "order": "LEPIDOPTERA",
     "cropsAffected": [
       "Nursery Stock & Ornamentals (PER91923)"
     ],
@@ -3921,11 +4023,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/chrysodeixis-includens.webp"
+    "thumbnail": "images/pests/chrysodeixis-includens.webp",
+    "family": "NOCTUIDAE"
   },
   {
     "commonName": "Circular Black Scale",
-    "scientificName": "",
+    "scientificName": "Chrysomphalus ficus",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -3952,11 +4055,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/circular-black-scale.webp"
+    "thumbnail": "images/pests/circular-black-scale.webp",
+    "family": "DIASPIDIDAE"
   },
   {
     "commonName": "Citricola scale",
-    "scientificName": "",
+    "scientificName": "Coccus pseudomagnoliarum",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -3992,11 +4096,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/citricola-scale.webp"
+    "thumbnail": "images/pests/citricola-scale.webp",
+    "family": "COCCIDAE"
   },
   {
     "commonName": "Citrophilous mealybug",
-    "scientificName": "",
+    "scientificName": "Pseudococcus calceolariae",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -4038,13 +4143,14 @@ window.pestsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/pests/citrophilous-mealybug.webp"
+    "thumbnail": "images/pests/citrophilous-mealybug.webp",
+    "family": "PSEUDOCOCCIDAE"
   },
   {
     "commonName": "Citrus Aphid",
-    "scientificName": "",
+    "scientificName": "Toxoptera citricida",
     "pestType": "Insect",
-    "order": "",
+    "order": "HEMIPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -4057,7 +4163,8 @@ window.pestsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/pests/black-citrus-aphid.webp"
+    "thumbnail": "images/pests/black-citrus-aphid.webp",
+    "family": "APHIDIDAE"
   },
   {
     "commonName": "Citrus bud mite",
@@ -4080,13 +4187,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/citrus-bud-mite.webp"
+    "thumbnail": "images/pests/citrus-bud-mite.webp",
+    "family": "ERIOPHYIDAE"
   },
   {
     "commonName": "Citrus Bug",
-    "scientificName": "",
+    "scientificName": "Vitellus antemna",
     "pestType": "Insect",
-    "order": "",
+    "order": "HEMIPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -4099,13 +4207,14 @@ window.pestsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/pests/spined-citrus-bug.webp"
+    "thumbnail": "images/pests/spined-citrus-bug.webp",
+    "family": "PENTATOMIDAE"
   },
   {
     "commonName": "Citrus Gall Wasp",
-    "scientificName": "",
+    "scientificName": "Bruchophagus fellis",
     "pestType": "Chewing insect",
-    "order": "",
+    "order": "HYMENOPTERA",
     "cropsAffected": [
       "Citrus"
     ],
@@ -4122,11 +4231,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/citrus-gall-wasp.webp"
+    "thumbnail": "images/pests/citrus-gall-wasp.webp",
+    "family": "EURYTOMIDAE"
   },
   {
     "commonName": "Citrus leaf-eating caterpillar",
-    "scientificName": "",
+    "scientificName": "Papilio aegeus",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -4145,11 +4255,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/citrus-leaf-eating-caterpillar.webp"
+    "thumbnail": "images/pests/citrus-leaf-eating-caterpillar.webp",
+    "family": "PAPILIONIDAE"
   },
   {
     "commonName": "Citrus leafminer",
-    "scientificName": "",
+    "scientificName": "Phyllocnistis citrella",
     "pestType": "Chewing insect",
     "order": "Diptera",
     "cropsAffected": [
@@ -4227,11 +4338,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/citrus-leafminer.webp"
+    "thumbnail": "images/pests/citrus-leafminer.webp",
+    "family": "GRACILLARIIDAE"
   },
   {
     "commonName": "Citrus mealybug",
-    "scientificName": "",
+    "scientificName": "Planococcus citri",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -4316,11 +4428,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/citrus-mealybug.webp"
+    "thumbnail": "images/pests/citrus-mealybug.webp",
+    "family": "PSEUDOCOCCIDAE"
   },
   {
     "commonName": "Citrus Rust Mite",
-    "scientificName": "",
+    "scientificName": "Phyllocoptruta oleivora",
     "pestType": "Mite",
     "order": "Acari",
     "cropsAffected": [
@@ -4356,13 +4469,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/citrus-rust-mite.webp"
+    "thumbnail": "images/pests/citrus-rust-mite.webp",
+    "family": "ERIOPHYIDAE"
   },
   {
     "commonName": "Citrus Snow",
-    "scientificName": "",
+    "scientificName": "Unaspis citri",
     "pestType": "Sucking insect",
-    "order": "",
+    "order": "HEMIPTERA",
     "cropsAffected": [
       "Citrus, including but not limited to grapefruit, lemons, limes, mandarins, oranges and tangerines",
       "Passionfruit (see also Assorted tropical and sub-tropical fruits (inedible peel))",
@@ -4382,11 +4496,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/citrus-snow.webp"
+    "thumbnail": "images/pests/citrus-snow.webp",
+    "family": "DIASPIDIDAE"
   },
   {
     "commonName": "Citrus snow scale",
-    "scientificName": "",
+    "scientificName": "Unaspis citri",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -4411,11 +4526,12 @@ window.pestsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/pests/citrus-snow-scale.webp"
+    "thumbnail": "images/pests/citrus-snow-scale.webp",
+    "family": "DIASPIDIDAE"
   },
   {
     "commonName": "Clothes moths",
-    "scientificName": "",
+    "scientificName": "Tineola bisselliella",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [],
@@ -4432,7 +4548,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/clothes-moths.webp"
+    "thumbnail": "images/pests/clothes-moths.webp",
+    "family": "TINEIDAE"
   },
   {
     "commonName": "Cluster caterpillar",
@@ -4646,13 +4763,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/cluster-caterpillar.webp"
+    "thumbnail": "images/pests/cluster-caterpillar.webp",
+    "family": "NOCTUIDAE"
   },
   {
     "commonName": "Coastal brown ant",
-    "scientificName": "",
+    "scientificName": "Pheidole megacephala",
     "pestType": "Insect/Mite",
-    "order": "",
+    "order": "HYMENOPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -4671,11 +4789,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/coastal-brown-ant.webp"
+    "thumbnail": "images/pests/coastal-brown-ant.webp",
+    "family": "FORMICIDAE"
   },
   {
     "commonName": "Codling moth",
-    "scientificName": "",
+    "scientificName": "Cydia pomonella",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -4783,7 +4902,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/codling-moth.webp"
+    "thumbnail": "images/pests/codling-moth.webp",
+    "family": "TORTRICIDAE"
   },
   {
     "commonName": "Common Armyworm",
@@ -4836,11 +4956,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/common-armyworm.webp"
+    "thumbnail": "images/pests/common-armyworm.webp",
+    "family": "NOCTUIDAE"
   },
   {
     "commonName": "Common Brown Leafhopper",
-    "scientificName": "",
+    "scientificName": "Orosius orientalis",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -4859,7 +4980,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/common-brown-leafhopper.webp"
+    "thumbnail": "images/pests/common-brown-leafhopper.webp",
+    "family": "CICADELLIDAE"
   },
   {
     "commonName": "Common Cutworm",
@@ -4894,13 +5016,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/common-cutworm.webp"
+    "thumbnail": "images/pests/common-cutworm.webp",
+    "family": "NOCTUIDAE"
   },
   {
     "commonName": "Common Garden Katydid",
     "scientificName": "Caedicia simplex",
     "pestType": "Insect",
-    "order": "",
+    "order": "ORTHOPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -4914,11 +5037,12 @@ window.pestsRegistry = [
       }
     ],
     "alaThumbnail": "https://images.ala.org.au/image/13a3a428-d4a5-49ac-8bb8-cab6f645d36b/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/13a3a428-d4a5-49ac-8bb8-cab6f645d36b/large"
+    "alaLargeImage": "https://images.ala.org.au/image/13a3a428-d4a5-49ac-8bb8-cab6f645d36b/large",
+    "family": "TETTIGONIIDAE"
   },
   {
     "commonName": "Common mango scale",
-    "scientificName": "",
+    "scientificName": "Aulacaspis tubercularis",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -4937,7 +5061,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/common-mango-scale.webp"
+    "thumbnail": "images/pests/common-mango-scale.webp",
+    "family": "DIASPIDIDAE"
   },
   {
     "commonName": "Corn aphid",
@@ -5018,13 +5143,14 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/corn-aphid.webp"
+    "thumbnail": "images/pests/corn-aphid.webp",
+    "family": "APHIDIDAE"
   },
   {
     "commonName": "Corn Earworm",
     "scientificName": "Helicoverpa armigera",
     "pestType": "Chewing insect",
-    "order": "",
+    "order": "Lepidoptera",
     "cropsAffected": [
       "Citrus (Grapefruit, Lemons, Limes, Mandarins, Oranges)",
       "Citrus Fruits (Grapefruit, Lemon, Lime, Mandarin, Orange)",
@@ -5184,7 +5310,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/corn-earworm.webp"
+    "thumbnail": "images/pests/corn-earworm.webp",
+    "family": "NOCTUIDAE"
   },
   {
     "commonName": "Cotton aphid",
@@ -5285,7 +5412,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/cotton-aphid.webp"
+    "thumbnail": "images/pests/cotton-aphid.webp",
+    "family": "APHIDIDAE"
   },
   {
     "commonName": "Cotton Bollworm",
@@ -5486,7 +5614,8 @@ window.pestsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/pests/cotton-bollworm.webp"
+    "thumbnail": "images/pests/cotton-bollworm.webp",
+    "family": "NOCTUIDAE"
   },
   {
     "commonName": "Cotton bollworm Native budworm",
@@ -5541,7 +5670,8 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/cotton-bollworm-native-budworm.webp"
+    "thumbnail": "images/pests/cotton-bollworm-native-budworm.webp",
+    "family": "NOCTUIDAE"
   },
   {
     "commonName": "Cotton bollworm Native budworm Cluster caterpillar",
@@ -5594,13 +5724,14 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/cotton-bollworm-native-budworm-cluster-caterpillar.webp"
+    "thumbnail": "images/pests/cotton-bollworm-native-budworm-cluster-caterpillar.webp",
+    "family": "NOCTUIDAE"
   },
   {
     "commonName": "Cotton Mealybug",
-    "scientificName": "",
+    "scientificName": "Phenacoccus solenopsis",
     "pestType": "Insect",
-    "order": "",
+    "order": "HEMIPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -5626,11 +5757,12 @@ window.pestsRegistry = [
       }
     ],
     "alaThumbnail": "https://images.ala.org.au/image/108200ae-d2bb-4ed9-a038-56feb1100b4d/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/108200ae-d2bb-4ed9-a038-56feb1100b4d/large"
+    "alaLargeImage": "https://images.ala.org.au/image/108200ae-d2bb-4ed9-a038-56feb1100b4d/large",
+    "family": "PSEUDOCOCCIDAE"
   },
   {
     "commonName": "Cotton Thrips",
-    "scientificName": "",
+    "scientificName": "Thrips",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -5657,7 +5789,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/cotton-thrips.webp"
+    "thumbnail": "images/pests/cotton-thrips.webp",
+    "family": "THRIPIDAE"
   },
   {
     "commonName": "Cotton/melon aphid",
@@ -5689,13 +5822,14 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/cotton-melon-aphid.webp"
+    "thumbnail": "images/pests/cotton-melon-aphid.webp",
+    "family": "APHIDIDAE"
   },
   {
     "commonName": "Cottonseed Bug",
     "scientificName": "Oxycarenus luctuosus",
     "pestType": "Sucking insect",
-    "order": "",
+    "order": "Hemiptera",
     "cropsAffected": [
       "Cotton"
     ],
@@ -5721,11 +5855,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/cottonseed-bug.webp"
+    "thumbnail": "images/pests/cottonseed-bug.webp",
+    "family": "OXYCARENIDAE"
   },
   {
     "commonName": "Cottony cushion scale",
-    "scientificName": "",
+    "scientificName": "Icerya purchasi",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [],
@@ -5742,11 +5877,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/cottony-cushion-scale.webp"
+    "thumbnail": "images/pests/cottony-cushion-scale.webp",
+    "family": "MONOPHLEBIDAE"
   },
   {
     "commonName": "Couch Mite",
-    "scientificName": "",
+    "scientificName": "Aceria cynodoniensis",
     "pestType": "Mite",
     "order": "Acari",
     "cropsAffected": [
@@ -5765,7 +5901,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/couch-mite.webp"
+    "thumbnail": "images/pests/couch-mite.webp",
+    "family": "ERIOPHYIDAE"
   },
   {
     "commonName": "Cowpea aphid",
@@ -5810,11 +5947,12 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/cowpea-aphid.webp"
+    "thumbnail": "images/pests/cowpea-aphid.webp",
+    "family": "APHIDIDAE"
   },
   {
     "commonName": "Crysomelid beetle",
-    "scientificName": "",
+    "scientificName": "Spilopyra sumptuosa",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -5833,11 +5971,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/crysomelid-beetle.webp"
+    "thumbnail": "images/pests/crysomelid-beetle.webp",
+    "family": "CHRYSOMELIDAE"
   },
   {
     "commonName": "Cucumber Fruit Fly",
-    "scientificName": "",
+    "scientificName": "Zeugodacus (Austrodacus) cucumis",
     "pestType": "Fly",
     "order": "Diptera",
     "cropsAffected": [],
@@ -5854,11 +5993,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/cucumber-fruit-fly.webp"
+    "thumbnail": "images/pests/cucumber-fruit-fly.webp",
+    "family": "TEPHRITIDAE"
   },
   {
     "commonName": "Cucumber Moth",
-    "scientificName": "",
+    "scientificName": "Diaphania indica",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -5963,11 +6103,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/cucumber-moth.webp"
+    "thumbnail": "images/pests/cucumber-moth.webp",
+    "family": "CRAMBIDAE"
   },
   {
     "commonName": "Cucurbit stemborer",
-    "scientificName": "",
+    "scientificName": "Lixus cardui",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [],
@@ -5984,13 +6125,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/cucurbit-stemborer.webp"
+    "thumbnail": "images/pests/cucurbit-stemborer.webp",
+    "family": "CURCULIONIDAE"
   },
   {
     "commonName": "Currant lettuce aphid",
     "scientificName": "Nasonovia ribisnigri",
     "pestType": "Sucking insect",
-    "order": "",
+    "order": "HEMIPTERA",
     "cropsAffected": [
       "Brassica Vegetables (Broccoli, Broccolini, Brussels Sprouts, Cabbage, Cauliflower, Kohlrabi)",
       "Celery",
@@ -6047,13 +6189,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/currant-lettuce-aphid.webp"
+    "thumbnail": "images/pests/currant-lettuce-aphid.webp",
+    "family": "APHIDIDAE"
   },
   {
     "commonName": "Cutworm",
-    "scientificName": "",
+    "scientificName": "Dasygaster padockina",
     "pestType": "Insect",
-    "order": "",
+    "order": "LEPIDOPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -6120,13 +6263,14 @@ window.pestsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/pests/brown-cutworm.webp"
+    "thumbnail": "images/pests/brown-cutworm.webp",
+    "family": "NOCTUIDAE"
   },
   {
     "commonName": "Cydia Pomonella",
-    "scientificName": "",
+    "scientificName": "Cydia pomonella",
     "pestType": "Chewing insect",
-    "order": "",
+    "order": "LEPIDOPTERA",
     "cropsAffected": [
       "Walnuts (PER88949)"
     ],
@@ -6144,13 +6288,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/cydia-pomonella.webp"
+    "thumbnail": "images/pests/cydia-pomonella.webp",
+    "family": "TORTRICIDAE"
   },
   {
     "commonName": "Daddy-long-legs Spiders",
     "scientificName": "Pholcus phalangioides",
     "pestType": "General pest",
-    "order": "",
+    "order": "ARANEAE",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -6173,7 +6318,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/daddy-long-legs-spiders.webp"
+    "thumbnail": "images/pests/daddy-long-legs-spiders.webp",
+    "family": "PHOLCIDAE"
   },
   {
     "commonName": "Diamondback Moth",
@@ -6402,13 +6548,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/diamondback-moth.webp"
+    "thumbnail": "images/pests/diamondback-moth.webp",
+    "family": "PLUTELLIDAE"
   },
   {
     "commonName": "Diaphania Indica",
-    "scientificName": "",
+    "scientificName": "Diaphania indica",
     "pestType": "Chewing insect",
-    "order": "",
+    "order": "LEPIDOPTERA",
     "cropsAffected": [
       "Cucurbits",
       "Fruiting Vegetables (Cucurbits)"
@@ -6442,13 +6589,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/diaphania-indica.webp"
+    "thumbnail": "images/pests/diaphania-indica.webp",
+    "family": "CRAMBIDAE"
   },
   {
     "commonName": "Dimple bug",
     "scientificName": "Campylomma livida",
     "pestType": "Sucking insect",
-    "order": "",
+    "order": "HEMIPTERA",
     "cropsAffected": [
       "Apples"
     ],
@@ -6465,13 +6613,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/dimple-bug.webp"
+    "thumbnail": "images/pests/dimple-bug.webp",
+    "family": "MIRIDAE"
   },
   {
     "commonName": "Domestic Cockroaches",
-    "scientificName": "",
+    "scientificName": "Blattella germanica",
     "pestType": "General pest",
-    "order": "",
+    "order": "BLATTODEA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -6486,11 +6635,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/domestic-cockroaches.webp"
+    "thumbnail": "images/pests/domestic-cockroaches.webp",
+    "family": "ECTOBIIDAE"
   },
   {
     "commonName": "Dried Fruit Beetle",
-    "scientificName": "",
+    "scientificName": "Carpophilus hemipterus",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [],
@@ -6507,13 +6657,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/dried-fruit-beetle.webp"
+    "thumbnail": "images/pests/dried-fruit-beetle.webp",
+    "family": "NITIDULIDAE"
   },
   {
     "commonName": "Earias Huegeli",
-    "scientificName": "",
+    "scientificName": "Earias",
     "pestType": "Chewing insect",
-    "order": "",
+    "order": "LEPIDOPTERA",
     "cropsAffected": [
       "Cotton"
     ],
@@ -6530,11 +6681,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/earias-huegeli.webp"
+    "thumbnail": "images/pests/earias-huegeli.webp",
+    "family": "NOLIDAE"
   },
   {
     "commonName": "Early fruit caterpillars",
-    "scientificName": "",
+    "scientificName": "Tortricidae",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [],
@@ -6551,13 +6703,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/early_fruit_caterpillars.webp"
+    "thumbnail": "images/pests/early_fruit_caterpillars.webp",
+    "family": "TORTRICIDAE"
   },
   {
     "commonName": "Earwigs",
-    "scientificName": "",
+    "scientificName": "Forficula auricularia",
     "pestType": "Insect",
-    "order": "",
+    "order": "DERMAPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -6577,11 +6730,12 @@ window.pestsRegistry = [
       }
     ],
     "alaThumbnail": "https://images.ala.org.au/image/ba19d6ab-998b-4cb9-b6d1-f07937d7c02c/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/ba19d6ab-998b-4cb9-b6d1-f07937d7c02c/large"
+    "alaLargeImage": "https://images.ala.org.au/image/ba19d6ab-998b-4cb9-b6d1-f07937d7c02c/large",
+    "family": "FORFICULIDAE"
   },
   {
     "commonName": "ECTROPIS LOOPER",
-    "scientificName": "",
+    "scientificName": "Ectropis",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -6616,7 +6770,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/ectropis-looper.webp"
+    "thumbnail": "images/pests/ectropis-looper.webp",
+    "family": "GEOMETRIDAE"
   },
   {
     "commonName": "Eggfruit Caterpillar",
@@ -6647,13 +6802,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/eggfruit-caterpillar.webp"
+    "thumbnail": "images/pests/eggfruit-caterpillar.webp",
+    "family": "CRAMBIDAE"
   },
   {
     "commonName": "Elephant or Rhino beetle",
-    "scientificName": "",
+    "scientificName": "Orthorhinus cylindrirostris",
     "pestType": "Chewing insect",
-    "order": "",
+    "order": "COLEOPTERA",
     "cropsAffected": [
       "Lychee",
       "Mango"
@@ -6672,11 +6828,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/elephant-or-rhino-beetle.webp"
+    "thumbnail": "images/pests/elephant-or-rhino-beetle.webp",
+    "family": "CURCULIONIDAE"
   },
   {
     "commonName": "Eucalyptus Chrysomelid Leaf Beetle",
-    "scientificName": "",
+    "scientificName": "Paropsis spp.",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -6695,11 +6852,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/eucalyptus-chrysomelid-leaf-beetle.webp"
+    "thumbnail": "images/pests/eucalyptus-chrysomelid-leaf-beetle.webp",
+    "family": "CHRYSOMELIDAE"
   },
   {
     "commonName": "Eucalyptus chrysomelid leaf beetle larvae",
-    "scientificName": "",
+    "scientificName": "Paropsis spp.",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -6718,7 +6876,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/eucalyptus-chrysomelid-leaf-beetle-larvae.webp"
+    "thumbnail": "images/pests/eucalyptus-chrysomelid-leaf-beetle-larvae.webp",
+    "family": "CHRYSOMELIDAE"
   },
   {
     "commonName": "Eucalyptus Leaf Beetle",
@@ -6741,7 +6900,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/eucalyptus-leaf-beetle.webp"
+    "thumbnail": "images/pests/eucalyptus-leaf-beetle.webp",
+    "family": "CHRYSOMELIDAE"
   },
   {
     "commonName": "Eucalyptus Weevil",
@@ -6764,11 +6924,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/eucalyptus-weevil.webp"
+    "thumbnail": "images/pests/eucalyptus-weevil.webp",
+    "family": "CURCULIONIDAE"
   },
   {
     "commonName": "European earwig",
-    "scientificName": "",
+    "scientificName": "Forficula auricularia",
     "pestType": "Soil pest",
     "order": "Coleoptera",
     "cropsAffected": [
@@ -6804,11 +6965,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/european-earwig.webp"
+    "thumbnail": "images/pests/european-earwig.webp",
+    "family": "FORFICULIDAE"
   },
   {
     "commonName": "European Red Mite",
-    "scientificName": "",
+    "scientificName": "Panonychus ulmi",
     "pestType": "Mite",
     "order": "Acari",
     "cropsAffected": [
@@ -6894,13 +7056,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/european-red-mite.webp"
+    "thumbnail": "images/pests/european-red-mite.webp",
+    "family": "TETRANYCHIDAE"
   },
   {
     "commonName": "European wasps",
-    "scientificName": "",
+    "scientificName": "Vespula germanica",
     "pestType": "Chewing insect",
-    "order": "",
+    "order": "HYMENOPTERA",
     "cropsAffected": [
       "Wasp nests"
     ],
@@ -6917,7 +7080,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/european-wasps.webp"
+    "thumbnail": "images/pests/european-wasps.webp",
+    "family": "VESPIDAE"
   },
   {
     "commonName": "Fall Armyworm",
@@ -7004,13 +7168,14 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/fall-armyworm.webp"
+    "thumbnail": "images/pests/fall-armyworm.webp",
+    "family": "NOCTUIDAE"
   },
   {
     "commonName": "False Wireworm",
-    "scientificName": "",
+    "scientificName": "Gonocephalum misellum",
     "pestType": "Insect/Mite",
-    "order": "",
+    "order": "COLEOPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -7025,11 +7190,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/false-wireworm.webp"
+    "thumbnail": "images/pests/false-wireworm.webp",
+    "family": "TENEBRIONIDAE"
   },
   {
     "commonName": "False Wireworms",
-    "scientificName": "",
+    "scientificName": "Gonocephalum misellum",
     "pestType": "Soil pest",
     "order": "Coleoptera",
     "cropsAffected": [
@@ -7048,11 +7214,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/false-wireworms.webp"
+    "thumbnail": "images/pests/false-wireworms.webp",
+    "family": "TENEBRIONIDAE"
   },
   {
     "commonName": "Fig leafhoppers",
-    "scientificName": "",
+    "scientificName": "Nesoclutha phryne",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -7071,11 +7238,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/fig-leafhoppers.webp"
+    "thumbnail": "images/pests/fig-leafhoppers.webp",
+    "family": "CICADELLIDAE"
   },
   {
     "commonName": "Fig Longicorn",
-    "scientificName": "",
+    "scientificName": "Acalolepta mixta",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -7111,7 +7279,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/fig-longicorn.webp"
+    "thumbnail": "images/pests/fig-longicorn.webp",
+    "family": "CERAMBYCIDAE"
   },
   {
     "commonName": "Fivespined bark beetle",
@@ -7132,7 +7301,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/fivespined-bark-beetle.webp"
+    "thumbnail": "images/pests/fivespined-bark-beetle.webp",
+    "family": "CURCULIONIDAE"
   },
   {
     "commonName": "Flatid Leafhopper",
@@ -7153,11 +7323,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/flatid-leafhopper.webp"
+    "thumbnail": "images/pests/flatid-leafhopper.webp",
+    "family": "FLATIDAE"
   },
   {
     "commonName": "Flatid planthopper",
-    "scientificName": "",
+    "scientificName": "Toya dryope",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -7187,11 +7358,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/flatid-planthopper.webp"
+    "thumbnail": "images/pests/flatid-planthopper.webp",
+    "family": "DELPHACIDAE"
   },
   {
     "commonName": "Flattid planthoppers",
-    "scientificName": "",
+    "scientificName": "Toya dryope",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -7210,13 +7382,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/flattid-planthoppers.webp"
+    "thumbnail": "images/pests/flattid-planthoppers.webp",
+    "family": "DELPHACIDAE"
   },
   {
     "commonName": "Fleas",
-    "scientificName": "",
+    "scientificName": "Ctenocephalides felis",
     "pestType": "Insect/Mite",
-    "order": "",
+    "order": "SIPHONAPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -7233,11 +7406,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/fleas.webp"
+    "thumbnail": "images/pests/fleas.webp",
+    "family": "PULICIDAE"
   },
   {
     "commonName": "Flower Caterpillars",
-    "scientificName": "",
+    "scientificName": "Helicoverpa spp.",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -7256,13 +7430,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/flower-caterpillars.webp"
+    "thumbnail": "images/pests/flower-caterpillars.webp",
+    "family": "NOCTUIDAE"
   },
   {
     "commonName": "Flower Eating Caterpillar",
-    "scientificName": "",
+    "scientificName": "Helicoverpa spp.",
     "pestType": "Insect",
-    "order": "",
+    "order": "LEPIDOPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -7281,11 +7456,12 @@ window.pestsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/pests/flower-eating-caterpillars.webp"
+    "thumbnail": "images/pests/flower-eating-caterpillars.webp",
+    "family": "NOCTUIDAE"
   },
   {
     "commonName": "Flower Thrips",
-    "scientificName": "",
+    "scientificName": "Thrips hawaiiensis",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [],
@@ -7302,11 +7478,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/flower-thrips.webp"
+    "thumbnail": "images/pests/flower-thrips.webp",
+    "family": "THRIPIDAE"
   },
   {
     "commonName": "Flower-eating caterpillars",
-    "scientificName": "",
+    "scientificName": "Helicoverpa spp.",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -7363,13 +7540,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/flower-eating-caterpillars.webp"
+    "thumbnail": "images/pests/flower-eating-caterpillars.webp",
+    "family": "NOCTUIDAE"
   },
   {
     "commonName": "Forficula Auricularia",
-    "scientificName": "",
+    "scientificName": "Forficula auricularia",
     "pestType": "Soil pest",
-    "order": "",
+    "order": "DERMAPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -7385,11 +7563,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/forficula-auricularia.webp"
+    "thumbnail": "images/pests/forficula-auricularia.webp",
+    "family": "FORFICULIDAE"
   },
   {
     "commonName": "Fruit Fly",
-    "scientificName": "",
+    "scientificName": "Drosophila (Drosophila) repleta",
     "pestType": "Fly",
     "order": "Diptera",
     "cropsAffected": [
@@ -7446,11 +7625,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/fruit-fly.webp"
+    "thumbnail": "images/pests/fruit-fly.webp",
+    "family": "DROSOPHILIDAE"
   },
   {
     "commonName": "Fruit piercing moth",
-    "scientificName": "",
+    "scientificName": "Eudocima fullonia",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -7469,13 +7649,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/fruit-piercing-moth.webp"
+    "thumbnail": "images/pests/fruit-piercing-moth.webp",
+    "family": "EREBIDAE"
   },
   {
     "commonName": "Fruit spotting bug",
-    "scientificName": "",
+    "scientificName": "Amblypelta lutescens",
     "pestType": "Sucking insect",
-    "order": "",
+    "order": "HEMIPTERA",
     "cropsAffected": [
       "Assorted tropical and sub-tropical fruits (inedible peel) (including but not limited to carob, custard apple, lychee, papaya, passionfruit and mango) (except bananas and pineapple (see separate claim))",
       "Avocado",
@@ -7592,11 +7773,12 @@ window.pestsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/pests/fruit-spotting-bug.webp"
+    "thumbnail": "images/pests/fruit-spotting-bug.webp",
+    "family": "COREIDAE"
   },
   {
     "commonName": "Fruit tree borer",
-    "scientificName": "",
+    "scientificName": "Maroga melanostigma",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -7616,11 +7798,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/fruit-tree-borer.webp"
+    "thumbnail": "images/pests/fruit-tree-borer.webp",
+    "family": "OECOPHORIDAE"
   },
   {
     "commonName": "Fuller's rose weevil",
-    "scientificName": "",
+    "scientificName": "Naupactus cervinus",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -7698,13 +7881,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/fullers-rose-weevil.webp"
+    "thumbnail": "images/pests/fullers-rose-weevil.webp",
+    "family": "CURCULIONIDAE"
   },
   {
     "commonName": "Fungus Gnats",
-    "scientificName": "",
+    "scientificName": "Bradysia spp.",
     "pestType": "Soil pest",
-    "order": "",
+    "order": "DIPTERA",
     "cropsAffected": [
       "Potting soil",
       "Potting soil (for floriculture and ornamentals only)"
@@ -7730,13 +7914,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/fungus-gnats.webp"
+    "thumbnail": "images/pests/fungus-gnats.webp",
+    "family": "SCIARIDAE"
   },
   {
     "commonName": "Funnel ant",
-    "scientificName": "",
+    "scientificName": "Aphaenogaster pythia",
     "pestType": "Insect/Mite",
-    "order": "",
+    "order": "HYMENOPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -7755,13 +7940,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/funnel-ant.webp"
+    "thumbnail": "images/pests/funnel-ant.webp",
+    "family": "FORMICIDAE"
   },
   {
     "commonName": "Funnel Ants",
     "scientificName": "Aphaenogaster pythia",
     "pestType": "Soil pest",
-    "order": "",
+    "order": "HYMENOPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -7784,11 +7970,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/funnel-ants.webp"
+    "thumbnail": "images/pests/funnel-ants.webp",
+    "family": "FORMICIDAE"
   },
   {
     "commonName": "Furniture beetles",
-    "scientificName": "",
+    "scientificName": "Anthrenus (Anthrenus) flavipes",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [],
@@ -7805,19 +7992,21 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/furniture-beetles.webp"
+    "thumbnail": "images/pests/furniture-beetles.webp",
+    "family": "DERMESTIDAE"
   },
   {
     "commonName": "Gall wasp",
-    "scientificName": "",
+    "scientificName": "Megastigmus acaciae",
     "pestType": "Chewing insect",
-    "order": "",
+    "order": "Hymenoptera",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Gall%20wasp+pest+australia",
     "linkedProducts": [],
-    "thumbnail": "images/pests/gall-wasp.webp"
+    "thumbnail": "images/pests/gall-wasp.webp",
+    "family": "MEGASTIGMIDAE"
   },
   {
     "commonName": "Garden Weevil",
@@ -7868,11 +8057,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/garden-weevil.webp"
+    "thumbnail": "images/pests/garden-weevil.webp",
+    "family": "CURCULIONIDAE"
   },
   {
     "commonName": "Grain Aphid",
-    "scientificName": "",
+    "scientificName": "Metopolophium dirhodum",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -7898,7 +8088,8 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/grain-aphid.webp"
+    "thumbnail": "images/pests/grain-aphid.webp",
+    "family": "APHIDIDAE"
   },
   {
     "commonName": "Grapevine Moth",
@@ -7978,11 +8169,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/grapevine-moth.webp"
+    "thumbnail": "images/pests/grapevine-moth.webp",
+    "family": "NOCTUIDAE"
   },
   {
     "commonName": "Grapevine scale",
-    "scientificName": "",
+    "scientificName": "Parthenolecanium persicae persicae",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -8042,13 +8234,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/grapevine-scale.webp"
+    "thumbnail": "images/pests/grapevine-scale.webp",
+    "family": "COCCIDAE"
   },
   {
     "commonName": "Grapholita Molesta",
-    "scientificName": "",
+    "scientificName": "Grapholita",
     "pestType": "Chewing insect",
-    "order": "",
+    "order": "LEPIDOPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -8063,11 +8256,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/grapholita-molesta.webp"
+    "thumbnail": "images/pests/grapholita-molesta.webp",
+    "family": "TORTRICIDAE"
   },
   {
     "commonName": "Grass caterpillar",
-    "scientificName": "",
+    "scientificName": "Persectania ewingii",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -8086,13 +8280,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/grass-caterpillar.webp"
+    "thumbnail": "images/pests/grass-caterpillar.webp",
+    "family": "NOCTUIDAE"
   },
   {
     "commonName": "Grasshoppers",
-    "scientificName": "",
+    "scientificName": "Flindersella",
     "pestType": "Insect",
-    "order": "",
+    "order": "Orthoptera",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -8118,7 +8313,8 @@ window.pestsRegistry = [
       }
     ],
     "alaThumbnail": "https://images.ala.org.au/image/741083aa-e9b3-422f-a831-d86a292e87b2/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/741083aa-e9b3-422f-a831-d86a292e87b2/large"
+    "alaLargeImage": "https://images.ala.org.au/image/741083aa-e9b3-422f-a831-d86a292e87b2/large",
+    "family": "MORABIDAE"
   },
   {
     "commonName": "Green looper",
@@ -8147,7 +8343,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/green-looper.webp"
+    "thumbnail": "images/pests/green-looper.webp",
+    "family": "NOCTUIDAE"
   },
   {
     "commonName": "Green Mirid",
@@ -8240,7 +8437,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/green-mirid.webp"
+    "thumbnail": "images/pests/green-mirid.webp",
+    "family": "MIRIDAE"
   },
   {
     "commonName": "Green peach aphid",
@@ -8494,11 +8692,12 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/green-peach-aphid.webp"
+    "thumbnail": "images/pests/green-peach-aphid.webp",
+    "family": "APHIDIDAE"
   },
   {
     "commonName": "Green planthopper",
-    "scientificName": "",
+    "scientificName": "Siphanta acuta",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -8517,7 +8716,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/green-planthopper.webp"
+    "thumbnail": "images/pests/green-planthopper.webp",
+    "family": "FLATIDAE"
   },
   {
     "commonName": "Green Snail",
@@ -8538,7 +8738,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/green-snail.webp"
+    "thumbnail": "images/pests/green-snail.webp",
+    "family": "HELICIDAE"
   },
   {
     "commonName": "Green Stink Bug",
@@ -8559,13 +8760,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/green-stink-bug.webp"
+    "thumbnail": "images/pests/green-stink-bug.webp",
+    "family": "PENTATOMIDAE"
   },
   {
     "commonName": "Green treehopper",
-    "scientificName": "",
+    "scientificName": "Sextius virescens",
     "pestType": "Sucking insect",
-    "order": "",
+    "order": "HEMIPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -8580,13 +8782,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/green-treehopper.webp"
+    "thumbnail": "images/pests/green-treehopper.webp",
+    "family": "MEMBRACIDAE"
   },
   {
     "commonName": "Green vege bug",
-    "scientificName": "",
+    "scientificName": "Nezara viridula",
     "pestType": "Sucking insect",
-    "order": "",
+    "order": "HEMIPTERA",
     "cropsAffected": [
       "Capsicum"
     ],
@@ -8603,13 +8806,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/green-vege-bug.webp"
+    "thumbnail": "images/pests/green-vege-bug.webp",
+    "family": "PENTATOMIDAE"
   },
   {
     "commonName": "Green vegetable bug",
-    "scientificName": "",
+    "scientificName": "Nezara viridula",
     "pestType": "Sucking insect",
-    "order": "",
+    "order": "Hemiptera",
     "cropsAffected": [
       "Beans (Broadbeans, French beans, Long beans, Navy beans)",
       "Beetroot",
@@ -8716,13 +8920,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/green-vegetable-bug.webp"
+    "thumbnail": "images/pests/green-vegetable-bug.webp",
+    "family": "PENTATOMIDAE"
   },
   {
     "commonName": "Greenhead Ants",
     "scientificName": "Rhytidoponera spp.",
     "pestType": "Soil pest",
-    "order": "",
+    "order": "HYMENOPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -8745,11 +8950,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/greenhead-ants.webp"
+    "thumbnail": "images/pests/greenhead-ants.webp",
+    "family": "FORMICIDAE"
   },
   {
     "commonName": "Greenhouse thrips",
-    "scientificName": "",
+    "scientificName": "Heliothrips haemorrhoidalis",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -8768,11 +8974,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/greenhouse-thrips.webp"
+    "thumbnail": "images/pests/greenhouse-thrips.webp",
+    "family": "THRIPIDAE"
   },
   {
     "commonName": "Greenhouse whitefly",
-    "scientificName": "",
+    "scientificName": "Trialeurodes vaporariorum",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -8885,7 +9092,8 @@ window.pestsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/pests/greenhouse-whitefly.webp"
+    "thumbnail": "images/pests/greenhouse-whitefly.webp",
+    "family": "ALEYRODIDAE"
   },
   {
     "commonName": "Grey Cabbage Aphid",
@@ -8948,13 +9156,14 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/grey-cabbage-aphid.webp"
+    "thumbnail": "images/pests/grey-cabbage-aphid.webp",
+    "family": "APHIDIDAE"
   },
   {
     "commonName": "Grey Cluster Bug",
     "scientificName": "Nysius clevelandensis",
     "pestType": "Sucking insect",
-    "order": "",
+    "order": "Hemiptera",
     "cropsAffected": [
       "Canola",
       "Safflower",
@@ -9000,11 +9209,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/grey-cluster-bug.webp"
+    "thumbnail": "images/pests/grey-cluster-bug.webp",
+    "family": "LYGAEIDAE"
   },
   {
     "commonName": "Greyback canegrub",
-    "scientificName": "",
+    "scientificName": "Alepida froggatti",
     "pestType": "Soil pest",
     "order": "Coleoptera",
     "cropsAffected": [
@@ -9025,13 +9235,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/greyback-canegrub.webp"
+    "thumbnail": "images/pests/greyback-canegrub.webp",
+    "family": "SCARABAEIDAE"
   },
   {
     "commonName": "Harlequin bug",
-    "scientificName": "",
+    "scientificName": "Tectocoris diophthalmus",
     "pestType": "Sucking insect",
-    "order": "",
+    "order": "Hemiptera",
     "cropsAffected": [
       "Roses, Ornamental plants"
     ],
@@ -9048,13 +9259,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/harlequin-bug.webp"
+    "thumbnail": "images/pests/harlequin-bug.webp",
+    "family": "SCUTELLERIDAE"
   },
   {
     "commonName": "Hawaiian Flower Thrips",
     "scientificName": "Thrips hawaiiensis",
     "pestType": "Insect",
-    "order": "",
+    "order": "THYSANOPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -9067,7 +9279,8 @@ window.pestsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/pests/flower-thrips.webp"
+    "thumbnail": "images/pests/flower-thrips.webp",
+    "family": "THRIPIDAE"
   },
   {
     "commonName": "Hawk Moth",
@@ -9088,13 +9301,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/hawk-moth.webp"
+    "thumbnail": "images/pests/hawk-moth.webp",
+    "family": "SPHINGIDAE"
   },
   {
     "commonName": "Helicoverpa",
-    "scientificName": "",
+    "scientificName": "Helicoverpa",
     "pestType": "Insect",
-    "order": "",
+    "order": "LEPIDOPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -9215,7 +9429,8 @@ window.pestsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/pests/helicoverpa.webp"
+    "thumbnail": "images/pests/helicoverpa.webp",
+    "family": "NOCTUIDAE"
   },
   {
     "commonName": "Helicoverpa Moths",
@@ -9321,13 +9536,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/helicoverpa-moths.webp"
+    "thumbnail": "images/pests/helicoverpa-moths.webp",
+    "family": "NOCTUIDAE"
   },
   {
     "commonName": "Helicoverpa spp.",
-    "scientificName": "",
+    "scientificName": "Helicoverpa",
     "pestType": "Insect",
-    "order": "",
+    "order": "LEPIDOPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -9364,11 +9580,12 @@ window.pestsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/pests/helicoverpa-spp.webp"
+    "thumbnail": "images/pests/helicoverpa-spp.webp",
+    "family": "NOCTUIDAE"
   },
   {
     "commonName": "Heliothis caterpillars",
-    "scientificName": "",
+    "scientificName": "Heliothis",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [],
@@ -9385,11 +9602,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/heliothis_caterpillars.webp"
+    "thumbnail": "images/pests/heliothis_caterpillars.webp",
+    "family": "NOCTUIDAE"
   },
   {
     "commonName": "Hibiscus flower beetle",
-    "scientificName": "",
+    "scientificName": "Aethina concolor",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -9408,7 +9626,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/hibiscus-flower-beetle.webp"
+    "thumbnail": "images/pests/hibiscus-flower-beetle.webp",
+    "family": "NITIDULIDAE"
   },
   {
     "commonName": "House Crickets",
@@ -9437,13 +9656,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/house-crickets.webp"
+    "thumbnail": "images/pests/house-crickets.webp",
+    "family": "GRYLLIDAE"
   },
   {
     "commonName": "Inland katydid",
     "scientificName": "Caedicia simplex",
     "pestType": "Chewing insect",
-    "order": "",
+    "order": "ORTHOPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -9459,13 +9679,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/inland-katydid.webp"
+    "thumbnail": "images/pests/inland-katydid.webp",
+    "family": "TETTIGONIIDAE"
   },
   {
     "commonName": "Ivy Leafroller",
-    "scientificName": "",
+    "scientificName": "Isochorista pumicosa",
     "pestType": "Chewing insect",
-    "order": "",
+    "order": "LEPIDOPTERA",
     "cropsAffected": [
       "Avocado"
     ],
@@ -9482,11 +9703,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/ivy-leafroller.webp"
+    "thumbnail": "images/pests/ivy-leafroller.webp",
+    "family": "TORTRICIDAE"
   },
   {
     "commonName": "Japanese Beetle",
-    "scientificName": "",
+    "scientificName": "Popillia japonica",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -9507,13 +9729,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/japanese-beetle.webp"
+    "thumbnail": "images/pests/japanese-beetle.webp",
+    "family": "SCARABAEIDAE"
   },
   {
     "commonName": "Jassids",
-    "scientificName": "",
+    "scientificName": "Amrasca devastans",
     "pestType": "Insect",
-    "order": "",
+    "order": "HEMIPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -9537,7 +9760,8 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "family": "CICADELLIDAE"
   },
   {
     "commonName": "Kelly's Citrus Thrip",
@@ -9592,13 +9816,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/kelly-s-citrus-thrip.webp"
+    "thumbnail": "images/pests/kelly-s-citrus-thrip.webp",
+    "family": "THRIPIDAE"
   },
   {
     "commonName": "Kelly's Citrus Thrips",
-    "scientificName": "",
+    "scientificName": "Thrips",
     "pestType": "Insect",
-    "order": "",
+    "order": "THYSANOPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -9639,7 +9864,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/kelly-s-citrus-thrips.webp"
+    "thumbnail": "images/pests/kelly-s-citrus-thrips.webp",
+    "family": "THRIPIDAE"
   },
   {
     "commonName": "Kelly’s Citrus Thrips and Light Brown Apple Moth",
@@ -9662,9 +9888,9 @@ window.pestsRegistry = [
   },
   {
     "commonName": "La Plata Weevil",
-    "scientificName": "",
+    "scientificName": "Sphenophorus brunnipennis",
     "pestType": "Insect",
-    "order": "",
+    "order": "COLEOPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -9678,13 +9904,14 @@ window.pestsRegistry = [
       }
     ],
     "alaThumbnail": "https://images.ala.org.au/image/3588aec8-2bcf-4bed-880f-777581545a83/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/3588aec8-2bcf-4bed-880f-777581545a83/large"
+    "alaLargeImage": "https://images.ala.org.au/image/3588aec8-2bcf-4bed-880f-777581545a83/large",
+    "family": "CURCULIONIDAE"
   },
   {
     "commonName": "Lace bugs",
-    "scientificName": "",
+    "scientificName": "Tingidae",
     "pestType": "Sucking insect",
-    "order": "",
+    "order": "HEMIPTERA",
     "cropsAffected": [
       "Macadamia"
     ],
@@ -9717,7 +9944,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/lace-bugs.webp"
+    "thumbnail": "images/pests/lace-bugs.webp",
+    "family": "TINGIDAE"
   },
   {
     "commonName": "Large citrus butterfly",
@@ -9740,11 +9968,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/large-citrus-butterfly.webp"
+    "thumbnail": "images/pests/large-citrus-butterfly.webp",
+    "family": "PAPILIONIDAE"
   },
   {
     "commonName": "Large mango tipborer",
-    "scientificName": "",
+    "scientificName": "Penicillaria jocosatrix",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -9771,13 +10000,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/large-mango-tipborer.webp"
+    "thumbnail": "images/pests/large-mango-tipborer.webp",
+    "family": "NOCTUIDAE"
   },
   {
     "commonName": "Lawn Army Worm",
-    "scientificName": "",
+    "scientificName": "Spodoptera mauritia",
     "pestType": "Insect/Mite",
-    "order": "",
+    "order": "LEPIDOPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -9804,11 +10034,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/lawn-army-worm.webp"
+    "thumbnail": "images/pests/lawn-army-worm.webp",
+    "family": "NOCTUIDAE"
   },
   {
     "commonName": "Lawn Grub",
-    "scientificName": "",
+    "scientificName": "Heteronychus arator",
     "pestType": "Soil pest",
     "order": "Coleoptera",
     "cropsAffected": [
@@ -9827,13 +10058,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/lawn-grub.webp"
+    "thumbnail": "images/pests/lawn-grub.webp",
+    "family": "SCARABAEIDAE"
   },
   {
     "commonName": "Leaf eating ladybirds",
-    "scientificName": "",
+    "scientificName": "Epilachna spp.",
     "pestType": "Chewing insect",
-    "order": "",
+    "order": "COLEOPTERA",
     "cropsAffected": [
       "Beetroot",
       "Ornamentals",
@@ -9857,11 +10089,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/leaf-eating-ladybirds.webp"
+    "thumbnail": "images/pests/leaf-eating-ladybirds.webp",
+    "family": "COCCINELLIDAE"
   },
   {
     "commonName": "Leaf eating loopers",
-    "scientificName": "",
+    "scientificName": "Ectropis excursaria",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -9882,13 +10115,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/leaf-eating-loopers.webp"
+    "thumbnail": "images/pests/leaf-eating-loopers.webp",
+    "family": "GEOMETRIDAE"
   },
   {
     "commonName": "Leaf Eating Weevil",
-    "scientificName": "",
+    "scientificName": "Eutinophaea bicristata",
     "pestType": "Insect/Mite",
-    "order": "",
+    "order": "COLEOPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -9911,13 +10145,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/leaf-eating-weevil.webp"
+    "thumbnail": "images/pests/leaf-eating-weevil.webp",
+    "family": "CURCULIONIDAE"
   },
   {
     "commonName": "Leaf Hoppers",
-    "scientificName": "",
+    "scientificName": "Cicadellidae",
     "pestType": "Sucking insect",
-    "order": "",
+    "order": "HEMIPTERA",
     "cropsAffected": [
       "Grapes, Hops, Fruit Trees"
     ],
@@ -9988,7 +10223,8 @@ window.pestsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/pests/leaf-hoppers.webp"
+    "thumbnail": "images/pests/leaf-hoppers.webp",
+    "family": "CICADELLIDAE"
   },
   {
     "commonName": "Leaf Miners",
@@ -10037,13 +10273,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/leaf-miners.webp"
+    "thumbnail": "images/pests/leaf-miners.webp",
+    "family": "AGROMYZIDAE"
   },
   {
     "commonName": "Leaf roller",
-    "scientificName": "",
+    "scientificName": "Platynota stultana",
     "pestType": "Chewing insect",
-    "order": "",
+    "order": "LEPIDOPTERA",
     "cropsAffected": [
       "Persimmons"
     ],
@@ -10060,11 +10297,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/leaf-roller.webp"
+    "thumbnail": "images/pests/leaf-roller.webp",
+    "family": "TORTRICIDAE"
   },
   {
     "commonName": "Leafroller moths",
-    "scientificName": "",
+    "scientificName": "Isochorista pumicosa",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -10085,13 +10323,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/leafroller-moths.webp"
+    "thumbnail": "images/pests/leafroller-moths.webp",
+    "family": "TORTRICIDAE"
   },
   {
     "commonName": "Leafrollers",
-    "scientificName": "",
+    "scientificName": "Tortricidae",
     "pestType": "Insect",
-    "order": "",
+    "order": "LEPIDOPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -10139,7 +10378,8 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "family": "TORTRICIDAE"
   },
   {
     "commonName": "Lesser Queensland Fruit Fly",
@@ -10168,7 +10408,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/lesser-queensland-fruit-fly.webp"
+    "thumbnail": "images/pests/lesser-queensland-fruit-fly.webp",
+    "family": "TEPHRITIDAE"
   },
   {
     "commonName": "Lettuce Aphid",
@@ -10195,7 +10436,8 @@ window.pestsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/pests/lettuce-aphid.webp"
+    "thumbnail": "images/pests/lettuce-aphid.webp",
+    "family": "APHIDIDAE"
   },
   {
     "commonName": "Lightbrown apple moth",
@@ -10453,13 +10695,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/lightbrown-apple-moth.webp"
+    "thumbnail": "images/pests/lightbrown-apple-moth.webp",
+    "family": "TORTRICIDAE"
   },
   {
     "commonName": "Liparetrus spp.",
-    "scientificName": "",
+    "scientificName": "Liparetrus",
     "pestType": "Insect",
-    "order": "",
+    "order": "COLEOPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -10472,7 +10715,8 @@ window.pestsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/pests/liparetrus-spp.webp"
+    "thumbnail": "images/pests/liparetrus-spp.webp",
+    "family": "SCARABAEIDAE"
   },
   {
     "commonName": "Liriomyza leaf miners",
@@ -10495,13 +10739,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/liriomyza_leaf_miners.webp"
+    "thumbnail": "images/pests/liriomyza_leaf_miners.webp",
+    "family": "AGROMYZIDAE"
   },
   {
     "commonName": "Listroderes Difficilis",
-    "scientificName": "",
+    "scientificName": "Listroderes difficilis",
     "pestType": "Chewing insect",
-    "order": "",
+    "order": "COLEOPTERA",
     "cropsAffected": [
       "Canola"
     ],
@@ -10518,13 +10763,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/listroderes-difficilis.webp"
+    "thumbnail": "images/pests/listroderes-difficilis.webp",
+    "family": "CURCULIONIDAE"
   },
   {
     "commonName": "Listroderes Obliquus",
-    "scientificName": "",
+    "scientificName": "Listroderes",
     "pestType": "Chewing insect",
-    "order": "",
+    "order": "COLEOPTERA",
     "cropsAffected": [
       "Celery"
     ],
@@ -10541,11 +10787,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/listroderes-obliquus.webp"
+    "thumbnail": "images/pests/listroderes-obliquus.webp",
+    "family": "CURCULIONIDAE"
   },
   {
     "commonName": "Litchi Erinose Mite",
-    "scientificName": "",
+    "scientificName": "Aceria litchii",
     "pestType": "Mite",
     "order": "Acari",
     "cropsAffected": [
@@ -10564,13 +10811,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/litchi-erinose-mite.webp"
+    "thumbnail": "images/pests/litchi-erinose-mite.webp",
+    "family": "ERIOPHYIDAE"
   },
   {
     "commonName": "Locusts",
-    "scientificName": "",
+    "scientificName": "Chortoicetes terminifera",
     "pestType": "Insect",
-    "order": "",
+    "order": "ORTHOPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -10584,7 +10832,8 @@ window.pestsRegistry = [
       }
     ],
     "alaThumbnail": "https://images.ala.org.au/image/741083aa-e9b3-422f-a831-d86a292e87b2/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/741083aa-e9b3-422f-a831-d86a292e87b2/large"
+    "alaLargeImage": "https://images.ala.org.au/image/741083aa-e9b3-422f-a831-d86a292e87b2/large",
+    "family": "ACRIDIDAE"
   },
   {
     "commonName": "Long-tailed mealybug [Suppression only]",
@@ -10596,11 +10845,12 @@ window.pestsRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Pseudococcus%20longispinus+pest+australia",
     "linkedProducts": [],
-    "thumbnail": "images/pests/long-tailed-mealybug-suppression-only.webp"
+    "thumbnail": "images/pests/long-tailed-mealybug-suppression-only.webp",
+    "family": "PSEUDOCOCCIDAE"
   },
   {
     "commonName": "Longicorn trunk borer",
-    "scientificName": "",
+    "scientificName": "Acalolepta mixta",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -10621,11 +10871,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/longicorn-trunk-borer.webp"
+    "thumbnail": "images/pests/longicorn-trunk-borer.webp",
+    "family": "CERAMBYCIDAE"
   },
   {
     "commonName": "Longtail mealybug",
-    "scientificName": "",
+    "scientificName": "Pseudococcus longispinus",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -10656,11 +10907,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/longtail-mealybug.webp"
+    "thumbnail": "images/pests/longtail-mealybug.webp",
+    "family": "PSEUDOCOCCIDAE"
   },
   {
     "commonName": "Longtailed mealybug",
-    "scientificName": "",
+    "scientificName": "Ferrisia virgata",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -10812,13 +11064,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/longtailed-mealybug.webp"
+    "thumbnail": "images/pests/longtailed-mealybug.webp",
+    "family": "PSEUDOCOCCIDAE"
   },
   {
     "commonName": "Looper Moth",
     "scientificName": "Ciampa arietaria",
     "pestType": "Insect",
-    "order": "",
+    "order": "LEPIDOPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -10832,13 +11085,14 @@ window.pestsRegistry = [
       }
     ],
     "alaThumbnail": "https://images.ala.org.au/image/f5b450ae-9b43-414e-a117-0c0bfcfdda49/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/f5b450ae-9b43-414e-a117-0c0bfcfdda49/large"
+    "alaLargeImage": "https://images.ala.org.au/image/f5b450ae-9b43-414e-a117-0c0bfcfdda49/large",
+    "family": "GEOMETRIDAE"
   },
   {
     "commonName": "Loopers",
-    "scientificName": "",
+    "scientificName": "Geometridae",
     "pestType": "Insect",
-    "order": "",
+    "order": "LEPIDOPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -10923,13 +11177,14 @@ window.pestsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/pests/leaf-eating-loopers.webp"
+    "thumbnail": "images/pests/leaf-eating-loopers.webp",
+    "family": "GEOMETRIDAE"
   },
   {
     "commonName": "Lucerne flea",
-    "scientificName": "",
+    "scientificName": "Sminthurus viridis",
     "pestType": "Chewing insect",
-    "order": "",
+    "order": "Symphypleona",
     "cropsAffected": [
       "Cereals",
       "Lucerne",
@@ -10968,13 +11223,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/lucerne-flea.webp"
+    "thumbnail": "images/pests/lucerne-flea.webp",
+    "family": "SMINTHURIDAE"
   },
   {
     "commonName": "Lucerne Leaf Roller",
     "scientificName": "Merophyas divulsana",
     "pestType": "Chewing insect",
-    "order": "",
+    "order": "LEPIDOPTERA",
     "cropsAffected": [
       "Lucerne",
       "Leafy Vegetables"
@@ -11021,11 +11277,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/lucerne-leaf-roller.webp"
+    "thumbnail": "images/pests/lucerne-leaf-roller.webp",
+    "family": "TORTRICIDAE"
   },
   {
     "commonName": "Lychee stink bug",
-    "scientificName": "",
+    "scientificName": "Lyramorpha (Lyramorpha) rosea",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -11055,11 +11312,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/lychee-stink-bug.webp"
+    "thumbnail": "images/pests/lychee-stink-bug.webp",
+    "family": "TESSARATOMIDAE"
   },
   {
     "commonName": "Macadamia cup moth",
-    "scientificName": "",
+    "scientificName": "Doratifera spp.",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -11078,13 +11336,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/macadamia-cup-moth.webp"
+    "thumbnail": "images/pests/macadamia-cup-moth.webp",
+    "family": "LIMACODIDAE"
   },
   {
     "commonName": "Macadamia felted coccid",
-    "scientificName": "",
+    "scientificName": "Acanthococcus ironsidei",
     "pestType": "Sucking insect",
-    "order": "",
+    "order": "Hemiptera",
     "cropsAffected": [
       "Macadamia",
       "Macadamia continued"
@@ -11110,11 +11369,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/macadamia-felted-coccid.webp"
+    "thumbnail": "images/pests/macadamia-felted-coccid.webp",
+    "family": "ERIOCOCCIDAE"
   },
   {
     "commonName": "Macadamia flower caterpillar",
-    "scientificName": "",
+    "scientificName": "Gymnobathra spp.",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -11133,13 +11393,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/macadamia-flower-caterpillar.webp"
+    "thumbnail": "images/pests/macadamia-flower-caterpillar.webp",
+    "family": "OECOPHORIDAE"
   },
   {
     "commonName": "Macadamia lace bug",
     "scientificName": "Ulonemia concava or Ulonemia decoris",
     "pestType": "Sucking insect",
-    "order": "",
+    "order": "Hemiptera",
     "cropsAffected": [
       "Macadamias"
     ],
@@ -11156,11 +11417,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/macadamia-lace-bug.webp"
+    "thumbnail": "images/pests/macadamia-lace-bug.webp",
+    "family": "TINGIDAE"
   },
   {
     "commonName": "Macadamia Leafminer",
-    "scientificName": "",
+    "scientificName": "Acrocercops laciniella",
     "pestType": "Chewing insect",
     "order": "Diptera",
     "cropsAffected": [
@@ -11180,7 +11442,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/macadamia-leafminer.webp"
+    "thumbnail": "images/pests/macadamia-leafminer.webp",
+    "family": "GRACILLARIIDAE"
   },
   {
     "commonName": "Macadamia nut borer",
@@ -11271,7 +11534,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/macadamia-nut-borer.webp"
+    "thumbnail": "images/pests/macadamia-nut-borer.webp",
+    "family": "TORTRICIDAE"
   },
   {
     "commonName": "Macadamia seed weevil",
@@ -11302,13 +11566,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/macadamia-seed-weevil.webp"
+    "thumbnail": "images/pests/macadamia-seed-weevil.webp",
+    "family": "CURCULIONIDAE"
   },
   {
     "commonName": "Macadamia twig-girdler",
-    "scientificName": "",
+    "scientificName": "Neodrepta luteotactella",
     "pestType": "Chewing insect",
-    "order": "",
+    "order": "LEPIDOPTERA",
     "cropsAffected": [
       "Macadamias"
     ],
@@ -11325,13 +11590,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/macadamia-twig-girdler.webp"
+    "thumbnail": "images/pests/macadamia-twig-girdler.webp",
+    "family": "OECOPHORIDAE"
   },
   {
     "commonName": "Maggots",
-    "scientificName": "",
+    "scientificName": "Musca domestica",
     "pestType": "Insect",
-    "order": "",
+    "order": "DIPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -11345,13 +11611,14 @@ window.pestsRegistry = [
       }
     ],
     "alaThumbnail": "https://images.ala.org.au/image/fd781287-2e80-4805-a3ef-1a70e15878b0/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/fd781287-2e80-4805-a3ef-1a70e15878b0/large"
+    "alaLargeImage": "https://images.ala.org.au/image/fd781287-2e80-4805-a3ef-1a70e15878b0/large",
+    "family": "MUSCIDAE"
   },
   {
     "commonName": "Mango plant hopper",
-    "scientificName": "",
+    "scientificName": "Colgaroides acuminata",
     "pestType": "Sucking insect",
-    "order": "",
+    "order": "HEMIPTERA",
     "cropsAffected": [
       "Mango"
     ],
@@ -11384,11 +11651,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/mango-plant-hopper.webp"
+    "thumbnail": "images/pests/mango-plant-hopper.webp",
+    "family": "FLATIDAE"
   },
   {
     "commonName": "Mango scale",
-    "scientificName": "",
+    "scientificName": "Aulacaspis tubercularis",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -11423,11 +11691,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/mango-scale.webp"
+    "thumbnail": "images/pests/mango-scale.webp",
+    "family": "DIASPIDIDAE"
   },
   {
     "commonName": "Mango Seed Weevil",
-    "scientificName": "",
+    "scientificName": "Sternochetus mangiferae",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -11446,11 +11715,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/mango-seed-weevil.webp"
+    "thumbnail": "images/pests/mango-seed-weevil.webp",
+    "family": "CURCULIONIDAE"
   },
   {
     "commonName": "Mango shield scale",
-    "scientificName": "",
+    "scientificName": "Milviscutulus mangiferae",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -11478,7 +11748,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/mango-shield-scale.webp"
+    "thumbnail": "images/pests/mango-shield-scale.webp",
+    "family": "COCCIDAE"
   },
   {
     "commonName": "Mango shoot looper",
@@ -11511,11 +11782,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/mango-shoot-looper.webp"
+    "thumbnail": "images/pests/mango-shoot-looper.webp",
+    "family": "GEOMETRIDAE"
   },
   {
     "commonName": "Mango tip borer",
-    "scientificName": "",
+    "scientificName": "Penicillaria jocosatrix",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -11536,13 +11808,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/mango-tip-borer.webp"
+    "thumbnail": "images/pests/mango-tip-borer.webp",
+    "family": "NOCTUIDAE"
   },
   {
     "commonName": "Mastotermes darwiniensis",
-    "scientificName": "",
+    "scientificName": "Mastotermes darwiniensis",
     "pestType": "Termite",
-    "order": "",
+    "order": "BLATTODEA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -11560,13 +11833,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/mastotermes-darwiniensis.webp"
+    "thumbnail": "images/pests/mastotermes-darwiniensis.webp",
+    "family": "MASTOTERMITIDAE"
   },
   {
     "commonName": "Meat ant",
-    "scientificName": "",
+    "scientificName": "Iridomyrmex lividus",
     "pestType": "Insect/Mite",
-    "order": "",
+    "order": "HYMENOPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -11585,13 +11859,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/meat-ant.webp"
+    "thumbnail": "images/pests/meat-ant.webp",
+    "family": "FORMICIDAE"
   },
   {
     "commonName": "Meat Ants",
     "scientificName": "Iridomyrmex spp.",
     "pestType": "Soil pest",
-    "order": "",
+    "order": "HYMENOPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -11614,11 +11889,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/meat-ants.webp"
+    "thumbnail": "images/pests/meat-ants.webp",
+    "family": "FORMICIDAE"
   },
   {
     "commonName": "Mediterranean fruit fly",
-    "scientificName": "",
+    "scientificName": "Ceratitis capitata",
     "pestType": "Fly",
     "order": "Diptera",
     "cropsAffected": [],
@@ -11660,7 +11936,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/mediterranean-fruit-fly.webp"
+    "thumbnail": "images/pests/mediterranean-fruit-fly.webp",
+    "family": "TEPHRITIDAE"
   },
   {
     "commonName": "Melon aphid",
@@ -11739,7 +12016,8 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/melon-aphid.webp"
+    "thumbnail": "images/pests/melon-aphid.webp",
+    "family": "APHIDIDAE"
   },
   {
     "commonName": "Melon thrips",
@@ -11789,11 +12067,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/melon-thrips.webp"
+    "thumbnail": "images/pests/melon-thrips.webp",
+    "family": "THRIPIDAE"
   },
   {
     "commonName": "Migratory locust",
-    "scientificName": "",
+    "scientificName": "Locusta migratoria",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -11813,13 +12092,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/migratory-locust.webp"
+    "thumbnail": "images/pests/migratory-locust.webp",
+    "family": "ACRIDIDAE"
   },
   {
     "commonName": "Mirids",
-    "scientificName": "",
+    "scientificName": "Miridae",
     "pestType": "Insect",
-    "order": "",
+    "order": "HEMIPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -11862,11 +12142,12 @@ window.pestsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/pests/mirids.webp"
+    "thumbnail": "images/pests/mirids.webp",
+    "family": "MIRIDAE"
   },
   {
     "commonName": "Mole Cricket",
-    "scientificName": "",
+    "scientificName": "Gryllotalpa monanka",
     "pestType": "Soil pest",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -11893,11 +12174,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/mole-cricket.webp"
+    "thumbnail": "images/pests/mole-cricket.webp",
+    "family": "GRYLLOTALPIDAE"
   },
   {
     "commonName": "Monolepta beetle",
-    "scientificName": "",
+    "scientificName": "Monolepta",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -11954,13 +12236,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/monolepta-beetle.webp"
+    "thumbnail": "images/pests/monolepta-beetle.webp",
+    "family": "CHRYSOMELIDAE"
   },
   {
     "commonName": "Mosquitoes",
-    "scientificName": "",
+    "scientificName": "Aedes spp.",
     "pestType": "Insect/Mite",
-    "order": "",
+    "order": "DIPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -11977,11 +12260,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/mosquitoes.webp"
+    "thumbnail": "images/pests/mosquitoes.webp",
+    "family": "CULICIDAE"
   },
   {
     "commonName": "Mushroom Pygmy Mites",
-    "scientificName": "",
+    "scientificName": "Pygmephorus spp.",
     "pestType": "Mite",
     "order": "Acari",
     "cropsAffected": [
@@ -12000,11 +12284,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/mushroom-pygmy-mites.webp"
+    "thumbnail": "images/pests/mushroom-pygmy-mites.webp",
+    "family": "PYGMEPHORIDAE"
   },
   {
     "commonName": "Mussel Scale",
-    "scientificName": "",
+    "scientificName": "Lepidosaphes ulmi",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -12031,7 +12316,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/mussel-scale.webp"
+    "thumbnail": "images/pests/mussel-scale.webp",
+    "family": "DIASPIDIDAE"
   },
   {
     "commonName": "Native budworm",
@@ -12357,13 +12643,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/native-budworm.webp"
+    "thumbnail": "images/pests/native-budworm.webp",
+    "family": "NOCTUIDAE"
   },
   {
     "commonName": "Nesting Ants",
-    "scientificName": "",
+    "scientificName": "Iridomyrmex spp.",
     "pestType": "Soil pest",
-    "order": "",
+    "order": "HYMENOPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -12378,13 +12665,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/nesting-ants.webp"
+    "thumbnail": "images/pests/nesting-ants.webp",
+    "family": "FORMICIDAE"
   },
   {
     "commonName": "Nezara Viridula",
-    "scientificName": "",
+    "scientificName": "Nezara viridula",
     "pestType": "Sucking insect",
-    "order": "",
+    "order": "HEMIPTERA",
     "cropsAffected": [
       "Mung Beans & Navy Beans"
     ],
@@ -12401,7 +12689,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/nezara-viridula.webp"
+    "thumbnail": "images/pests/nezara-viridula.webp",
+    "family": "PENTATOMIDAE"
   },
   {
     "commonName": "Northern plague thrips",
@@ -12424,11 +12713,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/northern-plague-thrips.webp"
+    "thumbnail": "images/pests/northern-plague-thrips.webp",
+    "family": "THRIPIDAE"
   },
   {
     "commonName": "Northern Rough Bollworm",
-    "scientificName": "",
+    "scientificName": "Helicoverpa armigera",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -12455,7 +12745,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/northern-rough-bollworm.webp"
+    "thumbnail": "images/pests/northern-rough-bollworm.webp",
+    "family": "NOCTUIDAE"
   },
   {
     "commonName": "Northern rough bollworm Rough bollworm",
@@ -12478,13 +12769,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/northern-rough-bollworm-rough-bollworm.webp"
+    "thumbnail": "images/pests/northern-rough-bollworm-rough-bollworm.webp",
+    "family": "NOLIDAE"
   },
   {
     "commonName": "Nuisance Ants",
-    "scientificName": "",
+    "scientificName": "Formicidae",
     "pestType": "Soil pest",
-    "order": "",
+    "order": "HYMENOPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -12499,7 +12791,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/nuisance-ants.webp"
+    "thumbnail": "images/pests/nuisance-ants.webp",
+    "family": "FORMICIDAE"
   },
   {
     "commonName": "Oat aphid",
@@ -12547,13 +12840,14 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/oat-aphid.webp"
+    "thumbnail": "images/pests/oat-aphid.webp",
+    "family": "APHIDIDAE"
   },
   {
     "commonName": "Odorous House Ant",
-    "scientificName": "",
+    "scientificName": "Tapinoma sessile",
     "pestType": "Insect",
-    "order": "",
+    "order": "HYMENOPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -12565,11 +12859,12 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "family": "FORMICIDAE"
   },
   {
     "commonName": "Oleander scale",
-    "scientificName": "",
+    "scientificName": "Aspidiotus nerii",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [],
@@ -12586,13 +12881,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/oleander-scale.webp"
+    "thumbnail": "images/pests/oleander-scale.webp",
+    "family": "DIASPIDIDAE"
   },
   {
     "commonName": "Olive lace bug",
-    "scientificName": "",
+    "scientificName": "Froggattia olivinia",
     "pestType": "Sucking insect",
-    "order": "",
+    "order": "HEMIPTERA",
     "cropsAffected": [
       "Olives"
     ],
@@ -12609,13 +12905,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/olive-lace-bug.webp"
+    "thumbnail": "images/pests/olive-lace-bug.webp",
+    "family": "TINGIDAE"
   },
   {
     "commonName": "Onion Aphid",
-    "scientificName": "",
+    "scientificName": "Neotoxoptera formosana",
     "pestType": "Insect",
-    "order": "",
+    "order": "HEMIPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -12629,7 +12926,8 @@ window.pestsRegistry = [
       }
     ],
     "alaThumbnail": "https://images.ala.org.au/image/457f0f53-d60c-407d-a5b4-9c679c29dc42/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/457f0f53-d60c-407d-a5b4-9c679c29dc42/large"
+    "alaLargeImage": "https://images.ala.org.au/image/457f0f53-d60c-407d-a5b4-9c679c29dc42/large",
+    "family": "APHIDIDAE"
   },
   {
     "commonName": "Onion thrips",
@@ -12708,7 +13006,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/onion-thrips.webp"
+    "thumbnail": "images/pests/onion-thrips.webp",
+    "family": "THRIPIDAE"
   },
   {
     "commonName": "Onion thrips [Suppression only]",
@@ -12728,11 +13027,12 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/onion-thrips-suppression-only.webp"
+    "thumbnail": "images/pests/onion-thrips-suppression-only.webp",
+    "family": "THRIPIDAE"
   },
   {
     "commonName": "Orange fruit borer",
-    "scientificName": "",
+    "scientificName": "Isotenes miserana",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -12764,13 +13064,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/orange-fruit-borer.webp"
+    "thumbnail": "images/pests/orange-fruit-borer.webp",
+    "family": "TORTRICIDAE"
   },
   {
     "commonName": "Oriental Cockroach",
-    "scientificName": "",
+    "scientificName": "Blatta orientalis",
     "pestType": "General pest",
-    "order": "",
+    "order": "BLATTODEA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -12793,11 +13094,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/oriental-cockroach.webp"
+    "thumbnail": "images/pests/oriental-cockroach.webp",
+    "family": "BLATTIDAE"
   },
   {
     "commonName": "Oriental fruit moth",
-    "scientificName": "",
+    "scientificName": "Grapholita molesta",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -12878,11 +13180,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/oriental-fruit-moth.webp"
+    "thumbnail": "images/pests/oriental-fruit-moth.webp",
+    "family": "TORTRICIDAE"
   },
   {
     "commonName": "Oriental Spider Mite",
-    "scientificName": "",
+    "scientificName": "Eutetranychus orientalis",
     "pestType": "Mite",
     "order": "Acari",
     "cropsAffected": [
@@ -12902,13 +13205,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/oriental-spider-mite.webp"
+    "thumbnail": "images/pests/oriental-spider-mite.webp",
+    "family": "TETRANYCHIDAE"
   },
   {
     "commonName": "Pale Cotton Stainer",
     "scientificName": "Dysdercus sidae",
     "pestType": "Sucking insect",
-    "order": "",
+    "order": "Hemiptera",
     "cropsAffected": [
       "Cotton"
     ],
@@ -12925,11 +13229,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/pale-cotton-stainer.webp"
+    "thumbnail": "images/pests/pale-cotton-stainer.webp",
+    "family": "PYRRHOCORIDAE"
   },
   {
     "commonName": "Palm leaf beetle",
-    "scientificName": "",
+    "scientificName": "Brontispa longissima",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -12948,13 +13253,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/palm-leaf-beetle.webp"
+    "thumbnail": "images/pests/palm-leaf-beetle.webp",
+    "family": "CHRYSOMELIDAE"
   },
   {
     "commonName": "Panonychus Ulmi",
-    "scientificName": "",
+    "scientificName": "Panonychus ulmi",
     "pestType": "Mite",
-    "order": "",
+    "order": "TROMBIDIFORMES",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -12969,13 +13275,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/panonychus-ulmi.webp"
+    "thumbnail": "images/pests/panonychus-ulmi.webp",
+    "family": "TETRANYCHIDAE"
   },
   {
     "commonName": "Papernest wasps",
-    "scientificName": "",
+    "scientificName": "Ropalidia spp.",
     "pestType": "Chewing insect",
-    "order": "",
+    "order": "HYMENOPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -12998,13 +13305,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/papernest-wasps.webp"
+    "thumbnail": "images/pests/papernest-wasps.webp",
+    "family": "VESPIDAE"
   },
   {
     "commonName": "Passion Vine Bug",
-    "scientificName": "",
+    "scientificName": "Theaca irregularis",
     "pestType": "Sucking insect",
-    "order": "",
+    "order": "HEMIPTERA",
     "cropsAffected": [
       "Passionfruit"
     ],
@@ -13029,11 +13337,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/passion-vine-bug.webp"
+    "thumbnail": "images/pests/passion-vine-bug.webp",
+    "family": "COREIDAE"
   },
   {
     "commonName": "Passionvine mealybug",
-    "scientificName": "",
+    "scientificName": "Planococcus minor",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -13052,11 +13361,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/passionvine-mealybug.webp"
+    "thumbnail": "images/pests/passionvine-mealybug.webp",
+    "family": "PSEUDOCOCCIDAE"
   },
   {
     "commonName": "Passionvine Mite",
-    "scientificName": "",
+    "scientificName": "Brevipalpus spp.",
     "pestType": "Mite",
     "order": "Acari",
     "cropsAffected": [
@@ -13075,13 +13385,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/passionvine-mite.webp"
+    "thumbnail": "images/pests/passionvine-mite.webp",
+    "family": "TENUIPALPIDAE"
   },
   {
     "commonName": "Pasture cockchafer",
-    "scientificName": "",
+    "scientificName": "Adoryphorus coulonii",
     "pestType": "Soil pest",
-    "order": "",
+    "order": "COLEOPTERA",
     "cropsAffected": [
       "Pastures and Pasture Seed Crops"
     ],
@@ -13098,11 +13409,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/pasture-cockchafer.webp"
+    "thumbnail": "images/pests/pasture-cockchafer.webp",
+    "family": "SCARABAEIDAE"
   },
   {
     "commonName": "Pasture leafhopper",
-    "scientificName": "",
+    "scientificName": "Orosius orientalis",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -13121,13 +13433,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/pasture-leafhopper.webp"
+    "thumbnail": "images/pests/pasture-leafhopper.webp",
+    "family": "CICADELLIDAE"
   },
   {
     "commonName": "Pasture Webworm",
     "scientificName": "Hednota spp.",
     "pestType": "Chewing insect",
-    "order": "",
+    "order": "LEPIDOPTERA",
     "cropsAffected": [
       "Barley, Wheat",
       "Pasture",
@@ -13172,7 +13485,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/pasture-webworm.webp"
+    "thumbnail": "images/pests/pasture-webworm.webp",
+    "family": "CRAMBIDAE"
   },
   {
     "commonName": "Pea aphid",
@@ -13225,13 +13539,14 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/pea-aphid.webp"
+    "thumbnail": "images/pests/pea-aphid.webp",
+    "family": "APHIDIDAE"
   },
   {
     "commonName": "Pea Leaf Miner",
-    "scientificName": "",
+    "scientificName": "Chromatomyia horticola",
     "pestType": "Insect",
-    "order": "",
+    "order": "DIPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -13243,7 +13558,8 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "family": "AGROMYZIDAE"
   },
   {
     "commonName": "Pea Weevil",
@@ -13282,11 +13598,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/pea-weevil.webp"
+    "thumbnail": "images/pests/pea-weevil.webp",
+    "family": "CHRYSOMELIDAE"
   },
   {
     "commonName": "Pear Leaf Blister Mite",
-    "scientificName": "",
+    "scientificName": "Eriophyes insidiosus",
     "pestType": "Mite",
     "order": "Acari",
     "cropsAffected": [
@@ -13313,7 +13630,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/pear-leaf-blister-mite.webp"
+    "thumbnail": "images/pests/pear-leaf-blister-mite.webp",
+    "family": "ERIOPHYIDAE"
   },
   {
     "commonName": "Pear looper",
@@ -13342,11 +13660,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/pear-looper.webp"
+    "thumbnail": "images/pests/pear-looper.webp",
+    "family": "GEOMETRIDAE"
   },
   {
     "commonName": "Pear Rust Mite",
-    "scientificName": "",
+    "scientificName": "Epitrimerus pyri",
     "pestType": "Mite",
     "order": "Acari",
     "cropsAffected": [
@@ -13365,11 +13684,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/pear-rust-mite.webp"
+    "thumbnail": "images/pests/pear-rust-mite.webp",
+    "family": "ERIOPHYIDAE"
   },
   {
     "commonName": "Pear slug",
-    "scientificName": "",
+    "scientificName": "Caliroa cerasi",
     "pestType": "Mollusc",
     "order": "Gastropoda",
     "cropsAffected": [
@@ -13390,13 +13710,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/pear-slug.webp"
+    "thumbnail": "images/pests/pear-slug.webp",
+    "family": "TENTHREDINIDAE"
   },
   {
     "commonName": "Pedicel Ant",
-    "scientificName": "",
+    "scientificName": "Tapinoma minutum",
     "pestType": "General pest",
-    "order": "",
+    "order": "HYMENOPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -13419,13 +13740,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/pedicel-ant.webp"
+    "thumbnail": "images/pests/pedicel-ant.webp",
+    "family": "FORMICIDAE"
   },
   {
     "commonName": "Pharaoh's Ant",
-    "scientificName": "",
+    "scientificName": "Monomorium pharaonis",
     "pestType": "General pest",
-    "order": "",
+    "order": "HYMENOPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -13448,13 +13770,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/pharaoh-s-ant.webp"
+    "thumbnail": "images/pests/pharaoh-s-ant.webp",
+    "family": "FORMICIDAE"
   },
   {
     "commonName": "Pill Bugs",
     "scientificName": "Armadillidium vulgare",
     "pestType": "Soil pest",
-    "order": "",
+    "order": "ISOPODA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -13477,7 +13800,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/pill-bugs.webp"
+    "thumbnail": "images/pests/pill-bugs.webp",
+    "family": "ARMADILLIDIIDAE"
   },
   {
     "commonName": "Pineapple mealybug",
@@ -13512,7 +13836,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/pineapple-mealybug.webp"
+    "thumbnail": "images/pests/pineapple-mealybug.webp",
+    "family": "PSEUDOCOCCIDAE"
   },
   {
     "commonName": "Pink Cutworm",
@@ -13556,7 +13881,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/pink-cutworm.webp"
+    "thumbnail": "images/pests/pink-cutworm.webp",
+    "family": "NOCTUIDAE"
   },
   {
     "commonName": "Pink or Brown Cutworm",
@@ -13585,11 +13911,12 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/pink-or-brown-cutworm.webp"
+    "thumbnail": "images/pests/pink-or-brown-cutworm.webp",
+    "family": "NOCTUIDAE"
   },
   {
     "commonName": "Pink wax scale",
-    "scientificName": "",
+    "scientificName": "Ceroplastes rubens",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -13685,7 +14012,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/pink-wax-scale.webp"
+    "thumbnail": "images/pests/pink-wax-scale.webp",
+    "family": "COCCIDAE"
   },
   {
     "commonName": "Pink-spotted Bollworm",
@@ -13716,7 +14044,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/pink-spotted-bollworm.webp"
+    "thumbnail": "images/pests/pink-spotted-bollworm.webp",
+    "family": "GELECHIIDAE"
   },
   {
     "commonName": "Plague Thrips",
@@ -13804,7 +14133,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/plague-thrips.webp"
+    "thumbnail": "images/pests/plague-thrips.webp",
+    "family": "THRIPIDAE"
   },
   {
     "commonName": "Plague thrips [Suppression only]",
@@ -13831,13 +14161,14 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/plague-thrips-suppression-only.webp"
+    "thumbnail": "images/pests/plague-thrips-suppression-only.webp",
+    "family": "THRIPIDAE"
   },
   {
     "commonName": "Podsucking bug",
     "scientificName": "Riptortus serripes",
     "pestType": "Sucking insect",
-    "order": "",
+    "order": "HEMIPTERA",
     "cropsAffected": [
       "Guar"
     ],
@@ -13854,7 +14185,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/podsucking-bug.webp"
+    "thumbnail": "images/pests/podsucking-bug.webp",
+    "family": "ALYDIDAE"
   },
   {
     "commonName": "Potato aphid",
@@ -13890,7 +14222,8 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/potato-aphid.webp"
+    "thumbnail": "images/pests/potato-aphid.webp",
+    "family": "APHIDIDAE"
   },
   {
     "commonName": "Potato moth",
@@ -14055,11 +14388,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/potato-moth.webp"
+    "thumbnail": "images/pests/potato-moth.webp",
+    "family": "GELECHIIDAE"
   },
   {
     "commonName": "Potato moth Helicoverpa",
-    "scientificName": "",
+    "scientificName": "Helicoverpa",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [],
@@ -14067,7 +14401,8 @@ window.pestsRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Potato%20moth%20Helicoverpa+pest+australia",
     "linkedProducts": [],
-    "thumbnail": "images/pests/potato-moth-helicoverpa.webp"
+    "thumbnail": "images/pests/potato-moth-helicoverpa.webp",
+    "family": "NOCTUIDAE"
   },
   {
     "commonName": "Potato Psyllid",
@@ -14094,7 +14429,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/potato-psyllid.webp"
+    "thumbnail": "images/pests/potato-psyllid.webp",
+    "family": "TRIOZIDAE"
   },
   {
     "commonName": "Potato tuber moth",
@@ -14125,11 +14461,12 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/potato-tuber-moth.webp"
+    "thumbnail": "images/pests/potato-tuber-moth.webp",
+    "family": "GELECHIIDAE"
   },
   {
     "commonName": "Powderpost beetles",
-    "scientificName": "",
+    "scientificName": "Lyctus parallelocollis",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [],
@@ -14146,13 +14483,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/powderpost-beetles.webp"
+    "thumbnail": "images/pests/powderpost-beetles.webp",
+    "family": "BOSTRICHIDAE"
   },
   {
     "commonName": "Pratylenchus Zeae",
-    "scientificName": "",
+    "scientificName": "Pratylenchus zeae",
     "pestType": "Soil pest",
-    "order": "",
+    "order": "PANAGROLAIMIDA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -14167,11 +14505,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/pratylenchus-zeae.webp"
+    "thumbnail": "images/pests/pratylenchus-zeae.webp",
+    "family": "PRATYLENCHIDAE"
   },
   {
     "commonName": "Pruinose scarab",
-    "scientificName": "",
+    "scientificName": "Sericesthis geminata",
     "pestType": "Soil pest",
     "order": "Coleoptera",
     "cropsAffected": [
@@ -14190,13 +14529,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/pruinose-scarab.webp"
+    "thumbnail": "images/pests/pruinose-scarab.webp",
+    "family": "SCARABAEIDAE"
   },
   {
     "commonName": "Psyllids",
-    "scientificName": "",
+    "scientificName": "STERNORRHYNCHA",
     "pestType": "Insect",
-    "order": "",
+    "order": "Hemiptera",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -14244,11 +14584,12 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "family": "PSYLLIDAE"
   },
   {
     "commonName": "Pumpkin beetle",
-    "scientificName": "",
+    "scientificName": "Aulacophora hilaris",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -14270,11 +14611,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/pumpkin-beetle.webp"
+    "thumbnail": "images/pests/pumpkin-beetle.webp",
+    "family": "CHRYSOMELIDAE"
   },
   {
     "commonName": "Pyrgo beetle",
-    "scientificName": "",
+    "scientificName": "Pyrgomorpha spp.",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -14318,11 +14660,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/pyrgo-beetle.webp"
+    "thumbnail": "images/pests/pyrgo-beetle.webp",
+    "family": "PYRGOMORPHIDAE"
   },
   {
     "commonName": "Queensland fruit fly",
-    "scientificName": "",
+    "scientificName": "Bactrocera tryoni",
     "pestType": "Fly",
     "order": "Diptera",
     "cropsAffected": [
@@ -14430,11 +14773,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/queensland-fruit-fly.webp"
+    "thumbnail": "images/pests/queensland-fruit-fly.webp",
+    "family": "TEPHRITIDAE"
   },
   {
     "commonName": "Raspberry fruit caterpillar",
-    "scientificName": "",
+    "scientificName": "Epiphyas postvittana",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -14453,7 +14797,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/raspberry-fruit-caterpillar.webp"
+    "thumbnail": "images/pests/raspberry-fruit-caterpillar.webp",
+    "family": "TORTRICIDAE"
   },
   {
     "commonName": "Red berry mite",
@@ -14475,13 +14820,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/red-berry-mite.webp"
+    "thumbnail": "images/pests/red-berry-mite.webp",
+    "family": "ERIOPHYIDAE"
   },
   {
     "commonName": "Red Imported Fire Ant",
     "scientificName": "Solenopsis invicta",
     "pestType": "Soil pest",
-    "order": "",
+    "order": "HYMENOPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -14504,11 +14850,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/red-imported-fire-ant.webp"
+    "thumbnail": "images/pests/red-imported-fire-ant.webp",
+    "family": "FORMICIDAE"
   },
   {
     "commonName": "Red Pepper Mites",
-    "scientificName": "",
+    "scientificName": "Polyphagotarsonemus latus",
     "pestType": "Mite",
     "order": "Acari",
     "cropsAffected": [
@@ -14527,11 +14874,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/red-pepper-mites.webp"
+    "thumbnail": "images/pests/red-pepper-mites.webp",
+    "family": "TARSONEMIDAE"
   },
   {
     "commonName": "Red scale",
-    "scientificName": "",
+    "scientificName": "Aonidiella aurantii",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -14615,11 +14963,12 @@ window.pestsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/pests/red-scale.webp"
+    "thumbnail": "images/pests/red-scale.webp",
+    "family": "DIASPIDIDAE"
   },
   {
     "commonName": "Red Spider Mite",
-    "scientificName": "",
+    "scientificName": "Tetranychus urticae",
     "pestType": "Mite",
     "order": "Acari",
     "cropsAffected": [
@@ -14638,11 +14987,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/red-spider-mite.webp"
+    "thumbnail": "images/pests/red-spider-mite.webp",
+    "family": "TETRANYCHIDAE"
   },
   {
     "commonName": "Red tomato spider mite",
-    "scientificName": "",
+    "scientificName": "Tetranychus evansi",
     "pestType": "Mite",
     "order": "Acari",
     "cropsAffected": [
@@ -14662,11 +15012,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/red-tomato-spider-mite.webp"
+    "thumbnail": "images/pests/red-tomato-spider-mite.webp",
+    "family": "TETRANYCHIDAE"
   },
   {
     "commonName": "Red-banded thrip",
-    "scientificName": "",
+    "scientificName": "Selenothrips rubrocinctus",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [],
@@ -14691,13 +15042,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/red-banded-thrip.webp"
+    "thumbnail": "images/pests/red-banded-thrip.webp",
+    "family": "THRIPIDAE"
   },
   {
     "commonName": "Red-Banded Thrips",
-    "scientificName": "",
+    "scientificName": "Thrips",
     "pestType": "Insect",
-    "order": "",
+    "order": "THYSANOPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -14718,11 +15070,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/redbanded-thrips.webp"
+    "thumbnail": "images/pests/redbanded-thrips.webp",
+    "family": "THRIPIDAE"
   },
   {
     "commonName": "Red-shouldered leaf beetle",
-    "scientificName": "",
+    "scientificName": "Monolepta australis",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -14777,13 +15130,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/red-shouldered-leaf-beetle.webp"
+    "thumbnail": "images/pests/red-shouldered-leaf-beetle.webp",
+    "family": "CHRYSOMELIDAE"
   },
   {
     "commonName": "Redback Spider",
-    "scientificName": "",
+    "scientificName": "Latrodectus hasseltii",
     "pestType": "General pest",
-    "order": "",
+    "order": "ARANEAE",
     "cropsAffected": [
       "Spiders"
     ],
@@ -14808,7 +15162,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/redback-spider.webp"
+    "thumbnail": "images/pests/redback-spider.webp",
+    "family": "THERIDIIDAE"
   },
   {
     "commonName": "Redlegged Earth Mite",
@@ -14890,11 +15245,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/redlegged-earth-mite.webp"
+    "thumbnail": "images/pests/redlegged-earth-mite.webp",
+    "family": "PENTHALEIDAE"
   },
   {
     "commonName": "Rhyparida beetle",
-    "scientificName": "",
+    "scientificName": "Rhyparida",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -14913,13 +15269,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/rhyparida-beetle.webp"
+    "thumbnail": "images/pests/rhyparida-beetle.webp",
+    "family": "CHRYSOMELIDAE"
   },
   {
     "commonName": "Rice Bloodworm",
-    "scientificName": "",
+    "scientificName": "Chironomus (Chironomus) tepperi",
     "pestType": "Chewing insect",
-    "order": "",
+    "order": "DIPTERA",
     "cropsAffected": [
       "Rice"
     ],
@@ -14936,13 +15293,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/rice-bloodworm.webp"
+    "thumbnail": "images/pests/rice-bloodworm.webp",
+    "family": "CHIRONOMIDAE"
   },
   {
     "commonName": "Root Knot Nematode",
     "scientificName": "Meloidogyne spp.",
     "pestType": "Soil pest",
-    "order": "",
+    "order": "PANAGROLAIMIDA",
     "cropsAffected": [
       "Cucurbits",
       "Fruiting vegetables",
@@ -15012,13 +15370,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/root-knot-nematode.webp"
+    "thumbnail": "images/pests/root-knot-nematode.webp",
+    "family": "MELOIDOGYNIDAE"
   },
   {
     "commonName": "Root Lesion Nematode",
-    "scientificName": "",
+    "scientificName": "Pratylenchus crenatus",
     "pestType": "Soil pest",
-    "order": "",
+    "order": "PANAGROLAIMIDA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -15033,7 +15392,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/root-lesion-nematode.webp"
+    "thumbnail": "images/pests/root-lesion-nematode.webp",
+    "family": "PRATYLENCHIDAE"
   },
   {
     "commonName": "Rose aphid",
@@ -15071,11 +15431,12 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/rose-aphid.webp"
+    "thumbnail": "images/pests/rose-aphid.webp",
+    "family": "APHIDIDAE"
   },
   {
     "commonName": "Rose-grain Aphid",
-    "scientificName": "",
+    "scientificName": "Metopolophium dirhodum",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -15105,11 +15466,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/rose-grain-aphid.webp"
+    "thumbnail": "images/pests/rose-grain-aphid.webp",
+    "family": "APHIDIDAE"
   },
   {
     "commonName": "Rough bollworm",
-    "scientificName": "",
+    "scientificName": "Earias huegeliana",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -15144,7 +15506,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/rough-bollworm.webp"
+    "thumbnail": "images/pests/rough-bollworm.webp",
+    "family": "NOLIDAE"
   },
   {
     "commonName": "Russian Wheat Aphid",
@@ -15211,13 +15574,14 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/russian-wheat-aphid.webp"
+    "thumbnail": "images/pests/russian-wheat-aphid.webp",
+    "family": "APHIDIDAE"
   },
   {
     "commonName": "Rutherglen bug",
     "scientificName": "Nysius vinitor",
     "pestType": "Sucking insect",
-    "order": "",
+    "order": "Hemiptera",
     "cropsAffected": [
       "Beetroot",
       "Cane berries (including but not limited to blackberries and raspberries)",
@@ -15345,11 +15709,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/rutherglen-bug.webp"
+    "thumbnail": "images/pests/rutherglen-bug.webp",
+    "family": "LYGAEIDAE"
   },
   {
     "commonName": "San Jose Scale",
-    "scientificName": "",
+    "scientificName": "Diaspidiotus perniciosus",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -15418,13 +15783,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/san-jose-scale.webp"
+    "thumbnail": "images/pests/san-jose-scale.webp",
+    "family": "DIASPIDIDAE"
   },
   {
     "commonName": "Scab Moth",
-    "scientificName": "",
+    "scientificName": "Theclinesthes serpentata",
     "pestType": "Insect",
-    "order": "",
+    "order": "LEPIDOPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -15437,11 +15803,12 @@ window.pestsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/pests/banana-scab-moth.webp"
+    "thumbnail": "images/pests/banana-scab-moth.webp",
+    "family": "LYCAENIDAE"
   },
   {
     "commonName": "Scale insects",
-    "scientificName": "",
+    "scientificName": "Coccoidea",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -15532,9 +15899,9 @@ window.pestsRegistry = [
   },
   {
     "commonName": "Schedorhinotermes spp",
-    "scientificName": "",
+    "scientificName": "Schedorhinotermes",
     "pestType": "Termite",
-    "order": "",
+    "order": "BLATTODEA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -15552,13 +15919,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/schedorhinotermes-spp.webp"
+    "thumbnail": "images/pests/schedorhinotermes-spp.webp",
+    "family": "RHINOTERMITIDAE"
   },
   {
     "commonName": "Schedorhinotermes Termite",
     "scientificName": "Schedorhinotermes spp.",
     "pestType": "Insect",
-    "order": "",
+    "order": "BLATTODEA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -15571,7 +15939,8 @@ window.pestsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/pests/schedorhinotermes-spp.webp"
+    "thumbnail": "images/pests/schedorhinotermes-spp.webp",
+    "family": "RHINOTERMITIDAE"
   },
   {
     "commonName": "Scirtothrips [Suppression only]",
@@ -15583,13 +15952,14 @@ window.pestsRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Scirtothrips%20dorsalis+pest+australia",
     "linkedProducts": [],
-    "thumbnail": "images/pests/scirtothrips-suppression-only.webp"
+    "thumbnail": "images/pests/scirtothrips-suppression-only.webp",
+    "family": "THRIPIDAE"
   },
   {
     "commonName": "Seed harvesting ants",
-    "scientificName": "",
+    "scientificName": "Pheidole spp.",
     "pestType": "Soil pest",
-    "order": "",
+    "order": "HYMENOPTERA",
     "cropsAffected": [
       "Pasture seed (phalaris, lucerne, etc)",
       "Tobacco"
@@ -15615,13 +15985,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/seed-harvesting-ants.webp"
+    "thumbnail": "images/pests/seed-harvesting-ants.webp",
+    "family": "FORMICIDAE"
   },
   {
     "commonName": "Serpentine Leafminer",
     "scientificName": "Liriomyza brassicae",
     "pestType": "Insect",
-    "order": "",
+    "order": "DIPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -15635,7 +16006,8 @@ window.pestsRegistry = [
       }
     ],
     "alaThumbnail": "https://images.ala.org.au/image/3b3f8121-3fbe-462a-9e25-652f9c2855bb/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/3b3f8121-3fbe-462a-9e25-652f9c2855bb/large"
+    "alaLargeImage": "https://images.ala.org.au/image/3b3f8121-3fbe-462a-9e25-652f9c2855bb/large",
+    "family": "AGROMYZIDAE"
   },
   {
     "commonName": "Seychelles Scale",
@@ -15656,13 +16028,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/seychelles-scale.webp"
+    "thumbnail": "images/pests/seychelles-scale.webp",
+    "family": "MONOPHLEBIDAE"
   },
   {
     "commonName": "Silverfish",
-    "scientificName": "",
+    "scientificName": "Lepisma saccharina",
     "pestType": "Insect",
-    "order": "",
+    "order": "Zygentoma",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -15682,7 +16055,8 @@ window.pestsRegistry = [
       }
     ],
     "alaThumbnail": "https://images.ala.org.au/image/64151108-1b51-4f2f-b940-5ca91bf1f18a/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/64151108-1b51-4f2f-b940-5ca91bf1f18a/large"
+    "alaLargeImage": "https://images.ala.org.au/image/64151108-1b51-4f2f-b940-5ca91bf1f18a/large",
+    "family": "LEPISMATIDAE"
   },
   {
     "commonName": "Silverleaf whitefly",
@@ -15886,7 +16260,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/silverleaf-whitefly.webp"
+    "thumbnail": "images/pests/silverleaf-whitefly.webp",
+    "family": "ALEYRODIDAE"
   },
   {
     "commonName": "Silverleaf whitefly [Suppression only]",
@@ -15898,11 +16273,12 @@ window.pestsRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Bemisia%20tabaci%20Biotype%20B+pest+australia",
     "linkedProducts": [],
-    "thumbnail": "images/pests/silverleaf-whitefly-suppression-only.webp"
+    "thumbnail": "images/pests/silverleaf-whitefly-suppression-only.webp",
+    "family": "ALEYRODIDAE"
   },
   {
     "commonName": "Sitona weevil",
-    "scientificName": "",
+    "scientificName": "Sitona discoideus",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -15923,11 +16299,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/sitona-weevil.webp"
+    "thumbnail": "images/pests/sitona-weevil.webp",
+    "family": "CURCULIONIDAE"
   },
   {
     "commonName": "Six Spotted Mite",
-    "scientificName": "",
+    "scientificName": "Eotetranychus sexmaculatus",
     "pestType": "Mite",
     "order": "Acari",
     "cropsAffected": [
@@ -15971,7 +16348,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/six-spotted-mite.webp"
+    "thumbnail": "images/pests/six-spotted-mite.webp",
+    "family": "TETRANYCHIDAE"
   },
   {
     "commonName": "Small citrus butterfly",
@@ -15994,11 +16372,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/small-citrus-butterfly.webp"
+    "thumbnail": "images/pests/small-citrus-butterfly.webp",
+    "family": "PAPILIONIDAE"
   },
   {
     "commonName": "Small mango tip borer",
-    "scientificName": "",
+    "scientificName": "Chlumetia transversa",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -16026,13 +16405,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/small-mango-tip-borer.webp"
+    "thumbnail": "images/pests/small-mango-tip-borer.webp",
+    "family": "NOCTUIDAE"
   },
   {
     "commonName": "Smokybrown ; Web-spinning Spiders",
-    "scientificName": "",
+    "scientificName": "Periplaneta fuliginosa",
     "pestType": "General pest",
-    "order": "",
+    "order": "BLATTODEA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -16047,13 +16427,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/smokybrown-web-spinning-spiders.webp"
+    "thumbnail": "images/pests/smokybrown-web-spinning-spiders.webp",
+    "family": "BLATTIDAE"
   },
   {
     "commonName": "Smokybrown Cockroach",
-    "scientificName": "",
+    "scientificName": "Periplaneta fuliginosa",
     "pestType": "General pest",
-    "order": "",
+    "order": "Blattodea",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -16076,13 +16457,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/smokybrown-cockroach.webp"
+    "thumbnail": "images/pests/smokybrown-cockroach.webp",
+    "family": "BLATTIDAE"
   },
   {
     "commonName": "Sod Webworm",
-    "scientificName": "",
+    "scientificName": "Herpetogramma licarsisalis",
     "pestType": "Chewing insect",
-    "order": "",
+    "order": "LEPIDOPTERA",
     "cropsAffected": [
       "Pastures"
     ],
@@ -16119,13 +16501,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/sod-webworm.webp"
+    "thumbnail": "images/pests/sod-webworm.webp",
+    "family": "CRAMBIDAE"
   },
   {
     "commonName": "Soft Brown",
-    "scientificName": "",
+    "scientificName": "Coccus hesperidum",
     "pestType": "Sucking insect",
-    "order": "",
+    "order": "HEMIPTERA",
     "cropsAffected": [
       "Olives"
     ],
@@ -16142,11 +16525,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/soft-brown.webp"
+    "thumbnail": "images/pests/soft-brown.webp",
+    "family": "COCCIDAE"
   },
   {
     "commonName": "Soft brown scale",
-    "scientificName": "",
+    "scientificName": "Coccus hesperidum",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -16191,11 +16575,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/soft-brown-scale.webp"
+    "thumbnail": "images/pests/soft-brown-scale.webp",
+    "family": "COCCIDAE"
   },
   {
     "commonName": "Soft Scale",
-    "scientificName": "",
+    "scientificName": "Pulvinaria urbicola",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [],
@@ -16220,13 +16605,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/soft-scale.webp"
+    "thumbnail": "images/pests/soft-scale.webp",
+    "family": "COCCIDAE"
   },
   {
     "commonName": "Soft Scales",
-    "scientificName": "",
+    "scientificName": "Coccidae",
     "pestType": "Insect",
-    "order": "",
+    "order": "HEMIPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -16239,23 +16625,25 @@ window.pestsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/pests/soft-scale.webp"
+    "thumbnail": "images/pests/soft-scale.webp",
+    "family": "COCCIDAE"
   },
   {
     "commonName": "Soil Borne Nematodes",
-    "scientificName": "",
+    "scientificName": "Pratylenchus spp.",
     "pestType": "Soil pest",
-    "order": "",
+    "order": "PANAGROLAIMIDA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Soil%20Borne%20Nematodes+pest+australia",
     "linkedProducts": [],
-    "thumbnail": "images/pests/soil-borne-nematodes.webp"
+    "thumbnail": "images/pests/soil-borne-nematodes.webp",
+    "family": "PRATYLENCHIDAE"
   },
   {
     "commonName": "Solenopsis mealybug",
-    "scientificName": "Cotton mealybug",
+    "scientificName": "Phenacoccus solenopsis",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -16292,11 +16680,12 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/solenopsis-mealybug.webp"
+    "thumbnail": "images/pests/solenopsis-mealybug.webp",
+    "family": "PSEUDOCOCCIDAE"
   },
   {
     "commonName": "Sorghum head caterpillar",
-    "scientificName": "",
+    "scientificName": "Cryptoblabes adoceta",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -16331,7 +16720,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/sorghum-head-caterpillar.webp"
+    "thumbnail": "images/pests/sorghum-head-caterpillar.webp",
+    "family": "PYRALIDAE"
   },
   {
     "commonName": "Sorghum Midge",
@@ -16378,7 +16768,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/sorghum-midge.webp"
+    "thumbnail": "images/pests/sorghum-midge.webp",
+    "family": "CECIDOMYIIDAE"
   },
   {
     "commonName": "Southern Armyworm",
@@ -16425,11 +16816,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/southern-armyworm.webp"
+    "thumbnail": "images/pests/southern-armyworm.webp",
+    "family": "NOCTUIDAE"
   },
   {
     "commonName": "Soybean aphid",
-    "scientificName": "",
+    "scientificName": "Aphis (Aphis) glycines",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -16462,7 +16854,8 @@ window.pestsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/pests/soybean-aphid.webp"
+    "thumbnail": "images/pests/soybean-aphid.webp",
+    "family": "APHIDIDAE"
   },
   {
     "commonName": "Soybean looper",
@@ -16563,11 +16956,12 @@ window.pestsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/pests/soybean-looper.webp"
+    "thumbnail": "images/pests/soybean-looper.webp",
+    "family": "NOCTUIDAE"
   },
   {
     "commonName": "Spider Mites",
-    "scientificName": "",
+    "scientificName": "Tetranychus spp.",
     "pestType": "Mite",
     "order": "Acari",
     "cropsAffected": [],
@@ -16584,13 +16978,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/spider-mites.webp"
+    "thumbnail": "images/pests/spider-mites.webp",
+    "family": "TETRANYCHIDAE"
   },
   {
     "commonName": "Spined citrus bug",
-    "scientificName": "",
+    "scientificName": "Biprorulus bibax",
     "pestType": "Sucking insect",
-    "order": "",
+    "order": "Hemiptera",
     "cropsAffected": [
       "Citrus",
       "Citrus (oranges and lemons only)"
@@ -16616,11 +17011,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/spined-citrus-bug.webp"
+    "thumbnail": "images/pests/spined-citrus-bug.webp",
+    "family": "PENTATOMIDAE"
   },
   {
     "commonName": "Spotted Alfalfa Aphid",
-    "scientificName": "",
+    "scientificName": "Therioaphis (Therioaphis) trifolii",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -16644,11 +17040,12 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/spotted-alfalfa-aphid.webp"
+    "thumbnail": "images/pests/spotted-alfalfa-aphid.webp",
+    "family": "APHIDIDAE"
   },
   {
     "commonName": "Staphylinid Beetle",
-    "scientificName": "",
+    "scientificName": "Staphylinus",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [],
@@ -16665,13 +17062,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/staphylinid-beetle.webp"
+    "thumbnail": "images/pests/staphylinid-beetle.webp",
+    "family": "STAPHYLINIDAE"
   },
   {
     "commonName": "Stem Borer",
-    "scientificName": "",
+    "scientificName": "Chilo terrenellus",
     "pestType": "Insect",
-    "order": "",
+    "order": "Lepidoptera",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -16684,11 +17082,12 @@ window.pestsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/pests/stem-borers.webp"
+    "thumbnail": "images/pests/stem-borers.webp",
+    "family": "CRAMBIDAE"
   },
   {
     "commonName": "Stem Borers",
-    "scientificName": "",
+    "scientificName": "Cosmopolites sordidus",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -16731,13 +17130,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/stem-borers.webp"
+    "thumbnail": "images/pests/stem-borers.webp",
+    "family": "CURCULIONIDAE"
   },
   {
     "commonName": "Stinging ant",
-    "scientificName": "",
+    "scientificName": "Myrmecia spp.",
     "pestType": "Insect/Mite",
-    "order": "",
+    "order": "HYMENOPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -16756,11 +17156,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/stinging-ant.webp"
+    "thumbnail": "images/pests/stinging-ant.webp",
+    "family": "FORMICIDAE"
   },
   {
     "commonName": "Stink Bugs",
-    "scientificName": "",
+    "scientificName": "Pentatomidae",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [],
@@ -16793,7 +17194,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/stink-bugs.webp"
+    "thumbnail": "images/pests/stink-bugs.webp",
+    "family": "PENTATOMIDAE"
   },
   {
     "commonName": "Strawberry aphid",
@@ -16814,11 +17216,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/strawberry-aphid.webp"
+    "thumbnail": "images/pests/strawberry-aphid.webp",
+    "family": "APHIDIDAE"
   },
   {
     "commonName": "Strawberry Mite",
-    "scientificName": "",
+    "scientificName": "Phytonemus pallidus",
     "pestType": "Mite",
     "order": "Acari",
     "cropsAffected": [
@@ -16837,11 +17240,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/strawberry-mite.webp"
+    "thumbnail": "images/pests/strawberry-mite.webp",
+    "family": "TARSONEMIDAE"
   },
   {
     "commonName": "Strawberry Spider Mite",
-    "scientificName": "",
+    "scientificName": "Tetranychus lambi",
     "pestType": "Mite",
     "order": "Acari",
     "cropsAffected": [],
@@ -16866,13 +17270,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/strawberry-spider-mite.webp"
+    "thumbnail": "images/pests/strawberry-spider-mite.webp",
+    "family": "TETRANYCHIDAE"
   },
   {
     "commonName": "Stubby root nematode",
-    "scientificName": "",
+    "scientificName": "Paratrichodorus spp.",
     "pestType": "Soil pest",
-    "order": "",
+    "order": "TRIPLONCHIDA",
     "cropsAffected": [
       "Tobacco"
     ],
@@ -16889,13 +17294,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/stubby-root-nematode.webp"
+    "thumbnail": "images/pests/stubby-root-nematode.webp",
+    "family": "TRICHODORIDAE"
   },
   {
     "commonName": "Subterranean Termite",
     "scientificName": "Coptotermes acinaciformis",
     "pestType": "Insect",
-    "order": "",
+    "order": "BLATTODEA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -16908,11 +17314,12 @@ window.pestsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/pests/subterranean-termites.webp"
+    "thumbnail": "images/pests/subterranean-termites.webp",
+    "family": "RHINOTERMITIDAE"
   },
   {
     "commonName": "Subterranean Termites",
-    "scientificName": "",
+    "scientificName": "Coptotermes acinaciformis",
     "pestType": "Termite",
     "order": "Acari",
     "cropsAffected": [],
@@ -16966,13 +17373,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/subterranean-termites.webp"
+    "thumbnail": "images/pests/subterranean-termites.webp",
+    "family": "RHINOTERMITIDAE"
   },
   {
     "commonName": "Sugar ant",
-    "scientificName": "",
+    "scientificName": "Camponotus tricoloratus",
     "pestType": "Insect/Mite",
-    "order": "",
+    "order": "HYMENOPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -16991,11 +17399,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/sugar-ant.webp"
+    "thumbnail": "images/pests/sugar-ant.webp",
+    "family": "FORMICIDAE"
   },
   {
     "commonName": "Sugarcane bud moth",
-    "scientificName": "",
+    "scientificName": "Opogona glycyphaga",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -17030,11 +17439,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/sugarcane-bud-moth.webp"
+    "thumbnail": "images/pests/sugarcane-bud-moth.webp",
+    "family": "TINEIDAE"
   },
   {
     "commonName": "Sugarcane Weevil Borer",
-    "scientificName": "",
+    "scientificName": "Rhabdoscelus obscurus",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -17061,11 +17471,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/sugarcane-weevil-borer.webp"
+    "thumbnail": "images/pests/sugarcane-weevil-borer.webp",
+    "family": "CURCULIONIDAE"
   },
   {
     "commonName": "Sugarcane Wireworm",
-    "scientificName": "",
+    "scientificName": "Agrypnus variabilis",
     "pestType": "Soil pest",
     "order": "Coleoptera",
     "cropsAffected": [
@@ -17101,7 +17512,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/sugarcane-wireworm.webp"
+    "thumbnail": "images/pests/sugarcane-wireworm.webp",
+    "family": "ELATERIDAE"
   },
   {
     "commonName": "Suppression of: Western flower thrips",
@@ -17136,13 +17548,14 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/suppression-of-western-flower-thrips.webp"
+    "thumbnail": "images/pests/suppression-of-western-flower-thrips.webp",
+    "family": "THRIPIDAE"
   },
   {
     "commonName": "Suppression only: Fruit-spotting Bug",
-    "scientificName": "",
+    "scientificName": "Amblypelta lutescens",
     "pestType": "Sucking insect",
-    "order": "",
+    "order": "HEMIPTERA",
     "cropsAffected": [
       "Lychee",
       "Mango"
@@ -17161,11 +17574,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/suppression-only-fruit-spotting-bug.webp"
+    "thumbnail": "images/pests/suppression-only-fruit-spotting-bug.webp",
+    "family": "COREIDAE"
   },
   {
     "commonName": "Swarming leaf beetle",
-    "scientificName": "",
+    "scientificName": "Rhyparida spp.",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -17202,11 +17616,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/swarming-leaf-beetle.webp"
+    "thumbnail": "images/pests/swarming-leaf-beetle.webp",
+    "family": "CHRYSOMELIDAE"
   },
   {
     "commonName": "Sweet potato weevil",
-    "scientificName": "",
+    "scientificName": "Cylas formicarius",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -17225,13 +17640,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/sweet-potato-weevil.webp"
+    "thumbnail": "images/pests/sweet-potato-weevil.webp",
+    "family": "BRENTIDAE"
   },
   {
     "commonName": "Tapinoma spp.",
-    "scientificName": "",
+    "scientificName": "Tapinoma",
     "pestType": "Insect",
-    "order": "",
+    "order": "HYMENOPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -17244,7 +17660,8 @@ window.pestsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/pests/tapinoma-spp.webp"
+    "thumbnail": "images/pests/tapinoma-spp.webp",
+    "family": "FORMICIDAE"
   },
   {
     "commonName": "Tasmanian Eucalyptus Leaf Beetle",
@@ -17267,11 +17684,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/tasmanian-eucalyptus-leaf-beetle.webp"
+    "thumbnail": "images/pests/tasmanian-eucalyptus-leaf-beetle.webp",
+    "family": "CHRYSOMELIDAE"
   },
   {
     "commonName": "Tea Red Spider Mite",
-    "scientificName": "",
+    "scientificName": "Oligonychus coffeae",
     "pestType": "Mite",
     "order": "Acari",
     "cropsAffected": [
@@ -17326,13 +17744,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/tea-red-spider-mite.webp"
+    "thumbnail": "images/pests/tea-red-spider-mite.webp",
+    "family": "TETRANYCHIDAE"
   },
   {
     "commonName": "Tetranychus Evansi",
-    "scientificName": "",
+    "scientificName": "Tetranychus evansi",
     "pestType": "Mite",
-    "order": "",
+    "order": "TROMBIDIFORMES",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -17348,13 +17767,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/tetranychus-evansi.webp"
+    "thumbnail": "images/pests/tetranychus-evansi.webp",
+    "family": "TETRANYCHIDAE"
   },
   {
     "commonName": "Thysanoplusia Orichalcea",
-    "scientificName": "",
+    "scientificName": "Thysanoplusia orichalcea",
     "pestType": "Chewing insect",
-    "order": "",
+    "order": "LEPIDOPTERA",
     "cropsAffected": [
       "Brassica Vegetables"
     ],
@@ -17371,13 +17791,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/thysanoplusia-orichalcea.webp"
+    "thumbnail": "images/pests/thysanoplusia-orichalcea.webp",
+    "family": "NOCTUIDAE"
   },
   {
     "commonName": "Ticks",
-    "scientificName": "",
+    "scientificName": "Rhipicephalus spp.",
     "pestType": "Insect/Mite",
-    "order": "",
+    "order": "IXODIDA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -17394,7 +17815,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/ticks.webp"
+    "thumbnail": "images/pests/ticks.webp",
+    "family": "IXODIDAE"
   },
   {
     "commonName": "Tobacco Budworm",
@@ -17450,7 +17872,8 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/tobacco-budworm.webp"
+    "thumbnail": "images/pests/tobacco-budworm.webp",
+    "family": "NOCTUIDAE"
   },
   {
     "commonName": "Tobacco budworm - Ovicide",
@@ -17493,11 +17916,12 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/tobacco-budworm-ovicide.webp"
+    "thumbnail": "images/pests/tobacco-budworm-ovicide.webp",
+    "family": "NOCTUIDAE"
   },
   {
     "commonName": "Tobacco leaf miner",
-    "scientificName": "",
+    "scientificName": "Liriomyza trifolii",
     "pestType": "Chewing insect",
     "order": "Diptera",
     "cropsAffected": [
@@ -17544,7 +17968,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/tobacco-leaf-miner.webp"
+    "thumbnail": "images/pests/tobacco-leaf-miner.webp",
+    "family": "AGROMYZIDAE"
   },
   {
     "commonName": "Tobacco leaf miner - Larvicide",
@@ -17567,7 +17992,8 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/tobacco-leaf-miner-larvicide.webp"
+    "thumbnail": "images/pests/tobacco-leaf-miner-larvicide.webp",
+    "family": "GELECHIIDAE"
   },
   {
     "commonName": "Tobacco leaf miner/Potato moth",
@@ -17600,7 +18026,8 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/tobacco-leaf-miner-potato-moth.webp"
+    "thumbnail": "images/pests/tobacco-leaf-miner-potato-moth.webp",
+    "family": "GELECHIIDAE"
   },
   {
     "commonName": "Tobacco Looper",
@@ -17655,7 +18082,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/tobacco-looper.webp"
+    "thumbnail": "images/pests/tobacco-looper.webp",
+    "family": "NOCTUIDAE"
   },
   {
     "commonName": "Tobacco stemborer",
@@ -17678,7 +18106,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/tobacco-stemborer.webp"
+    "thumbnail": "images/pests/tobacco-stemborer.webp",
+    "family": "GELECHIIDAE"
   },
   {
     "commonName": "Tomato grub",
@@ -17809,7 +18238,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/tomato-grub.webp"
+    "thumbnail": "images/pests/tomato-grub.webp",
+    "family": "NOCTUIDAE"
   },
   {
     "commonName": "Tomato leaf miner",
@@ -17864,7 +18294,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/tomato-leaf-miner.webp"
+    "thumbnail": "images/pests/tomato-leaf-miner.webp",
+    "family": "GELECHIIDAE"
   },
   {
     "commonName": "Tomato Potato Psyllid",
@@ -17940,11 +18371,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/tomato-potato-psyllid.webp"
+    "thumbnail": "images/pests/tomato-potato-psyllid.webp",
+    "family": "TRIOZIDAE"
   },
   {
     "commonName": "Tomato Red Spider Mite",
-    "scientificName": "",
+    "scientificName": "Tetranychus evansi",
     "pestType": "Mite",
     "order": "Acari",
     "cropsAffected": [
@@ -17983,7 +18415,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/tomato-red-spider-mite.webp"
+    "thumbnail": "images/pests/tomato-red-spider-mite.webp",
+    "family": "TETRANYCHIDAE"
   },
   {
     "commonName": "Tomato russet mite",
@@ -18041,7 +18474,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/tomato-russet-mite.webp"
+    "thumbnail": "images/pests/tomato-russet-mite.webp",
+    "family": "ERIOPHYIDAE"
   },
   {
     "commonName": "Tomato thrips",
@@ -18125,13 +18559,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/tomato-thrips.webp"
+    "thumbnail": "images/pests/tomato-thrips.webp",
+    "family": "THRIPIDAE"
   },
   {
     "commonName": "Trialeurodes Vaporariorum",
-    "scientificName": "",
+    "scientificName": "Trialeurodes vaporariorum",
     "pestType": "Sucking insect",
-    "order": "",
+    "order": "HEMIPTERA",
     "cropsAffected": [
       "Cucurbits",
       "Cut Flowers (subject to tolerance test)",
@@ -18154,13 +18589,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/trialeurodes-vaporariorum.webp"
+    "thumbnail": "images/pests/trialeurodes-vaporariorum.webp",
+    "family": "ALEYRODIDAE"
   },
   {
     "commonName": "True Bugs",
-    "scientificName": "",
+    "scientificName": "Hemiptera",
     "pestType": "Sucking insect",
-    "order": "",
+    "order": "HEMIPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -18180,7 +18616,7 @@ window.pestsRegistry = [
   },
   {
     "commonName": "True Wireworms",
-    "scientificName": "",
+    "scientificName": "Elateridae",
     "pestType": "Soil pest",
     "order": "Coleoptera",
     "cropsAffected": [
@@ -18199,11 +18635,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/true-wireworms.webp"
+    "thumbnail": "images/pests/true-wireworms.webp",
+    "family": "ELATERIDAE"
   },
   {
     "commonName": "Tuber mealybug",
-    "scientificName": "",
+    "scientificName": "Pseudococcus viburni",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -18271,7 +18708,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/tuber-mealybug.webp"
+    "thumbnail": "images/pests/tuber-mealybug.webp",
+    "family": "PSEUDOCOCCIDAE"
   },
   {
     "commonName": "Turnip Aphid",
@@ -18319,13 +18757,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/turnip-aphid.webp"
+    "thumbnail": "images/pests/turnip-aphid.webp",
+    "family": "APHIDIDAE"
   },
   {
     "commonName": "Twig girdler",
-    "scientificName": "",
+    "scientificName": "Neodrepta luteotactella",
     "pestType": "Chewing insect",
-    "order": "",
+    "order": "LEPIDOPTERA",
     "cropsAffected": [
       "Macadamias"
     ],
@@ -18342,11 +18781,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/twig-girdler.webp"
+    "thumbnail": "images/pests/twig-girdler.webp",
+    "family": "OECOPHORIDAE"
   },
   {
     "commonName": "Two Spotted Spider Mite",
-    "scientificName": "",
+    "scientificName": "Tetranychus urticae",
     "pestType": "Mite",
     "order": "Acari",
     "cropsAffected": [
@@ -18365,7 +18805,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/two-spotted-spider-mite.webp"
+    "thumbnail": "images/pests/two-spotted-spider-mite.webp",
+    "family": "TETRANYCHIDAE"
   },
   {
     "commonName": "Two-spotted Mite",
@@ -18572,7 +19013,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/twospotted-mite.webp"
+    "thumbnail": "images/pests/twospotted-mite.webp",
+    "family": "TETRANYCHIDAE"
   },
   {
     "commonName": "Twospotted mite and/or European red mite",
@@ -18604,7 +19046,8 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/twospotted-mite-and-or-european-red-mite.webp"
+    "thumbnail": "images/pests/twospotted-mite-and-or-european-red-mite.webp",
+    "family": "TETRANYCHIDAE"
   },
   {
     "commonName": "Vegetable Jassid",
@@ -18627,7 +19070,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/vegetable-jassid.webp"
+    "thumbnail": "images/pests/vegetable-jassid.webp",
+    "family": "CICADELLIDAE"
   },
   {
     "commonName": "Vegetable leaf miner",
@@ -18681,7 +19125,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/vegetable-leaf-miner.webp"
+    "thumbnail": "images/pests/vegetable-leaf-miner.webp",
+    "family": "AGROMYZIDAE"
   },
   {
     "commonName": "Vegetable Leafhopper",
@@ -18712,11 +19157,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/vegetable-leafhopper.webp"
+    "thumbnail": "images/pests/vegetable-leafhopper.webp",
+    "family": "CICADELLIDAE"
   },
   {
     "commonName": "Vegetable weevil",
-    "scientificName": "",
+    "scientificName": "Listroderes difficilis",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -18772,13 +19218,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/vegetable-weevil.webp"
+    "thumbnail": "images/pests/vegetable-weevil.webp",
+    "family": "CURCULIONIDAE"
   },
   {
     "commonName": "Vetch Aphid",
     "scientificName": "Megoura crassicauda",
     "pestType": "Insect",
-    "order": "",
+    "order": "HEMIPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -18790,7 +19237,8 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "family": "APHIDIDAE"
   },
   {
     "commonName": "Vine moth",
@@ -18840,11 +19288,12 @@ window.pestsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/pests/vine-moth.webp"
+    "thumbnail": "images/pests/vine-moth.webp",
+    "family": "NOCTUIDAE"
   },
   {
     "commonName": "Wax scale",
-    "scientificName": "",
+    "scientificName": "Ceroplastes ceriferus",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -18871,13 +19320,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/wax-scale.webp"
+    "thumbnail": "images/pests/wax-scale.webp",
+    "family": "COCCIDAE"
   },
   {
     "commonName": "Web-Spinning Spiders",
-    "scientificName": "",
+    "scientificName": "Badumna spp.",
     "pestType": "Insect",
-    "order": "",
+    "order": "ARANEAE",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -18890,7 +19340,8 @@ window.pestsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/pests/web-spinning-spiders-including-black-house-spider.webp"
+    "thumbnail": "images/pests/web-spinning-spiders-including-black-house-spider.webp",
+    "family": "DESIDAE"
   },
   {
     "commonName": "Western flower thrips",
@@ -19068,7 +19519,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/western-flower-thrips.webp"
+    "thumbnail": "images/pests/western-flower-thrips.webp",
+    "family": "THRIPIDAE"
   },
   {
     "commonName": "Western flower thrips [Suppression only]",
@@ -19093,11 +19545,12 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/western-flower-thrips-suppression-only.webp"
+    "thumbnail": "images/pests/western-flower-thrips-suppression-only.webp",
+    "family": "THRIPIDAE"
   },
   {
     "commonName": "White Butterfly",
-    "scientificName": "",
+    "scientificName": "Pieris rapae",
     "pestType": "Chewing insect",
     "order": "Diptera",
     "cropsAffected": [
@@ -19116,11 +19569,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/white-butterfly.webp"
+    "thumbnail": "images/pests/white-butterfly.webp",
+    "family": "PIERIDAE"
   },
   {
     "commonName": "White Grub",
-    "scientificName": "",
+    "scientificName": "Holotrichia oblita",
     "pestType": "Soil pest",
     "order": "Coleoptera",
     "cropsAffected": [
@@ -19139,11 +19593,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/white-grub.webp"
+    "thumbnail": "images/pests/white-grub.webp",
+    "family": "SCARABAEIDAE"
   },
   {
     "commonName": "White louse scale",
-    "scientificName": "",
+    "scientificName": "Unaspis citri",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -19187,11 +19642,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/white-louse-scale.webp"
+    "thumbnail": "images/pests/white-louse-scale.webp",
+    "family": "DIASPIDIDAE"
   },
   {
     "commonName": "White mango scale",
-    "scientificName": "",
+    "scientificName": "Aulacaspis tubercularis",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -19231,11 +19687,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/white-mango-scale.webp"
+    "thumbnail": "images/pests/white-mango-scale.webp",
+    "family": "DIASPIDIDAE"
   },
   {
     "commonName": "White wax scale",
-    "scientificName": "",
+    "scientificName": "Ceroplastes ceriferus",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -19282,13 +19739,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/white-wax-scale.webp"
+    "thumbnail": "images/pests/white-wax-scale.webp",
+    "family": "COCCIDAE"
   },
   {
     "commonName": "Whitefooted Ant",
     "scientificName": "Technomyrmex albipes",
     "pestType": "General pest",
-    "order": "",
+    "order": "HYMENOPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -19303,13 +19761,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/whitefooted-ant.webp"
+    "thumbnail": "images/pests/whitefooted-ant.webp",
+    "family": "FORMICIDAE"
   },
   {
     "commonName": "Whitefooted House Ant",
-    "scientificName": "",
+    "scientificName": "Technomyrmex difficilis",
     "pestType": "General pest",
-    "order": "",
+    "order": "HYMENOPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -19325,11 +19784,12 @@ window.pestsRegistry = [
       }
     ],
     "alaThumbnail": "https://images.ala.org.au/image/74a86182-76ae-4538-9f0d-ca793e48a4af/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/74a86182-76ae-4538-9f0d-ca793e48a4af/large"
+    "alaLargeImage": "https://images.ala.org.au/image/74a86182-76ae-4538-9f0d-ca793e48a4af/large",
+    "family": "FORMICIDAE"
   },
   {
     "commonName": "Whitefringed Weevil",
-    "scientificName": "",
+    "scientificName": "Naupactus leucoloma",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -19348,7 +19808,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/whitefringed-weevil.webp"
+    "thumbnail": "images/pests/whitefringed-weevil.webp",
+    "family": "CURCULIONIDAE"
   },
   {
     "commonName": "Wingless grasshopper",
@@ -19422,11 +19883,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/wingless-grasshopper.webp"
+    "thumbnail": "images/pests/wingless-grasshopper.webp",
+    "family": "ACRIDIDAE"
   },
   {
     "commonName": "Woolly aphid",
-    "scientificName": "",
+    "scientificName": "Eriosoma lanigerum",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -19458,7 +19920,8 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/woolly-aphid.webp"
+    "thumbnail": "images/pests/woolly-aphid.webp",
+    "family": "APHIDIDAE"
   },
   {
     "commonName": "Woolly Apple Aphid",
@@ -19523,11 +19986,12 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/woolly-apple-aphid.webp"
+    "thumbnail": "images/pests/woolly-apple-aphid.webp",
+    "family": "APHIDIDAE"
   },
   {
     "commonName": "Xylorectid caterpillar",
-    "scientificName": "",
+    "scientificName": "Xylorycta spp.",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -19546,13 +20010,14 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/xylorectid_caterpillar.webp"
+    "thumbnail": "images/pests/xylorectid_caterpillar.webp",
+    "family": "XYLORYCTIDAE"
   },
   {
     "commonName": "Yellow Crazy Ant",
     "scientificName": "Anoplolepis gracilipes",
     "pestType": "General pest",
-    "order": "",
+    "order": "HYMENOPTERA",
     "cropsAffected": [],
     "damageType": "",
     "controlMethods": [],
@@ -19575,11 +20040,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/yellow-crazy-ant.webp"
+    "thumbnail": "images/pests/yellow-crazy-ant.webp",
+    "family": "FORMICIDAE"
   },
   {
     "commonName": "Yellow mirid",
-    "scientificName": "",
+    "scientificName": "Campylomma liebknechti",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -19609,7 +20075,8 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/yellow-mirid.webp"
+    "thumbnail": "images/pests/yellow-mirid.webp",
+    "family": "MIRIDAE"
   },
   {
     "commonName": "Yellow peach moth",
@@ -19694,11 +20161,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/yellow-peach-moth.webp"
+    "thumbnail": "images/pests/yellow-peach-moth.webp",
+    "family": "CARPOSINIDAE"
   },
   {
     "commonName": "Yellow-winged locust",
-    "scientificName": "",
+    "scientificName": "Gastrimargus musicus",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -19718,6 +20186,7 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/yellow-winged-locust.webp"
+    "thumbnail": "images/pests/yellow-winged-locust.webp",
+    "family": "ACRIDIDAE"
   }
 ];
