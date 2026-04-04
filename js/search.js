@@ -1378,6 +1378,13 @@ function renderSearchResults(results, query) {
         '</div>'
       ].join('\n');
     }).join('\n');
+
+    // ── "Request a Label" prompt at bottom of multi-product results ──
+    var escapedQ = (query || '').replace(/'/g, "\\'").replace(/"/g, '&quot;');
+    container.innerHTML += '<div class="request-label-footer" style="text-align:center; padding:18px 12px 8px; margin-top:8px;">' +
+      '<p style="margin:0 0 8px; font-size:0.82rem; color:var(--text-sub);">Can\'t find what you\'re looking for?</p>' +
+      '<button class="no-results-request-btn" onclick="window.openLabelRequest(\'' + escapedQ + '\')" style="font-size:0.82rem;">📬 Request a Label</button>' +
+      '</div>';
     return;
   }
 
@@ -1730,6 +1737,13 @@ function renderSearchResults(results, query) {
   const rightPanelHtml = rightCrops.length > 0 ? buildPanel(rightCrops, false) : '';
 
   container.innerHTML = heroHtml + '\n' + leftPanelHtml + (rightPanelHtml ? '\n' + rightPanelHtml : '');
+
+  // ── "Request a Label" prompt at bottom of single-product results ──
+  var escapedQ2 = (query || '').replace(/'/g, "\\'").replace(/"/g, '&quot;');
+  container.innerHTML += '<div class="request-label-footer" style="text-align:center; padding:18px 12px 8px; margin-top:8px;">' +
+    '<p style="margin:0 0 8px; font-size:0.82rem; color:var(--text-sub);">Not the product you were looking for?</p>' +
+    '<button class="no-results-request-btn" onclick="window.openLabelRequest(\'' + escapedQ2 + '\')" style="font-size:0.82rem;">📬 Request a Label</button>' +
+    '</div>';
 }
 
 // ── Helper to filter by product when clicking summary card ──
