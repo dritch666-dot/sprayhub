@@ -324,7 +324,7 @@
       return;
     }
 
-    container.innerHTML = results.map(function (w, _idx) {
+    container.innerHTML = results.map(function (w) {
       // Family badge
       var familyBadge = w.family
         ? '<span class="weed-badge weed-badge-family">' + hl(w.family, query) + '</span>'
@@ -412,29 +412,27 @@
         ? '<button class="weed-back-btn" onclick="window.navigateBackToProduct()">← Back to ' + (window._productNavSource.productName || 'product').replace(/</g, '&lt;') + '</button>'
         : '';
 
-      var thumbId = 'weed-thumb-' + _idx;
-      var hasLocal = w.thumbnail ? true : false;
-      var thumbHtml = hasLocal
-        ? '<div class="wiki-thumb-wrap">'
-          + '<img id="' + thumbId + '" class="wiki-thumb" src="' + w.thumbnail + '" alt="" loading="lazy" '
-          + 'onerror="this.closest(\'.wiki-thumb-wrap\').style.display=\'none\'">'
-          + '</div>'
-        : '<div class="wiki-thumb-wrap" style="display:none;">'
-          + '<img id="' + thumbId + '" class="wiki-thumb" alt="" loading="lazy" style="display:none;" '
-          + 'onerror="this.closest(\'.wiki-thumb-wrap\').style.display=\'none\'">'
+      // ALA thumbnail (if enriched) or fallback to Google Images link
+      var alaThumbnailHtml = '';
+      if (w.alaThumbnail) {
+        alaThumbnailHtml = '<div class="weed-ala-thumb">'
+          + '<img src="' + w.alaThumbnail + '" alt="' + w.commonName.replace(/"/g, '&quot;') + '" loading="lazy" onerror="this.parentElement.style.display=\'none\'">'
           + '</div>';
+      }
+
+      var alaLink = w.alaUrl
+        ? '<a href="' + w.alaUrl + '" target="_blank" rel="noopener" class="weed-img-btn weed-ala-btn">🌏 ALA Profile</a>'
+        : '';
 
       return '<div class="weed-card' + (w.linkedProducts && w.linkedProducts.length > 0 ? ' weed-card-linked' : '') + '">'
         + backBtn
+        + alaThumbnailHtml
         + '<div class="weed-card-header">'
         + '<div class="weed-card-title">' + hl(w.commonName, query) + '</div>'
         + '<div class="weed-card-badges">' + familyBadge + leafBadge
         + (w.linkedProducts && w.linkedProducts.length > 0 ? '<span class="weed-badge weed-badge-linked">🏷️ ' + w.linkedProducts.length + ' product' + (w.linkedProducts.length !== 1 ? 's' : '') + '</span>' : '')
         + '</div>'
         + '</div>'
-        + '<div class="weed-card-body">'
-        + thumbHtml
-        + '<div class="weed-card-details">'
         + sciName
         + synonymsRow
         + (flowerChips ? '<div class="weed-meta-row"><strong>Flowers:</strong> ' + flowerChips + '</div>' : '')
@@ -442,22 +440,12 @@
         + floweringRow
         + (controlTags ? '<div class="weed-meta-row"><strong>Control:</strong> ' + controlTags + '</div>' : '')
         + productsSection
-        + '</div>'
-        + '</div>'
         + '<div class="weed-card-actions">'
         + '<a href="' + w.imageUrl + '" target="_blank" rel="noopener" class="weed-img-btn">📷 View Images</a>'
+        + alaLink
         + '</div>'
         + '</div>';
     }).join('');
-
-    // Trigger Wikipedia/iNat thumbnail fetches for entries without local thumbs
-    if (typeof getWikiThumb === 'function') {
-      results.forEach(function (w, idx) {
-        if (!w.thumbnail) {
-          getWikiThumb(w.scientificName, w.commonName, 'weed-thumb-' + idx);
-        }
-      });
-    }
   }
 
   // ── Navigate to Labels tab and show a specific product ───

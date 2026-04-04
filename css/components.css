@@ -3865,6 +3865,30 @@ mark.search-highlight-pest {
   background: #15803d;
 }
 
+/* ── ALA Thumbnail & Profile Button (Weeds / Pests / Diseases) ── */
+.weed-ala-thumb, .pest-ala-thumb, .disease-ala-thumb {
+  float: right;
+  margin: 0 0 8px 12px;
+  width: 90px;
+  height: 90px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.12);
+  flex-shrink: 0;
+}
+.weed-ala-thumb img, .pest-ala-thumb img, .disease-ala-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.weed-ala-btn, .pest-ala-btn, .disease-ala-btn {
+  background: #0369a1 !important;
+}
+.weed-ala-btn:hover, .pest-ala-btn:hover, .disease-ala-btn:hover {
+  background: #075985 !important;
+}
+
 /* Highlight marks */
 .weed-card mark {
   background: #fef08a;

@@ -237,7 +237,7 @@
       return;
     }
 
-    container.innerHTML = results.map(function (d, _idx) {
+    container.innerHTML = results.map(function (d) {
       // Disease type badge
       var tc = DISEASE_TYPE_COLORS[d.diseaseType] || { bg: '#f1f5f9', text: '#475569', border: '#cbd5e1' };
       var typeBadge = d.diseaseType
@@ -315,56 +315,39 @@
         ? '<button class="disease-back-btn" onclick="window.navigateBackToProduct()">← Back to ' + (window._productNavSource.productName || 'product').replace(/</g, '&lt;') + '</button>'
         : '';
 
-      var thumbId = 'disease-thumb-' + _idx;
-      var hasLocal = d.thumbnail ? true : false;
-      var thumbHtml = hasLocal
-        ? '<div class="wiki-thumb-wrap">'
-          + '<img id="' + thumbId + '" class="wiki-thumb" src="' + d.thumbnail + '" alt="" loading="lazy" '
-          + 'onerror="this.closest(\'.wiki-thumb-wrap\').style.display=\'none\'">'
-          + '</div>'
-        : '<div class="wiki-thumb-wrap" style="display:none;">'
-          + '<img id="' + thumbId + '" class="wiki-thumb" alt="" loading="lazy" style="display:none;" '
-          + 'onerror="this.closest(\'.wiki-thumb-wrap\').style.display=\'none\'">'
+      // ALA thumbnail (if enriched)
+      var alaThumbnailHtml = '';
+      if (d.alaThumbnail) {
+        alaThumbnailHtml = '<div class="disease-ala-thumb">'
+          + '<img src="' + d.alaThumbnail + '" alt="' + d.commonName.replace(/"/g, '&quot;') + '" loading="lazy" onerror="this.parentElement.style.display=\'none\'">'
           + '</div>';
+      }
+
+      var alaLink = d.alaUrl
+        ? '<a href="' + d.alaUrl + '" target="_blank" rel="noopener" class="disease-img-btn disease-ala-btn">🌏 ALA Profile</a>'
+        : '';
 
       return '<div class="disease-card' + (d.linkedProducts && d.linkedProducts.length > 0 ? ' disease-card-linked' : '') + '">'
         + backBtn
+        + alaThumbnailHtml
         + '<div class="disease-card-header">'
         + '<div class="disease-card-title">' + hl(d.commonName, query) + '</div>'
         + '<div class="disease-card-badges">' + typeBadge
         + (d.linkedProducts && d.linkedProducts.length > 0 ? '<span class="disease-badge disease-badge-linked">🏷️ ' + d.linkedProducts.length + ' product' + (d.linkedProducts.length !== 1 ? 's' : '') + '</span>' : '')
         + '</div>'
         + '</div>'
-        + '<div class="disease-card-body">'
-        + thumbHtml
-        + '<div class="disease-card-details">'
         + sciName
         + cropsSection
         + symptomsRow
         + conditionsRow
         + (controlTags ? '<div class="disease-meta-row"><strong>Control:</strong> ' + controlTags + '</div>' : '')
         + productsSection
-        + '</div>'
-        + '</div>'
         + '<div class="disease-card-actions">'
         + '<a href="' + d.imageUrl + '" target="_blank" rel="noopener" class="disease-img-btn">📷 View Images</a>'
+        + alaLink
         + '</div>'
         + '</div>';
     }).join('');
-
-    // Trigger Wikipedia/iNat thumbnail fetches for entries without local thumbs
-    if (typeof getWikiThumb === 'function') {
-      results.forEach(function (d, idx) {
-        if (!d.thumbnail) {
-          // Disease common names often include crop prefix ("Almonds — Leaf Curl")
-          // Strip the crop prefix for better Wikipedia lookup
-          var lookupName = d.commonName || '';
-          var dashIdx = lookupName.indexOf(' — ');
-          if (dashIdx > 0) lookupName = lookupName.substring(dashIdx + 3).trim();
-          getWikiThumb(d.scientificName, lookupName, 'disease-thumb-' + idx);
-        }
-      });
-    }
   }
 
   // ── Navigate to Labels tab and show a specific product ───

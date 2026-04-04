@@ -279,7 +279,7 @@
       return;
     }
 
-    container.innerHTML = results.map(function (p, _idx) {
+    container.innerHTML = results.map(function (p) {
       // Pest type badge
       var tc = PEST_TYPE_COLORS[p.pestType] || { bg: '#f1f5f9', text: '#475569', border: '#cbd5e1' };
       var typeBadge = p.pestType
@@ -357,50 +357,38 @@
         ? '<button class="pest-back-btn" onclick="window.navigateBackToProduct()">← Back to ' + (window._productNavSource.productName || 'product').replace(/</g, '&lt;') + '</button>'
         : '';
 
-      var thumbId = 'pest-thumb-' + _idx;
-      var hasLocal = p.thumbnail ? true : false;
-      var thumbHtml = hasLocal
-        ? '<div class="wiki-thumb-wrap">'
-          + '<img id="' + thumbId + '" class="wiki-thumb" src="' + p.thumbnail + '" alt="" loading="lazy" '
-          + 'onerror="this.closest(\'.wiki-thumb-wrap\').style.display=\'none\'">'
-          + '</div>'
-        : '<div class="wiki-thumb-wrap" style="display:none;">'
-          + '<img id="' + thumbId + '" class="wiki-thumb" alt="" loading="lazy" style="display:none;" '
-          + 'onerror="this.closest(\'.wiki-thumb-wrap\').style.display=\'none\'">'
+      // ALA thumbnail (if enriched)
+      var alaThumbnailHtml = '';
+      if (p.alaThumbnail) {
+        alaThumbnailHtml = '<div class="pest-ala-thumb">'
+          + '<img src="' + p.alaThumbnail + '" alt="' + p.commonName.replace(/"/g, '&quot;') + '" loading="lazy" onerror="this.parentElement.style.display=\'none\'">'
           + '</div>';
+      }
+
+      var alaLink = p.alaUrl
+        ? '<a href="' + p.alaUrl + '" target="_blank" rel="noopener" class="pest-img-btn pest-ala-btn">🌏 ALA Profile</a>'
+        : '';
 
       return '<div class="pest-card' + (p.linkedProducts && p.linkedProducts.length > 0 ? ' pest-card-linked' : '') + '">'
         + backBtn
+        + alaThumbnailHtml
         + '<div class="pest-card-header">'
         + '<div class="pest-card-title">' + hl(p.commonName, query) + '</div>'
         + '<div class="pest-card-badges">' + typeBadge + orderBadge
         + (p.linkedProducts && p.linkedProducts.length > 0 ? '<span class="pest-badge pest-badge-linked">🏷️ ' + p.linkedProducts.length + ' product' + (p.linkedProducts.length !== 1 ? 's' : '') + '</span>' : '')
         + '</div>'
         + '</div>'
-        + '<div class="pest-card-body">'
-        + thumbHtml
-        + '<div class="pest-card-details">'
         + sciName
         + cropsSection
         + damageRow
         + (controlTags ? '<div class="pest-meta-row"><strong>Control:</strong> ' + controlTags + '</div>' : '')
         + productsSection
-        + '</div>'
-        + '</div>'
         + '<div class="pest-card-actions">'
         + '<a href="' + p.imageUrl + '" target="_blank" rel="noopener" class="pest-img-btn">📷 View Images</a>'
+        + alaLink
         + '</div>'
         + '</div>';
     }).join('');
-
-    // Trigger Wikipedia/iNat thumbnail fetches for entries without local thumbs
-    if (typeof getWikiThumb === 'function') {
-      results.forEach(function (p, idx) {
-        if (!p.thumbnail) {
-          getWikiThumb(p.scientificName, p.commonName, 'pest-thumb-' + idx);
-        }
-      });
-    }
   }
 
   // ── Navigate to Labels tab and show a specific product ───
