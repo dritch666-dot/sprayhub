@@ -2,7 +2,7 @@
 window.diseasesRegistry = [
   {
     "commonName": "Algae",
-    "scientificName": "Nitella sonderi A.Braun",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Tobacco Seed Beds"
@@ -21,15 +21,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/algae.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/ce3b7043-f9fd-40fe-a29f-df06ffa3a8d6/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/ce3b7043-f9fd-40fe-a29f-df06ffa3a8d6/large",
-    "family": "Characeae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR30474_161"
+    "thumbnail": "images/diseases/algae.webp"
   },
   {
     "commonName": "Almonds — Leaf Curl",
-    "scientificName": "Terminalia catappa",
+    "scientificName": "",
     "diseaseType": "Viral",
     "cropsAffected": [
       "Tree & Vine Crops — Almonds, Apples, Apricots, Avocados"
@@ -48,11 +44,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/almonds-leaf-curl.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/44008f0c-494d-478b-8def-38502de23008/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/44008f0c-494d-478b-8def-38502de23008/large",
-    "family": "Combretaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2916618"
+    "thumbnail": "images/diseases/almonds-leaf-curl.webp"
   },
   {
     "commonName": "Altemaria rot",
@@ -79,7 +71,7 @@ window.diseasesRegistry = [
   },
   {
     "commonName": "Alternaria",
-    "scientificName": "Alternaria cucumerina",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Apples — Alternaria Leaf and Fruit Spot",
@@ -137,13 +129,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/alternaria.webp",
-    "family": "Pleosporaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60018158"
+    "thumbnail": "images/diseases/alternaria.webp"
   },
   {
     "commonName": "Alternaria Citri",
-    "scientificName": "Alternaria citri",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Mandarins & Tangelos (PER14772)"
@@ -162,13 +152,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/alternaria-citri.webp",
-    "family": "Pleosporaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60018157"
+    "thumbnail": "images/diseases/alternaria-citri.webp"
   },
   {
     "commonName": "Alternaria Fruit Spot",
-    "scientificName": "Alternaria cucumerina",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Apples — Alternaria Leaf and Fruit Spot",
@@ -196,13 +184,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/alternaria-fruit-spot.webp",
-    "family": "Pleosporaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60018158"
+    "thumbnail": "images/diseases/alternaria-fruit-spot.webp"
   },
   {
     "commonName": "Alternaria Late Blight",
-    "scientificName": "Alternaria cucumerina",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Pistachio"
@@ -221,9 +207,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/alternaria-late-blight.webp",
-    "family": "Pleosporaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60018158"
+    "thumbnail": "images/diseases/alternaria-late-blight.webp"
   },
   {
     "commonName": "Alternaria leaf and fruit spot",
@@ -235,13 +219,11 @@ window.diseasesRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Alternaria+leaf+and+fruit+spot+plant+disease+australia",
     "linkedProducts": [],
-    "thumbnail": "images/diseases/alternaria-leaf-and-fruit-spot.webp",
-    "family": "Pleosporaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60018158"
+    "thumbnail": "images/diseases/alternaria-leaf-and-fruit-spot.webp"
   },
   {
     "commonName": "Alternaria leaf blight",
-    "scientificName": "Alternaria cucumerina",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Carrots"
@@ -260,13 +242,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/alternaria-leaf-blight.webp",
-    "family": "Pleosporaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60018158"
+    "thumbnail": "images/diseases/alternaria-leaf-blight.webp"
   },
   {
     "commonName": "Alternaria Leaf Blotch",
-    "scientificName": "Alternaria cucumerina",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Pome fruit (Apples, Nashi pears, Pears) — Dilute spraying"
@@ -285,9 +265,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/alternaria-leaf-blotch.webp",
-    "family": "Pleosporaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60018158"
+    "thumbnail": "images/diseases/alternaria-leaf-blotch.webp"
   },
   {
     "commonName": "Alternaria Leaf Spot",
@@ -441,13 +419,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/alternaria-leaf-spot.webp",
-    "family": "Pleosporaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60018158"
+    "thumbnail": "images/diseases/alternaria-leaf-spot.webp"
   },
   {
     "commonName": "Alternaria Leaf Spot — Carnations",
-    "scientificName": "Alternaria cucumerina",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Ornamentals — Diseases"
@@ -466,13 +442,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/alternaria-leaf-spot-carnations.webp",
-    "family": "Pleosporaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60018158"
+    "thumbnail": "images/diseases/alternaria-leaf-spot-carnations.webp"
   },
   {
     "commonName": "Alternaria Leaf Spot — Carnations; Septoria Leaf Spot — Flowers",
-    "scientificName": "Alternaria",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Ornamentals — Diseases"
@@ -491,15 +465,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/alternaria_leaf_spot_carnations_septoria_leaf_spot_flowers.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/53d985fd-eb47-4881-a06c-d9bb50148ba7/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/53d985fd-eb47-4881-a06c-d9bb50148ba7/large",
-    "family": "Pleosporaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60014027"
+    "thumbnail": "images/diseases/alternaria_leaf_spot_carnations_septoria_leaf_spot_flowers.webp"
   },
   {
     "commonName": "Alternaria Leaf Spot — Cotton",
-    "scientificName": "Senecio quadridentatus",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Field Crops — Cotton"
@@ -518,15 +488,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/alternaria-leaf-spot-cotton.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/108200ae-d2bb-4ed9-a038-56feb1100b4d/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/108200ae-d2bb-4ed9-a038-56feb1100b4d/large",
-    "family": "Asteraceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2893457"
+    "thumbnail": "images/diseases/alternaria-leaf-spot-cotton.webp"
   },
   {
     "commonName": "Alternaria Leaf Spot diseases",
-    "scientificName": "Alternaria cucumerina",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [],
     "symptoms": "",
@@ -534,9 +500,7 @@ window.diseasesRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Alternaria+Leaf+Spot+diseases+plant+disease+australia",
     "linkedProducts": [],
-    "thumbnail": "images/diseases/alternaria-leaf-spot-diseases.webp",
-    "family": "Pleosporaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60018158"
+    "thumbnail": "images/diseases/alternaria-leaf-spot-diseases.webp"
   },
   {
     "commonName": "Alternaria Rot",
@@ -573,13 +537,11 @@ window.diseasesRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/diseases/alternaria-rot.webp",
-    "family": "Pleosporaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60018158"
+    "thumbnail": "images/diseases/alternaria-rot.webp"
   },
   {
     "commonName": "Alternaria spot",
-    "scientificName": "Alternaria cucumerina",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Cole Crops (Broccoli, Brussels Sprouts, Cabbage, Cauliflower)",
@@ -607,13 +569,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/alternaria-spot.webp",
-    "family": "Pleosporaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60018158"
+    "thumbnail": "images/diseases/alternaria-spot.webp"
   },
   {
     "commonName": "Alternata Spot",
-    "scientificName": "Strobilanthes alternata",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Passionfruit"
@@ -632,11 +592,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/alternata-spot.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/35a7989d-d4dc-465a-9d1b-24af9f0bfe1b/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/35a7989d-d4dc-465a-9d1b-24af9f0bfe1b/large",
-    "family": "Acanthaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51731588"
+    "thumbnail": "images/diseases/alternata-spot.webp"
   },
   {
     "commonName": "Angular leaf spot",
@@ -716,9 +672,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/angular-leaf-spot.webp",
-    "family": "Xanthomonadaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://www.catalogueoflife.org/data/taxon/7G77T"
+    "thumbnail": "images/diseases/angular-leaf-spot.webp"
   },
   {
     "commonName": "Anthracnose",
@@ -1118,9 +1072,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/anthracnose.webp",
-    "family": "Glomerellaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60021387"
+    "thumbnail": "images/diseases/anthracnose.webp"
   },
   {
     "commonName": "Anthracnose fruit rot",
@@ -1132,9 +1084,7 @@ window.diseasesRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Anthracnose+fruit+rot+plant+disease+australia",
     "linkedProducts": [],
-    "thumbnail": "images/diseases/anthracnose-fruit-rot.webp",
-    "family": "Glomerellaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60021387"
+    "thumbnail": "images/diseases/anthracnose-fruit-rot.webp"
   },
   {
     "commonName": "Apical Necrosis",
@@ -1157,9 +1107,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/apical-necrosis.webp",
-    "family": "Geminiviridae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_2431"
+    "thumbnail": "images/diseases/apical-necrosis.webp"
   },
   {
     "commonName": "Apple black spot",
@@ -1210,13 +1158,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/apple-powdery-mildew.webp",
-    "family": "Erysiphaceae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_1417"
+    "thumbnail": "images/diseases/apple-powdery-mildew.webp"
   },
   {
     "commonName": "Apple Scab",
-    "scientificName": "Apple",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Apples and Pears",
@@ -1269,15 +1215,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/apple-scab.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/0f301d5a-86a8-451f-b7c7-a723167b476c/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/0f301d5a-86a8-451f-b7c7-a723167b476c/large",
-    "family": "Pospiviroidae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_442_0"
+    "thumbnail": "images/diseases/apple-scab.webp"
   },
   {
     "commonName": "Apples",
-    "scientificName": "Angophora",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [],
     "symptoms": "",
@@ -1285,15 +1227,11 @@ window.diseasesRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Apples+plant+disease+australia",
     "linkedProducts": [],
-    "thumbnail": "images/diseases/apples.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/26aa9f6d-47b0-4cd9-8515-c2dc424ff33a/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/26aa9f6d-47b0-4cd9-8515-c2dc424ff33a/large",
-    "family": "Myrtaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51781666"
+    "thumbnail": "images/diseases/apples.webp"
   },
   {
     "commonName": "Apples — Black Spot",
-    "scientificName": "Angophora subvelutina",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Tree & Vine Crops — Almonds, Apples, Apricots, Avocados"
@@ -1312,11 +1250,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/apples-black-spot.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/8b059413-d9d6-4467-a49f-eceac84db90e/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/8b059413-d9d6-4467-a49f-eceac84db90e/large",
-    "family": "Myrtaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2904753"
+    "thumbnail": "images/diseases/apples-black-spot.webp"
   },
   {
     "commonName": "Apricots",
@@ -1332,7 +1266,7 @@ window.diseasesRegistry = [
   },
   {
     "commonName": "Apricots — Bacterial Gummosis",
-    "scientificName": "Prunus armeniaca",
+    "scientificName": "",
     "diseaseType": "Bacterial",
     "cropsAffected": [
       "Tree & Vine Crops — Almonds, Apples, Apricots, Avocados"
@@ -1351,15 +1285,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/apricots_bacterial_gummosis.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/f44f900d-c5f4-455b-96eb-51207f402eac/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/f44f900d-c5f4-455b-96eb-51207f402eac/large",
-    "family": "Rosaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2886227"
+    "thumbnail": "images/diseases/apricots_bacterial_gummosis.webp"
   },
   {
     "commonName": "Apricots — Shothole",
-    "scientificName": "Prunus armeniaca",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Tree & Vine Crops — Almonds, Apples, Apricots, Avocados"
@@ -1378,15 +1308,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/apricots-shothole.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/f44f900d-c5f4-455b-96eb-51207f402eac/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/f44f900d-c5f4-455b-96eb-51207f402eac/large",
-    "family": "Rosaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2886227"
+    "thumbnail": "images/diseases/apricots-shothole.webp"
   },
   {
     "commonName": "Ascochyta blight",
-    "scientificName": "Ascochyta rabiei",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Broadbeans, Faba Beans, Chickpeas, Field Peas, Lentils and Vetch",
@@ -1450,8 +1376,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/ascochyta-blight.webp",
-    "alaUrl": "https://bie.ala.org.au/species/NZOR-6-13453"
+    "thumbnail": "images/diseases/ascochyta-blight.webp"
   },
   {
     "commonName": "Ascochyta Leaf Blight",
@@ -1474,8 +1399,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/ascochyta-leaf-blight.webp",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60017836"
+    "thumbnail": "images/diseases/ascochyta-leaf-blight.webp"
   },
   {
     "commonName": "Avocados",
@@ -1491,7 +1415,7 @@ window.diseasesRegistry = [
   },
   {
     "commonName": "Avocados — Anthracnose",
-    "scientificName": "Glomerella truncata",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Tree & Vine Crops — Almonds, Apples, Apricots, Avocados"
@@ -1510,9 +1434,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/avocados-anthracnose.webp",
-    "family": "Glomerellaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60021387"
+    "thumbnail": "images/diseases/avocados-anthracnose.webp"
   },
   {
     "commonName": "Bacterial Black Spot",
@@ -1568,15 +1490,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/bacterial-black-spot.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/3e374d32-0277-42cb-9fa6-9e5a577c0670/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/3e374d32-0277-42cb-9fa6-9e5a577c0670/large",
-    "family": "Xanthomonadaceae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_3138"
+    "thumbnail": "images/diseases/bacterial-black-spot.webp"
   },
   {
     "commonName": "Bacterial blight",
-    "scientificName": "Acanthococcus orariensis",
+    "scientificName": "",
     "diseaseType": "Bacterial",
     "cropsAffected": [
       "Legume Vegetables — Beans, Broad Beans, Peas",
@@ -1613,9 +1531,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/bacterial_blight.webp",
-    "family": "ERIOCOCCIDAE",
-    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/cb7c8540-5d33-4a28-a32b-e42e395c9abd"
+    "thumbnail": "images/diseases/bacterial_blight.webp"
   },
   {
     "commonName": "Bacterial brown spot",
@@ -1665,15 +1581,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/bacterial-brown-spot.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/3e374d32-0277-42cb-9fa6-9e5a577c0670/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/3e374d32-0277-42cb-9fa6-9e5a577c0670/large",
-    "family": "Xanthomonadaceae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_3138"
+    "thumbnail": "images/diseases/bacterial-brown-spot.webp"
   },
   {
     "commonName": "Bacterial canker",
-    "scientificName": "Xanthomonas campestris",
+    "scientificName": "",
     "diseaseType": "Bacterial",
     "cropsAffected": [
       "Capsicum",
@@ -1723,15 +1635,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/bacterial-canker.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/3e374d32-0277-42cb-9fa6-9e5a577c0670/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/3e374d32-0277-42cb-9fa6-9e5a577c0670/large",
-    "family": "Xanthomonadaceae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_3138"
+    "thumbnail": "images/diseases/bacterial-canker.webp"
   },
   {
     "commonName": "Bacterial growth in process water",
-    "scientificName": "Xanthomonas campestris",
+    "scientificName": "",
     "diseaseType": "Bacterial",
     "cropsAffected": [
       "Fruit and Vegetables (post-harvest) — Bacterial control in process water"
@@ -1750,11 +1658,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/bacterial-growth-in-process-water.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/3e374d32-0277-42cb-9fa6-9e5a577c0670/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/3e374d32-0277-42cb-9fa6-9e5a577c0670/large",
-    "family": "Xanthomonadaceae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_3138"
+    "thumbnail": "images/diseases/bacterial-growth-in-process-water.webp"
   },
   {
     "commonName": "Bacterial gummosis",
@@ -1788,11 +1692,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/bacterial-gummosis.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/3e374d32-0277-42cb-9fa6-9e5a577c0670/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/3e374d32-0277-42cb-9fa6-9e5a577c0670/large",
-    "family": "Xanthomonadaceae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_3138"
+    "thumbnail": "images/diseases/bacterial-gummosis.webp"
   },
   {
     "commonName": "Bacterial gummosis / canker",
@@ -1804,11 +1704,7 @@ window.diseasesRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Bacterial+gummosis+/+canker+plant+disease+australia",
     "linkedProducts": [],
-    "thumbnail": "images/diseases/bacterial-gummosis-canker.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/3e374d32-0277-42cb-9fa6-9e5a577c0670/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/3e374d32-0277-42cb-9fa6-9e5a577c0670/large",
-    "family": "Xanthomonadaceae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_3138"
+    "thumbnail": "images/diseases/bacterial-gummosis-canker.webp"
   },
   {
     "commonName": "Bacterial leaf spot",
@@ -1864,11 +1760,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/bacterial-leaf-spot.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/3e374d32-0277-42cb-9fa6-9e5a577c0670/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/3e374d32-0277-42cb-9fa6-9e5a577c0670/large",
-    "family": "Xanthomonadaceae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_3138"
+    "thumbnail": "images/diseases/bacterial-leaf-spot.webp"
   },
   {
     "commonName": "Bacterial soft rot",
@@ -1899,11 +1791,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/bacterial-soft-rot.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/3e374d32-0277-42cb-9fa6-9e5a577c0670/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/3e374d32-0277-42cb-9fa6-9e5a577c0670/large",
-    "family": "Xanthomonadaceae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_3138"
+    "thumbnail": "images/diseases/bacterial-soft-rot.webp"
   },
   {
     "commonName": "Bacterial speck",
@@ -1946,11 +1834,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/bacterial-speck.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/3e374d32-0277-42cb-9fa6-9e5a577c0670/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/3e374d32-0277-42cb-9fa6-9e5a577c0670/large",
-    "family": "Xanthomonadaceae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_3138"
+    "thumbnail": "images/diseases/bacterial-speck.webp"
   },
   {
     "commonName": "Bacterial spot",
@@ -2002,11 +1886,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/bacterial-spot.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/3e374d32-0277-42cb-9fa6-9e5a577c0670/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/3e374d32-0277-42cb-9fa6-9e5a577c0670/large",
-    "family": "Xanthomonadaceae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_3138"
+    "thumbnail": "images/diseases/bacterial-spot.webp"
   },
   {
     "commonName": "Bacterial Spot - suppression only",
@@ -2037,15 +1917,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/bacterial-spot-suppression-only.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/3e374d32-0277-42cb-9fa6-9e5a577c0670/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/3e374d32-0277-42cb-9fa6-9e5a577c0670/large",
-    "family": "Xanthomonadaceae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_3138"
+    "thumbnail": "images/diseases/bacterial-spot-suppression-only.webp"
   },
   {
     "commonName": "Bacterial spot and Bacterial canker",
-    "scientificName": "Xanthomonas campestris",
+    "scientificName": "",
     "diseaseType": "Bacterial",
     "cropsAffected": [],
     "symptoms": "",
@@ -2053,15 +1929,11 @@ window.diseasesRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Bacterial+spot+and+Bacterial+canker+plant+disease+australia",
     "linkedProducts": [],
-    "thumbnail": "images/diseases/bacterial-spot-and-bacterial-canker.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/3e374d32-0277-42cb-9fa6-9e5a577c0670/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/3e374d32-0277-42cb-9fa6-9e5a577c0670/large",
-    "family": "Xanthomonadaceae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_3138"
+    "thumbnail": "images/diseases/bacterial-spot-and-bacterial-canker.webp"
   },
   {
     "commonName": "Bananas",
-    "scientificName": "Musa",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Phytophthora Stem Canker — Trunk/Stem Paint Application"
@@ -2080,15 +1952,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/bananas.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/311ab34d-cc15-4e62-b1a0-0fb195eb77e2/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/311ab34d-cc15-4e62-b1a0-0fb195eb77e2/large",
-    "family": "Musaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51778430"
+    "thumbnail": "images/diseases/bananas.webp"
   },
   {
     "commonName": "Bananas — Cercospora Leaf Spot",
-    "scientificName": "Musa acuminata",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Fruit Crops — Bananas, Strawberries"
@@ -2107,11 +1975,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/bananas-cercospora-leaf-spot.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/75c7e17e-e603-4e6e-b888-68b3051322a9/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/75c7e17e-e603-4e6e-b888-68b3051322a9/large",
-    "family": "Musaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2902831"
+    "thumbnail": "images/diseases/bananas-cercospora-leaf-spot.webp"
   },
   {
     "commonName": "Barley Scald",
@@ -2134,15 +1998,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/barley-scald.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/c07c7220-9b5f-4b49-9e4f-59b90644ecbe/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/c07c7220-9b5f-4b49-9e4f-59b90644ecbe/large",
-    "family": "Poaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2887724"
+    "thumbnail": "images/diseases/barley-scald.webp"
   },
   {
     "commonName": "Barley: Scald",
-    "scientificName": "Hordeum murinum",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Barley, Oats, Wheat"
@@ -2161,11 +2021,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/barley-scald.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/c07c7220-9b5f-4b49-9e4f-59b90644ecbe/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/c07c7220-9b5f-4b49-9e4f-59b90644ecbe/large",
-    "family": "Poaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2887724"
+    "thumbnail": "images/diseases/barley-scald.webp"
   },
   {
     "commonName": "Base Rot",
@@ -2192,7 +2048,7 @@ window.diseasesRegistry = [
   },
   {
     "commonName": "Bean Rust",
-    "scientificName": "Bean",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Tomatoes for Processing — Multiple Diseases and Mites",
@@ -2213,13 +2069,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/bean-rust.webp",
-    "family": "Potyviridae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_618_0"
+    "thumbnail": "images/diseases/bean-rust.webp"
   },
   {
     "commonName": "Bean Spider Mite",
-    "scientificName": "Latrodectus hasseltii",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Tomatoes for Processing — Multiple Diseases and Mites",
@@ -2240,15 +2094,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/bean-spider-mite.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/60030a7d-c55d-4c21-b1a5-fd84bee2575e/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/60030a7d-c55d-4c21-b1a5-fd84bee2575e/large",
-    "family": "THERIDIIDAE",
-    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/028a2e58-5ade-4486-bc95-273b4ad3f943"
+    "thumbnail": "images/diseases/bean-spider-mite.webp"
   },
   {
     "commonName": "Beetroot",
-    "scientificName": "Elattostachys nervosa",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Vegetables — Rhubarb, Spinach, Silverbeet, Beetroot"
@@ -2267,11 +2117,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/beetroot.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/e3917387-ec2f-41ad-b44d-cd4e4c2a05a1/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/e3917387-ec2f-41ad-b44d-cd4e4c2a05a1/large",
-    "family": "Sapindaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51447304"
+    "thumbnail": "images/diseases/beetroot.webp"
   },
   {
     "commonName": "Belly Rot",
@@ -2308,7 +2154,7 @@ window.diseasesRegistry = [
   },
   {
     "commonName": "Bipolaris",
-    "scientificName": "Bipolaris subramanianii",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Recreational Turf — Helminthosporium Disease"
@@ -2327,13 +2173,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/bipolaris.webp",
-    "family": "Pleosporaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60090055"
+    "thumbnail": "images/diseases/bipolaris.webp"
   },
   {
     "commonName": "Bitter Rot",
-    "scientificName": "Greeneria uvicola (Berk & Curtis) Punith. 1974",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Pome Fruits (Apples, Pears)",
@@ -2377,13 +2221,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/bitter-rot.webp",
-    "family": "Melanconiellaceae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_1533"
+    "thumbnail": "images/diseases/bitter-rot.webp"
   },
   {
     "commonName": "Black Helminthosporium",
-    "scientificName": "Helminthosporium densum",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Turf",
@@ -2411,9 +2253,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/black-helminthosporium.webp",
-    "family": "Massarinaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60018020"
+    "thumbnail": "images/diseases/black-helminthosporium.webp"
   },
   {
     "commonName": "Black Leaf Blight",
@@ -2436,13 +2276,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/black-leaf-blight.webp",
-    "family": "Ceratobasidiaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60026973"
+    "thumbnail": "images/diseases/black-leaf-blight.webp"
   },
   {
     "commonName": "Black Pit",
-    "scientificName": "Black",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Bananas",
@@ -2478,11 +2316,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/black-pit.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/88b6c8c1-0757-459b-bdea-5d05fc38ab5e/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/88b6c8c1-0757-459b-bdea-5d05fc38ab5e/large",
-    "family": "Dicistroviridae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_704_0"
+    "thumbnail": "images/diseases/black-pit.webp"
   },
   {
     "commonName": "Black rot",
@@ -2532,9 +2366,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/black-rot.webp",
-    "family": "Diaporthaceae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_1209"
+    "thumbnail": "images/diseases/black-rot.webp"
   },
   {
     "commonName": "Black Scab",
@@ -2546,15 +2378,11 @@ window.diseasesRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Black+Scab+plant+disease+australia",
     "linkedProducts": [],
-    "thumbnail": "images/diseases/black-scab.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/88b6c8c1-0757-459b-bdea-5d05fc38ab5e/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/88b6c8c1-0757-459b-bdea-5d05fc38ab5e/large",
-    "family": "Dicistroviridae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_704_0"
+    "thumbnail": "images/diseases/black-scab.webp"
   },
   {
     "commonName": "Black Scurf",
-    "scientificName": "Black",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Potatoes"
@@ -2589,11 +2417,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/black-scurf.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/88b6c8c1-0757-459b-bdea-5d05fc38ab5e/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/88b6c8c1-0757-459b-bdea-5d05fc38ab5e/large",
-    "family": "Dicistroviridae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_704_0"
+    "thumbnail": "images/diseases/black-scurf.webp"
   },
   {
     "commonName": "Black Sigatoka",
@@ -2652,13 +2476,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/black-sigatoka.webp",
-    "family": "Mycosphaerellaceae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_2565"
+    "thumbnail": "images/diseases/black-sigatoka.webp"
   },
   {
     "commonName": "Black spot",
-    "scientificName": "Lutjanus fulviflamma",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Apples",
@@ -2840,15 +2662,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/black-spot.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/02dec231-f48d-48b2-8676-22e1d0a189b6/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/02dec231-f48d-48b2-8676-22e1d0a189b6/large",
-    "family": "LUTJANIDAE",
-    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/87ae8681-69f1-4ebb-9807-6c3ee3eca750"
+    "thumbnail": "images/diseases/black-spot.webp"
   },
   {
     "commonName": "Black Spot — Roses",
-    "scientificName": "Black",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Ornamentals — Diseases"
@@ -2867,11 +2685,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/black-spot-roses.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/88b6c8c1-0757-459b-bdea-5d05fc38ab5e/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/88b6c8c1-0757-459b-bdea-5d05fc38ab5e/large",
-    "family": "Dicistroviridae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_704_0"
+    "thumbnail": "images/diseases/black-spot-roses.webp"
   },
   {
     "commonName": "Black spot / Scab",
@@ -2939,7 +2753,7 @@ window.diseasesRegistry = [
   },
   {
     "commonName": "Blackspot",
-    "scientificName": "Mugilogobius stigmaticus",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Field Crops — Pulse Crops",
@@ -2978,11 +2792,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/blackspot.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/49df9f2b-be3a-420d-b1b3-7ac16709fe59/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/49df9f2b-be3a-420d-b1b3-7ac16709fe59/large",
-    "family": "GOBIIDAE",
-    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/4e9a255d-3371-4f14-9358-c1da1935476e"
+    "thumbnail": "images/diseases/blackspot.webp"
   },
   {
     "commonName": "Blind Seed Disease",
@@ -3005,9 +2815,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/blind-seed-disease.webp",
-    "family": "Reoviridae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_267"
+    "thumbnail": "images/diseases/blind-seed-disease.webp"
   },
   {
     "commonName": "Blossom Blight",
@@ -3094,9 +2902,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/blossom-blight.webp",
-    "family": "Sclerotiniaceae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_1985"
+    "thumbnail": "images/diseases/blossom-blight.webp"
   },
   {
     "commonName": "Blossom blight and brown rot",
@@ -3108,9 +2914,7 @@ window.diseasesRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Blossom+blight+and+brown+rot+plant+disease+australia",
     "linkedProducts": [],
-    "thumbnail": "images/diseases/blossom-blight-and-brown-rot.webp",
-    "family": "Sclerotiniaceae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_1985"
+    "thumbnail": "images/diseases/blossom-blight-and-brown-rot.webp"
   },
   {
     "commonName": "Blossom Blight/Brown rot",
@@ -3144,9 +2948,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/blossom-blight-brown-rot.webp",
-    "family": "Sclerotiniaceae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_1985"
+    "thumbnail": "images/diseases/blossom-blight-brown-rot.webp"
   },
   {
     "commonName": "Blossom blight/mould",
@@ -3184,9 +2986,7 @@ window.diseasesRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/diseases/blossom-blight-mould.webp",
-    "family": "Sclerotiniaceae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_1985"
+    "thumbnail": "images/diseases/blossom-blight-mould.webp"
   },
   {
     "commonName": "Blue mould",
@@ -3319,13 +3119,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/blueberry-rust.webp",
-    "family": "Betaflexiviridae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_707"
+    "thumbnail": "images/diseases/blueberry-rust.webp"
   },
   {
     "commonName": "Botryosphaeria",
-    "scientificName": "Botryosphaeria australis",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Pistachio"
@@ -3344,13 +3142,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/botryosphaeria.webp",
-    "family": "Botryosphaeriaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60017427"
+    "thumbnail": "images/diseases/botryosphaeria.webp"
   },
   {
     "commonName": "Botryosphaeria panicle & shoot blight",
-    "scientificName": "Botryosphaeria australis",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [],
     "symptoms": "",
@@ -3358,13 +3154,11 @@ window.diseasesRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Botryosphaeria+panicle+&+shoot+blight+plant+disease+australia",
     "linkedProducts": [],
-    "thumbnail": "images/diseases/botryosphaeria-panicle-shoot-blight.webp",
-    "family": "Botryosphaeriaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60017427"
+    "thumbnail": "images/diseases/botryosphaeria-panicle-shoot-blight.webp"
   },
   {
     "commonName": "Botryosphaeria Panicle Blight",
-    "scientificName": "Botryosphaeria australis",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Pistachios"
@@ -3383,13 +3177,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/botryosphaeria-panicle-blight.webp",
-    "family": "Botryosphaeriaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60017427"
+    "thumbnail": "images/diseases/botryosphaeria-panicle-blight.webp"
   },
   {
     "commonName": "Botrytis",
-    "scientificName": "Botrytis argillacea",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Basil & Thyme — Grey Mould (Suppression)",
@@ -3569,9 +3361,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/botrytis.webp",
-    "family": "Sclerotiniaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60019810"
+    "thumbnail": "images/diseases/botrytis.webp"
   },
   {
     "commonName": "Botrytis / Grey mould",
@@ -3599,13 +3389,11 @@ window.diseasesRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/diseases/botrytis-grey-mould.webp",
-    "family": "Sclerotiniaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60019810"
+    "thumbnail": "images/diseases/botrytis-grey-mould.webp"
   },
   {
     "commonName": "Botrytis blight",
-    "scientificName": "Botrytis argillacea",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Garlic & Onions (PER92121)",
@@ -3651,9 +3439,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/botrytis-blight.webp",
-    "family": "Sclerotiniaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60019810"
+    "thumbnail": "images/diseases/botrytis-blight.webp"
   },
   {
     "commonName": "Botrytis blight and fruit rot / Grey mould",
@@ -3681,9 +3467,7 @@ window.diseasesRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/diseases/botrytis-blight-and-fruit-rot-grey-mould.webp",
-    "family": "Sclerotiniaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60019810"
+    "thumbnail": "images/diseases/botrytis-blight-and-fruit-rot-grey-mould.webp"
   },
   {
     "commonName": "Botrytis blight and Neck rot",
@@ -3695,13 +3479,11 @@ window.diseasesRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Botrytis+blight+and+Neck+rot+plant+disease+australia",
     "linkedProducts": [],
-    "thumbnail": "images/diseases/botrytis-blight-and-neck-rot.webp",
-    "family": "Sclerotiniaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60019810"
+    "thumbnail": "images/diseases/botrytis-blight-and-neck-rot.webp"
   },
   {
     "commonName": "Botrytis Bunch Rot",
-    "scientificName": "Botrytis argillacea",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Grapes (Grapevines)",
@@ -3755,9 +3537,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/botrytis-bunch-rot.webp",
-    "family": "Sclerotiniaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60019810"
+    "thumbnail": "images/diseases/botrytis-bunch-rot.webp"
   },
   {
     "commonName": "Botrytis bunch rot / Grey mould",
@@ -3785,13 +3565,11 @@ window.diseasesRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/diseases/botrytis-bunch-rot-grey-mould.webp",
-    "family": "Sclerotiniaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60019810"
+    "thumbnail": "images/diseases/botrytis-bunch-rot-grey-mould.webp"
   },
   {
     "commonName": "Botrytis Flower Rot",
-    "scientificName": "Botrytis",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Rubus / Ribes / Blueberries (PER13958)"
@@ -3810,11 +3588,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/botrytis-flower-rot.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/056de192-3288-48bb-aba1-883677c05e4c/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/056de192-3288-48bb-aba1-883677c05e4c/large",
-    "family": "Sclerotiniaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60014497"
+    "thumbnail": "images/diseases/botrytis-flower-rot.webp"
   },
   {
     "commonName": "Botrytis fruit rot",
@@ -3864,9 +3638,7 @@ window.diseasesRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/diseases/botrytis-fruit-rot.webp",
-    "family": "Sclerotiniaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60019810"
+    "thumbnail": "images/diseases/botrytis-fruit-rot.webp"
   },
   {
     "commonName": "Botrytis grey mould",
@@ -3931,13 +3703,11 @@ window.diseasesRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/diseases/botrytis-grey-mould.webp",
-    "family": "Sclerotiniaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60019810"
+    "thumbnail": "images/diseases/botrytis-grey-mould.webp"
   },
   {
     "commonName": "Botrytis Leaf blight",
-    "scientificName": "Botrytis argillacea",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Basil"
@@ -3956,13 +3726,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/botrytis-leaf-blight.webp",
-    "family": "Sclerotiniaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60019810"
+    "thumbnail": "images/diseases/botrytis-leaf-blight.webp"
   },
   {
     "commonName": "Botrytis Leaf Spot",
-    "scientificName": "Botrytis argillacea",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Ornamentals — Ferns"
@@ -3981,13 +3749,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/botrytis-leaf-spot.webp",
-    "family": "Sclerotiniaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60019810"
+    "thumbnail": "images/diseases/botrytis-leaf-spot.webp"
   },
   {
     "commonName": "Botrytis Leaf Spot — Roses And General",
-    "scientificName": "Botrytis argillacea",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Ornamentals — Diseases"
@@ -4006,13 +3772,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/botrytis-leaf-spot-roses-and-general.webp",
-    "family": "Sclerotiniaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60019810"
+    "thumbnail": "images/diseases/botrytis-leaf-spot-roses-and-general.webp"
   },
   {
     "commonName": "Botrytis Rot",
-    "scientificName": "Botrytis argillacea",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Tomatoes — Multiple disease control"
@@ -4031,9 +3795,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/botrytis-rot.webp",
-    "family": "Sclerotiniaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60019810"
+    "thumbnail": "images/diseases/botrytis-rot.webp"
   },
   {
     "commonName": "Botrytis Rot or Grey Mould",
@@ -4061,13 +3823,11 @@ window.diseasesRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/diseases/botrytis-rot-or-grey-mould.webp",
-    "family": "Sclerotiniaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60019810"
+    "thumbnail": "images/diseases/botrytis-rot-or-grey-mould.webp"
   },
   {
     "commonName": "Bremia Lactucae",
-    "scientificName": "Bremia lactucae",
+    "scientificName": "",
     "diseaseType": "Oomycete",
     "cropsAffected": [
       "Leafy Vegetables, Head Lettuce & Brassica Leafy Veg — Downy Mildew"
@@ -4086,13 +3846,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/bremia-lactucae.webp",
-    "family": "Peronosporaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60016475"
+    "thumbnail": "images/diseases/bremia-lactucae.webp"
   },
   {
     "commonName": "Brown Citrus Mite",
-    "scientificName": "Citrus gracilis",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Citrus",
@@ -4128,11 +3886,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/brown-citrus-mite.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/b0305f9c-21c9-417f-897c-7a625e00c533/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/b0305f9c-21c9-417f-897c-7a625e00c533/large",
-    "family": "Rutaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2905577"
+    "thumbnail": "images/diseases/brown-citrus-mite.webp"
   },
   {
     "commonName": "Brown Citrus Rust Mite",
@@ -4164,11 +3918,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/brown-citrus-rust-mite.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/b0305f9c-21c9-417f-897c-7a625e00c533/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/b0305f9c-21c9-417f-897c-7a625e00c533/large",
-    "family": "Rutaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2905577"
+    "thumbnail": "images/diseases/brown-citrus-rust-mite.webp"
   },
   {
     "commonName": "Brown patch",
@@ -4215,7 +3965,7 @@ window.diseasesRegistry = [
   },
   {
     "commonName": "Brown Rot",
-    "scientificName": "Monilinia polystroma",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Almonds",
@@ -4362,13 +4112,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/brown-rot.webp",
-    "family": "Sclerotiniaceae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_1986"
+    "thumbnail": "images/diseases/brown-rot.webp"
   },
   {
     "commonName": "Brown Rot Blossom Blight",
-    "scientificName": "Monilinia mali",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Stone fruits (Apricots, Cherries, Nectarines, Peaches, Plums, Prunes) — Dilute spraying",
@@ -4389,13 +4137,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/brown-rot-blossom-blight.webp",
-    "family": "Sclerotiniaceae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_1985"
+    "thumbnail": "images/diseases/brown-rot-blossom-blight.webp"
   },
   {
     "commonName": "Brown Spot",
-    "scientificName": "Alternaria species tangelo brown spot",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Citrus",
@@ -4507,9 +4253,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/brown-spot.webp",
-    "family": "Pleosporaceae",
-    "alaUrl": "https://bie.ala.org.au/species/NZOR-6-63943"
+    "thumbnail": "images/diseases/brown-spot.webp"
   },
   {
     "commonName": "Bud Mite",
@@ -4652,7 +4396,7 @@ window.diseasesRegistry = [
   },
   {
     "commonName": "Canker",
-    "scientificName": "Chrysoporthe austroafricana",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Lychee"
@@ -4671,13 +4415,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/canker.webp",
-    "family": "Cryphonectriaceae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_950"
+    "thumbnail": "images/diseases/canker.webp"
   },
   {
     "commonName": "Capsicum",
-    "scientificName": "Capsicum annuum",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [],
     "symptoms": "",
@@ -4685,15 +4427,11 @@ window.diseasesRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Capsicum+plant+disease+australia",
     "linkedProducts": [],
-    "thumbnail": "images/diseases/capsicum.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/aeefd38d-cde0-4087-8a19-3e0f55c456fa/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/aeefd38d-cde0-4087-8a19-3e0f55c456fa/large",
-    "family": "Solanaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2913092"
+    "thumbnail": "images/diseases/capsicum.webp"
   },
   {
     "commonName": "Capsicum — Bacterial Spot",
-    "scientificName": "Capsicum annuum",
+    "scientificName": "",
     "diseaseType": "Bacterial",
     "cropsAffected": [
       "Vegetables — Capsicum, Carrots, Celery, Cucurbits"
@@ -4712,11 +4450,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/capsicum-bacterial-spot.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/aeefd38d-cde0-4087-8a19-3e0f55c456fa/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/aeefd38d-cde0-4087-8a19-3e0f55c456fa/large",
-    "family": "Solanaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2913092"
+    "thumbnail": "images/diseases/capsicum-bacterial-spot.webp"
   },
   {
     "commonName": "Carrots",
@@ -4732,7 +4466,7 @@ window.diseasesRegistry = [
   },
   {
     "commonName": "Carrots — Leaf Spot",
-    "scientificName": "Daucus glochidiatus",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Vegetables — Capsicum, Carrots, Celery, Cucurbits"
@@ -4751,11 +4485,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/carrots-leaf-spot.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/5553d3f5-8a1f-4c2e-8bc8-2934878fe5e8/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/5553d3f5-8a1f-4c2e-8bc8-2934878fe5e8/large",
-    "family": "Apiaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51430932"
+    "thumbnail": "images/diseases/carrots-leaf-spot.webp"
   },
   {
     "commonName": "Carrots: Alternaria And Cercospora Leaf Spot; Celery: Septoria Leaf Spot",
@@ -4782,7 +4512,7 @@ window.diseasesRegistry = [
   },
   {
     "commonName": "Celery",
-    "scientificName": "Apium graveolens",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [],
     "symptoms": "",
@@ -4790,15 +4520,11 @@ window.diseasesRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Celery+plant+disease+australia",
     "linkedProducts": [],
-    "thumbnail": "images/diseases/celery.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/a975b3d2-0754-4f93-bf6c-f58a5caf8cb8/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/a975b3d2-0754-4f93-bf6c-f58a5caf8cb8/large",
-    "family": "Apiaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2887264"
+    "thumbnail": "images/diseases/celery.webp"
   },
   {
     "commonName": "Celery — Bacterial Soft Rot",
-    "scientificName": "Apium graveolens",
+    "scientificName": "",
     "diseaseType": "Bacterial",
     "cropsAffected": [
       "Vegetables — Capsicum, Carrots, Celery, Cucurbits"
@@ -4817,15 +4543,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/celery-bacterial-soft-rot.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/a975b3d2-0754-4f93-bf6c-f58a5caf8cb8/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/a975b3d2-0754-4f93-bf6c-f58a5caf8cb8/large",
-    "family": "Apiaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2887264"
+    "thumbnail": "images/diseases/celery-bacterial-soft-rot.webp"
   },
   {
     "commonName": "Celery — Leaf Spot",
-    "scientificName": "Apium graveolens",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Vegetables — Capsicum, Carrots, Celery, Cucurbits"
@@ -4844,15 +4566,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/celery-leaf-spot.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/a975b3d2-0754-4f93-bf6c-f58a5caf8cb8/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/a975b3d2-0754-4f93-bf6c-f58a5caf8cb8/large",
-    "family": "Apiaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2887264"
+    "thumbnail": "images/diseases/celery-leaf-spot.webp"
   },
   {
     "commonName": "Cercospora",
-    "scientificName": "Cercospora loranthi",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Broadbeans, Faba Beans, Chickpeas, Field Peas, Lentils and Vetch",
@@ -4898,9 +4616,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/cercospora.webp",
-    "family": "Mycosphaerellaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60016781"
+    "thumbnail": "images/diseases/cercospora.webp"
   },
   {
     "commonName": "Cercospora Early Blight",
@@ -4923,9 +4639,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/cercospora-early-blight.webp",
-    "family": "ERIOCOCCIDAE",
-    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/cb7c8540-5d33-4a28-a32b-e42e395c9abd"
+    "thumbnail": "images/diseases/cercospora-early-blight.webp"
   },
   {
     "commonName": "Cercospora leaf spot",
@@ -5069,9 +4783,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/cercospora-leaf-spot.webp",
-    "family": "Mycosphaerellaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60016781"
+    "thumbnail": "images/diseases/cercospora-leaf-spot.webp"
   },
   {
     "commonName": "Cercospora spot",
@@ -5094,13 +4806,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/cercospora-spot.webp",
-    "family": "Mycosphaerellaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60016781"
+    "thumbnail": "images/diseases/cercospora-spot.webp"
   },
   {
     "commonName": "Cherries",
-    "scientificName": "Physalis",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [],
     "symptoms": "",
@@ -5108,15 +4818,11 @@ window.diseasesRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Cherries+plant+disease+australia",
     "linkedProducts": [],
-    "thumbnail": "images/diseases/cherries.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/5cceebf8-6467-49a0-9332-612595cf17f6/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/5cceebf8-6467-49a0-9332-612595cf17f6/large",
-    "family": "Solanaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51447879"
+    "thumbnail": "images/diseases/cherries.webp"
   },
   {
     "commonName": "Cherries — Bacterial Canker",
-    "scientificName": "Xanthomonas campestris",
+    "scientificName": "",
     "diseaseType": "Bacterial",
     "cropsAffected": [
       "Tree & Vine Crops — Cherries, Citrus"
@@ -5135,15 +4841,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/cherries-bacterial-canker.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/3e374d32-0277-42cb-9fa6-9e5a577c0670/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/3e374d32-0277-42cb-9fa6-9e5a577c0670/large",
-    "family": "Xanthomonadaceae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_3138"
+    "thumbnail": "images/diseases/cherries-bacterial-canker.webp"
   },
   {
     "commonName": "Cherries — Shothole",
-    "scientificName": "Eucalyptus sp. Herries Range (A.Bean 936)",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Tree & Vine Crops — Cherries, Citrus"
@@ -5162,8 +4864,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/cherries-shothole.webp",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/apni/246030"
+    "thumbnail": "images/diseases/cherries-shothole.webp"
   },
   {
     "commonName": "Chickpeas",
@@ -5283,11 +4984,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/chocolate-spot.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/a082bdd1-a479-4663-9a39-8c98ba2d460b/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/a082bdd1-a479-4663-9a39-8c98ba2d460b/large",
-    "family": "Fabaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2915839"
+    "thumbnail": "images/diseases/chocolate-spot.webp"
   },
   {
     "commonName": "Chrysanthemums",
@@ -5314,7 +5011,7 @@ window.diseasesRegistry = [
   },
   {
     "commonName": "Chrysanthemums; Black Spot — Roses",
-    "scientificName": "Glebionis coronaria",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Ornamentals — Diseases"
@@ -5333,15 +5030,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/chrysanthemums-black-spot-roses.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/b80a97bc-04ae-4044-9d4b-2cc6b4a9f644/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/b80a97bc-04ae-4044-9d4b-2cc6b4a9f644/large",
-    "family": "Asteraceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51268473"
+    "thumbnail": "images/diseases/chrysanthemums-black-spot-roses.webp"
   },
   {
     "commonName": "Citrus",
-    "scientificName": "Citrus gracilis",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Phytophthora Stem Canker — Trunk/Stem Paint Application"
@@ -5360,15 +5053,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/citrus.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/b0305f9c-21c9-417f-897c-7a625e00c533/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/b0305f9c-21c9-417f-897c-7a625e00c533/large",
-    "family": "Rutaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2905577"
+    "thumbnail": "images/diseases/citrus.webp"
   },
   {
     "commonName": "Citrus — Black Spot",
-    "scientificName": "Citrus gracilis",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Tree & Vine Crops — Cherries, Citrus"
@@ -5387,15 +5076,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/citrus-black-spot.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/b0305f9c-21c9-417f-897c-7a625e00c533/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/b0305f9c-21c9-417f-897c-7a625e00c533/large",
-    "family": "Rutaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2905577"
+    "thumbnail": "images/diseases/citrus-black-spot.webp"
   },
   {
     "commonName": "Citrus — Brown Rot",
-    "scientificName": "Citrus gracilis",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Tree & Vine Crops — Cherries, Citrus"
@@ -5414,15 +5099,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/citrus-brown-rot.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/b0305f9c-21c9-417f-897c-7a625e00c533/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/b0305f9c-21c9-417f-897c-7a625e00c533/large",
-    "family": "Rutaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2905577"
+    "thumbnail": "images/diseases/citrus-brown-rot.webp"
   },
   {
     "commonName": "Citrus — Septoria Spot",
-    "scientificName": "Citrus gracilis",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Tree & Vine Crops — Cherries, Citrus"
@@ -5441,15 +5122,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/citrus-septoria-spot.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/b0305f9c-21c9-417f-897c-7a625e00c533/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/b0305f9c-21c9-417f-897c-7a625e00c533/large",
-    "family": "Rutaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2905577"
+    "thumbnail": "images/diseases/citrus-septoria-spot.webp"
   },
   {
     "commonName": "Citrus — Smoky Blotch",
-    "scientificName": "Citrus gracilis",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Tree & Vine Crops — Cherries, Citrus"
@@ -5468,15 +5145,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/citrus-smoky-blotch.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/b0305f9c-21c9-417f-897c-7a625e00c533/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/b0305f9c-21c9-417f-897c-7a625e00c533/large",
-    "family": "Rutaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2905577"
+    "thumbnail": "images/diseases/citrus-smoky-blotch.webp"
   },
   {
     "commonName": "Citrus Bud Mite",
-    "scientificName": "Citrus gracilis",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Citrus",
@@ -5520,15 +5193,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/citrus-bud-mite.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/b0305f9c-21c9-417f-897c-7a625e00c533/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/b0305f9c-21c9-417f-897c-7a625e00c533/large",
-    "family": "Rutaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2905577"
+    "thumbnail": "images/diseases/citrus-bud-mite.webp"
   },
   {
     "commonName": "Citrus Rust Mite",
-    "scientificName": "Citrus gracilis",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Citrus",
@@ -5581,15 +5250,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/citrus-rust-mite.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/b0305f9c-21c9-417f-897c-7a625e00c533/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/b0305f9c-21c9-417f-897c-7a625e00c533/large",
-    "family": "Rutaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2905577"
+    "thumbnail": "images/diseases/citrus-rust-mite.webp"
   },
   {
     "commonName": "Cladosporium",
-    "scientificName": "Cladosporium perangustum",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Passion Fruit",
@@ -5610,9 +5275,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/cladosporium.webp",
-    "family": "Davidiellaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60016720"
+    "thumbnail": "images/diseases/cladosporium.webp"
   },
   {
     "commonName": "Cobweb disease",
@@ -5635,13 +5298,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/cobweb-disease.webp",
-    "family": "Reoviridae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_267"
+    "thumbnail": "images/diseases/cobweb-disease.webp"
   },
   {
     "commonName": "Cole Crops : Alternaria Spot",
-    "scientificName": "Grevillea montis-cole",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Vegetables — Cole Crops and Cucurbits"
@@ -5660,15 +5321,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/cole-crops-alternaria-spot.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/08256a67-d825-4283-9183-edd63c517302/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/08256a67-d825-4283-9183-edd63c517302/large",
-    "family": "Proteaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2888250"
+    "thumbnail": "images/diseases/cole-crops-alternaria-spot.webp"
   },
   {
     "commonName": "Colletotrichum",
-    "scientificName": "Colletotrichum malvarum",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Almonds and Pistachios",
@@ -5698,13 +5355,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/colletotrichum.webp",
-    "family": "Glomerellaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60021376"
+    "thumbnail": "images/diseases/colletotrichum.webp"
   },
   {
     "commonName": "Colletotrichum crown rot",
-    "scientificName": "Colletotrichum malvarum",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Strawberries — Non-Fruiting Runners Only"
@@ -5723,9 +5378,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/colletotrichum-crown-rot.webp",
-    "family": "Glomerellaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60021376"
+    "thumbnail": "images/diseases/colletotrichum-crown-rot.webp"
   },
   {
     "commonName": "Common blight",
@@ -5784,11 +5437,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/common-blight.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/9a24ac7b-40fd-4e20-8e92-2fd7ae8bf6ef/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/9a24ac7b-40fd-4e20-8e92-2fd7ae8bf6ef/large",
-    "family": "Atherospermataceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2890182"
+    "thumbnail": "images/diseases/common-blight.webp"
   },
   {
     "commonName": "Cordana Leaf Spot",
@@ -5863,8 +5512,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/cordana-leaf-spot.webp",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60018957"
+    "thumbnail": "images/diseases/cordana-leaf-spot.webp"
   },
   {
     "commonName": "Crown rot",
@@ -5895,9 +5543,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/crown-rot.webp",
-    "family": "Enterobacteriaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://www.catalogueoflife.org/data/taxon/6H2RQ"
+    "thumbnail": "images/diseases/crown-rot.webp"
   },
   {
     "commonName": "Crown Rust",
@@ -5936,7 +5582,7 @@ window.diseasesRegistry = [
   },
   {
     "commonName": "Cucurbits — Angular Leaf Spot",
-    "scientificName": "Entoloma cucurbita",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Vegetables — Capsicum, Carrots, Celery, Cucurbits"
@@ -5955,13 +5601,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/cucurbits-angular-leaf-spot.webp",
-    "family": "Entolomataceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60023581"
+    "thumbnail": "images/diseases/cucurbits-angular-leaf-spot.webp"
   },
   {
     "commonName": "Curvularia",
-    "scientificName": "Curvularia clavata",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Recreational Turf — Brown Patch (Vic)"
@@ -5980,9 +5624,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/curvularia.webp",
-    "family": "Pleosporaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60018341"
+    "thumbnail": "images/diseases/curvularia.webp"
   },
   {
     "commonName": "Damping-off",
@@ -6038,11 +5680,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/damping-off-and-dieback.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/0dd898fa-bee7-479c-a95e-1062ad556e0c/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/0dd898fa-bee7-479c-a95e-1062ad556e0c/large",
-    "family": "Papaveraceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2905509"
+    "thumbnail": "images/diseases/damping-off-and-dieback.webp"
   },
   {
     "commonName": "Deadarm",
@@ -6069,7 +5707,7 @@ window.diseasesRegistry = [
   },
   {
     "commonName": "Diplocarpon Rosae",
-    "scientificName": "Diplocarpon rosae",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Roses"
@@ -6088,11 +5726,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/diplocarpon-rosae.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/c4fe217a-c494-4656-87a3-98656c2bd206/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/c4fe217a-c494-4656-87a3-98656c2bd206/large",
-    "family": "Dermateaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60019385"
+    "thumbnail": "images/diseases/diplocarpon-rosae.webp"
   },
   {
     "commonName": "Diplodia",
@@ -6115,13 +5749,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/diplodia.webp",
-    "family": "Botryosphaeriaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60017455"
+    "thumbnail": "images/diseases/diplodia.webp"
   },
   {
     "commonName": "Diplodia Stem End Rot",
-    "scientificName": "Diplodia citricola",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Citrus — Blue Mould, Green Mould, Diplodia control",
@@ -6149,13 +5781,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/diplodia_stem_end_rot.webp",
-    "family": "Botryosphaeriaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60017455"
+    "thumbnail": "images/diseases/diplodia_stem_end_rot.webp"
   },
   {
     "commonName": "Disease control",
-    "scientificName": "Fiji disease virus",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Capsicums, Alliums, Legumes, Leafy Vegetables"
@@ -6174,9 +5804,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/disease-control.webp",
-    "family": "Reoviridae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_267"
+    "thumbnail": "images/diseases/disease-control.webp"
   },
   {
     "commonName": "Dollar Spot",
@@ -6242,11 +5870,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/dollar-spot.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/f539abc8-8c9a-43f6-97d1-bdafda64a69c/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/f539abc8-8c9a-43f6-97d1-bdafda64a69c/large",
-    "family": "SYNGNATHIDAE",
-    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/1fb83609-42bc-4c8e-a6fe-95dd467edd82"
+    "thumbnail": "images/diseases/dollar-spot.webp"
   },
   {
     "commonName": "Downy mildew",
@@ -6620,13 +6244,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/downy-mildew.webp",
-    "family": "Erysiphaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60019334"
+    "thumbnail": "images/diseases/downy-mildew.webp"
   },
   {
     "commonName": "Downy Mildew — Peas",
-    "scientificName": "Podosphaera tridactyla",
+    "scientificName": "",
     "diseaseType": "Oomycete",
     "cropsAffected": [
       "Vegetables — Beans (Green, Broadbeans, Faba Beans, Peas)"
@@ -6645,13 +6267,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/downy-mildew-peas.webp",
-    "family": "Erysiphaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60019334"
+    "thumbnail": "images/diseases/downy-mildew-peas.webp"
   },
   {
     "commonName": "Downy Mildew — Spinach",
-    "scientificName": "Tetragonia implexicoma",
+    "scientificName": "",
     "diseaseType": "Oomycete",
     "cropsAffected": [
       "Vegetables — Rhubarb, Spinach, Silverbeet, Beetroot"
@@ -6670,11 +6290,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/downy-mildew-spinach.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/153b12fa-0b57-48bd-a343-0b1e96748ea0/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/153b12fa-0b57-48bd-a343-0b1e96748ea0/large",
-    "family": "Aizoaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2920475"
+    "thumbnail": "images/diseases/downy-mildew-spinach.webp"
   },
   {
     "commonName": "Downy Mildew & Alternaria",
@@ -6686,9 +6302,7 @@ window.diseasesRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Downy+Mildew+&+Alternaria+plant+disease+australia",
     "linkedProducts": [],
-    "thumbnail": "images/diseases/downy-mildew-alternaria.webp",
-    "family": "Erysiphaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60019334"
+    "thumbnail": "images/diseases/downy-mildew-alternaria.webp"
   },
   {
     "commonName": "Downy Mildew & Anthracnose",
@@ -6700,9 +6314,7 @@ window.diseasesRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Downy+Mildew+&+Anthracnose+plant+disease+australia",
     "linkedProducts": [],
-    "thumbnail": "images/diseases/downy-mildew-anthracnose.webp",
-    "family": "Glomerellaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60021387"
+    "thumbnail": "images/diseases/downy-mildew-anthracnose.webp"
   },
   {
     "commonName": "Downy Mildew & White Blister",
@@ -6714,9 +6326,7 @@ window.diseasesRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Downy+Mildew+&+White+Blister+plant+disease+australia",
     "linkedProducts": [],
-    "thumbnail": "images/diseases/downy-mildew-white-blister.webp",
-    "family": "Erysiphaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60019334"
+    "thumbnail": "images/diseases/downy-mildew-white-blister.webp"
   },
   {
     "commonName": "Dreschlera",
@@ -6747,7 +6357,7 @@ window.diseasesRegistry = [
   },
   {
     "commonName": "Drop",
-    "scientificName": "Argyrodes antipodianus",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Lettuces"
@@ -6766,11 +6376,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/drop.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/72798666-bdc6-4fe9-83c3-c6629245429f/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/72798666-bdc6-4fe9-83c3-c6629245429f/large",
-    "family": "THERIDIIDAE",
-    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/213224c9-aac5-49aa-9e2c-f794837ac2dc"
+    "thumbnail": "images/diseases/drop.webp"
   },
   {
     "commonName": "Dry bubble",
@@ -6793,11 +6399,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/dry-bubble.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/2b74786d-558d-4967-88e1-d31b084c57ef/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/2b74786d-558d-4967-88e1-d31b084c57ef/large",
-    "family": "Capparaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2904691"
+    "thumbnail": "images/diseases/dry-bubble.webp"
   },
   {
     "commonName": "Early Blight",
@@ -6971,9 +6573,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/early-blight.webp",
-    "family": "Ceratobasidiaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60026973"
+    "thumbnail": "images/diseases/early-blight.webp"
   },
   {
     "commonName": "Early blight / Target spot",
@@ -6991,9 +6591,7 @@ window.diseasesRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/diseases/early-blight-target-spot.webp",
-    "family": "Ceratobasidiaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60026973"
+    "thumbnail": "images/diseases/early-blight-target-spot.webp"
   },
   {
     "commonName": "Early Blight or Target Spot",
@@ -7011,9 +6609,7 @@ window.diseasesRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/diseases/early-blight-or-target-spot.webp",
-    "family": "Ceratobasidiaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60026973"
+    "thumbnail": "images/diseases/early-blight-or-target-spot.webp"
   },
   {
     "commonName": "Early Leaf Spot",
@@ -7076,7 +6672,7 @@ window.diseasesRegistry = [
   },
   {
     "commonName": "Elsinoe Ampelina",
-    "scientificName": "Elsinoe ampelina",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Grapes — Black Spot"
@@ -7095,11 +6691,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/elsinoe-ampelina.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/6cf09864-d6ea-4be6-a033-ebeaf8699e62/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/6cf09864-d6ea-4be6-a033-ebeaf8699e62/large",
-    "family": "Elsinoaceae",
-    "alaUrl": "https://bie.ala.org.au/species/NZOR-6-15326"
+    "thumbnail": "images/diseases/elsinoe-ampelina.webp"
   },
   {
     "commonName": "Emperor brown spot",
@@ -7149,11 +6741,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/emperor-brown-spot.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/b0936a49-8f31-4de8-a400-6279166e3caa/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/b0936a49-8f31-4de8-a400-6279166e3caa/large",
-    "family": "LETHRINIDAE",
-    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/3ee413b1-e766-4be8-b641-31bdb6358f46"
+    "thumbnail": "images/diseases/emperor-brown-spot.webp"
   },
   {
     "commonName": "Erinose mite",
@@ -7199,15 +6787,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/eye-spot.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/912c00d6-cd7a-487f-a8dd-cd04735fac14/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/912c00d6-cd7a-487f-a8dd-cd04735fac14/large",
-    "family": "ACANTHURIDAE",
-    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/9b9fb729-8ba8-4dd6-8bd8-478c9cfb53a1"
+    "thumbnail": "images/diseases/eye-spot.webp"
   },
   {
     "commonName": "Faba Bean Rust",
-    "scientificName": "Faba",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Faba Beans and Broad Beans"
@@ -7226,12 +6810,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/faba-bean-rust.webp",
-    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/eb34efed-71c9-42ea-96b0-40c44feeb9fd"
+    "thumbnail": "images/diseases/faba-bean-rust.webp"
   },
   {
     "commonName": "Faba Beans",
-    "scientificName": "Faba",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Field Crops — Pulse Crops"
@@ -7250,8 +6833,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/faba-beans.webp",
-    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/eb34efed-71c9-42ea-96b0-40c44feeb9fd"
+    "thumbnail": "images/diseases/faba-beans.webp"
   },
   {
     "commonName": "Field Peas",
@@ -7320,15 +6902,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/flower-blight.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/6563b7c5-5a5d-4aa0-8e33-f076f621bf08/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/6563b7c5-5a5d-4aa0-8e33-f076f621bf08/large",
-    "family": "Goodeniaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51772200"
+    "thumbnail": "images/diseases/flower-blight.webp"
   },
   {
     "commonName": "Flower blight complex",
-    "scientificName": "Scaevola",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [],
     "symptoms": "",
@@ -7336,15 +6914,11 @@ window.diseasesRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Flower+blight+complex+plant+disease+australia",
     "linkedProducts": [],
-    "thumbnail": "images/diseases/flower-blight-complex.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/6563b7c5-5a5d-4aa0-8e33-f076f621bf08/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/6563b7c5-5a5d-4aa0-8e33-f076f621bf08/large",
-    "family": "Goodeniaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51772200"
+    "thumbnail": "images/diseases/flower-blight-complex.webp"
   },
   {
     "commonName": "Flower Blight Complex (Dry Flower",
-    "scientificName": "Scaevola",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Macadamia — Husk spot and flower blight control"
@@ -7363,11 +6937,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/flower-blight-complex-dry-flower.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/6563b7c5-5a5d-4aa0-8e33-f076f621bf08/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/6563b7c5-5a5d-4aa0-8e33-f076f621bf08/large",
-    "family": "Goodeniaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51772200"
+    "thumbnail": "images/diseases/flower-blight-complex-dry-flower.webp"
   },
   {
     "commonName": "Fly Speck",
@@ -7526,13 +7096,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/freckle.webp",
-    "family": "Botryosphaeriaceae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_1541"
+    "thumbnail": "images/diseases/freckle.webp"
   },
   {
     "commonName": "Freckle rust",
-    "scientificName": "Bogoria matutina",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Stone Fruits (Almonds, Apricots, Cherries, Nectarines, Peaches, Plums)"
@@ -7551,11 +7119,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/freckle-rust.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/ec54e2c8-bf3a-4a14-982d-d4f32ea4a152/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/ec54e2c8-bf3a-4a14-982d-d4f32ea4a152/large",
-    "family": "Orchidaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51794800"
+    "thumbnail": "images/diseases/freckle-rust.webp"
   },
   {
     "commonName": "Frog-eye leaf spot",
@@ -7614,7 +7178,7 @@ window.diseasesRegistry = [
   },
   {
     "commonName": "Fruit freckle and Black pit",
-    "scientificName": "Bogoria matutina",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Bananas"
@@ -7633,15 +7197,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/fruit-freckle-and-black-pit.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/ec54e2c8-bf3a-4a14-982d-d4f32ea4a152/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/ec54e2c8-bf3a-4a14-982d-d4f32ea4a152/large",
-    "family": "Orchidaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51794800"
+    "thumbnail": "images/diseases/fruit-freckle-and-black-pit.webp"
   },
   {
     "commonName": "Fruit Speckle",
-    "scientificName": "Hemiscyllium trispeculare",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Bananas",
@@ -7677,15 +7237,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/fruit-speckle.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/f3620fa1-20a8-44bf-a6ec-26cefb8f1e77/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/f3620fa1-20a8-44bf-a6ec-26cefb8f1e77/large",
-    "family": "HEMISCYLLIIDAE",
-    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/d3e963b3-815b-49bf-8fbb-4d5d4d865809"
+    "thumbnail": "images/diseases/fruit-speckle.webp"
   },
   {
     "commonName": "Fungal disease control",
-    "scientificName": "Ophidiomyces ophiicola",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Cut Flowers, Nursery Stock, Ornamentals",
@@ -7713,13 +7269,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/fungal-disease-control.webp",
-    "family": "Onygenaceae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_2133"
+    "thumbnail": "images/diseases/fungal-disease-control.webp"
   },
   {
     "commonName": "Fungal Diseases",
-    "scientificName": "Ophidiomyces ophiicola",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Blueberries — Anthracnose (PER84176)",
@@ -7828,9 +7382,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/fungal-diseases.webp",
-    "family": "Onygenaceae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_2133"
+    "thumbnail": "images/diseases/fungal-diseases.webp"
   },
   {
     "commonName": "Fungal leaf spots including Peacock spot",
@@ -7853,11 +7405,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/fungal-leaf-spots-including-peacock-spot.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/d885d9d6-b34a-4000-8679-b9893cad64e0/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/d885d9d6-b34a-4000-8679-b9893cad64e0/large",
-    "family": "SERRANIDAE",
-    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/de41e67a-df09-4687-a2fe-4ede571d6953"
+    "thumbnail": "images/diseases/fungal-leaf-spots-including-peacock-spot.webp"
   },
   {
     "commonName": "Fungal post-harvest rots",
@@ -7869,13 +7417,11 @@ window.diseasesRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Fungal+post-harvest+rots+plant+disease+australia",
     "linkedProducts": [],
-    "thumbnail": "images/diseases/fungal-post-harvest-rots.webp",
-    "family": "Onygenaceae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_2133"
+    "thumbnail": "images/diseases/fungal-post-harvest-rots.webp"
   },
   {
     "commonName": "Fungal Rots",
-    "scientificName": "Ophidiomyces ophiicola",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Chestnuts — Post-harvest (PER83636)"
@@ -7894,13 +7440,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/fungal-rots.webp",
-    "family": "Onygenaceae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_2133"
+    "thumbnail": "images/diseases/fungal-rots.webp"
   },
   {
     "commonName": "Fusarium",
-    "scientificName": "Fusarium epithele",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Recreational Turf — Fusarium Patch",
@@ -7944,13 +7488,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/fusarium.webp",
-    "family": "Nectriaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60020732"
+    "thumbnail": "images/diseases/fusarium.webp"
   },
   {
     "commonName": "Fusarium blight",
-    "scientificName": "Fusarium epithele",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Basil"
@@ -7969,13 +7511,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/fusarium-blight.webp",
-    "family": "Nectriaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60020732"
+    "thumbnail": "images/diseases/fusarium-blight.webp"
   },
   {
     "commonName": "Fusarium Culmorum",
-    "scientificName": "Fusarium culmorum",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Recreational Turf — Brown Patch (Vic)"
@@ -7994,13 +7534,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/fusarium-culmorum.webp",
-    "family": "Nectriaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60020727"
+    "thumbnail": "images/diseases/fusarium-culmorum.webp"
   },
   {
     "commonName": "Fusarium Nivale",
-    "scientificName": "Fusarium epithele",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Recreational Turf — Fusarium Patch"
@@ -8019,13 +7557,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/fusarium-nivale.webp",
-    "family": "Nectriaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60020732"
+    "thumbnail": "images/diseases/fusarium-nivale.webp"
   },
   {
     "commonName": "Fusarium patch",
-    "scientificName": "Fusarium epithele",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Recreational Turf — Fusarium Patch",
@@ -8053,13 +7589,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/fusarium-patch.webp",
-    "family": "Nectriaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60020732"
+    "thumbnail": "images/diseases/fusarium-patch.webp"
   },
   {
     "commonName": "Fusarium seed piece decay",
-    "scientificName": "Fusarium epithele",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Vegetables — Potatoes"
@@ -8078,13 +7612,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/fusarium-seed-piece-decay.webp",
-    "family": "Nectriaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60020732"
+    "thumbnail": "images/diseases/fusarium-seed-piece-decay.webp"
   },
   {
     "commonName": "Gloeosporium",
-    "scientificName": "Gloeosporium glaucum",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Pome Fruit — Post-harvest Dipping"
@@ -8103,13 +7635,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/gloeosporium.webp",
-    "family": "Dermateaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60019406"
+    "thumbnail": "images/diseases/gloeosporium.webp"
   },
   {
     "commonName": "Gloeosporium Fruit Rot",
-    "scientificName": "Gloeosporium glaucum",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Strawberries — Grey Mould"
@@ -8128,13 +7658,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/gloeosporium-fruit-rot.webp",
-    "family": "Dermateaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60019406"
+    "thumbnail": "images/diseases/gloeosporium-fruit-rot.webp"
   },
   {
     "commonName": "Grapeleaf Blister Mite",
-    "scientificName": "Rhadinothamnus anceps",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Grapes (Table Grapes, Fruit for Drying) — Mites and Powdery Mildew",
@@ -8155,15 +7683,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/grapeleaf_blister_mite.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/a396697c-6ac8-439d-b23b-490d2c3cc5ed/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/a396697c-6ac8-439d-b23b-490d2c3cc5ed/large",
-    "family": "Rutaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2888230"
+    "thumbnail": "images/diseases/grapeleaf_blister_mite.webp"
   },
   {
     "commonName": "Grease spot",
-    "scientificName": "Hernandia bivalvis",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Passionfruit"
@@ -8182,11 +7706,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/grease-spot.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/cc2520f9-bec2-4423-ae57-2985780b0bc4/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/cc2520f9-bec2-4423-ae57-2985780b0bc4/large",
-    "family": "Hernandiaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2902805"
+    "thumbnail": "images/diseases/grease-spot.webp"
   },
   {
     "commonName": "Green mould",
@@ -8231,7 +7751,7 @@ window.diseasesRegistry = [
   },
   {
     "commonName": "Green Mould — Storage Decays",
-    "scientificName": "Syndesus cornutus",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Citrus — Post-Harvest (Water Treatment)",
@@ -8252,11 +7772,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/green-mould-storage-decays.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/5d107088-63b6-4868-bec5-4c8dd5d71703/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/5d107088-63b6-4868-bec5-4c8dd5d71703/large",
-    "family": "LUCANIDAE",
-    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/5aa9bdf4-17a1-4c19-9024-aa47b8d702c3"
+    "thumbnail": "images/diseases/green-mould-storage-decays.webp"
   },
   {
     "commonName": "Grey leaf spot",
@@ -8647,9 +8163,7 @@ window.diseasesRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/diseases/grey-mould-botrytis.webp",
-    "family": "Sclerotiniaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60019810"
+    "thumbnail": "images/diseases/grey-mould-botrytis.webp"
   },
   {
     "commonName": "Grey mould / Gloeosporium fruit rot",
@@ -8693,13 +8207,11 @@ window.diseasesRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/diseases/grey-mould-gloeosporium-fruit-rot.webp",
-    "family": "Dermateaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60019406"
+    "thumbnail": "images/diseases/grey-mould-gloeosporium-fruit-rot.webp"
   },
   {
     "commonName": "Grey mould and Anthracnose",
-    "scientificName": "Glomerella truncata",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Capsicum"
@@ -8718,9 +8230,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/grey-mould-and-anthracnose.webp",
-    "family": "Glomerellaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60021387"
+    "thumbnail": "images/diseases/grey-mould-and-anthracnose.webp"
   },
   {
     "commonName": "Gummy Stem Blight",
@@ -8860,9 +8370,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/gummy-stem-blight.webp",
-    "family": "Ceratobasidiaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60026973"
+    "thumbnail": "images/diseases/gummy-stem-blight.webp"
   },
   {
     "commonName": "Gummy stem blight known as Didymella bryoniae",
@@ -8874,8 +8382,7 @@ window.diseasesRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Gummy+stem+blight+known+as+Didymella+bryoniae+plant+disease+australia",
     "linkedProducts": [],
-    "thumbnail": "images/diseases/gummy-stem-blight-known-as-didymella-bryoniae.webp",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60017850"
+    "thumbnail": "images/diseases/gummy-stem-blight-known-as-didymella-bryoniae.webp"
   },
   {
     "commonName": "Halo blight",
@@ -8934,9 +8441,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/halo-blight.webp",
-    "family": "Ceratobasidiaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60026973"
+    "thumbnail": "images/diseases/halo-blight.webp"
   },
   {
     "commonName": "Heart Rot and Root Rot",
@@ -8963,7 +8468,7 @@ window.diseasesRegistry = [
   },
   {
     "commonName": "Helminthosporium",
-    "scientificName": "Helminthosporium densum",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Recreational Turf — Helminthosporium Disease",
@@ -9009,13 +8514,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/helminthosporium.webp",
-    "family": "Massarinaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60018020"
+    "thumbnail": "images/diseases/helminthosporium.webp"
   },
   {
     "commonName": "Helminthosporium Disease",
-    "scientificName": "Fiji disease virus",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [],
     "symptoms": "",
@@ -9023,13 +8526,11 @@ window.diseasesRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Helminthosporium+Disease+plant+disease+australia",
     "linkedProducts": [],
-    "thumbnail": "images/diseases/helminthosporium-disease.webp",
-    "family": "Reoviridae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_267"
+    "thumbnail": "images/diseases/helminthosporium-disease.webp"
   },
   {
     "commonName": "Helminthosporium leaf spot",
-    "scientificName": "Helminthosporium densum",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Turf"
@@ -9048,9 +8549,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/helminthosporium-leaf-spot.webp",
-    "family": "Massarinaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60018020"
+    "thumbnail": "images/diseases/helminthosporium-leaf-spot.webp"
   },
   {
     "commonName": "Hull rot",
@@ -9186,7 +8685,7 @@ window.diseasesRegistry = [
   },
   {
     "commonName": "Hyaloperonospora Parasitica",
-    "scientificName": "Togninia parasitica",
+    "scientificName": "",
     "diseaseType": "Oomycete",
     "cropsAffected": [
       "Leafy Vegetables, Head Lettuce & Brassica Leafy Veg — Downy Mildew"
@@ -9205,9 +8704,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/hyaloperonospora-parasitica.webp",
-    "family": "Togniniaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60021318"
+    "thumbnail": "images/diseases/hyaloperonospora-parasitica.webp"
   },
   {
     "commonName": "Hypocotyl Rot",
@@ -9234,7 +8731,7 @@ window.diseasesRegistry = [
   },
   {
     "commonName": "Irish Blight",
-    "scientificName": "Thanatephorus cucumeris",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Vegetables — Potatoes, Red Beet, Rhubarb, Silver Beet, Spinach",
@@ -9255,9 +8752,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/irish-blight.webp",
-    "family": "Ceratobasidiaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60026973"
+    "thumbnail": "images/diseases/irish-blight.webp"
   },
   {
     "commonName": "Irish blight / Late blight",
@@ -9282,9 +8777,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/irish-blight-late-blight.webp",
-    "family": "Ceratobasidiaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60026973"
+    "thumbnail": "images/diseases/irish-blight-late-blight.webp"
   },
   {
     "commonName": "Kiwifruit",
@@ -9311,7 +8804,7 @@ window.diseasesRegistry = [
   },
   {
     "commonName": "Late (Irish) Blight",
-    "scientificName": "Thanatephorus cucumeris",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Potatoes — Early and late blight control"
@@ -9330,9 +8823,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/late-irish-blight.webp",
-    "family": "Ceratobasidiaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60026973"
+    "thumbnail": "images/diseases/late-irish-blight.webp"
   },
   {
     "commonName": "Late Blight",
@@ -9460,9 +8951,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/late-blight.webp",
-    "family": "Ceratobasidiaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60026973"
+    "thumbnail": "images/diseases/late-blight.webp"
   },
   {
     "commonName": "Late blight / Irish blight",
@@ -9474,9 +8963,7 @@ window.diseasesRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Late+blight+/+Irish+blight+plant+disease+australia",
     "linkedProducts": [],
-    "thumbnail": "images/diseases/late-blight-irish-blight.webp",
-    "family": "Ceratobasidiaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60026973"
+    "thumbnail": "images/diseases/late-blight-irish-blight.webp"
   },
   {
     "commonName": "Late Blight or Irish Blight",
@@ -9488,9 +8975,7 @@ window.diseasesRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Late+Blight+or+Irish+Blight+plant+disease+australia",
     "linkedProducts": [],
-    "thumbnail": "images/diseases/late-blight-or-irish-blight.webp",
-    "family": "Ceratobasidiaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60026973"
+    "thumbnail": "images/diseases/late-blight-or-irish-blight.webp"
   },
   {
     "commonName": "Late Leaf Spot",
@@ -9553,7 +9038,7 @@ window.diseasesRegistry = [
   },
   {
     "commonName": "Leaf Blight",
-    "scientificName": "Calonectria brassicae",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Carrots — Leaf Blight control",
@@ -9627,13 +9112,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/leaf-blight.webp",
-    "family": "Nectriaceae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_755"
+    "thumbnail": "images/diseases/leaf-blight.webp"
   },
   {
     "commonName": "Leaf Blotch",
-    "scientificName": "Cladosporium allii-cepae",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Strawberries"
@@ -9652,9 +9135,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/leaf-blotch.webp",
-    "family": "Davidiellaceae",
-    "alaUrl": "https://bie.ala.org.au/species/NZOR-6-28390"
+    "thumbnail": "images/diseases/leaf-blotch.webp"
   },
   {
     "commonName": "Leaf curl",
@@ -9728,13 +9209,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/leaf-curl.webp",
-    "family": "Geminiviridae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_648"
+    "thumbnail": "images/diseases/leaf-curl.webp"
   },
   {
     "commonName": "Leaf Disease",
-    "scientificName": "Cherry twisted leaf disease",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Okra — Leaf Disease/Spot control"
@@ -9753,22 +9232,18 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/leaf-disease.webp",
-    "family": "Betaflexiviridae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_445"
+    "thumbnail": "images/diseases/leaf-disease.webp"
   },
   {
     "commonName": "Leaf Disease/Spot",
-    "scientificName": "Fiji disease virus",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [],
     "symptoms": "",
     "favourableConditions": "",
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Leaf+Disease/Spot+plant+disease+australia",
-    "linkedProducts": [],
-    "family": "Reoviridae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_267"
+    "linkedProducts": []
   },
   {
     "commonName": "Leaf Mould",
@@ -9867,11 +9342,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/leaf-rust.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/1cd9d5ce-7cae-4462-b8ad-e09f2bd28008/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/1cd9d5ce-7cae-4462-b8ad-e09f2bd28008/large",
-    "family": "Phakopsoraceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60031216"
+    "thumbnail": "images/diseases/leaf-rust.webp"
   },
   {
     "commonName": "Leaf Smut",
@@ -9995,11 +9466,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/leaf-speckle.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/f3620fa1-20a8-44bf-a6ec-26cefb8f1e77/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/f3620fa1-20a8-44bf-a6ec-26cefb8f1e77/large",
-    "family": "HEMISCYLLIIDAE",
-    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/d3e963b3-815b-49bf-8fbb-4d5d4d865809"
+    "thumbnail": "images/diseases/leaf-speckle.webp"
   },
   {
     "commonName": "Leaf spot",
@@ -10159,15 +9626,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/leaf-spot.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/030410de-5e83-484f-8ee6-b3e4cb34225d/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/030410de-5e83-484f-8ee6-b3e4cb34225d/large",
-    "family": "Mycosphaerellaceae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_2564"
+    "thumbnail": "images/diseases/leaf-spot.webp"
   },
   {
     "commonName": "Leaf Spot (Alternaria",
-    "scientificName": "Alternaria cucumerina",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Root & Tuber Vegetables — Beetroot, Carrots, Parsnips, Potatoes"
@@ -10186,9 +9649,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/leaf-spot-alternaria.webp",
-    "family": "Pleosporaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60018158"
+    "thumbnail": "images/diseases/leaf-spot-alternaria.webp"
   },
   {
     "commonName": "Leaf spot / Sigatoka",
@@ -10211,13 +9672,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/leaf-spot-sigatoka.webp",
-    "family": "Mycosphaerellaceae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_2565"
+    "thumbnail": "images/diseases/leaf-spot-sigatoka.webp"
   },
   {
     "commonName": "Lemon",
-    "scientificName": "Citrus x limon",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [],
     "symptoms": "",
@@ -10225,11 +9684,7 @@ window.diseasesRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Lemon+plant+disease+australia",
     "linkedProducts": [],
-    "thumbnail": "images/diseases/lemon.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/4bbbfc2c-683d-43e1-9519-9224f6f7c9e0/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/4bbbfc2c-683d-43e1-9519-9224f6f7c9e0/large",
-    "family": "Rutaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2902695"
+    "thumbnail": "images/diseases/lemon.webp"
   },
   {
     "commonName": "Lemon — Scab",
@@ -10279,7 +9734,7 @@ window.diseasesRegistry = [
   },
   {
     "commonName": "Leptosphaeria",
-    "scientificName": "Leptosphaeria clavicarpa",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Recreational Turf — Spring Dead Spot (Leptosphaeria)"
@@ -10298,13 +9753,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/leptosphaeria.webp",
-    "family": "Leptosphaeriaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60017983"
+    "thumbnail": "images/diseases/leptosphaeria.webp"
   },
   {
     "commonName": "Leptosphaerulina",
-    "scientificName": "Leptosphaerulina queenslandica",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Lucerne"
@@ -10323,8 +9776,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/leptosphaerulina.webp",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60087654"
+    "thumbnail": "images/diseases/leptosphaerulina.webp"
   },
   {
     "commonName": "Leptosphaerulina Leaf Spot",
@@ -10347,12 +9799,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/leptosphaerulina-leaf-spot.webp",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60087654"
+    "thumbnail": "images/diseases/leptosphaerulina-leaf-spot.webp"
   },
   {
     "commonName": "Lettuce",
-    "scientificName": "Lactuca saligna",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [],
     "symptoms": "",
@@ -10360,15 +9811,11 @@ window.diseasesRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Lettuce+plant+disease+australia",
     "linkedProducts": [],
-    "thumbnail": "images/diseases/lettuce.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/28268f83-d4e1-4e85-916c-a85269bfb108/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/28268f83-d4e1-4e85-916c-a85269bfb108/large",
-    "family": "Asteraceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2889360"
+    "thumbnail": "images/diseases/lettuce.webp"
   },
   {
     "commonName": "Lettuce — Bacterial Leaf Spot",
-    "scientificName": "Lactuca saligna",
+    "scientificName": "",
     "diseaseType": "Bacterial",
     "cropsAffected": [
       "Vegetables — Lettuce, Onions, Parsnips, Peas"
@@ -10387,11 +9834,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/lettuce-bacterial-leaf-spot.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/28268f83-d4e1-4e85-916c-a85269bfb108/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/28268f83-d4e1-4e85-916c-a85269bfb108/large",
-    "family": "Asteraceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2889360"
+    "thumbnail": "images/diseases/lettuce-bacterial-leaf-spot.webp"
   },
   {
     "commonName": "Lettuce drop",
@@ -10414,11 +9857,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/lettuce-drop.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/28268f83-d4e1-4e85-916c-a85269bfb108/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/28268f83-d4e1-4e85-916c-a85269bfb108/large",
-    "family": "Asteraceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2889360"
+    "thumbnail": "images/diseases/lettuce-drop.webp"
   },
   {
     "commonName": "Lichens",
@@ -10445,7 +9884,7 @@ window.diseasesRegistry = [
   },
   {
     "commonName": "Litchi",
-    "scientificName": "Peronophythora litchii",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Phytophthora Stem Canker — Trunk/Stem Paint Application"
@@ -10464,9 +9903,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/litchi.webp",
-    "family": "Pythiaceae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_2289"
+    "thumbnail": "images/diseases/litchi.webp"
   },
   {
     "commonName": "Litchi pepper spot",
@@ -10489,9 +9926,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/litchi-pepper-spot.webp",
-    "family": "Pythiaceae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_2289"
+    "thumbnail": "images/diseases/litchi-pepper-spot.webp"
   },
   {
     "commonName": "Lucerne Leaf Spot",
@@ -10514,15 +9949,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/lucerne-leaf-spot.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/98f99c6b-4fc0-46a9-9fba-84b72d4ab936/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/98f99c6b-4fc0-46a9-9fba-84b72d4ab936/large",
-    "family": "Fabaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51771045"
+    "thumbnail": "images/diseases/lucerne-leaf-spot.webp"
   },
   {
     "commonName": "Lupins",
-    "scientificName": "Lupinus arboreus X polyphyllus",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Field Crops — Pulse Crops"
@@ -10541,9 +9972,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/lupins.webp",
-    "family": "Fabaceae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR30477_252"
+    "thumbnail": "images/diseases/lupins.webp"
   },
   {
     "commonName": "Lychee pepper spot",
@@ -10555,15 +9984,11 @@ window.diseasesRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Lychee+pepper+spot+plant+disease+australia",
     "linkedProducts": [],
-    "thumbnail": "images/diseases/lychee-pepper-spot.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/12a1759d-ae18-4e68-bb6d-7fae899b7b2c/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/12a1759d-ae18-4e68-bb6d-7fae899b7b2c/large",
-    "family": "Winteraceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2886263"
+    "thumbnail": "images/diseases/lychee-pepper-spot.webp"
   },
   {
     "commonName": "Macadamias",
-    "scientificName": "Macadamia",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Phytophthora Stem Canker — Trunk/Stem Paint Application"
@@ -10582,15 +10007,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/macadamias.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/af8a3399-4bfa-4363-bd76-c7269beccb18/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/af8a3399-4bfa-4363-bd76-c7269beccb18/large",
-    "family": "Proteaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2906884"
+    "thumbnail": "images/diseases/macadamias.webp"
   },
   {
     "commonName": "Macadamias — Anthracnose",
-    "scientificName": "Glomerella truncata",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Tree & Vine Crops — Macadamias, Mangoes, Nectarines, Peaches, Pears, Plums, Vines, Walnuts"
@@ -10609,13 +10030,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/macadamias-anthracnose.webp",
-    "family": "Glomerellaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60021387"
+    "thumbnail": "images/diseases/macadamias-anthracnose.webp"
   },
   {
     "commonName": "Macadamias — Husk Spot",
-    "scientificName": "Macrophoma macadamiae",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Tree & Vine Crops — Macadamias, Mangoes, Nectarines, Peaches, Pears, Plums, Vines, Walnuts"
@@ -10634,9 +10053,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/macadamias-husk-spot.webp",
-    "family": "Botryosphaeriaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60017493"
+    "thumbnail": "images/diseases/macadamias-husk-spot.webp"
   },
   {
     "commonName": "Mandarins",
@@ -10651,7 +10068,7 @@ window.diseasesRegistry = [
   },
   {
     "commonName": "Mandarins — Brown Spot",
-    "scientificName": "Penion mandarinus",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Tree & Vine Crops — Cherries, Citrus"
@@ -10670,15 +10087,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/mandarins-brown-spot.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/ac5b8480-7e96-4431-a66f-d3bd3692771a/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/ac5b8480-7e96-4431-a66f-d3bd3692771a/large",
-    "family": "AUSTROSIPHONIDAE",
-    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/c5c02d59-4ffa-44d8-b905-631e9510c6b5"
+    "thumbnail": "images/diseases/mandarins-brown-spot.webp"
   },
   {
     "commonName": "Mango seed weevil",
-    "scientificName": "Sternochetus mangiferae",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Mango"
@@ -10697,15 +10110,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/mango-seed-weevil.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/83ba6a23-4bc2-4127-b0ed-aa20648443ef/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/83ba6a23-4bc2-4127-b0ed-aa20648443ef/large",
-    "family": "CURCULIONIDAE",
-    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/c596a6e2-8465-4b94-b129-c01ebf300313"
+    "thumbnail": "images/diseases/mango-seed-weevil.webp"
   },
   {
     "commonName": "Mangoes — Anthracnose",
-    "scientificName": "Glomerella truncata",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Tree & Vine Crops — Macadamias, Mangoes, Nectarines, Peaches, Pears, Plums, Vines, Walnuts"
@@ -10724,13 +10133,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/mangoes-anthracnose.webp",
-    "family": "Glomerellaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60021387"
+    "thumbnail": "images/diseases/mangoes-anthracnose.webp"
   },
   {
     "commonName": "Mangoes — Bacterial Black Spot",
-    "scientificName": "Anigozanthos manglesii",
+    "scientificName": "",
     "diseaseType": "Bacterial",
     "cropsAffected": [
       "Tree & Vine Crops — Macadamias, Mangoes, Nectarines, Peaches, Pears, Plums, Vines, Walnuts"
@@ -10749,11 +10156,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/mangoes-bacterial-black-spot.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/443c45de-d290-4136-8d21-fc9ba1c5391f/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/443c45de-d290-4136-8d21-fc9ba1c5391f/large",
-    "family": "Haemodoraceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2900921"
+    "thumbnail": "images/diseases/mangoes-bacterial-black-spot.webp"
   },
   {
     "commonName": "Melanose",
@@ -10823,7 +10226,7 @@ window.diseasesRegistry = [
   },
   {
     "commonName": "Mildew",
-    "scientificName": "Podosphaera tridactyla",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Blueberries — Mildew (PER13958)"
@@ -10842,9 +10245,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/mildew.webp",
-    "family": "Erysiphaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60019334"
+    "thumbnail": "images/diseases/mildew.webp"
   },
   {
     "commonName": "Mint Rust",
@@ -10871,7 +10272,7 @@ window.diseasesRegistry = [
   },
   {
     "commonName": "Mites",
-    "scientificName": "CHELICERATA",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Grapevines",
@@ -10903,12 +10304,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/mites.webp",
-    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/9482d422-aed5-4059-ba23-7cd8dfca6fbf"
+    "thumbnail": "images/diseases/mites.webp"
   },
   {
     "commonName": "Monilinia",
-    "scientificName": "Monilinia fructicola",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Almonds"
@@ -10927,15 +10327,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/monilinia.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/e745aac3-a541-4672-8752-79e412c89497/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/e745aac3-a541-4672-8752-79e412c89497/large",
-    "family": "Sclerotiniaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60019823"
+    "thumbnail": "images/diseases/monilinia.webp"
   },
   {
     "commonName": "Monilinia Fructicola",
-    "scientificName": "Monilinia fructicola",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Stone Fruit — Orchard Spraying",
@@ -10956,15 +10352,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/monilinia-fructicola.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/e745aac3-a541-4672-8752-79e412c89497/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/e745aac3-a541-4672-8752-79e412c89497/large",
-    "family": "Sclerotiniaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60019823"
+    "thumbnail": "images/diseases/monilinia-fructicola.webp"
   },
   {
     "commonName": "Monilinia Laxa",
-    "scientificName": "Monilinia laxa",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Stone Fruit — Orchard Spraying",
@@ -10985,13 +10377,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/monilinia-laxa.webp",
-    "family": "Sclerotiniaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60019826"
+    "thumbnail": "images/diseases/monilinia-laxa.webp"
   },
   {
     "commonName": "Moss",
-    "scientificName": "Triquetrella papillata",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Citrus — Mites and Diseases"
@@ -11010,15 +10400,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/moss.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/f038317d-8def-4c68-b62d-ff2e04477b9b/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/f038317d-8def-4c68-b62d-ff2e04477b9b/large",
-    "family": "Pottiaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/ausmoss/10002228"
+    "thumbnail": "images/diseases/moss.webp"
   },
   {
     "commonName": "Myrtle Rust",
-    "scientificName": "Austropuccinia psidii",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Anise Myrtle, Lemon Myrtle, Oil Tea Tree",
@@ -11073,11 +10459,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/myrtle-rust.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/c4385af2-94f1-496d-b34f-32ceb0847fe9/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/c4385af2-94f1-496d-b34f-32ceb0847fe9/large",
-    "family": "Sphaerophragmiaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60130729"
+    "thumbnail": "images/diseases/myrtle-rust.webp"
   },
   {
     "commonName": "Neck Rot",
@@ -11183,15 +10565,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/net_blotch.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/8979dd72-5cf1-49e4-affe-333f97b8f8e3/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/8979dd72-5cf1-49e4-affe-333f97b8f8e3/large",
-    "family": "LETHRINIDAE",
-    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/e2469ab7-e6da-4bba-83d1-575aa5a815be"
+    "thumbnail": "images/diseases/net_blotch.webp"
   },
   {
     "commonName": "Net Blotch — High Disease Or Wet Weather",
-    "scientificName": "Nassella tenuissima",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Peanuts (South Qld and NSW only)"
@@ -11210,15 +10588,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/net-blotch-high-disease-or-wet-weather.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/bd03b01c-82d8-4377-9782-ebcc5a1ea0f8/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/bd03b01c-82d8-4377-9782-ebcc5a1ea0f8/large",
-    "family": "Poaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2920742"
+    "thumbnail": "images/diseases/net-blotch-high-disease-or-wet-weather.webp"
   },
   {
     "commonName": "Net Blotch — Low Disease Pressure",
-    "scientificName": "Fiji disease virus",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Peanuts (South Qld and NSW only)"
@@ -11237,13 +10611,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/net-blotch-low-disease-pressure.webp",
-    "family": "Reoviridae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_267"
+    "thumbnail": "images/diseases/net-blotch-low-disease-pressure.webp"
   },
   {
     "commonName": "Oats: Stem Rust",
-    "scientificName": "Avena sativa",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Barley, Oats, Wheat"
@@ -11262,11 +10634,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/oats-stem-rust.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/d44c7acc-518c-4fe0-a6b8-c5b83b9a392c/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/d44c7acc-518c-4fe0-a6b8-c5b83b9a392c/large",
-    "family": "Poaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2902086"
+    "thumbnail": "images/diseases/oats-stem-rust.webp"
   },
   {
     "commonName": "Onions",
@@ -11282,7 +10650,7 @@ window.diseasesRegistry = [
   },
   {
     "commonName": "Onions — Downy Mildew",
-    "scientificName": "Owenia cepiodora",
+    "scientificName": "",
     "diseaseType": "Oomycete",
     "cropsAffected": [
       "Vegetables — Lettuce, Onions, Parsnips, Peas"
@@ -11301,11 +10669,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/onions-downy-mildew.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/f70d0f15-020b-4619-8cb1-ae28c02ed496/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/f70d0f15-020b-4619-8cb1-ae28c02ed496/large",
-    "family": "Meliaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2896851"
+    "thumbnail": "images/diseases/onions-downy-mildew.webp"
   },
   {
     "commonName": "Orange Rust",
@@ -11330,13 +10694,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/orange-rust.webp",
-    "family": "Phragmidiaceae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_496"
+    "thumbnail": "images/diseases/orange-rust.webp"
   },
   {
     "commonName": "Papaya Fruit Rot",
-    "scientificName": "Carica papaya",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Papaya"
@@ -11355,11 +10717,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/papaya-fruit-rot.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/698360da-f64f-4d97-b15b-fecd8f2db16a/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/698360da-f64f-4d97-b15b-fecd8f2db16a/large",
-    "family": "Caricaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2916206"
+    "thumbnail": "images/diseases/papaya-fruit-rot.webp"
   },
   {
     "commonName": "Parasitic algae",
@@ -11400,9 +10758,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/parasitic-algae.webp",
-    "family": "Togniniaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60021318"
+    "thumbnail": "images/diseases/parasitic-algae.webp"
   },
   {
     "commonName": "Parsnips",
@@ -11418,7 +10774,7 @@ window.diseasesRegistry = [
   },
   {
     "commonName": "Parsnips — Leaf Spots",
-    "scientificName": "Trachymene ochracea",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Vegetables — Lettuce, Onions, Parsnips, Peas"
@@ -11437,15 +10793,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/parsnips-leaf-spots.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/7ff69b6a-eca1-489c-937c-5d934209debc/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/7ff69b6a-eca1-489c-937c-5d934209debc/large",
-    "family": "Araliaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2920102"
+    "thumbnail": "images/diseases/parsnips-leaf-spots.webp"
   },
   {
     "commonName": "Passionfruit",
-    "scientificName": "Passionfruit ringspot virus",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Phytophthora Stem Canker — Trunk/Stem Paint Application"
@@ -11464,13 +10816,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/passionfruit.webp",
-    "family": "Potyviridae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_2228"
+    "thumbnail": "images/diseases/passionfruit.webp"
   },
   {
     "commonName": "Peaches",
-    "scientificName": "Backyardiganvirus peaches",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Phytophthora Stem Canker — Trunk/Stem Paint Application"
@@ -11489,12 +10839,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/peaches.webp",
-    "alaUrl": "https://bie.ala.org.au/species/https://www.catalogueoflife.org/data/taxon/BX8VL"
+    "thumbnail": "images/diseases/peaches.webp"
   },
   {
     "commonName": "Peaches — Leaf Curl",
-    "scientificName": "LATIDAE",
+    "scientificName": "",
     "diseaseType": "Viral",
     "cropsAffected": [
       "Tree & Vine Crops — Macadamias, Mangoes, Nectarines, Peaches, Pears, Plums, Vines, Walnuts"
@@ -11513,11 +10862,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/peaches-leaf-curl.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/ea0567f0-8d0a-459b-be6c-b80d766a75a6/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/ea0567f0-8d0a-459b-be6c-b80d766a75a6/large",
-    "family": "LATIDAE",
-    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/a7bee1c1-f7d6-4ca1-849a-78c5c4d66d34"
+    "thumbnail": "images/diseases/peaches-leaf-curl.webp"
   },
   {
     "commonName": "Peanut Rust",
@@ -11540,9 +10885,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/peanut-rust.webp",
-    "family": "Virgaviridae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_2478"
+    "thumbnail": "images/diseases/peanut-rust.webp"
   },
   {
     "commonName": "Pear Scab",
@@ -11604,7 +10947,7 @@ window.diseasesRegistry = [
   },
   {
     "commonName": "Pears",
-    "scientificName": "Xylomelum",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [],
     "symptoms": "",
@@ -11612,11 +10955,7 @@ window.diseasesRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Pears+plant+disease+australia",
     "linkedProducts": [],
-    "thumbnail": "images/diseases/pears.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/8d2fb695-eb0b-442a-9d5b-14c49806257b/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/8d2fb695-eb0b-442a-9d5b-14c49806257b/large",
-    "family": "Proteaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51445587"
+    "thumbnail": "images/diseases/pears.webp"
   },
   {
     "commonName": "Pears — Black Spot",
@@ -11643,7 +10982,7 @@ window.diseasesRegistry = [
   },
   {
     "commonName": "Peas",
-    "scientificName": "Dillwynia",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [],
     "symptoms": "",
@@ -11651,15 +10990,11 @@ window.diseasesRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Peas+plant+disease+australia",
     "linkedProducts": [],
-    "thumbnail": "images/diseases/peas.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/84393406-81ef-4407-8b38-2dc349d34943/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/84393406-81ef-4407-8b38-2dc349d34943/large",
-    "family": "Fabaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51770336"
+    "thumbnail": "images/diseases/peas.webp"
   },
   {
     "commonName": "Peas — Ascochyta Blight",
-    "scientificName": "Ascochyta ovalispora",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Vegetables — Lettuce, Onions, Parsnips, Peas"
@@ -11678,8 +11013,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/peas-ascochyta-blight.webp",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60017836"
+    "thumbnail": "images/diseases/peas-ascochyta-blight.webp"
   },
   {
     "commonName": "Pecans",
@@ -11706,7 +11040,7 @@ window.diseasesRegistry = [
   },
   {
     "commonName": "Penicillium",
-    "scientificName": "Penicillium waksmanii",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Pome Fruit — Post-harvest Dipping"
@@ -11725,13 +11059,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/penicillium.webp",
-    "family": "Trichocomaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60018788"
+    "thumbnail": "images/diseases/penicillium.webp"
   },
   {
     "commonName": "Pepper spot",
-    "scientificName": "Tasmannia insipida",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Longan",
@@ -11817,11 +11149,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/pepper-spot.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/12a1759d-ae18-4e68-bb6d-7fae899b7b2c/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/12a1759d-ae18-4e68-bb6d-7fae899b7b2c/large",
-    "family": "Winteraceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2886263"
+    "thumbnail": "images/diseases/pepper-spot.webp"
   },
   {
     "commonName": "Peppery leaf spot",
@@ -11871,15 +11199,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/peppery-leaf-spot.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/12a1759d-ae18-4e68-bb6d-7fae899b7b2c/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/12a1759d-ae18-4e68-bb6d-7fae899b7b2c/large",
-    "family": "Winteraceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2886263"
+    "thumbnail": "images/diseases/peppery-leaf-spot.webp"
   },
   {
     "commonName": "Peronospora",
-    "scientificName": "Peronospora sparsa",
+    "scientificName": "",
     "diseaseType": "Oomycete",
     "cropsAffected": [
       "Beetroot — Downy Mildew"
@@ -11898,13 +11222,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/peronospora.webp",
-    "family": "Peronosporaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60016499"
+    "thumbnail": "images/diseases/peronospora.webp"
   },
   {
     "commonName": "Peronospora Belbahrii",
-    "scientificName": "Peronospora sparsa",
+    "scientificName": "",
     "diseaseType": "Oomycete",
     "cropsAffected": [
       "Basil (field grown) — Downy Mildew (PER89211)"
@@ -11923,13 +11245,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/peronospora-belbahrii.webp",
-    "family": "Peronosporaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60016499"
+    "thumbnail": "images/diseases/peronospora-belbahrii.webp"
   },
   {
     "commonName": "Peronospora Destructor",
-    "scientificName": "Peronospora destructor",
+    "scientificName": "",
     "diseaseType": "Oomycete",
     "cropsAffected": [
       "Bulb Vegetables — Downy Mildew"
@@ -11948,13 +11268,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/peronospora-destructor.webp",
-    "family": "Peronosporaceae",
-    "alaUrl": "https://bie.ala.org.au/species/NZOR-6-111177"
+    "thumbnail": "images/diseases/peronospora-destructor.webp"
   },
   {
     "commonName": "Peronospora Farinosa",
-    "scientificName": "Peronospora farinosa",
+    "scientificName": "",
     "diseaseType": "Oomycete",
     "cropsAffected": [
       "Leafy Vegetables, Head Lettuce & Brassica Leafy Veg — Downy Mildew"
@@ -11973,13 +11291,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/peronospora-farinosa.webp",
-    "family": "Peronosporaceae",
-    "alaUrl": "https://bie.ala.org.au/species/NZOR-6-132588"
+    "thumbnail": "images/diseases/peronospora-farinosa.webp"
   },
   {
     "commonName": "Peronospora Meconopsidis",
-    "scientificName": "Peronospora sparsa",
+    "scientificName": "",
     "diseaseType": "Oomycete",
     "cropsAffected": [
       "Poppies — Downy Mildew"
@@ -11998,13 +11314,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/peronospora-meconopsidis.webp",
-    "family": "Peronosporaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60016499"
+    "thumbnail": "images/diseases/peronospora-meconopsidis.webp"
   },
   {
     "commonName": "Phoma Rot",
-    "scientificName": "Phoma",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Tomatoes",
@@ -12040,14 +11354,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/phoma-rot.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/0d73266f-3dcd-44ff-b08c-ea34d42016d1/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/0d73266f-3dcd-44ff-b08c-ea34d42016d1/large",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60013982"
+    "thumbnail": "images/diseases/phoma-rot.webp"
   },
   {
     "commonName": "Phomopsis",
-    "scientificName": "Phomopsis berberina",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Berries — Suppression of Anthracnose, Phomopsis & Rhizopus Fruit Rot",
@@ -12075,9 +11386,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/phomopsis.webp",
-    "family": "Diaporthaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60021237"
+    "thumbnail": "images/diseases/phomopsis.webp"
   },
   {
     "commonName": "Phomopsis cane and leaf blight",
@@ -12100,13 +11409,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/phomopsis-cane-and-leaf-blight.webp",
-    "family": "Diaporthaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60021237"
+    "thumbnail": "images/diseases/phomopsis-cane-and-leaf-blight.webp"
   },
   {
     "commonName": "Phomopsis Cane and Leaf spot",
-    "scientificName": "Phomopsis berberina",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Grapevines",
@@ -12134,9 +11441,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/phomopsis-cane-and-leaf-spot.webp",
-    "family": "Diaporthaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60021237"
+    "thumbnail": "images/diseases/phomopsis-cane-and-leaf-spot.webp"
   },
   {
     "commonName": "Phomopsis fruit rot",
@@ -12148,9 +11453,7 @@ window.diseasesRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Phomopsis+fruit+rot+plant+disease+australia",
     "linkedProducts": [],
-    "thumbnail": "images/diseases/phomopsis-fruit-rot.webp",
-    "family": "Diaporthaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60021237"
+    "thumbnail": "images/diseases/phomopsis-fruit-rot.webp"
   },
   {
     "commonName": "Phytophthora",
@@ -12177,13 +11480,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/phytophthora.webp",
-    "family": "Peronosporaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60116264"
+    "thumbnail": "images/diseases/phytophthora.webp"
   },
   {
     "commonName": "Phytophthora — Suppression",
-    "scientificName": "Phytophthora gregata",
+    "scientificName": "",
     "diseaseType": "Oomycete",
     "cropsAffected": [
       "Almonds — Foliar Spray",
@@ -12204,13 +11505,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/phytophthora-suppression.webp",
-    "family": "Peronosporaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60116264"
+    "thumbnail": "images/diseases/phytophthora-suppression.webp"
   },
   {
     "commonName": "Phytophthora and oomycete diseases",
-    "scientificName": "Phytophthora gregata",
+    "scientificName": "",
     "diseaseType": "Oomycete",
     "cropsAffected": [
       "Other High-Value Crops"
@@ -12229,9 +11528,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/phytophthora-and-oomycete-diseases.webp",
-    "family": "Peronosporaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60116264"
+    "thumbnail": "images/diseases/phytophthora-and-oomycete-diseases.webp"
   },
   {
     "commonName": "Phytophthora Crown and Spear Rot",
@@ -12254,13 +11551,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/phytophthora-crown-and-spear-rot.webp",
-    "family": "Peronosporaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60116264"
+    "thumbnail": "images/diseases/phytophthora-crown-and-spear-rot.webp"
   },
   {
     "commonName": "Phytophthora Fruit Rot",
-    "scientificName": "Phytophthora gregata",
+    "scientificName": "",
     "diseaseType": "Oomycete",
     "cropsAffected": [
       "Strawberries — Phytophthora / Black Spot / Scorch"
@@ -12279,9 +11574,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/phytophthora-fruit-rot.webp",
-    "family": "Peronosporaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60116264"
+    "thumbnail": "images/diseases/phytophthora-fruit-rot.webp"
   },
   {
     "commonName": "Phytophthora Root and Crown Rot",
@@ -12304,9 +11597,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/phytophthora-root-and-crown-rot.webp",
-    "family": "Peronosporaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60116264"
+    "thumbnail": "images/diseases/phytophthora-root-and-crown-rot.webp"
   },
   {
     "commonName": "Phytophthora Root and Heart Rot",
@@ -12334,9 +11625,7 @@ window.diseasesRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/diseases/phytophthora-root-and-heart-rot.webp",
-    "family": "Peronosporaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60116264"
+    "thumbnail": "images/diseases/phytophthora-root-and-heart-rot.webp"
   },
   {
     "commonName": "Phytophthora Root Rot",
@@ -12383,13 +11672,11 @@ window.diseasesRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/diseases/phytophthora-root-rot.webp",
-    "family": "Peronosporaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60116264"
+    "thumbnail": "images/diseases/phytophthora-root-rot.webp"
   },
   {
     "commonName": "Phytophthora Root Rot - Curative",
-    "scientificName": "Phytophthora gregata",
+    "scientificName": "",
     "diseaseType": "Oomycete",
     "cropsAffected": [],
     "symptoms": "",
@@ -12397,13 +11684,11 @@ window.diseasesRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Phytophthora+Root+Rot+-+Curative+plant+disease+australia",
     "linkedProducts": [],
-    "thumbnail": "images/diseases/phytophthora-root-rot-curative.webp",
-    "family": "Peronosporaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60116264"
+    "thumbnail": "images/diseases/phytophthora-root-rot-curative.webp"
   },
   {
     "commonName": "Phytophthora Root Rot - Protective",
-    "scientificName": "Phytophthora gregata",
+    "scientificName": "",
     "diseaseType": "Oomycete",
     "cropsAffected": [],
     "symptoms": "",
@@ -12411,13 +11696,11 @@ window.diseasesRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Phytophthora+Root+Rot+-+Protective+plant+disease+australia",
     "linkedProducts": [],
-    "thumbnail": "images/diseases/phytophthora-root-rot-protective.webp",
-    "family": "Peronosporaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60116264"
+    "thumbnail": "images/diseases/phytophthora-root-rot-protective.webp"
   },
   {
     "commonName": "Phytophthora Root Rot - Replanting",
-    "scientificName": "Phytophthora gregata",
+    "scientificName": "",
     "diseaseType": "Oomycete",
     "cropsAffected": [],
     "symptoms": "",
@@ -12425,13 +11708,11 @@ window.diseasesRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Phytophthora+Root+Rot+-+Replanting+plant+disease+australia",
     "linkedProducts": [],
-    "thumbnail": "images/diseases/phytophthora-root-rot-replanting.webp",
-    "family": "Peronosporaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60116264"
+    "thumbnail": "images/diseases/phytophthora-root-rot-replanting.webp"
   },
   {
     "commonName": "Phytophthora Root Rot — Preventative Treatment Only",
-    "scientificName": "Phytophthora gregata",
+    "scientificName": "",
     "diseaseType": "Oomycete",
     "cropsAffected": [
       "Walnuts — Foliar Spray",
@@ -12452,13 +11733,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/phytophthora-root-rot-preventative-treatment-only.webp",
-    "family": "Peronosporaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60116264"
+    "thumbnail": "images/diseases/phytophthora-root-rot-preventative-treatment-only.webp"
   },
   {
     "commonName": "Phytophthora Root Rot + Collar Rot",
-    "scientificName": "Parascyllium collare",
+    "scientificName": "",
     "diseaseType": "Oomycete",
     "cropsAffected": [
       "Citrus (Mature) — Foliar Spray",
@@ -12479,15 +11758,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/phytophthora-root-rot-collar-rot.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/9afbb4ae-7897-48a6-9cc0-00d608605f33/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/9afbb4ae-7897-48a6-9cc0-00d608605f33/large",
-    "family": "PARASCYLLIIDAE",
-    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/792389cf-d857-4412-8e9f-a2232b194381"
+    "thumbnail": "images/diseases/phytophthora-root-rot-collar-rot.webp"
   },
   {
     "commonName": "Phytophthora Root Rot and Trunk Canker - Curative",
-    "scientificName": "Phytophthora mengei",
+    "scientificName": "",
     "diseaseType": "Oomycete",
     "cropsAffected": [],
     "symptoms": "",
@@ -12495,13 +11770,11 @@ window.diseasesRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Phytophthora+Root+Rot+and+Trunk+Canker+-+Curative+plant+disease+australia",
     "linkedProducts": [],
-    "thumbnail": "images/diseases/phytophthora-root-rot-and-trunk-canker-curative.webp",
-    "family": "Peronosporaceae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_2360"
+    "thumbnail": "images/diseases/phytophthora-root-rot-and-trunk-canker-curative.webp"
   },
   {
     "commonName": "Phytophthora Root Rot and Trunk Canker - Maintenance",
-    "scientificName": "Phytophthora mengei",
+    "scientificName": "",
     "diseaseType": "Oomycete",
     "cropsAffected": [],
     "symptoms": "",
@@ -12509,13 +11782,11 @@ window.diseasesRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Phytophthora+Root+Rot+and+Trunk+Canker+-+Maintenance+plant+disease+australia",
     "linkedProducts": [],
-    "thumbnail": "images/diseases/phytophthora-root-rot-and-trunk-canker-maintenance.webp",
-    "family": "Peronosporaceae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_2360"
+    "thumbnail": "images/diseases/phytophthora-root-rot-and-trunk-canker-maintenance.webp"
   },
   {
     "commonName": "Phytophthora Stem",
-    "scientificName": "Phytophthora gregata",
+    "scientificName": "",
     "diseaseType": "Oomycete",
     "cropsAffected": [
       "Lychee"
@@ -12534,13 +11805,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/phytophthora-stem.webp",
-    "family": "Peronosporaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60116264"
+    "thumbnail": "images/diseases/phytophthora-stem.webp"
   },
   {
     "commonName": "Phytophthora stem canker",
-    "scientificName": "Phytophthora mengei",
+    "scientificName": "",
     "diseaseType": "Oomycete",
     "cropsAffected": [
       "Avocados",
@@ -12600,13 +11869,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/phytophthora-stem-canker.webp",
-    "family": "Peronosporaceae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_2360"
+    "thumbnail": "images/diseases/phytophthora-stem-canker.webp"
   },
   {
     "commonName": "Phytophthora Stem Canker — Avocados",
-    "scientificName": "Persea americana",
+    "scientificName": "",
     "diseaseType": "Oomycete",
     "cropsAffected": [
       "Phytophthora Stem Canker — Trunk/Stem Paint Application"
@@ -12625,11 +11892,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/phytophthora-stem-canker-avocados.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/a54836a6-3634-4f43-a5d8-6d31688ae612/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/a54836a6-3634-4f43-a5d8-6d31688ae612/large",
-    "family": "Lauraceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2897849"
+    "thumbnail": "images/diseases/phytophthora-stem-canker-avocados.webp"
   },
   {
     "commonName": "Phytophthora Trunk and Root Canker",
@@ -12657,9 +11920,7 @@ window.diseasesRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/diseases/phytophthora-trunk-and-root-canker.webp",
-    "family": "Peronosporaceae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_2360"
+    "thumbnail": "images/diseases/phytophthora-trunk-and-root-canker.webp"
   },
   {
     "commonName": "Phytophthora Trunk Canker",
@@ -12688,13 +11949,11 @@ window.diseasesRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/diseases/phytophthora-trunk-canker.webp",
-    "family": "Peronosporaceae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_2360"
+    "thumbnail": "images/diseases/phytophthora-trunk-canker.webp"
   },
   {
     "commonName": "Phytophthora Trunk Rot",
-    "scientificName": "Phytophthora gregata",
+    "scientificName": "",
     "diseaseType": "Oomycete",
     "cropsAffected": [
       "Peaches"
@@ -12713,9 +11972,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/phytophthora-trunk-rot.webp",
-    "family": "Peronosporaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60116264"
+    "thumbnail": "images/diseases/phytophthora-trunk-rot.webp"
   },
   {
     "commonName": "Pineapple Disease",
@@ -12786,11 +12043,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/pineapple-disease.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/3af7e799-4602-4255-b56e-29fb0efcb2e5/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/3af7e799-4602-4255-b56e-29fb0efcb2e5/large",
-    "family": "Zamiaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51448903"
+    "thumbnail": "images/diseases/pineapple-disease.webp"
   },
   {
     "commonName": "Pink Disease",
@@ -12813,9 +12066,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/pink-disease.webp",
-    "family": "Reoviridae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_267"
+    "thumbnail": "images/diseases/pink-disease.webp"
   },
   {
     "commonName": "Pink limb blight",
@@ -12856,9 +12107,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/pink-limb-blight.webp",
-    "family": "Ceratobasidiaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60026973"
+    "thumbnail": "images/diseases/pink-limb-blight.webp"
   },
   {
     "commonName": "Pink Rot",
@@ -12958,7 +12207,7 @@ window.diseasesRegistry = [
   },
   {
     "commonName": "Post-harvest Rots",
-    "scientificName": "OPILIONES",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Rockmelons"
@@ -12977,10 +12226,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/post-harvest-rots.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/44cbc912-6f60-46c6-9d69-d80681f40a9f/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/44cbc912-6f60-46c6-9d69-d80681f40a9f/large",
-    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/69ce8166-070a-49ea-a3fa-f0a4614e0b7a"
+    "thumbnail": "images/diseases/post-harvest-rots.webp"
   },
   {
     "commonName": "Postharvest moulds",
@@ -13003,13 +12249,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/postharvest-moulds.webp",
-    "family": "PHASMATIDAE",
-    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/fbdd9019-225d-440e-a244-0f70351aedc2"
+    "thumbnail": "images/diseases/postharvest-moulds.webp"
   },
   {
     "commonName": "Potatoes — Target Spot",
-    "scientificName": "Cryptocentrus strigilliceps",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Vegetables — Potatoes, Red Beet, Rhubarb, Silver Beet, Spinach"
@@ -13028,11 +12272,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/potatoes-target-spot.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/f4165bfd-0e01-4e43-8dd2-f7b8f0bf6c17/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/f4165bfd-0e01-4e43-8dd2-f7b8f0bf6c17/large",
-    "family": "GOBIIDAE",
-    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/4921eef0-976e-4e16-9ea1-79446338e89d"
+    "thumbnail": "images/diseases/potatoes-target-spot.webp"
   },
   {
     "commonName": "Powdery Mildew",
@@ -13427,13 +12667,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/powdery-mildew.webp",
-    "family": "Erysiphaceae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_1417"
+    "thumbnail": "images/diseases/powdery-mildew.webp"
   },
   {
     "commonName": "Powdery Mildew — Suppression Only",
-    "scientificName": "Fibroidium tingitaninum",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Carrots"
@@ -13452,13 +12690,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/powdery-mildew-suppression-only.webp",
-    "family": "Erysiphaceae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_1417"
+    "thumbnail": "images/diseases/powdery-mildew-suppression-only.webp"
   },
   {
     "commonName": "Powdery Mildew (severe",
-    "scientificName": "Fibroidium tingitaninum",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [],
     "symptoms": "",
@@ -13466,13 +12702,11 @@ window.diseasesRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Powdery+Mildew+(severe+plant+disease+australia",
     "linkedProducts": [],
-    "thumbnail": "images/diseases/powdery-mildew-severe.webp",
-    "family": "Erysiphaceae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_1417"
+    "thumbnail": "images/diseases/powdery-mildew-severe.webp"
   },
   {
     "commonName": "Powdery Mildew (standard",
-    "scientificName": "Fibroidium tingitaninum",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [],
     "symptoms": "",
@@ -13480,13 +12714,11 @@ window.diseasesRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Powdery+Mildew+(standard+plant+disease+australia",
     "linkedProducts": [],
-    "thumbnail": "images/diseases/powdery-mildew-standard.webp",
-    "family": "Erysiphaceae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_1417"
+    "thumbnail": "images/diseases/powdery-mildew-standard.webp"
   },
   {
     "commonName": "Powdery Mildew of Apples",
-    "scientificName": "Fibroidium tingitaninum",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [],
     "symptoms": "",
@@ -13494,9 +12726,7 @@ window.diseasesRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Powdery+Mildew+of+Apples+plant+disease+australia",
     "linkedProducts": [],
-    "thumbnail": "images/diseases/powdery-mildew-of-apples.webp",
-    "family": "Erysiphaceae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_1417"
+    "thumbnail": "images/diseases/powdery-mildew-of-apples.webp"
   },
   {
     "commonName": "Powdery mildew of capsicum",
@@ -13508,9 +12738,7 @@ window.diseasesRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Powdery+mildew+of+capsicum+plant+disease+australia",
     "linkedProducts": [],
-    "thumbnail": "images/diseases/powdery-mildew-of-capsicum.webp",
-    "family": "Erysiphaceae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_1417"
+    "thumbnail": "images/diseases/powdery-mildew-of-capsicum.webp"
   },
   {
     "commonName": "Powdery mildew of tomato",
@@ -13522,13 +12750,11 @@ window.diseasesRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Powdery+mildew+of+tomato+plant+disease+australia",
     "linkedProducts": [],
-    "thumbnail": "images/diseases/powdery-mildew-of-tomato.webp",
-    "family": "Erysiphaceae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_1417"
+    "thumbnail": "images/diseases/powdery-mildew-of-tomato.webp"
   },
   {
     "commonName": "Powdery Mildew; Oats: Crown Rust; Wheat: Leaf Rust",
-    "scientificName": "Phakopsora euvitis",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Barley, Oats, Wheat"
@@ -13547,11 +12773,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/powdery-mildew-oats-crown-rust-wheat-leaf-rust.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/1cd9d5ce-7cae-4462-b8ad-e09f2bd28008/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/1cd9d5ce-7cae-4462-b8ad-e09f2bd28008/large",
-    "family": "Phakopsoraceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60031216"
+    "thumbnail": "images/diseases/powdery-mildew-oats-crown-rust-wheat-leaf-rust.webp"
   },
   {
     "commonName": "Protective control of Apple Scab",
@@ -13588,8 +12810,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/prune-rust.webp",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_2552_0"
+    "thumbnail": "images/diseases/prune-rust.webp"
   },
   {
     "commonName": "PSA-Limited Claim",
@@ -13616,7 +12837,7 @@ window.diseasesRegistry = [
   },
   {
     "commonName": "Pseudocercospora Fruit Spot",
-    "scientificName": "Pseudocercospora trematis-orientalis",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Tree and Vine Crops — Custard Apples"
@@ -13643,13 +12864,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/pseudocercospora-fruit-spot.webp",
-    "family": "Mycosphaerellaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60017009"
+    "thumbnail": "images/diseases/pseudocercospora-fruit-spot.webp"
   },
   {
     "commonName": "Pseudoperonospora Cubensis",
-    "scientificName": "Psilocybe cubensis",
+    "scientificName": "",
     "diseaseType": "Oomycete",
     "cropsAffected": [
       "Cucurbits — Downy Mildew"
@@ -13668,11 +12887,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/pseudoperonospora-cubensis.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/928a258c-6a6c-4572-a16b-ae73706fbe62/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/928a258c-6a6c-4572-a16b-ae73706fbe62/large",
-    "family": "Strophariaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60025743"
+    "thumbnail": "images/diseases/pseudoperonospora-cubensis.webp"
   },
   {
     "commonName": "Purple Blotch",
@@ -13766,15 +12981,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/purple-blotch.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/f6180b6c-7267-441f-b45d-a6ac039acda1/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/f6180b6c-7267-441f-b45d-a6ac039acda1/large",
-    "family": "Orchidaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51441679"
+    "thumbnail": "images/diseases/purple-blotch.webp"
   },
   {
     "commonName": "Pythium",
-    "scientificName": "Pythium dissotocum",
+    "scientificName": "",
     "diseaseType": "Oomycete",
     "cropsAffected": [
       "Brassicas",
@@ -13806,13 +13017,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/pythium.webp",
-    "family": "Pythiaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60016532"
+    "thumbnail": "images/diseases/pythium.webp"
   },
   {
     "commonName": "Pythium and Phytophthora diseases",
-    "scientificName": "Pythium dissotocum",
+    "scientificName": "",
     "diseaseType": "Oomycete",
     "cropsAffected": [
       "Nursery stock (non-food)"
@@ -13831,13 +13040,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/pythium-and-phytophthora-diseases.webp",
-    "family": "Pythiaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60016532"
+    "thumbnail": "images/diseases/pythium-and-phytophthora-diseases.webp"
   },
   {
     "commonName": "Queensland Fruit Fly",
-    "scientificName": "Bactrocera (Bactrocera) tryoni",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Mango"
@@ -13856,15 +13063,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/queensland-fruit-fly.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/df1caa13-3a08-4ad8-820c-f15262449b8a/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/df1caa13-3a08-4ad8-820c-f15262449b8a/large",
-    "family": "TEPHRITIDAE",
-    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/70a0f154-399e-4e20-a2e1-0fb478a323da"
+    "thumbnail": "images/diseases/queensland-fruit-fly.webp"
   },
   {
     "commonName": "Raceme Blight",
-    "scientificName": "Thanatephorus cucumeris",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Macadamia — Husk spot and flower blight control"
@@ -13883,13 +13086,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/raceme-blight.webp",
-    "family": "Ceratobasidiaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60026973"
+    "thumbnail": "images/diseases/raceme-blight.webp"
   },
   {
     "commonName": "Ray blight",
-    "scientificName": "Thanatephorus cucumeris",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Pyrethrum"
@@ -13924,13 +13125,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/ray-blight.webp",
-    "family": "Ceratobasidiaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60026973"
+    "thumbnail": "images/diseases/ray-blight.webp"
   },
   {
     "commonName": "Ray Blight Disease",
-    "scientificName": "Fiji disease virus",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [],
     "symptoms": "",
@@ -13938,28 +13137,22 @@ window.diseasesRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Ray+Blight+Disease+plant+disease+australia",
     "linkedProducts": [],
-    "thumbnail": "images/diseases/ray_blight_disease.webp",
-    "family": "Reoviridae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_267"
+    "thumbnail": "images/diseases/ray_blight_disease.webp"
   },
   {
     "commonName": "Red Beet",
-    "scientificName": "Red",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [],
     "symptoms": "",
     "favourableConditions": "",
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Red+Beet+plant+disease+australia",
-    "linkedProducts": [],
-    "alaThumbnail": "https://images.ala.org.au/image/614730ee-da83-4f17-936d-252bab6a1e7b/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/614730ee-da83-4f17-936d-252bab6a1e7b/large",
-    "family": "Betaflexiviridae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_264_0"
+    "linkedProducts": []
   },
   {
     "commonName": "Red Beet — Downy Mildew",
-    "scientificName": "Podosphaera tridactyla",
+    "scientificName": "",
     "diseaseType": "Oomycete",
     "cropsAffected": [
       "Vegetables — Potatoes, Red Beet, Rhubarb, Silver Beet, Spinach"
@@ -13978,13 +13171,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/red-beet-downy-mildew.webp",
-    "family": "Erysiphaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60019334"
+    "thumbnail": "images/diseases/red-beet-downy-mildew.webp"
   },
   {
     "commonName": "Rhizoctonia",
-    "scientificName": "Rhizoctonia leguminicola",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Potatoes",
@@ -14038,13 +13229,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/rhizoctonia.webp",
-    "family": "Ceratobasidiaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60026971"
+    "thumbnail": "images/diseases/rhizoctonia.webp"
   },
   {
     "commonName": "Rhizopus",
-    "scientificName": "Rhizopus apiculatus",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Berries — Suppression of Anthracnose, Phomopsis & Rhizopus Fruit Rot",
@@ -14072,9 +13261,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/rhizopus.webp",
-    "family": "Rhizopodaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60032610"
+    "thumbnail": "images/diseases/rhizopus.webp"
   },
   {
     "commonName": "Rhizopus fruit rot",
@@ -14086,9 +13273,7 @@ window.diseasesRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Rhizopus+fruit+rot+plant+disease+australia",
     "linkedProducts": [],
-    "thumbnail": "images/diseases/rhizopus-fruit-rot.webp",
-    "family": "Rhizopodaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60032610"
+    "thumbnail": "images/diseases/rhizopus-fruit-rot.webp"
   },
   {
     "commonName": "Rhizopus rot",
@@ -14120,13 +13305,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/rhizopus-rot.webp",
-    "family": "Rhizopodaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60032610"
+    "thumbnail": "images/diseases/rhizopus-rot.webp"
   },
   {
     "commonName": "Rhubarb",
-    "scientificName": "Rumex sagittatus",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [],
     "symptoms": "",
@@ -14134,15 +13317,11 @@ window.diseasesRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Rhubarb+plant+disease+australia",
     "linkedProducts": [],
-    "thumbnail": "images/diseases/rhubarb.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/4075b030-2b55-419a-9ba6-fbe55b21d236/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/4075b030-2b55-419a-9ba6-fbe55b21d236/large",
-    "family": "Polygonaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51291710"
+    "thumbnail": "images/diseases/rhubarb.webp"
   },
   {
     "commonName": "Rhubarb — Crown Rot",
-    "scientificName": "Rumex sagittatus",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Vegetables — Potatoes, Red Beet, Rhubarb, Silver Beet, Spinach"
@@ -14161,15 +13340,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/rhubarb-crown-rot.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/4075b030-2b55-419a-9ba6-fbe55b21d236/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/4075b030-2b55-419a-9ba6-fbe55b21d236/large",
-    "family": "Polygonaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51291710"
+    "thumbnail": "images/diseases/rhubarb-crown-rot.webp"
   },
   {
     "commonName": "Rhubarb — Downy Mildew",
-    "scientificName": "Podosphaera tridactyla",
+    "scientificName": "",
     "diseaseType": "Oomycete",
     "cropsAffected": [
       "Vegetables — Potatoes, Red Beet, Rhubarb, Silver Beet, Spinach"
@@ -14188,9 +13363,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/rhubarb-downy-mildew.webp",
-    "family": "Erysiphaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60019334"
+    "thumbnail": "images/diseases/rhubarb-downy-mildew.webp"
   },
   {
     "commonName": "Ring spot",
@@ -14300,7 +13473,7 @@ window.diseasesRegistry = [
   },
   {
     "commonName": "Ring Spot; Cucurbits : Anthracnose",
-    "scientificName": "Glomerella truncata",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Vegetables — Cole Crops and Cucurbits"
@@ -14319,9 +13492,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/ring_spot_cucurbits_anthracnose.webp",
-    "family": "Glomerellaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60021387"
+    "thumbnail": "images/diseases/ring_spot_cucurbits_anthracnose.webp"
   },
   {
     "commonName": "Ripe Fruit Spot",
@@ -14392,11 +13563,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/root-rot.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/0af48977-09f6-4301-8ddd-050c8ca381bf/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/0af48977-09f6-4301-8ddd-050c8ca381bf/large",
-    "family": "Physalacriaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60024823"
+    "thumbnail": "images/diseases/root-rot.webp"
   },
   {
     "commonName": "Rust",
@@ -14633,11 +13800,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/rust.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/c4385af2-94f1-496d-b34f-32ceb0847fe9/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/c4385af2-94f1-496d-b34f-32ceb0847fe9/large",
-    "family": "Sphaerophragmiaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60130729"
+    "thumbnail": "images/diseases/rust.webp"
   },
   {
     "commonName": "Rust — Broadbeans",
@@ -14664,7 +13827,7 @@ window.diseasesRegistry = [
   },
   {
     "commonName": "Rust — Gladioli",
-    "scientificName": "Septoria gladioli",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Ornamentals — Diseases"
@@ -14691,13 +13854,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/rust-gladioli.webp",
-    "family": "Mycosphaerellaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60017090"
+    "thumbnail": "images/diseases/rust-gladioli.webp"
   },
   {
     "commonName": "Rust — Rhubarb",
-    "scientificName": "Rumex sagittatus",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Vegetables — Rhubarb, Spinach, Silverbeet, Beetroot"
@@ -14716,15 +13877,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/rust-rhubarb.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/4075b030-2b55-419a-9ba6-fbe55b21d236/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/4075b030-2b55-419a-9ba6-fbe55b21d236/large",
-    "family": "Polygonaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51291710"
+    "thumbnail": "images/diseases/rust-rhubarb.webp"
   },
   {
     "commonName": "Rust diseases",
-    "scientificName": "Fiji disease virus",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [],
     "symptoms": "",
@@ -14732,9 +13889,7 @@ window.diseasesRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Rust+diseases+plant+disease+australia",
     "linkedProducts": [],
-    "thumbnail": "images/diseases/rust-diseases.webp",
-    "family": "Reoviridae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_267"
+    "thumbnail": "images/diseases/rust-diseases.webp"
   },
   {
     "commonName": "Rust suppression",
@@ -14824,9 +13979,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/scab.webp",
-    "family": "Venturiaceae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_3092"
+    "thumbnail": "images/diseases/scab.webp"
   },
   {
     "commonName": "Scab or Freckle",
@@ -14849,11 +14002,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/scab-or-freckle.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/ec54e2c8-bf3a-4a14-982d-d4f32ea4a152/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/ec54e2c8-bf3a-4a14-982d-d4f32ea4a152/large",
-    "family": "Orchidaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51794800"
+    "thumbnail": "images/diseases/scab-or-freckle.webp"
   },
   {
     "commonName": "Scab/Freckle",
@@ -14880,7 +14029,7 @@ window.diseasesRegistry = [
   },
   {
     "commonName": "Scale insects",
-    "scientificName": "STERNORRHYNCHA",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Pome and Stone Fruit"
@@ -14899,8 +14048,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/scale-insects.webp",
-    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/90d810b2-bd24-4e5a-93b4-06006fc86b31"
+    "thumbnail": "images/diseases/scale-insects.webp"
   },
   {
     "commonName": "Sclerotina rot",
@@ -14918,13 +14066,11 @@ window.diseasesRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/diseases/sclerotina-rot.webp",
-    "family": "Sclerotiniaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60019831"
+    "thumbnail": "images/diseases/sclerotina-rot.webp"
   },
   {
     "commonName": "Sclerotinia",
-    "scientificName": "Sclerotinia bulborum",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Almonds",
@@ -14987,13 +14133,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/sclerotinia.webp",
-    "family": "Sclerotiniaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60019831"
+    "thumbnail": "images/diseases/sclerotinia.webp"
   },
   {
     "commonName": "Sclerotinia flower blight",
-    "scientificName": "Sclerotinia",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Pyrethrum"
@@ -15020,15 +14164,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/sclerotinia-flower-blight.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/e57bee82-180b-48d0-af62-7859e9c4f9ec/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/e57bee82-180b-48d0-af62-7859e9c4f9ec/large",
-    "family": "Sclerotiniaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60014504"
+    "thumbnail": "images/diseases/sclerotinia-flower-blight.webp"
   },
   {
     "commonName": "Sclerotinia Fructicola",
-    "scientificName": "Monilinia fructicola",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Stone Fruit (except Apricots)"
@@ -15047,15 +14187,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/sclerotinia-fructicola.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/e745aac3-a541-4672-8752-79e412c89497/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/e745aac3-a541-4672-8752-79e412c89497/large",
-    "family": "Sclerotiniaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60019823"
+    "thumbnail": "images/diseases/sclerotinia-fructicola.webp"
   },
   {
     "commonName": "Sclerotinia Homooeocarpa",
-    "scientificName": "Sclerotinia homoeocarpa",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Recreational Turf — Brown Patch / Dollar Spot"
@@ -15074,13 +14210,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/sclerotinia_homooeocarpa.webp",
-    "family": "Sclerotiniaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60019836"
+    "thumbnail": "images/diseases/sclerotinia_homooeocarpa.webp"
   },
   {
     "commonName": "Sclerotinia Laxa",
-    "scientificName": "Sclerotinia bulborum",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Stone Fruit (except Apricots)"
@@ -15099,13 +14233,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/sclerotinia-laxa.webp",
-    "family": "Sclerotiniaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60019831"
+    "thumbnail": "images/diseases/sclerotinia-laxa.webp"
   },
   {
     "commonName": "Sclerotinia Minor",
-    "scientificName": "Sclerotinia minor",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Lettuces",
@@ -15126,13 +14258,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/sclerotinia-minor.webp",
-    "family": "Sclerotiniaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60019837"
+    "thumbnail": "images/diseases/sclerotinia-minor.webp"
   },
   {
     "commonName": "Sclerotinia Rot",
-    "scientificName": "Sclerotinia bulborum",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Beans",
@@ -15218,13 +14348,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/sclerotinia-rot.webp",
-    "family": "Sclerotiniaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60019831"
+    "thumbnail": "images/diseases/sclerotinia-rot.webp"
   },
   {
     "commonName": "Sclerotinia Rot / White Mould",
-    "scientificName": "Sclerotinia bulborum",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [],
     "symptoms": "",
@@ -15232,13 +14360,11 @@ window.diseasesRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Sclerotinia+Rot+/+White+Mould+plant+disease+australia",
     "linkedProducts": [],
-    "thumbnail": "images/diseases/sclerotinia-rot-white-mould.webp",
-    "family": "Sclerotiniaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60019831"
+    "thumbnail": "images/diseases/sclerotinia-rot-white-mould.webp"
   },
   {
     "commonName": "Sclerotinia sclerotiorum",
-    "scientificName": "Sclerotinia sclerotiorum",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Celeriac (PER14353)",
@@ -15289,11 +14415,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/sclerotinia-sclerotiorum.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/00f96031-5acf-41ee-9e59-8b32e7e637d6/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/00f96031-5acf-41ee-9e59-8b32e7e637d6/large",
-    "family": "Sclerotiniaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60019838"
+    "thumbnail": "images/diseases/sclerotinia-sclerotiorum.webp"
   },
   {
     "commonName": "Scorch",
@@ -15325,15 +14447,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/scorch.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/c457c8aa-9715-4d94-8b13-43bb526c62ce/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/c457c8aa-9715-4d94-8b13-43bb526c62ce/large",
-    "family": "Phaeosphaeriaceae",
-    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_2832"
+    "thumbnail": "images/diseases/scorch.webp"
   },
   {
     "commonName": "Septoria",
-    "scientificName": "Septoria selenophomoides",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Lettuce",
@@ -15380,13 +14498,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/septoria.webp",
-    "family": "Mycosphaerellaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60017126"
+    "thumbnail": "images/diseases/septoria.webp"
   },
   {
     "commonName": "Septoria leaf blight or spot",
-    "scientificName": "Acanthococcus orariensis",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Vegetables — Lettuce"
@@ -15405,13 +14521,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/septoria-leaf-blight-or-spot.webp",
-    "family": "ERIOCOCCIDAE",
-    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/cb7c8540-5d33-4a28-a32b-e42e395c9abd"
+    "thumbnail": "images/diseases/septoria-leaf-blight-or-spot.webp"
   },
   {
     "commonName": "Septoria Leaf Blotch",
-    "scientificName": "Septoria selenophomoides",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Oats"
@@ -15430,13 +14544,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/septoria-leaf-blotch.webp",
-    "family": "Mycosphaerellaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60017126"
+    "thumbnail": "images/diseases/septoria-leaf-blotch.webp"
   },
   {
     "commonName": "Septoria leaf spot",
-    "scientificName": "Septoria selenophomoides",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Celery",
@@ -15557,13 +14669,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/septoria-leaf-spot.webp",
-    "family": "Mycosphaerellaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60017126"
+    "thumbnail": "images/diseases/septoria-leaf-spot.webp"
   },
   {
     "commonName": "Septoria Leaf Spot — Flowers",
-    "scientificName": "Septoria",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Ornamentals — Diseases"
@@ -15582,11 +14692,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/septoria-leaf-spot-flowers.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/7f0bf228-8d66-45be-a20b-9a0addd4eaf5/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/7f0bf228-8d66-45be-a20b-9a0addd4eaf5/large",
-    "family": "Mycosphaerellaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60013791"
+    "thumbnail": "images/diseases/septoria-leaf-spot-flowers.webp"
   },
   {
     "commonName": "Septoria Nodorum Blotch",
@@ -15618,11 +14724,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/septoria-nodorum-blotch.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/8979dd72-5cf1-49e4-affe-333f97b8f8e3/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/8979dd72-5cf1-49e4-affe-333f97b8f8e3/large",
-    "family": "LETHRINIDAE",
-    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/e2469ab7-e6da-4bba-83d1-575aa5a815be"
+    "thumbnail": "images/diseases/septoria-nodorum-blotch.webp"
   },
   {
     "commonName": "Septoria Spot",
@@ -15718,13 +14820,11 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/septoria-spot.webp",
-    "family": "Mycosphaerellaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60017126"
+    "thumbnail": "images/diseases/septoria-spot.webp"
   },
   {
     "commonName": "Septoria spot (Pumpkins",
-    "scientificName": "Cucurbita pepo",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [],
     "symptoms": "",
@@ -15732,11 +14832,7 @@ window.diseasesRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Septoria+spot+(Pumpkins+plant+disease+australia",
     "linkedProducts": [],
-    "thumbnail": "images/diseases/septoria-spot-pumpkins.webp",
-    "alaThumbnail": "https://images.ala.org.au/image/5c8d0481-4ea4-46be-a04e-37a5311d94f6/thumbnail",
-    "alaLargeImage": "https://images.ala.org.au/image/5c8d0481-4ea4-46be-a04e-37a5311d94f6/large",
-    "family": "Cucurbitaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2909084"
+    "thumbnail": "images/diseases/septoria-spot-pumpkins.webp"
   },
   {
     "commonName": "Septoria spot or late blight",
@@ -15748,13 +14844,11 @@ window.diseasesRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Septoria+spot+or+late+blight+plant+disease+australia",
     "linkedProducts": [],
-    "thumbnail": "images/diseases/septoria-spot-or-late-blight.webp",
-    "family": "ERIOCOCCIDAE",
-    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/cb7c8540-5d33-4a28-a32b-e42e395c9abd"
+    "thumbnail": "images/diseases/septoria-spot-or-late-blight.webp"
   },
   {
     "commonName": "Septoria Spot; Anthracnose",
-    "scientificName": "Glomerella truncata",
+    "scientificName": "",
     "diseaseType": "Fungal",
     "cropsAffected": [
       "Tree and Vine Crops — Passion Fruit"
@@ -15773,9 +14867,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/septoria-spot-anthracnose.webp",
-    "family": "Glomerellaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60021387"
+    "thumbnail": "images/diseases/septoria-spot-anthracnose.webp"
   },
   {
     "commonName": "Septoria Tritici Blotch",
@@ -15798,9 +14890,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/septoria-tritici-blotch.webp",
-    "family": "Pleosporaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60018435"
+    "thumbnail": "images/diseases/septoria-tritici-blotch.webp"
   },
   {
     "commonName": "Shoot Blight",
@@ -15832,9 +14922,7 @@ window.diseasesRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/diseases/shoot-blight.webp",
-    "family": "Ceratobasidiaceae",
-    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/fungi/60026973"
+    "thumbnail": "images/diseases/shoot-blight.webp"
   },
   {
     "commonName": "Shot Hole",
@@ -15850,4 +14938,2381 @@ window.diseasesRegistry = [
       "Plums",
       "Stone Fruits (Almonds, Apricots, Cherries, Nectarines, Peaches, Plums)",
       "Stone fruit",
-      "Tree and Vine Crops — Stone Fruits (Almonds, Apricots, Cherries, Necta
+      "Tree and Vine Crops — Stone Fruits (Almonds, Apricots, Cherries, Nectarines, Peaches, Plums)"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Shot+Hole+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "basfbelanty",
+        "productName": "BELANTY Fungicide",
+        "source": "label",
+        "crops": [
+          "Almonds — Blossom blight, brown rot, rust and shot hole control"
+        ]
+      },
+      {
+        "productId": "basfmerivon",
+        "productName": "MERIVON Fungicide",
+        "source": "label",
+        "crops": [
+          "Almond — Multiple disease control"
+        ]
+      },
+      {
+        "productId": "bravado720",
+        "productName": "Bravado® 720 Fungicide",
+        "source": "label",
+        "crops": [
+          "Almonds",
+          "Apricots",
+          "Peaches",
+          "Plums"
+        ]
+      },
+      {
+        "productId": "dithane",
+        "productName": "Dithane® Rainshield® Neo Tec® Fungicide",
+        "source": "label",
+        "crops": [
+          "Tree and Vine Crops — Stone Fruits (Almonds, Apricots, Cherries, Nectarines, Peaches, Plums)"
+        ]
+      },
+      {
+        "productId": "lunaexperience",
+        "productName": "Luna Experience Fungicide",
+        "source": "label",
+        "crops": [
+          "Almonds"
+        ]
+      },
+      {
+        "productId": "lunasensation",
+        "productName": "Luna Sensation FUNGICIDE",
+        "source": "label",
+        "crops": [
+          "Stone fruit"
+        ]
+      },
+      {
+        "productId": "nufarmintervene",
+        "productName": "Nufarm Intervene Fungicide",
+        "source": "label",
+        "crops": [
+          "Almonds — Shot Hole"
+        ]
+      },
+      {
+        "productId": "penncozeb750df",
+        "productName": "Penncozeb® 750 DF Fungicide",
+        "source": "label",
+        "crops": [
+          "Stone Fruits (Almonds, Apricots, Cherries, Nectarines, Peaches, Plums)"
+        ]
+      },
+      {
+        "productId": "campbellcheers720",
+        "productName": "CHEERS 720 WEATHERSHIELD Fungicide",
+        "source": "label",
+        "crops": [
+          "Almonds — Shot-hole and Rust control",
+          "Apricots — Brown rot, blossom blight, shot-hole and rust control",
+          "Cherries — Brown rot, blossom blight, shot-hole, rust and transit rot control",
+          "Nectarines — Shot-hole, brown rot and blossom blight control",
+          "Peaches — Brown rot, blossom blight, shot-hole, rust and leaf curl control",
+          "Plums — Brown rot, blossom blight, shot-hole and rust control"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/shot-hole.webp"
+  },
+  {
+    "commonName": "Shot hole Suppression only: Hull rot",
+    "scientificName": "",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Almonds"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Shot+hole+Suppression+only:+Hull+rot+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "lunasensation",
+        "productName": "Luna Sensation FUNGICIDE",
+        "source": "label",
+        "crops": [
+          "Almonds"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/shot_hole_suppression_only_hull_rot.webp"
+  },
+  {
+    "commonName": "Shothole",
+    "scientificName": "Stigmina carpophila",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Almonds",
+      "Apricots",
+      "Apricots, Cherries, Nectarines, Peaches, Plums",
+      "Cherries",
+      "Nectarines",
+      "Peaches",
+      "Plums",
+      "Stone Fruit (Apricots, Nectarines, Peaches, Plums, Cherries)",
+      "Stone Fruit — Apricots, Cherries, Nectarines, Peaches, Plums",
+      "Stone Fruits (Peaches, Apricots, Plums, Cherries, Nectarines)",
+      "Tree & Vine Crops — Almonds, Apples, Apricots, Avocados",
+      "Tree & Vine Crops — Macadamias, Mangoes, Nectarines, Peaches, Pears, Plums, Vines, Walnuts",
+      "Tree Fruits (Almonds, Apples, Citrus, Stonefruit)",
+      "Tree Nuts — Almonds, Macadamias, Walnuts"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Shothole+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "0463nufarmcopperhydroxide500fu",
+        "productName": "Nufarm Copper Hydroxide 500 Fungicide",
+        "source": "label",
+        "crops": [
+          "Stone Fruit — Apricots, Cherries, Nectarines, Peaches, Plums",
+          "Tree Nuts — Almonds, Macadamias, Walnuts"
+        ]
+      },
+      {
+        "productId": "copit",
+        "productName": "AGSPEC Cop-IT",
+        "source": "label",
+        "crops": [
+          "Apricots",
+          "Cherries",
+          "Nectarines",
+          "Peaches",
+          "Plums",
+          "Almonds"
+        ]
+      },
+      {
+        "productId": "kocide",
+        "productName": "Kocide® Blue Xtra® Fungicide",
+        "source": "label",
+        "crops": [
+          "Almonds",
+          "Apricots, Cherries, Nectarines, Peaches, Plums"
+        ]
+      },
+      {
+        "productId": "nordox750wg",
+        "productName": "Nordox 750 WG Copper Fungicide",
+        "source": "label",
+        "crops": [
+          "Tree & Vine Crops — Almonds, Apples, Apricots, Avocados",
+          "Tree & Vine Crops — Macadamias, Mangoes, Nectarines, Peaches, Pears, Plums, Vines, Walnuts"
+        ]
+      },
+      {
+        "productId": "penncozeb",
+        "productName": "Penncozeb® Fungicide",
+        "source": "label",
+        "crops": [
+          "Stone Fruits (Peaches, Apricots, Plums, Cherries, Nectarines)"
+        ]
+      },
+      {
+        "productId": "polyramdf",
+        "productName": "Polyram® DF Fungicide Spray",
+        "source": "label",
+        "crops": [
+          "Stone Fruit (Apricots, Nectarines, Peaches, Plums, Cherries)"
+        ]
+      },
+      {
+        "productId": "worldsagcoppoxwg15kgpage1of6ag",
+        "productName": "7 Worlds Ag Coppox WG",
+        "source": "label",
+        "crops": [
+          "Tree Fruits (Almonds, Apples, Citrus, Stonefruit)"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/shothole.webp"
+  },
+  {
+    "commonName": "Shrubs",
+    "scientificName": "",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Ornamentals — Diseases"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Shrubs+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "penncozeb",
+        "productName": "Penncozeb® Fungicide",
+        "source": "label",
+        "crops": [
+          "Ornamentals — Diseases"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/shrubs.webp"
+  },
+  {
+    "commonName": "Shrubs; Botrytis Leaf Spot — Ferns; Grey Mould",
+    "scientificName": "",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Ornamentals — Diseases"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Shrubs;+Botrytis+Leaf+Spot+—+Ferns;+Grey+Mould+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "penncozeb750df",
+        "productName": "Penncozeb® 750 DF Fungicide",
+        "source": "label",
+        "crops": [
+          "Ornamentals — Diseases"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/shrubs_botrytis_leaf_spot_ferns_grey_mould.webp"
+  },
+  {
+    "commonName": "Sigatoka",
+    "scientificName": "Mycosphaerella musicola",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Bananas"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Sigatoka+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "bravado720",
+        "productName": "Bravado® 720 Fungicide",
+        "source": "label",
+        "crops": [
+          "Bananas"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/sigatoka.webp"
+  },
+  {
+    "commonName": "Silver Beet",
+    "scientificName": "",
+    "diseaseType": "Fungal",
+    "cropsAffected": [],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Silver+Beet+plant+disease+australia",
+    "linkedProducts": [],
+    "thumbnail": "images/diseases/silver-beet.webp"
+  },
+  {
+    "commonName": "Silver Beet — Downy Mildew",
+    "scientificName": "",
+    "diseaseType": "Oomycete",
+    "cropsAffected": [
+      "Vegetables — Potatoes, Red Beet, Rhubarb, Silver Beet, Spinach"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Silver+Beet+—+Downy+Mildew+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "nordox750wg",
+        "productName": "Nordox 750 WG Copper Fungicide",
+        "source": "label",
+        "crops": [
+          "Vegetables — Potatoes, Red Beet, Rhubarb, Silver Beet, Spinach"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/silver-beet-downy-mildew.webp"
+  },
+  {
+    "commonName": "Silver Scurf",
+    "scientificName": "Suppression only",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Potatoes"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Silver+Scurf+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "agristar",
+        "productName": "CropSure Agristar 250SC",
+        "source": "label",
+        "crops": [
+          "Potatoes"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/silver-scurf.webp"
+  },
+  {
+    "commonName": "Silverbeet",
+    "scientificName": "",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Vegetables — Rhubarb, Spinach, Silverbeet, Beetroot"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Silverbeet+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "penncozeb750df",
+        "productName": "Penncozeb® 750 DF Fungicide",
+        "source": "label",
+        "crops": [
+          "Vegetables — Rhubarb, Spinach, Silverbeet, Beetroot"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/silverbeet.webp"
+  },
+  {
+    "commonName": "Smoky blotch",
+    "scientificName": "Gloeodes pomigena",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Citrus"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Smoky+blotch+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "0463nufarmcopperhydroxide500fu",
+        "productName": "Nufarm Copper Hydroxide 500 Fungicide",
+        "source": "label",
+        "crops": [
+          "Citrus"
+        ]
+      },
+      {
+        "productId": "copit",
+        "productName": "AGSPEC Cop-IT",
+        "source": "label",
+        "crops": [
+          "Citrus"
+        ]
+      },
+      {
+        "productId": "kocide",
+        "productName": "Kocide® Blue Xtra® Fungicide",
+        "source": "label",
+        "crops": [
+          "Citrus"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/smoky-blotch.webp"
+  },
+  {
+    "commonName": "Sooty blotch",
+    "scientificName": "Akaropeltopsis sp.",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Apples",
+      "Avocados",
+      "Pome Fruits (Apples, Pears)",
+      "Tree and Vine Crops — Pome Fruits (Apples, Pears)"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Sooty+blotch+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "copit",
+        "productName": "AGSPEC Cop-IT",
+        "source": "label",
+        "crops": [
+          "Avocados"
+        ]
+      },
+      {
+        "productId": "dithane",
+        "productName": "Dithane® Rainshield® Neo Tec® Fungicide",
+        "source": "label",
+        "crops": [
+          "Tree and Vine Crops — Pome Fruits (Apples, Pears)"
+        ]
+      },
+      {
+        "productId": "penncozeb",
+        "productName": "Penncozeb® Fungicide",
+        "source": "label",
+        "crops": [
+          "Pome Fruits (Apples, Pears)"
+        ]
+      },
+      {
+        "productId": "penncozeb750df",
+        "productName": "Penncozeb® 750 DF Fungicide",
+        "source": "label",
+        "crops": [
+          "Pome Fruits (Apples, Pears)"
+        ]
+      },
+      {
+        "productId": "polyramdf",
+        "productName": "Polyram® DF Fungicide Spray",
+        "source": "label",
+        "crops": [
+          "Pome Fruits (Apples, Pears)"
+        ]
+      },
+      {
+        "productId": "productnameswitch",
+        "productName": "Switch Fungicide",
+        "source": "label",
+        "crops": [
+          "Apples"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/sooty-blotch.webp"
+  },
+  {
+    "commonName": "Sour Rot",
+    "scientificName": "",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Citrus"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Sour+Rot+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "zanoctine",
+        "productName": "Zanoctine Fungicide",
+        "source": "label",
+        "crops": [
+          "Citrus"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/sour-rot.webp"
+  },
+  {
+    "commonName": "Soybean Rust",
+    "scientificName": "Phakopsora pachyrhizi",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Soybeans"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Soybean+Rust+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "orius430sc",
+        "productName": "Orius® 430 SC Fungicide",
+        "source": "label",
+        "crops": [
+          "Soybeans"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/soybean-rust.webp"
+  },
+  {
+    "commonName": "Spinach",
+    "scientificName": "",
+    "diseaseType": "Fungal",
+    "cropsAffected": [],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Spinach+plant+disease+australia",
+    "linkedProducts": [],
+    "thumbnail": "images/diseases/spinach.webp"
+  },
+  {
+    "commonName": "Spinach — Downy Mildew",
+    "scientificName": "",
+    "diseaseType": "Oomycete",
+    "cropsAffected": [
+      "Vegetables — Potatoes, Red Beet, Rhubarb, Silver Beet, Spinach"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Spinach+—+Downy+Mildew+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "nordox750wg",
+        "productName": "Nordox 750 WG Copper Fungicide",
+        "source": "label",
+        "crops": [
+          "Vegetables — Potatoes, Red Beet, Rhubarb, Silver Beet, Spinach"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/spinach-downy-mildew.webp"
+  },
+  {
+    "commonName": "Spot anthracnose",
+    "scientificName": "Sphaceloma violae",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Violas"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Spot+anthracnose+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "octavewp",
+        "productName": "Octave WP Fungicide",
+        "source": "label",
+        "crops": [
+          "Violas"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/spot-anthracnose.webp"
+  },
+  {
+    "commonName": "Spot Form Net Blotch",
+    "scientificName": "Pyrenophora teres f. maculata",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Barley"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Spot+Form+Net+Blotch+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "adamabumper625ec",
+        "productName": "ADAMA Bumper® 625 EC Fungicide",
+        "source": "label",
+        "crops": [
+          "Barley"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/spot_form_net_blotch.webp"
+  },
+  {
+    "commonName": "Spring Dead Spot",
+    "scientificName": "Leptosphaeria spp.",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Recreational Turf — Spring Dead Spot (Helminthosporium)",
+      "Recreational Turf — Spring Dead Spot (Leptosphaeria)",
+      "Turf"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Spring+Dead+Spot+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "adamabumper625ec",
+        "productName": "ADAMA Bumper® 625 EC Fungicide",
+        "source": "label",
+        "crops": [
+          "Turf"
+        ]
+      },
+      {
+        "productId": "rovralaquaflo",
+        "productName": "Rovral® Aquaflo Fungicide",
+        "source": "label",
+        "crops": [
+          "Recreational Turf — Spring Dead Spot (Leptosphaeria)",
+          "Recreational Turf — Spring Dead Spot (Helminthosporium)"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/spring-dead-spot.webp"
+  },
+  {
+    "commonName": "Spur blight",
+    "scientificName": "",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Berryfruit",
+      "Rubus / Ribes / Blueberries (PER13958)"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Spur+blight+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "captan800wg",
+        "productName": "ADAMA Captan 800 WG Fungicide",
+        "source": "label",
+        "crops": [
+          "Rubus / Ribes / Blueberries (PER13958)"
+        ]
+      },
+      {
+        "productId": "tribase",
+        "productName": "Tri-Base Blue® Fungicide",
+        "source": "label",
+        "crops": [
+          "Berryfruit"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/spur-blight.webp"
+  },
+  {
+    "commonName": "Stem End Rot (Suppression Only)",
+    "scientificName": "",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Avocado",
+      "Mango"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Stem+End+Rot+(Suppression+Only)+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "seranadeopti",
+        "productName": "Bayer Serenade Opti Biofungicide",
+        "source": "label",
+        "crops": [
+          "Avocado",
+          "Mango"
+        ]
+      },
+      {
+        "productId": "serenadeprime",
+        "productName": "Serenade Prime Soil Ameliorant and Biofungicide",
+        "source": "label"
+      }
+    ],
+    "thumbnail": "images/diseases/stem-end-rot-suppression-only.webp"
+  },
+  {
+    "commonName": "Stem end rot and Dendritic spot",
+    "scientificName": "Botrosphaeria family",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Mangoes — Anthracnose and stem end rot control",
+      "Mangoes — Anthracnose, Stem End Rot, Dendritic Spot control",
+      "Papaya"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Stem+end+rot+and+Dendritic+spot+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "campbellfludy230sc",
+        "productName": "Campbell Fludy 230SC Fungicide",
+        "source": "label",
+        "crops": [
+          "Mangoes — Anthracnose and stem end rot control",
+          "Papaya"
+        ]
+      },
+      {
+        "productId": "syngentascholar",
+        "productName": "Scholar Fungicide",
+        "source": "label",
+        "crops": [
+          "Mangoes — Anthracnose, Stem End Rot, Dendritic Spot control"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/stem-end-rot-and-dendritic-spot.webp"
+  },
+  {
+    "commonName": "Stem end rots",
+    "scientificName": "Botryosphaeria spp.",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Mangoes — Disease control"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Stem+end+rots+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "basfaero",
+        "productName": "AERO Fungicide",
+        "source": "label",
+        "crops": [
+          "Mangoes — Disease control"
+        ]
+      },
+      {
+        "productId": "agristar",
+        "productName": "CropSure Agristar 250SC",
+        "source": "label",
+        "crops": [
+          "Avocados",
+          "Mangoes"
+        ]
+      },
+      {
+        "productId": "lunasensation",
+        "productName": "Luna Sensation FUNGICIDE",
+        "source": "label",
+        "crops": [
+          "Avocados, mangoes and other tropical and sub-tropical fruits, inedible peel (excluding bananas, papaya, passionfruit, pineapples)"
+        ]
+      },
+      {
+        "productId": "protak",
+        "productName": "Protak 450EC Fungicide",
+        "source": "label",
+        "crops": [
+          "Avocado, Banana, Mango — Post-harvest",
+          "Pawpaw — Post-harvest"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/stem-end-rots.webp"
+  },
+  {
+    "commonName": "Stem Rust",
+    "scientificName": "Puccinia graminis f. sp. avanae",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Oats",
+      "Perennial Ryegrass",
+      "Ryegrass and Fescue Seed Crops",
+      "Wheat"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Stem+Rust+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "adamabumper625ec",
+        "productName": "ADAMA Bumper® 625 EC Fungicide",
+        "source": "label",
+        "crops": [
+          "Oats",
+          "Perennial Ryegrass",
+          "Wheat"
+        ]
+      },
+      {
+        "productId": "orius430sc",
+        "productName": "Orius® 430 SC Fungicide",
+        "source": "label",
+        "crops": [
+          "Ryegrass and Fescue Seed Crops"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/stem-rust.webp"
+  },
+  {
+    "commonName": "Stemphylium",
+    "scientificName": "",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Asparagus, Beans",
+      "Lucerne"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Stemphylium+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "rovralaquaflo",
+        "productName": "Rovral® Aquaflo Fungicide",
+        "source": "label",
+        "crops": [
+          "Lucerne"
+        ]
+      },
+      {
+        "productId": "tribase",
+        "productName": "Tri-Base Blue® Fungicide",
+        "source": "label",
+        "crops": [
+          "Asparagus, Beans"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/stemphylium.webp"
+  },
+  {
+    "commonName": "Stemphyllium",
+    "scientificName": "",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Snow Peas, Sugar Snap Peas, Garden Peas"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Stemphyllium+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "agristar",
+        "productName": "CropSure Agristar 250SC",
+        "source": "label",
+        "crops": [
+          "Snow Peas, Sugar Snap Peas, Garden Peas"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/stemphyllium.webp"
+  },
+  {
+    "commonName": "Stolon rot",
+    "scientificName": "Colletotrichum gloeosporioides",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Strawberries — Non-Fruiting Runners Only"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Stolon+rot+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "octavewp",
+        "productName": "Octave WP Fungicide",
+        "source": "label",
+        "crops": [
+          "Strawberries — Non-Fruiting Runners Only"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/stolon-rot.webp"
+  },
+  {
+    "commonName": "Stone Fruit Rust",
+    "scientificName": "Tranzschella discolor",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Almonds",
+      "Almonds — Shot-hole and Rust control",
+      "Apricots — Brown rot, blossom blight, shot-hole and rust control",
+      "Cherries — Brown rot, blossom blight, shot-hole, rust and transit rot control",
+      "Peaches — Brown rot, blossom blight, shot-hole, rust and leaf curl control",
+      "Plums — Brown rot, blossom blight, shot-hole and rust control"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Stone+Fruit+Rust+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "campbellcheers720",
+        "productName": "CHEERS 720 WEATHERSHIELD Fungicide",
+        "source": "label",
+        "crops": [
+          "Almonds — Shot-hole and Rust control",
+          "Apricots — Brown rot, blossom blight, shot-hole and rust control",
+          "Cherries — Brown rot, blossom blight, shot-hole, rust and transit rot control",
+          "Peaches — Brown rot, blossom blight, shot-hole, rust and leaf curl control",
+          "Plums — Brown rot, blossom blight, shot-hole and rust control"
+        ]
+      },
+      {
+        "productId": "lunaexperience",
+        "productName": "Luna Experience Fungicide",
+        "source": "label",
+        "crops": [
+          "Almonds"
+        ]
+      },
+      {
+        "productId": "lunasensation",
+        "productName": "Luna Sensation FUNGICIDE",
+        "source": "label",
+        "crops": [
+          "Almonds"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/stone-fruit-rust.webp"
+  },
+  {
+    "commonName": "Storage Rots",
+    "scientificName": "Penicillium spp., Botrytis spp., Gloeosporium spp.",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Pome Fruit — Post-harvest Dipping"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Storage+Rots+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "rovralaquaflo",
+        "productName": "Rovral® Aquaflo Fungicide",
+        "source": "label",
+        "crops": [
+          "Pome Fruit — Post-harvest Dipping"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/storage-rots.webp"
+  },
+  {
+    "commonName": "Strawberries",
+    "scientificName": "",
+    "diseaseType": "Fungal",
+    "cropsAffected": [],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Strawberries+plant+disease+australia",
+    "linkedProducts": [],
+    "thumbnail": "images/diseases/strawberries.webp"
+  },
+  {
+    "commonName": "Strawberries — Leaf Spot",
+    "scientificName": "",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Fruit Crops — Bananas, Strawberries"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Strawberries+—+Leaf+Spot+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "nordox750wg",
+        "productName": "Nordox 750 WG Copper Fungicide",
+        "source": "label",
+        "crops": [
+          "Fruit Crops — Bananas, Strawberries"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/strawberries-leaf-spot.webp"
+  },
+  {
+    "commonName": "Stripe Rust",
+    "scientificName": "Puccinia striiformis",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Barley, Oats, Wheat",
+      "Wheat"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Stripe+Rust+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "adamabumper625ec",
+        "productName": "ADAMA Bumper® 625 EC Fungicide",
+        "source": "label",
+        "crops": [
+          "Wheat"
+        ]
+      },
+      {
+        "productId": "orius430sc",
+        "productName": "Orius® 430 SC Fungicide",
+        "source": "label",
+        "crops": [
+          "Barley, Oats, Wheat"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/stripe-rust.webp"
+  },
+  {
+    "commonName": "Sugarcane smut",
+    "scientificName": "Sporisorium scitamineum",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Sugarcane planting material (setts/billets) - DUAL ROW PLANTING",
+      "Sugarcane planting material (setts/billets) - SINGLE ROW PLANTING",
+      "Sugarcane planting material (setts/billets, seed cane only) - STATIC DIP APPLICATION"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Sugarcane+smut+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "nufarmsinker",
+        "productName": "Nufarm Sinker Fungicide",
+        "source": "label",
+        "crops": [
+          "Sugarcane planting material (setts/billets) - SINGLE ROW PLANTING",
+          "Sugarcane planting material (setts/billets) - DUAL ROW PLANTING",
+          "Sugarcane planting material (setts/billets, seed cane only) - STATIC DIP APPLICATION"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/sugarcane-smut.webp"
+  },
+  {
+    "commonName": "Suppression of Alternaria",
+    "scientificName": "Alternaria mali",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Apples — Black spot/scab, powdery mildew and Alternaria suppression"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Suppression+of+Alternaria+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "basfbelanty",
+        "productName": "BELANTY Fungicide",
+        "source": "label",
+        "crops": [
+          "Apples — Black spot/scab, powdery mildew and Alternaria suppression"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/suppression-of-alternaria.webp"
+  },
+  {
+    "commonName": "Suppression of Botrytis Grey Mould",
+    "scientificName": "",
+    "diseaseType": "Fungal",
+    "cropsAffected": [],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Suppression+of+Botrytis+Grey+Mould+plant+disease+australia",
+    "linkedProducts": [],
+    "thumbnail": "images/diseases/suppression-of-botrytis-grey-mould.webp"
+  },
+  {
+    "commonName": "Suppression of Downy Mildew",
+    "scientificName": "",
+    "diseaseType": "Oomycete",
+    "cropsAffected": [],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Suppression+of+Downy+Mildew+plant+disease+australia",
+    "linkedProducts": [],
+    "thumbnail": "images/diseases/suppression-of-downy-mildew.webp"
+  },
+  {
+    "commonName": "Suppression of leaf blight",
+    "scientificName": "Ascochyta fabae",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Vegetables — Beans (Green, Broadbeans, Faba Beans, Peas)",
+      "Vegetables — Beans and Broadbeans"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Suppression+of+leaf+blight+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "penncozeb",
+        "productName": "Penncozeb® Fungicide",
+        "source": "label",
+        "crops": [
+          "Vegetables — Beans and Broadbeans"
+        ]
+      },
+      {
+        "productId": "penncozeb750df",
+        "productName": "Penncozeb® 750 DF Fungicide",
+        "source": "label",
+        "crops": [
+          "Vegetables — Beans (Green, Broadbeans, Faba Beans, Peas)"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/suppression-of-leaf-blight.webp"
+  },
+  {
+    "commonName": "Suppression of Leaf rust",
+    "scientificName": "Tranzschelia discolor",
+    "diseaseType": "Fungal",
+    "cropsAffected": [],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Suppression+of+Leaf+rust+plant+disease+australia",
+    "linkedProducts": [],
+    "thumbnail": "images/diseases/suppression-of-leaf-rust.webp"
+  },
+  {
+    "commonName": "Suppression of Sclerotinia Rot",
+    "scientificName": "",
+    "diseaseType": "Fungal",
+    "cropsAffected": [],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Suppression+of+Sclerotinia+Rot+plant+disease+australia",
+    "linkedProducts": [],
+    "thumbnail": "images/diseases/suppression-of-sclerotinia-rot.webp"
+  },
+  {
+    "commonName": "Suppression of Septoria Leaf Blotch",
+    "scientificName": "Leptosphaeria avenaria",
+    "diseaseType": "Fungal",
+    "cropsAffected": [],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Suppression+of+Septoria+Leaf+Blotch+plant+disease+australia",
+    "linkedProducts": [],
+    "thumbnail": "images/diseases/suppression-of-septoria-leaf-blotch.webp"
+  },
+  {
+    "commonName": "Suppression of surface moulds and fungal rots",
+    "scientificName": "",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Chestnuts — Surface moulds and fungal rots control"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Suppression+of+surface+moulds+and+fungal+rots+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "campbellfludy230sc",
+        "productName": "Campbell Fludy 230SC Fungicide",
+        "source": "label",
+        "crops": [
+          "Chestnuts — Surface moulds and fungal rots control"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/suppression-of-surface-moulds-and-fungal-rots.webp"
+  },
+  {
+    "commonName": "Suppression of White Rot",
+    "scientificName": "",
+    "diseaseType": "Fungal",
+    "cropsAffected": [],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Suppression+of+White+Rot+plant+disease+australia",
+    "linkedProducts": [],
+    "thumbnail": "images/diseases/suppression-of-white-rot.webp"
+  },
+  {
+    "commonName": "Suppression only: Alternaria leaf blotch",
+    "scientificName": "",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Apples"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Suppression+only:+Alternaria+leaf+blotch+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "lunasensation",
+        "productName": "Luna Sensation FUNGICIDE",
+        "source": "label",
+        "crops": [
+          "Apples"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/suppression_only_alternaria_leaf_blotch.webp"
+  },
+  {
+    "commonName": "Surface Moulds",
+    "scientificName": "",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Chestnuts — Post-harvest (PER83636)"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Surface+Moulds+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "rovralaquaflo",
+        "productName": "Rovral® Aquaflo Fungicide",
+        "source": "label",
+        "crops": [
+          "Chestnuts — Post-harvest (PER83636)"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/surface-moulds.webp"
+  },
+  {
+    "commonName": "Surface moulds and fungal rots",
+    "scientificName": "",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Chestnuts — Surface moulds and fungal rots suppression"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Surface+moulds+and+fungal+rots+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "syngentascholar",
+        "productName": "Scholar Fungicide",
+        "source": "label",
+        "crops": [
+          "Chestnuts — Surface moulds and fungal rots suppression"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/surface-moulds-and-fungal-rots.webp"
+  },
+  {
+    "commonName": "Systemic downy mildew",
+    "scientificName": "",
+    "diseaseType": "Oomycete",
+    "cropsAffected": [
+      "Poppies"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Systemic+downy+mildew+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "uplranman400sc",
+        "productName": "AgNova Ranman 400 SC Fungicide",
+        "source": "label",
+        "crops": [
+          "Poppies"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/systemic-downy-mildew.webp"
+  },
+  {
+    "commonName": "Take-all patch",
+    "scientificName": "",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Turf",
+      "Turf — Dollar Spot, Black Helminthosporium, Take-all Patch, Winter Fusarium"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Take-all+patch+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "campbelltridim",
+        "productName": "Campbell Tridim 250 EC Fungicide",
+        "source": "label",
+        "crops": [
+          "Turf — Dollar Spot, Black Helminthosporium, Take-all Patch, Winter Fusarium"
+        ]
+      },
+      {
+        "productId": "tridim250ec",
+        "productName": "Tridim 250 EC Fungicide",
+        "source": "label",
+        "crops": [
+          "Turf"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/take-all-patch.webp"
+  },
+  {
+    "commonName": "Target Leaf Spot",
+    "scientificName": "Cercospora citrullina",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Cucurbits — Multiple disease control"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Target+Leaf+Spot+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "campbellcheers720",
+        "productName": "CHEERS 720 WEATHERSHIELD Fungicide",
+        "source": "label",
+        "crops": [
+          "Cucurbits — Multiple disease control"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/target-leaf-spot.webp"
+  },
+  {
+    "commonName": "Target spot",
+    "scientificName": "Alternaria solani",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Capsicum, chilli, eggplant, okra and tomato (field and protected cropping)",
+      "Fruiting Vegetables (field and protected) — Powdery mildew and target spot control",
+      "Fruiting Vegetables — Powdery mildew and target spot control",
+      "Pome Fruits (Apples, Pears)",
+      "Potatoes",
+      "Potatoes — Early and late blight control",
+      "Root and Tuber vegetables (Beetroot, Carrots, Celeriac, Galangal, Parsnips, Potatoes, Radish, Swedes, Sweet potato, Turnips)",
+      "Tomatoes",
+      "Tomatoes — Multiple disease control",
+      "Tomatoes — Target Spot control",
+      "Tree and Vine Crops — Pome Fruits (Apples, Pears)",
+      "Vegetables — Capsicum",
+      "Vegetables — Tomatoes"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Target+spot+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "basfbelanty",
+        "productName": "BELANTY Fungicide",
+        "source": "label",
+        "crops": [
+          "Fruiting Vegetables (field and protected) — Powdery mildew and target spot control"
+        ]
+      },
+      {
+        "productId": "basfmerivon",
+        "productName": "MERIVON Fungicide",
+        "source": "label",
+        "crops": [
+          "Fruiting Vegetables — Powdery mildew and target spot control"
+        ]
+      },
+      {
+        "productId": "campbellcheers720",
+        "productName": "CHEERS 720 WEATHERSHIELD Fungicide",
+        "source": "label",
+        "crops": [
+          "Potatoes — Early and late blight control",
+          "Tomatoes — Multiple disease control"
+        ]
+      },
+      {
+        "productId": "copit",
+        "productName": "AGSPEC Cop-IT",
+        "source": "label",
+        "crops": [
+          "Potatoes",
+          "Tomatoes"
+        ]
+      },
+      {
+        "productId": "cortevafontelis",
+        "productName": "Fontelis Fungicide",
+        "source": "label",
+        "crops": [
+          "Root and Tuber vegetables (Beetroot, Carrots, Celeriac, Galangal, Parsnips, Potatoes, Radish, Swedes, Sweet potato, Turnips)"
+        ]
+      },
+      {
+        "productId": "cortevaverpixo",
+        "productName": "Verpixo Adavelt Active Fungicide",
+        "source": "label",
+        "crops": [
+          "Capsicum, chilli, eggplant, okra and tomato (field and protected cropping)"
+        ]
+      },
+      {
+        "productId": "dithane",
+        "productName": "Dithane® Rainshield® Neo Tec® Fungicide",
+        "source": "label",
+        "crops": [
+          "Vegetables — Capsicum",
+          "Tree and Vine Crops — Pome Fruits (Apples, Pears)"
+        ]
+      },
+      {
+        "productId": "nordox750wg",
+        "productName": "Nordox 750 WG Copper Fungicide",
+        "source": "label",
+        "crops": [
+          "Vegetables — Tomatoes"
+        ]
+      },
+      {
+        "productId": "penncozeb",
+        "productName": "Penncozeb® Fungicide",
+        "source": "label",
+        "crops": [
+          "Vegetables — Capsicum",
+          "Pome Fruits (Apples, Pears)"
+        ]
+      },
+      {
+        "productId": "penncozeb750df",
+        "productName": "Penncozeb® 750 DF Fungicide",
+        "source": "label",
+        "crops": [
+          "Vegetables — Capsicum",
+          "Pome Fruits (Apples, Pears)"
+        ]
+      },
+      {
+        "productId": "polyramdf",
+        "productName": "Polyram® DF Fungicide Spray",
+        "source": "label",
+        "crops": [
+          "Pome Fruits (Apples, Pears)"
+        ]
+      },
+      {
+        "productId": "rovralaquaflo",
+        "productName": "Rovral® Aquaflo Fungicide",
+        "source": "label",
+        "crops": [
+          "Potatoes",
+          "Tomatoes"
+        ]
+      },
+      {
+        "productId": "syngentascore",
+        "productName": "Score Foliar Fungicide",
+        "source": "label",
+        "crops": [
+          "Tomatoes — Target Spot control"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/target-spot.webp"
+  },
+  {
+    "commonName": "Target spot / Early blight",
+    "scientificName": "Alternaria solani",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Fruiting Vegetables — Tomatoes, Capsicums",
+      "Potatoes — Target Spot / Early Blight control",
+      "Root & Tuber Vegetables — Beetroot, Carrots, Parsnips, Potatoes",
+      "Potatoes",
+      "Tomatoes"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Target+spot+/+Early+blight+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "0463nufarmcopperhydroxide500fu",
+        "productName": "Nufarm Copper Hydroxide 500 Fungicide",
+        "source": "label",
+        "crops": [
+          "Fruiting Vegetables — Tomatoes, Capsicums",
+          "Root & Tuber Vegetables — Beetroot, Carrots, Parsnips, Potatoes"
+        ]
+      },
+      {
+        "productId": "syngentascore",
+        "productName": "Score Foliar Fungicide",
+        "source": "label",
+        "crops": [
+          "Potatoes — Target Spot / Early Blight control"
+        ]
+      },
+      {
+        "productId": "rovralaquaflo",
+        "productName": "Rovral® Aquaflo Fungicide",
+        "source": "label"
+      }
+    ],
+    "thumbnail": "images/diseases/target-spot-early-blight.webp"
+  },
+  {
+    "commonName": "Target Spot/Early Blight",
+    "scientificName": "",
+    "diseaseType": "Fungal",
+    "cropsAffected": [],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Target+Spot/Early+Blight+plant+disease+australia",
+    "linkedProducts": [],
+    "thumbnail": "images/diseases/target-spot-early-blight.webp"
+  },
+  {
+    "commonName": "Tobacco Leaf Spot",
+    "scientificName": "Ascochyta arida",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Tobacco — Tobacco Leaf Spot control"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Tobacco+Leaf+Spot+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "campbellcheers720",
+        "productName": "CHEERS 720 WEATHERSHIELD Fungicide",
+        "source": "label",
+        "crops": [
+          "Tobacco — Tobacco Leaf Spot control"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/tobacco-leaf-spot.webp"
+  },
+  {
+    "commonName": "Tomato Russet Mite",
+    "scientificName": "",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Tomatoes for Processing — Multiple Diseases and Mites",
+      "Vegetables (NOT Cucumber or Rockmelon) — Mites and Diseases"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Tomato+Russet+Mite+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "thiovitjet",
+        "productName": "Thiovit® Jet Microgranule Fungicide/Miticide",
+        "source": "label",
+        "crops": [
+          "Tomatoes for Processing — Multiple Diseases and Mites",
+          "Vegetables (NOT Cucumber or Rockmelon) — Mites and Diseases"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/tomato-russet-mite.webp"
+  },
+  {
+    "commonName": "Transit Rot",
+    "scientificName": "Rhizopus stonifer",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Cherries — Brown rot, blossom blight, shot-hole, rust and transit rot control",
+      "Stone Fruit — Post-harvest Dipping",
+      "Tomatoes"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Transit+Rot+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "campbellcheers720",
+        "productName": "CHEERS 720 WEATHERSHIELD Fungicide",
+        "source": "label",
+        "crops": [
+          "Cherries — Brown rot, blossom blight, shot-hole, rust and transit rot control"
+        ]
+      },
+      {
+        "productId": "rovralaquaflo",
+        "productName": "Rovral® Aquaflo Fungicide",
+        "source": "label",
+        "crops": [
+          "Stone Fruit — Post-harvest Dipping"
+        ]
+      },
+      {
+        "productId": "zanoctine",
+        "productName": "Zanoctine Fungicide",
+        "source": "label",
+        "crops": [
+          "Tomatoes"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/transit-rot.webp"
+  },
+  {
+    "commonName": "Tropical Fruit",
+    "scientificName": "",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Phytophthora Stem Canker — Trunk/Stem Paint Application"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Tropical+Fruit+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "nordox750wg",
+        "productName": "Nordox 750 WG Copper Fungicide",
+        "source": "label",
+        "crops": [
+          "Phytophthora Stem Canker — Trunk/Stem Paint Application"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/tropical-fruit.webp"
+  },
+  {
+    "commonName": "Trunk Canker",
+    "scientificName": "",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Macadamia Nuts"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Trunk+Canker+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "zeemil50g",
+        "productName": "UPL Zee-Mil 50G Systemic Granular Fungicide",
+        "source": "label",
+        "crops": [
+          "Macadamia Nuts"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/trunk-canker.webp"
+  },
+  {
+    "commonName": "Turcicum Leaf Blight",
+    "scientificName": "Exserohilum turcicum",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Sweet Corn — Turcicum Leaf Blight control"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Turcicum+Leaf+Blight+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "campbellcheers720",
+        "productName": "CHEERS 720 WEATHERSHIELD Fungicide",
+        "source": "label",
+        "crops": [
+          "Sweet Corn — Turcicum Leaf Blight control"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/turcicum-leaf-blight.webp"
+  },
+  {
+    "commonName": "Two-spotted Mite",
+    "scientificName": "",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Kiwifruit — Two-spotted Mite",
+      "Ornamentals — Powdery Mildew and Two-spotted Mite",
+      "Tomatoes for Processing — Multiple Diseases and Mites",
+      "Vegetables (NOT Cucumber or Rockmelon) — Mites and Diseases"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Two-spotted+Mite+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "thiovitjet",
+        "productName": "Thiovit® Jet Microgranule Fungicide/Miticide",
+        "source": "label",
+        "crops": [
+          "Kiwifruit — Two-spotted Mite",
+          "Ornamentals — Powdery Mildew and Two-spotted Mite",
+          "Tomatoes for Processing — Multiple Diseases and Mites",
+          "Vegetables (NOT Cucumber or Rockmelon) — Mites and Diseases"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/two-spotted-mite.webp"
+  },
+  {
+    "commonName": "Venturia Pirina",
+    "scientificName": "",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Pears"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Venturia+Pirina+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "captan800wg",
+        "productName": "ADAMA Captan 800 WG Fungicide",
+        "source": "label",
+        "crops": [
+          "Pears"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/venturia-pirina.webp"
+  },
+  {
+    "commonName": "Vetches",
+    "scientificName": "",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Field Crops — Pulse Crops"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Vetches+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "penncozeb750df",
+        "productName": "Penncozeb® 750 DF Fungicide",
+        "source": "label",
+        "crops": [
+          "Field Crops — Pulse Crops"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/vetches.webp"
+  },
+  {
+    "commonName": "Vine Mite",
+    "scientificName": "",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Grapes (Table Grapes, Fruit for Drying) — Mites and Powdery Mildew",
+      "Grapevines (Wine Grapes) — Mites and Powdery Mildew"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Vine+Mite+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "thiovitjet",
+        "productName": "Thiovit® Jet Microgranule Fungicide/Miticide",
+        "source": "label",
+        "crops": [
+          "Grapes (Table Grapes, Fruit for Drying) — Mites and Powdery Mildew",
+          "Grapevines (Wine Grapes) — Mites and Powdery Mildew"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/vine-mite.webp"
+  },
+  {
+    "commonName": "Vines",
+    "scientificName": "",
+    "diseaseType": "Fungal",
+    "cropsAffected": [],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Vines+plant+disease+australia",
+    "linkedProducts": [],
+    "thumbnail": "images/diseases/vines.webp"
+  },
+  {
+    "commonName": "Vines — Downy Mildew",
+    "scientificName": "",
+    "diseaseType": "Oomycete",
+    "cropsAffected": [
+      "Tree & Vine Crops — Macadamias, Mangoes, Nectarines, Peaches, Pears, Plums, Vines, Walnuts"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Vines+—+Downy+Mildew+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "nordox750wg",
+        "productName": "Nordox 750 WG Copper Fungicide",
+        "source": "label",
+        "crops": [
+          "Tree & Vine Crops — Macadamias, Mangoes, Nectarines, Peaches, Pears, Plums, Vines, Walnuts"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/vines-downy-mildew.webp"
+  },
+  {
+    "commonName": "Walnut blight",
+    "scientificName": "Xanthomonas campestris pv juglans",
+    "diseaseType": "Bacterial",
+    "cropsAffected": [
+      "Tree Nuts — Almonds, Macadamias, Walnuts",
+      "Walnuts"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Walnut+blight+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "0463nufarmcopperhydroxide500fu",
+        "productName": "Nufarm Copper Hydroxide 500 Fungicide",
+        "source": "label",
+        "crops": [
+          "Tree Nuts — Almonds, Macadamias, Walnuts"
+        ]
+      },
+      {
+        "productId": "copit",
+        "productName": "AGSPEC Cop-IT",
+        "source": "label",
+        "crops": [
+          "Walnuts"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/walnut-blight.webp"
+  },
+  {
+    "commonName": "Walnuts",
+    "scientificName": "",
+    "diseaseType": "Fungal",
+    "cropsAffected": [],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Walnuts+plant+disease+australia",
+    "linkedProducts": [],
+    "thumbnail": "images/diseases/walnuts.webp"
+  },
+  {
+    "commonName": "Walnuts — Walnut Blight",
+    "scientificName": "",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Tree & Vine Crops — Macadamias, Mangoes, Nectarines, Peaches, Pears, Plums, Vines, Walnuts"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Walnuts+—+Walnut+Blight+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "nordox750wg",
+        "productName": "Nordox 750 WG Copper Fungicide",
+        "source": "label",
+        "crops": [
+          "Tree & Vine Crops — Macadamias, Mangoes, Nectarines, Peaches, Pears, Plums, Vines, Walnuts"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/walnuts-walnut-blight.webp"
+  },
+  {
+    "commonName": "Water Blister",
+    "scientificName": "Ceratocystis paradoxa",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Pineapples — Post-harvest"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Water+Blister+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "protak",
+        "productName": "Protak 450EC Fungicide",
+        "source": "label",
+        "crops": [
+          "Pineapples — Post-harvest"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/water-blister.webp"
+  },
+  {
+    "commonName": "Wet bubble",
+    "scientificName": "Mycogone perniciosa",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Mushrooms"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Wet+bubble+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "octavewp",
+        "productName": "Octave WP Fungicide",
+        "source": "label",
+        "crops": [
+          "Mushrooms"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/wet-bubble.webp"
+  },
+  {
+    "commonName": "Wheat",
+    "scientificName": "",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Barley, Oats, Wheat"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Wheat+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "orius430sc",
+        "productName": "Orius® 430 SC Fungicide",
+        "source": "label",
+        "crops": [
+          "Barley, Oats, Wheat"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/wheat.webp"
+  },
+  {
+    "commonName": "White Blister",
+    "scientificName": "",
+    "diseaseType": "Oomycete",
+    "cropsAffected": [
+      "Brassica Leafy Vegetables (Bok Choy, Pak Choy, Choi Sum, etc.) — Downy Mildew & White Blister (PER14958)",
+      "Brassica Leafy Vegetables — White Blister (PER14958)",
+      "Brassica Vegetables",
+      "Broccoli",
+      "Radish, Swede & Turnip — White Blister (PER80538)"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=White+Blister+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "agristar",
+        "productName": "CropSure Agristar 250SC",
+        "source": "label",
+        "crops": [
+          "Brassica Vegetables"
+        ]
+      },
+      {
+        "productId": "dithane",
+        "productName": "Dithane® Rainshield® Neo Tec® Fungicide",
+        "source": "label",
+        "crops": [
+          "Brassica Leafy Vegetables (Bok Choy, Pak Choy, Choi Sum, etc.) — Downy Mildew & White Blister (PER14958)"
+        ]
+      },
+      {
+        "productId": "penncozeb",
+        "productName": "Penncozeb® Fungicide",
+        "source": "label",
+        "crops": [
+          "Brassica Leafy Vegetables — White Blister (PER14958)",
+          "Radish, Swede & Turnip — White Blister (PER80538)"
+        ]
+      },
+      {
+        "productId": "uplranman400sc",
+        "productName": "AgNova Ranman 400 SC Fungicide",
+        "source": "label",
+        "crops": [
+          "Broccoli"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/white-blister.webp"
+  },
+  {
+    "commonName": "White Blister Rust",
+    "scientificName": "",
+    "diseaseType": "Oomycete",
+    "cropsAffected": [
+      "Horseradish",
+      "Radish"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=White+Blister+Rust+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "agristar",
+        "productName": "CropSure Agristar 250SC",
+        "source": "label",
+        "crops": [
+          "Horseradish",
+          "Radish"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/white-blister-rust.webp"
+  },
+  {
+    "commonName": "White Louse Scale",
+    "scientificName": "",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Citrus — Mites and Diseases",
+      "Lychee"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=White+Louse+Scale+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "thiovitjet",
+        "productName": "Thiovit® Jet Microgranule Fungicide/Miticide",
+        "source": "label",
+        "crops": [
+          "Citrus — Mites and Diseases",
+          "Lychee"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/white-louse-scale.webp"
+  },
+  {
+    "commonName": "White mould",
+    "scientificName": "Sclerotinia stem rot",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Brassica leafy vegetables (Buk choy, Chinese broccoli, Chinese cabbage, Choy sum, Gai choy, Kai choy, Kale, Mibuna, Leafy mustard, Mustard spinach, Pak choy, Tat soy)",
+      "Brassica vegetables (Broccoli, Brussels sprout, Cabbage, Cauliflower)",
+      "Carrots",
+      "Green beans (Phaseolus spp.)"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=White+mould+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "agristar",
+        "productName": "CropSure Agristar 250SC",
+        "source": "label",
+        "crops": [
+          "Carrots"
+        ]
+      },
+      {
+        "productId": "cortevafontelis",
+        "productName": "Fontelis Fungicide",
+        "source": "label",
+        "crops": [
+          "Brassica vegetables (Broccoli, Brussels sprout, Cabbage, Cauliflower)",
+          "Brassica leafy vegetables (Buk choy, Chinese broccoli, Chinese cabbage, Choy sum, Gai choy, Kai choy, Kale, Mibuna, Leafy mustard, Mustard spinach, Pak choy, Tat soy)"
+        ]
+      },
+      {
+        "productId": "lunasensation",
+        "productName": "Luna Sensation FUNGICIDE",
+        "source": "label",
+        "crops": [
+          "Green beans (Phaseolus spp.)"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/white-mould.webp"
+  },
+  {
+    "commonName": "White Root Rot",
+    "scientificName": "",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Onions (Tasmania only) — Soil Application"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=White+Root+Rot+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "orius430sc",
+        "productName": "Orius® 430 SC Fungicide",
+        "source": "label",
+        "crops": [
+          "Onions (Tasmania only) — Soil Application"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/white-root-rot.webp"
+  },
+  {
+    "commonName": "White rot",
+    "scientificName": "Sclerotium cepivorum",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Bulb Vegetables (Onions, Spring Onions, Leek, Shallots)",
+      "Garlic, Shallots, Spring Onions",
+      "Leeks"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=White+rot+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "agristar",
+        "productName": "CropSure Agristar 250SC",
+        "source": "label",
+        "crops": [
+          "Garlic, Shallots, Spring Onions",
+          "Leeks"
+        ]
+      },
+      {
+        "productId": "lunaexperience",
+        "productName": "Luna Experience Fungicide",
+        "source": "label",
+        "crops": [
+          "Bulb Vegetables (Onions, Spring Onions, Leek, Shallots)"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/white-rot.webp"
+  },
+  {
+    "commonName": "White Spot",
+    "scientificName": "",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Recreational Turf — Helminthosporium Disease"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=White+Spot+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "rovralaquaflo",
+        "productName": "Rovral® Aquaflo Fungicide",
+        "source": "label",
+        "crops": [
+          "Recreational Turf — Helminthosporium Disease"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/white-spot.webp"
+  },
+  {
+    "commonName": "Wildfire",
+    "scientificName": "",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Tobacco Seed Beds"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Wildfire+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "copit",
+        "productName": "AGSPEC Cop-IT",
+        "source": "label",
+        "crops": [
+          "Tobacco Seed Beds"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/wildfire.webp"
+  },
+  {
+    "commonName": "Wildfire / Angular leaf spot",
+    "scientificName": "Pseudomonas syringae pv. tabaci",
+    "diseaseType": "Bacterial",
+    "cropsAffected": [],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Wildfire+/+Angular+leaf+spot+plant+disease+australia",
+    "linkedProducts": [],
+    "thumbnail": "images/diseases/wildfire-angular-leaf-spot.webp"
+  },
+  {
+    "commonName": "Winter Fusarium",
+    "scientificName": "",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Turf",
+      "Turf — Dollar Spot, Black Helminthosporium, Take-all Patch, Winter Fusarium"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Winter+Fusarium+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "campbelltridim",
+        "productName": "Campbell Tridim 250 EC Fungicide",
+        "source": "label",
+        "crops": [
+          "Turf — Dollar Spot, Black Helminthosporium, Take-all Patch, Winter Fusarium"
+        ]
+      },
+      {
+        "productId": "tridim250ec",
+        "productName": "Tridim 250 EC Fungicide",
+        "source": "label",
+        "crops": [
+          "Turf"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/winter-fusarium.webp"
+  },
+  {
+    "commonName": "Yeasty Rot",
+    "scientificName": "",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Tomatoes"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Yeasty+Rot+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "zanoctine",
+        "productName": "Zanoctine Fungicide",
+        "source": "label",
+        "crops": [
+          "Tomatoes"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/yeasty-rot.webp"
+  },
+  {
+    "commonName": "Yellow Leaf Spot",
+    "scientificName": "",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Barley, Oats, Wheat"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Yellow+Leaf+Spot+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "orius430sc",
+        "productName": "Orius® 430 SC Fungicide",
+        "source": "label",
+        "crops": [
+          "Barley, Oats, Wheat"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/yellow-leaf-spot.webp"
+  },
+  {
+    "commonName": "Yellow Sigatoka",
+    "scientificName": "",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Bananas (Qld, NSW, WA & NT only)",
+      "Bananas (Qld, NSW, WA and NT only)",
+      "Bananas — Yellow Sigatoka",
+      "Bananas — Yellow Sigatoka, Black Sigatoka control"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Yellow+Sigatoka+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "bayerflint500wg",
+        "productName": "Bayer Flint® 500 WG Fungicide",
+        "source": "label",
+        "crops": [
+          "Bananas (Qld, NSW, WA and NT only)"
+        ]
+      },
+      {
+        "productId": "copit",
+        "productName": "AGSPEC Cop-IT",
+        "source": "label",
+        "crops": [
+          "Bananas — Yellow Sigatoka"
+        ]
+      },
+      {
+        "productId": "lunaexperience",
+        "productName": "Luna Experience Fungicide",
+        "source": "label",
+        "crops": [
+          "Bananas (Qld, NSW, WA & NT only)"
+        ]
+      },
+      {
+        "productId": "syngentascore",
+        "productName": "Score Foliar Fungicide",
+        "source": "label",
+        "crops": [
+          "Bananas — Yellow Sigatoka, Black Sigatoka control"
+        ]
+      },
+      {
+        "productId": "serenadeprime",
+        "productName": "Serenade Prime Soil Ameliorant and Biofungicide",
+        "source": "label"
+      }
+    ],
+    "thumbnail": "images/diseases/yellow-sigatoka.webp"
+  },
+  {
+    "commonName": "Yellow Spot",
+    "scientificName": "Pyrenophora tritici-repentis",
+    "diseaseType": "Fungal",
+    "cropsAffected": [
+      "Wheat"
+    ],
+    "symptoms": "",
+    "favourableConditions": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Yellow+Spot+plant+disease+australia",
+    "linkedProducts": [
+      {
+        "productId": "adamabumper625ec",
+        "productName": "ADAMA Bumper® 625 EC Fungicide",
+        "source": "label",
+        "crops": [
+          "Wheat"
+        ]
+      }
+    ],
+    "thumbnail": "images/diseases/yellow-spot.webp"
+  }
+];
