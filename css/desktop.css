@@ -1080,15 +1080,71 @@
     grid-template-columns: 1fr !important;
   }
 
-  /* ── Product summary cards: match detail card style on mobile ── */
-  .product-summary-card {
-    border-radius: 14px;
-    padding: 14px;
-    border-left-width: 4px;
-    box-shadow: 0 2px 6px -1px rgba(0, 0, 0, 0.06);
+  /* ── Search panel: full-width flush on mobile ── */
+  .premium-search-container {
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    border-radius: 12px;
+    padding: 14px 12px;
+    margin-bottom: 12px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
   }
 
-  /* ── All cards: prevent text overflow on mobile ── */
+  .premium-search-container--compact {
+    padding: 10px 12px;
+    margin-bottom: 10px;
+  }
+
+  /* Tighter search input */
+  .premium-search-input {
+    font-size: 0.9rem !important;
+    padding: 10px 12px !important;
+  }
+
+  /* Category pills: smaller on mobile */
+  .category-pills-wrap .cat-pill,
+  .category-pills-wrap button {
+    padding: 6px 10px !important;
+    font-size: 0.75rem !important;
+  }
+
+  /* Also-search checkboxes: compact */
+  .also-search-row {
+    gap: 6px !important;
+    flex-wrap: wrap;
+  }
+
+  /* Filter section labels: tighter */
+  .filter-section-label {
+    margin-top: 6px;
+    margin-bottom: 4px;
+    font-size: 0.68rem;
+  }
+
+  /* Filter grid: tighter gap */
+  .filter-fields-grid {
+    gap: 4px !important;
+  }
+
+  .premium-search-input--mini {
+    font-size: 0.82rem !important;
+    padding: 8px 10px !important;
+  }
+
+  /* ── Product cards: full-width, edge-to-edge ── */
+  .product-summary-card {
+    border-radius: 12px;
+    padding: 12px;
+    border-left-width: 4px;
+  }
+
+  .search-result-card {
+    border-radius: 12px;
+    padding: 14px;
+  }
+
+  /* ── All cards: prevent text overflow ── */
   .product-summary-card,
   .search-result-card,
   .weed-card,
@@ -1101,17 +1157,24 @@
     max-width: 100%;
   }
 
-  /* ── Tighten main container padding on mobile ── */
+  /* ── Main container: minimal side padding for max card width ── */
   .main-container {
-    padding: 0 16px !important;
-    margin: 12px auto !important;
+    padding: 0 10px !important;
+    margin: 8px auto !important;
   }
 
-  /* ── Prevent horizontal overflow on mobile ── */
+  /* ── Prevent horizontal overflow ── */
   .desktop-main,
   .agri-content-area {
     overflow-x: hidden;
     max-width: 100vw;
+  }
+
+  /* ── Results count text ── */
+  .search-results-count {
+    font-size: 0.85rem;
+    text-align: center;
+    margin: 6px 0;
   }
 
   /* ── Card grids: proper spacing ── */
