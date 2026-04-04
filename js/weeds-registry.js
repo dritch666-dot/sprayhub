@@ -37,7 +37,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Acacia%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Acacia%20weed%20Australia",
+    "thumbnail": "images/weeds/prickly-acacia.webp"
   },
   {
     "commonName": "Active Growth Spring To Summer",
@@ -621,7 +622,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Amaranths%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Amaranths%20weed%20Australia",
+    "thumbnail": "images/weeds/amaranth.webp"
   },
   {
     "commonName": "Amazon frogbit",
@@ -1032,7 +1034,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Annual%20Medics%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Annual%20Medics%20weed%20Australia",
+    "thumbnail": "images/weeds/annual-medic.webp"
   },
   {
     "commonName": "Annual polymeria",
@@ -2197,7 +2200,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Awnless%20Barnyard%20Grass%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Awnless%20Barnyard%20Grass%20weed%20Australia",
+    "thumbnail": "images/weeds/awnless-barnyard.webp"
   },
   {
     "commonName": "Azolla",
@@ -3538,7 +3542,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Bifora%20testiculata%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Bifora%20testiculata%20weed%20Australia",
+    "thumbnail": "images/weeds/bifora.webp"
   },
   {
     "commonName": "Billygoat weed",
@@ -3754,7 +3759,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Bitou%20Brush%2FBoneseed%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Bitou%20Brush%2FBoneseed%20weed%20Australia",
+    "thumbnail": "images/weeds/boneseed.webp"
   },
   {
     "commonName": "Bitou bush",
@@ -4085,7 +4091,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Black%20Or%20Spear%20Thistle%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Black%20Or%20Spear%20Thistle%20weed%20Australia",
+    "thumbnail": "images/weeds/spear-thistle.webp"
   },
   {
     "commonName": "Black Scale",
@@ -4698,7 +4705,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Bluetop%2FBillygoat%20Weed%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Bluetop%2FBillygoat%20Weed%20weed%20Australia",
+    "thumbnail": "images/weeds/billygoat-weed.webp"
   },
   {
     "commonName": "Boggabri weed",
@@ -5000,7 +5008,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Bouvardia%20%E2%80%94%20Compact%20Plant%20Production%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Bouvardia%20%E2%80%94%20Compact%20Plant%20Production%20weed%20Australia",
+    "thumbnail": "images/weeds/bouvardia.webp"
   },
   {
     "commonName": "Boxthorn",
@@ -5063,7 +5072,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Boxthorn%20African%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Boxthorn%20African%20weed%20Australia",
+    "thumbnail": "images/weeds/boxthorn.webp"
   },
   {
     "commonName": "Boysenberry",
@@ -5330,7 +5340,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Broadleaf%20Dock%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Broadleaf%20Dock%20weed%20Australia",
+    "thumbnail": "images/weeds/dock.webp"
   },
   {
     "commonName": "Broadleaf privet",
@@ -5560,7 +5571,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Brome%20Grasses%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Brome%20Grasses%20weed%20Australia",
+    "thumbnail": "images/weeds/brome-grass.webp"
   },
   {
     "commonName": "Bromus diandrus",
@@ -7214,7 +7226,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Capeweed%20And%20Erodium%20Spp.%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Capeweed%20And%20Erodium%20Spp.%20weed%20Australia",
+    "thumbnail": "images/weeds/capeweed.webp"
   },
   {
     "commonName": "Capeweed Doublegee",
@@ -7225,7 +7238,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Capeweed%20Doublegee%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Capeweed%20Doublegee%20weed%20Australia",
+    "thumbnail": "images/weeds/capeweed.webp"
   },
   {
     "commonName": "Carpet grass",
@@ -8639,7 +8653,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Clovers%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Clovers%20weed%20Australia",
+    "thumbnail": "images/weeds/clover.webp"
   },
   {
     "commonName": "Coastal button grass",
@@ -9083,7 +9098,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Common%20Crowsfoot%20or%20Common%20Storksbill%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Common%20Crowsfoot%20or%20Common%20Storksbill%20weed%20Australia",
+    "thumbnail": "images/weeds/common-storksbill.webp"
   },
   {
     "commonName": "Common fumitory",
@@ -9330,7 +9346,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Common%20Peppercress%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Common%20Peppercress%20weed%20Australia",
+    "thumbnail": "images/weeds/peppercress.webp"
   },
   {
     "commonName": "Common pigweed",
@@ -9897,7 +9914,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Convolvulus%20Vines%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Convolvulus%20Vines%20weed%20Australia",
+    "thumbnail": "images/weeds/convolvulus.webp"
   },
   {
     "commonName": "Conyza bonariensis",
@@ -10691,7 +10709,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Crassula%20sieberiana%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Crassula%20sieberiana%20weed%20Australia",
+    "thumbnail": "images/weeds/crassula.webp"
   },
   {
     "commonName": "Creasing Reduction — Navel And Valencia Oranges",
@@ -11132,7 +11151,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Crowsfoot%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Crowsfoot%20weed%20Australia",
+    "thumbnail": "images/weeds/crowsfoot-grass.webp"
   },
   {
     "commonName": "Crowsfoot grass",
@@ -11856,7 +11876,8 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Deadnettle%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Deadnettle%20weed%20Australia",
+    "thumbnail": "images/weeds/nettle.webp"
   },
   {
     "commonName": "Defoliation",
@@ -12171,7 +12192,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Docks%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Docks%20weed%20Australia",
+    "thumbnail": "images/weeds/dock.webp"
   },
   {
     "commonName": "Doublegee",
@@ -12529,7 +12551,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Dwarf%20Amaranthus%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Dwarf%20Amaranthus%20weed%20Australia",
+    "thumbnail": "images/weeds/amaranth.webp"
   },
   {
     "commonName": "Dwarf crumbweed",
@@ -12949,7 +12972,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Erodium%20Spp.%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Erodium%20Spp.%20weed%20Australia",
+    "thumbnail": "images/weeds/erodium.webp"
   },
   {
     "commonName": "Especially At The Highest Application Rate.",
@@ -13077,7 +13101,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Except%20Noogoora%20Burr%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Except%20Noogoora%20Burr%20weed%20Australia",
+    "thumbnail": "images/weeds/noogoora-burr.webp"
   },
   {
     "commonName": "Excessive Vegetative Growth",
@@ -13110,7 +13135,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Fallopia%20convolvulus%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Fallopia%20convolvulus%20weed%20Australia",
+    "thumbnail": "images/weeds/convolvulus.webp"
   },
   {
     "commonName": "False castor oil plant",
@@ -14155,7 +14181,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=FOP%20Resistant%20Annual%20Ryegrass%20%2B%20Volunteer%20Barley%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=FOP%20Resistant%20Annual%20Ryegrass%20%2B%20Volunteer%20Barley%20weed%20Australia",
+    "thumbnail": "images/weeds/annual-ryegrass.webp"
   },
   {
     "commonName": "Forage rape",
@@ -14709,7 +14736,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Geraldton%20Wax%20Flower%20%E2%80%94%20Compact%20Plants%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Geraldton%20Wax%20Flower%20%E2%80%94%20Compact%20Plants%20weed%20Australia",
+    "thumbnail": "images/weeds/geraldton-wax-flower.webp"
   },
   {
     "commonName": "Geranium",
@@ -14766,7 +14794,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Geraniums%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Geraniums%20weed%20Australia",
+    "thumbnail": "images/weeds/geranium.webp"
   },
   {
     "commonName": "Ghost Gum",
@@ -15566,7 +15595,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Gorse%2FFurze%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Gorse%2FFurze%20weed%20Australia",
+    "thumbnail": "images/weeds/gorse.webp"
   },
   {
     "commonName": "Grader grass",
@@ -16702,7 +16732,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Heliotrope.%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Heliotrope.%20weed%20Australia",
+    "thumbnail": "images/weeds/blue-heliotrope.webp"
   },
   {
     "commonName": "Hemlock",
@@ -17258,7 +17289,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Horned%20Poppy%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Horned%20Poppy%20weed%20Australia",
+    "thumbnail": "images/weeds/poppy.webp"
   },
   {
     "commonName": "Horticultural Pesticide And Fertiliser Sprays",
@@ -18571,7 +18603,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Kikuyu%20Paspalum%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Kikuyu%20Paspalum%20weed%20Australia",
+    "thumbnail": "images/weeds/kikuyu.webp"
   },
   {
     "commonName": "Knobweed",
@@ -19193,7 +19226,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Lettuce%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Lettuce%20weed%20Australia",
+    "thumbnail": "images/weeds/prickly-lettuce.webp"
   },
   {
     "commonName": "Leucaena",
@@ -19838,7 +19872,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Lovegrass%2C%20African%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Lovegrass%2C%20African%20weed%20Australia",
+    "thumbnail": "images/weeds/lovegrass.webp"
   },
   {
     "commonName": "Lovegrass/Stink Grass",
@@ -19849,7 +19884,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Lovegrass%2FStink%20Grass%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Lovegrass%2FStink%20Grass%20weed%20Australia",
+    "thumbnail": "images/weeds/lovegrass.webp"
   },
   {
     "commonName": "Lucerne",
@@ -20101,7 +20137,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Marigold%20%E2%80%94%20Compact%20Plants%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Marigold%20%E2%80%94%20Compact%20Plants%20weed%20Australia",
+    "thumbnail": "images/weeds/marigold.webp"
   },
   {
     "commonName": "Marsilea",
@@ -20880,7 +20917,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Mimosa%20Pigra%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Mimosa%20Pigra%20weed%20Australia",
+    "thumbnail": "images/weeds/mimosa.webp"
   },
   {
     "commonName": "Ming asparagus",
@@ -21873,7 +21911,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Mustards%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Mustards%20weed%20Australia",
+    "thumbnail": "images/weeds/mustard.webp"
   },
   {
     "commonName": "Mysore thorn",
@@ -22168,7 +22207,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Needle%20Grasses%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Needle%20Grasses%20weed%20Australia",
+    "thumbnail": "images/weeds/needle-grass.webp"
   },
   {
     "commonName": "Neem tree",
@@ -22741,7 +22781,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Onion%20Weed%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Onion%20Weed%20weed%20Australia",
+    "thumbnail": "images/weeds/angled-onion-weed.webp"
   },
   {
     "commonName": "Opium poppy",
@@ -23341,7 +23382,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Parramatta%20Grass%20Species%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Parramatta%20Grass%20Species%20weed%20Australia",
+    "thumbnail": "images/weeds/parramatta-grass.webp"
   },
   {
     "commonName": "Parrot's feather",
@@ -23578,7 +23620,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Paspalum%20notatum%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Paspalum%20notatum%20weed%20Australia",
+    "thumbnail": "images/weeds/paspalum.webp"
   },
   {
     "commonName": "Paspalum Spp.",
@@ -23589,7 +23632,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Paspalum%20Spp.%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Paspalum%20Spp.%20weed%20Australia",
+    "thumbnail": "images/weeds/paspalum.webp"
   },
   {
     "commonName": "Paterson's curse",
@@ -24647,7 +24691,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Plantains%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Plantains%20weed%20Australia",
+    "thumbnail": "images/weeds/plantain.webp"
   },
   {
     "commonName": "Poa annua",
@@ -25945,7 +25990,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Radish%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Radish%20weed%20Australia",
+    "thumbnail": "images/weeds/wild-radish.webp"
   },
   {
     "commonName": "Ragwort",
@@ -26111,7 +26157,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Red%20Azolla%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Red%20Azolla%20weed%20Australia",
+    "thumbnail": "images/weeds/azolla.webp"
   },
   {
     "commonName": "Red bauhinia",
@@ -26653,7 +26700,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Rhodes%20Grass%20%E2%80%94%20Established%20Stands%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Rhodes%20Grass%20%E2%80%94%20Established%20Stands%20weed%20Australia",
+    "thumbnail": "images/weeds/rhodes-grass.webp"
   },
   {
     "commonName": "Rhus tree",
@@ -27787,7 +27835,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Sedges%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Sedges%20weed%20Australia",
+    "thumbnail": "images/weeds/annual-sedges.webp"
   },
   {
     "commonName": "Seed Treatment",
@@ -28515,7 +28564,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Sifton%20Bush%2FChinese%20Scrub%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Sifton%20Bush%2FChinese%20Scrub%20weed%20Australia",
+    "thumbnail": "images/weeds/sifton-bush.webp"
   },
   {
     "commonName": "Signal grass",
@@ -29079,7 +29129,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Slender%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Slender%20weed%20Australia",
+    "thumbnail": "images/weeds/slender-celery.webp"
   },
   {
     "commonName": "Slender celery",
@@ -29237,7 +29288,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Slender%20Thistles%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Slender%20Thistles%20weed%20Australia",
+    "thumbnail": "images/weeds/slender-thistle.webp"
   },
   {
     "commonName": "Slim amaranth",
@@ -29902,7 +29954,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Sorrel%20Sub-Clover%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Sorrel%20Sub-Clover%20weed%20Australia",
+    "thumbnail": "images/weeds/sorrel.webp"
   },
   {
     "commonName": "Sourgrass",
@@ -30217,7 +30270,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Spear%20Or%20Variegated%20Thistles*%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Spear%20Or%20Variegated%20Thistles*%20weed%20Australia",
+    "thumbnail": "images/weeds/variegated-thistle.webp"
   },
   {
     "commonName": "Spear thistle",
@@ -30642,7 +30696,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Spiny%20Spider%20Flower%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Spiny%20Spider%20Flower%20weed%20Australia",
+    "thumbnail": "images/weeds/spider-flower.webp"
   },
   {
     "commonName": "Spinyhead sida",
@@ -31591,7 +31646,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Streaked%20rattle%20pod%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Streaked%20rattle%20pod%20weed%20Australia",
+    "thumbnail": "images/weeds/streaked-rattlepod.webp"
   },
   {
     "commonName": "Streaked rattlepod",
@@ -31667,7 +31723,8 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Sub-Clover%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Sub-Clover%20weed%20Australia",
+    "thumbnail": "images/weeds/clover.webp"
   },
   {
     "commonName": "Subterranean clover",
@@ -31916,7 +31973,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Sunflower%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Sunflower%20weed%20Australia",
+    "thumbnail": "images/weeds/japanese-sunflower.webp"
   },
   {
     "commonName": "Sunflowers",
@@ -31938,7 +31996,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Suppression%20Of%20Annual%20Ryegrass%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Suppression%20Of%20Annual%20Ryegrass%20weed%20Australia",
+    "thumbnail": "images/weeds/annual-ryegrass.webp"
   },
   {
     "commonName": "Swamp box",
@@ -32473,7 +32532,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Thistle%2C%20Artichoke%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Thistle%2C%20Artichoke%20weed%20Australia",
+    "thumbnail": "images/weeds/artichoke.webp"
   },
   {
     "commonName": "Thistle, Californian",
@@ -32505,7 +32565,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Thistles%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Thistles%20weed%20Australia",
+    "thumbnail": "images/weeds/annual-thistles.webp"
   },
   {
     "commonName": "Thorn apples",
@@ -32652,7 +32713,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Three-horned%20Bedstraw%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Three-horned%20Bedstraw%20weed%20Australia",
+    "thumbnail": "images/weeds/bedstraw.webp"
   },
   {
     "commonName": "Tiger pear",
@@ -32718,7 +32780,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=To%20Destroy%20Banana%20Suckers%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=To%20Destroy%20Banana%20Suckers%20weed%20Australia",
+    "thumbnail": "images/weeds/banana-suckers.webp"
   },
   {
     "commonName": "Toadrush",
@@ -32961,7 +33024,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Treacle%20Mustard%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Treacle%20Mustard%20weed%20Australia",
+    "thumbnail": "images/weeds/mustard.webp"
   },
   {
     "commonName": "Tree hogweed",
@@ -33257,7 +33321,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Turnip%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Turnip%20weed%20Australia",
+    "thumbnail": "images/weeds/turnip-weed.webp"
   },
   {
     "commonName": "Turnip weed",
@@ -34130,7 +34195,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Volunteer%20sub-clover%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Volunteer%20sub-clover%20weed%20Australia",
+    "thumbnail": "images/weeds/clover.webp"
   },
   {
     "commonName": "Volunteer Sunflower",
@@ -34167,7 +34233,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Volunteer%20Vetch%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Volunteer%20Vetch%20weed%20Australia",
+    "thumbnail": "images/weeds/vetch.webp"
   },
   {
     "commonName": "Volunteer Wheat",
@@ -35382,7 +35449,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Wild%20Oat%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Wild%20Oat%20weed%20Australia",
+    "thumbnail": "images/weeds/wild-oats.webp"
   },
   {
     "commonName": "Wild oats",
@@ -35556,7 +35624,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Wild%20Or%20Prickly%20Lettuce%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Wild%20Or%20Prickly%20Lettuce%20weed%20Australia",
+    "thumbnail": "images/weeds/prickly-lettuce.webp"
   },
   {
     "commonName": "Wild radish",
@@ -35750,7 +35819,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Wild%20Radish%20%E2%80%94%20Suppression%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Wild%20Radish%20%E2%80%94%20Suppression%20weed%20Australia",
+    "thumbnail": "images/weeds/wild-radish.webp"
   },
   {
     "commonName": "Wild Radish Docks",
@@ -35761,7 +35831,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Wild%20Radish%20Docks%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Wild%20Radish%20Docks%20weed%20Australia",
+    "thumbnail": "images/weeds/wild-radish.webp"
   },
   {
     "commonName": "Wild Radish Wild Turnip",
@@ -35772,7 +35843,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Wild%20Radish%20Wild%20Turnip%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Wild%20Radish%20Wild%20Turnip%20weed%20Australia",
+    "thumbnail": "images/weeds/wild-radish.webp"
   },
   {
     "commonName": "Wild rosemary",
@@ -36846,7 +36918,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Yellowvine%2FCaltrop%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Yellowvine%2FCaltrop%20weed%20Australia",
+    "thumbnail": "images/weeds/caltrop.webp"
   },
   {
     "commonName": "Yellowwood",
@@ -36956,7 +37029,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Yorkshire%20Fog%20Grass%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Yorkshire%20Fog%20Grass%20weed%20Australia",
+    "thumbnail": "images/weeds/yorkshire-fog.webp"
   },
   {
     "commonName": "Yucca",
@@ -37049,7 +37123,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Zonal%20Geranium%20%E2%80%94%20Compact%20Plants%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Zonal%20Geranium%20%E2%80%94%20Compact%20Plants%20weed%20Australia",
+    "thumbnail": "images/weeds/geranium.webp"
   },
   {
     "commonName": "Stone crop",
@@ -37122,7 +37197,8 @@ window.weedsRegistry = [
           "Wheat"
         ]
       }
-    ]
+    ],
+    "thumbnail": "images/weeds/dense-flowered-fumitory.webp"
   },
   {
     "commonName": "White fumitory",
@@ -37157,7 +37233,8 @@ window.weedsRegistry = [
           "Wheat"
         ]
       }
-    ]
+    ],
+    "thumbnail": "images/weeds/fumitory.webp"
   },
   {
     "commonName": "Sand fescue",
@@ -37219,7 +37296,8 @@ window.weedsRegistry = [
           "Fallow"
         ]
       }
-    ]
+    ],
+    "thumbnail": "images/weeds/thornapple.webp"
   },
   {
     "commonName": "Cleavers",
@@ -37369,7 +37447,8 @@ window.weedsRegistry = [
           "Fallow"
         ]
       }
-    ]
+    ],
+    "thumbnail": "images/weeds/amaranth.webp"
   },
   {
     "commonName": "Common Storks Bill",
@@ -37519,7 +37598,8 @@ window.weedsRegistry = [
           "Fallow"
         ]
       }
-    ]
+    ],
+    "thumbnail": "images/weeds/annual-medic.webp"
   },
   {
     "commonName": "Pigweed",
@@ -37549,7 +37629,8 @@ window.weedsRegistry = [
           "Fallow"
         ]
       }
-    ]
+    ],
+    "thumbnail": "images/weeds/common-pigweed.webp"
   },
   {
     "commonName": "Stonecrop",
@@ -37699,7 +37780,8 @@ window.weedsRegistry = [
           "Fallow"
         ]
       }
-    ]
+    ],
+    "thumbnail": "images/weeds/wild-turnip.webp"
   },
   {
     "commonName": "Volunteer Pulses",

@@ -9243,7 +9243,8 @@ window.diseasesRegistry = [
     "favourableConditions": "",
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Leaf+Disease/Spot+plant+disease+australia",
-    "linkedProducts": []
+    "linkedProducts": [],
+    "thumbnail": "images/diseases/leaf-disease.webp"
   },
   {
     "commonName": "Leaf Mould",
@@ -10064,7 +10065,8 @@ window.diseasesRegistry = [
     "favourableConditions": "",
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Mandarins+plant+disease+australia",
-    "linkedProducts": []
+    "linkedProducts": [],
+    "thumbnail": "images/diseases/mandarins-brown-spot.webp"
   },
   {
     "commonName": "Mandarins — Brown Spot",
@@ -13148,7 +13150,8 @@ window.diseasesRegistry = [
     "favourableConditions": "",
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Red+Beet+plant+disease+australia",
-    "linkedProducts": []
+    "linkedProducts": [],
+    "thumbnail": "images/diseases/red-beet-downy-mildew.webp"
   },
   {
     "commonName": "Red Beet — Downy Mildew",

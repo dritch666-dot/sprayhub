@@ -1284,7 +1284,8 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "thumbnail": "images/pests/soybean-aphid.webp"
   },
   {
     "commonName": "Bean looper",
@@ -3779,7 +3780,8 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "thumbnail": "images/pests/cereal-aphid.webp"
   },
   {
     "commonName": "Cherry Aphid",
@@ -4054,7 +4056,8 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "thumbnail": "images/pests/black-citrus-aphid.webp"
   },
   {
     "commonName": "Citrus bud mite",
@@ -4095,7 +4098,8 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "thumbnail": "images/pests/spined-citrus-bug.webp"
   },
   {
     "commonName": "Citrus Gall Wasp",
@@ -6111,7 +6115,8 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "thumbnail": "images/pests/brown-cutworm.webp"
   },
   {
     "commonName": "Cydia Pomonella",
@@ -7269,7 +7274,8 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "thumbnail": "images/pests/flower-eating-caterpillars.webp"
   },
   {
     "commonName": "Flower Thrips",
@@ -9052,7 +9058,8 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "thumbnail": "images/pests/flower-thrips.webp"
   },
   {
     "commonName": "Hawk Moth",
@@ -9642,7 +9649,8 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "thumbnail": "images/pests/kelly-s-citrus-thrip.webp"
   },
   {
     "commonName": "La Plata Weevil",
@@ -10900,7 +10908,8 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "thumbnail": "images/pests/leaf-eating-loopers.webp"
   },
   {
     "commonName": "Lucerne flea",
@@ -15409,7 +15418,8 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "thumbnail": "images/pests/banana-scab-moth.webp"
   },
   {
     "commonName": "Scale insects",
@@ -15542,7 +15552,8 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "thumbnail": "images/pests/schedorhinotermes-spp.webp"
   },
   {
     "commonName": "Scirtothrips [Suppression only]",
@@ -16205,7 +16216,8 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "thumbnail": "images/pests/soft-scale.webp"
   },
   {
     "commonName": "Soil Borne Nematodes",
@@ -16649,7 +16661,8 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "thumbnail": "images/pests/stem-borers.webp"
   },
   {
     "commonName": "Stem Borers",
@@ -16872,7 +16885,8 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "thumbnail": "images/pests/subterranean-termites.webp"
   },
   {
     "commonName": "Subterranean Termites",
@@ -18853,7 +18867,8 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "thumbnail": "images/pests/web-spinning-spiders-including-black-house-spider.webp"
   },
   {
     "commonName": "Western flower thrips",
