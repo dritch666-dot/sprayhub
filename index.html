@@ -102,9 +102,18 @@
   }
   </script>
 
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="css/components.css">
-  <link rel="stylesheet" href="css/desktop.css">
+  <link rel="stylesheet" href="css/styles.css?v=204">
+  <link rel="stylesheet" href="css/components.css?v=204">
+  <link rel="stylesheet" href="css/desktop.css?v=204">
+
+  <!-- Force SW update on version mismatch (fixes iOS stuck cache) -->
+  <script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.getRegistration().then(function(reg) {
+      if (reg) { reg.update(); }
+    });
+  }
+  </script>
 </head>
 
 <body>

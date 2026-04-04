@@ -1,4 +1,4 @@
-const CACHE_NAME = 'sprayhub-v203';
+const CACHE_NAME = 'sprayhub-v204';
 
 const ASSETS = [
   './',
@@ -17,9 +17,9 @@ const ASSETS = [
   './images/android-chrome-512.png',
   './images/logo-stacked.png',
   './images/logo-white.png',
-  './css/styles.css',
-  './css/components.css',
-  './css/desktop.css',
+  './css/styles.css?v=204',
+  './css/components.css?v=204',
+  './css/desktop.css?v=204',
   './js/app.js',
   './js/calculators.js',
   './js/database.js',
@@ -321,6 +321,15 @@ self.addEventListener('activate', (e) => {
 
 self.addEventListener('fetch', (e) => {
   e.respondWith(
-    caches.match(e.request).then((cached) => cached || fetch(e.request))
+    caches.match(e.request).then((cached) => {
+      if (cached) return cached;
+      /* Fallback: try matching without query string (cache-busting params) */
+      var url = new URL(e.request.url);
+      if (url.search) {
+        url.search = '';
+        return caches.match(url.toString()).then((c2) => c2 || fetch(e.request));
+      }
+      return fetch(e.request);
+    })
   );
 });
