@@ -3246,6 +3246,20 @@ mark.search-highlight-pest {
   background: rgba(99, 102, 241, 0.03);
 }
 
+.use-pest-thumb {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  background: var(--bg-card, #f1f5f9);
+  border: 1.5px solid var(--border, #e2e8f0);
+}
+
+.use-pest-thumb-empty {
+  display: none;
+}
+
 .use-pest-info {
   flex: 1;
   min-width: 0;

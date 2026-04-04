@@ -205,6 +205,21 @@ function buildSearchIndex() {
   window.allPests = Object.keys(pestSet).sort(function (a, b) {
     return a.toLowerCase().localeCompare(b.toLowerCase());
   });
+
+  // ── Build thumbnail lookup map from Identify registries ──
+  window.thumbMap = {};
+  var registries = [
+    { data: window.weedsRegistry || [], prefix: 'images/weeds/' },
+    { data: window.pestsRegistry || [], prefix: 'images/pests/' },
+    { data: window.diseasesRegistry || [], prefix: 'images/diseases/' }
+  ];
+  registries.forEach(function (reg) {
+    (reg.data || []).forEach(function (entry) {
+      if (entry.thumbnail && entry.commonName) {
+        window.thumbMap[entry.commonName.toLowerCase()] = entry.thumbnail;
+      }
+    });
+  });
 }
 
 // ── Parse search query into tokens (supports exact phrases) ──
@@ -1689,8 +1704,26 @@ function renderSearchResults(results, query) {
         const stateTag = safeStates.includes('All') ? '' :
           ' <span class="use-state-tag">' + safeStates.join(', ') + '</span>';
         const noteHtml = r.note ? '<div class="use-row-note">📝 ' + window.highlightSearchTermEnhanced(r.note, query, _af.crop, _af.pest) + '</div>' : '';
+        // Thumbnail lookup — try first pestList name, then full weed string
+        var thumbSrc = '';
+        if (window.thumbMap) {
+          var thumbNames = r.pestList && r.pestList.length > 0 ? r.pestList : [r.weed];
+          for (var ti = 0; ti < thumbNames.length && !thumbSrc; ti++) {
+            var tn = thumbNames[ti].toLowerCase();
+            thumbSrc = window.thumbMap[tn] || '';
+            // Fuzzy: strip "spp.", "spp", trailing parenthetical
+            if (!thumbSrc) {
+              tn = tn.replace(/\s*spp\.?\s*$/i, '').replace(/\s*\(.*?\)\s*$/, '').trim();
+              thumbSrc = window.thumbMap[tn] || '';
+            }
+          }
+        }
+        var thumbHtml = thumbSrc
+          ? '<img class="use-pest-thumb" src="' + thumbSrc + '" alt="" loading="lazy" onerror="this.style.display=\'none\'">'
+          : '<span class="use-pest-thumb use-pest-thumb-empty"></span>';
         return [
           '<div class="use-pest-row">',
+          thumbHtml,
           '  <div class="use-pest-info">',
           '    <div class="use-pest-name">' + window.highlightSearchTermEnhanced(r.weed, query, '', _af.pest, 'pest') + stateTag + '</div>',
           '    <div class="use-pest-rate">' + rateStr + (r.stage ? ' · ' + window.highlightSearchTermEnhanced(r.stage, query, _af.crop, _af.pest) : '') + '</div>',
