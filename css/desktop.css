@@ -1080,26 +1080,30 @@
     grid-template-columns: 1fr !important;
   }
 
-  /* ── Search panel: full-width flush on mobile ── */
-  .premium-search-container {
+  /* ══ Search panel: MUST use .desktop-main prefix to beat desktop specificity ══ */
+  .desktop-main .premium-search-container,
+  .desktop-main .premium-search-container:not(.desktop-search-bar) {
     max-width: 100% !important;
     margin-left: 0 !important;
     margin-right: 0 !important;
-    border-radius: 12px;
-    padding: 14px 12px;
-    margin-bottom: 12px;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+    border-radius: 12px !important;
+    padding: 14px 12px !important;
+    margin-bottom: 12px !important;
+    background: var(--card-bg, #fff) !important;
+    border: 1px solid var(--border, #e2e8f0) !important;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06) !important;
   }
 
-  .premium-search-container--compact {
-    padding: 10px 12px;
-    margin-bottom: 10px;
-  }
-
-  /* Tighter search input */
-  .premium-search-input {
-    font-size: 0.9rem !important;
+  .desktop-main .premium-search-container--compact {
     padding: 10px 12px !important;
+    margin-bottom: 10px !important;
+  }
+
+  /* Tighter search input — beat desktop specificity */
+  .desktop-main .premium-search-container .search-input.premium-search-input,
+  .desktop-main .premium-search-input {
+    font-size: 0.9rem !important;
+    padding: 10px 12px 10px 36px !important;
   }
 
   /* Category pills: smaller on mobile */
@@ -1117,9 +1121,9 @@
 
   /* Filter section labels: tighter */
   .filter-section-label {
-    margin-top: 6px;
-    margin-bottom: 4px;
-    font-size: 0.68rem;
+    margin-top: 6px !important;
+    margin-bottom: 4px !important;
+    font-size: 0.68rem !important;
   }
 
   /* Filter grid: tighter gap */
@@ -1132,16 +1136,16 @@
     padding: 8px 10px !important;
   }
 
-  /* ── Product cards: full-width, edge-to-edge ── */
+  /* ── Product cards: full-width, proper padding ── */
   .product-summary-card {
-    border-radius: 12px;
-    padding: 12px;
-    border-left-width: 4px;
+    border-radius: 12px !important;
+    padding: 12px !important;
+    border-left-width: 4px !important;
   }
 
   .search-result-card {
-    border-radius: 12px;
-    padding: 14px;
+    border-radius: 12px !important;
+    padding: 14px !important;
   }
 
   /* ── All cards: prevent text overflow ── */
@@ -1150,14 +1154,15 @@
   .weed-card,
   .pest-card,
   .disease-card {
-    overflow: hidden;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    box-sizing: border-box;
-    max-width: 100%;
+    overflow: hidden !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+    box-sizing: border-box !important;
+    max-width: 100% !important;
   }
 
   /* ── Main container: minimal side padding for max card width ── */
+  .desktop-main .main-container,
   .main-container {
     padding: 0 10px !important;
     margin: 8px auto !important;
@@ -1166,8 +1171,8 @@
   /* ── Prevent horizontal overflow ── */
   .desktop-main,
   .agri-content-area {
-    overflow-x: hidden;
-    max-width: 100vw;
+    overflow-x: hidden !important;
+    max-width: 100vw !important;
   }
 
   /* ── Results count text ── */
