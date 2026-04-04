@@ -1,4 +1,4 @@
-const CACHE_NAME = 'sprayhub-v197';
+const CACHE_NAME = 'sprayhub-v206';
 
 const ASSETS = [
   './',
@@ -7,6 +7,7 @@ const ASSETS = [
   './manifest.json',
   './css/styles.css',
   './css/components.css',
+  './css/desktop.css',
   './js/app.js',
   './js/calculators.js',
   './js/database.js',

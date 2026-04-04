@@ -1,6 +1,7 @@
 {
     "name": "Spray Hub — Agricultural Chemical Database",
     "short_name": "Spray Hub",
+    "id": "/",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#f8fafc",

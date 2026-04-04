@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-AU">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- SEO Core -->
-  <title>Spray Hub — Australian Agricultural Chemical Database &amp; Spray Rate Calculator</title>
-  <meta name="description" content="Spray Hub is Australia's free offline agricultural chemical reference. Search 242+ product label rates, 354 Safety Data Sheets, 680 APVMA permits, and identify 1,100+ weeds, pests &amp; diseases. Spray calculators included.">
+  <title>Spray Hub — Australian Agricultural Chemical Database</title>
+  <meta name="description" content="Australia's free offline agricultural chemical reference. Search 243+ product labels, 680 APVMA permits, 300 SDS, and identify 1,100+ weeds, pests &amp; diseases.">
   <meta name="keywords" content="spray rate calculator, agricultural chemical database, APVMA permits, herbicide rates, insecticide rates, fungicide rates, weed identification Australia, pest identification, product label search, SDS safety data sheet, tank mix calculator, crop protection, Australian farming, spray hub">
   <meta name="author" content="Spray Hub">
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
@@ -19,7 +19,7 @@
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Spray Hub">
   <meta property="og:title" content="Spray Hub — Australian Agricultural Chemical Database">
-  <meta property="og:description" content="Free offline spray rate calculator &amp; chemical reference for Australian farmers. 242+ products, 680 permits, 1,100+ weeds, pests &amp; diseases.">
+  <meta property="og:description" content="Free offline spray rate calculator &amp; chemical reference for Australian farmers. 243+ products, 680 permits, 1,100+ weeds, pests &amp; diseases.">
   <meta property="og:url" content="https://sprayhub.com.au/">
   <meta property="og:image" content="https://sprayhub.com.au/images/og-sprayhub.png">
   <meta property="og:image:width" content="1200">
@@ -29,7 +29,7 @@
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Spray Hub — Australian Agricultural Chemical Database">
-  <meta name="twitter:description" content="Free offline spray rate calculator &amp; chemical reference. 242+ products, 680 permits, 1,100+ weeds, pests &amp; diseases.">
+  <meta name="twitter:description" content="Free offline spray rate calculator &amp; chemical reference. 243+ products, 680 permits, 1,100+ weeds, pests &amp; diseases.">
   <meta name="twitter:image" content="https://sprayhub.com.au/images/og-sprayhub.png">
 
   <!-- PWA -->
@@ -79,7 +79,102 @@
     "name": "Spray Hub",
     "url": "https://sprayhub.com.au",
     "description": "Australian agricultural chemical database and spray rate calculator",
-    "inLanguage": "en-AU"
+    "inLanguage": "en-AU",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://sprayhub.com.au/?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <!-- Structured Data — FAQPage (featured snippets) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is Spray Hub?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Spray Hub is a free, offline-capable agricultural chemical reference tool for Australian farmers, agronomists, and spray operators. It provides instant access to 243+ product label rates, 680 APVMA permits, 300 Safety Data Sheets, and identification records for over 1,100 weeds, 470 pests, and 480 diseases."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does Spray Hub work offline?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Spray Hub is a Progressive Web App (PWA) that caches all data locally after the first visit. Once loaded, the full product database, permits, SDS documents, and identification registries work without an internet connection — ideal for use in the field."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I search for a product by crop and pest?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Use the Narrow Results filters below the main search bar. Enter a crop name (e.g. Wheat) in the Crop field and a pest or weed name (e.g. Ryegrass) in the Pest field. Filters combine, so only products registered for both that crop and pest will appear. You can also type in the main search box — it searches product names, active ingredients, chemical groups, crops, weeds, pests, and permit numbers simultaneously."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What herbicide kills bindii in buffalo grass?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Search Spray Hub with crop filter set to Buffalo Grass and pest filter set to Bindii (or Soliva sessilis). The app will show all registered herbicides with label or permit coverage for that combination, including application rates, growth stage timing, and critical comments from the label."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I install Spray Hub on my phone?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Spray Hub can be installed directly to your phone's home screen without an app store. On iPhone, tap the Share button in Safari and select Add to Home Screen. On Android, tap the browser menu and select Install App. Once installed, it launches instantly like a native app and works fully offline."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <!-- Structured Data — HowTo (spray rate calculator) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": "How to Calculate Spray Rates Using Spray Hub",
+    "description": "Step-by-step guide to looking up correct spray rates for agricultural chemicals using the Spray Hub database.",
+    "totalTime": "PT2M",
+    "step": [
+      {
+        "@type": "HowToStep",
+        "position": 1,
+        "name": "Search for your product",
+        "text": "Type the product name, active ingredient, or chemical group into the search bar. For example, search 'glyphosate' or 'Roundup'."
+      },
+      {
+        "@type": "HowToStep",
+        "position": 2,
+        "name": "Select the product card",
+        "text": "Tap on the matching product card to expand its full label details, including registered crops, rates, and critical comments."
+      },
+      {
+        "@type": "HowToStep",
+        "position": 3,
+        "name": "Find your crop and target pest or weed",
+        "text": "Scroll through the crop sections to find your specific crop. Each crop lists the weeds, pests, or diseases it covers with the registered application rate and growth stage timing."
+      },
+      {
+        "@type": "HowToStep",
+        "position": 4,
+        "name": "Use the tank mix calculator",
+        "text": "Switch to the Tank Mix calculator, select your product and crop, then enter your spray volume and area. The calculator converts the label rate into the exact amount to add to your tank."
+      }
+    ]
   }
   </script>
 
@@ -101,6 +196,10 @@
     }
   }
   </script>
+
+  <!-- Preload critical CSS -->
+  <link rel="preload" href="css/styles.css?v=206" as="style">
+  <link rel="preload" href="css/components.css?v=206" as="style">
 
   <link rel="stylesheet" href="css/styles.css?v=206">
   <link rel="stylesheet" href="css/components.css?v=206">
@@ -161,7 +260,7 @@
   <noscript>
     <div style="padding:2rem;text-align:center;font-family:system-ui,sans-serif;max-width:600px;margin:0 auto;">
       <h1>Spray Hub — Australian Agricultural Chemical Database</h1>
-      <p>Spray Hub is a free offline agricultural chemical reference for Australian farmers, turf managers, and home gardeners. Search 242+ product label rates, 354 Safety Data Sheets, 680 APVMA permits, and identify 1,100+ weeds, pests and diseases. Includes spray rate calculators for tank mixing, cost comparison, and container coverage.</p>
+      <p>Spray Hub is a free offline agricultural chemical reference for Australian farmers, turf managers, and home gardeners. Search 243+ product label rates, 300 Safety Data Sheets, 680 APVMA permits, and identify 1,100+ weeds, pests and diseases. Includes spray rate calculators for tank mixing, cost comparison, and container coverage.</p>
       <p>This application requires JavaScript to run. Please enable JavaScript in your browser to use Spray Hub.</p>
       <p><a href="https://sprayhub.com.au/">sprayhub.com.au</a></p>
     </div>
@@ -266,7 +365,7 @@
       <div class="logo">
         <div class="logo-icon">🌱</div>
         <div class="logo-text">
-          <h1>Spray Hub</h1>
+          <span class="logo-title" role="heading" aria-level="2">Spray Hub</span>
           <p>v1.15 · DB build 205 · 243 products · 355 SDS · 1173 weeds · 474 pests · 487 diseases</p>
         </div>
       </div>
@@ -818,6 +917,7 @@
             <div class="desktop-filter-label">Search everything <span>matches all words</span></div>
             <div class="search-input-wrap">
               <span class="search-icon-prefix">🔍</span>
+              <label for="search-input" class="sr-only">Search products, active ingredients, chemical groups, weeds, crops</label>
               <input type="text" id="search-input" class="form-input search-input premium-search-input"
                 placeholder="Product, active, chemical group, weed, crop..."
                 autocomplete="off" autocorrect="off" spellcheck="false">
@@ -878,24 +978,28 @@
             <div class="desktop-filter-grid">
               <div class="search-input-wrap search-input-wrap--mini">
                 <span class="search-icon-prefix search-icon-prefix--mini">🌱</span>
+                <label for="crop-filter-input" class="sr-only">Filter by crop</label>
                 <input type="text" id="crop-filter-input" class="form-input search-input premium-search-input premium-search-input--mini"
                   placeholder="Crop…" autocomplete="off" autocorrect="off" spellcheck="false">
                 <span class="filter-clear-btn" id="crop-clear-btn" onclick="clearCropFilter()" title="Clear">✕</span>
               </div>
               <div class="search-input-wrap search-input-wrap--mini">
                 <span class="search-icon-prefix search-icon-prefix--mini">🐛</span>
+                <label for="pest-filter-input" class="sr-only">Filter by pest, weed, or disease</label>
                 <input type="text" id="pest-filter-input" class="form-input search-input premium-search-input premium-search-input--mini"
                   placeholder="Pest / weed / disease…" autocomplete="off" autocorrect="off" spellcheck="false">
                 <span class="filter-clear-btn" id="pest-clear-btn" onclick="clearPestFilter()" title="Clear">✕</span>
               </div>
               <div class="search-input-wrap search-input-wrap--mini">
                 <span class="search-icon-prefix search-icon-prefix--mini">📦</span>
+                <label for="product-filter-input" class="sr-only">Filter by product</label>
                 <input type="text" id="product-filter-input" class="form-input search-input premium-search-input premium-search-input--mini"
                   placeholder="Product…" autocomplete="off" autocorrect="off" spellcheck="false">
                 <span class="filter-clear-btn" id="product-clear-btn" onclick="clearProductFilter()" title="Clear">✕</span>
               </div>
               <div class="search-input-wrap search-input-wrap--mini">
                 <span class="search-icon-prefix search-icon-prefix--mini">📍</span>
+                <label for="state-filter-input" class="sr-only">Filter by state</label>
                 <input type="text" id="state-filter-input" class="form-input search-input premium-search-input premium-search-input--mini"
                   placeholder="State…" autocomplete="off" autocorrect="off" spellcheck="false">
                 <span class="filter-clear-btn" id="state-clear-btn" onclick="clearStateFilter()" title="Clear">✕</span>

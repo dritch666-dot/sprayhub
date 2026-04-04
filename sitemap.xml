@@ -1,15 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Homepage — main app shell -->
   <url>
     <loc>https://sprayhub.com.au/</loc>
-    <lastmod>2026-04-03</lastmod>
+    <lastmod>2026-04-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+
+  <!-- Lawn & Turf Care Guide — standalone content page -->
   <url>
     <loc>https://sprayhub.com.au/lawn-turf-guide.html</loc>
     <lastmod>2026-04-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+
+  <!-- Manifest (PWA install metadata) -->
+  <url>
+    <loc>https://sprayhub.com.au/manifest.json</loc>
+    <lastmod>2026-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- OG Image (social sharing) -->
+  <url>
+    <loc>https://sprayhub.com.au/images/og-sprayhub.png</loc>
+    <lastmod>2026-04-05</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
   </url>
 </urlset>
