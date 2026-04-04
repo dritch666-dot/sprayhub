@@ -1,4 +1,4 @@
-const CACHE_NAME = 'sprayhub-v196';
+const CACHE_NAME = 'sprayhub-v197';
 
 const ASSETS = [
   './',
@@ -27,6 +27,7 @@ const ASSETS = [
   './js/pests-ui.js',
   './js/diseases-registry.js',
   './js/diseases-ui.js',
+  './js/ala-search.js',
   './js/pubcris-offline-registry.js',
   './js/labels/acramite.js',
   './js/labels/agrifos600.js',
@@ -299,16 +300,4 @@ self.addEventListener('install', (e) => {
 });
 
 self.addEventListener('activate', (e) => {
-  e.waitUntil(
-    caches.keys().then((keys) =>
-      Promise.all(keys.filter((k) => k !== CACHE_NAME).map((k) => caches.delete(k)))
-    )
-  );
-  self.clients.claim();
-});
-
-self.addEventListener('fetch', (e) => {
-  e.respondWith(
-    caches.match(e.request).then((cached) => cached || fetch(e.request))
-  );
-});
+  e.waitUnt

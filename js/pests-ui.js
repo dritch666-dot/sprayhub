@@ -300,6 +300,13 @@
 
     if (results.length === 0) {
       var hasFilters = Object.keys(activePestType).length + Object.keys(activeOrder).length > 0;
+      var alaBtn = query && query.trim().length >= 2
+        ? '<div class="ala-search-section">'
+          + '<div style="color:var(--text-sub,#64748b);font-size:0.8rem;margin-bottom:8px;">Not in our database? Search 153,000+ Australian species online:</div>'
+          + '<button id="pests-ala-btn" class="ala-search-btn" onclick="alaSearch(\'' + query.replace(/'/g, "\\'") + '\', \'pests\')">🌏 Search ALA Australia</button>'
+          + '</div>'
+          + '<div id="pests-ala-results"></div>'
+        : '';
       container.innerHTML = '<div class="no-results" style="text-align:center;padding:40px 20px;">'
         + '<div style="font-size:2rem;margin-bottom:10px;">🐛</div>'
         + '<div style="font-weight:600;color:var(--text,#1e293b);margin-bottom:6px;">No pests found</div>'
@@ -307,6 +314,7 @@
         + (hasFilters || query ? 'Try removing some filters or changing your search terms.' : 'No pest data loaded.')
         + '</div>'
         + (hasFilters ? '<button onclick="clearAllPestFilters()" style="margin-top:12px;padding:8px 16px;border-radius:8px;border:none;background:var(--primary,#16a34a);color:#fff;font-weight:600;cursor:pointer;">Clear all filters</button>' : '')
+        + alaBtn
         + '</div>';
       return;
     }
