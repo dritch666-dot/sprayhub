@@ -4912,7 +4912,9 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "alaThumbnail": "https://images.ala.org.au/image/13a3a428-d4a5-49ac-8bb8-cab6f645d36b/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/13a3a428-d4a5-49ac-8bb8-cab6f645d36b/large"
   },
   {
     "commonName": "Common mango scale",
@@ -5622,7 +5624,9 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "alaThumbnail": "https://images.ala.org.au/image/108200ae-d2bb-4ed9-a038-56feb1100b4d/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/108200ae-d2bb-4ed9-a038-56feb1100b4d/large"
   },
   {
     "commonName": "Cotton Thrips",
@@ -6571,7 +6575,9 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "alaThumbnail": "https://images.ala.org.au/image/ba19d6ab-998b-4cb9-b6d1-f07937d7c02c/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/ba19d6ab-998b-4cb9-b6d1-f07937d7c02c/large"
   },
   {
     "commonName": "ECTROPIS LOOPER",
@@ -8110,7 +8116,9 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "alaThumbnail": "https://images.ala.org.au/image/741083aa-e9b3-422f-a831-d86a292e87b2/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/741083aa-e9b3-422f-a831-d86a292e87b2/large"
   },
   {
     "commonName": "Green looper",
@@ -9668,7 +9676,9 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "alaThumbnail": "https://images.ala.org.au/image/3588aec8-2bcf-4bed-880f-777581545a83/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/3588aec8-2bcf-4bed-880f-777581545a83/large"
   },
   {
     "commonName": "Lace bugs",
@@ -10572,7 +10582,9 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "alaThumbnail": "https://images.ala.org.au/image/741083aa-e9b3-422f-a831-d86a292e87b2/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/741083aa-e9b3-422f-a831-d86a292e87b2/large"
   },
   {
     "commonName": "Long-tailed mealybug [Suppression only]",
@@ -10818,7 +10830,9 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "alaThumbnail": "https://images.ala.org.au/image/f5b450ae-9b43-414e-a117-0c0bfcfdda49/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f5b450ae-9b43-414e-a117-0c0bfcfdda49/large"
   },
   {
     "commonName": "Loopers",
@@ -11329,7 +11343,9 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "alaThumbnail": "https://images.ala.org.au/image/fd781287-2e80-4805-a3ef-1a70e15878b0/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/fd781287-2e80-4805-a3ef-1a70e15878b0/large"
   },
   {
     "commonName": "Mango plant hopper",
@@ -12611,7 +12627,9 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "alaThumbnail": "https://images.ala.org.au/image/457f0f53-d60c-407d-a5b4-9c679c29dc42/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/457f0f53-d60c-407d-a5b4-9c679c29dc42/large"
   },
   {
     "commonName": "Onion thrips",
@@ -15615,7 +15633,9 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "alaThumbnail": "https://images.ala.org.au/image/3b3f8121-3fbe-462a-9e25-652f9c2855bb/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/3b3f8121-3fbe-462a-9e25-652f9c2855bb/large"
   },
   {
     "commonName": "Seychelles Scale",
@@ -15660,7 +15680,9 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "alaThumbnail": "https://images.ala.org.au/image/64151108-1b51-4f2f-b940-5ca91bf1f18a/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/64151108-1b51-4f2f-b940-5ca91bf1f18a/large"
   },
   {
     "commonName": "Silverleaf whitefly",
@@ -19301,7 +19323,9 @@ window.pestsRegistry = [
           "Urban Pest Control — Ants (External / Nuisance)"
         ]
       }
-    ]
+    ],
+    "alaThumbnail": "https://images.ala.org.au/image/74a86182-76ae-4538-9f0d-ca793e48a4af/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/74a86182-76ae-4538-9f0d-ca793e48a4af/large"
   },
   {
     "commonName": "Whitefringed Weevil",
