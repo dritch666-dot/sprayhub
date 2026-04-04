@@ -944,6 +944,7 @@
         <!-- Cross-database results -->
         <div id="cross-search-sections"></div>
       </div>
+
     </div>
 
     <!-- Modal Overlay Container -->
@@ -1092,6 +1093,12 @@
             <p>Our database currently contains <strong>242 registered products</strong> across 38 companies, <strong>354 Safety Data Sheets</strong>, <strong>680 APVMA permits</strong>, and identification records for <strong>1,107 weeds</strong>, <strong>474 pests</strong> and <strong>487 diseases</strong>. The spray calculators cover tank mixing, cost comparison, container coverage and nozzle calibration.</p>
             <h3>Our Purpose</h3>
             <p>Spray Hub was created to give people in the field quick, reliable access to label information without needing mobile coverage. All data is sourced directly from registered APVMA product labels and official permit documents. The app works fully offline once loaded.</p>
+            <h3>Install to Home Screen</h3>
+            <p>Spray Hub is a Progressive Web App (PWA) — you can install it directly to your phone or computer home screen for instant, app-like access. It loads instantly, works offline, and doesn't use app store storage. All your data stays on-device.</p>
+            <div id="about-install-section" style="margin:12px 0;">
+              <button id="about-install-btn" onclick="installApp()" style="display:none; width:100%; padding:12px; border:none; border-radius:8px; background:linear-gradient(135deg,#6366f1,#8b5cf6); color:white; font-weight:700; font-size:0.95rem; cursor:pointer;">📲 Install Spray Hub</button>
+              <div id="about-install-done" style="display:none; text-align:center; color:var(--text-sub); font-size:0.85rem; padding:8px 0;">✅ Spray Hub is already installed</div>
+            </div>
             <h3>Get in Touch</h3>
             <p>For questions or feedback, please visit the Contact page or email us at <a href="mailto:dritch666+SprayHub@gmail.com">dritch666+SprayHub@gmail.com</a>.</p>
             <p class="footer-page-version">Version 1.15 · Build 204</p>
@@ -1593,6 +1600,7 @@
         <a href="#" onclick="openPanel('disclaimer');return false;">Disclaimer</a>
         <a href="#" onclick="openPanel('privacy');return false;">Privacy Policy</a>
         <a href="#" onclick="openPanel('terms');return false;">Terms of Use</a>
+        <a href="#" id="footer-install-btn" onclick="installApp();return false;" style="display:none;">📲 Install App</a>
         <span class="footer-nav-sep"></span>
         <a href="https://apvma.gov.au" target="_blank" rel="noopener noreferrer">APVMA.gov.au</a>
         <a href="https://portal.apvma.gov.au/pubcris" target="_blank" rel="noopener noreferrer">PubCRIS</a>

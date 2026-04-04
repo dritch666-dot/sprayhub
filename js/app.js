@@ -21,57 +21,34 @@ function showToast(msg) {
     setTimeout(() => t.classList.remove('show'), 2000);
 }
 
-// ── Dropdown helpers ──────────────────────────────────────
-function closeAllDropdownsExcept(keepId) {
-    ['calc-menu', 'tools-menu', 'id-menu', 'reg-menu'].forEach(function(id) {
-        if (id === keepId) return;
-        var el = document.getElementById(id);
-        if (el) el.parentElement.classList.remove('open');
-    });
-}
-
-// Registries Dropdown (APVMA, SDS, Permits)
-function toggleRegMenu(e) {
-    e.stopPropagation();
-    document.getElementById('reg-menu').parentElement.classList.toggle('open');
-    closeAllDropdownsExcept('reg-menu');
-}
-function closeRegMenu() {
-    var el = document.getElementById('reg-menu');
-    if (el) el.parentElement.classList.remove('open');
-}
-
-// Identify Dropdown (Weeds, Pests, Diseases)
-function toggleIdMenu(e) {
-    e.stopPropagation();
-    document.getElementById('id-menu').parentElement.classList.toggle('open');
-    closeAllDropdownsExcept('id-menu');
-}
-function closeIdMenu() {
-    var el = document.getElementById('id-menu');
-    if (el) el.parentElement.classList.remove('open');
-}
-
 // Calculators Dropdown
 function toggleCalcMenu(e) {
     e.stopPropagation();
-    document.getElementById('calc-menu').parentElement.classList.toggle('open');
-    closeAllDropdownsExcept('calc-menu');
+    const dropdown = document.getElementById('calc-menu').parentElement;
+    dropdown.classList.toggle('open');
+    // Close the other dropdown
+    const toolsDropdown = document.getElementById('tools-menu').parentElement;
+    if (toolsDropdown) toolsDropdown.classList.remove('open');
 }
+
 function closeCalcMenu() {
-    var el = document.getElementById('calc-menu');
-    if (el) el.parentElement.classList.remove('open');
+    const dropdown = document.getElementById('calc-menu');
+    if (dropdown) dropdown.parentElement.classList.remove('open');
 }
 
 // Tools Dropdown
 function toggleToolsMenu(e) {
     e.stopPropagation();
-    document.getElementById('tools-menu').parentElement.classList.toggle('open');
-    closeAllDropdownsExcept('tools-menu');
+    const dropdown = document.getElementById('tools-menu').parentElement;
+    dropdown.classList.toggle('open');
+    // Close the other dropdown
+    const calcDropdown = document.getElementById('calc-menu').parentElement;
+    if (calcDropdown) calcDropdown.classList.remove('open');
 }
+
 function closeToolsMenu() {
-    var el = document.getElementById('tools-menu');
-    if (el) el.parentElement.classList.remove('open');
+    const dropdown = document.getElementById('tools-menu');
+    if (dropdown) dropdown.parentElement.classList.remove('open');
 }
 
 // Close dropdowns when clicking outside
@@ -143,17 +120,41 @@ function toggleTheme() {
     document.querySelector('.theme-toggle').innerText = isDark ? '🌙' : '☀️';
 }
 
-// PWA Install
+// PWA Install — deferred prompt stored for About panel button
 window.addEventListener('beforeinstallprompt', (e) => {
     e.preventDefault();
     deferredPrompt = e;
-    document.getElementById('install-prompt').classList.add('show');
+    // Show install button in About panel + footer
+    var aboutBtn = document.getElementById('about-install-btn');
+    var aboutDone = document.getElementById('about-install-done');
+    var footerBtn = document.getElementById('footer-install-btn');
+    if (aboutBtn) aboutBtn.style.display = 'block';
+    if (aboutDone) aboutDone.style.display = 'none';
+    if (footerBtn) footerBtn.style.display = 'inline-block';
+});
+
+window.addEventListener('appinstalled', () => {
+    deferredPrompt = null;
+    var aboutBtn = document.getElementById('about-install-btn');
+    var aboutDone = document.getElementById('about-install-done');
+    var footerBtn = document.getElementById('footer-install-btn');
+    if (aboutBtn) aboutBtn.style.display = 'none';
+    if (aboutDone) aboutDone.style.display = 'block';
+    if (footerBtn) footerBtn.style.display = 'none';
 });
 
 function installApp() {
     if (deferredPrompt) {
         deferredPrompt.prompt();
-        deferredPrompt.userChoice.then(() => { deferredPrompt = null; document.getElementById('install-prompt').classList.remove('show'); });
+        deferredPrompt.userChoice.then(() => {
+            deferredPrompt = null;
+            var aboutBtn = document.getElementById('about-install-btn');
+            var aboutDone = document.getElementById('about-install-done');
+            var footerBtn = document.getElementById('footer-install-btn');
+            if (aboutBtn) aboutBtn.style.display = 'none';
+            if (aboutDone) aboutDone.style.display = 'block';
+            if (footerBtn) footerBtn.style.display = 'none';
+        });
     }
 }
 

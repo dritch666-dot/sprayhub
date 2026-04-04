@@ -511,26 +511,13 @@
   transform: translateX(-50%) translateY(-10px);
 }
 
-/* Install Prompt */
+/* Install Prompt — hidden, replaced by About panel install button */
 .install-prompt {
-  position: fixed;
-  bottom: 100px;
-  left: 50%;
-  transform: translateX(-50%);
-  background: var(--primary);
-  color: white;
-  padding: 16px 24px;
-  border-radius: 16px;
-  display: none;
-  align-items: center;
-  gap: 16px;
-  z-index: 999;
-  box-shadow: var(--shadow-lg);
+  display: none !important;
 }
 
 .install-prompt.show {
-  display: flex;
-  animation: slideUp 0.3s;
+  display: none !important;
 }
 
 @keyframes slideUp {
@@ -2622,6 +2609,57 @@ mark.search-highlight-pest {
   opacity: 0;
   pointer-events: none;
   transform: translateY(20px);
+}
+
+/* App Footer */
+.app-footer {
+  margin-top: 40px;
+  padding: 24px 16px 32px;
+  border-top: 1px solid var(--border, #e2e8f0);
+  text-align: center;
+}
+
+.app-footer-inner {
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.app-footer-brand {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-main);
+  margin-bottom: 10px;
+}
+
+.app-footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.app-footer-link {
+  background: var(--bg-card, #f1f5f9);
+  border: 1px solid var(--border, #e2e8f0);
+  border-radius: 8px;
+  padding: 6px 14px;
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--text-main);
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.app-footer-link:hover {
+  background: var(--primary);
+  color: white;
+  border-color: var(--primary);
+}
+
+.app-footer-copy {
+  font-size: 0.75rem;
+  color: var(--text-sub);
 }
 
 /* Back to Top button */
