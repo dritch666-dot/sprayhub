@@ -529,8 +529,7 @@
 }
 
 .install-prompt.show {
-  display: flex;
-  animation: slideUp 0.3s;
+  display: none;
 }
 
 @keyframes slideUp {
