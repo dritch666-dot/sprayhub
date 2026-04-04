@@ -2,9 +2,9 @@
 # Spray Hub — .gitignore (Public Website Repo)
 # ═══════════════════════════════════════════
 
-# PDF archives (large binaries, not needed for website)
-Source labels/
-SDS Labels/
+# PDF labels and SDS documents (needed for Label/SDS buttons on website)
+# Source labels/
+# SDS Labels/
 APVMA - Permits/
 
 # Dev scripts (internal tools, not for production)
