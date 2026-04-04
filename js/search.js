@@ -1718,8 +1718,10 @@ function renderSearchResults(results, query) {
             }
           }
         }
+        var thumbSearchName = (r.pestList && r.pestList.length > 0 ? r.pestList[0] : r.weed) || '';
+        var thumbGoogleUrl = 'https://www.google.com/search?tbm=isch&q=' + encodeURIComponent(thumbSearchName + ' australia');
         var thumbHtml = thumbSrc
-          ? '<img class="use-pest-thumb" src="' + thumbSrc + '" alt="" loading="lazy" onerror="this.style.display=\'none\'">'
+          ? '<a href="' + thumbGoogleUrl + '" target="_blank" rel="noopener" class="use-pest-thumb-link" title="Search images: ' + thumbSearchName.replace(/"/g, '&quot;') + '"><img class="use-pest-thumb" src="' + thumbSrc + '" alt="" loading="lazy" onerror="this.style.display=\'none\'"></a>'
           : '<span class="use-pest-thumb use-pest-thumb-empty"></span>';
         return [
           '<div class="use-pest-row">',
