@@ -583,67 +583,82 @@
 .desktop-search-bar {
   max-width: 100% !important;
   width: 100% !important;
-  padding: 10px 14px !important;
+  padding: 16px 20px !important;
   margin: 0 0 10px 0 !important;
-  border-radius: 10px;
+  border-radius: 12px;
   display: flex !important;
   flex-wrap: wrap;
   gap: 0;
-  align-items: flex-start;
+  align-items: stretch;
 }
 
 /* Left panel: search + pills + scope */
 .desktop-search-left {
-  flex: 1 1 48%;
+  flex: 1 1 52%;
   min-width: 300px;
-  padding-right: 16px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Right panel: 4 filter fields */
 .desktop-search-right {
-  flex: 1 1 44%;
+  flex: 1 1 40%;
   min-width: 320px;
-  border-left: 1px solid var(--border, #e2e8f0);
-  padding-left: 16px;
+  border-left: 1.5px solid var(--border, #e2e8f0);
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 [data-theme="dark"] .desktop-search-right {
   border-left-color: #334155;
 }
 
-/* Filter label above the right panel */
+/* Section labels for both panels */
 .desktop-filter-label {
-  font-size: 0.65rem;
+  font-size: 0.68rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.5px;
   color: var(--text-sub, #94a3b8);
-  margin-bottom: 5px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.desktop-filter-label::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--border, #e2e8f0);
 }
 .desktop-filter-label span {
   font-weight: 400;
   text-transform: none;
   letter-spacing: 0;
   font-style: italic;
-  margin-left: 4px;
+  flex-shrink: 0;
 }
 
-/* 2x2 filter grid */
+/* 2x2 filter grid — vertically centred in right panel */
 .desktop-filter-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 5px;
+  gap: 6px;
+  flex: 1;
+  align-content: center;
 }
 
-/* Main search input: compact */
+/* Main search input */
 .desktop-search-bar .search-input.premium-search-input {
-  padding: 8px 16px 8px 36px !important;
+  padding: 10px 16px 10px 36px !important;
   font-size: 0.9rem;
   border-radius: 8px;
   border-width: 1.5px;
 }
 .desktop-search-bar .search-input-wrap {
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
 .desktop-search-bar .search-icon-prefix {
   font-size: 0.85rem;
@@ -657,34 +672,35 @@
   height: 14px;
 }
 
-/* Category pills: tight */
+/* Category pills */
 .desktop-search-bar .category-pills-row {
-  gap: 4px;
-  margin-bottom: 3px;
+  gap: 5px;
+  margin-bottom: 6px;
 }
 .desktop-search-bar .category-pill {
-  padding: 2px 8px;
-  font-size: 0.68rem;
+  padding: 3px 10px;
+  font-size: 0.72rem;
   border-radius: 12px;
-  border-width: 1px;
+  border-width: 1.5px;
 }
 
-/* Scope toggles: compact */
+/* Scope toggles */
 .desktop-search-bar .search-scope-row {
-  padding: 2px 0 0;
+  padding: 4px 0 0;
   gap: 6px;
-  font-size: 0.7rem;
+  font-size: 0.72rem;
+  margin-top: auto;
 }
 .desktop-search-bar .scope-pill {
-  font-size: 0.7rem;
-  padding: 1px 5px;
+  font-size: 0.72rem;
+  padding: 2px 7px;
 }
 
 /* Filter mini inputs */
 .desktop-search-bar .premium-search-input--mini {
-  padding: 7px 26px 7px 32px !important;
-  font-size: 0.82rem !important;
-  border-radius: 7px !important;
+  padding: 9px 26px 9px 32px !important;
+  font-size: 0.84rem !important;
+  border-radius: 8px !important;
   border-width: 1.5px;
 }
 .desktop-search-bar .search-icon-prefix--mini {
