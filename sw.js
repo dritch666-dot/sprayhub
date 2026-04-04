@@ -1,4 +1,4 @@
-const CACHE_NAME = 'sprayhub-v204';
+const CACHE_NAME = 'sprayhub-v205';
 
 const ASSETS = [
   './',
@@ -17,9 +17,9 @@ const ASSETS = [
   './images/android-chrome-512.png',
   './images/logo-stacked.png',
   './images/logo-white.png',
-  './css/styles.css?v=204',
-  './css/components.css?v=204',
-  './css/desktop.css?v=204',
+  './css/styles.css?v=205',
+  './css/components.css?v=205',
+  './css/desktop.css?v=205',
   './js/app.js',
   './js/calculators.js',
   './js/database.js',
@@ -320,11 +320,27 @@ self.addEventListener('activate', (e) => {
 });
 
 self.addEventListener('fetch', (e) => {
+  var url = new URL(e.request.url);
+  /* HTML & CSS: stale-while-revalidate — serve cache, refresh in background */
+  if (url.pathname.endsWith('.html') || url.pathname === '/' || url.pathname.endsWith('.css')) {
+    e.respondWith(
+      caches.open(CACHE_NAME).then((cache) =>
+        cache.match(e.request).then((cached) => {
+          var fetched = fetch(e.request).then((response) => {
+            if (response.ok) cache.put(e.request, response.clone());
+            return response;
+          }).catch(() => cached);
+          return cached || fetched;
+        })
+      )
+    );
+    return;
+  }
+  /* Everything else: cache-first */
   e.respondWith(
     caches.match(e.request).then((cached) => {
       if (cached) return cached;
-      /* Fallback: try matching without query string (cache-busting params) */
-      var url = new URL(e.request.url);
+      /* Fallback: try matching without query string */
       if (url.search) {
         url.search = '';
         return caches.match(url.toString()).then((c2) => c2 || fetch(e.request));
