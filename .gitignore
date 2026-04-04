@@ -5,7 +5,7 @@
 # PDF labels and SDS documents (needed for Label/SDS buttons on website)
 # Source labels/
 # SDS Labels/
-APVMA - Permits/
+#APVMA - Permits/
 
 # Dev scripts (internal tools, not for production)
 _dev-scripts/
