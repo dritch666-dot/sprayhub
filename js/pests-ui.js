@@ -389,11 +389,12 @@
         ? '<button class="pest-back-btn" onclick="window.navigateBackToProduct()">← Back to ' + (window._productNavSource.productName || 'product').replace(/</g, '&lt;') + '</button>'
         : '';
 
-      // ALA thumbnail (if enriched)
+      // Local thumbnail (from images/ folder) or ALA thumbnail fallback
+      var thumbSrc = p.thumbnail || p.alaThumbnail || '';
       var alaThumbnailHtml = '';
-      if (p.alaThumbnail) {
+      if (thumbSrc) {
         alaThumbnailHtml = '<div class="pest-ala-thumb">'
-          + '<img src="' + p.alaThumbnail + '" alt="' + p.commonName.replace(/"/g, '&quot;') + '" loading="lazy" onerror="this.parentElement.style.display=\'none\'">'
+          + '<img src="' + thumbSrc + '" alt="' + p.commonName.replace(/"/g, '&quot;') + '" loading="lazy" onerror="this.parentElement.style.display=\'none\'">'
           + '</div>';
       }
 

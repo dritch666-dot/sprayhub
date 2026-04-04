@@ -347,11 +347,12 @@
         ? '<button class="disease-back-btn" onclick="window.navigateBackToProduct()">← Back to ' + (window._productNavSource.productName || 'product').replace(/</g, '&lt;') + '</button>'
         : '';
 
-      // ALA thumbnail (if enriched)
+      // Local thumbnail (from images/ folder) or ALA thumbnail fallback
+      var thumbSrc = d.thumbnail || d.alaThumbnail || '';
       var alaThumbnailHtml = '';
-      if (d.alaThumbnail) {
+      if (thumbSrc) {
         alaThumbnailHtml = '<div class="disease-ala-thumb">'
-          + '<img src="' + d.alaThumbnail + '" alt="' + d.commonName.replace(/"/g, '&quot;') + '" loading="lazy" onerror="this.parentElement.style.display=\'none\'">'
+          + '<img src="' + thumbSrc + '" alt="' + d.commonName.replace(/"/g, '&quot;') + '" loading="lazy" onerror="this.parentElement.style.display=\'none\'">'
           + '</div>';
       }
 

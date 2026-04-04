@@ -444,11 +444,12 @@
         ? '<button class="weed-back-btn" onclick="window.navigateBackToProduct()">← Back to ' + (window._productNavSource.productName || 'product').replace(/</g, '&lt;') + '</button>'
         : '';
 
-      // ALA thumbnail (if enriched) or fallback to Google Images link
+      // Local thumbnail (from images/ folder) or ALA thumbnail fallback
+      var thumbSrc = w.thumbnail || w.alaThumbnail || '';
       var alaThumbnailHtml = '';
-      if (w.alaThumbnail) {
+      if (thumbSrc) {
         alaThumbnailHtml = '<div class="weed-ala-thumb">'
-          + '<img src="' + w.alaThumbnail + '" alt="' + w.commonName.replace(/"/g, '&quot;') + '" loading="lazy" onerror="this.parentElement.style.display=\'none\'">'
+          + '<img src="' + thumbSrc + '" alt="' + w.commonName.replace(/"/g, '&quot;') + '" loading="lazy" onerror="this.parentElement.style.display=\'none\'">'
           + '</div>';
       }
 
