@@ -2,7 +2,7 @@
 window.pestsRegistry = [
   {
     "commonName": "28-spotted Ladybird",
-    "scientificName": "",
+    "scientificName": "Coccinella transversalis",
     "pestType": "Chewing insect",
     "order": "",
     "cropsAffected": [],
@@ -19,7 +19,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/28spotted_ladybird.webp"
+    "thumbnail": "images/pests/28spotted_ladybird.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/de10282c-b107-4df4-808a-9e30f631d0df/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/de10282c-b107-4df4-808a-9e30f631d0df/large",
+    "family": "COCCINELLIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/9058a7d7-fe21-4ff8-8eaa-86459e5a5d24"
   },
   {
     "commonName": "Adult Houseflies",
@@ -108,11 +112,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/african-black-beetle.webp"
+    "thumbnail": "images/pests/african-black-beetle.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/65628ba2-0e9e-40a4-bdfb-a0aaa1eb6c84/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/65628ba2-0e9e-40a4-bdfb-a0aaa1eb6c84/large",
+    "family": "SCARABAEIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/2563d4b5-b692-48c6-8dc1-1d4ea37049a4"
   },
   {
     "commonName": "American Cockroach",
-    "scientificName": "",
+    "scientificName": "Periplaneta americana",
     "pestType": "General pest",
     "order": "",
     "cropsAffected": [],
@@ -137,7 +145,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/american-cockroach.webp"
+    "thumbnail": "images/pests/american-cockroach.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/2fe86adc-7f6e-450f-aa9c-6be225ddea4f/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/2fe86adc-7f6e-450f-aa9c-6be225ddea4f/large",
+    "family": "BLATTIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/7b7975bb-6a88-4ca3-8b33-414dff8f8c95"
   },
   {
     "commonName": "American serpentine leaf miner",
@@ -158,7 +170,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/american-serpentine-leaf-miner.webp"
+    "thumbnail": "images/pests/american-serpentine-leaf-miner.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/4c8b1e92-fe28-4d6c-89e5-0ea20d47ea52/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/4c8b1e92-fe28-4d6c-89e5-0ea20d47ea52/large",
+    "family": "AGROMYZIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_1805"
   },
   {
     "commonName": "Aphid Mirids",
@@ -181,11 +197,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/aphid-mirids.webp"
+    "thumbnail": "images/pests/aphid-mirids.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/27b2724a-6663-4e7e-817c-77c8f0189e52/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/27b2724a-6663-4e7e-817c-77c8f0189e52/large",
+    "family": "MIRIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/0720761f-f848-4254-8695-b37405bc5228"
   },
   {
     "commonName": "Aphids Mealybugs Scale",
-    "scientificName": "",
+    "scientificName": "Ferrisia virgata",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -204,7 +224,9 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/aphids-mealybugs-scale.webp"
+    "thumbnail": "images/pests/aphids-mealybugs-scale.webp",
+    "family": "PSEUDOCOCCIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/7e53d98f-d10e-42b0-bd5e-8b1f662f9268"
   },
   {
     "commonName": "Apple Dimpling Bug",
@@ -270,7 +292,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/apple-dimpling-bug.webp"
+    "thumbnail": "images/pests/apple-dimpling-bug.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/61ff8f2e-ac14-4da0-a4a0-656d2c6b11ba/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/61ff8f2e-ac14-4da0-a4a0-656d2c6b11ba/large",
+    "family": "MIRIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/544ef870-e848-45d3-be88-115557976f50"
   },
   {
     "commonName": "Apple Looper",
@@ -302,7 +328,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/apple-looper.webp"
+    "thumbnail": "images/pests/apple-looper.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/f5b450ae-9b43-414e-a117-0c0bfcfdda49/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f5b450ae-9b43-414e-a117-0c0bfcfdda49/large",
+    "family": "GEOMETRIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/38b5f5d2-40b1-4669-afed-902ec600fe0f"
   },
   {
     "commonName": "Apple Weevil",
@@ -338,11 +368,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/apple-weevil.webp"
+    "thumbnail": "images/pests/apple-weevil.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/2d8490f1-bf76-40af-bc4d-ef96315cc461/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/2d8490f1-bf76-40af-bc4d-ef96315cc461/large",
+    "family": "CURCULIONIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/e2313bed-168f-4786-960a-b0cb29f03862"
   },
   {
     "commonName": "Argentine Ant",
-    "scientificName": "",
+    "scientificName": "Linepithema humile",
     "pestType": "Soil pest",
     "order": "",
     "cropsAffected": [],
@@ -359,7 +393,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/argentine-ant.webp"
+    "thumbnail": "images/pests/argentine-ant.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/e10df368-2cc0-4079-996f-0cd99ee64111/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/e10df368-2cc0-4079-996f-0cd99ee64111/large",
+    "family": "FORMICIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/5ab2c027-e130-451b-8df5-31cb352e65cc"
   },
   {
     "commonName": "Argentine Stem Weevil",
@@ -400,11 +438,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/argentine-stem-weevil.webp"
+    "thumbnail": "images/pests/argentine-stem-weevil.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/1c230b47-7b86-41c0-8244-c57091cb8408/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/1c230b47-7b86-41c0-8244-c57091cb8408/large",
+    "family": "CURCULIONIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/638e4082-95e0-481b-98a9-a51a36e34005"
   },
   {
     "commonName": "Argentinian scarab",
-    "scientificName": "",
+    "scientificName": "Antitrogus batesii",
     "pestType": "Soil pest",
     "order": "Coleoptera",
     "cropsAffected": [
@@ -423,11 +465,13 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/argentinian-scarab.webp"
+    "thumbnail": "images/pests/argentinian-scarab.webp",
+    "family": "SCARABAEIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/764c9390-2151-47cb-bdd8-22b9d118ccc2"
   },
   {
     "commonName": "Armoured Scale",
-    "scientificName": "",
+    "scientificName": "Satyrichthys welchi",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [],
@@ -444,7 +488,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/armoured-scale.webp"
+    "thumbnail": "images/pests/armoured-scale.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/24fd2a39-427d-451a-ba56-2f4e50d8fa84/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/24fd2a39-427d-451a-ba56-2f4e50d8fa84/large",
+    "family": "PERISTEDIIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/c6accdfa-1fc5-48df-96aa-bb8658bb0760"
   },
   {
     "commonName": "Armyworms",
@@ -508,7 +556,7 @@ window.pestsRegistry = [
   },
   {
     "commonName": "Asynonychus Cervinus",
-    "scientificName": "",
+    "scientificName": "Synonychus eucalypti",
     "pestType": "Chewing insect",
     "order": "",
     "cropsAffected": [],
@@ -526,11 +574,13 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/asynonychus-cervinus.webp"
+    "thumbnail": "images/pests/asynonychus-cervinus.webp",
+    "family": "TETRANYCHIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/91f62577-c4cb-4a38-a753-bdd505798676"
   },
   {
     "commonName": "Auger beetles",
-    "scientificName": "",
+    "scientificName": "Eupoecila australasiae",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [],
@@ -547,11 +597,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/auger-beetles.webp"
+    "thumbnail": "images/pests/auger-beetles.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/f12e2028-700f-499d-ad14-1ed81bf76f6a/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f12e2028-700f-499d-ad14-1ed81bf76f6a/large",
+    "family": "SCARABAEIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/9ceb2d04-d1cc-4d2a-8cc8-683cc55eca80"
   },
   {
     "commonName": "Australian Cockroach",
-    "scientificName": "",
+    "scientificName": "Periplaneta australasiae",
     "pestType": "General pest",
     "order": "",
     "cropsAffected": [],
@@ -576,11 +630,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/australian-cockroach.webp"
+    "thumbnail": "images/pests/australian-cockroach.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/7b06b88c-83d7-4b7b-b6d5-bec1db41b601/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/7b06b88c-83d7-4b7b-b6d5-bec1db41b601/large",
+    "family": "BLATTIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/bb699f10-66c7-4c53-9c77-e4724f0a908c"
   },
   {
     "commonName": "Australian plague locust",
-    "scientificName": "",
+    "scientificName": "Chortoicetes terminifera",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -600,7 +658,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/australian-plague-locust.webp"
+    "thumbnail": "images/pests/australian-plague-locust.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/472eb469-bc41-4a24-bbb7-e28510881ac2/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/472eb469-bc41-4a24-bbb7-e28510881ac2/large",
+    "family": "ACRIDIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/ec835f12-ad32-4789-af28-44183c852e34"
   },
   {
     "commonName": "Autumn Gum Moth",
@@ -623,11 +685,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/autumn-gum-moth.webp"
+    "thumbnail": "images/pests/autumn-gum-moth.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/7e36c3a4-25f5-421d-8a2e-368e3dac41d0/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/7e36c3a4-25f5-421d-8a2e-368e3dac41d0/large",
+    "family": "GEOMETRIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/fe4de77c-a74c-4f6e-822d-34e04633ca57"
   },
   {
     "commonName": "Avocado Lace Bug",
-    "scientificName": "",
+    "scientificName": "Conotrachelus perseae",
     "pestType": "Sucking insect",
     "order": "",
     "cropsAffected": [
@@ -646,11 +712,13 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/avocado-lace-bug.webp"
+    "thumbnail": "images/pests/avocado-lace-bug.webp",
+    "family": "CURCULIONIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_1064"
   },
   {
     "commonName": "Avocado leaf roller",
-    "scientificName": "",
+    "scientificName": "Conus (Splinoconus) voluminalis",
     "pestType": "Chewing insect",
     "order": "",
     "cropsAffected": [],
@@ -693,7 +761,9 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/avocado-leaf-roller.webp"
+    "thumbnail": "images/pests/avocado-leaf-roller.webp",
+    "family": "CONIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/d1c48e56-ab6f-4a89-a4ab-e76c0ae928a1"
   },
   {
     "commonName": "Azalea lace bug",
@@ -724,11 +794,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/azalea-lace-bug.webp"
+    "thumbnail": "images/pests/azalea-lace-bug.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/c78bd896-3483-48c5-b522-65b88a50c8a2/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/c78bd896-3483-48c5-b522-65b88a50c8a2/large",
+    "family": "TINGIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/bde44d47-c386-46d3-ae56-34e71d4c6f23"
   },
   {
     "commonName": "Bactrocera Tryoni",
-    "scientificName": "",
+    "scientificName": "Bactrocera (Bactrocera) tryoni",
     "pestType": "Fly",
     "order": "",
     "cropsAffected": [],
@@ -745,7 +819,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/bactrocera-tryoni.webp"
+    "thumbnail": "images/pests/bactrocera-tryoni.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/df1caa13-3a08-4ad8-820c-f15262449b8a/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/df1caa13-3a08-4ad8-820c-f15262449b8a/large",
+    "family": "TEPHRITIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/70a0f154-399e-4e20-a2e1-0fb478a323da"
   },
   {
     "commonName": "Balaustium Mite",
@@ -780,7 +858,9 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/balaustium-mite.webp"
+    "thumbnail": "images/pests/balaustium-mite.webp",
+    "family": "ERYTHRAEIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/a33d8ac4-1064-4f12-adfc-461ad478bad7"
   },
   {
     "commonName": "Banana aphid",
@@ -811,7 +891,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/banana-aphid.webp"
+    "thumbnail": "images/pests/banana-aphid.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/e901f764-8d8a-4791-bee5-c40e0ca93b49/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/e901f764-8d8a-4791-bee5-c40e0ca93b49/large",
+    "family": "APHIDIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/23a67e11-40d0-4493-bc40-222325fcc399"
   },
   {
     "commonName": "Banana Flower Thrips",
@@ -850,7 +934,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/banana-flower-thrips.webp"
+    "thumbnail": "images/pests/banana-flower-thrips.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/4fe3613a-8ace-463c-adb9-291d6aefb2fc/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/4fe3613a-8ace-463c-adb9-291d6aefb2fc/large",
+    "family": "THRIPIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/84a318a6-7aa7-4c03-ac96-90eaa39c1986"
   },
   {
     "commonName": "Banana Fruit Caterpillar",
@@ -871,7 +959,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/banana-fruit-caterpillar.webp"
+    "thumbnail": "images/pests/banana-fruit-caterpillar.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/cc7a9229-15e9-45d4-81ed-1fe17e9154ef/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/cc7a9229-15e9-45d4-81ed-1fe17e9154ef/large",
+    "family": "PENAEIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/521aaf4b-3201-4c93-a61a-8b3812b02810"
   },
   {
     "commonName": "Banana Rust Thrips",
@@ -950,7 +1042,9 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/banana-rust-thrips.webp"
+    "thumbnail": "images/pests/banana-rust-thrips.webp",
+    "family": "THRIPIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/ec895240-9e9c-4a89-915d-0825d11efc0c"
   },
   {
     "commonName": "Banana Scab Moth",
@@ -971,7 +1065,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/banana-scab-moth.webp"
+    "thumbnail": "images/pests/banana-scab-moth.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/cc7a9229-15e9-45d4-81ed-1fe17e9154ef/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/cc7a9229-15e9-45d4-81ed-1fe17e9154ef/large",
+    "family": "PENAEIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/521aaf4b-3201-4c93-a61a-8b3812b02810"
   },
   {
     "commonName": "Banana Spider Mite",
@@ -1002,11 +1100,13 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/banana-spider-mite.webp"
+    "thumbnail": "images/pests/banana-spider-mite.webp",
+    "family": "TETRANYCHIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/adebc6a7-5ad5-485f-97ad-e5ab96295ed8"
   },
   {
     "commonName": "Banana Spotted Mite",
-    "scientificName": "",
+    "scientificName": "Penaeus (Fenneropenaeus) merguiensis",
     "pestType": "Mite",
     "order": "Acari",
     "cropsAffected": [
@@ -1025,7 +1125,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/banana-spotted-mite.webp"
+    "thumbnail": "images/pests/banana-spotted-mite.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/cc7a9229-15e9-45d4-81ed-1fe17e9154ef/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/cc7a9229-15e9-45d4-81ed-1fe17e9154ef/large",
+    "family": "PENAEIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/521aaf4b-3201-4c93-a61a-8b3812b02810"
   },
   {
     "commonName": "Banana Spotting Bug",
@@ -1122,7 +1226,11 @@ window.pestsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/pests/banana-spotting-bug.webp"
+    "thumbnail": "images/pests/banana-spotting-bug.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/9cccd06d-0519-4af2-ba25-4245b415c91f/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/9cccd06d-0519-4af2-ba25-4245b415c91f/large",
+    "family": "SYNTHEMISTIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/cec3b572-0572-4955-81a3-724d376a3911"
   },
   {
     "commonName": "Banana Weevil Borer",
@@ -1184,7 +1292,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/banana-weevil-borer.webp"
+    "thumbnail": "images/pests/banana-weevil-borer.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/d62a14d2-55d4-4fe2-b334-ee2b32594348/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/d62a14d2-55d4-4fe2-b334-ee2b32594348/large",
+    "family": "CURCULIONIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/90b582dd-2570-4b11-8e1b-0120ba146a52"
   },
   {
     "commonName": "Banksia Moth",
@@ -1207,11 +1319,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/banksia-moth.webp"
+    "thumbnail": "images/pests/banksia-moth.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/8eceb165-d57c-4ae4-8a55-0a871d217e91/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/8eceb165-d57c-4ae4-8a55-0a871d217e91/large",
+    "family": "NOTODONTIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/18326879-7a4f-47b2-8619-7fa244a9f213"
   },
   {
     "commonName": "Barley Grub",
-    "scientificName": "",
+    "scientificName": "Hordeum murinum",
     "pestType": "Chewing insect",
     "order": "Coleoptera",
     "cropsAffected": [
@@ -1234,11 +1350,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/barley-grub.webp"
+    "thumbnail": "images/pests/barley-grub.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/c07c7220-9b5f-4b49-9e4f-59b90644ecbe/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/c07c7220-9b5f-4b49-9e4f-59b90644ecbe/large",
+    "family": "Poaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2887724"
   },
   {
     "commonName": "Barley Yellow Dwarf Virus",
-    "scientificName": "",
+    "scientificName": "Barley yellow dwarf virus PAV",
     "pestType": "Sucking insect",
     "order": "",
     "cropsAffected": [
@@ -1266,11 +1386,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/barley_yellow_dwarf_virus.webp"
+    "thumbnail": "images/pests/barley_yellow_dwarf_virus.webp",
+    "alaUrl": "https://bie.ala.org.au/species/https://www.catalogueoflife.org/data/taxon/KRYL"
   },
   {
     "commonName": "Bean Aphid",
-    "scientificName": "",
+    "scientificName": "Aphis fabae",
     "pestType": "Insect",
     "order": "",
     "cropsAffected": [],
@@ -1284,11 +1405,13 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "family": "APHIDIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_423"
   },
   {
     "commonName": "Bean looper",
-    "scientificName": "",
+    "scientificName": "Mocis alterna",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [],
@@ -1305,7 +1428,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/bean-looper.webp"
+    "thumbnail": "images/pests/bean-looper.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/622d11e3-ccaa-41cb-b156-2a29d2c73d94/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/622d11e3-ccaa-41cb-b156-2a29d2c73d94/large",
+    "family": "EREBIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/2bd0949b-578a-4fc2-a56c-208df21ddd8e"
   },
   {
     "commonName": "Bean Podborer",
@@ -1347,7 +1474,9 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/bean-podborer.webp"
+    "thumbnail": "images/pests/bean-podborer.webp",
+    "family": "Potyviridae",
+    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_618_0"
   },
   {
     "commonName": "Bean red spider mite",
@@ -1368,7 +1497,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/bean-red-spider-mite.webp"
+    "thumbnail": "images/pests/bean-red-spider-mite.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/60030a7d-c55d-4c21-b1a5-fd84bee2575e/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/60030a7d-c55d-4c21-b1a5-fd84bee2575e/large",
+    "family": "THERIDIIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/028a2e58-5ade-4486-bc95-273b4ad3f943"
   },
   {
     "commonName": "Bean Spider Mite",
@@ -1408,7 +1541,11 @@ window.pestsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/pests/bean-spider-mite.webp"
+    "thumbnail": "images/pests/bean-spider-mite.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/60030a7d-c55d-4c21-b1a5-fd84bee2575e/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/60030a7d-c55d-4c21-b1a5-fd84bee2575e/large",
+    "family": "THERIDIIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/028a2e58-5ade-4486-bc95-273b4ad3f943"
   },
   {
     "commonName": "Beanfly",
@@ -1486,7 +1623,9 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/beet-webworm.webp"
+    "thumbnail": "images/pests/beet-webworm.webp",
+    "family": "CRAMBIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_151"
   },
   {
     "commonName": "Bird mites",
@@ -1511,7 +1650,7 @@ window.pestsRegistry = [
   },
   {
     "commonName": "Black ant",
-    "scientificName": "",
+    "scientificName": "Acrodipsas hirtipes",
     "pestType": "Insect/Mite",
     "order": "",
     "cropsAffected": [],
@@ -1532,11 +1671,13 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/black-ant.webp"
+    "thumbnail": "images/pests/black-ant.webp",
+    "family": "LYCAENIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/57643660-ab1a-4671-955f-82ea02bb1f38"
   },
   {
     "commonName": "Black Beetle",
-    "scientificName": "",
+    "scientificName": "Metanastes vulgivagus",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -1555,7 +1696,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/black-beetle.webp"
+    "thumbnail": "images/pests/black-beetle.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/641da09c-4a59-4d44-8a62-52cf692ab827/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/641da09c-4a59-4d44-8a62-52cf692ab827/large",
+    "family": "SCARABAEIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/2bbd0de2-54f3-4695-85c9-e693482c58d6"
   },
   {
     "commonName": "Black Cherry Aphid",
@@ -1587,11 +1732,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/black-cherry-aphid.webp"
+    "thumbnail": "images/pests/black-cherry-aphid.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/30e38e27-d93e-43e3-b638-23db71652cd0/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/30e38e27-d93e-43e3-b638-23db71652cd0/large",
+    "family": "Pentaphylacaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2920320"
   },
   {
     "commonName": "Black citrus aphid",
-    "scientificName": "",
+    "scientificName": "Toxoptera citricida",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -1615,11 +1764,15 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/black-citrus-aphid.webp"
+    "thumbnail": "images/pests/black-citrus-aphid.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/bfb5afa2-67d8-4f82-b3d1-41729c3f3fb5/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/bfb5afa2-67d8-4f82-b3d1-41729c3f3fb5/large",
+    "family": "APHIDIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/d147450a-15f9-4415-8dcf-015953df644a"
   },
   {
     "commonName": "Black House Ant",
-    "scientificName": "",
+    "scientificName": "Ochetellus glaber",
     "pestType": "General pest",
     "order": "",
     "cropsAffected": [],
@@ -1644,11 +1797,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/black-house-ant.webp"
+    "thumbnail": "images/pests/black-house-ant.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/b23caf77-81e6-4d20-a939-cde244b45107/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/b23caf77-81e6-4d20-a939-cde244b45107/large",
+    "family": "FORMICIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/7b2a5348-dc34-4dee-9959-d519972f9934"
   },
   {
     "commonName": "Black House Spider",
-    "scientificName": "",
+    "scientificName": "Badumna insignis",
     "pestType": "General pest",
     "order": "",
     "cropsAffected": [
@@ -1675,7 +1832,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/black-house-spider.webp"
+    "thumbnail": "images/pests/black-house-spider.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/ea7bd408-220f-46e5-81c0-f0f0007a52f9/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/ea7bd408-220f-46e5-81c0-f0f0007a52f9/large",
+    "family": "DESIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/0b73e8bb-c141-4f07-8b14-47c3510c9c98"
   },
   {
     "commonName": "Black peach aphid",
@@ -1747,11 +1908,15 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/black-peach-aphid.webp"
+    "thumbnail": "images/pests/black-peach-aphid.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/94de5117-9e40-43a9-a869-ce417154f118/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/94de5117-9e40-43a9-a869-ce417154f118/large",
+    "family": "APHIDIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/881aaadc-f46a-44c0-b873-0d73298acb68"
   },
   {
     "commonName": "Black Portuguese Millipedes",
-    "scientificName": "",
+    "scientificName": "Ommatoiulus moreleti",
     "pestType": "Soil pest",
     "order": "",
     "cropsAffected": [
@@ -1778,11 +1943,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/black-portuguese-millipedes.webp"
+    "thumbnail": "images/pests/black-portuguese-millipedes.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/c89ebb75-453d-4a4c-beec-878f95bd2624/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/c89ebb75-453d-4a4c-beec-878f95bd2624/large",
+    "family": "JULIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/6e61b4ab-a84f-42e7-ad78-d2f84c02d3bb"
   },
   {
     "commonName": "Black scale",
-    "scientificName": "",
+    "scientificName": "Lindingaspis rossi",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -1827,11 +1996,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/black-scale.webp"
+    "thumbnail": "images/pests/black-scale.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/55a91ef8-033f-4086-8df1-ede1dfc817f0/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/55a91ef8-033f-4086-8df1-ede1dfc817f0/large",
+    "family": "DIASPIDIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/a66a0ba4-70dc-4281-9944-b22c86905d55"
   },
   {
     "commonName": "Black sunflower scarab",
-    "scientificName": "",
+    "scientificName": "Helianthus annuus",
     "pestType": "Soil pest",
     "order": "Coleoptera",
     "cropsAffected": [
@@ -1850,7 +2023,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/black_sunflower_scarab.webp"
+    "thumbnail": "images/pests/black_sunflower_scarab.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/2d2bd681-2552-406b-bd54-607396c57041/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/2d2bd681-2552-406b-bd54-607396c57041/large",
+    "family": "Asteraceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2898181"
   },
   {
     "commonName": "Blackhead Pasture Cockchafer",
@@ -1893,7 +2070,11 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/blackhead-pasture-cockchafer.webp"
+    "thumbnail": "images/pests/blackhead-pasture-cockchafer.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/a6b55566-1ba0-4816-9a5f-139d44e7c6b6/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a6b55566-1ba0-4816-9a5f-139d44e7c6b6/large",
+    "family": "SCARABAEIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/b0f5dd41-daa9-43fb-8a45-ba9a3b93ee38"
   },
   {
     "commonName": "Blackheaded Pasture Cockchafer",
@@ -1916,7 +2097,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/blackheaded-pasture-cockchafer.webp"
+    "thumbnail": "images/pests/blackheaded-pasture-cockchafer.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/136b94a4-8449-4679-8a87-f953be22ed5d/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/136b94a4-8449-4679-8a87-f953be22ed5d/large",
+    "family": "SCARABAEIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/40988d36-5033-4374-9950-ad23563ad1aa"
   },
   {
     "commonName": "Blue Green Aphid",
@@ -2045,7 +2230,9 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/breadfruit-mealybug.webp"
+    "thumbnail": "images/pests/breadfruit-mealybug.webp",
+    "family": "PSEUDOCOCCIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/7e53d98f-d10e-42b0-bd5e-8b1f662f9268"
   },
   {
     "commonName": "Broad mite",
@@ -2121,11 +2308,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/brokenbacked-bug.webp"
+    "thumbnail": "images/pests/brokenbacked-bug.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/33e7a278-3079-4ed5-a05b-b10af41bbf6d/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/33e7a278-3079-4ed5-a05b-b10af41bbf6d/large",
+    "family": "MIRIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/1bbdac96-e49a-433e-8408-babd0097106e"
   },
   {
     "commonName": "Bronze orange bug",
-    "scientificName": "",
+    "scientificName": "Musgraveia sulciventris",
     "pestType": "Sucking insect",
     "order": "",
     "cropsAffected": [
@@ -2162,7 +2353,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/bronze-orange-bug.webp"
+    "thumbnail": "images/pests/bronze-orange-bug.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/ff86c8b1-d1f3-48e5-a93a-57910281c6d4/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/ff86c8b1-d1f3-48e5-a93a-57910281c6d4/large",
+    "family": "TESSARATOMIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/28663829-709e-4dc3-99c1-7ce68b4c1e8b"
   },
   {
     "commonName": "Bronzed Field Beetle",
@@ -2185,11 +2380,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/bronzed-field-beetle.webp"
+    "thumbnail": "images/pests/bronzed-field-beetle.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/f7d28c2b-715b-47c9-bd9b-df001ada70bc/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f7d28c2b-715b-47c9-bd9b-df001ada70bc/large",
+    "family": "SCARABAEIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/fcf3df31-2c5e-4f26-9685-c06796513ce1"
   },
   {
     "commonName": "Brown Almond Mite",
-    "scientificName": "",
+    "scientificName": "Terminalia catappa",
     "pestType": "Mite",
     "order": "Acari",
     "cropsAffected": [
@@ -2208,11 +2407,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/brown-almond-mite.webp"
+    "thumbnail": "images/pests/brown-almond-mite.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/44008f0c-494d-478b-8def-38502de23008/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/44008f0c-494d-478b-8def-38502de23008/large",
+    "family": "Combretaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2916618"
   },
   {
     "commonName": "Brown Citrus Rust Mite",
-    "scientificName": "",
+    "scientificName": "Aleurocanthus woglumi",
     "pestType": "Mite",
     "order": "Acari",
     "cropsAffected": [
@@ -2239,11 +2442,13 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/brown-citrus-rust-mite.webp"
+    "thumbnail": "images/pests/brown-citrus-rust-mite.webp",
+    "family": "ALEYRODIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/44bf636c-ba11-4ffd-b932-ad7ce914e4cf"
   },
   {
     "commonName": "Brown Cutworm",
-    "scientificName": "",
+    "scientificName": "Agrotis munda",
     "pestType": "Soil pest",
     "order": "Coleoptera",
     "cropsAffected": [
@@ -2280,11 +2485,15 @@ window.pestsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/pests/brown-cutworm.webp"
+    "thumbnail": "images/pests/brown-cutworm.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/d6e15b11-ea44-4ec1-a16d-23d3eb1e95cb/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/d6e15b11-ea44-4ec1-a16d-23d3eb1e95cb/large",
+    "family": "NOCTUIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/577fbb9f-d9f9-4387-9d0f-e329fac2c9f3"
   },
   {
     "commonName": "Brown flea beetle",
-    "scientificName": "",
+    "scientificName": "Eupoecila australasiae",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -2303,7 +2512,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/brown-flea-beetle.webp"
+    "thumbnail": "images/pests/brown-flea-beetle.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/f12e2028-700f-499d-ad14-1ed81bf76f6a/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f12e2028-700f-499d-ad14-1ed81bf76f6a/large",
+    "family": "SCARABAEIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/9ceb2d04-d1cc-4d2a-8cc8-683cc55eca80"
   },
   {
     "commonName": "Brown Mirid",
@@ -2388,7 +2601,11 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/brown-or-pink-cutworm.webp"
+    "thumbnail": "images/pests/brown-or-pink-cutworm.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/a0c58799-dde9-4a3f-8db3-aa1f56ca5d59/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a0c58799-dde9-4a3f-8db3-aa1f56ca5d59/large",
+    "family": "NOCTUIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/04b8d8cc-ba9f-409c-b2e2-b2b492983ad3"
   },
   {
     "commonName": "Brown Pasture Looper",
@@ -2447,11 +2664,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/brown-pasture-looper.webp"
+    "thumbnail": "images/pests/brown-pasture-looper.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/cc31702f-d658-481b-ab93-85785734921a/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/cc31702f-d658-481b-ab93-85785734921a/large",
+    "family": "GEOMETRIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/3efd5ccb-3dd0-49a1-a780-b0eefef98aa9"
   },
   {
     "commonName": "Brown planthopper",
-    "scientificName": "",
+    "scientificName": "Nilaparvata lugens",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -2470,7 +2691,9 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/brown-planthopper.webp"
+    "thumbnail": "images/pests/brown-planthopper.webp",
+    "family": "DELPHACIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/ea38a9cb-9c1c-42fd-b55b-1fd72a071afa"
   },
   {
     "commonName": "Brown sowthistle aphid",
@@ -2518,11 +2741,15 @@ window.pestsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/pests/brown-sowthistle-aphid.webp"
+    "thumbnail": "images/pests/brown-sowthistle-aphid.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/b449019b-2545-4c20-bd8c-284b9ac5c80c/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/b449019b-2545-4c20-bd8c-284b9ac5c80c/large",
+    "family": "Asteraceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51268996"
   },
   {
     "commonName": "Bryobia Mite",
-    "scientificName": "",
+    "scientificName": "Bryobia vasiljevi",
     "pestType": "Mite",
     "order": "Acari",
     "cropsAffected": [
@@ -2579,11 +2806,13 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/bryobia-mite.webp"
+    "thumbnail": "images/pests/bryobia-mite.webp",
+    "family": "TETRANYCHIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/dc45a86c-3987-4d05-abb6-91b7acc0bf79"
   },
   {
     "commonName": "Bryobia Mites",
-    "scientificName": "",
+    "scientificName": "Bryobia vasiljevi",
     "pestType": "Insect/Mite",
     "order": "",
     "cropsAffected": [],
@@ -2608,7 +2837,9 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/bryobia-mites.webp"
+    "thumbnail": "images/pests/bryobia-mites.webp",
+    "family": "TETRANYCHIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/dc45a86c-3987-4d05-abb6-91b7acc0bf79"
   },
   {
     "commonName": "Budworms",
@@ -2661,7 +2892,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/buffel-grass-seed-caterpillar.webp"
+    "thumbnail": "images/pests/buffel-grass-seed-caterpillar.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/ded81cdd-0961-48ea-a6b0-ca1ef93c769a/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/ded81cdd-0961-48ea-a6b0-ca1ef93c769a/large",
+    "family": "Poaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2919757"
   },
   {
     "commonName": "Cabbage aphid",
@@ -2756,7 +2991,11 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/cabbage-aphid.webp"
+    "thumbnail": "images/pests/cabbage-aphid.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/eb415e66-d0b5-4ab0-82bc-a0446c89d494/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/eb415e66-d0b5-4ab0-82bc-a0446c89d494/large",
+    "family": "APHIDIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/de95fe29-68ed-42ab-a448-602b1e2299a1"
   },
   {
     "commonName": "Cabbage centre grub",
@@ -2854,7 +3093,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/cabbage-centre-grub.webp"
+    "thumbnail": "images/pests/cabbage-centre-grub.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/e2c23a6d-e384-4737-a39c-3c31e100138e/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/e2c23a6d-e384-4737-a39c-3c31e100138e/large",
+    "family": "Arecaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51266874"
   },
   {
     "commonName": "Cabbage Cluster Caterpillar",
@@ -2972,7 +3215,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/cabbage-cluster-caterpillar.webp"
+    "thumbnail": "images/pests/cabbage-cluster-caterpillar.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/e2c23a6d-e384-4737-a39c-3c31e100138e/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/e2c23a6d-e384-4737-a39c-3c31e100138e/large",
+    "family": "Arecaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51266874"
   },
   {
     "commonName": "Cabbage Leafminer",
@@ -3005,11 +3252,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/cabbage-leafminer.webp"
+    "thumbnail": "images/pests/cabbage-leafminer.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/e2c23a6d-e384-4737-a39c-3c31e100138e/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/e2c23a6d-e384-4737-a39c-3c31e100138e/large",
+    "family": "Arecaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51266874"
   },
   {
     "commonName": "Cabbage moth",
-    "scientificName": "",
+    "scientificName": "Mamestra brassicae",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -3130,11 +3381,13 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/cabbage-moth.webp"
+    "thumbnail": "images/pests/cabbage-moth.webp",
+    "family": "NOCTUIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_154"
   },
   {
     "commonName": "Cabbage White",
-    "scientificName": "",
+    "scientificName": "Pieris rapae",
     "pestType": "Chewing insect",
     "order": "",
     "cropsAffected": [
@@ -3155,7 +3408,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/cabbage-white.webp"
+    "thumbnail": "images/pests/cabbage-white.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/4a16dd9f-4493-4b7a-a99a-0f47d735ce8a/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/4a16dd9f-4493-4b7a-a99a-0f47d735ce8a/large",
+    "family": "PIERIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/4d1a1c82-624c-4ee9-bea2-b46592ba67e2"
   },
   {
     "commonName": "Cabbage white butterfly",
@@ -3389,11 +3646,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/cabbage-white-butterfly.webp"
+    "thumbnail": "images/pests/cabbage-white-butterfly.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/4a16dd9f-4493-4b7a-a99a-0f47d735ce8a/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/4a16dd9f-4493-4b7a-a99a-0f47d735ce8a/large",
+    "family": "PIERIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/4d1a1c82-624c-4ee9-bea2-b46592ba67e2"
   },
   {
     "commonName": "Cadmus spp.",
-    "scientificName": "",
+    "scientificName": "Cadmus (Cadmus) apicalis",
     "pestType": "Insect",
     "order": "",
     "cropsAffected": [],
@@ -3408,11 +3669,13 @@ window.pestsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/pests/cadmus-spp.webp"
+    "thumbnail": "images/pests/cadmus-spp.webp",
+    "family": "CHRYSOMELIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/496ded45-f39e-4e32-83a9-4783d5c64db8"
   },
   {
     "commonName": "California red scale",
-    "scientificName": "",
+    "scientificName": "Aonidiella aurantii",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -3431,11 +3694,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/california-red-scale.webp"
+    "thumbnail": "images/pests/california-red-scale.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/fd8fc6ad-5762-488a-aaef-ee483b015b27/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/fd8fc6ad-5762-488a-aaef-ee483b015b27/large",
+    "family": "DIASPIDIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/751f0c5a-4a25-49d3-a7af-ae9c29c7002f"
   },
   {
     "commonName": "Caliroa Cerasi",
-    "scientificName": "",
+    "scientificName": "Caliroa cerasi",
     "pestType": "Chewing insect",
     "order": "",
     "cropsAffected": [],
@@ -3452,7 +3719,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/caliroa-cerasi.webp"
+    "thumbnail": "images/pests/caliroa-cerasi.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/9b1aabd9-463e-4a58-85c8-cdd4fa388caa/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/9b1aabd9-463e-4a58-85c8-cdd4fa388caa/large",
+    "family": "TENTHREDINIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/f460cd13-6249-4510-bb37-4e86d7a23964"
   },
   {
     "commonName": "Carob moth",
@@ -3540,7 +3811,7 @@ window.pestsRegistry = [
   },
   {
     "commonName": "Carpet beetles",
-    "scientificName": "",
+    "scientificName": "Anthrenus (Nathrenus) verbasci",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -3567,11 +3838,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/carpet-beetles.webp"
+    "thumbnail": "images/pests/carpet-beetles.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/ec90e8f0-45cc-4c76-9d81-4fffa48ccc1c/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/ec90e8f0-45cc-4c76-9d81-4fffa48ccc1c/large",
+    "family": "DERMESTIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/d7241957-d720-435a-907c-64c42d9c7bb4"
   },
   {
     "commonName": "Carpophilus Beetle",
-    "scientificName": "",
+    "scientificName": "Carpophilus hemipterus",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -3611,11 +3886,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/carpophilus-beetle.webp"
+    "thumbnail": "images/pests/carpophilus-beetle.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/ac127433-4f4d-4bde-b2cb-f105549d27d6/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/ac127433-4f4d-4bde-b2cb-f105549d27d6/large",
+    "family": "NITIDULIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/143f97f8-c9e8-458b-8dc2-dd3e8ac0d579"
   },
   {
     "commonName": "Carpophilus Beetles",
-    "scientificName": "",
+    "scientificName": "Carpophilus hemipterus",
     "pestType": "Insect/Mite",
     "order": "",
     "cropsAffected": [],
@@ -3635,11 +3914,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/carpophilus-beetles.webp"
+    "thumbnail": "images/pests/carpophilus-beetles.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/ac127433-4f4d-4bde-b2cb-f105549d27d6/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/ac127433-4f4d-4bde-b2cb-f105549d27d6/large",
+    "family": "NITIDULIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/143f97f8-c9e8-458b-8dc2-dd3e8ac0d579"
   },
   {
     "commonName": "Castor oil looper",
-    "scientificName": "",
+    "scientificName": "Ectropis excursaria",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -3662,7 +3945,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/castor-oil-looper.webp"
+    "thumbnail": "images/pests/castor-oil-looper.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/f5b450ae-9b43-414e-a117-0c0bfcfdda49/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f5b450ae-9b43-414e-a117-0c0bfcfdda49/large",
+    "family": "GEOMETRIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/38b5f5d2-40b1-4669-afed-902ec600fe0f"
   },
   {
     "commonName": "Centre Grub",
@@ -3707,11 +3994,13 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/centre-grub.webp"
+    "thumbnail": "images/pests/centre-grub.webp",
+    "family": "PUPILLIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/54cb6faa-6bf5-49f0-aff1-9807ac9ce707"
   },
   {
     "commonName": "Ceratitis Capitata",
-    "scientificName": "",
+    "scientificName": "Ceratitis capitata",
     "pestType": "Fly",
     "order": "",
     "cropsAffected": [],
@@ -3728,11 +4017,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/ceratitis-capitata.webp"
+    "thumbnail": "images/pests/ceratitis-capitata.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/3ed8fe74-c7af-48eb-bede-32ff925a3478/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/3ed8fe74-c7af-48eb-bede-32ff925a3478/large",
+    "family": "TEPHRITIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/09891d99-d3ab-4710-b033-38e8d954181d"
   },
   {
     "commonName": "Cereal Aphid",
-    "scientificName": "",
+    "scientificName": "Heterodera avenae",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -3761,11 +4054,13 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/cereal-aphid.webp"
+    "thumbnail": "images/pests/cereal-aphid.webp",
+    "family": "HETERODERIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/876cb601-3916-4c99-9ddf-9c85199060fc"
   },
   {
     "commonName": "Cereal Aphids",
-    "scientificName": "",
+    "scientificName": "Aphis (Aphis) gossypii",
     "pestType": "Insect",
     "order": "",
     "cropsAffected": [],
@@ -3779,11 +4074,15 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "alaThumbnail": "https://images.ala.org.au/image/8ab58c38-4c9c-4e07-882d-29c06313fbaa/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/8ab58c38-4c9c-4e07-882d-29c06313fbaa/large",
+    "family": "APHIDIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/4cd490c1-3b1b-4c0e-a244-ff925104266b"
   },
   {
     "commonName": "Cherry Aphid",
-    "scientificName": "",
+    "scientificName": "Myzus (Myzus) cerasi",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -3807,11 +4106,15 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/cherry-aphid.webp"
+    "thumbnail": "images/pests/cherry-aphid.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/b160788a-b419-4279-a8b5-d7c9b0fd5f37/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/b160788a-b419-4279-a8b5-d7c9b0fd5f37/large",
+    "family": "APHIDIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/e81a5f9e-de2e-4eb5-8f9e-8de0155df594"
   },
   {
     "commonName": "Cherry slug",
-    "scientificName": "",
+    "scientificName": "Caliroa cerasi",
     "pestType": "Mollusc",
     "order": "Gastropoda",
     "cropsAffected": [
@@ -3832,11 +4135,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/cherry-slug.webp"
+    "thumbnail": "images/pests/cherry-slug.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/9b1aabd9-463e-4a58-85c8-cdd4fa388caa/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/9b1aabd9-463e-4a58-85c8-cdd4fa388caa/large",
+    "family": "TENTHREDINIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/f460cd13-6249-4510-bb37-4e86d7a23964"
   },
   {
     "commonName": "Childers Canegrub",
-    "scientificName": "",
+    "scientificName": "Antitrogus parvulus",
     "pestType": "Soil pest",
     "order": "Coleoptera",
     "cropsAffected": [
@@ -3855,11 +4162,13 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/childers-canegrub.webp"
+    "thumbnail": "images/pests/childers-canegrub.webp",
+    "family": "SCARABAEIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/394facc2-2080-4190-bed3-47bfffefb6da"
   },
   {
     "commonName": "Chilli Thrips",
-    "scientificName": "",
+    "scientificName": "Thrips fuscipennis",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -3878,11 +4187,13 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/chilli-thrips.webp"
+    "thumbnail": "images/pests/chilli-thrips.webp",
+    "family": "THRIPIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_2918"
   },
   {
     "commonName": "Chrysanthemum Aphid",
-    "scientificName": "",
+    "scientificName": "Coloradoa rufomaculata",
     "pestType": "Insect",
     "order": "",
     "cropsAffected": [],
@@ -3896,11 +4207,13 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "family": "APHIDIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/6ac32819-7c41-4a97-8dae-afbb1ac93c1c"
   },
   {
     "commonName": "Chrysodeixis Includens",
-    "scientificName": "",
+    "scientificName": "Chrysodeixis acuta",
     "pestType": "Chewing insect",
     "order": "",
     "cropsAffected": [
@@ -3919,11 +4232,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/chrysodeixis-includens.webp"
+    "thumbnail": "images/pests/chrysodeixis-includens.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/260bf190-84e6-43f5-8624-b62ca62d4011/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/260bf190-84e6-43f5-8624-b62ca62d4011/large",
+    "family": "NOCTUIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/4805b36b-88f4-4058-bd74-c7972cee0faa"
   },
   {
     "commonName": "Circular Black Scale",
-    "scientificName": "",
+    "scientificName": "Neocancilla circula",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -3950,11 +4267,13 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/circular-black-scale.webp"
+    "thumbnail": "images/pests/circular-black-scale.webp",
+    "family": "MITRIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/91af4420-d7e7-408e-8257-63c8fba9e4b8"
   },
   {
     "commonName": "Citricola scale",
-    "scientificName": "",
+    "scientificName": "Coccus pseudomagnoliarum",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -3990,11 +4309,13 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/citricola-scale.webp"
+    "thumbnail": "images/pests/citricola-scale.webp",
+    "family": "COCCIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/4652f827-845b-45cb-9111-039ae8d5e7bf"
   },
   {
     "commonName": "Citrophilous mealybug",
-    "scientificName": "",
+    "scientificName": "Ferrisia virgata",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -4036,11 +4357,13 @@ window.pestsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/pests/citrophilous-mealybug.webp"
+    "thumbnail": "images/pests/citrophilous-mealybug.webp",
+    "family": "PSEUDOCOCCIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/7e53d98f-d10e-42b0-bd5e-8b1f662f9268"
   },
   {
     "commonName": "Citrus Aphid",
-    "scientificName": "",
+    "scientificName": "Toxoptera citricida",
     "pestType": "Insect",
     "order": "",
     "cropsAffected": [],
@@ -4054,7 +4377,11 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "alaThumbnail": "https://images.ala.org.au/image/bfb5afa2-67d8-4f82-b3d1-41729c3f3fb5/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/bfb5afa2-67d8-4f82-b3d1-41729c3f3fb5/large",
+    "family": "APHIDIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/d147450a-15f9-4415-8dcf-015953df644a"
   },
   {
     "commonName": "Citrus bud mite",
@@ -4077,11 +4404,13 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/citrus-bud-mite.webp"
+    "thumbnail": "images/pests/citrus-bud-mite.webp",
+    "family": "ALEYRODIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/44bf636c-ba11-4ffd-b932-ad7ce914e4cf"
   },
   {
     "commonName": "Citrus Bug",
-    "scientificName": "",
+    "scientificName": "Vitellus antemna",
     "pestType": "Insect",
     "order": "",
     "cropsAffected": [],
@@ -4095,11 +4424,15 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "alaThumbnail": "https://images.ala.org.au/image/781551d0-0680-4887-bdf1-4c08d03b8ebd/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/781551d0-0680-4887-bdf1-4c08d03b8ebd/large",
+    "family": "PENTATOMIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/d5ad4f1d-0a2b-4c45-9060-580c5a3e1d3c"
   },
   {
     "commonName": "Citrus Gall Wasp",
-    "scientificName": "",
+    "scientificName": "Aleurocanthus woglumi",
     "pestType": "Chewing insect",
     "order": "",
     "cropsAffected": [
@@ -4118,11 +4451,13 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/citrus-gall-wasp.webp"
+    "thumbnail": "images/pests/citrus-gall-wasp.webp",
+    "family": "ALEYRODIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/44bf636c-ba11-4ffd-b932-ad7ce914e4cf"
   },
   {
     "commonName": "Citrus leaf-eating caterpillar",
-    "scientificName": "",
+    "scientificName": "Mataeomera dubia",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -4141,11 +4476,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/citrus-leaf-eating-caterpillar.webp"
+    "thumbnail": "images/pests/citrus-leaf-eating-caterpillar.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/c0052e8e-bded-4ecd-a4b1-06226f67b7e8/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/c0052e8e-bded-4ecd-a4b1-06226f67b7e8/large",
+    "family": "NOCTUIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/e7b64025-18c8-413b-9051-e986ae5f40b5"
   },
   {
     "commonName": "Citrus leafminer",
-    "scientificName": "",
+    "scientificName": "Aleurocanthus woglumi",
     "pestType": "Chewing insect",
     "order": "Diptera",
     "cropsAffected": [
@@ -4223,11 +4562,13 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/citrus-leafminer.webp"
+    "thumbnail": "images/pests/citrus-leafminer.webp",
+    "family": "ALEYRODIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/44bf636c-ba11-4ffd-b932-ad7ce914e4cf"
   },
   {
     "commonName": "Citrus mealybug",
-    "scientificName": "",
+    "scientificName": "Planococcus citri",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -4312,11 +4653,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/citrus-mealybug.webp"
+    "thumbnail": "images/pests/citrus-mealybug.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/4ee3fb3c-1c11-453c-bb36-3a1a78276f86/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/4ee3fb3c-1c11-453c-bb36-3a1a78276f86/large",
+    "family": "PSEUDOCOCCIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/8decdd1a-aba2-4b10-ab12-c037837e6f5a"
   },
   {
     "commonName": "Citrus Rust Mite",
-    "scientificName": "",
+    "scientificName": "Aleurocanthus woglumi",
     "pestType": "Mite",
     "order": "Acari",
     "cropsAffected": [
@@ -4352,11 +4697,13 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/citrus-rust-mite.webp"
+    "thumbnail": "images/pests/citrus-rust-mite.webp",
+    "family": "ALEYRODIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/44bf636c-ba11-4ffd-b932-ad7ce914e4cf"
   },
   {
     "commonName": "Citrus Snow",
-    "scientificName": "",
+    "scientificName": "Aleurocanthus woglumi",
     "pestType": "Sucking insect",
     "order": "",
     "cropsAffected": [
@@ -4378,11 +4725,13 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/citrus-snow.webp"
+    "thumbnail": "images/pests/citrus-snow.webp",
+    "family": "ALEYRODIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/44bf636c-ba11-4ffd-b932-ad7ce914e4cf"
   },
   {
     "commonName": "Citrus snow scale",
-    "scientificName": "",
+    "scientificName": "Aleurocanthus woglumi",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -4407,11 +4756,13 @@ window.pestsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/pests/citrus-snow-scale.webp"
+    "thumbnail": "images/pests/citrus-snow-scale.webp",
+    "family": "ALEYRODIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/44bf636c-ba11-4ffd-b932-ad7ce914e4cf"
   },
   {
     "commonName": "Clothes moths",
-    "scientificName": "",
+    "scientificName": "Gari (Psammotaena) togata",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [],
@@ -4428,7 +4779,9 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/clothes-moths.webp"
+    "thumbnail": "images/pests/clothes-moths.webp",
+    "family": "PSAMMOBIIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/6dd4d25f-ad57-40ca-af9d-ed79f83975ec"
   },
   {
     "commonName": "Cluster caterpillar",
@@ -4642,11 +4995,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/cluster-caterpillar.webp"
+    "thumbnail": "images/pests/cluster-caterpillar.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/fad198d2-50b5-4f8e-a020-1e61f7ab50f1/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/fad198d2-50b5-4f8e-a020-1e61f7ab50f1/large",
+    "family": "Proteaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2919962"
   },
   {
     "commonName": "Coastal brown ant",
-    "scientificName": "",
+    "scientificName": "Westringia fruticosa",
     "pestType": "Insect/Mite",
     "order": "",
     "cropsAffected": [],
@@ -4667,11 +5024,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/coastal-brown-ant.webp"
+    "thumbnail": "images/pests/coastal-brown-ant.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/21d95fbb-34dd-478f-9477-1593b74d9067/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/21d95fbb-34dd-478f-9477-1593b74d9067/large",
+    "family": "Lamiaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2902929"
   },
   {
     "commonName": "Codling moth",
-    "scientificName": "",
+    "scientificName": "Cydia pomonella",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -4779,7 +5140,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/codling-moth.webp"
+    "thumbnail": "images/pests/codling-moth.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/651aa5ba-9276-483b-8d3a-3c0133da36cc/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/651aa5ba-9276-483b-8d3a-3c0133da36cc/large",
+    "family": "TORTRICIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/eb60063e-7cbc-4d87-ad90-90b51b3527b3"
   },
   {
     "commonName": "Common Armyworm",
@@ -4832,11 +5197,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/common-armyworm.webp"
+    "thumbnail": "images/pests/common-armyworm.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/8f1a1790-1921-4159-a475-a2693e7766ca/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/8f1a1790-1921-4159-a475-a2693e7766ca/large",
+    "family": "NOCTUIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/1ff5a8c7-d2e5-42ad-a3e5-f245453a1cf2"
   },
   {
     "commonName": "Common Brown Leafhopper",
-    "scientificName": "",
+    "scientificName": "Orosius orientalis",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -4855,7 +5224,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/common-brown-leafhopper.webp"
+    "thumbnail": "images/pests/common-brown-leafhopper.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/92bccbc0-76c2-4d6b-b88e-07efea63bcdd/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/92bccbc0-76c2-4d6b-b88e-07efea63bcdd/large",
+    "family": "CICADELLIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/78e0386d-0c87-4ce3-974f-e152cf721c24"
   },
   {
     "commonName": "Common Cutworm",
@@ -4890,7 +5263,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/common-cutworm.webp"
+    "thumbnail": "images/pests/common-cutworm.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/0073f7aa-68a8-4c85-82e3-6f59961f8bc6/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/0073f7aa-68a8-4c85-82e3-6f59961f8bc6/large",
+    "family": "Poaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2901931"
   },
   {
     "commonName": "Common Garden Katydid",
@@ -4908,11 +5285,15 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "alaThumbnail": "https://images.ala.org.au/image/13a3a428-d4a5-49ac-8bb8-cab6f645d36b/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/13a3a428-d4a5-49ac-8bb8-cab6f645d36b/large",
+    "family": "TETTIGONIIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/82d2cd55-c804-4fb2-8913-812e6cb358b6"
   },
   {
     "commonName": "Common mango scale",
-    "scientificName": "",
+    "scientificName": "Phragmites australis",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -4931,7 +5312,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/common-mango-scale.webp"
+    "thumbnail": "images/pests/common-mango-scale.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/0073f7aa-68a8-4c85-82e3-6f59961f8bc6/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/0073f7aa-68a8-4c85-82e3-6f59961f8bc6/large",
+    "family": "Poaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2901931"
   },
   {
     "commonName": "Corn aphid",
@@ -5012,7 +5397,11 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/corn-aphid.webp"
+    "thumbnail": "images/pests/corn-aphid.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/4800cc28-05b0-476c-b752-de572e778344/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/4800cc28-05b0-476c-b752-de572e778344/large",
+    "family": "APHIDIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/6a1cd5fc-dab2-44dc-806b-cfdeb483b272"
   },
   {
     "commonName": "Corn Earworm",
@@ -5178,7 +5567,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/corn-earworm.webp"
+    "thumbnail": "images/pests/corn-earworm.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/e69d8ecc-3b67-41bd-bd0a-f2babd89a0f5/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/e69d8ecc-3b67-41bd-bd0a-f2babd89a0f5/large",
+    "family": "NOCTUIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/0254d0f0-2c97-46dc-a87c-61e07b4f881a"
   },
   {
     "commonName": "Cotton aphid",
@@ -5279,7 +5672,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/cotton-aphid.webp"
+    "thumbnail": "images/pests/cotton-aphid.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/8ab58c38-4c9c-4e07-882d-29c06313fbaa/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/8ab58c38-4c9c-4e07-882d-29c06313fbaa/large",
+    "family": "APHIDIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/4cd490c1-3b1b-4c0e-a244-ff925104266b"
   },
   {
     "commonName": "Cotton Bollworm",
@@ -5480,7 +5877,11 @@ window.pestsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/pests/cotton-bollworm.webp"
+    "thumbnail": "images/pests/cotton-bollworm.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/e69d8ecc-3b67-41bd-bd0a-f2babd89a0f5/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/e69d8ecc-3b67-41bd-bd0a-f2babd89a0f5/large",
+    "family": "NOCTUIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/0254d0f0-2c97-46dc-a87c-61e07b4f881a"
   },
   {
     "commonName": "Cotton bollworm Native budworm",
@@ -5535,7 +5936,11 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/cotton-bollworm-native-budworm.webp"
+    "thumbnail": "images/pests/cotton-bollworm-native-budworm.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/e69d8ecc-3b67-41bd-bd0a-f2babd89a0f5/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/e69d8ecc-3b67-41bd-bd0a-f2babd89a0f5/large",
+    "family": "NOCTUIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/0254d0f0-2c97-46dc-a87c-61e07b4f881a"
   },
   {
     "commonName": "Cotton bollworm Native budworm Cluster caterpillar",
@@ -5588,11 +5993,15 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/cotton-bollworm-native-budworm-cluster-caterpillar.webp"
+    "thumbnail": "images/pests/cotton-bollworm-native-budworm-cluster-caterpillar.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/e69d8ecc-3b67-41bd-bd0a-f2babd89a0f5/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/e69d8ecc-3b67-41bd-bd0a-f2babd89a0f5/large",
+    "family": "NOCTUIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/0254d0f0-2c97-46dc-a87c-61e07b4f881a"
   },
   {
     "commonName": "Cotton Mealybug",
-    "scientificName": "",
+    "scientificName": "Ferrisia virgata",
     "pestType": "Insect",
     "order": "",
     "cropsAffected": [],
@@ -5618,11 +6027,13 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "family": "PSEUDOCOCCIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/7e53d98f-d10e-42b0-bd5e-8b1f662f9268"
   },
   {
     "commonName": "Cotton Thrips",
-    "scientificName": "",
+    "scientificName": "Senecio quadridentatus",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -5649,7 +6060,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/cotton-thrips.webp"
+    "thumbnail": "images/pests/cotton-thrips.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/108200ae-d2bb-4ed9-a038-56feb1100b4d/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/108200ae-d2bb-4ed9-a038-56feb1100b4d/large",
+    "family": "Asteraceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2893457"
   },
   {
     "commonName": "Cotton/melon aphid",
@@ -5681,7 +6096,11 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/cotton-melon-aphid.webp"
+    "thumbnail": "images/pests/cotton-melon-aphid.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/108200ae-d2bb-4ed9-a038-56feb1100b4d/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/108200ae-d2bb-4ed9-a038-56feb1100b4d/large",
+    "family": "Asteraceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2893457"
   },
   {
     "commonName": "Cottonseed Bug",
@@ -5713,11 +6132,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/cottonseed-bug.webp"
+    "thumbnail": "images/pests/cottonseed-bug.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/f9b218d7-f252-4a26-bbe0-5f41c8de6cde/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f9b218d7-f252-4a26-bbe0-5f41c8de6cde/large",
+    "family": "OXYCARENIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/ffd5e948-989e-411b-8883-cc0bc05efa42"
   },
   {
     "commonName": "Cottony cushion scale",
-    "scientificName": "",
+    "scientificName": "Icerya purchasi",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [],
@@ -5734,7 +6157,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/cottony-cushion-scale.webp"
+    "thumbnail": "images/pests/cottony-cushion-scale.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/19609683-09a7-4840-8032-7272ea0fdfd7/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/19609683-09a7-4840-8032-7272ea0fdfd7/large",
+    "family": "MONOPHLEBIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/11495ed3-537f-40fa-82d6-97328c0f6753"
   },
   {
     "commonName": "Couch Mite",
@@ -5802,11 +6229,15 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/cowpea-aphid.webp"
+    "thumbnail": "images/pests/cowpea-aphid.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/c4a91580-228a-4cf3-bbf5-a5c735a70d6d/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/c4a91580-228a-4cf3-bbf5-a5c735a70d6d/large",
+    "family": "APHIDIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/c4a3996d-ff4e-4fd9-a553-0004947845d3"
   },
   {
     "commonName": "Crysomelid beetle",
-    "scientificName": "",
+    "scientificName": "Spilopyra sumptuosa",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -5825,11 +6256,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/crysomelid-beetle.webp"
+    "thumbnail": "images/pests/crysomelid-beetle.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/3734eb9c-5aeb-4e36-b868-a0249e12777a/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/3734eb9c-5aeb-4e36-b868-a0249e12777a/large",
+    "family": "CHRYSOMELIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/0635cd43-5f35-4bd7-9216-bf012a3f29eb"
   },
   {
     "commonName": "Cucumber Fruit Fly",
-    "scientificName": "",
+    "scientificName": "Zeugodacus (Austrodacus) cucumis",
     "pestType": "Fly",
     "order": "Diptera",
     "cropsAffected": [],
@@ -5846,11 +6281,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/cucumber-fruit-fly.webp"
+    "thumbnail": "images/pests/cucumber-fruit-fly.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/102f104f-3759-45d9-933c-d2f29821cfac/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/102f104f-3759-45d9-933c-d2f29821cfac/large",
+    "family": "TEPHRITIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/586a221e-ca7f-42c9-9fb3-9d14c198498d"
   },
   {
     "commonName": "Cucumber Moth",
-    "scientificName": "",
+    "scientificName": "Prototroctes maraena",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -5955,11 +6394,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/cucumber-moth.webp"
+    "thumbnail": "images/pests/cucumber-moth.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/57cd0113-3e9d-4c26-8c9a-4b628760433a/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/57cd0113-3e9d-4c26-8c9a-4b628760433a/large",
+    "family": "RETROPINNIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/8cd45a27-ba23-4dbc-b9be-d10ef2269b27"
   },
   {
     "commonName": "Cucurbit stemborer",
-    "scientificName": "",
+    "scientificName": "Lixus cardui",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [],
@@ -5976,7 +6419,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/cucurbit-stemborer.webp"
+    "thumbnail": "images/pests/cucurbit-stemborer.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/87fc5070-8daa-43ff-90a8-43445d9b9e37/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/87fc5070-8daa-43ff-90a8-43445d9b9e37/large",
+    "family": "CURCULIONIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/cd22cf6d-2f32-4e85-b3bc-952bf2264e76"
   },
   {
     "commonName": "Currant lettuce aphid",
@@ -6039,11 +6486,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/currant-lettuce-aphid.webp"
+    "thumbnail": "images/pests/currant-lettuce-aphid.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/12ac6066-fc75-4a75-9331-dcaf64506f21/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/12ac6066-fc75-4a75-9331-dcaf64506f21/large",
+    "family": "APHIDIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/722dff80-c3ef-46a5-a597-9203f9e9cf35"
   },
   {
     "commonName": "Cutworm",
-    "scientificName": "",
+    "scientificName": "Dasygaster padockina",
     "pestType": "Insect",
     "order": "",
     "cropsAffected": [],
@@ -6111,11 +6562,15 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "alaThumbnail": "https://images.ala.org.au/image/a0c58799-dde9-4a3f-8db3-aa1f56ca5d59/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a0c58799-dde9-4a3f-8db3-aa1f56ca5d59/large",
+    "family": "NOCTUIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/04b8d8cc-ba9f-409c-b2e2-b2b492983ad3"
   },
   {
     "commonName": "Cydia Pomonella",
-    "scientificName": "",
+    "scientificName": "Cydia pomonella",
     "pestType": "Chewing insect",
     "order": "",
     "cropsAffected": [
@@ -6135,7 +6590,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/cydia-pomonella.webp"
+    "thumbnail": "images/pests/cydia-pomonella.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/651aa5ba-9276-483b-8d3a-3c0133da36cc/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/651aa5ba-9276-483b-8d3a-3c0133da36cc/large",
+    "family": "TORTRICIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/eb60063e-7cbc-4d87-ad90-90b51b3527b3"
   },
   {
     "commonName": "Daddy-long-legs Spiders",
@@ -6164,7 +6623,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/daddy-long-legs-spiders.webp"
+    "thumbnail": "images/pests/daddy-long-legs-spiders.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/60030a7d-c55d-4c21-b1a5-fd84bee2575e/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/60030a7d-c55d-4c21-b1a5-fd84bee2575e/large",
+    "family": "THERIDIIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/028a2e58-5ade-4486-bc95-273b4ad3f943"
   },
   {
     "commonName": "Diamondback Moth",
@@ -6393,11 +6856,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/diamondback-moth.webp"
+    "thumbnail": "images/pests/diamondback-moth.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/416bf2d2-94c0-4ffc-b11e-b3311b628c91/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/416bf2d2-94c0-4ffc-b11e-b3311b628c91/large",
+    "family": "PLUTELLIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/0e526884-3eb4-490c-9362-3eb8065ee0d4"
   },
   {
     "commonName": "Diaphania Indica",
-    "scientificName": "",
+    "scientificName": "Diaphania indica",
     "pestType": "Chewing insect",
     "order": "",
     "cropsAffected": [
@@ -6433,7 +6900,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/diaphania-indica.webp"
+    "thumbnail": "images/pests/diaphania-indica.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/10bd0550-edba-4c04-8577-48053818efa5/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/10bd0550-edba-4c04-8577-48053818efa5/large",
+    "family": "CRAMBIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/0d6726cc-fd16-437e-bea7-14da24bf8b0f"
   },
   {
     "commonName": "Dimple bug",
@@ -6456,11 +6927,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/dimple-bug.webp"
+    "thumbnail": "images/pests/dimple-bug.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/264e715f-8860-48af-b79b-68ba12a8e0d8/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/264e715f-8860-48af-b79b-68ba12a8e0d8/large",
+    "family": "MYCTOPHIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/dd5d1552-5891-4851-883d-64308ad2655a"
   },
   {
     "commonName": "Domestic Cockroaches",
-    "scientificName": "",
+    "scientificName": "Macropanesthia rhinoceros",
     "pestType": "General pest",
     "order": "",
     "cropsAffected": [],
@@ -6477,11 +6952,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/domestic-cockroaches.webp"
+    "thumbnail": "images/pests/domestic-cockroaches.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/2638e5e8-234d-47d7-9c4e-d57ea6293a76/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/2638e5e8-234d-47d7-9c4e-d57ea6293a76/large",
+    "family": "BLABERIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/e936c6f0-c6d6-48c5-8977-1bd71ea0941b"
   },
   {
     "commonName": "Dried Fruit Beetle",
-    "scientificName": "",
+    "scientificName": "Carpophilus hemipterus",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [],
@@ -6498,11 +6977,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/dried-fruit-beetle.webp"
+    "thumbnail": "images/pests/dried-fruit-beetle.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/ac127433-4f4d-4bde-b2cb-f105549d27d6/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/ac127433-4f4d-4bde-b2cb-f105549d27d6/large",
+    "family": "NITIDULIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/143f97f8-c9e8-458b-8dc2-dd3e8ac0d579"
   },
   {
     "commonName": "Earias Huegeli",
-    "scientificName": "",
+    "scientificName": "Diplopeltis huegelii",
     "pestType": "Chewing insect",
     "order": "",
     "cropsAffected": [
@@ -6521,11 +7004,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/earias-huegeli.webp"
+    "thumbnail": "images/pests/earias-huegeli.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/fdca60f1-f058-429c-8650-bc9f54b572c3/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/fdca60f1-f058-429c-8650-bc9f54b572c3/large",
+    "family": "Sapindaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2896829"
   },
   {
     "commonName": "Early fruit caterpillars",
-    "scientificName": "",
+    "scientificName": "Goniophlebium subauriculatum",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [],
@@ -6542,11 +7029,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/early_fruit_caterpillars.webp"
+    "thumbnail": "images/pests/early_fruit_caterpillars.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/ede095fa-a499-4687-a50c-51ced18a0cc7/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/ede095fa-a499-4687-a50c-51ced18a0cc7/large",
+    "family": "Polypodiaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2913909"
   },
   {
     "commonName": "Earwigs",
-    "scientificName": "",
+    "scientificName": "Marava",
     "pestType": "Insect",
     "order": "",
     "cropsAffected": [],
@@ -6566,11 +7057,15 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "alaThumbnail": "https://images.ala.org.au/image/ba19d6ab-998b-4cb9-b6d1-f07937d7c02c/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/ba19d6ab-998b-4cb9-b6d1-f07937d7c02c/large",
+    "family": "SPONGIPHORIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/4fb4b98b-5636-4128-913f-0863b7719ac5"
   },
   {
     "commonName": "ECTROPIS LOOPER",
-    "scientificName": "",
+    "scientificName": "Ectropis excursaria",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -6605,7 +7100,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/ectropis-looper.webp"
+    "thumbnail": "images/pests/ectropis-looper.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/f5b450ae-9b43-414e-a117-0c0bfcfdda49/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f5b450ae-9b43-414e-a117-0c0bfcfdda49/large",
+    "family": "GEOMETRIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/38b5f5d2-40b1-4669-afed-902ec600fe0f"
   },
   {
     "commonName": "Eggfruit Caterpillar",
@@ -6636,11 +7135,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/eggfruit-caterpillar.webp"
+    "thumbnail": "images/pests/eggfruit-caterpillar.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/7dea8d04-bd54-4345-aa3f-ea2aecbb2144/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/7dea8d04-bd54-4345-aa3f-ea2aecbb2144/large",
+    "family": "CRAMBIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/bbd6c97b-3ed8-4d6b-931f-ab6344b295f3"
   },
   {
     "commonName": "Elephant or Rhino beetle",
-    "scientificName": "",
+    "scientificName": "Orthorhinus cylindrirostris",
     "pestType": "Chewing insect",
     "order": "",
     "cropsAffected": [
@@ -6661,11 +7164,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/elephant-or-rhino-beetle.webp"
+    "thumbnail": "images/pests/elephant-or-rhino-beetle.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/2b66a175-7678-4bc4-9729-02f8b3265e53/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/2b66a175-7678-4bc4-9729-02f8b3265e53/large",
+    "family": "CURCULIONIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/5a7ecac4-fe0b-4302-b80e-e812ec2c6bd6"
   },
   {
     "commonName": "Eucalyptus Chrysomelid Leaf Beetle",
-    "scientificName": "",
+    "scientificName": "Spilopyra sumptuosa",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -6684,11 +7191,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/eucalyptus-chrysomelid-leaf-beetle.webp"
+    "thumbnail": "images/pests/eucalyptus-chrysomelid-leaf-beetle.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/3734eb9c-5aeb-4e36-b868-a0249e12777a/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/3734eb9c-5aeb-4e36-b868-a0249e12777a/large",
+    "family": "CHRYSOMELIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/0635cd43-5f35-4bd7-9216-bf012a3f29eb"
   },
   {
     "commonName": "Eucalyptus chrysomelid leaf beetle larvae",
-    "scientificName": "",
+    "scientificName": "Spilopyra sumptuosa",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -6707,7 +7218,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/eucalyptus-chrysomelid-leaf-beetle-larvae.webp"
+    "thumbnail": "images/pests/eucalyptus-chrysomelid-leaf-beetle-larvae.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/3734eb9c-5aeb-4e36-b868-a0249e12777a/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/3734eb9c-5aeb-4e36-b868-a0249e12777a/large",
+    "family": "CHRYSOMELIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/0635cd43-5f35-4bd7-9216-bf012a3f29eb"
   },
   {
     "commonName": "Eucalyptus Leaf Beetle",
@@ -6730,7 +7245,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/eucalyptus-leaf-beetle.webp"
+    "thumbnail": "images/pests/eucalyptus-leaf-beetle.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/de784084-7ebd-4606-a36d-8dabd8a245b7/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/de784084-7ebd-4606-a36d-8dabd8a245b7/large",
+    "family": "CHRYSOMELIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/6ad35f69-70dc-4bd0-abb0-44d3757cef0a"
   },
   {
     "commonName": "Eucalyptus Weevil",
@@ -6753,11 +7272,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/eucalyptus-weevil.webp"
+    "thumbnail": "images/pests/eucalyptus-weevil.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/dccf9cf7-2a8e-47a2-92cc-72a72d355b8a/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/dccf9cf7-2a8e-47a2-92cc-72a72d355b8a/large",
+    "family": "CURCULIONIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/0c036210-6143-447e-9962-772823af414f"
   },
   {
     "commonName": "European earwig",
-    "scientificName": "",
+    "scientificName": "Forficula auricularia",
     "pestType": "Soil pest",
     "order": "Coleoptera",
     "cropsAffected": [
@@ -6793,11 +7316,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/european-earwig.webp"
+    "thumbnail": "images/pests/european-earwig.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/b31f72ab-e7f6-4d7b-9aa8-0b1e38799805/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/b31f72ab-e7f6-4d7b-9aa8-0b1e38799805/large",
+    "family": "FORFICULIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/9d9d727f-7066-4e0b-a657-54efb0c5b381"
   },
   {
     "commonName": "European Red Mite",
-    "scientificName": "",
+    "scientificName": "Carcinus maenas",
     "pestType": "Mite",
     "order": "Acari",
     "cropsAffected": [
@@ -6883,11 +7410,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/european-red-mite.webp"
+    "thumbnail": "images/pests/european-red-mite.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/32279579-de64-491c-b44b-2a0e5d93fe9d/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/32279579-de64-491c-b44b-2a0e5d93fe9d/large",
+    "family": "CARCINIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/6c7746cb-4bf9-4520-be07-33f048343b1e"
   },
   {
     "commonName": "European wasps",
-    "scientificName": "",
+    "scientificName": "Carcinus maenas",
     "pestType": "Chewing insect",
     "order": "",
     "cropsAffected": [
@@ -6906,7 +7437,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/european-wasps.webp"
+    "thumbnail": "images/pests/european-wasps.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/32279579-de64-491c-b44b-2a0e5d93fe9d/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/32279579-de64-491c-b44b-2a0e5d93fe9d/large",
+    "family": "CARCINIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/6c7746cb-4bf9-4520-be07-33f048343b1e"
   },
   {
     "commonName": "Fall Armyworm",
@@ -6993,11 +7528,15 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/fall-armyworm.webp"
+    "thumbnail": "images/pests/fall-armyworm.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/f605918f-0ce6-43d0-bd62-7eec29272b1a/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f605918f-0ce6-43d0-bd62-7eec29272b1a/large",
+    "family": "NOCTUIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/e14b5d4b-6718-43d1-80b4-9d786783ad55"
   },
   {
     "commonName": "False Wireworm",
-    "scientificName": "",
+    "scientificName": "Gonocephalum misellum",
     "pestType": "Insect/Mite",
     "order": "",
     "cropsAffected": [],
@@ -7014,11 +7553,13 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/false-wireworm.webp"
+    "thumbnail": "images/pests/false-wireworm.webp",
+    "family": "TENEBRIONIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/ca29e858-04fa-4bf0-ad63-97cb94f75581"
   },
   {
     "commonName": "False Wireworms",
-    "scientificName": "",
+    "scientificName": "Gonocephalum misellum",
     "pestType": "Soil pest",
     "order": "Coleoptera",
     "cropsAffected": [
@@ -7037,11 +7578,13 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/false-wireworms.webp"
+    "thumbnail": "images/pests/false-wireworms.webp",
+    "family": "TENEBRIONIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/ca29e858-04fa-4bf0-ad63-97cb94f75581"
   },
   {
     "commonName": "Fig leafhoppers",
-    "scientificName": "",
+    "scientificName": "Nesoclutha phryne",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -7060,11 +7603,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/fig-leafhoppers.webp"
+    "thumbnail": "images/pests/fig-leafhoppers.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/4d3ac920-51c3-41f2-abcb-a892288e3ff3/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/4d3ac920-51c3-41f2-abcb-a892288e3ff3/large",
+    "family": "CICADELLIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/6c1ae114-3c2c-4aba-a826-1b9796233a34"
   },
   {
     "commonName": "Fig Longicorn",
-    "scientificName": "",
+    "scientificName": "Acalolepta mixta",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -7100,7 +7647,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/fig-longicorn.webp"
+    "thumbnail": "images/pests/fig-longicorn.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/19c65034-0266-4ae6-8539-0796005a38a7/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/19c65034-0266-4ae6-8539-0796005a38a7/large",
+    "family": "CERAMBYCIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/712dd569-605a-4d0d-833c-68368807dc05"
   },
   {
     "commonName": "Fivespined bark beetle",
@@ -7121,7 +7672,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/fivespined-bark-beetle.webp"
+    "thumbnail": "images/pests/fivespined-bark-beetle.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/f12e2028-700f-499d-ad14-1ed81bf76f6a/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f12e2028-700f-499d-ad14-1ed81bf76f6a/large",
+    "family": "SCARABAEIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/9ceb2d04-d1cc-4d2a-8cc8-683cc55eca80"
   },
   {
     "commonName": "Flatid Leafhopper",
@@ -7142,11 +7697,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/flatid-leafhopper.webp"
+    "thumbnail": "images/pests/flatid-leafhopper.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/4d3ac920-51c3-41f2-abcb-a892288e3ff3/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/4d3ac920-51c3-41f2-abcb-a892288e3ff3/large",
+    "family": "CICADELLIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/6c1ae114-3c2c-4aba-a826-1b9796233a34"
   },
   {
     "commonName": "Flatid planthopper",
-    "scientificName": "",
+    "scientificName": "Toya dryope",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -7176,11 +7735,13 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/flatid-planthopper.webp"
+    "thumbnail": "images/pests/flatid-planthopper.webp",
+    "family": "DELPHACIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/0600615b-0930-4464-8d62-badbfac5d922"
   },
   {
     "commonName": "Flattid planthoppers",
-    "scientificName": "",
+    "scientificName": "Toya dryope",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -7199,11 +7760,13 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/flattid-planthoppers.webp"
+    "thumbnail": "images/pests/flattid-planthoppers.webp",
+    "family": "DELPHACIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/0600615b-0930-4464-8d62-badbfac5d922"
   },
   {
     "commonName": "Fleas",
-    "scientificName": "",
+    "scientificName": "Coronapsylla",
     "pestType": "Insect/Mite",
     "order": "",
     "cropsAffected": [],
@@ -7222,11 +7785,13 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/fleas.webp"
+    "thumbnail": "images/pests/fleas.webp",
+    "family": "STEPHANOCIRCIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/274aeefa-4075-44ef-bccc-6bacd5ab5925"
   },
   {
     "commonName": "Flower Caterpillars",
-    "scientificName": "",
+    "scientificName": "Scaevola",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -7245,11 +7810,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/flower-caterpillars.webp"
+    "thumbnail": "images/pests/flower-caterpillars.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/6563b7c5-5a5d-4aa0-8e33-f076f621bf08/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/6563b7c5-5a5d-4aa0-8e33-f076f621bf08/large",
+    "family": "Goodeniaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51772200"
   },
   {
     "commonName": "Flower Eating Caterpillar",
-    "scientificName": "",
+    "scientificName": "Scaevola",
     "pestType": "Insect",
     "order": "",
     "cropsAffected": [],
@@ -7269,11 +7838,15 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "alaThumbnail": "https://images.ala.org.au/image/6563b7c5-5a5d-4aa0-8e33-f076f621bf08/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/6563b7c5-5a5d-4aa0-8e33-f076f621bf08/large",
+    "family": "Goodeniaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51772200"
   },
   {
     "commonName": "Flower Thrips",
-    "scientificName": "",
+    "scientificName": "Thrips hawaiiensis",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [],
@@ -7290,11 +7863,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/flower-thrips.webp"
+    "thumbnail": "images/pests/flower-thrips.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/4fe3613a-8ace-463c-adb9-291d6aefb2fc/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/4fe3613a-8ace-463c-adb9-291d6aefb2fc/large",
+    "family": "THRIPIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/84a318a6-7aa7-4c03-ac96-90eaa39c1986"
   },
   {
     "commonName": "Flower-eating caterpillars",
-    "scientificName": "",
+    "scientificName": "Scaevola",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -7351,11 +7928,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/flower-eating-caterpillars.webp"
+    "thumbnail": "images/pests/flower-eating-caterpillars.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/6563b7c5-5a5d-4aa0-8e33-f076f621bf08/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/6563b7c5-5a5d-4aa0-8e33-f076f621bf08/large",
+    "family": "Goodeniaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51772200"
   },
   {
     "commonName": "Forficula Auricularia",
-    "scientificName": "",
+    "scientificName": "Forficula auricularia",
     "pestType": "Soil pest",
     "order": "",
     "cropsAffected": [],
@@ -7373,11 +7954,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/forficula-auricularia.webp"
+    "thumbnail": "images/pests/forficula-auricularia.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/b31f72ab-e7f6-4d7b-9aa8-0b1e38799805/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/b31f72ab-e7f6-4d7b-9aa8-0b1e38799805/large",
+    "family": "FORFICULIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/9d9d727f-7066-4e0b-a657-54efb0c5b381"
   },
   {
     "commonName": "Fruit Fly",
-    "scientificName": "",
+    "scientificName": "Drosophila (Drosophila) repleta",
     "pestType": "Fly",
     "order": "Diptera",
     "cropsAffected": [
@@ -7434,11 +8019,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/fruit-fly.webp"
+    "thumbnail": "images/pests/fruit-fly.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/4b5e2936-f7fd-417e-993d-e1ca94224d09/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/4b5e2936-f7fd-417e-993d-e1ca94224d09/large",
+    "family": "DROSOPHILIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/0a925d28-b327-4991-a60f-0e4a6df06a3a"
   },
   {
     "commonName": "Fruit piercing moth",
-    "scientificName": "",
+    "scientificName": "Glaucias subpunctatus",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -7457,11 +8046,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/fruit-piercing-moth.webp"
+    "thumbnail": "images/pests/fruit-piercing-moth.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/ef2c525b-fb5f-4908-9e37-62784bda8b40/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/ef2c525b-fb5f-4908-9e37-62784bda8b40/large",
+    "family": "PENTATOMIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_1497"
   },
   {
     "commonName": "Fruit spotting bug",
-    "scientificName": "",
+    "scientificName": "Amblypelta lutescens",
     "pestType": "Sucking insect",
     "order": "",
     "cropsAffected": [
@@ -7580,7 +8173,11 @@ window.pestsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/pests/fruit-spotting-bug.webp"
+    "thumbnail": "images/pests/fruit-spotting-bug.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/5eeae35a-9d8c-4302-bf64-17dfbd8dc859/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/5eeae35a-9d8c-4302-bf64-17dfbd8dc859/large",
+    "family": "COREIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/15a5631f-f9e5-4acd-a718-0e4d24079da4"
   },
   {
     "commonName": "Fruit tree borer",
@@ -7608,7 +8205,7 @@ window.pestsRegistry = [
   },
   {
     "commonName": "Fuller's rose weevil",
-    "scientificName": "",
+    "scientificName": "Naupactus cervinus",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -7686,11 +8283,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/fullers-rose-weevil.webp"
+    "thumbnail": "images/pests/fullers-rose-weevil.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/0b23a36f-7b28-45a5-9fd6-44b6f59475b3/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/0b23a36f-7b28-45a5-9fd6-44b6f59475b3/large",
+    "family": "CURCULIONIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/6f84bb91-e1db-4639-990e-275331461dcd"
   },
   {
     "commonName": "Fungus Gnats",
-    "scientificName": "",
+    "scientificName": "Balanophora fungosa",
     "pestType": "Soil pest",
     "order": "",
     "cropsAffected": [
@@ -7718,11 +8319,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/fungus-gnats.webp"
+    "thumbnail": "images/pests/fungus-gnats.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/fcd53b7b-7d22-4088-947e-352dfa322584/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/fcd53b7b-7d22-4088-947e-352dfa322584/large",
+    "family": "Balanophoraceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2909365"
   },
   {
     "commonName": "Funnel ant",
-    "scientificName": "",
+    "scientificName": "Atrax robustus",
     "pestType": "Insect/Mite",
     "order": "",
     "cropsAffected": [],
@@ -7743,7 +8348,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/funnel-ant.webp"
+    "thumbnail": "images/pests/funnel-ant.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/15eb568c-156e-4b3d-a836-0e2483db38b0/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/15eb568c-156e-4b3d-a836-0e2483db38b0/large",
+    "family": "ATRACIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/7748075f-7b00-4eff-bebb-8c312d5985d4"
   },
   {
     "commonName": "Funnel Ants",
@@ -7772,11 +8381,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/funnel-ants.webp"
+    "thumbnail": "images/pests/funnel-ants.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/15eb568c-156e-4b3d-a836-0e2483db38b0/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/15eb568c-156e-4b3d-a836-0e2483db38b0/large",
+    "family": "ATRACIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/7748075f-7b00-4eff-bebb-8c312d5985d4"
   },
   {
     "commonName": "Furniture beetles",
-    "scientificName": "",
+    "scientificName": "Anthrenus (Anthrenus) flavipes",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [],
@@ -7793,11 +8406,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/furniture-beetles.webp"
+    "thumbnail": "images/pests/furniture-beetles.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/fe033029-07b6-47df-a360-cca42f9c7e66/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/fe033029-07b6-47df-a360-cca42f9c7e66/large",
+    "family": "DERMESTIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/2b0dc3b9-7217-4ea5-b45a-8d1837b0a867"
   },
   {
     "commonName": "Gall wasp",
-    "scientificName": "",
+    "scientificName": "Megastigmus acaciae",
     "pestType": "Chewing insect",
     "order": "",
     "cropsAffected": [],
@@ -7805,7 +8422,11 @@ window.pestsRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Gall%20wasp+pest+australia",
     "linkedProducts": [],
-    "thumbnail": "images/pests/gall-wasp.webp"
+    "thumbnail": "images/pests/gall-wasp.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/9d956e2e-93c7-4a25-9914-73ddb9bb7020/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/9d956e2e-93c7-4a25-9914-73ddb9bb7020/large",
+    "family": "MEGASTIGMIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/b4523c8c-64dc-4bed-840b-0f4c2f5da296"
   },
   {
     "commonName": "Garden Weevil",
@@ -7856,11 +8477,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/garden-weevil.webp"
+    "thumbnail": "images/pests/garden-weevil.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/c284b0d0-c7a1-4a8b-b8b9-37411b5b9dff/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/c284b0d0-c7a1-4a8b-b8b9-37411b5b9dff/large",
+    "family": "CURCULIONIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/7a75041a-62e6-4cac-88d9-c7c933ce941d"
   },
   {
     "commonName": "Grain Aphid",
-    "scientificName": "",
+    "scientificName": "Metopolophium dirhodum",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -7886,7 +8511,11 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/grain-aphid.webp"
+    "thumbnail": "images/pests/grain-aphid.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/c016386b-2fa8-4415-8885-8c22f8c5ec05/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/c016386b-2fa8-4415-8885-8c22f8c5ec05/large",
+    "family": "APHIDIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/41029592-55e4-40ee-9436-3122a66a8c40"
   },
   {
     "commonName": "Grapevine Moth",
@@ -7966,11 +8595,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/grapevine-moth.webp"
+    "thumbnail": "images/pests/grapevine-moth.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/48797ee4-fc1c-4980-841b-26c6f5fdf6cd/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/48797ee4-fc1c-4980-841b-26c6f5fdf6cd/large",
+    "family": "NOCTUIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/b0b67dbb-8d02-4988-acff-fbbde54242cb"
   },
   {
     "commonName": "Grapevine scale",
-    "scientificName": "",
+    "scientificName": "Grapevine fanleaf virus",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -8030,11 +8663,13 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/grapevine-scale.webp"
+    "thumbnail": "images/pests/grapevine-scale.webp",
+    "family": "Geminiviridae",
+    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_2078"
   },
   {
     "commonName": "Grapholita Molesta",
-    "scientificName": "",
+    "scientificName": "Grapholita (Grapholita) amphitorna",
     "pestType": "Chewing insect",
     "order": "",
     "cropsAffected": [],
@@ -8051,11 +8686,13 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/grapholita-molesta.webp"
+    "thumbnail": "images/pests/grapholita-molesta.webp",
+    "family": "TORTRICIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/9ebf7057-9011-405d-a47f-2b548f44cc02"
   },
   {
     "commonName": "Grass caterpillar",
-    "scientificName": "",
+    "scientificName": "Goniophlebium subauriculatum",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -8074,11 +8711,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/grass-caterpillar.webp"
+    "thumbnail": "images/pests/grass-caterpillar.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/ede095fa-a499-4687-a50c-51ced18a0cc7/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/ede095fa-a499-4687-a50c-51ced18a0cc7/large",
+    "family": "Polypodiaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2913909"
   },
   {
     "commonName": "Grasshoppers",
-    "scientificName": "",
+    "scientificName": "Flindersella",
     "pestType": "Insect",
     "order": "",
     "cropsAffected": [],
@@ -8104,7 +8745,11 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "alaThumbnail": "https://images.ala.org.au/image/741083aa-e9b3-422f-a831-d86a292e87b2/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/741083aa-e9b3-422f-a831-d86a292e87b2/large",
+    "family": "MORABIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/d506ba2c-f22c-4171-bc92-97f856400c45"
   },
   {
     "commonName": "Green looper",
@@ -8133,7 +8778,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/green-looper.webp"
+    "thumbnail": "images/pests/green-looper.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/1ced135c-b42d-48d7-898c-4d1fa9bd1252/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/1ced135c-b42d-48d7-898c-4d1fa9bd1252/large",
+    "family": "NOCTUIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/1f27b579-dd54-48a5-af20-c57fa41e2d26"
   },
   {
     "commonName": "Green Mirid",
@@ -8226,7 +8875,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/green-mirid.webp"
+    "thumbnail": "images/pests/green-mirid.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/27b2724a-6663-4e7e-817c-77c8f0189e52/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/27b2724a-6663-4e7e-817c-77c8f0189e52/large",
+    "family": "MIRIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/0720761f-f848-4254-8695-b37405bc5228"
   },
   {
     "commonName": "Green peach aphid",
@@ -8480,11 +9133,15 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/green-peach-aphid.webp"
+    "thumbnail": "images/pests/green-peach-aphid.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/65f6e430-fce2-4743-b5b7-db48ee868937/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/65f6e430-fce2-4743-b5b7-db48ee868937/large",
+    "family": "APHIDIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/fb49f62e-bd4f-4731-9a22-e5460896096c"
   },
   {
     "commonName": "Green planthopper",
-    "scientificName": "",
+    "scientificName": "Siphanta acuta",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -8503,7 +9160,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/green-planthopper.webp"
+    "thumbnail": "images/pests/green-planthopper.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/fb986609-ca4b-4b50-8361-b1498fb8cb30/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/fb986609-ca4b-4b50-8361-b1498fb8cb30/large",
+    "family": "FLATIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/2e2fc888-ea54-47c1-9b34-45825bc830d0"
   },
   {
     "commonName": "Green Snail",
@@ -8524,7 +9185,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/green-snail.webp"
+    "thumbnail": "images/pests/green-snail.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/d1111eb0-4a0c-42dd-8bae-5b4ad02ea41e/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/d1111eb0-4a0c-42dd-8bae-5b4ad02ea41e/large",
+    "family": "HELICIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/4e8c9eba-454a-4d57-bfb4-89959bd44a0f"
   },
   {
     "commonName": "Green Stink Bug",
@@ -8545,11 +9210,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/green-stink-bug.webp"
+    "thumbnail": "images/pests/green-stink-bug.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/49d94193-479a-4755-bcfa-5c1a61bce28c/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/49d94193-479a-4755-bcfa-5c1a61bce28c/large",
+    "family": "PENTATOMIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/a39e543c-db67-4dbf-85bd-8293dd016a5f"
   },
   {
     "commonName": "Green treehopper",
-    "scientificName": "",
+    "scientificName": "Sextius virescens",
     "pestType": "Sucking insect",
     "order": "",
     "cropsAffected": [],
@@ -8566,7 +9235,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/green-treehopper.webp"
+    "thumbnail": "images/pests/green-treehopper.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/3ad64041-1d92-4772-9e4c-7f3a152d7918/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/3ad64041-1d92-4772-9e4c-7f3a152d7918/large",
+    "family": "MEMBRACIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/8a2ed97a-9083-4024-b537-60523517a70e"
   },
   {
     "commonName": "Green vege bug",
@@ -8593,7 +9266,7 @@ window.pestsRegistry = [
   },
   {
     "commonName": "Green vegetable bug",
-    "scientificName": "",
+    "scientificName": "Nezara viridula",
     "pestType": "Sucking insect",
     "order": "",
     "cropsAffected": [
@@ -8702,7 +9375,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/green-vegetable-bug.webp"
+    "thumbnail": "images/pests/green-vegetable-bug.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/e94d4fd5-2de5-492a-ba9e-2d7a8eff53cb/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/e94d4fd5-2de5-492a-ba9e-2d7a8eff53cb/large",
+    "family": "PENTATOMIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/dafde291-d532-462b-8ca3-6c3d839cd719"
   },
   {
     "commonName": "Greenhead Ants",
@@ -8731,11 +9408,13 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/greenhead-ants.webp"
+    "thumbnail": "images/pests/greenhead-ants.webp",
+    "family": "LABRIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/d888aae2-9be7-4fc9-a720-bb6b69b034e1"
   },
   {
     "commonName": "Greenhouse thrips",
-    "scientificName": "",
+    "scientificName": "Heliothrips haemorrhoidalis",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -8754,11 +9433,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/greenhouse-thrips.webp"
+    "thumbnail": "images/pests/greenhouse-thrips.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/de2a7ca8-920c-4bd5-a3b0-41ea17fcf874/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/de2a7ca8-920c-4bd5-a3b0-41ea17fcf874/large",
+    "family": "THRIPIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/adba1bb4-2299-4832-859e-30bec5f84746"
   },
   {
     "commonName": "Greenhouse whitefly",
-    "scientificName": "",
+    "scientificName": "Encarsia formosa",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -8871,7 +9554,11 @@ window.pestsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/pests/greenhouse-whitefly.webp"
+    "thumbnail": "images/pests/greenhouse-whitefly.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/f84d8d9e-4c1c-4e04-9b91-1697c362037b/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f84d8d9e-4c1c-4e04-9b91-1697c362037b/large",
+    "family": "APHELINIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/9e808a5c-9afb-4527-a469-efcb2ec1aa91"
   },
   {
     "commonName": "Grey Cabbage Aphid",
@@ -8934,7 +9621,11 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/grey-cabbage-aphid.webp"
+    "thumbnail": "images/pests/grey-cabbage-aphid.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/e2c23a6d-e384-4737-a39c-3c31e100138e/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/e2c23a6d-e384-4737-a39c-3c31e100138e/large",
+    "family": "Arecaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51266874"
   },
   {
     "commonName": "Grey Cluster Bug",
@@ -8986,11 +9677,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/grey-cluster-bug.webp"
+    "thumbnail": "images/pests/grey-cluster-bug.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/1cba3768-52e1-4383-880f-dbb50c361ec8/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/1cba3768-52e1-4383-880f-dbb50c361ec8/large",
+    "family": "LYGAEIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/281d82ac-be90-42c7-924c-fa9f6154302e"
   },
   {
     "commonName": "Greyback canegrub",
-    "scientificName": "",
+    "scientificName": "Alepida froggatti",
     "pestType": "Soil pest",
     "order": "Coleoptera",
     "cropsAffected": [
@@ -9011,11 +9706,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/greyback-canegrub.webp"
+    "thumbnail": "images/pests/greyback-canegrub.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/7f9dc36d-398a-491d-8fd4-134ea6af1d1d/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/7f9dc36d-398a-491d-8fd4-134ea6af1d1d/large",
+    "family": "SCARABAEIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/b6a2ad20-7cfe-451a-8425-f7388f46eecd"
   },
   {
     "commonName": "Harlequin bug",
-    "scientificName": "",
+    "scientificName": "Tectocoris diophthalmus",
     "pestType": "Sucking insect",
     "order": "",
     "cropsAffected": [
@@ -9034,7 +9733,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/harlequin-bug.webp"
+    "thumbnail": "images/pests/harlequin-bug.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/ef9a7eed-2fd2-49fc-9da1-b8bbea78a6a0/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/ef9a7eed-2fd2-49fc-9da1-b8bbea78a6a0/large",
+    "family": "SCUTELLERIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/e62692fe-6661-460c-98f2-cc11e22641b2"
   },
   {
     "commonName": "Hawaiian Flower Thrips",
@@ -9052,7 +9755,11 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "alaThumbnail": "https://images.ala.org.au/image/653ccb89-acf9-4e02-b42f-4bf73eb5a912/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/653ccb89-acf9-4e02-b42f-4bf73eb5a912/large",
+    "family": "THRIPIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/79d70f9a-1281-4253-b303-f176c799d9ed"
   },
   {
     "commonName": "Hawk Moth",
@@ -9073,11 +9780,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/hawk-moth.webp"
+    "thumbnail": "images/pests/hawk-moth.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/2be93e43-902a-4500-b1cf-fb1145a0b02b/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/2be93e43-902a-4500-b1cf-fb1145a0b02b/large",
+    "family": "SPHINGIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/e8965f65-e91b-407b-bc2a-20159b1797b1"
   },
   {
     "commonName": "Helicoverpa",
-    "scientificName": "",
+    "scientificName": "Helicoverpa prepodes",
     "pestType": "Insect",
     "order": "",
     "cropsAffected": [],
@@ -9200,7 +9911,11 @@ window.pestsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/pests/helicoverpa.webp"
+    "thumbnail": "images/pests/helicoverpa.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/b6bb455d-5ec4-4307-a83e-ca2b1459833d/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/b6bb455d-5ec4-4307-a83e-ca2b1459833d/large",
+    "family": "NOCTUIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/f94d54c9-622e-4e8a-b077-e677c77baa86"
   },
   {
     "commonName": "Helicoverpa Moths",
@@ -9306,11 +10021,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/helicoverpa-moths.webp"
+    "thumbnail": "images/pests/helicoverpa-moths.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/b6bb455d-5ec4-4307-a83e-ca2b1459833d/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/b6bb455d-5ec4-4307-a83e-ca2b1459833d/large",
+    "family": "NOCTUIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/f94d54c9-622e-4e8a-b077-e677c77baa86"
   },
   {
     "commonName": "Helicoverpa spp.",
-    "scientificName": "",
+    "scientificName": "Helicoverpa prepodes",
     "pestType": "Insect",
     "order": "",
     "cropsAffected": [],
@@ -9349,11 +10068,15 @@ window.pestsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/pests/helicoverpa-spp.webp"
+    "thumbnail": "images/pests/helicoverpa-spp.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/b6bb455d-5ec4-4307-a83e-ca2b1459833d/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/b6bb455d-5ec4-4307-a83e-ca2b1459833d/large",
+    "family": "NOCTUIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/f94d54c9-622e-4e8a-b077-e677c77baa86"
   },
   {
     "commonName": "Heliothis caterpillars",
-    "scientificName": "",
+    "scientificName": "Heliothis hoarei",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [],
@@ -9370,11 +10093,13 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/heliothis_caterpillars.webp"
+    "thumbnail": "images/pests/heliothis_caterpillars.webp",
+    "family": "NOCTUIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/df52178b-405e-4841-8d57-cc604f7489b5"
   },
   {
     "commonName": "Hibiscus flower beetle",
-    "scientificName": "",
+    "scientificName": "Scaevola",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -9393,7 +10118,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/hibiscus-flower-beetle.webp"
+    "thumbnail": "images/pests/hibiscus-flower-beetle.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/6563b7c5-5a5d-4aa0-8e33-f076f621bf08/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/6563b7c5-5a5d-4aa0-8e33-f076f621bf08/large",
+    "family": "Goodeniaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51772200"
   },
   {
     "commonName": "House Crickets",
@@ -9422,7 +10151,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/house-crickets.webp"
+    "thumbnail": "images/pests/house-crickets.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/51c3fd00-8377-4ec9-8760-189c47428872/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/51c3fd00-8377-4ec9-8760-189c47428872/large",
+    "family": "RHAPHIDOPHORIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/a4b5db68-7525-4f4c-9e4e-28b323bbabed"
   },
   {
     "commonName": "Inland katydid",
@@ -9444,11 +10177,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/inland-katydid.webp"
+    "thumbnail": "images/pests/inland-katydid.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/e10aa730-9b93-4e52-882c-b6059d10b855/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/e10aa730-9b93-4e52-882c-b6059d10b855/large",
+    "family": "PHASMATIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/26189cec-225b-4e62-84c5-3090a13fa2f4"
   },
   {
     "commonName": "Ivy Leafroller",
-    "scientificName": "",
+    "scientificName": "Isochorista pumicosa",
     "pestType": "Chewing insect",
     "order": "",
     "cropsAffected": [
@@ -9467,11 +10204,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/ivy-leafroller.webp"
+    "thumbnail": "images/pests/ivy-leafroller.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/fc2ffaa4-ab33-4b23-bac2-42770c860b26/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/fc2ffaa4-ab33-4b23-bac2-42770c860b26/large",
+    "family": "TORTRICIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/614c7fd2-73c8-4d0e-812f-ec1f904433d2"
   },
   {
     "commonName": "Japanese Beetle",
-    "scientificName": "",
+    "scientificName": "Popillia japonica",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -9492,7 +10233,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/japanese-beetle.webp"
+    "thumbnail": "images/pests/japanese-beetle.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/e8c845a9-2261-40ef-bb61-9219a9a07517/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/e8c845a9-2261-40ef-bb61-9219a9a07517/large",
+    "family": "SCARABAEIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_2421"
   },
   {
     "commonName": "Jassids",
@@ -9577,11 +10322,13 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/kelly-s-citrus-thrip.webp"
+    "thumbnail": "images/pests/kelly-s-citrus-thrip.webp",
+    "family": "ALEYRODIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/44bf636c-ba11-4ffd-b932-ad7ce914e4cf"
   },
   {
     "commonName": "Kelly's Citrus Thrips",
-    "scientificName": "",
+    "scientificName": "Thrips fuscipennis",
     "pestType": "Insect",
     "order": "",
     "cropsAffected": [],
@@ -9624,11 +10371,13 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/kelly-s-citrus-thrips.webp"
+    "thumbnail": "images/pests/kelly-s-citrus-thrips.webp",
+    "family": "THRIPIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_2918"
   },
   {
     "commonName": "Kelly’s Citrus Thrips and Light Brown Apple Moth",
-    "scientificName": "",
+    "scientificName": "Thrips fuscipennis",
     "pestType": "Insect",
     "order": "",
     "cropsAffected": [],
@@ -9642,11 +10391,13 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "family": "THRIPIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_2918"
   },
   {
     "commonName": "La Plata Weevil",
-    "scientificName": "",
+    "scientificName": "Sphenophorus brunnipennis",
     "pestType": "Insect",
     "order": "",
     "cropsAffected": [],
@@ -9660,7 +10411,11 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "alaThumbnail": "https://images.ala.org.au/image/3588aec8-2bcf-4bed-880f-777581545a83/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/3588aec8-2bcf-4bed-880f-777581545a83/large",
+    "family": "CURCULIONIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/62b94d53-f1da-4434-87cf-1d51a8994179"
   },
   {
     "commonName": "Lace bugs",
@@ -9722,7 +10477,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/large-citrus-butterfly.webp"
+    "thumbnail": "images/pests/large-citrus-butterfly.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/ec3fd306-3587-43ea-b75a-f9d481414227/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/ec3fd306-3587-43ea-b75a-f9d481414227/large",
+    "family": "PAPILIONIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/6541b2eb-ada5-4e54-bf40-8f7e07a8a58a"
   },
   {
     "commonName": "Large mango tipborer",
@@ -9813,7 +10572,7 @@ window.pestsRegistry = [
   },
   {
     "commonName": "Leaf eating ladybirds",
-    "scientificName": "",
+    "scientificName": "Illeis galbula",
     "pestType": "Chewing insect",
     "order": "",
     "cropsAffected": [
@@ -9839,11 +10598,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/leaf-eating-ladybirds.webp"
+    "thumbnail": "images/pests/leaf-eating-ladybirds.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/d8e7a00d-48cc-4863-bb15-8823bdf809b7/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/d8e7a00d-48cc-4863-bb15-8823bdf809b7/large",
+    "family": "COCCINELLIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/46783247-855d-4840-ab40-1ce47a2ac5f3"
   },
   {
     "commonName": "Leaf eating loopers",
-    "scientificName": "",
+    "scientificName": "Ectropis excursaria",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -9864,11 +10627,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/leaf-eating-loopers.webp"
+    "thumbnail": "images/pests/leaf-eating-loopers.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/f5b450ae-9b43-414e-a117-0c0bfcfdda49/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f5b450ae-9b43-414e-a117-0c0bfcfdda49/large",
+    "family": "GEOMETRIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/38b5f5d2-40b1-4669-afed-902ec600fe0f"
   },
   {
     "commonName": "Leaf Eating Weevil",
-    "scientificName": "",
+    "scientificName": "Eutinophaea bicristata",
     "pestType": "Insect/Mite",
     "order": "",
     "cropsAffected": [],
@@ -9893,11 +10660,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/leaf-eating-weevil.webp"
+    "thumbnail": "images/pests/leaf-eating-weevil.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/ff21cdb6-a57e-4ed2-896c-39e7df15f525/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/ff21cdb6-a57e-4ed2-896c-39e7df15f525/large",
+    "family": "CURCULIONIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/bc66f8be-5358-4766-b323-6e93282698d9"
   },
   {
     "commonName": "Leaf Hoppers",
-    "scientificName": "",
+    "scientificName": "Tricoma hopperi",
     "pestType": "Sucking insect",
     "order": "",
     "cropsAffected": [
@@ -9970,7 +10741,9 @@ window.pestsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/pests/leaf-hoppers.webp"
+    "thumbnail": "images/pests/leaf-hoppers.webp",
+    "family": "MEYLIIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/8dcdbbaf-b292-455f-b2a8-0b595083a2bb"
   },
   {
     "commonName": "Leaf Miners",
@@ -10019,11 +10792,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/leaf-miners.webp"
+    "thumbnail": "images/pests/leaf-miners.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/37e23d13-9cd2-465f-ab87-9a79b641752a/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/37e23d13-9cd2-465f-ab87-9a79b641752a/large",
+    "family": "MELIPHAGIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/ee7498bf-c57c-4463-b313-710d4959cc95"
   },
   {
     "commonName": "Leaf roller",
-    "scientificName": "",
+    "scientificName": "Platynota stultana",
     "pestType": "Chewing insect",
     "order": "",
     "cropsAffected": [
@@ -10042,11 +10819,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/leaf-roller.webp"
+    "thumbnail": "images/pests/leaf-roller.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/da929e56-cd49-46e2-9e4b-9cfb9533f89d/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/da929e56-cd49-46e2-9e4b-9cfb9533f89d/large",
+    "family": "TORTRICIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_2386"
   },
   {
     "commonName": "Leafroller moths",
-    "scientificName": "",
+    "scientificName": "Isochorista pumicosa",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -10067,7 +10848,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/leafroller-moths.webp"
+    "thumbnail": "images/pests/leafroller-moths.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/fc2ffaa4-ab33-4b23-bac2-42770c860b26/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/fc2ffaa4-ab33-4b23-bac2-42770c860b26/large",
+    "family": "TORTRICIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/614c7fd2-73c8-4d0e-812f-ec1f904433d2"
   },
   {
     "commonName": "Leafrollers",
@@ -10150,7 +10935,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/lesser-queensland-fruit-fly.webp"
+    "thumbnail": "images/pests/lesser-queensland-fruit-fly.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/a8f73825-bac7-4bd3-bf3d-2802dfe69a5d/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a8f73825-bac7-4bd3-bf3d-2802dfe69a5d/large",
+    "family": "GOBIIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/d4c76830-f7a2-4e64-93d2-0e90a1dd38e8"
   },
   {
     "commonName": "Lettuce Aphid",
@@ -10177,7 +10966,11 @@ window.pestsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/pests/lettuce-aphid.webp"
+    "thumbnail": "images/pests/lettuce-aphid.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/12ac6066-fc75-4a75-9331-dcaf64506f21/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/12ac6066-fc75-4a75-9331-dcaf64506f21/large",
+    "family": "APHIDIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/722dff80-c3ef-46a5-a597-9203f9e9cf35"
   },
   {
     "commonName": "Lightbrown apple moth",
@@ -10435,11 +11228,13 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/lightbrown-apple-moth.webp"
+    "thumbnail": "images/pests/lightbrown-apple-moth.webp",
+    "family": "CHRYSOMELIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/377358ec-0679-46f3-be86-b2191927bc68"
   },
   {
     "commonName": "Liparetrus spp.",
-    "scientificName": "",
+    "scientificName": "Liparetrus modestus",
     "pestType": "Insect",
     "order": "",
     "cropsAffected": [],
@@ -10454,7 +11249,9 @@ window.pestsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/pests/liparetrus-spp.webp"
+    "thumbnail": "images/pests/liparetrus-spp.webp",
+    "family": "SCARABAEIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/2e63903e-95ed-42ab-af02-0fdabf751685"
   },
   {
     "commonName": "Liriomyza leaf miners",
@@ -10477,11 +11274,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/liriomyza_leaf_miners.webp"
+    "thumbnail": "images/pests/liriomyza_leaf_miners.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/a3a18589-245b-492b-87e6-39e1c4ffd6fc/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a3a18589-245b-492b-87e6-39e1c4ffd6fc/large",
+    "family": "AGROMYZIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/38662639-7d1a-4990-847a-0033e9799f49"
   },
   {
     "commonName": "Listroderes Difficilis",
-    "scientificName": "",
+    "scientificName": "Listroderes difficilis",
     "pestType": "Chewing insect",
     "order": "",
     "cropsAffected": [
@@ -10500,11 +11301,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/listroderes-difficilis.webp"
+    "thumbnail": "images/pests/listroderes-difficilis.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/f08be038-4cab-4124-8ed7-dfd105a85dc8/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f08be038-4cab-4124-8ed7-dfd105a85dc8/large",
+    "family": "CURCULIONIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/f1d2ecd0-c7f5-4582-982a-fd09149c28b4"
   },
   {
     "commonName": "Listroderes Obliquus",
-    "scientificName": "",
+    "scientificName": "Listroderes foveatus",
     "pestType": "Chewing insect",
     "order": "",
     "cropsAffected": [
@@ -10523,11 +11328,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/listroderes-obliquus.webp"
+    "thumbnail": "images/pests/listroderes-obliquus.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/3779a87c-3f14-49ea-a4e6-52f5beaab20f/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/3779a87c-3f14-49ea-a4e6-52f5beaab20f/large",
+    "family": "CURCULIONIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/f642c778-2b1f-44bd-9a79-dc1191a3eb1e"
   },
   {
     "commonName": "Litchi Erinose Mite",
-    "scientificName": "",
+    "scientificName": "Collocalia linchi",
     "pestType": "Mite",
     "order": "Acari",
     "cropsAffected": [
@@ -10546,11 +11355,13 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/litchi-erinose-mite.webp"
+    "thumbnail": "images/pests/litchi-erinose-mite.webp",
+    "family": "APODIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/7a164c33-4986-4b23-8b89-4ae58d6bd72b"
   },
   {
     "commonName": "Locusts",
-    "scientificName": "",
+    "scientificName": "Flindersella",
     "pestType": "Insect",
     "order": "",
     "cropsAffected": [],
@@ -10564,7 +11375,11 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "alaThumbnail": "https://images.ala.org.au/image/741083aa-e9b3-422f-a831-d86a292e87b2/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/741083aa-e9b3-422f-a831-d86a292e87b2/large",
+    "family": "MORABIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/d506ba2c-f22c-4171-bc92-97f856400c45"
   },
   {
     "commonName": "Long-tailed mealybug [Suppression only]",
@@ -10576,11 +11391,13 @@ window.pestsRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Pseudococcus%20longispinus+pest+australia",
     "linkedProducts": [],
-    "thumbnail": "images/pests/long-tailed-mealybug-suppression-only.webp"
+    "thumbnail": "images/pests/long-tailed-mealybug-suppression-only.webp",
+    "family": "PSEUDOCOCCIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/7e53d98f-d10e-42b0-bd5e-8b1f662f9268"
   },
   {
     "commonName": "Longicorn trunk borer",
-    "scientificName": "",
+    "scientificName": "Acalolepta mixta",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -10601,11 +11418,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/longicorn-trunk-borer.webp"
+    "thumbnail": "images/pests/longicorn-trunk-borer.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/19c65034-0266-4ae6-8539-0796005a38a7/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/19c65034-0266-4ae6-8539-0796005a38a7/large",
+    "family": "CERAMBYCIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/712dd569-605a-4d0d-833c-68368807dc05"
   },
   {
     "commonName": "Longtail mealybug",
-    "scientificName": "",
+    "scientificName": "Ferrisia virgata",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -10636,11 +11457,13 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/longtail-mealybug.webp"
+    "thumbnail": "images/pests/longtail-mealybug.webp",
+    "family": "PSEUDOCOCCIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/7e53d98f-d10e-42b0-bd5e-8b1f662f9268"
   },
   {
     "commonName": "Longtailed mealybug",
-    "scientificName": "",
+    "scientificName": "Ferrisia virgata",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -10792,7 +11615,9 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/longtailed-mealybug.webp"
+    "thumbnail": "images/pests/longtailed-mealybug.webp",
+    "family": "PSEUDOCOCCIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/7e53d98f-d10e-42b0-bd5e-8b1f662f9268"
   },
   {
     "commonName": "Looper Moth",
@@ -10810,7 +11635,11 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "alaThumbnail": "https://images.ala.org.au/image/f5b450ae-9b43-414e-a117-0c0bfcfdda49/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f5b450ae-9b43-414e-a117-0c0bfcfdda49/large",
+    "family": "GEOMETRIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/38b5f5d2-40b1-4669-afed-902ec600fe0f"
   },
   {
     "commonName": "Loopers",
@@ -10904,7 +11733,7 @@ window.pestsRegistry = [
   },
   {
     "commonName": "Lucerne flea",
-    "scientificName": "",
+    "scientificName": "Sminthurus viridis",
     "pestType": "Chewing insect",
     "order": "",
     "cropsAffected": [
@@ -10945,7 +11774,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/lucerne-flea.webp"
+    "thumbnail": "images/pests/lucerne-flea.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/d224c5db-2319-4cc7-a8f4-ba71edfe5b28/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/d224c5db-2319-4cc7-a8f4-ba71edfe5b28/large",
+    "family": "SMINTHURIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/30f7f251-b858-42ee-901b-55640f8ac5f9"
   },
   {
     "commonName": "Lucerne Leaf Roller",
@@ -10998,11 +11831,13 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/lucerne-leaf-roller.webp"
+    "thumbnail": "images/pests/lucerne-leaf-roller.webp",
+    "family": "CONIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/d1c48e56-ab6f-4a89-a4ab-e76c0ae928a1"
   },
   {
     "commonName": "Lychee stink bug",
-    "scientificName": "",
+    "scientificName": "Lyramorpha (Lyramorpha) rosea",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -11032,11 +11867,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/lychee-stink-bug.webp"
+    "thumbnail": "images/pests/lychee-stink-bug.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/c39bfc58-7922-43d1-bbc5-d47f6cfb39a0/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/c39bfc58-7922-43d1-bbc5-d47f6cfb39a0/large",
+    "family": "TESSARATOMIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/4c09a425-fc4a-42fa-b267-31a1c0dec018"
   },
   {
     "commonName": "Macadamia cup moth",
-    "scientificName": "",
+    "scientificName": "Macadamia integrifolia",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -11055,11 +11894,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/macadamia-cup-moth.webp"
+    "thumbnail": "images/pests/macadamia-cup-moth.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/484168cd-c172-4b77-a655-f01e28bac3dc/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/484168cd-c172-4b77-a655-f01e28bac3dc/large",
+    "family": "Proteaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2890419"
   },
   {
     "commonName": "Macadamia felted coccid",
-    "scientificName": "",
+    "scientificName": "Acanthococcus ironsidei",
     "pestType": "Sucking insect",
     "order": "",
     "cropsAffected": [
@@ -11087,11 +11930,13 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/macadamia-felted-coccid.webp"
+    "thumbnail": "images/pests/macadamia-felted-coccid.webp",
+    "family": "ERIOCOCCIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/65711af2-9de1-46e8-9eee-4145e879cb94"
   },
   {
     "commonName": "Macadamia flower caterpillar",
-    "scientificName": "",
+    "scientificName": "Macadamia",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -11110,7 +11955,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/macadamia-flower-caterpillar.webp"
+    "thumbnail": "images/pests/macadamia-flower-caterpillar.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/af8a3399-4bfa-4363-bd76-c7269beccb18/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/af8a3399-4bfa-4363-bd76-c7269beccb18/large",
+    "family": "Proteaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2906884"
   },
   {
     "commonName": "Macadamia lace bug",
@@ -11133,11 +11982,13 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/macadamia-lace-bug.webp"
+    "thumbnail": "images/pests/macadamia-lace-bug.webp",
+    "family": "TINGIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/ef992e8d-0dc5-4f63-8715-1b817af0048d"
   },
   {
     "commonName": "Macadamia Leafminer",
-    "scientificName": "",
+    "scientificName": "Macadamia integrifolia",
     "pestType": "Chewing insect",
     "order": "Diptera",
     "cropsAffected": [
@@ -11157,7 +12008,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/macadamia-leafminer.webp"
+    "thumbnail": "images/pests/macadamia-leafminer.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/484168cd-c172-4b77-a655-f01e28bac3dc/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/484168cd-c172-4b77-a655-f01e28bac3dc/large",
+    "family": "Proteaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2890419"
   },
   {
     "commonName": "Macadamia nut borer",
@@ -11248,7 +12103,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/macadamia-nut-borer.webp"
+    "thumbnail": "images/pests/macadamia-nut-borer.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/484168cd-c172-4b77-a655-f01e28bac3dc/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/484168cd-c172-4b77-a655-f01e28bac3dc/large",
+    "family": "Proteaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2890419"
   },
   {
     "commonName": "Macadamia seed weevil",
@@ -11279,11 +12138,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/macadamia-seed-weevil.webp"
+    "thumbnail": "images/pests/macadamia-seed-weevil.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/780e4542-d92a-4f2e-961f-640a8b1dacc8/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/780e4542-d92a-4f2e-961f-640a8b1dacc8/large",
+    "family": "CURCULIONIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/7e6f7ac4-4181-400b-99d8-c4a6302a643b"
   },
   {
     "commonName": "Macadamia twig-girdler",
-    "scientificName": "",
+    "scientificName": "Echidna polyzona",
     "pestType": "Chewing insect",
     "order": "",
     "cropsAffected": [
@@ -11302,11 +12165,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/macadamia-twig-girdler.webp"
+    "thumbnail": "images/pests/macadamia-twig-girdler.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/62d3d492-38cc-4995-812d-fe5f1de857ec/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/62d3d492-38cc-4995-812d-fe5f1de857ec/large",
+    "family": "MURAENIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/ae297388-1462-46b6-bc33-34902e24bbbd"
   },
   {
     "commonName": "Maggots",
-    "scientificName": "",
+    "scientificName": "SYRPHIDAE",
     "pestType": "Insect",
     "order": "",
     "cropsAffected": [],
@@ -11320,11 +12187,15 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "alaThumbnail": "https://images.ala.org.au/image/fd781287-2e80-4805-a3ef-1a70e15878b0/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/fd781287-2e80-4805-a3ef-1a70e15878b0/large",
+    "family": "SYRPHIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/26c49aaf-5536-4012-b890-0e05ef187271"
   },
   {
     "commonName": "Mango plant hopper",
-    "scientificName": "",
+    "scientificName": "Pseudophryne raveni",
     "pestType": "Sucking insect",
     "order": "",
     "cropsAffected": [
@@ -11359,7 +12230,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/mango-plant-hopper.webp"
+    "thumbnail": "images/pests/mango-plant-hopper.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/a23c884a-b6f7-4e9c-966b-dce769a9f9d3/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a23c884a-b6f7-4e9c-966b-dce769a9f9d3/large",
+    "family": "MYOBATRACHIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/33988848-c23f-4601-80d9-105d3f1484de"
   },
   {
     "commonName": "Mango scale",
@@ -11402,7 +12277,7 @@ window.pestsRegistry = [
   },
   {
     "commonName": "Mango Seed Weevil",
-    "scientificName": "",
+    "scientificName": "Sternochetus mangiferae",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -11421,11 +12296,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/mango-seed-weevil.webp"
+    "thumbnail": "images/pests/mango-seed-weevil.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/83ba6a23-4bc2-4127-b0ed-aa20648443ef/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/83ba6a23-4bc2-4127-b0ed-aa20648443ef/large",
+    "family": "CURCULIONIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/c596a6e2-8465-4b94-b129-c01ebf300313"
   },
   {
     "commonName": "Mango shield scale",
-    "scientificName": "",
+    "scientificName": "Lastreopsis marginans",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -11453,7 +12332,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/mango-shield-scale.webp"
+    "thumbnail": "images/pests/mango-shield-scale.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/66894460-c4d8-4562-9cbe-9123244e072c/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/66894460-c4d8-4562-9cbe-9123244e072c/large",
+    "family": "Dryopteridaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2912143"
   },
   {
     "commonName": "Mango shoot looper",
@@ -11486,7 +12369,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/mango-shoot-looper.webp"
+    "thumbnail": "images/pests/mango-shoot-looper.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/f5b450ae-9b43-414e-a117-0c0bfcfdda49/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f5b450ae-9b43-414e-a117-0c0bfcfdda49/large",
+    "family": "GEOMETRIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/38b5f5d2-40b1-4669-afed-902ec600fe0f"
   },
   {
     "commonName": "Mango tip borer",
@@ -11515,7 +12402,7 @@ window.pestsRegistry = [
   },
   {
     "commonName": "Mastotermes darwiniensis",
-    "scientificName": "",
+    "scientificName": "Mastotermes darwiniensis",
     "pestType": "Termite",
     "order": "",
     "cropsAffected": [],
@@ -11535,11 +12422,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/mastotermes-darwiniensis.webp"
+    "thumbnail": "images/pests/mastotermes-darwiniensis.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/5e77555e-b9a9-4a75-a9dc-c4bfb770cb88/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/5e77555e-b9a9-4a75-a9dc-c4bfb770cb88/large",
+    "family": "MASTOTERMITIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/8a3c3ce1-ec3b-41b1-8506-dd2f8ad7b22f"
   },
   {
     "commonName": "Meat ant",
-    "scientificName": "",
+    "scientificName": "Iridomyrmex lividus",
     "pestType": "Insect/Mite",
     "order": "",
     "cropsAffected": [],
@@ -11560,7 +12451,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/meat-ant.webp"
+    "thumbnail": "images/pests/meat-ant.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/d51826be-e24c-451c-93b2-a50c9536e46d/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/d51826be-e24c-451c-93b2-a50c9536e46d/large",
+    "family": "FORMICIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/5eceffe2-e37a-4864-92dc-0c941366cb61"
   },
   {
     "commonName": "Meat Ants",
@@ -11589,11 +12484,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/meat-ants.webp"
+    "thumbnail": "images/pests/meat-ants.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/e1c76ef8-02a4-4158-bc23-703936a2acd4/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/e1c76ef8-02a4-4158-bc23-703936a2acd4/large",
+    "family": "FORMICIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/7e4def79-80b0-4997-992f-5dd2fe770942"
   },
   {
     "commonName": "Mediterranean fruit fly",
-    "scientificName": "",
+    "scientificName": "Ceratitis capitata",
     "pestType": "Fly",
     "order": "Diptera",
     "cropsAffected": [],
@@ -11635,7 +12534,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/mediterranean-fruit-fly.webp"
+    "thumbnail": "images/pests/mediterranean-fruit-fly.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/3ed8fe74-c7af-48eb-bede-32ff925a3478/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/3ed8fe74-c7af-48eb-bede-32ff925a3478/large",
+    "family": "TEPHRITIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/09891d99-d3ab-4710-b033-38e8d954181d"
   },
   {
     "commonName": "Melon aphid",
@@ -11714,7 +12617,11 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/melon-aphid.webp"
+    "thumbnail": "images/pests/melon-aphid.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/8ab58c38-4c9c-4e07-882d-29c06313fbaa/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/8ab58c38-4c9c-4e07-882d-29c06313fbaa/large",
+    "family": "APHIDIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/4cd490c1-3b1b-4c0e-a244-ff925104266b"
   },
   {
     "commonName": "Melon thrips",
@@ -11764,11 +12671,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/melon-thrips.webp"
+    "thumbnail": "images/pests/melon-thrips.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/a4585c7c-9466-413f-a887-f285882f1a8a/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a4585c7c-9466-413f-a887-f285882f1a8a/large",
+    "family": "THRIPIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/e8706c23-9770-4738-ba9e-6b238cb7421f"
   },
   {
     "commonName": "Migratory locust",
-    "scientificName": "",
+    "scientificName": "Locusta migratoria",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -11788,7 +12699,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/migratory-locust.webp"
+    "thumbnail": "images/pests/migratory-locust.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/61a62f68-9015-4bc6-b854-b8d023123682/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/61a62f68-9015-4bc6-b854-b8d023123682/large",
+    "family": "ACRIDIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/cf98530f-b901-404f-ab6f-d9b4947cc729"
   },
   {
     "commonName": "Mirids",
@@ -11841,7 +12756,7 @@ window.pestsRegistry = [
   },
   {
     "commonName": "Mole Cricket",
-    "scientificName": "",
+    "scientificName": "Gryllotalpa monanka",
     "pestType": "Soil pest",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -11868,11 +12783,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/mole-cricket.webp"
+    "thumbnail": "images/pests/mole-cricket.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/57c1d1ec-2fab-43c7-b4bd-275d1a2b582c/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/57c1d1ec-2fab-43c7-b4bd-275d1a2b582c/large",
+    "family": "GRYLLOTALPIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/84489a0b-463f-445d-b073-c1f39a08c185"
   },
   {
     "commonName": "Monolepta beetle",
-    "scientificName": "",
+    "scientificName": "Monolepta bifasciata",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -11929,11 +12848,13 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/monolepta-beetle.webp"
+    "thumbnail": "images/pests/monolepta-beetle.webp",
+    "family": "CHRYSOMELIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_2000"
   },
   {
     "commonName": "Mosquitoes",
-    "scientificName": "",
+    "scientificName": "Pseudosmittia",
     "pestType": "Insect/Mite",
     "order": "",
     "cropsAffected": [],
@@ -11952,11 +12873,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/mosquitoes.webp"
+    "thumbnail": "images/pests/mosquitoes.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/35d0efc3-beeb-4091-a7be-f1552fdd6874/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/35d0efc3-beeb-4091-a7be-f1552fdd6874/large",
+    "family": "CHIRONOMIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/ec4403be-1e12-4dfd-9f89-df6cb1443f25"
   },
   {
     "commonName": "Mushroom Pygmy Mites",
-    "scientificName": "",
+    "scientificName": "Ceratophysella denticulata",
     "pestType": "Mite",
     "order": "Acari",
     "cropsAffected": [
@@ -11975,11 +12900,13 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/mushroom-pygmy-mites.webp"
+    "thumbnail": "images/pests/mushroom-pygmy-mites.webp",
+    "family": "HYPOGASTRURIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/d5a24688-86f4-4f1b-819f-a03a6ca43c9d"
   },
   {
     "commonName": "Mussel Scale",
-    "scientificName": "",
+    "scientificName": "Hyridella (Hyridella) australis",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -12006,7 +12933,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/mussel-scale.webp"
+    "thumbnail": "images/pests/mussel-scale.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/e311a8b1-7e93-451d-a564-7ebc1c6ab0a2/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/e311a8b1-7e93-451d-a564-7ebc1c6ab0a2/large",
+    "family": "HYRIIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/189341cf-c8fd-4abc-b392-532d9dc8c765"
   },
   {
     "commonName": "Native budworm",
@@ -12332,11 +13263,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/native-budworm.webp"
+    "thumbnail": "images/pests/native-budworm.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/3d74e93c-19fe-428d-96c1-c7b326ca8086/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/3d74e93c-19fe-428d-96c1-c7b326ca8086/large",
+    "family": "NOCTUIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/9b2b68b4-3c09-4a15-ab0b-8258609d2802"
   },
   {
     "commonName": "Nesting Ants",
-    "scientificName": "",
+    "scientificName": "Epinephelus merra",
     "pestType": "Soil pest",
     "order": "",
     "cropsAffected": [],
@@ -12353,11 +13288,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/nesting-ants.webp"
+    "thumbnail": "images/pests/nesting-ants.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/a5221c7f-c6b3-412a-bdcf-3fa5a1664da1/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a5221c7f-c6b3-412a-bdcf-3fa5a1664da1/large",
+    "family": "SERRANIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/8d19472a-5d56-4b8e-8e62-9aa42140592c"
   },
   {
     "commonName": "Nezara Viridula",
-    "scientificName": "",
+    "scientificName": "Nezara viridula",
     "pestType": "Sucking insect",
     "order": "",
     "cropsAffected": [
@@ -12376,7 +13315,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/nezara-viridula.webp"
+    "thumbnail": "images/pests/nezara-viridula.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/e94d4fd5-2de5-492a-ba9e-2d7a8eff53cb/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/e94d4fd5-2de5-492a-ba9e-2d7a8eff53cb/large",
+    "family": "PENTATOMIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/dafde291-d532-462b-8ca3-6c3d839cd719"
   },
   {
     "commonName": "Northern plague thrips",
@@ -12399,11 +13342,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/northern-plague-thrips.webp"
+    "thumbnail": "images/pests/northern-plague-thrips.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/6425ad09-7593-49d9-9b03-cc80c2717227/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/6425ad09-7593-49d9-9b03-cc80c2717227/large",
+    "family": "THRIPIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/e79b6e89-a085-40e4-967e-28f5cf1bba00"
   },
   {
     "commonName": "Northern Rough Bollworm",
-    "scientificName": "",
+    "scientificName": "Helicoverpa armigera",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -12430,7 +13377,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/northern-rough-bollworm.webp"
+    "thumbnail": "images/pests/northern-rough-bollworm.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/e69d8ecc-3b67-41bd-bd0a-f2babd89a0f5/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/e69d8ecc-3b67-41bd-bd0a-f2babd89a0f5/large",
+    "family": "NOCTUIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/0254d0f0-2c97-46dc-a87c-61e07b4f881a"
   },
   {
     "commonName": "Northern rough bollworm Rough bollworm",
@@ -12453,7 +13404,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/northern-rough-bollworm-rough-bollworm.webp"
+    "thumbnail": "images/pests/northern-rough-bollworm-rough-bollworm.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/e69d8ecc-3b67-41bd-bd0a-f2babd89a0f5/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/e69d8ecc-3b67-41bd-bd0a-f2babd89a0f5/large",
+    "family": "NOCTUIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/0254d0f0-2c97-46dc-a87c-61e07b4f881a"
   },
   {
     "commonName": "Nuisance Ants",
@@ -12522,11 +13477,15 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/oat-aphid.webp"
+    "thumbnail": "images/pests/oat-aphid.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/78780e68-8a2a-4a45-9cc2-c414588caf4b/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/78780e68-8a2a-4a45-9cc2-c414588caf4b/large",
+    "family": "APHIDIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/0c0758d0-7604-4bb9-b092-ce30e61a3e81"
   },
   {
     "commonName": "Odorous House Ant",
-    "scientificName": "",
+    "scientificName": "Tapinoma sessile",
     "pestType": "Insect",
     "order": "",
     "cropsAffected": [],
@@ -12540,11 +13499,13 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "family": "FORMICIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_2874"
   },
   {
     "commonName": "Oleander scale",
-    "scientificName": "",
+    "scientificName": "Nerium oleander",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [],
@@ -12561,11 +13522,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/oleander-scale.webp"
+    "thumbnail": "images/pests/oleander-scale.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/cb900a3a-d0fd-45da-8932-6225b0f316ae/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/cb900a3a-d0fd-45da-8932-6225b0f316ae/large",
+    "family": "Apocynaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2899812"
   },
   {
     "commonName": "Olive lace bug",
-    "scientificName": "",
+    "scientificName": "Froggattia olivinia",
     "pestType": "Sucking insect",
     "order": "",
     "cropsAffected": [
@@ -12584,11 +13549,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/olive-lace-bug.webp"
+    "thumbnail": "images/pests/olive-lace-bug.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/a878e657-4a67-4145-a39a-7d544e65bef3/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a878e657-4a67-4145-a39a-7d544e65bef3/large",
+    "family": "TINGIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/9d8a790d-f2b4-48eb-80fd-cbbae72e10cf"
   },
   {
     "commonName": "Onion Aphid",
-    "scientificName": "",
+    "scientificName": "Neotoxoptera formosana",
     "pestType": "Insect",
     "order": "",
     "cropsAffected": [],
@@ -12602,7 +13571,11 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "alaThumbnail": "https://images.ala.org.au/image/457f0f53-d60c-407d-a5b4-9c679c29dc42/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/457f0f53-d60c-407d-a5b4-9c679c29dc42/large",
+    "family": "APHIDIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/6c58b0f8-4792-461c-9c3f-58aa831771cc"
   },
   {
     "commonName": "Onion thrips",
@@ -12681,7 +13654,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/onion-thrips.webp"
+    "thumbnail": "images/pests/onion-thrips.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/9bc5580a-1ecc-465f-a374-1fdc22734a5f/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/9bc5580a-1ecc-465f-a374-1fdc22734a5f/large",
+    "family": "THRIPIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/ba564af1-deec-47cc-b21e-92908bdbc4fa"
   },
   {
     "commonName": "Onion thrips [Suppression only]",
@@ -12701,11 +13678,13 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/onion-thrips-suppression-only.webp"
+    "thumbnail": "images/pests/onion-thrips-suppression-only.webp",
+    "family": "THRIPIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_2918"
   },
   {
     "commonName": "Orange fruit borer",
-    "scientificName": "",
+    "scientificName": "Litoria chloris",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -12737,11 +13716,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/orange-fruit-borer.webp"
+    "thumbnail": "images/pests/orange-fruit-borer.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/e69cb933-a7b6-451f-af25-60f7baf6f100/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/e69cb933-a7b6-451f-af25-60f7baf6f100/large",
+    "family": "PELODRYADIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/0d994aeb-f629-4b6a-9c7f-1a28864ce0b6"
   },
   {
     "commonName": "Oriental Cockroach",
-    "scientificName": "",
+    "scientificName": "Blatta orientalis",
     "pestType": "General pest",
     "order": "",
     "cropsAffected": [],
@@ -12766,11 +13749,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/oriental-cockroach.webp"
+    "thumbnail": "images/pests/oriental-cockroach.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/00b3691a-6a21-45c6-93cd-a9d76713f57b/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/00b3691a-6a21-45c6-93cd-a9d76713f57b/large",
+    "family": "BLATTIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/d90dfbcb-9757-4f8d-8f5e-2f3422ee0a90"
   },
   {
     "commonName": "Oriental fruit moth",
-    "scientificName": "",
+    "scientificName": "Glabridorsum stokesii",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -12851,11 +13838,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/oriental-fruit-moth.webp"
+    "thumbnail": "images/pests/oriental-fruit-moth.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/9afe3072-0b53-4f73-b794-1a7c33df0b20/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/9afe3072-0b53-4f73-b794-1a7c33df0b20/large",
+    "family": "ICHNEUMONIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/f43b844e-e42d-4225-8212-632c47f81814"
   },
   {
     "commonName": "Oriental Spider Mite",
-    "scientificName": "",
+    "scientificName": "Myctophum orientale",
     "pestType": "Mite",
     "order": "Acari",
     "cropsAffected": [
@@ -12875,7 +13866,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/oriental-spider-mite.webp"
+    "thumbnail": "images/pests/oriental-spider-mite.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/1bfe5811-760f-4243-9aeb-370ef4a039de/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/1bfe5811-760f-4243-9aeb-370ef4a039de/large",
+    "family": "MYCTOPHIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/096d77fa-78f9-4ba3-a932-2df5f8fe0dd3"
   },
   {
     "commonName": "Pale Cotton Stainer",
@@ -12898,11 +13893,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/pale-cotton-stainer.webp"
+    "thumbnail": "images/pests/pale-cotton-stainer.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/edfbb0a2-ffa6-43c5-a19e-61d4e7b81290/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/edfbb0a2-ffa6-43c5-a19e-61d4e7b81290/large",
+    "family": "PYRRHOCORIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/37ed0bf6-cf01-4a83-9781-2519c9af3b90"
   },
   {
     "commonName": "Palm leaf beetle",
-    "scientificName": "",
+    "scientificName": "Eupoecila australasiae",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -12921,11 +13920,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/palm-leaf-beetle.webp"
+    "thumbnail": "images/pests/palm-leaf-beetle.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/f12e2028-700f-499d-ad14-1ed81bf76f6a/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f12e2028-700f-499d-ad14-1ed81bf76f6a/large",
+    "family": "SCARABAEIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/9ceb2d04-d1cc-4d2a-8cc8-683cc55eca80"
   },
   {
     "commonName": "Panonychus Ulmi",
-    "scientificName": "",
+    "scientificName": "Panonychus ulmi",
     "pestType": "Mite",
     "order": "",
     "cropsAffected": [],
@@ -12942,7 +13945,9 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/panonychus-ulmi.webp"
+    "thumbnail": "images/pests/panonychus-ulmi.webp",
+    "family": "TETRANYCHIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/e8847ad4-7377-403a-ad96-f014041d851a"
   },
   {
     "commonName": "Papernest wasps",
@@ -12975,7 +13980,7 @@ window.pestsRegistry = [
   },
   {
     "commonName": "Passion Vine Bug",
-    "scientificName": "",
+    "scientificName": "Passiflora edulis",
     "pestType": "Sucking insect",
     "order": "",
     "cropsAffected": [
@@ -13002,11 +14007,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/passion-vine-bug.webp"
+    "thumbnail": "images/pests/passion-vine-bug.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/d29a4893-9824-4beb-afc6-934e5ffe1afe/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/d29a4893-9824-4beb-afc6-934e5ffe1afe/large",
+    "family": "Passifloraceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2902546"
   },
   {
     "commonName": "Passionvine mealybug",
-    "scientificName": "",
+    "scientificName": "Planococcus minor",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -13025,11 +14034,13 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/passionvine-mealybug.webp"
+    "thumbnail": "images/pests/passionvine-mealybug.webp",
+    "family": "PSEUDOCOCCIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/f561b6cd-b05f-435a-b1a7-13fed3034d22"
   },
   {
     "commonName": "Passionvine Mite",
-    "scientificName": "",
+    "scientificName": "Planococcus minor",
     "pestType": "Mite",
     "order": "Acari",
     "cropsAffected": [
@@ -13048,11 +14059,13 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/passionvine-mite.webp"
+    "thumbnail": "images/pests/passionvine-mite.webp",
+    "family": "PSEUDOCOCCIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/f561b6cd-b05f-435a-b1a7-13fed3034d22"
   },
   {
     "commonName": "Pasture cockchafer",
-    "scientificName": "",
+    "scientificName": "Adoryphorus coulonii",
     "pestType": "Soil pest",
     "order": "",
     "cropsAffected": [
@@ -13071,11 +14084,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/pasture-cockchafer.webp"
+    "thumbnail": "images/pests/pasture-cockchafer.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/a6b55566-1ba0-4816-9a5f-139d44e7c6b6/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a6b55566-1ba0-4816-9a5f-139d44e7c6b6/large",
+    "family": "SCARABAEIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/b0f5dd41-daa9-43fb-8a45-ba9a3b93ee38"
   },
   {
     "commonName": "Pasture leafhopper",
-    "scientificName": "",
+    "scientificName": "Sericesthis nigrolineata",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -13094,7 +14111,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/pasture-leafhopper.webp"
+    "thumbnail": "images/pests/pasture-leafhopper.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/997e8436-d215-40ee-acc8-bdadd5a086c7/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/997e8436-d215-40ee-acc8-bdadd5a086c7/large",
+    "family": "SCARABAEIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/7750261f-8572-49da-b7dd-67664327134f"
   },
   {
     "commonName": "Pasture Webworm",
@@ -13145,7 +14166,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/pasture-webworm.webp"
+    "thumbnail": "images/pests/pasture-webworm.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/38ad74fd-bf4b-4e92-8e11-5701f462e95e/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/38ad74fd-bf4b-4e92-8e11-5701f462e95e/large",
+    "family": "CRAMBIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/63f90170-118f-4b12-8330-63d61ca6ae53"
   },
   {
     "commonName": "Pea aphid",
@@ -13198,11 +14223,15 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/pea-aphid.webp"
+    "thumbnail": "images/pests/pea-aphid.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/e204d6f4-039e-488e-8ad0-9bcbff72b918/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/e204d6f4-039e-488e-8ad0-9bcbff72b918/large",
+    "family": "APHIDIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/5ae12c8e-204b-46ab-a3ab-8714d17445a5"
   },
   {
     "commonName": "Pea Leaf Miner",
-    "scientificName": "",
+    "scientificName": "Chromatomyia horticola",
     "pestType": "Insect",
     "order": "",
     "cropsAffected": [],
@@ -13216,7 +14245,9 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "family": "AGROMYZIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_939"
   },
   {
     "commonName": "Pea Weevil",
@@ -13255,11 +14286,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/pea-weevil.webp"
+    "thumbnail": "images/pests/pea-weevil.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/780e4542-d92a-4f2e-961f-640a8b1dacc8/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/780e4542-d92a-4f2e-961f-640a8b1dacc8/large",
+    "family": "CURCULIONIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/7e6f7ac4-4181-400b-99d8-c4a6302a643b"
   },
   {
     "commonName": "Pear Leaf Blister Mite",
-    "scientificName": "",
+    "scientificName": "Eriophyes insidiosus",
     "pestType": "Mite",
     "order": "Acari",
     "cropsAffected": [
@@ -13286,7 +14321,9 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/pear-leaf-blister-mite.webp"
+    "thumbnail": "images/pests/pear-leaf-blister-mite.webp",
+    "family": "ERIOPHYIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_1352"
   },
   {
     "commonName": "Pear looper",
@@ -13315,7 +14352,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/pear-looper.webp"
+    "thumbnail": "images/pests/pear-looper.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/f5b450ae-9b43-414e-a117-0c0bfcfdda49/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f5b450ae-9b43-414e-a117-0c0bfcfdda49/large",
+    "family": "GEOMETRIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/38b5f5d2-40b1-4669-afed-902ec600fe0f"
   },
   {
     "commonName": "Pear Rust Mite",
@@ -13367,7 +14408,7 @@ window.pestsRegistry = [
   },
   {
     "commonName": "Pedicel Ant",
-    "scientificName": "",
+    "scientificName": "Tapinoma minutum",
     "pestType": "General pest",
     "order": "",
     "cropsAffected": [],
@@ -13392,11 +14433,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/pedicel-ant.webp"
+    "thumbnail": "images/pests/pedicel-ant.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/b47f5e3d-aca5-4b82-a063-a29eee448a1a/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/b47f5e3d-aca5-4b82-a063-a29eee448a1a/large",
+    "family": "FORMICIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/e65e1de8-92c2-4c46-99b9-93fa4207ef4b"
   },
   {
     "commonName": "Pharaoh's Ant",
-    "scientificName": "",
+    "scientificName": "Acanthosepion pharaonis",
     "pestType": "General pest",
     "order": "",
     "cropsAffected": [],
@@ -13421,7 +14466,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/pharaoh-s-ant.webp"
+    "thumbnail": "images/pests/pharaoh-s-ant.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/385bc1dc-5d67-4d2d-8078-5ecfcff711ff/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/385bc1dc-5d67-4d2d-8078-5ecfcff711ff/large",
+    "family": "SEPIIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/b99407b3-fe5b-4645-83b2-feb304243c86"
   },
   {
     "commonName": "Pill Bugs",
@@ -13485,7 +14534,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/pineapple-mealybug.webp"
+    "thumbnail": "images/pests/pineapple-mealybug.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/c074098e-7cbc-419c-ae75-8ecf62db7ca6/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/c074098e-7cbc-419c-ae75-8ecf62db7ca6/large",
+    "family": "PSEUDOCOCCIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/37696a59-92ac-4b79-9829-c9be9e266643"
   },
   {
     "commonName": "Pink Cutworm",
@@ -13529,7 +14582,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/pink-cutworm.webp"
+    "thumbnail": "images/pests/pink-cutworm.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/a0c58799-dde9-4a3f-8db3-aa1f56ca5d59/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a0c58799-dde9-4a3f-8db3-aa1f56ca5d59/large",
+    "family": "NOCTUIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/04b8d8cc-ba9f-409c-b2e2-b2b492983ad3"
   },
   {
     "commonName": "Pink or Brown Cutworm",
@@ -13558,11 +14615,15 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/pink-or-brown-cutworm.webp"
+    "thumbnail": "images/pests/pink-or-brown-cutworm.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/a0c58799-dde9-4a3f-8db3-aa1f56ca5d59/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a0c58799-dde9-4a3f-8db3-aa1f56ca5d59/large",
+    "family": "NOCTUIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/04b8d8cc-ba9f-409c-b2e2-b2b492983ad3"
   },
   {
     "commonName": "Pink wax scale",
-    "scientificName": "",
+    "scientificName": "Ceroplastes rubens",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -13658,7 +14719,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/pink-wax-scale.webp"
+    "thumbnail": "images/pests/pink-wax-scale.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/2a73ef9a-fa9a-4b13-a053-1140684fca94/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/2a73ef9a-fa9a-4b13-a053-1140684fca94/large",
+    "family": "COCCIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/5c02985a-3eb0-46cf-b228-07d9049fc05e"
   },
   {
     "commonName": "Pink-spotted Bollworm",
@@ -13689,7 +14754,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/pink-spotted-bollworm.webp"
+    "thumbnail": "images/pests/pink-spotted-bollworm.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/62b5b123-00e6-47b3-b3d6-60b435f04d80/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/62b5b123-00e6-47b3-b3d6-60b435f04d80/large",
+    "family": "PENTANCHIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/e5a6f697-f159-4ffd-8af0-a07584c0aad1"
   },
   {
     "commonName": "Plague Thrips",
@@ -13777,7 +14846,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/plague-thrips.webp"
+    "thumbnail": "images/pests/plague-thrips.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/6425ad09-7593-49d9-9b03-cc80c2717227/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/6425ad09-7593-49d9-9b03-cc80c2717227/large",
+    "family": "THRIPIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/e79b6e89-a085-40e4-967e-28f5cf1bba00"
   },
   {
     "commonName": "Plague thrips [Suppression only]",
@@ -13804,7 +14877,11 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/plague-thrips-suppression-only.webp"
+    "thumbnail": "images/pests/plague-thrips-suppression-only.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/6425ad09-7593-49d9-9b03-cc80c2717227/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/6425ad09-7593-49d9-9b03-cc80c2717227/large",
+    "family": "THRIPIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/e79b6e89-a085-40e4-967e-28f5cf1bba00"
   },
   {
     "commonName": "Podsucking bug",
@@ -13827,7 +14904,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/podsucking-bug.webp"
+    "thumbnail": "images/pests/podsucking-bug.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/b8c14042-18dc-43a6-9a14-d368c0d1196c/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/b8c14042-18dc-43a6-9a14-d368c0d1196c/large",
+    "family": "ALYDIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/e438e96d-ceab-48a2-9bbb-966e92206113"
   },
   {
     "commonName": "Potato aphid",
@@ -13863,7 +14944,9 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/potato-aphid.webp"
+    "thumbnail": "images/pests/potato-aphid.webp",
+    "family": "APHIDIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/2ff994b2-26f4-492c-ae93-6a03dd969833"
   },
   {
     "commonName": "Potato moth",
@@ -14028,11 +15111,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/potato-moth.webp"
+    "thumbnail": "images/pests/potato-moth.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/a4d78f3e-1bbd-4c75-811e-e4d393834878/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a4d78f3e-1bbd-4c75-811e-e4d393834878/large",
+    "family": "Orchidaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51405963"
   },
   {
     "commonName": "Potato moth Helicoverpa",
-    "scientificName": "",
+    "scientificName": "Gastrodia lacista",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [],
@@ -14040,7 +15127,11 @@ window.pestsRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Potato%20moth%20Helicoverpa+pest+australia",
     "linkedProducts": [],
-    "thumbnail": "images/pests/potato-moth-helicoverpa.webp"
+    "thumbnail": "images/pests/potato-moth-helicoverpa.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/a4d78f3e-1bbd-4c75-811e-e4d393834878/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a4d78f3e-1bbd-4c75-811e-e4d393834878/large",
+    "family": "Orchidaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51405963"
   },
   {
     "commonName": "Potato Psyllid",
@@ -14067,7 +15158,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/potato-psyllid.webp"
+    "thumbnail": "images/pests/potato-psyllid.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/76e64ca0-d1db-45a3-b3bb-e6a3dd36b61e/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/76e64ca0-d1db-45a3-b3bb-e6a3dd36b61e/large",
+    "family": "TRIOZIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/15eced38-45c4-4d2c-a16c-65c519a24c91"
   },
   {
     "commonName": "Potato tuber moth",
@@ -14098,11 +15193,15 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/potato-tuber-moth.webp"
+    "thumbnail": "images/pests/potato-tuber-moth.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/a4d78f3e-1bbd-4c75-811e-e4d393834878/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a4d78f3e-1bbd-4c75-811e-e4d393834878/large",
+    "family": "Orchidaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51405963"
   },
   {
     "commonName": "Powderpost beetles",
-    "scientificName": "",
+    "scientificName": "Lyctus parallelocollis",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [],
@@ -14119,11 +15218,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/powderpost-beetles.webp"
+    "thumbnail": "images/pests/powderpost-beetles.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/45556652-d3bf-415a-92a8-00d3673ba993/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/45556652-d3bf-415a-92a8-00d3673ba993/large",
+    "family": "BOSTRICHIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/5bccd5bb-0d94-4ba9-aec7-a007ac2dbff3"
   },
   {
     "commonName": "Pratylenchus Zeae",
-    "scientificName": "",
+    "scientificName": "Pratylenchus zeae",
     "pestType": "Soil pest",
     "order": "",
     "cropsAffected": [],
@@ -14140,11 +15243,13 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/pratylenchus-zeae.webp"
+    "thumbnail": "images/pests/pratylenchus-zeae.webp",
+    "family": "PRATYLENCHIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/d4179a9d-530a-46f3-9e14-97cf2a9476f0"
   },
   {
     "commonName": "Pruinose scarab",
-    "scientificName": "",
+    "scientificName": "Sericesthis geminata",
     "pestType": "Soil pest",
     "order": "Coleoptera",
     "cropsAffected": [
@@ -14163,11 +15268,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/pruinose-scarab.webp"
+    "thumbnail": "images/pests/pruinose-scarab.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/5e3220db-41e1-411d-a783-31e6c78ad1cd/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/5e3220db-41e1-411d-a783-31e6c78ad1cd/large",
+    "family": "SCARABAEIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/ac88a17b-b3d2-4117-b3e6-08af62a277c4"
   },
   {
     "commonName": "Psyllids",
-    "scientificName": "",
+    "scientificName": "STERNORRHYNCHA",
     "pestType": "Insect",
     "order": "",
     "cropsAffected": [],
@@ -14217,11 +15326,12 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/90d810b2-bd24-4e5a-93b4-06006fc86b31"
   },
   {
     "commonName": "Pumpkin beetle",
-    "scientificName": "",
+    "scientificName": "Aulacophora hilaris",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -14243,11 +15353,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/pumpkin-beetle.webp"
+    "thumbnail": "images/pests/pumpkin-beetle.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/e232e7fa-2a20-4289-985c-f78c7cf3f77a/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/e232e7fa-2a20-4289-985c-f78c7cf3f77a/large",
+    "family": "CHRYSOMELIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/2fefdfb5-1e17-4e1a-a4b6-06edda821774"
   },
   {
     "commonName": "Pyrgo beetle",
-    "scientificName": "",
+    "scientificName": "Eupoecila australasiae",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -14291,11 +15405,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/pyrgo-beetle.webp"
+    "thumbnail": "images/pests/pyrgo-beetle.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/f12e2028-700f-499d-ad14-1ed81bf76f6a/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f12e2028-700f-499d-ad14-1ed81bf76f6a/large",
+    "family": "SCARABAEIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/9ceb2d04-d1cc-4d2a-8cc8-683cc55eca80"
   },
   {
     "commonName": "Queensland fruit fly",
-    "scientificName": "",
+    "scientificName": "Bactrocera (Bactrocera) tryoni",
     "pestType": "Fly",
     "order": "Diptera",
     "cropsAffected": [
@@ -14403,11 +15521,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/queensland-fruit-fly.webp"
+    "thumbnail": "images/pests/queensland-fruit-fly.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/df1caa13-3a08-4ad8-820c-f15262449b8a/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/df1caa13-3a08-4ad8-820c-f15262449b8a/large",
+    "family": "TEPHRITIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/70a0f154-399e-4e20-a2e1-0fb478a323da"
   },
   {
     "commonName": "Raspberry fruit caterpillar",
-    "scientificName": "",
+    "scientificName": "Rubus parvifolius",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -14426,7 +15548,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/raspberry-fruit-caterpillar.webp"
+    "thumbnail": "images/pests/raspberry-fruit-caterpillar.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/58157c45-66d8-4af6-a30a-fd5bed327802/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/58157c45-66d8-4af6-a30a-fd5bed327802/large",
+    "family": "Rosaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2901867"
   },
   {
     "commonName": "Red berry mite",
@@ -14477,11 +15603,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/red-imported-fire-ant.webp"
+    "thumbnail": "images/pests/red-imported-fire-ant.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/95ee8f2b-75cd-4bc0-8a1f-7bdafc67ad6f/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/95ee8f2b-75cd-4bc0-8a1f-7bdafc67ad6f/large",
+    "family": "FORMICIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/1a560085-35d6-45fb-b27c-f8c1ba2ddf30"
   },
   {
     "commonName": "Red Pepper Mites",
-    "scientificName": "",
+    "scientificName": "Tasmannia insipida",
     "pestType": "Mite",
     "order": "Acari",
     "cropsAffected": [
@@ -14500,11 +15630,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/red-pepper-mites.webp"
+    "thumbnail": "images/pests/red-pepper-mites.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/12a1759d-ae18-4e68-bb6d-7fae899b7b2c/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/12a1759d-ae18-4e68-bb6d-7fae899b7b2c/large",
+    "family": "Winteraceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2886263"
   },
   {
     "commonName": "Red scale",
-    "scientificName": "",
+    "scientificName": "Aonidiella aurantii",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -14588,11 +15722,15 @@ window.pestsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/pests/red-scale.webp"
+    "thumbnail": "images/pests/red-scale.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/fd8fc6ad-5762-488a-aaef-ee483b015b27/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/fd8fc6ad-5762-488a-aaef-ee483b015b27/large",
+    "family": "DIASPIDIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/751f0c5a-4a25-49d3-a7af-ae9c29c7002f"
   },
   {
     "commonName": "Red Spider Mite",
-    "scientificName": "",
+    "scientificName": "Tetranychus evansi",
     "pestType": "Mite",
     "order": "Acari",
     "cropsAffected": [
@@ -14611,11 +15749,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/red-spider-mite.webp"
+    "thumbnail": "images/pests/red-spider-mite.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/655a497b-ca21-400d-a089-5df46aed7cd5/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/655a497b-ca21-400d-a089-5df46aed7cd5/large",
+    "family": "TETRANYCHIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/a94aeaa5-6cb0-443f-bea9-1459b0a24db8"
   },
   {
     "commonName": "Red tomato spider mite",
-    "scientificName": "",
+    "scientificName": "Cephalopholis sonnerati",
     "pestType": "Mite",
     "order": "Acari",
     "cropsAffected": [
@@ -14635,11 +15777,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/red-tomato-spider-mite.webp"
+    "thumbnail": "images/pests/red-tomato-spider-mite.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/58417340-70ae-4d75-ab7c-0cb7365d5014/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/58417340-70ae-4d75-ab7c-0cb7365d5014/large",
+    "family": "SERRANIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/95fde3d5-e4f6-4f1a-8dd4-ca4db5149fac"
   },
   {
     "commonName": "Red-banded thrip",
-    "scientificName": "",
+    "scientificName": "Centriscops humerosus",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [],
@@ -14664,11 +15810,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/red-banded-thrip.webp"
+    "thumbnail": "images/pests/red-banded-thrip.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/ad4273c7-da4d-4c48-86a1-b611b441eae1/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/ad4273c7-da4d-4c48-86a1-b611b441eae1/large",
+    "family": "CENTRISCIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/f5e73e90-0c5a-4748-85c7-f2351cec7687"
   },
   {
     "commonName": "Red-Banded Thrips",
-    "scientificName": "",
+    "scientificName": "Thrips fuscipennis",
     "pestType": "Insect",
     "order": "",
     "cropsAffected": [],
@@ -14691,11 +15841,13 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/redbanded-thrips.webp"
+    "thumbnail": "images/pests/redbanded-thrips.webp",
+    "family": "THRIPIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_2918"
   },
   {
     "commonName": "Red-shouldered leaf beetle",
-    "scientificName": "",
+    "scientificName": "Liatongus militaris",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -14750,11 +15902,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/red-shouldered-leaf-beetle.webp"
+    "thumbnail": "images/pests/red-shouldered-leaf-beetle.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/5c5cfb4f-7c08-430d-b07b-7aa7a2511b6b/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/5c5cfb4f-7c08-430d-b07b-7aa7a2511b6b/large",
+    "family": "SCARABAEIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/8eca1ff6-85b6-4d55-996e-d9e76b6e9038"
   },
   {
     "commonName": "Redback Spider",
-    "scientificName": "",
+    "scientificName": "Latrodectus hasseltii",
     "pestType": "General pest",
     "order": "",
     "cropsAffected": [
@@ -14781,7 +15937,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/redback-spider.webp"
+    "thumbnail": "images/pests/redback-spider.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/60030a7d-c55d-4c21-b1a5-fd84bee2575e/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/60030a7d-c55d-4c21-b1a5-fd84bee2575e/large",
+    "family": "THERIDIIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/028a2e58-5ade-4486-bc95-273b4ad3f943"
   },
   {
     "commonName": "Redlegged Earth Mite",
@@ -14863,11 +16023,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/redlegged-earth-mite.webp"
+    "thumbnail": "images/pests/redlegged-earth-mite.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/936c0de3-b9b8-4f68-80be-bf08be58d694/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/936c0de3-b9b8-4f68-80be-bf08be58d694/large",
+    "family": "PENTHALEIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/349099c1-e2b1-4f07-bba7-e5f993b71e32"
   },
   {
     "commonName": "Rhyparida beetle",
-    "scientificName": "",
+    "scientificName": "Rhyparida australis",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -14886,11 +16050,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/rhyparida-beetle.webp"
+    "thumbnail": "images/pests/rhyparida-beetle.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/ce71ef72-0317-4af1-b57e-93a1656a6648/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/ce71ef72-0317-4af1-b57e-93a1656a6648/large",
+    "family": "CHRYSOMELIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/752acacf-a261-4695-a4de-e015154b5c66"
   },
   {
     "commonName": "Rice Bloodworm",
-    "scientificName": "",
+    "scientificName": "Chironomus (Chironomus) tepperi",
     "pestType": "Chewing insect",
     "order": "",
     "cropsAffected": [
@@ -14909,7 +16077,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/rice-bloodworm.webp"
+    "thumbnail": "images/pests/rice-bloodworm.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/be0ef0bd-bcb0-4fb0-8497-df0f75aff8d8/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/be0ef0bd-bcb0-4fb0-8497-df0f75aff8d8/large",
+    "family": "CHIRONOMIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/d7b0cb8f-11a2-423d-8be5-2d3ca8dd4134"
   },
   {
     "commonName": "Root Knot Nematode",
@@ -14985,11 +16157,13 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/root-knot-nematode.webp"
+    "thumbnail": "images/pests/root-knot-nematode.webp",
+    "family": "MELOIDOGYNIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/563d34e2-d2b6-42e8-9225-766fd78d368c"
   },
   {
     "commonName": "Root Lesion Nematode",
-    "scientificName": "",
+    "scientificName": "Pratylenchus crenatus",
     "pestType": "Soil pest",
     "order": "",
     "cropsAffected": [],
@@ -15006,7 +16180,9 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/root-lesion-nematode.webp"
+    "thumbnail": "images/pests/root-lesion-nematode.webp",
+    "family": "PRATYLENCHIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/08ce29a9-3358-4d69-85cb-2729697a665f"
   },
   {
     "commonName": "Rose aphid",
@@ -15044,11 +16220,15 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/rose-aphid.webp"
+    "thumbnail": "images/pests/rose-aphid.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/9486ae9c-1ecc-43e2-bae3-f181addf3d12/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/9486ae9c-1ecc-43e2-bae3-f181addf3d12/large",
+    "family": "APHIDIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/c8c6a91a-bc1b-43e9-8a4a-c79ef1866e90"
   },
   {
     "commonName": "Rose-grain Aphid",
-    "scientificName": "",
+    "scientificName": "Metopolophium dirhodum",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -15078,11 +16258,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/rose-grain-aphid.webp"
+    "thumbnail": "images/pests/rose-grain-aphid.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/c016386b-2fa8-4415-8885-8c22f8c5ec05/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/c016386b-2fa8-4415-8885-8c22f8c5ec05/large",
+    "family": "APHIDIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/41029592-55e4-40ee-9436-3122a66a8c40"
   },
   {
     "commonName": "Rough bollworm",
-    "scientificName": "",
+    "scientificName": "Earias huegeliana",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -15117,7 +16301,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/rough-bollworm.webp"
+    "thumbnail": "images/pests/rough-bollworm.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/5665f12f-5e9c-43bc-b3da-de633154bd04/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/5665f12f-5e9c-43bc-b3da-de633154bd04/large",
+    "family": "NOLIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/20c61263-fcf9-4a99-ad24-a2bd3c409c87"
   },
   {
     "commonName": "Russian Wheat Aphid",
@@ -15184,7 +16372,9 @@ window.pestsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/pests/russian-wheat-aphid.webp"
+    "thumbnail": "images/pests/russian-wheat-aphid.webp",
+    "family": "APHIDIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/4bf4efe6-3bf1-42bb-b3b4-72549938dcdc"
   },
   {
     "commonName": "Rutherglen bug",
@@ -15318,7 +16508,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/rutherglen-bug.webp"
+    "thumbnail": "images/pests/rutherglen-bug.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/8797542c-819c-41f1-b7d6-e10b204dd79a/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/8797542c-819c-41f1-b7d6-e10b204dd79a/large",
+    "family": "LYGAEIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/45506d3a-f0a9-42d4-8b0f-3af63ebf22a1"
   },
   {
     "commonName": "San Jose Scale",
@@ -15413,7 +16607,7 @@ window.pestsRegistry = [
   },
   {
     "commonName": "Scale insects",
-    "scientificName": "",
+    "scientificName": "STERNORRHYNCHA",
     "pestType": "Sucking insect",
     "order": "Hemiptera",
     "cropsAffected": [
@@ -15488,11 +16682,12 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/scale-insects.webp"
+    "thumbnail": "images/pests/scale-insects.webp",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/90d810b2-bd24-4e5a-93b4-06006fc86b31"
   },
   {
     "commonName": "Scales Spider Mites",
-    "scientificName": "",
+    "scientificName": "Liza vaigiensis",
     "pestType": "Mite",
     "order": "Hemiptera",
     "cropsAffected": [],
@@ -15500,11 +16695,15 @@ window.pestsRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Scales%20Spider%20Mites+pest+australia",
     "linkedProducts": [],
-    "thumbnail": "images/pests/scales-spider-mites.webp"
+    "thumbnail": "images/pests/scales-spider-mites.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/493601e3-a80d-4d69-90c2-b7970487f328/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/493601e3-a80d-4d69-90c2-b7970487f328/large",
+    "family": "MUGILIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/852c292f-c9bd-45fc-aca4-e2f74dfd8409"
   },
   {
     "commonName": "Schedorhinotermes spp",
-    "scientificName": "",
+    "scientificName": "Schedorhinotermes reticulatus",
     "pestType": "Termite",
     "order": "",
     "cropsAffected": [],
@@ -15524,7 +16723,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/schedorhinotermes-spp.webp"
+    "thumbnail": "images/pests/schedorhinotermes-spp.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/52ecbc5d-53d0-4ab2-983c-44003826b745/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/52ecbc5d-53d0-4ab2-983c-44003826b745/large",
+    "family": "RHINOTERMITIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/db992cdf-27b9-4097-b4a2-36bb01022621"
   },
   {
     "commonName": "Schedorhinotermes Termite",
@@ -15542,7 +16745,11 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "alaThumbnail": "https://images.ala.org.au/image/52ecbc5d-53d0-4ab2-983c-44003826b745/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/52ecbc5d-53d0-4ab2-983c-44003826b745/large",
+    "family": "RHINOTERMITIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/db992cdf-27b9-4097-b4a2-36bb01022621"
   },
   {
     "commonName": "Scirtothrips [Suppression only]",
@@ -15554,7 +16761,9 @@ window.pestsRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Scirtothrips%20dorsalis+pest+australia",
     "linkedProducts": [],
-    "thumbnail": "images/pests/scirtothrips-suppression-only.webp"
+    "thumbnail": "images/pests/scirtothrips-suppression-only.webp",
+    "family": "THRIPIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/a98eba0b-29ee-4e7d-ba44-e3e6629d2ca0"
   },
   {
     "commonName": "Seed harvesting ants",
@@ -15604,7 +16813,11 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "alaThumbnail": "https://images.ala.org.au/image/3b3f8121-3fbe-462a-9e25-652f9c2855bb/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/3b3f8121-3fbe-462a-9e25-652f9c2855bb/large",
+    "family": "Zamiaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51448908"
   },
   {
     "commonName": "Seychelles Scale",
@@ -15625,11 +16838,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/seychelles-scale.webp"
+    "thumbnail": "images/pests/seychelles-scale.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/f477b129-e60a-4f90-8985-8567afa35af4/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f477b129-e60a-4f90-8985-8567afa35af4/large",
+    "family": "BLENNIIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/a6a8a09b-ceda-4a18-896c-eb8f6bf80b7a"
   },
   {
     "commonName": "Silverfish",
-    "scientificName": "",
+    "scientificName": "Lepisma saccharina",
     "pestType": "Insect",
     "order": "",
     "cropsAffected": [],
@@ -15649,7 +16866,11 @@ window.pestsRegistry = [
         "source": "label",
         "crops": []
       }
-    ]
+    ],
+    "alaThumbnail": "https://images.ala.org.au/image/64151108-1b51-4f2f-b940-5ca91bf1f18a/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/64151108-1b51-4f2f-b940-5ca91bf1f18a/large",
+    "family": "LEPISMATIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/dc1fb574-4a28-4e2b-9d03-dea85818bc42"
   },
   {
     "commonName": "Silverleaf whitefly",
@@ -15853,7 +17074,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/silverleaf-whitefly.webp"
+    "thumbnail": "images/pests/silverleaf-whitefly.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/af84be55-eee1-4845-92f5-882400780f1a/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/af84be55-eee1-4845-92f5-882400780f1a/large",
+    "family": "ALEYRODIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/9a51c90e-ec94-4ab6-9ddc-e07ab99ae90c"
   },
   {
     "commonName": "Silverleaf whitefly [Suppression only]",
@@ -15865,11 +17090,15 @@ window.pestsRegistry = [
     "controlMethods": [],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Bemisia%20tabaci%20Biotype%20B+pest+australia",
     "linkedProducts": [],
-    "thumbnail": "images/pests/silverleaf-whitefly-suppression-only.webp"
+    "thumbnail": "images/pests/silverleaf-whitefly-suppression-only.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/af84be55-eee1-4845-92f5-882400780f1a/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/af84be55-eee1-4845-92f5-882400780f1a/large",
+    "family": "ALEYRODIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/9a51c90e-ec94-4ab6-9ddc-e07ab99ae90c"
   },
   {
     "commonName": "Sitona weevil",
-    "scientificName": "",
+    "scientificName": "Sitona discoideus",
     "pestType": "Chewing insect",
     "order": "Lepidoptera",
     "cropsAffected": [
@@ -15890,11 +17119,15 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/sitona-weevil.webp"
+    "thumbnail": "images/pests/sitona-weevil.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/9ed7f55c-f158-4818-8cd8-cd42eebb6a83/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/9ed7f55c-f158-4818-8cd8-cd42eebb6a83/large",
+    "family": "CURCULIONIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/34fa3462-269e-4f76-b8bf-d186e0b50765"
   },
   {
     "commonName": "Six Spotted Mite",
-    "scientificName": "",
+    "scientificName": "Asymbolus analis",
     "pestType": "Mite",
     "order": "Acari",
     "cropsAffected": [
@@ -15938,7 +17171,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/six-spotted-mite.webp"
+    "thumbnail": "images/pests/six-spotted-mite.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/62b5b123-00e6-47b3-b3d6-60b435f04d80/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/62b5b123-00e6-47b3-b3d6-60b435f04d80/large",
+    "family": "PENTANCHIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/e5a6f697-f159-4ffd-8af0-a07584c0aad1"
   },
   {
     "commonName": "Small citrus butterfly",
@@ -15961,7 +17198,11 @@ window.pestsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/pests/small-citrus-butterfly.webp"
+    "thumbnail": "images/pests/small-citrus-butterfly.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/ec3fd306-3587-43ea-b75a-f9d481414227/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/ec3fd306-3587-43ea-b75a-f9d481414227/large",
+    "family": "PAPILIONIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/6541b2eb-ada5-4e54-bf40-8f7e07a8a58a"
   },
   {
     "commonName": "Small mango tip borer",
@@ -15997,7 +17238,7 @@ window.pestsRegistry = [
   },
   {
     "commonName": "Smokybrown ; Web-spinning Spiders",
-    "scientificName": "",
+    "scientificName": "Periplaneta fuliginosa",
     "pestType": "General pest",
     "order": "",
     "cropsAffected": [],
@@ -16007,3678 +17248,4 @@ window.pestsRegistry = [
     "linkedProducts": [
       {
         "productId": "surefire",
-        "productName": "Surefire Termiticide and Insecticide",
-        "source": "label",
-        "crops": [
-          "Urban Pest Control — Cockroaches & Web-spinning Spiders"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/smokybrown-web-spinning-spiders.webp"
-  },
-  {
-    "commonName": "Smokybrown Cockroach",
-    "scientificName": "",
-    "pestType": "General pest",
-    "order": "",
-    "cropsAffected": [],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Smokybrown%20Cockroach+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "basftermidorresidual",
-        "productName": "BASF Termidor® Residual Termiticide and Insecticide",
-        "source": "label",
-        "crops": [
-          "Domestic Cockroaches — External Areas"
-        ]
-      },
-      {
-        "productId": "surefire",
-        "productName": "Surefire Termiticide and Insecticide",
-        "source": "label",
-        "crops": [
-          "Urban Pest Control — Cockroaches & Spiders"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/smokybrown-cockroach.webp"
-  },
-  {
-    "commonName": "Sod Webworm",
-    "scientificName": "",
-    "pestType": "Chewing insect",
-    "order": "",
-    "cropsAffected": [
-      "Pastures"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Sod%20Webworm+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "adamaplemax",
-        "productName": "PLEMAX Insecticide (Quali-Pro® Twister®)",
-        "source": "label",
-        "crops": [
-          "Turf — Lepidoptera"
-        ]
-      },
-      {
-        "productId": "imtradetyranex500",
-        "productName": "Imtrade Tyranex 500 VeripHy SL Insecticide",
-        "source": "label",
-        "crops": [
-          "Pastures"
-        ]
-      },
-      {
-        "productId": "pctcroprozeus",
-        "productName": "PCT Cropro Zeus Termiticide & Insecticide",
-        "source": "label",
-        "crops": [
-          "Turf",
-          "Lawns",
-          "Parks",
-          "Sports Fields",
-          "Bowling Greens"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/sod-webworm.webp"
-  },
-  {
-    "commonName": "Soft Brown",
-    "scientificName": "",
-    "pestType": "Sucking insect",
-    "order": "",
-    "cropsAffected": [
-      "Olives"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Soft%20Brown+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "biopestoil",
-        "productName": "Biopest Cinagro Paraffinic Oil",
-        "source": "label",
-        "crops": [
-          "Olives"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/soft-brown.webp"
-  },
-  {
-    "commonName": "Soft brown scale",
-    "scientificName": "",
-    "pestType": "Sucking insect",
-    "order": "Hemiptera",
-    "cropsAffected": [
-      "Blueberries",
-      "Citrus"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Soft%20brown%20scale+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "adamatrivor",
-        "productName": "Trivor Insecticide",
-        "source": "label",
-        "crops": [
-          "Macadamias — Fruit spotting bug and scale"
-        ]
-      },
-      {
-        "productId": "biopestoil",
-        "productName": "Biopest Cinagro Paraffinic Oil",
-        "source": "label",
-        "crops": [
-          "Citrus"
-        ]
-      },
-      {
-        "productId": "imtradekersel850wg",
-        "productName": "Imtrade Kersel 850 WG Insecticide",
-        "source": "label",
-        "crops": [
-          "Citrus"
-        ]
-      },
-      {
-        "productId": "movento",
-        "productName": "Bayer Movento 240 SC Insecticide",
-        "source": "label",
-        "crops": [
-          "Blueberries",
-          "Citrus"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/soft-brown-scale.webp"
-  },
-  {
-    "commonName": "Soft Scale",
-    "scientificName": "",
-    "pestType": "Sucking insect",
-    "order": "Hemiptera",
-    "cropsAffected": [],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Soft%20Scale+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "transform",
-        "productName": "Corteva Transform® Isoclast® Active",
-        "source": "label",
-        "crops": [
-          "Blueberries — Scale Insects, Suppression (PER91327)"
-        ]
-      },
-      {
-        "productId": "surefirerspectrum200sc",
-        "productName": "Surefire Spectrum 200SC Insecticide",
-        "source": "label",
-        "crops": [
-          "Roses, Ornamental plants"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/soft-scale.webp"
-  },
-  {
-    "commonName": "Soft Scales",
-    "scientificName": "",
-    "pestType": "Insect",
-    "order": "",
-    "cropsAffected": [],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Soft%20Scales+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "surefirerspectrum200sc",
-        "productName": "Surefire Spectrum 200SC Insecticide",
-        "source": "label",
-        "crops": []
-      }
-    ]
-  },
-  {
-    "commonName": "Soil Borne Nematodes",
-    "scientificName": "",
-    "pestType": "Soil pest",
-    "order": "",
-    "cropsAffected": [],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Soil%20Borne%20Nematodes+pest+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/pests/soil-borne-nematodes.webp"
-  },
-  {
-    "commonName": "Solenopsis mealybug",
-    "scientificName": "Cotton mealybug",
-    "pestType": "Sucking insect",
-    "order": "Hemiptera",
-    "cropsAffected": [
-      "Cotton"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Cotton%20mealybug+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "transform",
-        "productName": "Corteva Transform® Isoclast® Active",
-        "source": "label",
-        "crops": [
-          "Cotton"
-        ]
-      },
-      {
-        "productId": "transform_wg",
-        "productName": "Corteva Transform® WG Isoclast® Active",
-        "source": "label",
-        "crops": [
-          "Cotton"
-        ]
-      },
-      {
-        "productId": "applaud",
-        "productName": "Corteva Applaud® Insecticide",
-        "source": "label"
-      },
-      {
-        "productId": "movento",
-        "productName": "Bayer Movento 240 SC Insecticide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/pests/solenopsis-mealybug.webp"
-  },
-  {
-    "commonName": "Sorghum head caterpillar",
-    "scientificName": "",
-    "pestType": "Chewing insect",
-    "order": "Lepidoptera",
-    "cropsAffected": [
-      "Sorghum"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Sorghum%20head%20caterpillar+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "cortevasuccessultra",
-        "productName": "Yates Success Ultra Insect Control",
-        "source": "label",
-        "crops": [
-          "Eucalypts — Red-banded thrips & sorghum head caterpillar"
-        ]
-      },
-      {
-        "productId": "entrustorganic",
-        "productName": "Entrust® Organic* Qalcova® active Insecticide",
-        "source": "label",
-        "crops": [
-          "Tropical and Sub-Tropical Fruit Crops — Inedible Peel (Avocado, Cherimoya, Custard Apple, Durian, Feijoa, Guava, Jackfruit, Kiwifruit, Longan, Lychee, Mango, Mangosteen, Papaya, Passionfruit, Persimmon, Rambutan, Star Apple)"
-        ]
-      },
-      {
-        "productId": "imtradetyranex500",
-        "productName": "Imtrade Tyranex 500 VeripHy SL Insecticide",
-        "source": "label",
-        "crops": [
-          "Sorghum"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/sorghum-head-caterpillar.webp"
-  },
-  {
-    "commonName": "Sorghum Midge",
-    "scientificName": "Contarinia sorghicola",
-    "pestType": "Fly",
-    "order": "Diptera",
-    "cropsAffected": [
-      "Sorghum"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Contarinia%20sorghicola+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "alphascud",
-        "productName": "Alpha-Scud® 300 SC Insecticide",
-        "source": "label",
-        "crops": [
-          "Sorghum"
-        ]
-      },
-      {
-        "productId": "fmctrojan",
-        "productName": "FMC Trojan® Insecticide",
-        "source": "label",
-        "crops": [
-          "Sorghum"
-        ]
-      },
-      {
-        "productId": "sinmas",
-        "productName": "Sinmas 225 Insecticide",
-        "source": "label",
-        "crops": [
-          "Sorghum"
-        ]
-      },
-      {
-        "productId": "syngentakaratezeon",
-        "productName": "Syngenta Karate Zeon® Insecticide",
-        "source": "label",
-        "crops": [
-          "Sorghum"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/sorghum-midge.webp"
-  },
-  {
-    "commonName": "Southern Armyworm",
-    "scientificName": "Persectania ewingii",
-    "pestType": "Chewing insect",
-    "order": "Lepidoptera",
-    "cropsAffected": [
-      "Canola",
-      "Cereals (Winter)",
-      "Legumes",
-      "Lupins",
-      "Native pastures, Improved pastures (alone or with legumes)",
-      "Sunflowers"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Persectania%20ewingii+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "alphascud",
-        "productName": "Alpha-Scud® 300 SC Insecticide",
-        "source": "label",
-        "crops": [
-          "Cereals (Winter)",
-          "Lupins"
-        ]
-      },
-      {
-        "productId": "imtradetyranex500",
-        "productName": "Imtrade Tyranex 500 VeripHy SL Insecticide",
-        "source": "label",
-        "crops": [
-          "Canola",
-          "Legumes",
-          "Sunflowers"
-        ]
-      },
-      {
-        "productId": "sinmas",
-        "productName": "Sinmas 225 Insecticide",
-        "source": "label",
-        "crops": [
-          "Native pastures, Improved pastures (alone or with legumes)"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/southern-armyworm.webp"
-  },
-  {
-    "commonName": "Soybean aphid",
-    "scientificName": "",
-    "pestType": "Sucking insect",
-    "order": "Hemiptera",
-    "cropsAffected": [
-      "Soybeans"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Soybean%20aphid+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "transform",
-        "productName": "Corteva Transform® Isoclast® Active",
-        "source": "label",
-        "crops": [
-          "Soybeans"
-        ]
-      },
-      {
-        "productId": "transform_wg",
-        "productName": "Corteva Transform® WG Isoclast® Active",
-        "source": "label",
-        "crops": [
-          "Soybeans"
-        ]
-      },
-      {
-        "productId": "pirimor",
-        "productName": "PIRIMOR® WG Aphicide",
-        "source": "label",
-        "crops": []
-      }
-    ],
-    "thumbnail": "images/pests/soybean-aphid.webp"
-  },
-  {
-    "commonName": "Soybean looper",
-    "scientificName": "Thysanoplusia orichalcae",
-    "pestType": "Chewing insect",
-    "order": "Lepidoptera",
-    "cropsAffected": [
-      "Basil",
-      "Brassica Leafy Vegetables",
-      "Brassica Vegetables",
-      "Brassica leafy vegetables (field and protected cropping systems) Including Bok choy, Chinese broccoli (Gai lum/Gai lan/Kai lan), Chinese cabbage (Pet sai/Wombok/Haksukai), Choy sum, Gai choy/Am soy, Kai choy, Kale, Mibuna, Mustard (leafy) including Indian mustard and Mustard spinach (Komatsuna), Pak choy, Tat soy",
-      "Cucurbits",
-      "Forage Brassicas",
-      "Forage Brassicas including but not limited to choumoellier, kale, fodder rape, swedes, turnips.",
-      "Nursery Stock & Ornamentals (PER91923)",
-      "Tomato"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Thysanoplusia%20orichalcae+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "avatarevo",
-        "productName": "Avatar® eVo Insecticide",
-        "source": "label",
-        "crops": [
-          "Fruiting Vegetables — Helicoverpa / Soybean Looper / Cluster Caterpillar"
-        ]
-      },
-      {
-        "productId": "belt",
-        "productName": "Belt 480 SC INSECTICIDE",
-        "source": "label",
-        "crops": [
-          "Brassica leafy vegetables (field and protected cropping systems) Including Bok choy, Chinese broccoli (Gai lum/Gai lan/Kai lan), Chinese cabbage (Pet sai/Wombok/Haksukai), Choy sum, Gai choy/Am soy, Kai choy, Kale, Mibuna, Mustard (leafy) including Indian mustard and Mustard spinach (Komatsuna), Pak choy, Tat soy"
-        ]
-      },
-      {
-        "productId": "corragen",
-        "productName": "Coragen® Insecticide",
-        "source": "label",
-        "crops": [
-          "Brassica Vegetables",
-          "Brassica Leafy Vegetables",
-          "Nursery Stock & Ornamentals (PER91923)"
-        ]
-      },
-      {
-        "productId": "dipeldf",
-        "productName": "DiPel® DF Biological Insecticide",
-        "source": "label",
-        "crops": [
-          "Agricultural and Non-Agricultural Uses — Boom/Hectare Rates",
-          "Agricultural and Non-Agricultural Uses — Dilute Spray (per 100 L)",
-          "Cucurbits",
-          "Basil",
-          "Tomato"
-        ]
-      },
-      {
-        "productId": "fmcexirel",
-        "productName": "FMC Exirel® Insecticide",
-        "source": "label",
-        "crops": [
-          "Forage Brassicas"
-        ]
-      },
-      {
-        "productId": "success_neo",
-        "productName": "Success Neo Jemvelva Insecticide",
-        "source": "label",
-        "crops": [
-          "Forage Brassicas including but not limited to choumoellier, kale, fodder rape, swedes, turnips."
-        ]
-      },
-      {
-        "productId": "syngentadurivo",
-        "productName": "Durivo Insecticide",
-        "source": "label",
-        "crops": [
-          "Brassicas (Broccoli, Brussels Sprouts, Cabbage, Cauliflower) — Insect pest control",
-          "Brassica Leafy Vegetables (Chinese broccoli, Chinese cabbage, Garden cress, Kale, Rocket) — Insect pest control"
-        ]
-      },
-      {
-        "productId": "uplshenzi",
-        "productName": "Shenzi Insecticide",
-        "source": "label",
-        "crops": [
-          "Brassica Leafy Vegetables — Various caterpillars",
-          "Pulse Crops — Cotton bollworm, Native budworm, Bean podborer"
-        ]
-      },
-      {
-        "productId": "proclaimopti",
-        "productName": "PROCLAIM® Opti Insecticide",
-        "source": "label",
-        "crops": []
-      }
-    ],
-    "thumbnail": "images/pests/soybean-looper.webp"
-  },
-  {
-    "commonName": "Spider Mites",
-    "scientificName": "",
-    "pestType": "Mite",
-    "order": "Acari",
-    "cropsAffected": [],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Spider%20Mites+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "methomyl",
-        "productName": "Nufarm Methomyl 225",
-        "source": "label",
-        "crops": [
-          "Cotton — Pests as per registered label (PER91054)"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/spider-mites.webp"
-  },
-  {
-    "commonName": "Spined citrus bug",
-    "scientificName": "",
-    "pestType": "Sucking insect",
-    "order": "",
-    "cropsAffected": [
-      "Citrus",
-      "Citrus (oranges and lemons only)"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Spined%20citrus%20bug+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "adamabugmaster",
-        "productName": "Bugmaster Flowable Insecticide",
-        "source": "label",
-        "crops": [
-          "Citrus (oranges and lemons only)"
-        ]
-      },
-      {
-        "productId": "sinmas",
-        "productName": "Sinmas 225 Insecticide",
-        "source": "label",
-        "crops": [
-          "Citrus"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/spined-citrus-bug.webp"
-  },
-  {
-    "commonName": "Spotted Alfalfa Aphid",
-    "scientificName": "",
-    "pestType": "Sucking insect",
-    "order": "Hemiptera",
-    "cropsAffected": [
-      "Lucerne"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Spotted%20Alfalfa%20Aphid+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "transform_wg",
-        "productName": "Corteva Transform® WG Isoclast® Active",
-        "source": "label",
-        "crops": [
-          "Lucerne"
-        ]
-      },
-      {
-        "productId": "pirimor",
-        "productName": "PIRIMOR® WG Aphicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/pests/spotted-alfalfa-aphid.webp"
-  },
-  {
-    "commonName": "Staphylinid Beetle",
-    "scientificName": "",
-    "pestType": "Chewing insect",
-    "order": "Lepidoptera",
-    "cropsAffected": [],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Staphylinid%20Beetle+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "alphascud",
-        "productName": "Alpha-Scud® 300 SC Insecticide",
-        "source": "label",
-        "crops": [
-          "Cauliflowers — Staphylinid Beetle"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/staphylinid-beetle.webp"
-  },
-  {
-    "commonName": "Stem Borer",
-    "scientificName": "",
-    "pestType": "Insect",
-    "order": "",
-    "cropsAffected": [],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Stem%20Borer+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "lancer",
-        "productName": "Lancer® 970 Insecticide",
-        "source": "label",
-        "crops": []
-      }
-    ]
-  },
-  {
-    "commonName": "Stem Borers",
-    "scientificName": "",
-    "pestType": "Chewing insect",
-    "order": "Lepidoptera",
-    "cropsAffected": [
-      "Macadamias"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Stem%20Borers+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "alphascud",
-        "productName": "Alpha-Scud® 300 SC Insecticide",
-        "source": "label",
-        "crops": [
-          "Nursery Stock & Ornamentals — Grasshoppers, Locusts, Beetles, Weevils, Stem Borers (PER91944)"
-        ]
-      },
-      {
-        "productId": "methomyl",
-        "productName": "Nufarm Methomyl 225",
-        "source": "label",
-        "crops": [
-          "Non-food Nursery Stock — Coleoptera (Beetles, Weevils, Stem Borers) (PER91944)"
-        ]
-      },
-      {
-        "productId": "productnameimtradecyborgplus10",
-        "productName": "Imtrade Cyborg Plus 100 EC",
-        "source": "label",
-        "crops": [
-          "Macadamias"
-        ]
-      },
-      {
-        "productId": "lancer",
-        "productName": "Lancer® 970 Insecticide",
-        "source": "label",
-        "crops": [
-          "Tobacco"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/stem-borers.webp"
-  },
-  {
-    "commonName": "Stinging ant",
-    "scientificName": "",
-    "pestType": "Insect/Mite",
-    "order": "",
-    "cropsAffected": [],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Stinging%20ant+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "pctcroprozeus",
-        "productName": "PCT Cropro Zeus Termiticide & Insecticide",
-        "source": "label",
-        "crops": [
-          "Turf",
-          "Lawns",
-          "Parks",
-          "Sports Fields",
-          "Bowling Greens"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/stinging-ant.webp"
-  },
-  {
-    "commonName": "Stink Bugs",
-    "scientificName": "",
-    "pestType": "Sucking insect",
-    "order": "Hemiptera",
-    "cropsAffected": [],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Stink%20Bugs+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "alphascud",
-        "productName": "Alpha-Scud® 300 SC Insecticide",
-        "source": "label",
-        "crops": [
-          "Nursery Stock & Ornamentals — Psyllids, Stink Bugs, Leafhoppers, Whiteflies (PER91921)"
-        ]
-      },
-      {
-        "productId": "methomyl",
-        "productName": "Nufarm Methomyl 225",
-        "source": "label",
-        "crops": [
-          "Non-food Nursery Stock — Hemiptera (Stink Bugs, Psyllids, Leafhoppers, Whiteflies) (PER91921)"
-        ]
-      },
-      {
-        "productId": "transform",
-        "productName": "Corteva Transform® Isoclast® Active",
-        "source": "label",
-        "crops": [
-          "Blueberries — Green Stink Bug (PER91327)"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/stink-bugs.webp"
-  },
-  {
-    "commonName": "Strawberry aphid",
-    "scientificName": "Chaetosiphon fragaefolii",
-    "pestType": "Sucking insect",
-    "order": "Hemiptera",
-    "cropsAffected": [],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Chaetosiphon%20fragaefolii+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "benevia",
-        "productName": "Benevia® Insecticide",
-        "source": "label",
-        "crops": [
-          "Strawberries (Field) — Chewing & Sucking Pests"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/strawberry-aphid.webp"
-  },
-  {
-    "commonName": "Strawberry Mite",
-    "scientificName": "",
-    "pestType": "Mite",
-    "order": "Acari",
-    "cropsAffected": [
-      "Bananas"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Strawberry%20Mite+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "paramite",
-        "productName": "ParaMite® Selective Miticide",
-        "source": "label",
-        "crops": [
-          "Bananas"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/strawberry-mite.webp"
-  },
-  {
-    "commonName": "Strawberry Spider Mite",
-    "scientificName": "",
-    "pestType": "Mite",
-    "order": "Acari",
-    "cropsAffected": [],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Strawberry%20Spider%20Mite+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "paramite",
-        "productName": "ParaMite® Selective Miticide",
-        "source": "label",
-        "crops": [
-          "Nursery Stock & Ornamentals — Mites (PER91810)"
-        ]
-      },
-      {
-        "productId": "pctcroprozeus",
-        "productName": "PCT Cropro Zeus Termiticide & Insecticide",
-        "source": "label",
-        "crops": [
-          "Bananas"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/strawberry-spider-mite.webp"
-  },
-  {
-    "commonName": "Stubby root nematode",
-    "scientificName": "",
-    "pestType": "Soil pest",
-    "order": "",
-    "cropsAffected": [
-      "Tobacco"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Stubby%20root%20nematode+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "sinmas",
-        "productName": "Sinmas 225 Insecticide",
-        "source": "label",
-        "crops": [
-          "Tobacco"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/stubby-root-nematode.webp"
-  },
-  {
-    "commonName": "Subterranean Termite",
-    "scientificName": "Coptotermes acinaciformis",
-    "pestType": "Insect",
-    "order": "",
-    "cropsAffected": [],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Coptotermes%20Acinaciformis+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "surefire",
-        "productName": "Surefire Termiticide and Insecticide",
-        "source": "label",
-        "crops": []
-      }
-    ]
-  },
-  {
-    "commonName": "Subterranean Termites",
-    "scientificName": "",
-    "pestType": "Termite",
-    "order": "Acari",
-    "cropsAffected": [],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Subterranean%20Termites+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "basftermidorresidual",
-        "productName": "BASF Termidor® Residual Termiticide and Insecticide",
-        "source": "label",
-        "crops": [
-          "Subterranean Termites — Pre-Construction",
-          "Subterranean Termites — Post-Construction",
-          "Subterranean Termites — Reticulation Systems",
-          "Subterranean Termites — Poles and Fence Posts",
-          "Subterranean Termites — Nests in Poles and Trees",
-          "Subterranean Termites — Wall Cavity Treatment"
-        ]
-      },
-      {
-        "productId": "surefirerspectrum200sc",
-        "productName": "Surefire Spectrum 200SC Insecticide",
-        "source": "label",
-        "crops": [
-          "Termite management — Pre-construction and post-construction"
-        ]
-      },
-      {
-        "productId": "surefire",
-        "productName": "Surefire Termiticide and Insecticide",
-        "source": "label",
-        "crops": [
-          "Termite Control — Chemical Soil Treated Zones (Post-construction)",
-          "Termite Control — Protection of Poles & Fence Posts",
-          "Termite Control — Nests in Poles and Trees",
-          "Termite Control — Wall Cavity Foam Treatment"
-        ]
-      },
-      {
-        "productId": "pctcroprozeus",
-        "productName": "PCT Cropro Zeus Termiticide & Insecticide",
-        "source": "label",
-        "crops": [
-          "Domestic Buildings",
-          "Commercial Buildings",
-          "Public Buildings",
-          "Industrial Buildings",
-          "Service Poles",
-          "Fence Posts"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/subterranean-termites.webp"
-  },
-  {
-    "commonName": "Sugar ant",
-    "scientificName": "",
-    "pestType": "Insect/Mite",
-    "order": "",
-    "cropsAffected": [],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Sugar%20ant+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "pctcroprozeus",
-        "productName": "PCT Cropro Zeus Termiticide & Insecticide",
-        "source": "label",
-        "crops": [
-          "Turf",
-          "Lawns",
-          "Parks",
-          "Sports Fields",
-          "Bowling Greens"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/sugar-ant.webp"
-  },
-  {
-    "commonName": "Sugarcane bud moth",
-    "scientificName": "",
-    "pestType": "Chewing insect",
-    "order": "Lepidoptera",
-    "cropsAffected": [
-      "Bananas"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Sugarcane%20bud%20moth+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "cortevasuccessultra",
-        "productName": "Yates Success Ultra Insect Control",
-        "source": "label",
-        "crops": [
-          "Bananas — Banana rust thrips & sugarcane bud moth"
-        ]
-      },
-      {
-        "productId": "entrustorganic",
-        "productName": "Entrust® Organic* Qalcova® active Insecticide",
-        "source": "label",
-        "crops": [
-          "Bananas"
-        ]
-      },
-      {
-        "productId": "success_neo",
-        "productName": "Success Neo Jemvelva Insecticide",
-        "source": "label",
-        "crops": [
-          "Bananas"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/sugarcane-bud-moth.webp"
-  },
-  {
-    "commonName": "Sugarcane Weevil Borer",
-    "scientificName": "",
-    "pestType": "Chewing insect",
-    "order": "Lepidoptera",
-    "cropsAffected": [
-      "Sugarcane"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Sugarcane%20Weevil%20Borer+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "albatross",
-        "productName": "Adama Albatross® 200SC",
-        "source": "label",
-        "crops": [
-          "Sugarcane"
-        ]
-      },
-      {
-        "productId": "surefiresvista200sc",
-        "productName": "Surefire Vista 200SC Insecticide",
-        "source": "label",
-        "crops": [
-          "Sugarcane"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/sugarcane-weevil-borer.webp"
-  },
-  {
-    "commonName": "Sugarcane Wireworm",
-    "scientificName": "",
-    "pestType": "Soil pest",
-    "order": "Coleoptera",
-    "cropsAffected": [
-      "Sugarcane"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Sugarcane%20Wireworm+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "albatross",
-        "productName": "Adama Albatross® 200SC",
-        "source": "label",
-        "crops": [
-          "Sugarcane"
-        ]
-      },
-      {
-        "productId": "surefiresvista200sc",
-        "productName": "Surefire Vista 200SC Insecticide",
-        "source": "label",
-        "crops": [
-          "Sugarcane"
-        ]
-      },
-      {
-        "productId": "pctcroprozeus",
-        "productName": "PCT Cropro Zeus Termiticide & Insecticide",
-        "source": "label",
-        "crops": [
-          "Cotton",
-          "Sugarcane"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/sugarcane-wireworm.webp"
-  },
-  {
-    "commonName": "Suppression of: Western flower thrips",
-    "scientificName": "Frankliniella occidentalis",
-    "pestType": "Sucking insect",
-    "order": "Hemiptera",
-    "cropsAffected": [
-      "Cucurbits (including cucumber, zucchini, rockmelon, watermelon, pumpkin, Asian melons) Open field only",
-      "UNKNOWN"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Frankliniella%20occidentalis+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "syngentaminectoforte",
-        "productName": "Minecto Forte Insecticide",
-        "source": "label",
-        "crops": [
-          "Cucurbits (including cucumber, zucchini, rockmelon, watermelon, pumpkin, Asian melons) Open field only",
-          "UNKNOWN"
-        ]
-      },
-      {
-        "productId": "lancer",
-        "productName": "Lancer® 970 Insecticide",
-        "source": "label"
-      },
-      {
-        "productId": "simodis",
-        "productName": "SIMODIS® PLINAZOLIN® technology Insecticide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/pests/suppression-of-western-flower-thrips.webp"
-  },
-  {
-    "commonName": "Suppression only: Fruit-spotting Bug",
-    "scientificName": "",
-    "pestType": "Sucking insect",
-    "order": "",
-    "cropsAffected": [
-      "Lychee",
-      "Mango"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Suppression%20only%3A%20Fruit-spotting%20Bug+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "productnameactipster500sl",
-        "productName": "AC Tipster 500 SL",
-        "source": "label",
-        "crops": [
-          "Mango",
-          "Lychee"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/suppression-only-fruit-spotting-bug.webp"
-  },
-  {
-    "commonName": "Swarming leaf beetle",
-    "scientificName": "",
-    "pestType": "Chewing insect",
-    "order": "Lepidoptera",
-    "cropsAffected": [
-      "Cocoa",
-      "Jaboticaba, Jackfruit (non-flowering / non-fruiting trees only)",
-      "Longans, Litchis (non-flowering / non-fruiting trees only)",
-      "Lychee",
-      "Mango",
-      "Rambutans (non-flowering / non-fruiting trees only)"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Swarming%20leaf%20beetle+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "adamabugmaster",
-        "productName": "Bugmaster Flowable Insecticide",
-        "source": "label",
-        "crops": [
-          "Cocoa",
-          "Jaboticaba, Jackfruit (non-flowering / non-fruiting trees only)",
-          "Longans, Litchis (non-flowering / non-fruiting trees only)",
-          "Rambutans (non-flowering / non-fruiting trees only)",
-          "Lychee"
-        ]
-      },
-      {
-        "productId": "bulldock",
-        "productName": "Bayer Bulldock® 25 EC Insecticide",
-        "source": "label",
-        "crops": [
-          "Mango",
-          "Lychee"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/swarming-leaf-beetle.webp"
-  },
-  {
-    "commonName": "Sweet potato weevil",
-    "scientificName": "",
-    "pestType": "Chewing insect",
-    "order": "Lepidoptera",
-    "cropsAffected": [
-      "Sweet Potato"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Sweet%20potato%20weevil+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "adamabugmaster",
-        "productName": "Bugmaster Flowable Insecticide",
-        "source": "label",
-        "crops": [
-          "Sweet Potato"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/sweet-potato-weevil.webp"
-  },
-  {
-    "commonName": "Tapinoma spp.",
-    "scientificName": "",
-    "pestType": "Insect",
-    "order": "",
-    "cropsAffected": [],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Tapinoma%20spp.+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "basftermidorresidual",
-        "productName": "BASF Termidor® Residual Termiticide and Insecticide",
-        "source": "label",
-        "crops": []
-      }
-    ],
-    "thumbnail": "images/pests/tapinoma-spp.webp"
-  },
-  {
-    "commonName": "Tasmanian Eucalyptus Leaf Beetle",
-    "scientificName": "Chrysophtharta bimaculata",
-    "pestType": "Chewing insect",
-    "order": "Lepidoptera",
-    "cropsAffected": [
-      "Eucalypt Plantations"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Chrysophtharta%20bimaculata+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "alphascud",
-        "productName": "Alpha-Scud® 300 SC Insecticide",
-        "source": "label",
-        "crops": [
-          "Eucalypt Plantations"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/tasmanian-eucalyptus-leaf-beetle.webp"
-  },
-  {
-    "commonName": "Tea Red Spider Mite",
-    "scientificName": "",
-    "pestType": "Mite",
-    "order": "Acari",
-    "cropsAffected": [
-      "Avocado",
-      "Avocados",
-      "Mango",
-      "Tree Crops (Apples, Pears, Avocados, Citrus)"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Tea%20Red%20Spider%20Mite+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "acramite",
-        "productName": "Acramite Miticide",
-        "source": "label",
-        "crops": [
-          "Avocado"
-        ]
-      },
-      {
-        "productId": "paramite",
-        "productName": "ParaMite® Selective Miticide",
-        "source": "label",
-        "crops": [
-          "Avocado",
-          "Mango"
-        ]
-      },
-      {
-        "productId": "sorcerer",
-        "productName": "Sorcerer® 36 Miticide/Insecticide",
-        "source": "label",
-        "crops": [
-          "Avocados"
-        ]
-      },
-      {
-        "productId": "stealth",
-        "productName": "Cropro Stealth Miticide",
-        "source": "label",
-        "crops": [
-          "Tree Crops (Apples, Pears, Avocados, Citrus)"
-        ]
-      },
-      {
-        "productId": "vendex",
-        "productName": "Vendex Miticide",
-        "source": "label",
-        "crops": [
-          "Avocados"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/tea-red-spider-mite.webp"
-  },
-  {
-    "commonName": "Tetranychus Evansi",
-    "scientificName": "",
-    "pestType": "Mite",
-    "order": "",
-    "cropsAffected": [],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Tetranychus%20Evansi+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "calibre100ec",
-        "productName": "Nufarm Calibre® 100 EC Miticide",
-        "source": "label",
-        "crops": [
-          "Fruiting Vegetables — Tomato Red Spider Mite (PER95394)",
-          "Potatoes — Tomato Red Spider Mite (PER95394)"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/tetranychus-evansi.webp"
-  },
-  {
-    "commonName": "Thysanoplusia Orichalcea",
-    "scientificName": "",
-    "pestType": "Chewing insect",
-    "order": "",
-    "cropsAffected": [
-      "Brassica Vegetables"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Thysanoplusia%20Orichalcea+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "corragen",
-        "productName": "Coragen® Insecticide",
-        "source": "label",
-        "crops": [
-          "Brassica Vegetables"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/thysanoplusia-orichalcea.webp"
-  },
-  {
-    "commonName": "Ticks",
-    "scientificName": "",
-    "pestType": "Insect/Mite",
-    "order": "",
-    "cropsAffected": [],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Ticks+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "pctcroprozeus",
-        "productName": "PCT Cropro Zeus Termiticide & Insecticide",
-        "source": "label",
-        "crops": [
-          "External Areas",
-          "Buildings",
-          "Structures"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/ticks.webp"
-  },
-  {
-    "commonName": "Tobacco Budworm",
-    "scientificName": "Helicoverpa armigera",
-    "pestType": "Chewing insect",
-    "order": "Lepidoptera",
-    "cropsAffected": [
-      "Tobacco"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Helicoverpa%20armigera+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "alphascud",
-        "productName": "Alpha-Scud® 300 SC Insecticide",
-        "source": "label",
-        "crops": [
-          "Tobacco"
-        ]
-      },
-      {
-        "productId": "sinmas",
-        "productName": "Sinmas 225 Insecticide",
-        "source": "label",
-        "crops": [
-          "Tobacco"
-        ]
-      },
-      {
-        "productId": "avatarevo",
-        "productName": "Avatar® eVo Insecticide",
-        "source": "label"
-      },
-      {
-        "productId": "corragen",
-        "productName": "Coragen® Insecticide",
-        "source": "label"
-      },
-      {
-        "productId": "lancer",
-        "productName": "Lancer® 970 Insecticide",
-        "source": "label"
-      },
-      {
-        "productId": "proclaimopti",
-        "productName": "PROCLAIM® Opti Insecticide",
-        "source": "label"
-      },
-      {
-        "productId": "simodis",
-        "productName": "SIMODIS® PLINAZOLIN® technology Insecticide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/pests/tobacco-budworm.webp"
-  },
-  {
-    "commonName": "Tobacco budworm - Ovicide",
-    "scientificName": "Helicoverpa armigera",
-    "pestType": "Chewing insect",
-    "order": "Lepidoptera",
-    "cropsAffected": [],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Helicoverpa%20armigera+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "alphascud",
-        "productName": "Alpha-Scud® 300 SC Insecticide",
-        "source": "label"
-      },
-      {
-        "productId": "avatarevo",
-        "productName": "Avatar® eVo Insecticide",
-        "source": "label"
-      },
-      {
-        "productId": "corragen",
-        "productName": "Coragen® Insecticide",
-        "source": "label"
-      },
-      {
-        "productId": "lancer",
-        "productName": "Lancer® 970 Insecticide",
-        "source": "label"
-      },
-      {
-        "productId": "proclaimopti",
-        "productName": "PROCLAIM® Opti Insecticide",
-        "source": "label"
-      },
-      {
-        "productId": "simodis",
-        "productName": "SIMODIS® PLINAZOLIN® technology Insecticide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/pests/tobacco-budworm-ovicide.webp"
-  },
-  {
-    "commonName": "Tobacco leaf miner",
-    "scientificName": "",
-    "pestType": "Chewing insect",
-    "order": "Diptera",
-    "cropsAffected": [
-      "Ornamentals",
-      "Tobacco",
-      "Tomatoes"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Tobacco%20leaf%20miner+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "adamabugmaster",
-        "productName": "Bugmaster Flowable Insecticide",
-        "source": "label",
-        "crops": [
-          "Ornamentals"
-        ]
-      },
-      {
-        "productId": "sinmas",
-        "productName": "Sinmas 225 Insecticide",
-        "source": "label",
-        "crops": [
-          "Tomatoes",
-          "Tobacco"
-        ]
-      },
-      {
-        "productId": "lancer",
-        "productName": "Lancer® 970 Insecticide",
-        "source": "label",
-        "crops": [
-          "Potatoes",
-          "Tomatoes"
-        ]
-      },
-      {
-        "productId": "sorcerer",
-        "productName": "Sorcerer® 36 Miticide/Insecticide",
-        "source": "label",
-        "crops": [
-          "Fruiting Vegetables (Tomatoes, Peppers, Eggplant)"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/tobacco-leaf-miner.webp"
-  },
-  {
-    "commonName": "Tobacco leaf miner - Larvicide",
-    "scientificName": "Phthorimaea operculella",
-    "pestType": "Chewing insect",
-    "order": "Diptera",
-    "cropsAffected": [],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Phthorimaea%20operculella+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "avatarevo",
-        "productName": "Avatar® eVo Insecticide",
-        "source": "label"
-      },
-      {
-        "productId": "corragen",
-        "productName": "Coragen® Insecticide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/pests/tobacco-leaf-miner-larvicide.webp"
-  },
-  {
-    "commonName": "Tobacco leaf miner/Potato moth",
-    "scientificName": "Phthorimaea operculella",
-    "pestType": "Chewing insect",
-    "order": "Lepidoptera",
-    "cropsAffected": [
-      "Tomatoes"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Phthorimaea%20operculella+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "sinmas",
-        "productName": "Sinmas 225 Insecticide",
-        "source": "label",
-        "crops": [
-          "Tomatoes"
-        ]
-      },
-      {
-        "productId": "avatarevo",
-        "productName": "Avatar® eVo Insecticide",
-        "source": "label"
-      },
-      {
-        "productId": "corragen",
-        "productName": "Coragen® Insecticide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/pests/tobacco-leaf-miner-potato-moth.webp"
-  },
-  {
-    "commonName": "Tobacco Looper",
-    "scientificName": "Chrysodeixis argentifera",
-    "pestType": "Chewing insect",
-    "order": "Lepidoptera",
-    "cropsAffected": [
-      "Basil",
-      "Canola",
-      "Cucurbits",
-      "Tobacco",
-      "Tomato"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Chrysodeixis%20argentifera+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "alphascud",
-        "productName": "Alpha-Scud® 300 SC Insecticide",
-        "source": "label",
-        "crops": [
-          "Canola"
-        ]
-      },
-      {
-        "productId": "dipeldf",
-        "productName": "DiPel® DF Biological Insecticide",
-        "source": "label",
-        "crops": [
-          "Agricultural and Non-Agricultural Uses — Boom/Hectare Rates",
-          "Agricultural and Non-Agricultural Uses — Dilute Spray (per 100 L)",
-          "Cucurbits",
-          "Basil",
-          "Tomato"
-        ]
-      },
-      {
-        "productId": "lancer",
-        "productName": "Lancer® 970 Insecticide",
-        "source": "label",
-        "crops": [
-          "Tobacco"
-        ]
-      },
-      {
-        "productId": "sinmas",
-        "productName": "Sinmas 225 Insecticide",
-        "source": "label",
-        "crops": [
-          "Tobacco"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/tobacco-looper.webp"
-  },
-  {
-    "commonName": "Tobacco stemborer",
-    "scientificName": "Scrobipalpa heliopa",
-    "pestType": "Chewing insect",
-    "order": "Lepidoptera",
-    "cropsAffected": [
-      "Tobacco"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Scrobipalpa%20heliopa+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "sinmas",
-        "productName": "Sinmas 225 Insecticide",
-        "source": "label",
-        "crops": [
-          "Tobacco"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/tobacco-stemborer.webp"
-  },
-  {
-    "commonName": "Tomato grub",
-    "scientificName": "Helicoverpa armigera",
-    "pestType": "Chewing insect",
-    "order": "Coleoptera",
-    "cropsAffected": [
-      "Tomatoes (Trellis)",
-      "Tomatoes (bush and trellis)",
-      "Tomatoes bush",
-      "Tomatoes trellis",
-      "Tomatoes, Peppers (Capsicum and Chilli), Eggplant and Okra",
-      "Tomatoes, Peppers (capsicum/chilli), Eggplant, Okra",
-      "Vegetables (Beans, Brassicas, Capsicum, Lettuce, Potatoes, Tomatoes, Sweetcorn)",
-      "Brassica Leafy Vegetables",
-      "Brassica Vegetables",
-      "Brassica Vegetables (Cabbages, Cauliflowers, Brussels Sprouts, Broccoli, Kale, Kohlrabi, Chinese Cabbage, Turnips)",
-      "Celery",
-      "Cotton",
-      "Cucurbits",
-      "Fruiting Vegetables (Cucurbits)",
-      "Fruiting Vegetables (excl. Cucurbits)",
-      "Fruiting Vegetables (field grown and protected cropping)",
-      "Fruiting Vegetables (open field only)",
-      "Leafy Vegetables",
-      "Leafy Vegetables (excl. Lettuce)",
-      "Leafy Vegetables and Brassica Leafy Vegetables (except lettuce)",
-      "Legume Vegetables",
-      "Lettuce",
-      "Maize",
-      "Mung Beans & Navy Beans",
-      "Potatoes",
-      "Root and Tuber Vegetables (except potato)",
-      "Sorghum",
-      "Soybeans",
-      "Stalk & Stem Vegetables",
-      "Strawberries",
-      "Sunflowers",
-      "Sweet Corn",
-      "Tobacco"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Helicoverpa%20armigera+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "22846adamaventurimaxweblabela4",
-        "productName": "Venturi® Max Insecticide",
-        "source": "label",
-        "crops": [
-          "Tomatoes, Peppers (Capsicum and Chilli), Eggplant and Okra"
-        ]
-      },
-      {
-        "productId": "alphascud",
-        "productName": "Alpha-Scud® 300 SC Insecticide",
-        "source": "label",
-        "crops": [
-          "Tomatoes (bush and trellis)"
-        ]
-      },
-      {
-        "productId": "fmctrojan",
-        "productName": "FMC Trojan® Insecticide",
-        "source": "label",
-        "crops": [
-          "Tomatoes (Trellis)",
-          "Tomatoes (Bush) — Vic, Tas, SA, WA",
-          "Tomatoes (Bush) — Qld, NSW, ACT, NT"
-        ]
-      },
-      {
-        "productId": "methomyl",
-        "productName": "Nufarm Methomyl 225",
-        "source": "label",
-        "crops": [
-          "Vegetables (Beans, Brassicas, Capsicum, Lettuce, Potatoes, Tomatoes, Sweetcorn)"
-        ]
-      },
-      {
-        "productId": "prodigy",
-        "productName": "Corteva Prodigy® Insecticide",
-        "source": "label",
-        "crops": [
-          "Tomatoes, Peppers (capsicum/chilli), Eggplant, Okra"
-        ]
-      },
-      {
-        "productId": "syngentakaratezeon",
-        "productName": "Syngenta Karate Zeon® Insecticide",
-        "source": "label",
-        "crops": [
-          "Tomatoes bush",
-          "Tomatoes trellis"
-        ]
-      },
-      {
-        "productId": "avatarevo",
-        "productName": "Avatar® eVo Insecticide",
-        "source": "label"
-      },
-      {
-        "productId": "corragen",
-        "productName": "Coragen® Insecticide",
-        "source": "label"
-      },
-      {
-        "productId": "lancer",
-        "productName": "Lancer® 970 Insecticide",
-        "source": "label"
-      },
-      {
-        "productId": "proclaimopti",
-        "productName": "PROCLAIM® Opti Insecticide",
-        "source": "label"
-      },
-      {
-        "productId": "simodis",
-        "productName": "SIMODIS® PLINAZOLIN® technology Insecticide",
-        "source": "label"
-      },
-      {
-        "productId": "sinmas",
-        "productName": "Sinmas 225 Insecticide",
-        "source": "label",
-        "crops": [
-          "Sorghum"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/tomato-grub.webp"
-  },
-  {
-    "commonName": "Tomato leaf miner",
-    "scientificName": "Tuta absoluta",
-    "pestType": "Chewing insect",
-    "order": "Diptera",
-    "cropsAffected": [
-      "Fruiting Vegetables (excl. Cucurbits)"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Tuta%20absoluta+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "avatarevo",
-        "productName": "Avatar® eVo Insecticide",
-        "source": "label",
-        "crops": [
-          "Fruiting Vegetables — Potato Moth"
-        ]
-      },
-      {
-        "productId": "benevia",
-        "productName": "Benevia® Insecticide",
-        "source": "label",
-        "crops": [
-          "Fruiting Vegetables (excl. Cucurbits) — Sucking & Chewing Pests (Capsicum, Eggplant, Peppers, Tomato)"
-        ]
-      },
-      {
-        "productId": "corragen",
-        "productName": "Coragen® Insecticide",
-        "source": "label",
-        "crops": [
-          "Fruiting Vegetables (excl. Cucurbits)"
-        ]
-      },
-      {
-        "productId": "uplshenzi",
-        "productName": "Shenzi Insecticide",
-        "source": "label",
-        "crops": [
-          "Fruiting Vegetables (excluding Cucurbits) — Cotton bollworm control"
-        ]
-      },
-      {
-        "productId": "belt",
-        "productName": "Belt 480 SC INSECTICIDE",
-        "source": "label",
-        "crops": [
-          "Fruiting vegetables (excluding cucurbits, sweetcorn) (field and protected cropping systems) Including capsicum, eggplant, peppers, tomato"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/tomato-leaf-miner.webp"
-  },
-  {
-    "commonName": "Tomato Potato Psyllid",
-    "scientificName": "Bactericera cockerelli",
-    "pestType": "Sucking insect",
-    "order": "Hemiptera",
-    "cropsAffected": [
-      "Cut Flowers",
-      "Fruiting Vegetables (Tomatoes, Peppers, Eggplant)",
-      "Fruiting vegetables; including but not limited to Eggplant Okra Peppers (Capsicums & Chillies), Sweet corn (see also under separate listing below) Tomatoes",
-      "Nursery Stock (non-food)",
-      "Root and tuber vegetables; including but not limited to Beetroot, Carrots Celeriac, Galangal Parsnips Potatoes Radishes (incl. Daikon) Sweet potato Swedes, Turnips",
-      "Vegetables (Fruiting, Leafy, Cucurbits)"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Bactericera%20cockerelli+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "benevia",
-        "productName": "Benevia® Insecticide",
-        "source": "label",
-        "crops": [
-          "Fruiting vegetables — Tomato Potato Psyllid (PER84805)",
-          "Nursery stock — Azalea lace bug & others (PER92766)"
-        ]
-      },
-      {
-        "productId": "methomyl",
-        "productName": "Nufarm Methomyl 225",
-        "source": "label",
-        "crops": [
-          "Tomato — Tomato Potato Psyllid (PER84229)",
-          "Eggplant — Tomato Potato Psyllid (PER84229)",
-          "Capsicum — Tomato Potato Psyllid (PER84229)",
-          "Chilli Pepper — Tomato Potato Psyllid (PER84229)"
-        ]
-      },
-      {
-        "productId": "sorcerer",
-        "productName": "Sorcerer® 36 Miticide/Insecticide",
-        "source": "label",
-        "crops": [
-          "Fruiting Vegetables (Tomatoes, Peppers, Eggplant)",
-          "Nursery Stock (non-food)",
-          "Cut Flowers"
-        ]
-      },
-      {
-        "productId": "stealth",
-        "productName": "Cropro Stealth Miticide",
-        "source": "label",
-        "crops": [
-          "Vegetables (Fruiting, Leafy, Cucurbits)"
-        ]
-      },
-      {
-        "productId": "success_neo",
-        "productName": "Success Neo Jemvelva Insecticide",
-        "source": "label",
-        "crops": [
-          "Fruiting vegetables; including but not limited to Eggplant Okra Peppers (Capsicums & Chillies), Sweet corn (see also under separate listing below) Tomatoes",
-          "Root and tuber vegetables; including but not limited to Beetroot, Carrots Celeriac, Galangal Parsnips Potatoes Radishes (incl. Daikon) Sweet potato Swedes, Turnips"
-        ]
-      },
-      {
-        "productId": "transform",
-        "productName": "Corteva Transform® Isoclast® Active",
-        "source": "label",
-        "crops": [
-          "Fruiting vegetables, including but not limited to capsicum, chilli, eggplant, okra and tomatoes [excluding sweet corn and mushrooms]",
-          "Root and tuber vegetables, including but not limited to carrots, potatoes and turnips"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/tomato-potato-psyllid.webp"
-  },
-  {
-    "commonName": "Tomato Red Spider Mite",
-    "scientificName": "",
-    "pestType": "Mite",
-    "order": "Acari",
-    "cropsAffected": [
-      "Cucurbits",
-      "Fruiting Vegetables (Tomatoes, Peppers, Eggplant)",
-      "Spring Onions, Shallots, Snow Peas, Sugar Snap Peas, Sweet Corn"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Tomato%20Red%20Spider%20Mite+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "calibre100ec",
-        "productName": "Nufarm Calibre® 100 EC Miticide",
-        "source": "label",
-        "crops": [
-          "Fruiting Vegetables — Tomato Red Spider Mite (PER95394)",
-          "Potatoes — Tomato Red Spider Mite (PER95394)"
-        ]
-      },
-      {
-        "productId": "paramite",
-        "productName": "ParaMite® Selective Miticide",
-        "source": "label",
-        "crops": [
-          "Cucurbits"
-        ]
-      },
-      {
-        "productId": "sorcerer",
-        "productName": "Sorcerer® 36 Miticide/Insecticide",
-        "source": "label",
-        "crops": [
-          "Fruiting Vegetables (Tomatoes, Peppers, Eggplant)",
-          "Spring Onions, Shallots, Snow Peas, Sugar Snap Peas, Sweet Corn"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/tomato-red-spider-mite.webp"
-  },
-  {
-    "commonName": "Tomato russet mite",
-    "scientificName": "Aculops lycopersici",
-    "pestType": "Mite",
-    "order": "Acari",
-    "cropsAffected": [
-      "Cucurbits",
-      "Fruiting Vegetables (Tomatoes, Peppers, Eggplant)",
-      "Fruiting Vegetables (open field only)"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Aculops%20lycopersici+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "calibre100ec",
-        "productName": "Nufarm Calibre® 100 EC Miticide",
-        "source": "label",
-        "crops": [
-          "Cucurbits & Fruiting Vegetables — Mites, no biocontrol (PER95394)",
-          "Cucurbits & Fruiting Vegetables — Mites, with biocontrol (PER95394)"
-        ]
-      },
-      {
-        "productId": "paramite",
-        "productName": "ParaMite® Selective Miticide",
-        "source": "label",
-        "crops": [
-          "Cucurbits"
-        ]
-      },
-      {
-        "productId": "simodis",
-        "productName": "SIMODIS® PLINAZOLIN® technology Insecticide",
-        "source": "label",
-        "crops": [
-          "Fruiting Vegetables (open field only)"
-        ]
-      },
-      {
-        "productId": "sorcerer",
-        "productName": "Sorcerer® 36 Miticide/Insecticide",
-        "source": "label",
-        "crops": [
-          "Fruiting Vegetables (Tomatoes, Peppers, Eggplant)"
-        ]
-      },
-      {
-        "productId": "pctcroprozeus",
-        "productName": "PCT Cropro Zeus Termiticide & Insecticide",
-        "source": "label",
-        "crops": [
-          "Tomatoes"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/tomato-russet-mite.webp"
-  },
-  {
-    "commonName": "Tomato thrips",
-    "scientificName": "Frankliniella schultzei",
-    "pestType": "Sucking insect",
-    "order": "Hemiptera",
-    "cropsAffected": [
-      "Beans (green)",
-      "Beans, Peas (Green) including Snow Peas and Sugar Snap Peas",
-      "Bulb vegetables excluding onions, bulb",
-      "Celery and rhubarb",
-      "Cucurbits (including cucumber, zucchini, rockmelon, watermelon, pumpkin, Asian melons) Open field only",
-      "Fruiting Vegetables (open field only)",
-      "Herbs (field and protected cropping systems)",
-      "Mango",
-      "UNKNOWN"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Frankliniella%20schultzei+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "benevia",
-        "productName": "Benevia® Insecticide",
-        "source": "label",
-        "crops": [
-          "Fruiting Vegetables (excl. Cucurbits) — Sucking & Chewing Pests (Capsicum, Eggplant, Peppers, Tomato)"
-        ]
-      },
-      {
-        "productId": "imtradekersel850wg",
-        "productName": "Imtrade Kersel 850 WG Insecticide",
-        "source": "label",
-        "crops": [
-          "Beans, Peas (Green) including Snow Peas and Sugar Snap Peas"
-        ]
-      },
-      {
-        "productId": "methomyl",
-        "productName": "Nufarm Methomyl 225",
-        "source": "label",
-        "crops": [
-          "Mango"
-        ]
-      },
-      {
-        "productId": "movento",
-        "productName": "Bayer Movento 240 SC Insecticide",
-        "source": "label",
-        "crops": [
-          "Beans (green)",
-          "Celery and rhubarb",
-          "Herbs (field and protected cropping systems)",
-          "Bulb vegetables excluding onions, bulb"
-        ]
-      },
-      {
-        "productId": "simodis",
-        "productName": "SIMODIS® PLINAZOLIN® technology Insecticide",
-        "source": "label",
-        "crops": [
-          "Cucurbits — Insects (open field only)",
-          "Fruiting Vegetables (open field only)"
-        ]
-      },
-      {
-        "productId": "syngentadurivo",
-        "productName": "Durivo Insecticide",
-        "source": "label",
-        "crops": [
-          "Fruiting Vegetables (Tomatoes, Capsicum, Eggplant) — Insect pest control"
-        ]
-      },
-      {
-        "productId": "syngentaminectoforte",
-        "productName": "Minecto Forte Insecticide",
-        "source": "label",
-        "crops": [
-          "Cucurbits (including cucumber, zucchini, rockmelon, watermelon, pumpkin, Asian melons) Open field only",
-          "UNKNOWN"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/tomato-thrips.webp"
-  },
-  {
-    "commonName": "Trialeurodes Vaporariorum",
-    "scientificName": "",
-    "pestType": "Sucking insect",
-    "order": "",
-    "cropsAffected": [
-      "Cucurbits",
-      "Cut Flowers (subject to tolerance test)",
-      "Nursery Stock (non-food, subject to tolerance test)",
-      "Tomatoes, Eggplants and Capsicums"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Trialeurodes%20Vaporariorum+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "chess",
-        "productName": "CHESS® Insecticide",
-        "source": "label",
-        "crops": [
-          "Tomatoes, Eggplants and Capsicums",
-          "Cucurbits",
-          "Cut Flowers (subject to tolerance test)",
-          "Nursery Stock (non-food, subject to tolerance test)"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/trialeurodes-vaporariorum.webp"
-  },
-  {
-    "commonName": "True Bugs",
-    "scientificName": "",
-    "pestType": "Sucking insect",
-    "order": "",
-    "cropsAffected": [],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=True%20Bugs+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "transform",
-        "productName": "Corteva Transform® Isoclast® Active",
-        "source": "label",
-        "crops": [
-          "Raspberries and Blackberries — Cottonseed Bug (PER90208)",
-          "Blueberries — Cottonseed Bug (PER91327)"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/true-bugs.webp"
-  },
-  {
-    "commonName": "True Wireworms",
-    "scientificName": "",
-    "pestType": "Soil pest",
-    "order": "Coleoptera",
-    "cropsAffected": [
-      "Tobacco"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=True%20Wireworms+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "sinmas",
-        "productName": "Sinmas 225 Insecticide",
-        "source": "label",
-        "crops": [
-          "Tobacco"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/true-wireworms.webp"
-  },
-  {
-    "commonName": "Tuber mealybug",
-    "scientificName": "",
-    "pestType": "Sucking insect",
-    "order": "Hemiptera",
-    "cropsAffected": [
-      "Grapes",
-      "Grapes (Table and Wine)",
-      "Pome Fruit",
-      "Pome Fruit (Apples, Pears, Nashi)",
-      "Pome fruit",
-      "Stone Fruit",
-      "Stone fruit"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Tuber%20mealybug+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "adamauptown",
-        "productName": "Adama Uptown Insecticide",
-        "source": "label",
-        "crops": [
-          "Grapes (Table and Wine)"
-        ]
-      },
-      {
-        "productId": "applaud",
-        "productName": "Corteva Applaud® Insecticide",
-        "source": "label",
-        "crops": [
-          "Grapes"
-        ]
-      },
-      {
-        "productId": "imtradekersel850wg",
-        "productName": "Imtrade Kersel 850 WG Insecticide",
-        "source": "label",
-        "crops": [
-          "Pome Fruit",
-          "Stone Fruit"
-        ]
-      },
-      {
-        "productId": "movento",
-        "productName": "Bayer Movento 240 SC Insecticide",
-        "source": "label",
-        "crops": [
-          "Grapes",
-          "Pome fruit",
-          "Stone fruit"
-        ]
-      },
-      {
-        "productId": "samurai",
-        "productName": "Samurai® Systemic Insecticide",
-        "source": "label",
-        "crops": [
-          "Apples and Pears — Mealybug"
-        ]
-      },
-      {
-        "productId": "transform_wg",
-        "productName": "Corteva Transform® WG Isoclast® Active",
-        "source": "label",
-        "crops": [
-          "Pome Fruit (Apples, Pears, Nashi)"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/tuber-mealybug.webp"
-  },
-  {
-    "commonName": "Turnip Aphid",
-    "scientificName": "Lipaphis erysimi",
-    "pestType": "Sucking insect",
-    "order": "Hemiptera",
-    "cropsAffected": [
-      "Brassicas",
-      "Canola"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Lipaphis%20erysimi+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "fmcexirel",
-        "productName": "FMC Exirel® Insecticide",
-        "source": "label",
-        "crops": [
-          "Canola"
-        ]
-      },
-      {
-        "productId": "imiguard350",
-        "productName": "Rainbow Imiguard 350 Insecticide",
-        "source": "label",
-        "crops": [
-          "Brassicas"
-        ]
-      },
-      {
-        "productId": "surefirerspectrum200sc",
-        "productName": "Surefire Spectrum 200SC Insecticide",
-        "source": "label",
-        "crops": [
-          "Brassicas"
-        ]
-      },
-      {
-        "productId": "transform_wg",
-        "productName": "Corteva Transform® WG Isoclast® Active",
-        "source": "label",
-        "crops": [
-          "Canola"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/turnip-aphid.webp"
-  },
-  {
-    "commonName": "Twig girdler",
-    "scientificName": "",
-    "pestType": "Chewing insect",
-    "order": "",
-    "cropsAffected": [
-      "Macadamias"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Twig%20girdler+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "success_neo",
-        "productName": "Success Neo Jemvelva Insecticide",
-        "source": "label",
-        "crops": [
-          "Macadamias"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/twig-girdler.webp"
-  },
-  {
-    "commonName": "Two Spotted Spider Mite",
-    "scientificName": "",
-    "pestType": "Mite",
-    "order": "Acari",
-    "cropsAffected": [
-      "Pears"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Two%20Spotted%20Spider%20Mite+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "biopestoil",
-        "productName": "Biopest Cinagro Paraffinic Oil",
-        "source": "label",
-        "crops": [
-          "Pears"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/two-spotted-spider-mite.webp"
-  },
-  {
-    "commonName": "Two-spotted Mite",
-    "scientificName": "Tetranychus urticae",
-    "pestType": "Mite",
-    "order": "Acari",
-    "cropsAffected": [
-      "Almonds",
-      "Apples, Pears, Peaches, Nectarines",
-      "Bananas",
-      "Berries (Strawberries, Blackberries, Raspberries)",
-      "Capsicum",
-      "Cotton",
-      "Cucurbits",
-      "Cucurbits (including cucumber, zucchini, rockmelon, watermelon, pumpkin, Asian melons) Open field only",
-      "Fruiting Vegetables (open field only)",
-      "Fruiting vegetables (including tomatoes, capsicums, eggplant, chillies) Open field only",
-      "Hops",
-      "Ornamentals",
-      "Papaya",
-      "Pome Fruit",
-      "Pome Fruit (Apples, Pears)",
-      "Pome Fruit (Apples, Pears), Stone Fruit (excl. Cherries), Almonds",
-      "Stone Fruit",
-      "Stone Fruit (Apricots, Nectarines, Peaches, Plums)",
-      "Strawberries",
-      "Table Grapes and Wine Grapes",
-      "Tree Crops (Apples, Pears, Avocados, Citrus)",
-      "Trellis Tomatoes, Ground Tomatoes, Capsicum",
-      "Vegetables (Beans, Brassicas, Cucurbits, Tomatoes, Peppers)",
-      "Vegetables (Fruiting Veg, Cucurbits)",
-      "Vegetables (Fruiting, Leafy, Cucurbits)"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Two-spotted%20Mite+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "acramite",
-        "productName": "Acramite Miticide",
-        "source": "label",
-        "crops": [
-          "Pome Fruit (Apples, Pears)",
-          "Stone Fruit (Apricots, Nectarines, Peaches, Plums)",
-          "Almonds",
-          "Vegetables (Fruiting Veg, Cucurbits)",
-          "Papaya",
-          "Strawberries",
-          "Capsicum",
-          "Hops — Two-spotted Mite (PER13265)",
-          "Table Grapes — Two-spotted Mite (PER14492)",
-          "Snow Peas & Sugar Snap Peas — Multiple Mites (PER80558)",
-          "Industrial Hemp — Two-spotted Mite & Other Mites (PER94780)",
-          "Industrial Hemp (Protected) — Two-spotted Mite & Other Mites (PER94808)",
-          "Nursery Stock & Ornamentals — Two-spotted Mite (PER91810)"
-        ]
-      },
-      {
-        "productId": "astral",
-        "productName": "Nufarm Astral 250 EC",
-        "source": "label",
-        "crops": [
-          "Vegetables (Beans, Brassicas, Cucurbits, Tomatoes, Peppers)"
-        ]
-      },
-      {
-        "productId": "interrupt240sc",
-        "productName": "Bayer Interrupt® 240 SC Miticide",
-        "source": "label",
-        "crops": [
-          "Pome Fruit",
-          "Stone Fruit"
-        ]
-      },
-      {
-        "productId": "paramite",
-        "productName": "ParaMite® Selective Miticide",
-        "source": "label",
-        "crops": [
-          "Pome Fruit (Apples, Pears), Stone Fruit (excl. Cherries), Almonds",
-          "Table Grapes and Wine Grapes",
-          "Trellis Tomatoes, Ground Tomatoes, Capsicum",
-          "Cotton",
-          "Cucurbits",
-          "Custard Apple — Two-spotted Mite & Banana Spider Mite (PER14227)",
-          "Melons — Two-spotted Mite (PER14650)",
-          "Maize & Popcorn — Two-spotted Mite (PER88259)",
-          "Hops — Two-spotted Mite (PER88503)",
-          "Blackberries & Raspberries — Two-spotted & Bean Spider Mites (PER89406)",
-          "Nursery Stock & Ornamentals — Mites (PER91810)"
-        ]
-      },
-      {
-        "productId": "simodis",
-        "productName": "SIMODIS® PLINAZOLIN® technology Insecticide",
-        "source": "label",
-        "crops": [
-          "Cucurbits — Mites (open field only)",
-          "Fruiting Vegetables (open field only)"
-        ]
-      },
-      {
-        "productId": "stealth",
-        "productName": "Cropro Stealth Miticide",
-        "source": "label",
-        "crops": [
-          "Tree Crops (Apples, Pears, Avocados, Citrus)",
-          "Vegetables (Fruiting, Leafy, Cucurbits)",
-          "Berries (Strawberries, Blackberries, Raspberries)",
-          "Cotton",
-          "Ornamentals"
-        ]
-      },
-      {
-        "productId": "syngentaminectoforte",
-        "productName": "Minecto Forte Insecticide",
-        "source": "label",
-        "crops": [
-          "Cucurbits (including cucumber, zucchini, rockmelon, watermelon, pumpkin, Asian melons) Open field only",
-          "Fruiting vegetables (including tomatoes, capsicums, eggplant, chillies) Open field only"
-        ]
-      },
-      {
-        "productId": "vendex",
-        "productName": "Vendex Miticide",
-        "source": "label",
-        "crops": [
-          "Apples, Pears, Peaches, Nectarines",
-          "Hops",
-          "Bananas",
-          "Strawberries",
-          "Ornamentals",
-          "Papaya",
-          "Papaya (Pawpaw) — Two-spotted mite (PER14097)",
-          "Blackberries — Two-spotted mite (PER89407)",
-          "Raspberries (field & protected) — Two-spotted mite (PER89407)"
-        ]
-      },
-      {
-        "productId": "sorcerer",
-        "productName": "Sorcerer® 36 Miticide/Insecticide",
-        "source": "label",
-        "crops": [
-          "Almonds",
-          "Apples and Pears",
-          "Blackcurrants",
-          "Blackberries and Raspberries",
-          "Cucumber, Zucchini and Squash",
-          "Custard Apple",
-          "Fruiting Vegetables (Tomatoes, Peppers, Eggplant)",
-          "Hops",
-          "Lettuce",
-          "Lychees",
-          "Papaya / Pawpaw",
-          "Passion Fruit",
-          "Spring Onions, Shallots, Snow Peas, Sugar Snap Peas, Sweet Corn",
-          "Strawberries",
-          "Ornamental Plants"
-        ]
-      },
-      {
-        "productId": "azamaxxtra",
-        "productName": "AzaMax Xtra Insecticide",
-        "source": "label",
-        "crops": [
-          "Ornamentals and Nursery plants — Spray application"
-        ]
-      },
-      {
-        "productId": "ocpazamax",
-        "productName": "OCP AzaMax Insecticide",
-        "source": "label",
-        "crops": [
-          "Floriculture and ornamental plants"
-        ]
-      },
-      {
-        "productId": "pctcroprozeus",
-        "productName": "PCT Cropro Zeus Termiticide & Insecticide",
-        "source": "label",
-        "crops": [
-          "Cotton",
-          "Tomatoes"
-        ]
-      },
-      {
-        "productId": "calibre100ec",
-        "productName": "Nufarm Calibre® 100 EC Miticide",
-        "source": "label",
-        "crops": [
-          "Pears — Twospotted Mite (Programme #1, with adulticide)",
-          "Apples & Stone Fruit — Twospotted Mite (Programme #1, no biocontrol)",
-          "Apples & Stone Fruit — Twospotted Mite (Programme #2, with biocontrol)",
-          "Pears — Twospotted Mite & European Red Mite (mixed infestation)",
-          "Apples & Stone Fruit — Twospotted Mite & European Red Mite (mixed infestation)",
-          "Strawberries — Twospotted Mite (no biocontrol)",
-          "Strawberries — Twospotted Mite (with biocontrol)",
-          "Ornamentals — Mites (no biocontrol)",
-          "Ornamentals — Mites (with biocontrol)",
-          "Hops — Twospotted Mite (PER95343)",
-          "Cucurbits & Fruiting Vegetables — Mites, no biocontrol (PER95394)",
-          "Cucurbits & Fruiting Vegetables — Mites, with biocontrol (PER95394)",
-          "Snow Peas & Sugar Snap Peas — Twospotted Mite (PER95394)"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/twospotted-mite.webp"
-  },
-  {
-    "commonName": "Twospotted mite and/or European red mite",
-    "scientificName": "Tetranychus urticae",
-    "pestType": "Mite",
-    "order": "Acari",
-    "cropsAffected": [
-      "Fruiting Vegetables (open field only)",
-      "Pome Fruit",
-      "Stone Fruit"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Tetranychus%20urticae+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "calibre100ec",
-        "productName": "Nufarm Calibre® 100 EC Miticide",
-        "source": "label"
-      },
-      {
-        "productId": "interrupt240sc",
-        "productName": "Bayer Interrupt® 240 SC Miticide",
-        "source": "label"
-      },
-      {
-        "productId": "simodis",
-        "productName": "SIMODIS® PLINAZOLIN® technology Insecticide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/pests/twospotted-mite-and-or-european-red-mite.webp"
-  },
-  {
-    "commonName": "Vegetable Jassid",
-    "scientificName": "Austroasca viridigrisea",
-    "pestType": "Sucking insect",
-    "order": "Hemiptera",
-    "cropsAffected": [
-      "Potatoes"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Austroasca%20viridigrisea+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "syngentakaratezeon",
-        "productName": "Syngenta Karate Zeon® Insecticide",
-        "source": "label",
-        "crops": [
-          "Potatoes"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/vegetable-jassid.webp"
-  },
-  {
-    "commonName": "Vegetable leaf miner",
-    "scientificName": "Liriomyza sativae",
-    "pestType": "Chewing insect",
-    "order": "Diptera",
-    "cropsAffected": [],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Liriomyza%20sativae+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "benevia",
-        "productName": "Benevia® Insecticide",
-        "source": "label",
-        "crops": [
-          "Celery — Leaf miners (PER93850)"
-        ]
-      },
-      {
-        "productId": "success_neo",
-        "productName": "Success Neo Jemvelva Insecticide",
-        "source": "label",
-        "crops": [
-          "Brassica Vegetables — Leaf Miners (PER94451)",
-          "Brassica Leafy Vegetables — Leaf Miners (PER94451)",
-          "Cucurbits — Leaf Miners (PER94451)",
-          "Culinary Herbs — Leaf Miners (PER94451)",
-          "Fruiting Vegetables — Leaf Miners (PER94451)",
-          "Leafy Vegetables — Leaf Miners (PER94451)",
-          "Root & Tuber Vegetables — Leaf Miners (PER94451)",
-          "Stalk & Stem Vegetables — Leaf Miners (PER94451)"
-        ]
-      },
-      {
-        "productId": "movento",
-        "productName": "Bayer Movento 240 SC Insecticide",
-        "source": "label",
-        "crops": [
-          "Snow Peas — Leafminers (PER88640)",
-          "Sugar Snap Peas — Leafminers (PER88640)",
-          "Lettuce — Leafminers (PER88640)",
-          "Parsley — Leafminers (PER88640)",
-          "Green Beans — Leafminers (PER88640)",
-          "Celery — Leafminers (PER88640)",
-          "Rhubarb — Leafminers (PER88640)",
-          "Eggplant — Leafminers (PER88640)",
-          "Capsicum — Leafminers (PER88640)",
-          "Chilli — Leafminers (PER88640)",
-          "Tomato — Leafminers (PER88640)"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/vegetable-leaf-miner.webp"
-  },
-  {
-    "commonName": "Vegetable Leafhopper",
-    "scientificName": "Austroasca viridigrisea",
-    "pestType": "Sucking insect",
-    "order": "Hemiptera",
-    "cropsAffected": [
-      "Potatoes"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Austroasca%20viridigrisea+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "fmctrojan",
-        "productName": "FMC Trojan® Insecticide",
-        "source": "label",
-        "crops": [
-          "Potatoes"
-        ]
-      },
-      {
-        "productId": "syngentadurivo",
-        "productName": "Durivo Insecticide",
-        "source": "label",
-        "crops": [
-          "Leafy Vegetables (Lettuce, Endive, Silverbeet, Spinach, Chard) — Insect pest control"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/vegetable-leafhopper.webp"
-  },
-  {
-    "commonName": "Vegetable weevil",
-    "scientificName": "",
-    "pestType": "Chewing insect",
-    "order": "Lepidoptera",
-    "cropsAffected": [
-      "Beetroot",
-      "Broadacre (Canola, Cereals, Pulses, Pasture)",
-      "Canola",
-      "Celery",
-      "Turnips / Swede"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Vegetable%20weevil+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "adamabugmaster",
-        "productName": "Bugmaster Flowable Insecticide",
-        "source": "label",
-        "crops": [
-          "Beetroot",
-          "Turnips / Swede"
-        ]
-      },
-      {
-        "productId": "alphascud",
-        "productName": "Alpha-Scud® 300 SC Insecticide",
-        "source": "label",
-        "crops": [
-          "Canola"
-        ]
-      },
-      {
-        "productId": "astral",
-        "productName": "Nufarm Astral 250 EC",
-        "source": "label",
-        "crops": [
-          "Broadacre (Canola, Cereals, Pulses, Pasture)"
-        ]
-      },
-      {
-        "productId": "avatarevo",
-        "productName": "Avatar® eVo Insecticide",
-        "source": "label",
-        "crops": [
-          "Celery"
-        ]
-      },
-      {
-        "productId": "pctcroprozeus",
-        "productName": "PCT Cropro Zeus Termiticide & Insecticide",
-        "source": "label",
-        "crops": [
-          "Canola"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/vegetable-weevil.webp"
-  },
-  {
-    "commonName": "Vetch Aphid",
-    "scientificName": "Megoura crassicauda",
-    "pestType": "Insect",
-    "order": "",
-    "cropsAffected": [],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Megoura%20Crassicauda+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "pirimor",
-        "productName": "PIRIMOR® WG Aphicide",
-        "source": "label",
-        "crops": []
-      }
-    ]
-  },
-  {
-    "commonName": "Vine moth",
-    "scientificName": "Phalaenoides glycinae, Agarista agricola",
-    "pestType": "Chewing insect",
-    "order": "Lepidoptera",
-    "cropsAffected": [
-      "Basil",
-      "Cucurbits",
-      "Grapes",
-      "Tomato"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Phalaenoides%20glycinae%2C%20Agarista%20agricola+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "dipeldf",
-        "productName": "DiPel® DF Biological Insecticide",
-        "source": "label",
-        "crops": [
-          "Agricultural and Non-Agricultural Uses — Boom/Hectare Rates",
-          "Agricultural and Non-Agricultural Uses — Dilute Spray (per 100 L)",
-          "Cucurbits",
-          "Basil",
-          "Tomato"
-        ]
-      },
-      {
-        "productId": "sinmas",
-        "productName": "Sinmas 225 Insecticide",
-        "source": "label",
-        "crops": [
-          "Grapes"
-        ]
-      },
-      {
-        "productId": "avatarevo",
-        "productName": "Avatar® eVo Insecticide",
-        "source": "label",
-        "crops": []
-      },
-      {
-        "productId": "proclaimopti",
-        "productName": "PROCLAIM® Opti Insecticide",
-        "source": "label",
-        "crops": []
-      }
-    ],
-    "thumbnail": "images/pests/vine-moth.webp"
-  },
-  {
-    "commonName": "Wax scale",
-    "scientificName": "",
-    "pestType": "Sucking insect",
-    "order": "Hemiptera",
-    "cropsAffected": [
-      "Mango"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Wax%20scale+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "biopestoil",
-        "productName": "Biopest Cinagro Paraffinic Oil",
-        "source": "label",
-        "crops": [
-          "Mango"
-        ]
-      },
-      {
-        "productId": "trumpsprayoil",
-        "productName": "Trump Spray Oil",
-        "source": "label",
-        "crops": [
-          "Mango"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/wax-scale.webp"
-  },
-  {
-    "commonName": "Web-Spinning Spiders",
-    "scientificName": "",
-    "pestType": "Insect",
-    "order": "",
-    "cropsAffected": [],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Web-Spinning%20Spiders+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "surefire",
-        "productName": "Surefire Termiticide and Insecticide",
-        "source": "label",
-        "crops": []
-      }
-    ]
-  },
-  {
-    "commonName": "Western flower thrips",
-    "scientificName": "Frankliniella occidentalis",
-    "pestType": "Sucking insect",
-    "order": "Hemiptera",
-    "cropsAffected": [
-      "(*see list at end of table 3) Radishes1 Swedes1 Turnips1 1See also under Root & Tuber Vegetables below)",
-      "Beans (green)",
-      "Beans, Peas (Green) including Snow Peas and Sugar Snap Peas",
-      "Berryfruit; including but not limited to Blackberries Blueberries Boysenberries Cranberries Currants Gooseberries Raspberries Strawberries",
-      "Bulb vegetables excluding onions, bulb",
-      "Bulb vegetables; Including but not limited to bulb onion, spring onion and leek",
-      "Celery and rhubarb",
-      "Cucumber",
-      "Cucurbits; including but not limited to cucumbers, melons, squash & zucchini",
-      "Eggplant, peppers (capsicum and chilli), tomatoes (field and protected cropping systems)",
-      "Fruiting Vegetables (Tomatoes, Peppers, Eggplant)",
-      "Fruiting Vegetables (open field only)",
-      "Fruiting vegetables; including but not limited to Eggplant Okra Peppers (Capsicums & Chillies), Sweet corn (see also under separate listing below) Tomatoes",
-      "Herbs (field and protected cropping systems)",
-      "Leafy Vegetables",
-      "Leafy vegetables; including but not limited to Lettuce, Endive Silverbeet, Spinach & Brassica leafy vegetables (*see list at end of table 3)",
-      "Legume vegetables (succulent seeds and immature pods only); including but not limited to beans, peas, snow peas and sugar snap peas.",
-      "Lettuce (head lettuce and leafy lettuce) (field and protected cropping systems)",
-      "Ornamental Plants",
-      "Ornamentals",
-      "Peppers (Capsicum and Chilli), Tomatoes (Field and protected cropping systems)",
-      "Pome Fruit (Apples, Pears, Nashi)",
-      "Stone Fruit (Apricots, Cherries, Nectarines, Peaches, Plums)",
-      "Strawberries"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Western%20flower%20thrips+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "azamaxxtra",
-        "productName": "AzaMax Xtra Insecticide",
-        "source": "label",
-        "crops": [
-          "Ornamentals and Nursery plants — Spray application"
-        ]
-      },
-      {
-        "productId": "benevia",
-        "productName": "Benevia® Insecticide",
-        "source": "label",
-        "crops": [
-          "Fruiting Vegetables (excl. Cucurbits) — Sucking & Chewing Pests (Capsicum, Eggplant, Peppers, Tomato)",
-          "Fruiting Vegetables — Cucurbits (Cucumbers, Melons, Pumpkin, Squash, Zucchini)",
-          "Strawberries (Field) — Chewing & Sucking Pests"
-        ]
-      },
-      {
-        "productId": "cortevasuccessultra",
-        "productName": "Yates Success Ultra Insect Control",
-        "source": "label",
-        "crops": [
-          "Ornamentals — Various pests",
-          "Brassica, cucurbit, fruiting, leafy and legume vegetables, berryfruit, pomefruit, stonefruit, ornamentals — Various"
-        ]
-      },
-      {
-        "productId": "delegate",
-        "productName": "Delegate Jemvelva Insecticide",
-        "source": "label",
-        "crops": [
-          "Pome Fruit (Apples, Pears, Nashi)",
-          "Stone Fruit (Apricots, Cherries, Nectarines, Peaches, Plums)"
-        ]
-      },
-      {
-        "productId": "imtradekersel850wg",
-        "productName": "Imtrade Kersel 850 WG Insecticide",
-        "source": "label",
-        "crops": [
-          "Beans, Peas (Green) including Snow Peas and Sugar Snap Peas",
-          "Peppers (Capsicum and Chilli), Tomatoes (Field and protected cropping systems)"
-        ]
-      },
-      {
-        "productId": "lancer",
-        "productName": "Lancer® 970 Insecticide",
-        "source": "label",
-        "crops": [
-          "Nursery Stock & Ornamentals — Western Flower Thrips (PER91941)"
-        ]
-      },
-      {
-        "productId": "methomyl",
-        "productName": "Nufarm Methomyl 225",
-        "source": "label",
-        "crops": [
-          "Shallots — Western Flower Thrips (PER14890)",
-          "Spring Onions — Western Flower Thrips (PER14890)",
-          "Fruiting Vegetables (Cucurbits) — Thrips (PER82428)"
-        ]
-      },
-      {
-        "productId": "movento",
-        "productName": "Bayer Movento 240 SC Insecticide",
-        "source": "label",
-        "crops": [
-          "Beans (green)",
-          "Celery and rhubarb",
-          "Eggplant, peppers (capsicum and chilli), tomatoes (field and protected cropping systems)",
-          "Herbs (field and protected cropping systems)",
-          "Lettuce (head lettuce and leafy lettuce) (field and protected cropping systems)",
-          "Bulb vegetables excluding onions, bulb",
-          "Stone Fruit — Western Flower Thrips (PER84804)"
-        ]
-      },
-      {
-        "productId": "simodis",
-        "productName": "SIMODIS® PLINAZOLIN® technology Insecticide",
-        "source": "label",
-        "crops": [
-          "Cucurbits — Insects (open field only)",
-          "Fruiting Vegetables (open field only)"
-        ]
-      },
-      {
-        "productId": "sorcerer",
-        "productName": "Sorcerer® 36 Miticide/Insecticide",
-        "source": "label",
-        "crops": [
-          "Cucumber",
-          "Fruiting Vegetables (Tomatoes, Peppers, Eggplant)",
-          "Leafy Vegetables",
-          "Strawberries",
-          "Ornamental Plants"
-        ]
-      },
-      {
-        "productId": "success_neo",
-        "productName": "Success Neo Jemvelva Insecticide",
-        "source": "label",
-        "crops": [
-          "(*see list at end of table 3) Radishes1 Swedes1 Turnips1 1See also under Root & Tuber Vegetables below)",
-          "Bulb vegetables; Including but not limited to bulb onion, spring onion and leek",
-          "Cucurbits; including but not limited to cucumbers, melons, squash & zucchini",
-          "Fruiting vegetables; including but not limited to Eggplant Okra Peppers (Capsicums & Chillies), Sweet corn (see also under separate listing below) Tomatoes",
-          "Leafy vegetables; including but not limited to Lettuce, Endive Silverbeet, Spinach & Brassica leafy vegetables (*see list at end of table 3)",
-          "Legume vegetables (succulent seeds and immature pods only); including but not limited to beans, peas, snow peas and sugar snap peas.",
-          "Ornamentals",
-          "Berryfruit; including but not limited to Blackberries Blueberries Boysenberries Cranberries Currants Gooseberries Raspberries Strawberries"
-        ]
-      },
-      {
-        "productId": "syngentadurivo",
-        "productName": "Durivo Insecticide",
-        "source": "label",
-        "crops": [
-          "Brassicas (Broccoli, Brussels Sprouts, Cabbage, Cauliflower) — Insect pest control",
-          "Brassica Leafy Vegetables (Chinese broccoli, Chinese cabbage, Garden cress, Kale, Rocket) — Insect pest control",
-          "Leafy Vegetables (Lettuce, Endive, Silverbeet, Spinach, Chard) — Insect pest control",
-          "Fruiting Vegetables (Tomatoes, Capsicum, Eggplant) — Insect pest control"
-        ]
-      },
-      {
-        "productId": "entrustorganic",
-        "productName": "Entrust® Organic* Qalcova® active Insecticide",
-        "source": "label",
-        "crops": [
-          "Brassica Vegetables (Broccoli, Brussels Sprouts, Cabbage, Cauliflower)",
-          "Cucurbits (Cucumber, Melon, Squash, Zucchini)",
-          "Fruiting Vegetables (Eggplant, Okra, Capsicum, Chilli, Sweet Corn, Tomato)",
-          "Leafy Vegetables (Lettuce, Endive, Silverbeet, Spinach, Brassica Leafy Vegetables)",
-          "Legume Vegetables — Succulent Seeds and Immature Pods (Beans, Peas, Snow Pea, Sugar Snap Pea)",
-          "Ornamentals",
-          "Berryfruit (Blackberry, Blueberry, Boysenberry, Cranberry, Currant, Gooseberry, Raspberry, Strawberry)",
-          "Pome Fruit (Apples, Pears, Nashi, Loquat, Quince)",
-          "Stone Fruit (Apricot, Cherry, Nectarine)"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/western-flower-thrips.webp"
-  },
-  {
-    "commonName": "Western flower thrips [Suppression only]",
-    "scientificName": "Frankliniella occidentalis",
-    "pestType": "Sucking insect",
-    "order": "Hemiptera",
-    "cropsAffected": [
-      "Fruiting Vegetables (open field only)"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Frankliniella%20occidentalis+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "lancer",
-        "productName": "Lancer® 970 Insecticide",
-        "source": "label"
-      },
-      {
-        "productId": "simodis",
-        "productName": "SIMODIS® PLINAZOLIN® technology Insecticide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/pests/western-flower-thrips-suppression-only.webp"
-  },
-  {
-    "commonName": "White Butterfly",
-    "scientificName": "",
-    "pestType": "Chewing insect",
-    "order": "Diptera",
-    "cropsAffected": [
-      "Brassicas (Cabbage, Cauliflower, Broccoli, Brussels Sprout)"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=White%20Butterfly+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "albatross",
-        "productName": "Adama Albatross® 200SC",
-        "source": "label",
-        "crops": [
-          "Brassicas (Cabbage, Cauliflower, Broccoli, Brussels Sprout)"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/white-butterfly.webp"
-  },
-  {
-    "commonName": "White Grub",
-    "scientificName": "",
-    "pestType": "Soil pest",
-    "order": "Coleoptera",
-    "cropsAffected": [
-      "Peanuts"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=White%20Grub+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "imiguard350",
-        "productName": "Rainbow Imiguard 350 Insecticide",
-        "source": "label",
-        "crops": [
-          "Peanuts"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/white-grub.webp"
-  },
-  {
-    "commonName": "White louse scale",
-    "scientificName": "",
-    "pestType": "Sucking insect",
-    "order": "Hemiptera",
-    "cropsAffected": [
-      "Citrus",
-      "Citrus (Oranges, Lemons, Mandarins, Grapefruit, Limes)"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=White%20louse%20scale+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "adamauptown",
-        "productName": "Adama Uptown Insecticide",
-        "source": "label",
-        "crops": [
-          "Citrus (Oranges, Lemons, Mandarins, Grapefruit, Limes)"
-        ]
-      },
-      {
-        "productId": "applaud",
-        "productName": "Corteva Applaud® Insecticide",
-        "source": "label",
-        "crops": [
-          "Citrus (Oranges, Lemons, Mandarins, Grapefruit, Limes)"
-        ]
-      },
-      {
-        "productId": "imtradekersel850wg",
-        "productName": "Imtrade Kersel 850 WG Insecticide",
-        "source": "label",
-        "crops": [
-          "Citrus"
-        ]
-      },
-      {
-        "productId": "movento",
-        "productName": "Bayer Movento 240 SC Insecticide",
-        "source": "label",
-        "crops": [
-          "Citrus"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/white-louse-scale.webp"
-  },
-  {
-    "commonName": "White mango scale",
-    "scientificName": "",
-    "pestType": "Sucking insect",
-    "order": "Hemiptera",
-    "cropsAffected": [
-      "Mango",
-      "Mango (see also Assorted tropical and sub- tropical fruits (inedible peel))",
-      "Mangoes (Post flowering applications)",
-      "Mangoes (Post harvest applications - no fruit)"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=White%20mango%20scale+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "movento",
-        "productName": "Bayer Movento 240 SC Insecticide",
-        "source": "label",
-        "crops": [
-          "Mangoes (Post flowering applications)",
-          "Mangoes (Post harvest applications - no fruit)",
-          "Sandalwood — White Mango Scale (PER94197)"
-        ]
-      },
-      {
-        "productId": "transform",
-        "productName": "Corteva Transform® Isoclast® Active",
-        "source": "label",
-        "crops": [
-          "Mango (see also Assorted tropical and sub- tropical fruits (inedible peel))"
-        ]
-      },
-      {
-        "productId": "transform_wg",
-        "productName": "Corteva Transform® WG Isoclast® Active",
-        "source": "label",
-        "crops": [
-          "Mango"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/white-mango-scale.webp"
-  },
-  {
-    "commonName": "White wax scale",
-    "scientificName": "",
-    "pestType": "Sucking insect",
-    "order": "Hemiptera",
-    "cropsAffected": [
-      "Blueberries",
-      "Citrus",
-      "Citrus (oranges and lemons only)",
-      "Ornamentals"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=White%20wax%20scale+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "adamabugmaster",
-        "productName": "Bugmaster Flowable Insecticide",
-        "source": "label",
-        "crops": [
-          "Citrus (oranges and lemons only)",
-          "Ornamentals"
-        ]
-      },
-      {
-        "productId": "biopestoil",
-        "productName": "Biopest Cinagro Paraffinic Oil",
-        "source": "label",
-        "crops": [
-          "Citrus"
-        ]
-      },
-      {
-        "productId": "movento",
-        "productName": "Bayer Movento 240 SC Insecticide",
-        "source": "label",
-        "crops": [
-          "Blueberries"
-        ]
-      },
-      {
-        "productId": "trumpsprayoil",
-        "productName": "Trump Spray Oil",
-        "source": "label",
-        "crops": [
-          "Citrus"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/white-wax-scale.webp"
-  },
-  {
-    "commonName": "Whitefooted Ant",
-    "scientificName": "Technomyrmex albipes",
-    "pestType": "General pest",
-    "order": "",
-    "cropsAffected": [],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Technomyrmex%20albipes+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "basftermidorresidual",
-        "productName": "BASF Termidor® Residual Termiticide and Insecticide",
-        "source": "label",
-        "crops": [
-          "Nuisance Ants — External Areas"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/whitefooted-ant.webp"
-  },
-  {
-    "commonName": "Whitefooted House Ant",
-    "scientificName": "",
-    "pestType": "General pest",
-    "order": "",
-    "cropsAffected": [],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Whitefooted%20House%20Ant+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "surefire",
-        "productName": "Surefire Termiticide and Insecticide",
-        "source": "label",
-        "crops": [
-          "Urban Pest Control — Ants (External / Nuisance)"
-        ]
-      }
-    ]
-  },
-  {
-    "commonName": "Whitefringed Weevil",
-    "scientificName": "",
-    "pestType": "Chewing insect",
-    "order": "Lepidoptera",
-    "cropsAffected": [
-      "Potatoes"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Whitefringed%20Weevil+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "albatross",
-        "productName": "Adama Albatross® 200SC",
-        "source": "label",
-        "crops": [
-          "Potatoes"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/whitefringed-weevil.webp"
-  },
-  {
-    "commonName": "Wingless grasshopper",
-    "scientificName": "Phaulacridium vittatum",
-    "pestType": "Chewing insect",
-    "order": "Lepidoptera",
-    "cropsAffected": [
-      "Avocados",
-      "Beetroot",
-      "Citrus (oranges and lemons only)",
-      "Feijoa, Guavas (non-flowering / non-fruiting trees only)",
-      "Jaboticaba, Jackfruit (non-flowering / non-fruiting trees only)",
-      "Longans, Litchis (non-flowering / non-fruiting trees only)",
-      "Lychee",
-      "Macadamias",
-      "Mangoes",
-      "Ornamentals",
-      "Pastures (Legume and grass based)",
-      "Pastures and Pasture Seed Crops",
-      "Potatoes",
-      "Rambutans (non-flowering / non-fruiting trees only)",
-      "Raspberries",
-      "Turnips / Swede"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Wingless%20grasshopper+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "adamabugmaster",
-        "productName": "Bugmaster Flowable Insecticide",
-        "source": "label",
-        "crops": [
-          "Avocados",
-          "Citrus (oranges and lemons only)",
-          "Feijoa, Guavas (non-flowering / non-fruiting trees only)",
-          "Jaboticaba, Jackfruit (non-flowering / non-fruiting trees only)",
-          "Longans, Litchis (non-flowering / non-fruiting trees only)",
-          "Macadamias",
-          "Mangoes",
-          "Pome Fruit — Apples, Pears",
-          "Rambutans (non-flowering / non-fruiting trees only)",
-          "Raspberries",
-          "Stone Fruit — Apricots, Nectarines, Peaches, Plums, Prunes (NOT cherries)",
-          "Beetroot",
-          "Cucurbits — Melons and other cucurbits (prior to flowering only)",
-          "Potatoes",
-          "Turnips / Swede",
-          "Cereals — Wheat, Barley, Sorghum, Maize",
-          "Pastures and Pasture Seed Crops",
-          "Ornamentals",
-          "Lychee"
-        ]
-      },
-      {
-        "productId": "alphascud",
-        "productName": "Alpha-Scud® 300 SC Insecticide",
-        "source": "label",
-        "crops": [
-          "Pastures (Legume and grass based)"
-        ]
-      },
-      {
-        "productId": "avatarevo",
-        "productName": "Avatar® eVo Insecticide",
-        "source": "label",
-        "crops": [
-          "Pome Fruit — Wingless Grasshopper",
-          "Stone Fruit — Wingless Grasshopper",
-          "Grapes — Wingless Grasshopper"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/wingless-grasshopper.webp"
-  },
-  {
-    "commonName": "Woolly aphid",
-    "scientificName": "",
-    "pestType": "Sucking insect",
-    "order": "Hemiptera",
-    "cropsAffected": [
-      "Apples"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Woolly%20aphid+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "imiguard350",
-        "productName": "Rainbow Imiguard 350 Insecticide",
-        "source": "label",
-        "crops": [
-          "Apples"
-        ]
-      },
-      {
-        "productId": "surefirerspectrum200sc",
-        "productName": "Surefire Spectrum 200SC Insecticide",
-        "source": "label",
-        "crops": [
-          "Apples"
-        ]
-      },
-      {
-        "productId": "pirimor",
-        "productName": "PIRIMOR® WG Aphicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/pests/woolly-aphid.webp"
-  },
-  {
-    "commonName": "Woolly Apple Aphid",
-    "scientificName": "Eriosoma lanigerum",
-    "pestType": "Sucking insect",
-    "order": "Hemiptera",
-    "cropsAffected": [
-      "Apples",
-      "Pome Fruit",
-      "Pome Fruit (Apples, Pears, Nashi)",
-      "Pome fruit"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Eriosoma%20lanigerum+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "imtradekersel850wg",
-        "productName": "Imtrade Kersel 850 WG Insecticide",
-        "source": "label",
-        "crops": [
-          "Pome Fruit"
-        ]
-      },
-      {
-        "productId": "samurai",
-        "productName": "Samurai® Systemic Insecticide",
-        "source": "label",
-        "crops": [
-          "Apples — Woolly Apple Aphid (Foliar)",
-          "Apples — Woolly Apple Aphid (Micro-Irrigation, 1000–3000 trees/ha)",
-          "Apples — Woolly Apple Aphid (Soil Drench, 666–1000 trees/ha)"
-        ]
-      },
-      {
-        "productId": "transform_wg",
-        "productName": "Corteva Transform® WG Isoclast® Active",
-        "source": "label",
-        "crops": [
-          "Pome Fruit (Apples, Pears, Nashi)"
-        ]
-      },
-      {
-        "productId": "uplmainman500wg",
-        "productName": "AgNova Mainman 500 WG Insecticide",
-        "source": "label",
-        "crops": [
-          "Apples"
-        ]
-      },
-      {
-        "productId": "movento",
-        "productName": "Bayer Movento 240 SC Insecticide",
-        "source": "label",
-        "crops": [
-          "Pome fruit"
-        ]
-      },
-      {
-        "productId": "pirimor",
-        "productName": "PIRIMOR® WG Aphicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/pests/woolly-apple-aphid.webp"
-  },
-  {
-    "commonName": "Xylorectid caterpillar",
-    "scientificName": "",
-    "pestType": "Chewing insect",
-    "order": "Lepidoptera",
-    "cropsAffected": [
-      "Tea-tree (Melaleuca alternifolia)"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Xylorectid%20caterpillar+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "sinmas",
-        "productName": "Sinmas 225 Insecticide",
-        "source": "label",
-        "crops": [
-          "Tea-tree (Melaleuca alternifolia)"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/xylorectid_caterpillar.webp"
-  },
-  {
-    "commonName": "Yellow Crazy Ant",
-    "scientificName": "Anoplolepis gracilipes",
-    "pestType": "General pest",
-    "order": "",
-    "cropsAffected": [],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Anoplolepis%20gracilipes+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "basftermidorresidual",
-        "productName": "BASF Termidor® Residual Termiticide and Insecticide",
-        "source": "label",
-        "crops": [
-          "Nesting Ants — Spot Application"
-        ]
-      },
-      {
-        "productId": "surefire",
-        "productName": "Surefire Termiticide and Insecticide",
-        "source": "label",
-        "crops": [
-          "Urban Pest Control — Ants (Nesting / Spot Treatment)"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/yellow-crazy-ant.webp"
-  },
-  {
-    "commonName": "Yellow mirid",
-    "scientificName": "",
-    "pestType": "Sucking insect",
-    "order": "Hemiptera",
-    "cropsAffected": [
-      "Lucerne",
-      "Mango",
-      "Cane berries (including but not limited to blackberries and raspberries)"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Yellow%20mirid+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "transform_wg",
-        "productName": "Corteva Transform® WG Isoclast® Active",
-        "source": "label",
-        "crops": [
-          "Lucerne",
-          "Mango"
-        ]
-      },
-      {
-        "productId": "transform",
-        "productName": "Corteva Transform® Isoclast® Active",
-        "source": "label",
-        "crops": [
-          "Cane berries (including but not limited to blackberries and raspberries)"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/yellow-mirid.webp"
-  },
-  {
-    "commonName": "Yellow peach moth",
-    "scientificName": "Carposina niponensis",
-    "pestType": "Chewing insect",
-    "order": "Lepidoptera",
-    "cropsAffected": [
-      "Citrus (oranges and lemons only)",
-      "Custard Apple",
-      "Longans, Litchis (non-flowering / non-fruiting trees only)",
-      "Lychee",
-      "Macadamias",
-      "Mango",
-      "Pecans",
-      "Persimmons"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Carposina%20niponensis+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "22846adamaventurimaxweblabela4",
-        "productName": "Venturi® Max Insecticide",
-        "source": "label",
-        "crops": [
-          "Custard Apple",
-          "Persimmons"
-        ]
-      },
-      {
-        "productId": "adamabugmaster",
-        "productName": "Bugmaster Flowable Insecticide",
-        "source": "label",
-        "crops": [
-          "Citrus (oranges and lemons only)",
-          "Longans, Litchis (non-flowering / non-fruiting trees only)",
-          "Macadamias",
-          "Pecans",
-          "Lychee"
-        ]
-      },
-      {
-        "productId": "bulldock",
-        "productName": "Bayer Bulldock® 25 EC Insecticide",
-        "source": "label",
-        "crops": [
-          "Mango",
-          "Lychee"
-        ]
-      },
-      {
-        "productId": "cortevasuccessultra",
-        "productName": "Yates Success Ultra Insect Control",
-        "source": "label",
-        "crops": [
-          "Tropical and sub tropical fruit crops (inedible peel) — Caterpillars & leafrollers"
-        ]
-      },
-      {
-        "productId": "entrustorganic",
-        "productName": "Entrust® Organic* Qalcova® active Insecticide",
-        "source": "label",
-        "crops": [
-          "Tropical and Sub-Tropical Fruit Crops — Inedible Peel (Avocado, Cherimoya, Custard Apple, Durian, Feijoa, Guava, Jackfruit, Kiwifruit, Longan, Lychee, Mango, Mangosteen, Papaya, Passionfruit, Persimmon, Rambutan, Star Apple)"
-        ]
-      },
-      {
-        "productId": "productnameactipster500sl",
-        "productName": "AC Tipster 500 SL",
-        "source": "label",
-        "crops": [
-          "Mango",
-          "Lychee"
-        ]
-      },
-      {
-        "productId": "success_neo",
-        "productName": "Success Neo Jemvelva Insecticide",
-        "source": "label",
-        "crops": [
-          "Macadamias"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/yellow-peach-moth.webp"
-  },
-  {
-    "commonName": "Yellow-winged locust",
-    "scientificName": "",
-    "pestType": "Chewing insect",
-    "order": "Lepidoptera",
-    "cropsAffected": [
-      "Pastures and Pasture Seed Crops"
-    ],
-    "damageType": "",
-    "controlMethods": [],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Yellow-winged%20locust+pest+australia",
-    "linkedProducts": [
-      {
-        "productId": "adamabugmaster",
-        "productName": "Bugmaster Flowable Insecticide",
-        "source": "label",
-        "crops": [
-          "Cereals — Wheat, Barley, Sorghum, Maize",
-          "Pastures and Pasture Seed Crops"
-        ]
-      }
-    ],
-    "thumbnail": "images/pests/yellow-winged-locust.webp"
-  }
-];
+        "productName": "Surefire Termiticide a

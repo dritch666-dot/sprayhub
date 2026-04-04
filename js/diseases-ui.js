@@ -12,6 +12,38 @@
     'Fungal': '🍄', 'Oomycete': '💧', 'Bacterial': '🦠', 'Viral': '🧬'
   };
 
+  // ── ALA State Distribution Row ───────────────────────────
+  var STATE_ORDER = ['QLD', 'NSW', 'VIC', 'SA', 'WA', 'TAS', 'NT', 'ACT'];
+  var STATE_COLORS = {
+    'QLD': '#7e22ce', 'NSW': '#0284c7', 'VIC': '#1e40af',
+    'SA': '#dc2626', 'WA': '#eab308', 'TAS': '#16a34a',
+    'NT': '#ea580c', 'ACT': '#6366f1'
+  };
+
+  function buildDistributionRow(dist) {
+    if (!dist || !dist.states) return '';
+    var states = dist.states;
+    var max = 0;
+    STATE_ORDER.forEach(function (s) { if ((states[s] || 0) > max) max = states[s]; });
+    if (max === 0) return '';
+
+    var bars = STATE_ORDER.map(function (s) {
+      var count = states[s] || 0;
+      var pct = Math.max(count > 0 ? 4 : 0, Math.round((count / max) * 100));
+      var color = STATE_COLORS[s] || '#94a3b8';
+      return '<div class="ala-dist-col">'
+        + '<div class="ala-dist-bar-bg"><div class="ala-dist-bar" style="height:' + pct + '%;background:' + color + '"></div></div>'
+        + '<div class="ala-dist-label">' + s + '</div>'
+        + '<div class="ala-dist-count">' + (count > 999 ? Math.round(count / 1000) + 'k' : count) + '</div>'
+        + '</div>';
+    }).join('');
+
+    return '<div class="disease-meta-row ala-dist-row">'
+      + '<strong>Distribution:</strong> <span class="ala-dist-total">' + dist.total.toLocaleString() + ' ALA records</span>'
+      + '<div class="ala-dist-chart">' + bars + '</div>'
+      + '</div>';
+  }
+
   var DISEASE_TYPE_COLORS = {
     'Fungal':     { bg: '#e0f2fe', text: '#075985', border: '#7dd3fc' },
     'Oomycete':   { bg: '#f0fdf4', text: '#166534', border: '#86efac' },
@@ -341,6 +373,7 @@
         + symptomsRow
         + conditionsRow
         + (controlTags ? '<div class="disease-meta-row"><strong>Control:</strong> ' + controlTags + '</div>' : '')
+        + buildDistributionRow(d.alaDistribution)
         + productsSection
         + '<div class="disease-card-actions">'
         + '<a href="' + d.imageUrl + '" target="_blank" rel="noopener" class="disease-img-btn">📷 View Images</a>'

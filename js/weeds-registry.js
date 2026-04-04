@@ -9,7 +9,12 @@ window.weedsRegistry = [
       }
     ],
     "thumbnail": "images/weeds/noogoora-burr.webp",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=*Noogoora%20Burr%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=*Noogoora%20Burr%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/df147005-7fbd-4b6a-9e1c-5e2367558ad6/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/df147005-7fbd-4b6a-9e1c-5e2367558ad6/large",
+    "scientificName": "Xanthium occidentale",
+    "family": "Asteraceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51311048"
   },
   {
     "commonName": "*Variegated Thistle",
@@ -21,7 +26,12 @@ window.weedsRegistry = [
       }
     ],
     "thumbnail": "images/weeds/variegated-thistle.webp",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=*Variegated%20Thistle%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=*Variegated%20Thistle%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/039ad0b2-e2e9-4946-b79e-2bb5b3561d76/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/039ad0b2-e2e9-4946-b79e-2bb5b3561d76/large",
+    "scientificName": "Silybum marianum",
+    "family": "Asteraceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2921072"
   },
   {
     "commonName": "Acacia",
@@ -37,7 +47,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Acacia%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Acacia%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/c35b613d-d557-46fb-9ca9-bd16431c5eba/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/c35b613d-d557-46fb-9ca9-bd16431c5eba/large",
+    "scientificName": "Acacia urophylla",
+    "family": "Fabaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2894580"
   },
   {
     "commonName": "Active Growth Spring To Summer",
@@ -48,7 +63,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Active%20Growth%20Spring%20To%20Summer%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Active%20Growth%20Spring%20To%20Summer%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/a06f4035-84cf-427e-82e0-69006808f700/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a06f4035-84cf-427e-82e0-69006808f700/large",
+    "scientificName": "Eriochloa pseudoacrotricha",
+    "family": "Poaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2891895"
   },
   {
     "commonName": "Aerial yam",
@@ -75,7 +95,8 @@ window.weedsRegistry = [
     "floweringPeriod": "Summer-Autumn",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Aerial+yam+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/aerial-yam.webp"
+    "thumbnail": "images/weeds/aerial-yam.webp",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2907956"
   },
   {
     "commonName": "Afghan Melons",
@@ -86,7 +107,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Afghan%20Melons%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Afghan%20Melons%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/39ba5df3-bfc1-47e7-a934-509cff702d26/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/39ba5df3-bfc1-47e7-a934-509cff702d26/large",
+    "scientificName": "Solanum hystrix",
+    "family": "Solanaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2910727"
   },
   {
     "commonName": "Afghan thistle",
@@ -116,7 +142,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/afghan-thistle.webp"
+    "thumbnail": "images/weeds/afghan-thistle.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/39ba5df3-bfc1-47e7-a934-509cff702d26/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/39ba5df3-bfc1-47e7-a934-509cff702d26/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2910727"
   },
   {
     "commonName": "African boxthorn",
@@ -166,7 +195,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/african-boxthorn.webp"
+    "thumbnail": "images/weeds/african-boxthorn.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/12288efc-0ab2-4990-a431-cb9c46fbd335/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/12288efc-0ab2-4990-a431-cb9c46fbd335/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51447682"
   },
   {
     "commonName": "African feathergrass",
@@ -201,7 +233,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/african-feathergrass.webp"
+    "thumbnail": "images/weeds/african-feathergrass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/d94a15dc-bafe-41a8-b586-85a34f9fa221/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/d94a15dc-bafe-41a8-b586-85a34f9fa221/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51403416"
   },
   {
     "commonName": "African fountain grass",
@@ -230,7 +265,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=African+fountain+grass+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/african-fountain-grass.webp"
+    "thumbnail": "images/weeds/african-fountain-grass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/d94a15dc-bafe-41a8-b586-85a34f9fa221/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/d94a15dc-bafe-41a8-b586-85a34f9fa221/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51403416"
   },
   {
     "commonName": "African lovegrass",
@@ -290,7 +328,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/african-lovegrass.webp"
+    "thumbnail": "images/weeds/african-lovegrass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/b49f6ec1-5f4f-4161-9e31-63430ccda676/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/b49f6ec1-5f4f-4161-9e31-63430ccda676/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2889922"
   },
   {
     "commonName": "African olive",
@@ -317,7 +358,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Olea+europaea+cuspidata+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/african-olive.webp"
+    "thumbnail": "images/weeds/african-olive.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/d94a15dc-bafe-41a8-b586-85a34f9fa221/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/d94a15dc-bafe-41a8-b586-85a34f9fa221/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51403416"
   },
   {
     "commonName": "African tulip tree",
@@ -346,7 +390,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Year Round",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=African+tulip+tree+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/african-tulip-tree.webp"
+    "thumbnail": "images/weeds/african-tulip-tree.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/f772aebe-30d0-4287-8491-e48f7948dd95/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f772aebe-30d0-4287-8491-e48f7948dd95/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51269204"
   },
   {
     "commonName": "African turnip weed",
@@ -400,7 +447,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/african-turnip-weed.webp"
+    "thumbnail": "images/weeds/african-turnip-weed.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/27ffdde9-d444-4740-a694-3749c5c1026d/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/27ffdde9-d444-4740-a694-3749c5c1026d/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2906817"
   },
   {
     "commonName": "Agave",
@@ -432,7 +482,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Summer-Autumn",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Agave+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/agave.webp"
+    "thumbnail": "images/weeds/agave.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/24d5cadd-d45d-4aa3-8d8f-ba3d01f99d42/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/24d5cadd-d45d-4aa3-8d8f-ba3d01f99d42/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2906432"
   },
   {
     "commonName": "Ageratum",
@@ -464,7 +517,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/ageratum.webp"
+    "thumbnail": "images/weeds/ageratum.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/1af5410c-7549-4d03-a7b4-2a473d286395/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/1af5410c-7549-4d03-a7b4-2a473d286395/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2912908"
   },
   {
     "commonName": "Aleman grass",
@@ -483,7 +539,10 @@ window.weedsRegistry = [
     "floweringPeriod": "",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Aleman+grass+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/aleman-grass.webp"
+    "thumbnail": "images/weeds/aleman-grass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/3f915aed-e8ed-486d-ab0a-c720217838c3/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/3f915aed-e8ed-486d-ab0a-c720217838c3/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2903283"
   },
   {
     "commonName": "Alligator weed",
@@ -519,7 +578,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/alligator-weed.webp"
+    "thumbnail": "images/weeds/alligator-weed.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/d61bec99-d74e-4aab-9a1b-dc0fee736cca/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/d61bec99-d74e-4aab-9a1b-dc0fee736cca/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2890667"
   },
   {
     "commonName": "Amaranth",
@@ -610,7 +672,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/amaranth.webp"
+    "thumbnail": "images/weeds/amaranth.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/32311c56-14fd-4e80-bbbf-bde1f7819856/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/32311c56-14fd-4e80-bbbf-bde1f7819856/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2886290"
   },
   {
     "commonName": "Amaranths",
@@ -646,7 +711,10 @@ window.weedsRegistry = [
     "floweringPeriod": "",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Amazon+frogbit+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/amazon-frogbit.webp"
+    "thumbnail": "images/weeds/amazon-frogbit.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/e6e2d1ca-46c7-4451-8505-df4176dbe57c/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/e6e2d1ca-46c7-4451-8505-df4176dbe57c/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51773815"
   },
   {
     "commonName": "American rat's tail grass",
@@ -676,7 +744,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring - Autumn",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=American+rat's+tail+grass+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/american-rat-s-tail-grass.webp"
+    "thumbnail": "images/weeds/american-rat-s-tail-grass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/586febd8-4536-4484-a8d1-13c8f4d3aeca/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/586febd8-4536-4484-a8d1-13c8f4d3aeca/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51299757"
   },
   {
     "commonName": "Amsinckia",
@@ -764,7 +835,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/amsinckia.webp"
+    "thumbnail": "images/weeds/amsinckia.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/90d0161e-a3d4-4da5-a825-f5365b4ecbab/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/90d0161e-a3d4-4da5-a825-f5365b4ecbab/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51269592"
   },
   {
     "commonName": "Amsinkia",
@@ -788,7 +862,9 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Amsinkia%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Amsinkia%20weed%20Australia",
+    "scientificName": "Amsinkia calycina",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/instance/apni/51269605"
   },
   {
     "commonName": "Anchored water hyacinth",
@@ -811,7 +887,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Summer and Autumn",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Anchored+water+hyacinth+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/anchored-water-hyacinth.webp"
+    "thumbnail": "images/weeds/anchored-water-hyacinth.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/d4147e55-7736-4408-9470-382dd6d2ee0c/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/d4147e55-7736-4408-9470-382dd6d2ee0c/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51403399"
   },
   {
     "commonName": "Angled onion weed",
@@ -841,7 +920,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/angled-onion-weed.webp"
+    "thumbnail": "images/weeds/angled-onion-weed.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/c4aefd50-aefd-4701-b4ca-85bc6acc9ec4/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/c4aefd50-aefd-4701-b4ca-85bc6acc9ec4/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2893670"
   },
   {
     "commonName": "Angophora",
@@ -862,7 +944,12 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Angophora%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Angophora%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/5250c838-a103-412c-903c-8381d36fc855/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/5250c838-a103-412c-903c-8381d36fc855/large",
+    "scientificName": "Angophora leiocarpa",
+    "family": "Myrtaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2894339"
   },
   {
     "commonName": "Annual and Perennial Grasses",
@@ -873,7 +960,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Annual%20and%20Perennial%20Grasses%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Annual%20and%20Perennial%20Grasses%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/6289c28e-eaac-4b64-af39-a9c23a55fad3/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/6289c28e-eaac-4b64-af39-a9c23a55fad3/large",
+    "scientificName": "Minuria annua",
+    "family": "Asteraceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2912769"
   },
   {
     "commonName": "Annual Grass Weeds",
@@ -884,7 +976,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Annual%20Grass%20Weeds%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Annual%20Grass%20Weeds%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/6289c28e-eaac-4b64-af39-a9c23a55fad3/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/6289c28e-eaac-4b64-af39-a9c23a55fad3/large",
+    "scientificName": "Minuria annua",
+    "family": "Asteraceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2912769"
   },
   {
     "commonName": "Annual ground cherry",
@@ -967,7 +1064,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/annual-ground-cherry.webp"
+    "thumbnail": "images/weeds/annual-ground-cherry.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/d75bdcd8-1b59-4418-81cf-ecac0cdb46a6/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/d75bdcd8-1b59-4418-81cf-ecac0cdb46a6/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2894210"
   },
   {
     "commonName": "Annual medic",
@@ -1031,7 +1131,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/annual-medic.webp"
+    "thumbnail": "images/weeds/annual-medic.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/6289c28e-eaac-4b64-af39-a9c23a55fad3/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/6289c28e-eaac-4b64-af39-a9c23a55fad3/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2912769"
   },
   {
     "commonName": "Annual Medics",
@@ -1042,7 +1145,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Annual%20Medics%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Annual%20Medics%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/6289c28e-eaac-4b64-af39-a9c23a55fad3/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/6289c28e-eaac-4b64-af39-a9c23a55fad3/large",
+    "scientificName": "Minuria annua",
+    "family": "Asteraceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2912769"
   },
   {
     "commonName": "Annual polymeria",
@@ -1076,7 +1184,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/annual-polymeria.webp"
+    "thumbnail": "images/weeds/annual-polymeria.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/6289c28e-eaac-4b64-af39-a9c23a55fad3/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/6289c28e-eaac-4b64-af39-a9c23a55fad3/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2912769"
   },
   {
     "commonName": "Annual ragweed",
@@ -1121,7 +1232,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/annual-ragweed.webp"
+    "thumbnail": "images/weeds/annual-ragweed.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/36027331-033a-4f53-b20b-7a9c76c884bf/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/36027331-033a-4f53-b20b-7a9c76c884bf/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51267222"
   },
   {
     "commonName": "Annual ryegrass",
@@ -1298,7 +1412,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/annual-ryegrass.webp"
+    "thumbnail": "images/weeds/annual-ryegrass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/a21e8542-f662-4b2c-b4ee-69b2a138c0db/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a21e8542-f662-4b2c-b4ee-69b2a138c0db/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2919175"
   },
   {
     "commonName": "Annual saltbush",
@@ -1334,7 +1451,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/annual-saltbush.webp"
+    "thumbnail": "images/weeds/annual-saltbush.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/af693d62-4bcf-490b-a7f2-850653dabc88/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/af693d62-4bcf-490b-a7f2-850653dabc88/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2894456"
   },
   {
     "commonName": "Annual sedges",
@@ -1372,7 +1492,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/annual-sedges.webp"
+    "thumbnail": "images/weeds/annual-sedges.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/6289c28e-eaac-4b64-af39-a9c23a55fad3/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/6289c28e-eaac-4b64-af39-a9c23a55fad3/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2912769"
   },
   {
     "commonName": "Annual thistles",
@@ -1417,7 +1540,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/annual-thistles.webp"
+    "thumbnail": "images/weeds/annual-thistles.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/6289c28e-eaac-4b64-af39-a9c23a55fad3/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/6289c28e-eaac-4b64-af39-a9c23a55fad3/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2912769"
   },
   {
     "commonName": "Annual Thistles.",
@@ -1429,7 +1555,12 @@ window.weedsRegistry = [
       }
     ],
     "thumbnail": "images/weeds/annual-thistles.webp",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Annual%20Thistles.%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Annual%20Thistles.%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/6289c28e-eaac-4b64-af39-a9c23a55fad3/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/6289c28e-eaac-4b64-af39-a9c23a55fad3/large",
+    "scientificName": "Minuria annua",
+    "family": "Asteraceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2912769"
   },
   {
     "commonName": "Annual thunbergia",
@@ -1451,7 +1582,8 @@ window.weedsRegistry = [
     "floweringPeriod": "Unknown",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Annual+thunbergia+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/annual-thunbergia.webp"
+    "thumbnail": "images/weeds/annual-thunbergia.webp",
+    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_226"
   },
   {
     "commonName": "Anoda weed",
@@ -1487,7 +1619,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/anoda-weed.webp"
+    "thumbnail": "images/weeds/anoda-weed.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/8adbdade-5d98-45e0-9f6a-05939d7199f8/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/8adbdade-5d98-45e0-9f6a-05939d7199f8/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2892712"
   },
   {
     "commonName": "Anzac tree daisy",
@@ -1544,7 +1679,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/apple-box.webp"
+    "thumbnail": "images/weeds/apple-box.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/fb58cbfa-662d-4229-946a-c1cc0755b852/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/fb58cbfa-662d-4229-946a-c1cc0755b852/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2888845"
   },
   {
     "commonName": "Apple of peru",
@@ -1622,7 +1760,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/apple-of-peru.webp"
+    "thumbnail": "images/weeds/apple-of-peru.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/926a0362-1ce9-49d4-9476-6f6f6f3df309/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/926a0362-1ce9-49d4-9476-6f6f6f3df309/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2903527"
   },
   {
     "commonName": "Arctotheca calendula",
@@ -1633,7 +1774,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Arctotheca%20calendula%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Arctotheca%20calendula%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/e0864ea3-2dd4-4592-9538-c2ec93fdf853/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/e0864ea3-2dd4-4592-9538-c2ec93fdf853/large",
+    "scientificName": "Arctotheca calendula",
+    "family": "Asteraceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51267241"
   },
   {
     "commonName": "Argentine peppercress",
@@ -1667,7 +1813,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/argentine-peppercress.webp"
+    "thumbnail": "images/weeds/argentine-peppercress.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/e9aadb3d-5f57-49f1-a700-bca36fcb76a7/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/e9aadb3d-5f57-49f1-a700-bca36fcb76a7/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2916964"
   },
   {
     "commonName": "Armyworms",
@@ -1707,7 +1856,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/arrowhead.webp"
+    "thumbnail": "images/weeds/arrowhead.webp",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2887256"
   },
   {
     "commonName": "Arsenic bush",
@@ -1734,7 +1884,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Flowering occurs mainly during spring and autumn.",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Arsenic+bush+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/arsenic-bush.webp"
+    "thumbnail": "images/weeds/arsenic-bush.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/b14c07ea-ed06-4dc0-82f9-2feff986fa3b/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/b14c07ea-ed06-4dc0-82f9-2feff986fa3b/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2903219"
   },
   {
     "commonName": "Artichoke",
@@ -1806,7 +1959,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/artichoke.webp"
+    "thumbnail": "images/weeds/artichoke.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/18999fb6-3781-4431-a5ab-1cea9f0c2cef/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/18999fb6-3781-4431-a5ab-1cea9f0c2cef/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2886287"
   },
   {
     "commonName": "Arum lily",
@@ -1843,7 +1999,10 @@ window.weedsRegistry = [
     "floweringPeriod": "",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Arum+lily+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/arum-lily.webp"
+    "thumbnail": "images/weeds/arum-lily.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/06345227-4ae9-4581-85b5-972975a4fc5b/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/06345227-4ae9-4581-85b5-972975a4fc5b/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/6917219"
   },
   {
     "commonName": "Associated Weeds",
@@ -1854,7 +2013,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Associated%20Weeds%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Associated%20Weeds%20weed%20Australia",
+    "scientificName": "Grapevine red blotch-associated virus",
+    "family": "Geminiviridae",
+    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_1520"
   },
   {
     "commonName": "Asthma plant",
@@ -1900,7 +2062,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/asthma-plant.webp"
+    "thumbnail": "images/weeds/asthma-plant.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/e5411a45-763a-4459-8277-6aa4e6aea04c/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/e5411a45-763a-4459-8277-6aa4e6aea04c/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51284110"
   },
   {
     "commonName": "Athel pine",
@@ -1932,7 +2097,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Athel+pine+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/athel-pine.webp"
+    "thumbnail": "images/weeds/athel-pine.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/70c878bc-8ffe-46fb-a70f-a69648c680ea/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/70c878bc-8ffe-46fb-a70f-a69648c680ea/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2907597"
   },
   {
     "commonName": "Australian bindweed",
@@ -1982,7 +2150,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/australian-bindweed.webp"
+    "thumbnail": "images/weeds/australian-bindweed.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/472570da-007f-4d1d-bcfa-b359178ec33e/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/472570da-007f-4d1d-bcfa-b359178ec33e/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2887814"
   },
   {
     "commonName": "Australian blackthorn",
@@ -2028,7 +2199,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/australian-blackthorn.webp"
+    "thumbnail": "images/weeds/australian-blackthorn.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/3e0114ca-91b1-4eba-bc36-23b5b5c2ecbb/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/3e0114ca-91b1-4eba-bc36-23b5b5c2ecbb/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51442338"
   },
   {
     "commonName": "Australian bluebell",
@@ -2067,7 +2241,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/australian-bluebell.webp"
+    "thumbnail": "images/weeds/australian-bluebell.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/0c08c101-bf66-4aa9-9b8b-0dcc1e41a7ec/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/0c08c101-bf66-4aa9-9b8b-0dcc1e41a7ec/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2899057"
   },
   {
     "commonName": "Australian bluebell cudweed",
@@ -2119,7 +2296,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/australian-bluebell-cudweed.webp"
+    "thumbnail": "images/weeds/australian-bluebell-cudweed.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/a517de5e-021a-42ac-bbc6-de5cf8086fae/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a517de5e-021a-42ac-bbc6-de5cf8086fae/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2912378"
   },
   {
     "commonName": "Avena spp.",
@@ -2155,7 +2335,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring and Summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Awabuki+Sweet+Viburnum+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/awabuki-sweet-viburnum.webp"
+    "thumbnail": "images/weeds/awabuki-sweet-viburnum.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/1c295a0c-edc1-4072-b4a7-01b91f47ae1f/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/1c295a0c-edc1-4072-b4a7-01b91f47ae1f/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51449437"
   },
   {
     "commonName": "Awnless barnyard",
@@ -2186,7 +2369,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Year round",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Awnless+barnyard+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/awnless-barnyard.webp"
+    "thumbnail": "images/weeds/awnless-barnyard.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/ce858740-586a-4bd0-842a-e4c640e41f24/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/ce858740-586a-4bd0-842a-e4c640e41f24/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51291297"
   },
   {
     "commonName": "Awnless Barnyard Grass",
@@ -2207,7 +2393,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Awnless%20Barnyard%20Grass%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Awnless%20Barnyard%20Grass%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/ce858740-586a-4bd0-842a-e4c640e41f24/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/ce858740-586a-4bd0-842a-e4c640e41f24/large",
+    "scientificName": "Echinochloa colona",
+    "family": "Poaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51291297"
   },
   {
     "commonName": "Azolla",
@@ -2230,7 +2421,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Year-round",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Red+Azolla+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/azolla.webp"
+    "thumbnail": "images/weeds/azolla.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/42903053-9f4e-40f6-ae97-c80ca3048552/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/42903053-9f4e-40f6-ae97-c80ca3048552/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2909696"
   },
   {
     "commonName": "Badhara bush",
@@ -2255,7 +2449,10 @@ window.weedsRegistry = [
     "floweringPeriod": "",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Badhara+bush+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/badhara-bush.webp"
+    "thumbnail": "images/weeds/badhara-bush.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/30f0bb32-0835-4720-891d-1e1a3995049c/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/30f0bb32-0835-4720-891d-1e1a3995049c/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2913760"
   },
   {
     "commonName": "Bahia grass",
@@ -2288,7 +2485,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/bahia-grass.webp"
+    "thumbnail": "images/weeds/bahia-grass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/f7b6742e-5b70-4671-bcd6-a76f6be2feda/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f7b6742e-5b70-4671-bcd6-a76f6be2feda/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2902131"
   },
   {
     "commonName": "Ball mustard",
@@ -2336,7 +2536,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/ball-mustard.webp"
+    "thumbnail": "images/weeds/ball-mustard.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/c9935995-c08b-42cc-8135-56a89ace7a12/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/c9935995-c08b-42cc-8135-56a89ace7a12/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2896313"
   },
   {
     "commonName": "Balloon cotton bush",
@@ -2373,7 +2576,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/balloon-cotton-bush.webp"
+    "thumbnail": "images/weeds/balloon-cotton-bush.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/7567d01a-2fef-433a-9cf0-850d4300a1fe/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/7567d01a-2fef-433a-9cf0-850d4300a1fe/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2905946"
   },
   {
     "commonName": "Balloon vine",
@@ -2401,7 +2607,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Summer - Winter",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Balloon+vine+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/balloon-vine.webp"
+    "thumbnail": "images/weeds/balloon-vine.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/43fd339d-5948-4801-992e-588807031e15/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/43fd339d-5948-4801-992e-588807031e15/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2905469"
   },
   {
     "commonName": "Balsam (busy lizzie)",
@@ -2429,7 +2638,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring to Autumn",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Balsam+(busy+Lizzie)+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/balsam-busy-lizzie.webp"
+    "thumbnail": "images/weeds/balsam-busy-lizzie.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/3217b3e5-a4ee-4aff-b8dd-274c28bc3fc4/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/3217b3e5-a4ee-4aff-b8dd-274c28bc3fc4/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51269147"
   },
   {
     "commonName": "Banana suckers",
@@ -2459,7 +2671,10 @@ window.weedsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/weeds/banana-suckers.webp"
+    "thumbnail": "images/weeds/banana-suckers.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/75c7e17e-e603-4e6e-b888-68b3051322a9/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/75c7e17e-e603-4e6e-b888-68b3051322a9/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2902831"
   },
   {
     "commonName": "Barbed wire grass",
@@ -2508,7 +2723,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/barbed-wire-grass.webp"
+    "thumbnail": "images/weeds/barbed-wire-grass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/898dd6a0-8c49-4969-8308-092dc06bd773/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/898dd6a0-8c49-4969-8308-092dc06bd773/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2914400"
   },
   {
     "commonName": "Barley grass",
@@ -2658,7 +2876,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/barley-grass.webp"
+    "thumbnail": "images/weeds/barley-grass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/cd0aed7d-3447-4de9-9faf-0f09a4457b17/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/cd0aed7d-3447-4de9-9faf-0f09a4457b17/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51442708"
   },
   {
     "commonName": "Barnard Grass",
@@ -2669,7 +2890,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Barnard%20Grass%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Barnard%20Grass%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/b478e47b-ba4a-4f3b-b9f9-3f152ea5edf7/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/b478e47b-ba4a-4f3b-b9f9-3f152ea5edf7/large",
+    "scientificName": "Echinochloa microstachya",
+    "family": "Poaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2917369"
   },
   {
     "commonName": "Barnyard grass",
@@ -2827,7 +3053,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/barnyard-grass.webp"
+    "thumbnail": "images/weeds/barnyard-grass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/b478e47b-ba4a-4f3b-b9f9-3f152ea5edf7/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/b478e47b-ba4a-4f3b-b9f9-3f152ea5edf7/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2917369"
   },
   {
     "commonName": "Bastard's fumitory",
@@ -2858,7 +3087,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/bastard-s-fumitory.webp"
+    "thumbnail": "images/weeds/bastard-s-fumitory.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/0dd898fa-bee7-479c-a95e-1062ad556e0c/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/0dd898fa-bee7-479c-a95e-1062ad556e0c/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2905509"
   },
   {
     "commonName": "Bathurst burr",
@@ -2959,7 +3191,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/bathurst-burr.webp"
+    "thumbnail": "images/weeds/bathurst-burr.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/d1a3fbab-b7fe-434b-af20-911552a1703b/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/d1a3fbab-b7fe-434b-af20-911552a1703b/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51269070"
   },
   {
     "commonName": "Bedstraw",
@@ -3037,7 +3272,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/bedstraw.webp"
+    "thumbnail": "images/weeds/bedstraw.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/10d1bc59-c0c4-42d6-9d97-9951015ffd02/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/10d1bc59-c0c4-42d6-9d97-9951015ffd02/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2907340"
   },
   {
     "commonName": "Belah",
@@ -3066,7 +3304,10 @@ window.weedsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/weeds/belah.webp"
+    "thumbnail": "images/weeds/belah.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/a942b7b1-60f4-4fdd-a500-4a9446f06c63/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a942b7b1-60f4-4fdd-a500-4a9446f06c63/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51270401"
   },
   {
     "commonName": "Bellvine",
@@ -3183,7 +3424,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/bellvine.webp"
+    "thumbnail": "images/weeds/bellvine.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/d3743d0a-01cb-4518-a678-52e9bc217ead/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/d3743d0a-01cb-4518-a678-52e9bc217ead/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2886997"
   },
   {
     "commonName": "Bellyache bush",
@@ -3219,7 +3463,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/bellyache-bush.webp"
+    "thumbnail": "images/weeds/bellyache-bush.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/2267c995-d59c-45cc-bd41-b4541bcb48f1/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/2267c995-d59c-45cc-bd41-b4541bcb48f1/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51435598"
   },
   {
     "commonName": "Bentgrass",
@@ -3272,7 +3519,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/bentgrass.webp"
+    "thumbnail": "images/weeds/bentgrass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/a0de1033-3005-41ff-b090-ce79a374b3a7/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a0de1033-3005-41ff-b090-ce79a374b3a7/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2896056"
   },
   {
     "commonName": "Berry Size — Cherries",
@@ -3283,7 +3533,9 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Berry%20Size%20%E2%80%94%20Cherries%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Berry%20Size%20%E2%80%94%20Cherries%20weed%20Australia",
+    "scientificName": "Eucalyptus sp. Herries Range (A.Bean 936)",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/apni/246030"
   },
   {
     "commonName": "Berry Size in Early Madeleine",
@@ -3294,7 +3546,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Berry%20Size%20in%20Early%20Madeleine%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Berry%20Size%20in%20Early%20Madeleine%20weed%20Australia",
+    "scientificName": "Didemnum madeleinae",
+    "family": "DIDEMNIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/788a7031-8ee7-40df-bbb7-574b30b6263a"
   },
   {
     "commonName": "Berry Size Increase — Early Madeleine",
@@ -3305,7 +3560,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Berry%20Size%20Increase%20%E2%80%94%20Early%20Madeleine%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Berry%20Size%20Increase%20%E2%80%94%20Early%20Madeleine%20weed%20Australia",
+    "scientificName": "Didemnum madeleinae",
+    "family": "DIDEMNIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/788a7031-8ee7-40df-bbb7-574b30b6263a"
   },
   {
     "commonName": "Berry Size Increase — Flame Seedless",
@@ -3338,7 +3596,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Berry%20Size%20Increase%20%E2%80%94%20Sultanas%20Fresh%20Fruit%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Berry%20Size%20Increase%20%E2%80%94%20Sultanas%20Fresh%20Fruit%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/3217b3e5-a4ee-4aff-b8dd-274c28bc3fc4/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/3217b3e5-a4ee-4aff-b8dd-274c28bc3fc4/large",
+    "scientificName": "Impatiens walleriana",
+    "family": "Balsaminaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51269147"
   },
   {
     "commonName": "Berry Size Increase in Fresh Sultanas",
@@ -3349,7 +3612,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Berry%20Size%20Increase%20in%20Fresh%20Sultanas%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Berry%20Size%20Increase%20in%20Fresh%20Sultanas%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/3217b3e5-a4ee-4aff-b8dd-274c28bc3fc4/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/3217b3e5-a4ee-4aff-b8dd-274c28bc3fc4/large",
+    "scientificName": "Impatiens walleriana",
+    "family": "Balsaminaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51269147"
   },
   {
     "commonName": "Berry Thinning — Currants",
@@ -3360,7 +3628,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Berry%20Thinning%20%E2%80%94%20Currants%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Berry%20Thinning%20%E2%80%94%20Currants%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/38b39d9f-b504-452c-ac70-9790fc9541c2/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/38b39d9f-b504-452c-ac70-9790fc9541c2/large",
+    "scientificName": "Leptomeria acida",
+    "family": "Santalaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2887351"
   },
   {
     "commonName": "Berry Thinning — Flame Seedless",
@@ -3371,7 +3644,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Berry%20Thinning%20%E2%80%94%20Flame%20Seedless%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Berry%20Thinning%20%E2%80%94%20Flame%20Seedless%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/4988c475-c5c9-4135-b6ad-c339e3cc7fdc/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/4988c475-c5c9-4135-b6ad-c339e3cc7fdc/large",
+    "scientificName": "Cryptoblepharus fuhni",
+    "family": "SCINCIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/6284eb85-0f58-41a0-a7fc-59645e05b579"
   },
   {
     "commonName": "Berry Thinning — Perlette",
@@ -3382,7 +3660,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Berry%20Thinning%20%E2%80%94%20Perlette%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Berry%20Thinning%20%E2%80%94%20Perlette%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/4988c475-c5c9-4135-b6ad-c339e3cc7fdc/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/4988c475-c5c9-4135-b6ad-c339e3cc7fdc/large",
+    "scientificName": "Cryptoblepharus fuhni",
+    "family": "SCINCIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/6284eb85-0f58-41a0-a7fc-59645e05b579"
   },
   {
     "commonName": "Berry Thinning — Sultanas",
@@ -3393,7 +3676,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Berry%20Thinning%20%E2%80%94%20Sultanas%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Berry%20Thinning%20%E2%80%94%20Sultanas%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/3217b3e5-a4ee-4aff-b8dd-274c28bc3fc4/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/3217b3e5-a4ee-4aff-b8dd-274c28bc3fc4/large",
+    "scientificName": "Impatiens walleriana",
+    "family": "Balsaminaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51269147"
   },
   {
     "commonName": "Berry Thinning — Sultanas Fresh Fruit",
@@ -3404,7 +3692,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Berry%20Thinning%20%E2%80%94%20Sultanas%20Fresh%20Fruit%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Berry%20Thinning%20%E2%80%94%20Sultanas%20Fresh%20Fruit%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/3217b3e5-a4ee-4aff-b8dd-274c28bc3fc4/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/3217b3e5-a4ee-4aff-b8dd-274c28bc3fc4/large",
+    "scientificName": "Impatiens walleriana",
+    "family": "Balsaminaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51269147"
   },
   {
     "commonName": "Berry Thinning in Fresh Sultanas",
@@ -3415,7 +3708,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Berry%20Thinning%20in%20Fresh%20Sultanas%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Berry%20Thinning%20in%20Fresh%20Sultanas%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/3217b3e5-a4ee-4aff-b8dd-274c28bc3fc4/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/3217b3e5-a4ee-4aff-b8dd-274c28bc3fc4/large",
+    "scientificName": "Impatiens walleriana",
+    "family": "Balsaminaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51269147"
   },
   {
     "commonName": "Berry Thinning in Sultanas",
@@ -3426,7 +3724,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Berry%20Thinning%20in%20Sultanas%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Berry%20Thinning%20in%20Sultanas%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/3217b3e5-a4ee-4aff-b8dd-274c28bc3fc4/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/3217b3e5-a4ee-4aff-b8dd-274c28bc3fc4/large",
+    "scientificName": "Impatiens walleriana",
+    "family": "Balsaminaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51269147"
   },
   {
     "commonName": "Biddy bush",
@@ -3469,7 +3772,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/biddy-bush.webp"
+    "thumbnail": "images/weeds/biddy-bush.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/df24442b-24a9-48da-860a-369d797b87ef/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/df24442b-24a9-48da-860a-369d797b87ef/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2895729"
   },
   {
     "commonName": "Biennial Bearing",
@@ -3480,7 +3786,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Biennial%20Bearing%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Biennial%20Bearing%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/bbccf295-8125-4436-8935-35955de6b1d3/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/bbccf295-8125-4436-8935-35955de6b1d3/large",
+    "scientificName": "Acacia dentifera",
+    "family": "Fabaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2910148"
   },
   {
     "commonName": "Bifora",
@@ -3537,7 +3848,8 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/bifora.webp"
+    "thumbnail": "images/weeds/bifora.webp",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2901195"
   },
   {
     "commonName": "Bifora testiculata",
@@ -3548,7 +3860,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Bifora%20testiculata%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Bifora%20testiculata%20weed%20Australia",
+    "scientificName": "Bifora testiculata",
+    "family": "Apiaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2901195"
   },
   {
     "commonName": "Billygoat weed",
@@ -3608,7 +3923,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/billygoat-weed.webp"
+    "thumbnail": "images/weeds/billygoat-weed.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/07d25173-220d-4d3f-9ce1-8edcce87ec42/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/07d25173-220d-4d3f-9ce1-8edcce87ec42/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51267212"
   },
   {
     "commonName": "Bin-dii",
@@ -3701,7 +4019,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/bindi-eye.webp"
+    "thumbnail": "images/weeds/bindi-eye.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/d7f03ac0-c8ec-4ebb-8272-ccb6177bec24/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/d7f03ac0-c8ec-4ebb-8272-ccb6177bec24/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2917033"
   },
   {
     "commonName": "Bindii",
@@ -3753,7 +4074,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/bindii.webp"
+    "thumbnail": "images/weeds/bindii.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/a1e42e9c-562d-4585-bb86-288b835b41f3/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a1e42e9c-562d-4585-bb86-288b835b41f3/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2920332"
   },
   {
     "commonName": "Bitou Brush/Boneseed",
@@ -3764,7 +4088,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Bitou%20Brush%2FBoneseed%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Bitou%20Brush%2FBoneseed%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/ff22bd95-63e1-4920-989a-6321017dca48/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/ff22bd95-63e1-4920-989a-6321017dca48/large",
+    "scientificName": "Euryops chrysanthemoides",
+    "family": "Asteraceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2894333"
   },
   {
     "commonName": "Bitou bush",
@@ -3804,7 +4133,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/bitou-bush.webp"
+    "thumbnail": "images/weeds/bitou-bush.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/c3572651-eace-417f-93c9-db087be6bb52/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/c3572651-eace-417f-93c9-db087be6bb52/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51742826"
   },
   {
     "commonName": "Bitter melon",
@@ -3835,7 +4167,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Can flower all year",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Bitter+Melon+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/bitter-melon.webp"
+    "thumbnail": "images/weeds/bitter-melon.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/ca056868-7913-472e-9fa2-cbc3da3f9cff/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/ca056868-7913-472e-9fa2-cbc3da3f9cff/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2894511"
   },
   {
     "commonName": "Bitter weed",
@@ -3860,7 +4195,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Most flowering occurs over spring and summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Bitter+weed+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/bitter-weed.webp"
+    "thumbnail": "images/weeds/bitter-weed.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/36027331-033a-4f53-b20b-7a9c76c884bf/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/36027331-033a-4f53-b20b-7a9c76c884bf/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51267222"
   },
   {
     "commonName": "Bitterbark",
@@ -3899,7 +4237,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/bitterbark.webp"
+    "thumbnail": "images/weeds/bitterbark.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/719fbe4c-6223-4bf9-ab4f-0dd7cbf4867c/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/719fbe4c-6223-4bf9-ab4f-0dd7cbf4867c/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2917055"
   },
   {
     "commonName": "Bittercress",
@@ -3947,7 +4288,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/bittercress.webp"
+    "thumbnail": "images/weeds/bittercress.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/2908de1d-f6d5-41d2-a384-65848d841698/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/2908de1d-f6d5-41d2-a384-65848d841698/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51751388"
   },
   {
     "commonName": "Black bamboo",
@@ -3978,7 +4322,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/black-bamboo.webp"
+    "thumbnail": "images/weeds/black-bamboo.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/504223b9-2772-4b97-8677-8196f9710694/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/504223b9-2772-4b97-8677-8196f9710694/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2893481"
   },
   {
     "commonName": "Black nightshade",
@@ -4084,7 +4431,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/black-nightshade.webp"
+    "thumbnail": "images/weeds/black-nightshade.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/94d131d3-62e6-4923-9785-87fc2485c0f9/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/94d131d3-62e6-4923-9785-87fc2485c0f9/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2912741"
   },
   {
     "commonName": "Black Or Spear Thistle",
@@ -4095,7 +4445,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Black%20Or%20Spear%20Thistle%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Black%20Or%20Spear%20Thistle%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/039ad0b2-e2e9-4946-b79e-2bb5b3561d76/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/039ad0b2-e2e9-4946-b79e-2bb5b3561d76/large",
+    "scientificName": "Silybum marianum",
+    "family": "Asteraceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2921072"
   },
   {
     "commonName": "Black Scale",
@@ -4106,7 +4461,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Black%20Scale%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Black%20Scale%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/55a91ef8-033f-4086-8df1-ede1dfc817f0/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/55a91ef8-033f-4086-8df1-ede1dfc817f0/large",
+    "scientificName": "Lindingaspis rossi",
+    "family": "DIASPIDIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/a66a0ba4-70dc-4281-9944-b22c86905d55"
   },
   {
     "commonName": "Black spear grass",
@@ -4175,7 +4535,10 @@ window.weedsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/weeds/black-tea-tree.webp"
+    "thumbnail": "images/weeds/black-tea-tree.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/2472d56e-79d2-4693-90b9-5852aeff7357/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/2472d56e-79d2-4693-90b9-5852aeff7357/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2891374"
   },
   {
     "commonName": "Black-eyed susan",
@@ -4200,7 +4563,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring-Summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Black-eyed+Susan+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/black-eyed-susan.webp"
+    "thumbnail": "images/weeds/black-eyed-susan.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/1ff6dd11-28b3-45f8-b1ac-e3579df824d1/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/1ff6dd11-28b3-45f8-b1ac-e3579df824d1/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2896895"
   },
   {
     "commonName": "Blackberry",
@@ -4289,7 +4655,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/blackberry.webp"
+    "thumbnail": "images/weeds/blackberry.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/e148dd53-f724-4bbf-a4ec-dfec2496e28b/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/e148dd53-f724-4bbf-a4ec-dfec2496e28b/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2901856"
   },
   {
     "commonName": "Bladder campion",
@@ -4319,7 +4688,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/bladder-campion.webp"
+    "thumbnail": "images/weeds/bladder-campion.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/dd749a4b-697b-4499-938a-8117b0c04951/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/dd749a4b-697b-4499-938a-8117b0c04951/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2897570"
   },
   {
     "commonName": "Bladder ketmia",
@@ -4423,7 +4795,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/bladder-ketmia.webp"
+    "thumbnail": "images/weeds/bladder-ketmia.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/8952da54-18bd-461f-b859-63e34caee2a5/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/8952da54-18bd-461f-b859-63e34caee2a5/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2919603"
   },
   {
     "commonName": "Blady grass",
@@ -4485,7 +4860,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/blady-grass.webp"
+    "thumbnail": "images/weeds/blady-grass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/69639308-103f-4278-a927-a9e0f0b31e0f/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/69639308-103f-4278-a927-a9e0f0b31e0f/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2920993"
   },
   {
     "commonName": "Blue heliotrope",
@@ -4554,7 +4932,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/blue-heliotrope.webp"
+    "thumbnail": "images/weeds/blue-heliotrope.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/aa815287-df73-443a-af24-6c9b7fc3d7ab/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/aa815287-df73-443a-af24-6c9b7fc3d7ab/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2917623"
   },
   {
     "commonName": "Blue snakeweed",
@@ -4590,7 +4971,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/blue-snakeweed.webp"
+    "thumbnail": "images/weeds/blue-snakeweed.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/c088d04d-3d6f-440e-8ec4-2f1e76efd080/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/c088d04d-3d6f-440e-8ec4-2f1e76efd080/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2904988"
   },
   {
     "commonName": "Blue thunbergia",
@@ -4621,7 +5005,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring-Summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Blue+thunbergia+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/blue-thunbergia.webp"
+    "thumbnail": "images/weeds/blue-thunbergia.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/064422ef-856e-4a9f-8b13-649bd9bc6f11/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/064422ef-856e-4a9f-8b13-649bd9bc6f11/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2908042"
   },
   {
     "commonName": "Blue top",
@@ -4678,7 +5065,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/blue-top.webp"
+    "thumbnail": "images/weeds/blue-top.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/07d25173-220d-4d3f-9ce1-8edcce87ec42/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/07d25173-220d-4d3f-9ce1-8edcce87ec42/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51267212"
   },
   {
     "commonName": "Blue water lily",
@@ -4707,7 +5097,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring- Summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Blue+water+lily+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/blue-water-lily.webp"
+    "thumbnail": "images/weeds/blue-water-lily.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/102c514b-dca4-4353-bddd-9b0278d62ae0/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/102c514b-dca4-4353-bddd-9b0278d62ae0/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51440820"
   },
   {
     "commonName": "Bluetop/Billygoat Weed",
@@ -4718,7 +5111,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Bluetop%2FBillygoat%20Weed%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Bluetop%2FBillygoat%20Weed%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/5971c684-fc20-440b-b505-b5bc0b8d8959/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/5971c684-fc20-440b-b505-b5bc0b8d8959/large",
+    "scientificName": "Praxelis clematidea",
+    "family": "Asteraceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2890697"
   },
   {
     "commonName": "Boggabri weed",
@@ -4794,7 +5192,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/boggabri-weed.webp"
+    "thumbnail": "images/weeds/boggabri-weed.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/e8eede05-2f4b-445e-9871-aa1dcbf7aa65/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/e8eede05-2f4b-445e-9871-aa1dcbf7aa65/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/6883516"
   },
   {
     "commonName": "Bolivian coriander",
@@ -4825,7 +5226,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Can flower at any time of year.",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Bolivian+coriander+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/bolivian-coriander.webp"
+    "thumbnail": "images/weeds/bolivian-coriander.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/30cb28ff-a3ba-4d4e-826f-d5d60cb0c04a/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/30cb28ff-a3ba-4d4e-826f-d5d60cb0c04a/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2906667"
   },
   {
     "commonName": "Boll Opening",
@@ -4836,7 +5240,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Boll%20Opening%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Boll%20Opening%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/2802796b-582c-4cda-974d-1d65b54a687e/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/2802796b-582c-4cda-974d-1d65b54a687e/large",
+    "scientificName": "Duboisia myoporoides",
+    "family": "Solanaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2898218"
   },
   {
     "commonName": "Boneseed",
@@ -4907,7 +5316,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/boneseed.webp"
+    "thumbnail": "images/weeds/boneseed.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/c3572651-eace-417f-93c9-db087be6bb52/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/c3572651-eace-417f-93c9-db087be6bb52/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51742826"
   },
   {
     "commonName": "Bordered panic",
@@ -4942,7 +5354,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/bordered-panic.webp"
+    "thumbnail": "images/weeds/bordered-panic.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/d792afb8-d675-4940-b3dc-828b3b967372/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/d792afb8-d675-4940-b3dc-828b3b967372/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2899865"
   },
   {
     "commonName": "Borreria",
@@ -4970,7 +5385,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/borreria.webp"
+    "thumbnail": "images/weeds/borreria.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/97d31888-01f2-48db-bc30-ef0d644891d5/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/97d31888-01f2-48db-bc30-ef0d644891d5/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2894700"
   },
   {
     "commonName": "Bougainvillea",
@@ -4997,7 +5415,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Autumn",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Bougainvillea+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/bougainvillea.webp"
+    "thumbnail": "images/weeds/bougainvillea.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/5a660a01-0afa-49b0-93c3-f887021d843a/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/5a660a01-0afa-49b0-93c3-f887021d843a/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2915828"
   },
   {
     "commonName": "Bouvardia",
@@ -5019,7 +5440,8 @@ window.weedsRegistry = [
     "floweringPeriod": "Summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Bouvardia+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/bouvardia.webp"
+    "thumbnail": "images/weeds/bouvardia.webp",
+    "alaUrl": "https://bie.ala.org.au/species/NZOR-6-19712"
   },
   {
     "commonName": "Bouvardia — Compact Plant Production",
@@ -5030,7 +5452,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Bouvardia%20%E2%80%94%20Compact%20Plant%20Production%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Bouvardia%20%E2%80%94%20Compact%20Plant%20Production%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/c414beaa-e5dd-4082-85f8-853f482f5d3c/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/c414beaa-e5dd-4082-85f8-853f482f5d3c/large",
+    "scientificName": "Deyeuxia contracta",
+    "family": "Poaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2917950"
   },
   {
     "commonName": "Boxthorn",
@@ -5082,7 +5509,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/boxthorn.webp"
+    "thumbnail": "images/weeds/boxthorn.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/40647051-f7c3-4fc2-b1b3-495f2fb6d969/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/40647051-f7c3-4fc2-b1b3-495f2fb6d969/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2899941"
   },
   {
     "commonName": "Boxthorn African",
@@ -5093,7 +5523,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Boxthorn%20African%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Boxthorn%20African%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/12288efc-0ab2-4990-a431-cb9c46fbd335/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/12288efc-0ab2-4990-a431-cb9c46fbd335/large",
+    "scientificName": "Lycium ferocissimum",
+    "family": "Solanaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51447682"
   },
   {
     "commonName": "Boysenberry",
@@ -5104,7 +5539,9 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Boysenberry%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Boysenberry%20weed%20Australia",
+    "scientificName": "Rubus ursinus",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/apni/86225"
   },
   {
     "commonName": "Bracken",
@@ -5159,7 +5596,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/bracken.webp"
+    "thumbnail": "images/weeds/bracken.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/7ee3e503-0537-4369-a5b5-852f1e958962/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/7ee3e503-0537-4369-a5b5-852f1e958962/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51763684"
   },
   {
     "commonName": "Brassica napus",
@@ -5170,7 +5610,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Brassica%20napus%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Brassica%20napus%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/f328e5d6-ad08-417d-874c-6514df29dbb1/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f328e5d6-ad08-417d-874c-6514df29dbb1/large",
+    "scientificName": "Brassica napus",
+    "family": "Brassicaceae",
+    "alaUrl": "https://bie.ala.org.au/species/NZOR-6-71002"
   },
   {
     "commonName": "Brazilian nightshade",
@@ -5202,7 +5647,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring-Autumn",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Brazilian+nightshade+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/brazilian-nightshade.webp"
+    "thumbnail": "images/weeds/brazilian-nightshade.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/c76cac60-ea05-4af2-95a5-52b58d563551/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/c76cac60-ea05-4af2-95a5-52b58d563551/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2894563"
   },
   {
     "commonName": "Bridal creeper",
@@ -5236,7 +5684,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/bridal-creeper.webp"
+    "thumbnail": "images/weeds/bridal-creeper.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/cf0c3b39-a2d6-4af4-9fc9-5c72321c2c1a/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/cf0c3b39-a2d6-4af4-9fc9-5c72321c2c1a/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2895458"
   },
   {
     "commonName": "Bridal veil",
@@ -5262,7 +5713,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Mainly Winter",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Bridal+veil+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/bridal-veil.webp"
+    "thumbnail": "images/weeds/bridal-veil.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/dded2df2-e4b0-422e-b621-b5534438b515/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/dded2df2-e4b0-422e-b621-b5534438b515/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2903865"
   },
   {
     "commonName": "Brigalow",
@@ -5297,7 +5751,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/brigalow.webp"
+    "thumbnail": "images/weeds/brigalow.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/4957984f-a915-4f7c-b051-fd6b4ea778aa/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/4957984f-a915-4f7c-b051-fd6b4ea778aa/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2887238"
   },
   {
     "commonName": "Brillantaisia",
@@ -5320,7 +5777,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Year round",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Brillantaisia+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/brillantaisia.webp"
+    "thumbnail": "images/weeds/brillantaisia.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/563c77b4-0bc0-4a27-bce2-a7880e808b41/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/563c77b4-0bc0-4a27-bce2-a7880e808b41/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2917626"
   },
   {
     "commonName": "Broad-leaved cumbungi",
@@ -5349,7 +5809,10 @@ window.weedsRegistry = [
     "floweringPeriod": "",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Broad-leaved+cumbungi+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/broad-leaved-cumbungi.webp"
+    "thumbnail": "images/weeds/broad-leaved-cumbungi.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/1458e837-d085-4f03-a011-a39640b9082b/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/1458e837-d085-4f03-a011-a39640b9082b/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2894677"
   },
   {
     "commonName": "Broadleaf Dock",
@@ -5371,7 +5834,12 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Broadleaf%20Dock%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Broadleaf%20Dock%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/15ec1fe4-8443-4498-ae19-0fba2f3baa43/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/15ec1fe4-8443-4498-ae19-0fba2f3baa43/large",
+    "scientificName": "Rumex obtusifolius",
+    "family": "Polygonaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2915095"
   },
   {
     "commonName": "Broadleaf privet",
@@ -5410,7 +5878,10 @@ window.weedsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/weeds/broadleaf-privet.webp"
+    "thumbnail": "images/weeds/broadleaf-privet.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/f33fc2c5-e8c9-4e54-a495-c07089bb1fcd/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f33fc2c5-e8c9-4e54-a495-c07089bb1fcd/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2887006"
   },
   {
     "commonName": "Broadleaf tea tree",
@@ -5441,7 +5912,10 @@ window.weedsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/weeds/broadleaf-tea-tree.webp"
+    "thumbnail": "images/weeds/broadleaf-tea-tree.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/bb61b843-08e1-41d3-a286-5a072c99f916/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/bb61b843-08e1-41d3-a286-5a072c99f916/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2910276"
   },
   {
     "commonName": "Broadleaved pepper",
@@ -5472,7 +5946,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Year round",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Broadleaved+pepper+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/broadleaved-pepper.webp"
+    "thumbnail": "images/weeds/broadleaved-pepper.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/12a1759d-ae18-4e68-bb6d-7fae899b7b2c/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/12a1759d-ae18-4e68-bb6d-7fae899b7b2c/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2886263"
   },
   {
     "commonName": "Brome grass",
@@ -5590,7 +6067,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/brome-grass.webp"
+    "thumbnail": "images/weeds/brome-grass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/acf1da15-5981-4251-b7f9-d855c4ca9aba/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/acf1da15-5981-4251-b7f9-d855c4ca9aba/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51299910"
   },
   {
     "commonName": "Brome Grasses",
@@ -5601,7 +6081,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Brome%20Grasses%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Brome%20Grasses%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/664ea85b-4564-4c70-a543-c0caa05dc4ff/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/664ea85b-4564-4c70-a543-c0caa05dc4ff/large",
+    "scientificName": "Bromus",
+    "family": "Poaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/7747357"
   },
   {
     "commonName": "Bromus diandrus",
@@ -5612,7 +6097,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Bromus%20diandrus%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Bromus%20diandrus%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/71e84597-0134-4f65-b5fb-09e8471ccb51/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/71e84597-0134-4f65-b5fb-09e8471ccb51/large",
+    "scientificName": "Bromus diandrus",
+    "family": "Poaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2891835"
   },
   {
     "commonName": "Brown box",
@@ -5642,7 +6132,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/brown-box.webp"
+    "thumbnail": "images/weeds/brown-box.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/135429a4-40b3-486d-a6a8-c2c1a4d45c56/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/135429a4-40b3-486d-a6a8-c2c1a4d45c56/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2898088"
   },
   {
     "commonName": "Brown grass",
@@ -5700,7 +6193,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/buchan-weed.webp"
+    "thumbnail": "images/weeds/buchan-weed.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/ea127a3e-d7c9-4826-aa36-7b10a56e1343/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/ea127a3e-d7c9-4826-aa36-7b10a56e1343/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2892036"
   },
   {
     "commonName": "Budda pea",
@@ -5731,7 +6227,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/budda-pea.webp"
+    "thumbnail": "images/weeds/budda-pea.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/51ebc43d-0cf0-4f11-9f8f-ca1fbb9f870e/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/51ebc43d-0cf0-4f11-9f8f-ca1fbb9f870e/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2915706"
   },
   {
     "commonName": "Buddah pea",
@@ -5742,7 +6241,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Buddah%20pea%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Buddah%20pea%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/55c62640-a2f8-433a-98c0-00a52ea1fd66/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/55c62640-a2f8-433a-98c0-00a52ea1fd66/large",
+    "scientificName": "Eremophila mitchellii",
+    "family": "Scrophulariaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2897914"
   },
   {
     "commonName": "Buffalo grass",
@@ -5776,7 +6280,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring - Autumn",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Buffalo+grass+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/buffalo-grass.webp"
+    "thumbnail": "images/weeds/buffalo-grass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/9967ffb7-ba04-4d93-82ba-0dd80a9aea8b/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/9967ffb7-ba04-4d93-82ba-0dd80a9aea8b/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2893019"
   },
   {
     "commonName": "Buffel grass",
@@ -5814,7 +6321,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/buffel-grass.webp"
+    "thumbnail": "images/weeds/buffel-grass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/ded81cdd-0961-48ea-a6b0-ca1ef93c769a/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/ded81cdd-0961-48ea-a6b0-ca1ef93c769a/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2919757"
   },
   {
     "commonName": "Bullich",
@@ -5825,7 +6335,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Bullich%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Bullich%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/806b5e7f-eb16-4167-aabf-61519b60bd5b/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/806b5e7f-eb16-4167-aabf-61519b60bd5b/large",
+    "scientificName": "Eucalyptus megacarpa",
+    "family": "Myrtaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2893392"
   },
   {
     "commonName": "Bunch Elongation — Sultanas Fresh Fruit",
@@ -5836,7 +6351,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Bunch%20Elongation%20%E2%80%94%20Sultanas%20Fresh%20Fruit%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Bunch%20Elongation%20%E2%80%94%20Sultanas%20Fresh%20Fruit%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/3217b3e5-a4ee-4aff-b8dd-274c28bc3fc4/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/3217b3e5-a4ee-4aff-b8dd-274c28bc3fc4/large",
+    "scientificName": "Impatiens walleriana",
+    "family": "Balsaminaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51269147"
   },
   {
     "commonName": "Bunch Elongation/Stretch in Fresh Sultanas",
@@ -5847,7 +6367,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Bunch%20Elongation%2FStretch%20in%20Fresh%20Sultanas%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Bunch%20Elongation%2FStretch%20in%20Fresh%20Sultanas%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/3217b3e5-a4ee-4aff-b8dd-274c28bc3fc4/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/3217b3e5-a4ee-4aff-b8dd-274c28bc3fc4/large",
+    "scientificName": "Impatiens walleriana",
+    "family": "Balsaminaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51269147"
   },
   {
     "commonName": "Bunchy sedge",
@@ -5872,7 +6397,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Late Spring-Summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Bunchy+sedge+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/bunchy-sedge.webp"
+    "thumbnail": "images/weeds/bunchy-sedge.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/a0d87292-d8f2-45df-bfcd-3762949f0219/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a0d87292-d8f2-45df-bfcd-3762949f0219/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2920306"
   },
   {
     "commonName": "Bunny ears",
@@ -5895,7 +6423,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Bunny+ears+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/bunny-ears.webp"
+    "thumbnail": "images/weeds/bunny-ears.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/7564b032-efbc-40ec-b7c6-0b2b8a8cd582/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/7564b032-efbc-40ec-b7c6-0b2b8a8cd582/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51751894"
   },
   {
     "commonName": "Burr medic",
@@ -5933,7 +6464,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/burr-medic.webp"
+    "thumbnail": "images/weeds/burr-medic.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/d5746f55-6172-47f3-8a01-2141c1d041a8/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/d5746f55-6172-47f3-8a01-2141c1d041a8/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2886744"
   },
   {
     "commonName": "Burr ragweed",
@@ -5962,7 +6496,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/burr-ragweed.webp"
+    "thumbnail": "images/weeds/burr-ragweed.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/d02987bb-5496-4a7b-bde5-a0444a4d69ad/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/d02987bb-5496-4a7b-bde5-a0444a4d69ad/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2910910"
   },
   {
     "commonName": "Butter pea",
@@ -5973,7 +6510,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Butter%20pea%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Butter%20pea%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/ca056868-7913-472e-9fa2-cbc3da3f9cff/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/ca056868-7913-472e-9fa2-cbc3da3f9cff/large",
+    "scientificName": "Daviesia mimosoides",
+    "family": "Fabaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2894511"
   },
   {
     "commonName": "Buttercups",
@@ -6003,7 +6545,10 @@ window.weedsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/weeds/buttercups.webp"
+    "thumbnail": "images/weeds/buttercups.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/ba495505-6b09-482a-a8d1-b322c0547bed/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/ba495505-6b09-482a-a8d1-b322c0547bed/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2916101"
   },
   {
     "commonName": "Button grass",
@@ -6053,7 +6598,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/button-grass.webp"
+    "thumbnail": "images/weeds/button-grass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/5e5103ef-0756-4f70-9b34-d92b249132ed/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/5e5103ef-0756-4f70-9b34-d92b249132ed/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2888201"
   },
   {
     "commonName": "Cabomba",
@@ -6085,7 +6633,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Summer - Autumn",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Cabomba+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/cabomba.webp"
+    "thumbnail": "images/weeds/cabomba.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/fb4cb38c-4113-48e3-ad47-b1c8716e95dc/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/fb4cb38c-4113-48e3-ad47-b1c8716e95dc/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2891201"
   },
   {
     "commonName": "Cadaghi",
@@ -6114,7 +6665,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring - Summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Cadaghi+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/cadaghi.webp"
+    "thumbnail": "images/weeds/cadaghi.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/f8e52170-38a4-4ee5-a0bf-2f887aedc57e/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f8e52170-38a4-4ee5-a0bf-2f887aedc57e/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2916678"
   },
   {
     "commonName": "California burr",
@@ -6158,7 +6712,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/california-burr.webp"
+    "thumbnail": "images/weeds/california-burr.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/399080d3-f95f-4a5a-8e8d-5ef1570d08d2/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/399080d3-f95f-4a5a-8e8d-5ef1570d08d2/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51311055"
   },
   {
     "commonName": "California Thistle",
@@ -6169,7 +6726,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=California%20Thistle%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=California%20Thistle%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/43a6cb6c-e96a-4eef-9d65-01dfbc2c4432/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/43a6cb6c-e96a-4eef-9d65-01dfbc2c4432/large",
+    "scientificName": "Eschscholzia californica",
+    "family": "Papaveraceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2897426"
   },
   {
     "commonName": "Californian thistle",
@@ -6207,7 +6769,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/californian-thistle.webp"
+    "thumbnail": "images/weeds/californian-thistle.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/43a6cb6c-e96a-4eef-9d65-01dfbc2c4432/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/43a6cb6c-e96a-4eef-9d65-01dfbc2c4432/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2897426"
   },
   {
     "commonName": "Calomba daisy",
@@ -6257,7 +6822,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/calomba-daisy.webp"
+    "thumbnail": "images/weeds/calomba-daisy.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/8040a6cb-9910-496a-8e59-0b691d9d6ab5/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/8040a6cb-9910-496a-8e59-0b691d9d6ab5/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2886612"
   },
   {
     "commonName": "Calopo",
@@ -6307,7 +6875,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/calopo.webp"
+    "thumbnail": "images/weeds/calopo.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/86a6e9c3-7b00-4568-b5f1-b1a685d32421/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/86a6e9c3-7b00-4568-b5f1-b1a685d32421/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2904551"
   },
   {
     "commonName": "Caltrop",
@@ -6465,7 +7036,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/caltrop.webp"
+    "thumbnail": "images/weeds/caltrop.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/933ab8a2-874b-4aec-9c37-2eafa8cc6d8c/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/933ab8a2-874b-4aec-9c37-2eafa8cc6d8c/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2903398"
   },
   {
     "commonName": "Camel melon",
@@ -6527,7 +7101,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/camel-melon.webp"
+    "thumbnail": "images/weeds/camel-melon.webp",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/apni/69938"
   },
   {
     "commonName": "Camellia Japonica — Compact Plants",
@@ -6538,7 +7113,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Camellia%20Japonica%20%E2%80%94%20Compact%20Plants%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Camellia%20Japonica%20%E2%80%94%20Compact%20Plants%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/b88db0ff-1357-44a1-b810-ecc635d36003/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/b88db0ff-1357-44a1-b810-ecc635d36003/large",
+    "scientificName": "Camellia",
+    "family": "Theaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2894505"
   },
   {
     "commonName": "Camphor laurel",
@@ -6593,7 +7173,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/camphor-laurel.webp"
+    "thumbnail": "images/weeds/camphor-laurel.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/6341d026-7b78-4dc4-b092-e0efa446e214/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/6341d026-7b78-4dc4-b092-e0efa446e214/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2903018"
   },
   {
     "commonName": "Canary grass",
@@ -6644,7 +7227,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/canary-grass.webp"
+    "thumbnail": "images/weeds/canary-grass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/a5e1de46-2e60-4b1c-bdbe-7d371509ee0a/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a5e1de46-2e60-4b1c-bdbe-7d371509ee0a/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2894969"
   },
   {
     "commonName": "Candelabra aloe",
@@ -6672,7 +7258,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Late Autumn-winter",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Candelabra+aloe+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/candelabra-aloe.webp"
+    "thumbnail": "images/weeds/candelabra-aloe.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/316ec419-866f-46f6-9cd9-43094bccb00f/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/316ec419-866f-46f6-9cd9-43094bccb00f/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2909874"
   },
   {
     "commonName": "Candleberry myrtle",
@@ -6697,7 +7286,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Unknown",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Candleberry+myrtle+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/candleberry-myrtle.webp"
+    "thumbnail": "images/weeds/candleberry-myrtle.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/98cf95f6-12ec-40d7-bd3e-579d7134a35b/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/98cf95f6-12ec-40d7-bd3e-579d7134a35b/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2911696"
   },
   {
     "commonName": "Candy leaf",
@@ -6744,7 +7336,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Cane+cactus+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/cane-cactus.webp"
+    "thumbnail": "images/weeds/cane-cactus.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/10f542f8-ff09-4b8a-9092-2780bccd3e00/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/10f542f8-ff09-4b8a-9092-2780bccd3e00/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51432826"
   },
   {
     "commonName": "Cane grass",
@@ -6776,7 +7371,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/cane-grass.webp"
+    "thumbnail": "images/weeds/cane-grass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/b8d2c443-7adb-438d-acd3-cc987943e15d/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/b8d2c443-7adb-438d-acd3-cc987943e15d/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2913561"
   },
   {
     "commonName": "Cane Ripening",
@@ -6821,7 +7419,8 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring - Summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Canna+lily+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/canna-lily.webp"
+    "thumbnail": "images/weeds/canna-lily.webp",
+    "alaUrl": "https://bie.ala.org.au/species/NZOR-6-88384"
   },
   {
     "commonName": "Cape broom",
@@ -6885,7 +7484,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Year Round",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Cape+honeysuckle+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/cape-honeysuckle.webp"
+    "thumbnail": "images/weeds/cape-honeysuckle.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/99e99231-c4c9-4c37-813e-01582c068901/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/99e99231-c4c9-4c37-813e-01582c068901/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2916565"
   },
   {
     "commonName": "Cape ivy",
@@ -6916,7 +7518,10 @@ window.weedsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/weeds/cape-ivy.webp"
+    "thumbnail": "images/weeds/cape-ivy.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/a9153f03-99e0-4678-bd01-6833ad2e31d6/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a9153f03-99e0-4678-bd01-6833ad2e31d6/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51747586"
   },
   {
     "commonName": "Cape tulip",
@@ -6970,7 +7575,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/cape-tulip.webp"
+    "thumbnail": "images/weeds/cape-tulip.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/bad00642-ef7c-4b30-9d08-fa6f81a91d08/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/bad00642-ef7c-4b30-9d08-fa6f81a91d08/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2894669"
   },
   {
     "commonName": "Cape water lily",
@@ -7254,7 +7862,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/capeweed.webp"
+    "thumbnail": "images/weeds/capeweed.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/e0864ea3-2dd4-4592-9538-c2ec93fdf853/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/e0864ea3-2dd4-4592-9538-c2ec93fdf853/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51267241"
   },
   {
     "commonName": "Capeweed And Erodium Spp.",
@@ -7265,7 +7876,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Capeweed%20And%20Erodium%20Spp.%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Capeweed%20And%20Erodium%20Spp.%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/781137cc-eb03-4071-aba9-face6ebada13/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/781137cc-eb03-4071-aba9-face6ebada13/large",
+    "scientificName": "Erodium aureum",
+    "family": "Geraniaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2912290"
   },
   {
     "commonName": "Capeweed Doublegee",
@@ -7276,7 +7892,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Capeweed%20Doublegee%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Capeweed%20Doublegee%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/52e2e253-dcf4-422e-b4e1-d6113690df4b/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/52e2e253-dcf4-422e-b4e1-d6113690df4b/large",
+    "scientificName": "Posidonia coriacea",
+    "family": "Posidoniaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2911513"
   },
   {
     "commonName": "Carpet grass",
@@ -7326,7 +7947,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/carpet-grass.webp"
+    "thumbnail": "images/weeds/carpet-grass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/b4da490e-f0d2-4ac4-975f-5b96e7999148/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/b4da490e-f0d2-4ac4-975f-5b96e7999148/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2902394"
   },
   {
     "commonName": "Castor oil plant",
@@ -7353,7 +7977,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring-Summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Castor+oil+plant+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/castor-oil-plant.webp"
+    "thumbnail": "images/weeds/castor-oil-plant.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/93559d93-129f-4ae6-9722-1ca38b193a05/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/93559d93-129f-4ae6-9722-1ca38b193a05/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2919250"
   },
   {
     "commonName": "Casuarina",
@@ -7374,7 +8001,12 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Casuarina%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Casuarina%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/56707903-93d7-4672-b1a2-d90ca97a36ee/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/56707903-93d7-4672-b1a2-d90ca97a36ee/large",
+    "scientificName": "Casuarina pauper",
+    "family": "Casuarinaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2897274"
   },
   {
     "commonName": "Cat's claw creeper",
@@ -7401,7 +8033,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring-Summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Cat's+claw+creeper+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/cat-s-claw-creeper.webp"
+    "thumbnail": "images/weeds/cat-s-claw-creeper.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/49c9e3be-ef12-4c4b-a5fc-e92560032d07/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/49c9e3be-ef12-4c4b-a5fc-e92560032d07/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51749297"
   },
   {
     "commonName": "Cat's-ear",
@@ -7418,7 +8053,12 @@ window.weedsRegistry = [
       }
     ],
     "thumbnail": "images/weeds/catsear.webp",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Cat's-ear%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Cat's-ear%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/f958227f-4c48-4276-bfa0-df06fb680a3c/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f958227f-4c48-4276-bfa0-df06fb680a3c/large",
+    "scientificName": "Hypochaeris radicata",
+    "family": "Asteraceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2907368"
   },
   {
     "commonName": "Catsear",
@@ -7532,7 +8172,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/catsear.webp"
+    "thumbnail": "images/weeds/catsear.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/f958227f-4c48-4276-bfa0-df06fb680a3c/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f958227f-4c48-4276-bfa0-df06fb680a3c/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2907368"
   },
   {
     "commonName": "Caustic weed",
@@ -7572,7 +8215,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/caustic-weed.webp"
+    "thumbnail": "images/weeds/caustic-weed.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/8449d1f9-bd7a-45f2-bd17-0b97f3b94c81/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/8449d1f9-bd7a-45f2-bd17-0b97f3b94c81/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/7205641"
   },
   {
     "commonName": "Centro",
@@ -7613,7 +8259,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/centro.webp"
+    "thumbnail": "images/weeds/centro.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/1bed34dd-fd88-40b7-91e6-b5c39fa374fc/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/1bed34dd-fd88-40b7-91e6-b5c39fa374fc/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2912399"
   },
   {
     "commonName": "Cereals",
@@ -7653,7 +8302,12 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Chamomile%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Chamomile%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/2a612e50-2957-42a9-a1fc-dd10e137e8b2/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/2a612e50-2957-42a9-a1fc-dd10e137e8b2/large",
+    "scientificName": "Chamaemelum nobile",
+    "family": "Asteraceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2891511"
   },
   {
     "commonName": "Charlock",
@@ -7804,7 +8458,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/charlock.webp"
+    "thumbnail": "images/weeds/charlock.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/ddfefe88-f45a-4361-ad20-9002f5b8ae33/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/ddfefe88-f45a-4361-ad20-9002f5b8ae33/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2888495"
   },
   {
     "commonName": "Cherry guava",
@@ -7833,7 +8490,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Autumn - Winter",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Cherry+guava+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/cherry-guava.webp"
+    "thumbnail": "images/weeds/cherry-guava.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/57009847-8b4a-4577-9bfc-82588bad30f1/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/57009847-8b4a-4577-9bfc-82588bad30f1/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2918696"
   },
   {
     "commonName": "Chickpea",
@@ -7844,7 +8504,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Chickpea%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Chickpea%20weed%20Australia",
+    "scientificName": "Chickpea chlorotic stunt virus",
+    "family": "Geminiviridae",
+    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_905"
   },
   {
     "commonName": "Chickweed",
@@ -7923,7 +8586,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/chickweed.webp"
+    "thumbnail": "images/weeds/chickweed.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/5268416c-5402-4b39-9d66-3842c593c1f5/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/5268416c-5402-4b39-9d66-3842c593c1f5/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2918750"
   },
   {
     "commonName": "Chicory",
@@ -7964,7 +8630,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/chicory.webp"
+    "thumbnail": "images/weeds/chicory.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/7aa6c0cc-6595-489c-9bf2-112665dbfb84/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/7aa6c0cc-6595-489c-9bf2-112665dbfb84/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2919007"
   },
   {
     "commonName": "Chilean needlegrass",
@@ -7991,7 +8660,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring - Autumn",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Chilean+needlegrass+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/chilean-needlegrass.webp"
+    "thumbnail": "images/weeds/chilean-needlegrass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/bd2d1af5-6ee3-4b9c-8d17-f76be971a151/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/bd2d1af5-6ee3-4b9c-8d17-f76be971a151/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2911030"
   },
   {
     "commonName": "Chinee apple",
@@ -8035,7 +8707,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/chinee-apple.webp"
+    "thumbnail": "images/weeds/chinee-apple.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/f73240fc-fc03-4d8f-8e4f-f5caeb0d57e5/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f73240fc-fc03-4d8f-8e4f-f5caeb0d57e5/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2894258"
   },
   {
     "commonName": "Chinese burr",
@@ -8068,7 +8743,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/chinese-burr.webp"
+    "thumbnail": "images/weeds/chinese-burr.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/43f0038c-0e36-4638-8dda-c026159ac4bb/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/43f0038c-0e36-4638-8dda-c026159ac4bb/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2908519"
   },
   {
     "commonName": "Chinese celtis",
@@ -8099,7 +8777,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Year round",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Chinese+celtis+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/chinese-celtis.webp"
+    "thumbnail": "images/weeds/chinese-celtis.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/ffbbe7fa-d4ce-4de3-bf3d-11fe978e0501/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/ffbbe7fa-d4ce-4de3-bf3d-11fe978e0501/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2912909"
   },
   {
     "commonName": "Chinese foldwing",
@@ -8123,7 +8804,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Summer through to Autumn",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Chinese+Foldwing+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/chinese-foldwing.webp"
+    "thumbnail": "images/weeds/chinese-foldwing.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/1ff2ed9c-e037-4e1d-9857-acf435d1b8fc/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/1ff2ed9c-e037-4e1d-9857-acf435d1b8fc/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/6909905"
   },
   {
     "commonName": "Chinese lantern",
@@ -8153,7 +8837,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/chinese-lantern.webp"
+    "thumbnail": "images/weeds/chinese-lantern.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/b5f84e56-5aa3-4887-bc5b-f8f1ac6e4f80/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/b5f84e56-5aa3-4887-bc5b-f8f1ac6e4f80/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2899034"
   },
   {
     "commonName": "Chinese Mint",
@@ -8164,7 +8851,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Chinese%20Mint%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Chinese%20Mint%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/f73240fc-fc03-4d8f-8e4f-f5caeb0d57e5/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f73240fc-fc03-4d8f-8e4f-f5caeb0d57e5/large",
+    "scientificName": "Ziziphus mauritiana",
+    "family": "Rhamnaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2894258"
   },
   {
     "commonName": "Chinese scrub",
@@ -8193,7 +8885,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/chinese-scrub.webp"
+    "thumbnail": "images/weeds/chinese-scrub.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/df24442b-24a9-48da-860a-369d797b87ef/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/df24442b-24a9-48da-860a-369d797b87ef/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2895729"
   },
   {
     "commonName": "Chinese tallow tree",
@@ -8226,7 +8921,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Chinese+tallow+tree+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/chinese-tallow-tree.webp"
+    "thumbnail": "images/weeds/chinese-tallow-tree.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/befb2717-01bc-43a6-b3c4-13cd4daa0970/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/befb2717-01bc-43a6-b3c4-13cd4daa0970/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2920747"
   },
   {
     "commonName": "Christ's thorn",
@@ -8248,7 +8946,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring to summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Christ's+thorn+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/christ-s-thorn.webp"
+    "thumbnail": "images/weeds/christ-s-thorn.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/93559d93-129f-4ae6-9722-1ca38b193a05/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/93559d93-129f-4ae6-9722-1ca38b193a05/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2919250"
   },
   {
     "commonName": "Chrysanthemums — Compact Plant Production",
@@ -8259,7 +8960,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Chrysanthemums%20%E2%80%94%20Compact%20Plant%20Production%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Chrysanthemums%20%E2%80%94%20Compact%20Plant%20Production%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/b80a97bc-04ae-4044-9d4b-2cc6b4a9f644/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/b80a97bc-04ae-4044-9d4b-2cc6b4a9f644/large",
+    "scientificName": "Glebionis coronaria",
+    "family": "Asteraceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51268473"
   },
   {
     "commonName": "Citrus Snow Scale",
@@ -8270,7 +8976,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Citrus%20Snow%20Scale%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Citrus%20Snow%20Scale%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/b0305f9c-21c9-417f-897c-7a625e00c533/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/b0305f9c-21c9-417f-897c-7a625e00c533/large",
+    "scientificName": "Citrus gracilis",
+    "family": "Rutaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2905577"
   },
   {
     "commonName": "Clammy goosefoot",
@@ -8310,7 +9021,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/clammy-goosefoot.webp"
+    "thumbnail": "images/weeds/clammy-goosefoot.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/d8d3cfde-ae67-4c6f-8793-d1fc19db0e02/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/d8d3cfde-ae67-4c6f-8793-d1fc19db0e02/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/7100057"
   },
   {
     "commonName": "Cleome",
@@ -8340,7 +9054,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/cleome.webp"
+    "thumbnail": "images/weeds/cleome.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/4e8c584a-f07b-4d05-80d2-0e8d2fafe738/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/4e8c584a-f07b-4d05-80d2-0e8d2fafe738/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2912646"
   },
   {
     "commonName": "Climbing asparagus fern",
@@ -8367,7 +9084,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Climbing+asparagus+fern+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/climbing-asparagus-fern.webp"
+    "thumbnail": "images/weeds/climbing-asparagus-fern.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/a441dfab-2597-45dd-81f6-a937aaf686d3/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a441dfab-2597-45dd-81f6-a937aaf686d3/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51267054"
   },
   {
     "commonName": "Climbing buckwheat",
@@ -8493,7 +9213,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/climbing-buckwheat.webp"
+    "thumbnail": "images/weeds/climbing-buckwheat.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/f5c20471-2b7f-4503-85d2-302453abc42b/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f5c20471-2b7f-4503-85d2-302453abc42b/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51410018"
   },
   {
     "commonName": "Climbing dayflower",
@@ -8511,7 +9234,10 @@ window.weedsRegistry = [
     "floweringPeriod": "",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Climbing+dayflower+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/climbing-dayflower.webp"
+    "thumbnail": "images/weeds/climbing-dayflower.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/80b65d30-7a95-44f3-9db4-2db95544d99d/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/80b65d30-7a95-44f3-9db4-2db95544d99d/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2913424"
   },
   {
     "commonName": "Climbing groundsel",
@@ -8537,7 +9263,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring - Autumn",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Climbing+groundsel+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/climbing-groundsel.webp"
+    "thumbnail": "images/weeds/climbing-groundsel.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/f03ab0f2-5d23-4b98-a48b-ca766b6b616b/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f03ab0f2-5d23-4b98-a48b-ca766b6b616b/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51268983"
   },
   {
     "commonName": "Clockweed",
@@ -8652,7 +9381,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/clover.webp"
+    "thumbnail": "images/weeds/clover.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/0fd66c9a-924f-4053-9b29-8fbb2a34fe89/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/0fd66c9a-924f-4053-9b29-8fbb2a34fe89/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2919872"
   },
   {
     "commonName": "Clover glycine",
@@ -8685,7 +9417,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/clover-glycine.webp"
+    "thumbnail": "images/weeds/clover-glycine.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/354879cb-790a-4a2c-9aa3-af70a02bf781/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/354879cb-790a-4a2c-9aa3-af70a02bf781/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51770897"
   },
   {
     "commonName": "Clovers",
@@ -8711,7 +9446,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Clovers%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Clovers%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/6e76e344-f899-443e-b968-e1dba68272f1/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/6e76e344-f899-443e-b968-e1dba68272f1/large",
+    "scientificName": "Trifolium",
+    "family": "Fabaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51771236"
   },
   {
     "commonName": "Coastal button grass",
@@ -8742,7 +9482,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/coastal-button-grass.webp"
+    "thumbnail": "images/weeds/coastal-button-grass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/675ce0dd-ef3a-4e62-9e06-76bb62220a60/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/675ce0dd-ef3a-4e62-9e06-76bb62220a60/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2899842"
   },
   {
     "commonName": "Cobbler's Peg",
@@ -8758,7 +9501,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Cobbler's%20Peg%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Cobbler's%20Peg%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/60c63b9b-7107-4a5f-9b6e-109431f26965/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/60c63b9b-7107-4a5f-9b6e-109431f26965/large",
+    "scientificName": "Bidens pilosa",
+    "family": "Asteraceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51741635"
   },
   {
     "commonName": "Cobbler's pegs",
@@ -8826,7 +9574,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/cobbler-s-pegs.webp"
+    "thumbnail": "images/weeds/cobbler-s-pegs.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/0a73e393-e0d7-460e-b8b0-3cf138ae6dc7/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/0a73e393-e0d7-460e-b8b0-3cf138ae6dc7/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2905175"
   },
   {
     "commonName": "Cobblers Pegs",
@@ -8837,7 +9588,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Cobblers%20Pegs%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Cobblers%20Pegs%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/78802e20-4d06-46ff-9925-96bf21722db6/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/78802e20-4d06-46ff-9925-96bf21722db6/large",
+    "scientificName": "Glossocardia bidens",
+    "family": "Asteraceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51743562"
   },
   {
     "commonName": "Cocksfoot",
@@ -8887,7 +9643,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/cocksfoot.webp"
+    "thumbnail": "images/weeds/cocksfoot.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/919a9ce6-9fa5-4730-815c-2deed1a25e5e/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/919a9ce6-9fa5-4730-815c-2deed1a25e5e/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2915272"
   },
   {
     "commonName": "Cockspur coral tree",
@@ -8914,7 +9673,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring - Summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Cockspur+coral+tree+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/cockspur-coral-tree.webp"
+    "thumbnail": "images/weeds/cockspur-coral-tree.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/f61efe87-f2c3-4e3a-8632-9d76bd52f25c/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f61efe87-f2c3-4e3a-8632-9d76bd52f25c/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51770858"
   },
   {
     "commonName": "Cockspur thorn",
@@ -8953,7 +9715,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/cockspur-thorn.webp"
+    "thumbnail": "images/weeds/cockspur-thorn.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/c9e1a927-11c1-4772-8ff1-1e1c0eac0b15/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/c9e1a927-11c1-4772-8ff1-1e1c0eac0b15/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2892729"
   },
   {
     "commonName": "Cocky apple",
@@ -8984,7 +9749,10 @@ window.weedsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/weeds/cocky-apple.webp"
+    "thumbnail": "images/weeds/cocky-apple.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/fa1dac9d-7fee-4a71-b032-b0f00a26125b/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/fa1dac9d-7fee-4a71-b032-b0f00a26125b/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2904108"
   },
   {
     "commonName": "Cocos palm",
@@ -9010,7 +9778,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring - Summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Cocos+palm+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/cocos-palm.webp"
+    "thumbnail": "images/weeds/cocos-palm.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/b555ce0a-22b2-4c5a-96b5-ff2efeb55065/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/b555ce0a-22b2-4c5a-96b5-ff2efeb55065/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2910096"
   },
   {
     "commonName": "Coffee",
@@ -9040,7 +9811,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Coffee+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/coffee.webp"
+    "thumbnail": "images/weeds/coffee.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/8341046f-d7ab-4681-a26d-e5b6cf0f9e98/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/8341046f-d7ab-4681-a26d-e5b6cf0f9e98/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2886208"
   },
   {
     "commonName": "Colour Development",
@@ -9051,7 +9825,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Colour%20Development%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Colour%20Development%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/1e4312cb-8558-4bf8-8f78-96e0163f67d8/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/1e4312cb-8558-4bf8-8f78-96e0163f67d8/large",
+    "scientificName": "Panicum simile",
+    "family": "Poaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2903626"
   },
   {
     "commonName": "Colour Improvement",
@@ -9062,7 +9841,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Colour%20Improvement%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Colour%20Improvement%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/1e4312cb-8558-4bf8-8f78-96e0163f67d8/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/1e4312cb-8558-4bf8-8f78-96e0163f67d8/large",
+    "scientificName": "Panicum simile",
+    "family": "Poaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2903626"
   },
   {
     "commonName": "Columbus grass",
@@ -9118,7 +9902,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/columbus-grass.webp"
+    "thumbnail": "images/weeds/columbus-grass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/2f73daec-dd3e-4ee6-98ad-7ef13185ef19/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/2f73daec-dd3e-4ee6-98ad-7ef13185ef19/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2890505"
   },
   {
     "commonName": "Common coral tree",
@@ -9144,7 +9931,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Late Winter to Spring",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Common+coral+tree+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/common-coral-tree.webp"
+    "thumbnail": "images/weeds/common-coral-tree.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/0073f7aa-68a8-4c85-82e3-6f59961f8bc6/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/0073f7aa-68a8-4c85-82e3-6f59961f8bc6/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2901931"
   },
   {
     "commonName": "Common Crowsfoot or Common Storksbill",
@@ -9155,7 +9945,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Common%20Crowsfoot%20or%20Common%20Storksbill%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Common%20Crowsfoot%20or%20Common%20Storksbill%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/8715f533-a701-4be4-a552-eabf5fef7f95/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/8715f533-a701-4be4-a552-eabf5fef7f95/large",
+    "scientificName": "Erodium cicutarium",
+    "family": "Geraniaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2903803"
   },
   {
     "commonName": "Common fumitory",
@@ -9186,7 +9981,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/common-fumitory.webp"
+    "thumbnail": "images/weeds/common-fumitory.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/f31eb44b-bcfd-403a-bf90-ea85a0d402ca/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f31eb44b-bcfd-403a-bf90-ea85a0d402ca/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2904208"
   },
   {
     "commonName": "Common heliotrope",
@@ -9287,7 +10085,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/common-heliotrope.webp"
+    "thumbnail": "images/weeds/common-heliotrope.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/71cbc7db-9dec-4fea-a6c3-f05542bd6116/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/71cbc7db-9dec-4fea-a6c3-f05542bd6116/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2899950"
   },
   {
     "commonName": "Common horsetail",
@@ -9316,7 +10117,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Common+horsetail+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/common-horsetail.webp"
+    "thumbnail": "images/weeds/common-horsetail.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/5aa6f96f-cef2-4131-a21e-6266bdb4a855/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/5aa6f96f-cef2-4131-a21e-6266bdb4a855/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2910305"
   },
   {
     "commonName": "Common ice plant",
@@ -9379,7 +10183,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/common-ice-plant.webp"
+    "thumbnail": "images/weeds/common-ice-plant.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/6ec24c90-52a8-4e32-afc1-764b180f2a5f/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/6ec24c90-52a8-4e32-afc1-764b180f2a5f/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51429009"
   },
   {
     "commonName": "Common Ice-Plant",
@@ -9391,7 +10198,12 @@ window.weedsRegistry = [
       }
     ],
     "thumbnail": "images/weeds/common-ice-plant.webp",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Common%20Ice-Plant%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Common%20Ice-Plant%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/6ec24c90-52a8-4e32-afc1-764b180f2a5f/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/6ec24c90-52a8-4e32-afc1-764b180f2a5f/large",
+    "scientificName": "Mesembryanthemum crystallinum",
+    "family": "Aizoaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51429009"
   },
   {
     "commonName": "Common Peppercress",
@@ -9402,7 +10214,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Common%20Peppercress%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Common%20Peppercress%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/5ba4a601-cea4-42c6-8918-9ba2d16d11c3/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/5ba4a601-cea4-42c6-8918-9ba2d16d11c3/large",
+    "scientificName": "Lepidium africanum",
+    "family": "Brassicaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2887818"
   },
   {
     "commonName": "Common pigweed",
@@ -9567,7 +10384,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/common-pigweed.webp"
+    "thumbnail": "images/weeds/common-pigweed.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/facc13a9-3447-4e3c-ae1e-60a07bb29818/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/facc13a9-3447-4e3c-ae1e-60a07bb29818/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/7808071"
   },
   {
     "commonName": "Common prickly pear",
@@ -9610,7 +10430,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/common-prickly-pear.webp"
+    "thumbnail": "images/weeds/common-prickly-pear.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/925d4219-469a-4b14-9e5c-8f85df91f6f6/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/925d4219-469a-4b14-9e5c-8f85df91f6f6/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2920789"
   },
   {
     "commonName": "Common reed",
@@ -9650,7 +10473,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/common-reed.webp"
+    "thumbnail": "images/weeds/common-reed.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/0073f7aa-68a8-4c85-82e3-6f59961f8bc6/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/0073f7aa-68a8-4c85-82e3-6f59961f8bc6/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2901931"
   },
   {
     "commonName": "Common Sow Thistle",
@@ -9661,7 +10487,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Common%20Sow%20Thistle%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Common%20Sow%20Thistle%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/31cdd78d-c77e-4926-9409-655f57862744/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/31cdd78d-c77e-4926-9409-655f57862744/large",
+    "scientificName": "Sonchus oleraceus",
+    "family": "Asteraceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2895772"
   },
   {
     "commonName": "Common sowthistle",
@@ -9783,7 +10614,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/common-sowthistle.webp"
+    "thumbnail": "images/weeds/common-sowthistle.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/31cdd78d-c77e-4926-9409-655f57862744/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/31cdd78d-c77e-4926-9409-655f57862744/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2895772"
   },
   {
     "commonName": "Common storksbill",
@@ -9825,7 +10659,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/common-storksbill.webp"
+    "thumbnail": "images/weeds/common-storksbill.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/8715f533-a701-4be4-a552-eabf5fef7f95/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/8715f533-a701-4be4-a552-eabf5fef7f95/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2903803"
   },
   {
     "commonName": "Common verbena",
@@ -9866,7 +10703,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/common-verbena.webp"
+    "thumbnail": "images/weeds/common-verbena.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/91b72a75-2a1b-4f79-a958-9fdca5209a72/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/91b72a75-2a1b-4f79-a958-9fdca5209a72/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51294588"
   },
   {
     "commonName": "Common vetch",
@@ -9900,7 +10740,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/common-vetch.webp"
+    "thumbnail": "images/weeds/common-vetch.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/579c079d-b699-4f2e-9e46-507d4c81b0e0/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/579c079d-b699-4f2e-9e46-507d4c81b0e0/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51285764"
   },
   {
     "commonName": "Control Of Lucerne",
@@ -9911,7 +10754,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Control%20Of%20Lucerne%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Control%20Of%20Lucerne%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/98f99c6b-4fc0-46a9-9fba-84b72d4ab936/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/98f99c6b-4fc0-46a9-9fba-84b72d4ab936/large",
+    "scientificName": "Medicago sativa",
+    "family": "Fabaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51771045"
   },
   {
     "commonName": "Convolvulus",
@@ -9958,7 +10806,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/convolvulus.webp"
+    "thumbnail": "images/weeds/convolvulus.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/78f2a51b-6851-4113-813c-e00d79f967ca/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/78f2a51b-6851-4113-813c-e00d79f967ca/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2889096"
   },
   {
     "commonName": "Convolvulus Vines",
@@ -9969,7 +10820,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Convolvulus%20Vines%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Convolvulus%20Vines%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/78f2a51b-6851-4113-813c-e00d79f967ca/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/78f2a51b-6851-4113-813c-e00d79f967ca/large",
+    "scientificName": "Convolvulus sabatius",
+    "family": "Convolvulaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2889096"
   },
   {
     "commonName": "Conyza bonariensis",
@@ -9980,7 +10836,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Conyza%20bonariensis%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Conyza%20bonariensis%20weed%20Australia",
+    "scientificName": "Poa bonariensis",
+    "family": "Poaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2898280"
   },
   {
     "commonName": "Coolatai grass",
@@ -10012,7 +10871,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/coolatai-grass.webp"
+    "thumbnail": "images/weeds/coolatai-grass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/69e81064-6d55-4f85-babc-2ed04405e736/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/69e81064-6d55-4f85-babc-2ed04405e736/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2914002"
   },
   {
     "commonName": "Coolibah",
@@ -10044,7 +10906,10 @@ window.weedsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/weeds/coolibah.webp"
+    "thumbnail": "images/weeds/coolibah.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/b5b0234f-ebe8-47c5-8080-357efbab04eb/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/b5b0234f-ebe8-47c5-8080-357efbab04eb/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2902862"
   },
   {
     "commonName": "Coral ardisia",
@@ -10072,7 +10937,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Berry Winter-Spring",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Coral+ardisia+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/coral-ardisia.webp"
+    "thumbnail": "images/weeds/coral-ardisia.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/8bb0ea81-28c8-41f5-b7cf-8360276b6608/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/8bb0ea81-28c8-41f5-b7cf-8360276b6608/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2907309"
   },
   {
     "commonName": "Coral berry",
@@ -10102,7 +10970,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring-Summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Coral+berry.+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/coral-berry.webp"
+    "thumbnail": "images/weeds/coral-berry.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/a4b0b65b-4394-45bb-98d3-e5614fdd8b00/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a4b0b65b-4394-45bb-98d3-e5614fdd8b00/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2897522"
   },
   {
     "commonName": "Coral cactus",
@@ -10131,7 +11002,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Doesn't produce flowers or fruit",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Coral+cactus+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/coral-cactus.webp"
+    "thumbnail": "images/weeds/coral-cactus.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/4d0dbe30-bd9d-4aa5-9053-23452f59b05e/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/4d0dbe30-bd9d-4aa5-9053-23452f59b05e/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51432840"
   },
   {
     "commonName": "Coral creeper",
@@ -10156,7 +11030,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Summer- Winter",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Coral+Creeper+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/coral-creeper.webp"
+    "thumbnail": "images/weeds/coral-creeper.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/319a67e5-b476-46b1-8246-332be8bedcb9/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/319a67e5-b476-46b1-8246-332be8bedcb9/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2897353"
   },
   {
     "commonName": "Coral vine",
@@ -10174,7 +11051,10 @@ window.weedsRegistry = [
     "floweringPeriod": "",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Coral+vine+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/coral-vine.webp"
+    "thumbnail": "images/weeds/coral-vine.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/2417be13-aa88-447d-b5d3-d8c121649af8/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/2417be13-aa88-447d-b5d3-d8c121649af8/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2902404"
   },
   {
     "commonName": "Corky passion vine",
@@ -10203,7 +11083,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Year Round",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Corky+passion+vine+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/corky-passion-vine.webp"
+    "thumbnail": "images/weeds/corky-passion-vine.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/d29a4893-9824-4beb-afc6-934e5ffe1afe/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/d29a4893-9824-4beb-afc6-934e5ffe1afe/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2902546"
   },
   {
     "commonName": "Corn Earworm",
@@ -10214,7 +11097,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Corn%20Earworm%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Corn%20Earworm%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/7243cdc4-203c-4cf0-a68c-ebde569334ef/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/7243cdc4-203c-4cf0-a68c-ebde569334ef/large",
+    "scientificName": "Diplophyllum verrucosum",
+    "family": "Scapaniaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/ausmoss/155294"
   },
   {
     "commonName": "Corn gromwell",
@@ -10279,7 +11167,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/corn-gromwell.webp"
+    "thumbnail": "images/weeds/corn-gromwell.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/a167f3e9-7ddd-444f-b652-2de4d8bc55fc/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a167f3e9-7ddd-444f-b652-2de4d8bc55fc/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2906400"
   },
   {
     "commonName": "Corn spurry",
@@ -10309,7 +11200,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/corn-spurry.webp"
+    "thumbnail": "images/weeds/corn-spurry.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/efd1eb22-b127-4c86-9480-3f080b8b6a86/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/efd1eb22-b127-4c86-9480-3f080b8b6a86/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2897333"
   },
   {
     "commonName": "Corymbia",
@@ -10339,7 +11233,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/corymbia.webp"
+    "thumbnail": "images/weeds/corymbia.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/9be20bfa-1c1b-4b9f-9cf9-8c004a2ec4bf/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/9be20bfa-1c1b-4b9f-9cf9-8c004a2ec4bf/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2911512"
   },
   {
     "commonName": "Cotoneaster",
@@ -10364,7 +11261,10 @@ window.weedsRegistry = [
     "floweringPeriod": "spring and summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Cotoneaster+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/cotoneaster.webp"
+    "thumbnail": "images/weeds/cotoneaster.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/9e39009d-29b6-4eef-b0d0-33a946db4188/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/9e39009d-29b6-4eef-b0d0-33a946db4188/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51446356"
   },
   {
     "commonName": "Cotton Bollworm",
@@ -10375,7 +11275,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Cotton%20Bollworm%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Cotton%20Bollworm%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/108200ae-d2bb-4ed9-a038-56feb1100b4d/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/108200ae-d2bb-4ed9-a038-56feb1100b4d/large",
+    "scientificName": "Senecio quadridentatus",
+    "family": "Asteraceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2893457"
   },
   {
     "commonName": "Cottony Cushion Scale",
@@ -10386,7 +11291,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Cottony%20Cushion%20Scale%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Cottony%20Cushion%20Scale%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/fef21ec6-a3f1-4109-9481-82f74051d766/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/fef21ec6-a3f1-4109-9481-82f74051d766/large",
+    "scientificName": "Isoetopsis graminifolia",
+    "family": "Asteraceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2889970"
   },
   {
     "commonName": "Cotula",
@@ -10446,7 +11356,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/cotula.webp"
+    "thumbnail": "images/weeds/cotula.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/b641b0a0-b1fa-4621-a763-47a33157198c/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/b641b0a0-b1fa-4621-a763-47a33157198c/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2915968"
   },
   {
     "commonName": "Couch grass",
@@ -10526,7 +11439,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/couch-grass.webp"
+    "thumbnail": "images/weeds/couch-grass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/406c813c-817d-4e99-9e55-070ead0cf9b3/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/406c813c-817d-4e99-9e55-070ead0cf9b3/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51443078"
   },
   {
     "commonName": "Cow vine",
@@ -10575,7 +11491,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/cow-vine.webp"
+    "thumbnail": "images/weeds/cow-vine.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/17c95f68-e2ae-4b6c-8e51-236c56b07ff0/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/17c95f68-e2ae-4b6c-8e51-236c56b07ff0/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2905775"
   },
   {
     "commonName": "Cow-Vine",
@@ -10587,7 +11506,12 @@ window.weedsRegistry = [
       }
     ],
     "thumbnail": "images/weeds/cow-vine.webp",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Cow-Vine%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Cow-Vine%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/17c95f68-e2ae-4b6c-8e51-236c56b07ff0/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/17c95f68-e2ae-4b6c-8e51-236c56b07ff0/large",
+    "scientificName": "Ipomoea lonchophylla",
+    "family": "Convolvulaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2905775"
   },
   {
     "commonName": "Cowpea",
@@ -10616,7 +11540,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/cowpea.webp"
+    "thumbnail": "images/weeds/cowpea.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/68df26c9-a2c1-49ea-a68a-ee2b5201c310/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/68df26c9-a2c1-49ea-a68a-ee2b5201c310/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51770445"
   },
   {
     "commonName": "Crab's eye creeper",
@@ -10657,7 +11584,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Crab's+eye+creeper+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/crab-s-eye-creeper.webp"
+    "thumbnail": "images/weeds/crab-s-eye-creeper.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/319a67e5-b476-46b1-8246-332be8bedcb9/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/319a67e5-b476-46b1-8246-332be8bedcb9/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2897353"
   },
   {
     "commonName": "Crabgrass",
@@ -10694,7 +11624,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/crabgrass.webp"
+    "thumbnail": "images/weeds/crabgrass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/087402b0-7811-4f99-9269-e6d6a55b7ca5/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/087402b0-7811-4f99-9269-e6d6a55b7ca5/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2887457"
   },
   {
     "commonName": "Crassula",
@@ -10752,7 +11685,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/crassula.webp"
+    "thumbnail": "images/weeds/crassula.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/30cedcb6-f27d-40b0-9860-de79049d3279/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/30cedcb6-f27d-40b0-9860-de79049d3279/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2888705"
   },
   {
     "commonName": "Crassula sieberiana",
@@ -10763,7 +11699,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Crassula%20sieberiana%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Crassula%20sieberiana%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/30cedcb6-f27d-40b0-9860-de79049d3279/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/30cedcb6-f27d-40b0-9860-de79049d3279/large",
+    "scientificName": "Crassula sieberiana",
+    "family": "Crassulaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2888705"
   },
   {
     "commonName": "Creasing Reduction — Navel And Valencia Oranges",
@@ -10774,7 +11715,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Creasing%20Reduction%20%E2%80%94%20Navel%20And%20Valencia%20Oranges%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Creasing%20Reduction%20%E2%80%94%20Navel%20And%20Valencia%20Oranges%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/82bbf02c-e4a2-4ff6-891c-7c3f3d945cfa/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/82bbf02c-e4a2-4ff6-891c-7c3f3d945cfa/large",
+    "scientificName": "Citrus x aurantium",
+    "family": "Rutaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51294026"
   },
   {
     "commonName": "Creasing Reduction in Navel/Valencia Oranges",
@@ -10785,7 +11731,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Creasing%20Reduction%20in%20Navel%2FValencia%20Oranges%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Creasing%20Reduction%20in%20Navel%2FValencia%20Oranges%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/82bbf02c-e4a2-4ff6-891c-7c3f3d945cfa/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/82bbf02c-e4a2-4ff6-891c-7c3f3d945cfa/large",
+    "scientificName": "Citrus x aurantium",
+    "family": "Rutaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51294026"
   },
   {
     "commonName": "Creeping burrhead",
@@ -10810,7 +11761,10 @@ window.weedsRegistry = [
     "floweringPeriod": "late summer and early autumn",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Creeping+Burrhead+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/creeping-burrhead.webp"
+    "thumbnail": "images/weeds/creeping-burrhead.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/bd0a1448-fedd-4d36-a513-78c7d7843a6a/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/bd0a1448-fedd-4d36-a513-78c7d7843a6a/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2894347"
   },
   {
     "commonName": "Creeping Buttercup",
@@ -10821,7 +11775,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Creeping%20Buttercup%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Creeping%20Buttercup%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/c1ed2794-0b26-4c65-93b6-013b86a8feaa/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/c1ed2794-0b26-4c65-93b6-013b86a8feaa/large",
+    "scientificName": "Ranunculus repens",
+    "family": "Ranunculaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2895277"
   },
   {
     "commonName": "Creeping cinderella weed",
@@ -10848,7 +11807,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Winter - Spring",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Creeping+cinderella+weed+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/creeping-cinderella-weed.webp"
+    "thumbnail": "images/weeds/creeping-cinderella-weed.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/0424f168-d519-4fbe-aebb-ba2ef0e290a8/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/0424f168-d519-4fbe-aebb-ba2ef0e290a8/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51742780"
   },
   {
     "commonName": "Creeping inch plant",
@@ -10880,7 +11842,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Summer - Autumn",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Creeping+inch+plant+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/creeping-inch-plant.webp"
+    "thumbnail": "images/weeds/creeping-inch-plant.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/fc54e262-1188-4961-a43a-dc6aa6120950/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/fc54e262-1188-4961-a43a-dc6aa6120950/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2906923"
   },
   {
     "commonName": "Creeping indigo",
@@ -10906,7 +11871,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Year round",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Creeping+indigo+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/creeping-indigo.webp"
+    "thumbnail": "images/weeds/creeping-indigo.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/a06f9006-31cd-4951-956b-d84c99fc4000/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a06f9006-31cd-4951-956b-d84c99fc4000/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2897120"
   },
   {
     "commonName": "Creeping knotweed",
@@ -10935,7 +11903,10 @@ window.weedsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/weeds/creeping-knotweed.webp"
+    "thumbnail": "images/weeds/creeping-knotweed.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/5d476adc-ae92-4f43-b44a-46ad2b1dee43/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/5d476adc-ae92-4f43-b44a-46ad2b1dee43/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2897897"
   },
   {
     "commonName": "Creeping lantana",
@@ -10964,7 +11935,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Year Round",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Creeping+lantana+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/creeping-lantana.webp"
+    "thumbnail": "images/weeds/creeping-lantana.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/7194f6c1-94d0-46bf-b337-bf4a748f5b98/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/7194f6c1-94d0-46bf-b337-bf4a748f5b98/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2894994"
   },
   {
     "commonName": "Creeping phyllanthus",
@@ -10991,7 +11965,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Summer- Autumn",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Creeping+phyllanthus+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/creeping-phyllanthus.webp"
+    "thumbnail": "images/weeds/creeping-phyllanthus.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/fc54e262-1188-4961-a43a-dc6aa6120950/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/fc54e262-1188-4961-a43a-dc6aa6120950/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2906923"
   },
   {
     "commonName": "Creeping speedwell",
@@ -11021,7 +11998,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/creeping-speedwell.webp"
+    "thumbnail": "images/weeds/creeping-speedwell.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/f3c16f51-2237-46d4-8666-6cc3b1ec292e/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f3c16f51-2237-46d4-8666-6cc3b1ec292e/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2891530"
   },
   {
     "commonName": "Crested goosefoot",
@@ -11055,7 +12035,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/crested-goosefoot.webp"
+    "thumbnail": "images/weeds/crested-goosefoot.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/70e90d3d-95d1-4e45-b95d-f87ff0adc9e4/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/70e90d3d-95d1-4e45-b95d-f87ff0adc9e4/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2890589"
   },
   {
     "commonName": "Crofton weed",
@@ -11124,7 +12107,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/crofton-weed.webp"
+    "thumbnail": "images/weeds/crofton-weed.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/d1a7d0f6-0707-4c94-987c-3558e34ae78e/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/d1a7d0f6-0707-4c94-987c-3558e34ae78e/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51741727"
   },
   {
     "commonName": "Crop Desiccant",
@@ -11157,7 +12143,11 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Crop%20Desiccation%20%2F%20Weed%20Control%20At%20Harvest%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Crop%20Desiccation%20%2F%20Weed%20Control%20At%20Harvest%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/44cbc912-6f60-46c6-9d69-d80681f40a9f/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/44cbc912-6f60-46c6-9d69-d80681f40a9f/large",
+    "scientificName": "OPILIONES",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/69ce8166-070a-49ea-a3fa-f0a4614e0b7a"
   },
   {
     "commonName": "Crown beard",
@@ -11204,7 +12194,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Crowsfoot%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Crowsfoot%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/7e0f405d-5499-4348-95d6-9373c11f61f8/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/7e0f405d-5499-4348-95d6-9373c11f61f8/large",
+    "scientificName": "Franciscodendron laurifolium",
+    "family": "Malvaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2908105"
   },
   {
     "commonName": "Crowsfoot grass",
@@ -11304,7 +12299,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/crowsfoot-grass.webp"
+    "thumbnail": "images/weeds/crowsfoot-grass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/f1e9cbd2-90c5-4d06-91a3-8e55769ba34c/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f1e9cbd2-90c5-4d06-91a3-8e55769ba34c/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2897406"
   },
   {
     "commonName": "Cudweed",
@@ -11373,7 +12371,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/cudweed.webp"
+    "thumbnail": "images/weeds/cudweed.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/43ca2f34-1f67-4479-a8d0-ed84a624aadc/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/43ca2f34-1f67-4479-a8d0-ed84a624aadc/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51743538"
   },
   {
     "commonName": "Cudweeds",
@@ -11443,7 +12444,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/cudweeds.webp"
+    "thumbnail": "images/weeds/cudweeds.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/a1d4917f-7faf-4ab4-8eae-388db7bf3b89/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a1d4917f-7faf-4ab4-8eae-388db7bf3b89/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2899891"
   },
   {
     "commonName": "Cumbungi",
@@ -11484,7 +12488,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/cumbungi.webp"
+    "thumbnail": "images/weeds/cumbungi.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/d30b17c3-8946-47b8-a6cf-945564453a2f/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/d30b17c3-8946-47b8-a6cf-945564453a2f/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2910296"
   },
   {
     "commonName": "Cupid's flower",
@@ -11495,7 +12502,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Cupid's%20flower%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Cupid's%20flower%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/e66828e1-6834-42d0-bc89-cb80a159908c/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/e66828e1-6834-42d0-bc89-cb80a159908c/large",
+    "scientificName": "Ipomoea quamoclit",
+    "family": "Convolvulaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2910303"
   },
   {
     "commonName": "Curious weed",
@@ -11523,7 +12535,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/curious-weed.webp"
+    "thumbnail": "images/weeds/curious-weed.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/0a9001c0-1a97-4b2d-87e8-cc3e29c677eb/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/0a9001c0-1a97-4b2d-87e8-cc3e29c677eb/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2894064"
   },
   {
     "commonName": "Curry-leaf tree",
@@ -11585,7 +12600,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/cutleaf-mignonette.webp"
+    "thumbnail": "images/weeds/cutleaf-mignonette.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/5813e093-731d-456f-b3e3-b31236f3e7b9/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/5813e093-731d-456f-b3e3-b31236f3e7b9/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51406630"
   },
   {
     "commonName": "Dalrymple vigna",
@@ -11614,7 +12632,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/dalrymple-vigna.webp"
+    "thumbnail": "images/weeds/dalrymple-vigna.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/46551c7d-0043-41d3-8a76-0460ea4f707c/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/46551c7d-0043-41d3-8a76-0460ea4f707c/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2892179"
   },
   {
     "commonName": "Dandelion",
@@ -11673,7 +12694,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/dandelion.webp"
+    "thumbnail": "images/weeds/dandelion.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/be97a49c-049b-4bbc-b520-7e56080f0531/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/be97a49c-049b-4bbc-b520-7e56080f0531/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/7082296"
   },
   {
     "commonName": "Dark blue snakeweed",
@@ -11717,7 +12741,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/dark-blue-snakeweed.webp"
+    "thumbnail": "images/weeds/dark-blue-snakeweed.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/fb0763a3-090c-49dd-965a-1e23e0bece06/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/fb0763a3-090c-49dd-965a-1e23e0bece06/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2901782"
   },
   {
     "commonName": "Darling pea",
@@ -11747,7 +12774,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/darling-pea.webp"
+    "thumbnail": "images/weeds/darling-pea.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/e95f6a4c-f317-4754-bb86-909ca63f56f4/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/e95f6a4c-f317-4754-bb86-909ca63f56f4/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2904236"
   },
   {
     "commonName": "Dawson gum",
@@ -11778,7 +12808,10 @@ window.weedsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/weeds/dawson-gum.webp"
+    "thumbnail": "images/weeds/dawson-gum.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/891fd522-bd9d-4abd-9508-fe710d78ec0a/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/891fd522-bd9d-4abd-9508-fe710d78ec0a/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2891657"
   },
   {
     "commonName": "Dead nettle",
@@ -11848,7 +12881,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/dead-nettle.webp"
+    "thumbnail": "images/weeds/dead-nettle.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/3d063e63-4eda-41ee-bab4-78ecb2de9df4/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/3d063e63-4eda-41ee-bab4-78ecb2de9df4/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2915890"
   },
   {
     "commonName": "Deadly nightshade",
@@ -11875,7 +12911,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Mid Summer to early Autumn",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Deadly+Nightshade+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/deadly-nightshade.webp"
+    "thumbnail": "images/weeds/deadly-nightshade.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/81d94f5a-4116-4bd7-b89c-2912949ee8bd/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/81d94f5a-4116-4bd7-b89c-2912949ee8bd/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/7194281"
   },
   {
     "commonName": "Deadnettle",
@@ -11940,7 +12979,12 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Deadnettle%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Deadnettle%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/3d063e63-4eda-41ee-bab4-78ecb2de9df4/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/3d063e63-4eda-41ee-bab4-78ecb2de9df4/large",
+    "scientificName": "Lamium amplexicaule",
+    "family": "Lamiaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2915890"
   },
   {
     "commonName": "Defoliation",
@@ -11963,7 +13007,12 @@ window.weedsRegistry = [
       }
     ],
     "thumbnail": "images/weeds/dense-flowered-fumitory.webp",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Dense%20flowered%20fumitory%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Dense%20flowered%20fumitory%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/54d1564e-df81-4b4e-85bb-1f0b46e05e7f/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/54d1564e-df81-4b4e-85bb-1f0b46e05e7f/large",
+    "scientificName": "Fumaria densiflora",
+    "family": "Papaveraceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2903861"
   },
   {
     "commonName": "Dense waterweed",
@@ -11989,7 +13038,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring - Autumn",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Dense+waterweed+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/dense-waterweed.webp"
+    "thumbnail": "images/weeds/dense-waterweed.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/2f56d692-51a9-4273-8456-54d3e4cd71e8/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/2f56d692-51a9-4273-8456-54d3e4cd71e8/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2900995"
   },
   {
     "commonName": "Dense-flowered fumitory",
@@ -12030,7 +13082,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/dense-flowered-fumitory.webp"
+    "thumbnail": "images/weeds/dense-flowered-fumitory.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/54d1564e-df81-4b4e-85bb-1f0b46e05e7f/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/54d1564e-df81-4b4e-85bb-1f0b46e05e7f/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2903861"
   },
   {
     "commonName": "Devil's fig",
@@ -12064,7 +13119,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Year Round",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Devil's+fig+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/devil-s-fig.webp"
+    "thumbnail": "images/weeds/devil-s-fig.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/31f45155-286a-4ffc-a3d7-418638cc43f7/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/31f45155-286a-4ffc-a3d7-418638cc43f7/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2910467"
   },
   {
     "commonName": "Devils rope pear",
@@ -12098,7 +13156,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Late Spring and Summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Devils+rope+pear+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/devils-rope-pear.webp"
+    "thumbnail": "images/weeds/devils-rope-pear.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/ba374cd1-d6d1-44ad-8615-10397c983750/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/ba374cd1-d6d1-44ad-8615-10397c983750/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2890986"
   },
   {
     "commonName": "Dinebra",
@@ -12133,7 +13194,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/dinebra.webp"
+    "thumbnail": "images/weeds/dinebra.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/5d182164-8503-4723-804a-52cb389fdf9a/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/5d182164-8503-4723-804a-52cb389fdf9a/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2903315"
   },
   {
     "commonName": "Dirty Dora",
@@ -12149,7 +13213,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Dirty%20Dora%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Dirty%20Dora%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/9f16ccd3-730a-4187-9b35-44e2cb48b165/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/9f16ccd3-730a-4187-9b35-44e2cb48b165/large",
+    "scientificName": "Cyperus difformis",
+    "family": "Cyperaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2898646"
   },
   {
     "commonName": "Dock",
@@ -12229,7 +13298,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/dock.webp"
+    "thumbnail": "images/weeds/dock.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/c06be271-41ab-4f1e-8d28-adc7e6d24d41/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/c06be271-41ab-4f1e-8d28-adc7e6d24d41/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51291722"
   },
   {
     "commonName": "Docks",
@@ -12255,7 +13327,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Docks%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Docks%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/1526af5d-28b7-4b37-b4e2-5c383c9c9ebc/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/1526af5d-28b7-4b37-b4e2-5c383c9c9ebc/large",
+    "scientificName": "Rumex",
+    "family": "Polygonaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51291688"
   },
   {
     "commonName": "Doublegee",
@@ -12434,7 +13511,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Dove%20Weed%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Dove%20Weed%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/b22621a9-ba98-4882-9512-32ff12591f42/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/b22621a9-ba98-4882-9512-32ff12591f42/large",
+    "scientificName": "Croton setiger",
+    "family": "Euphorbiaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2898772"
   },
   {
     "commonName": "Doveweed",
@@ -12469,7 +13551,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/doveweed.webp"
+    "thumbnail": "images/weeds/doveweed.webp",
+    "alaUrl": "https://bie.ala.org.au/species/NZOR-6-59084"
   },
   {
     "commonName": "Drooping tree pear",
@@ -12505,7 +13588,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/drooping-tree-pear.webp"
+    "thumbnail": "images/weeds/drooping-tree-pear.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/0ab5b966-04b1-44d0-ac75-2cd2534a5225/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/0ab5b966-04b1-44d0-ac75-2cd2534a5225/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51771235"
   },
   {
     "commonName": "Duck Weeds",
@@ -12537,7 +13623,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Year-round",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Duck+Weeds+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/duckweed.webp"
+    "thumbnail": "images/weeds/duckweed.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/4d84d22e-56bc-4451-990a-9b279b9eee57/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/4d84d22e-56bc-4451-990a-9b279b9eee57/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2906365"
   },
   {
     "commonName": "Duranta",
@@ -12565,7 +13654,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring - Autumn",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Duranta+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/duranta.webp"
+    "thumbnail": "images/weeds/duranta.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/11acce88-e816-4ca6-be84-ac60ef9d4219/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/11acce88-e816-4ca6-be84-ac60ef9d4219/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2896039"
   },
   {
     "commonName": "Dust Reduction",
@@ -12602,7 +13694,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Dutchman's+pipe+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/dutchman-s-pipe.webp"
+    "thumbnail": "images/weeds/dutchman-s-pipe.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/cca8a9f3-25dd-4193-bde7-f30d0aff5a12/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/cca8a9f3-25dd-4193-bde7-f30d0aff5a12/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51431456"
   },
   {
     "commonName": "Dwarf Amaranthus",
@@ -12613,7 +13708,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Dwarf%20Amaranthus%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Dwarf%20Amaranthus%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/34fa75e5-7e54-4334-95ff-8fb2812a8677/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/34fa75e5-7e54-4334-95ff-8fb2812a8677/large",
+    "scientificName": "Amaranthus tricolor",
+    "family": "Amaranthaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2910750"
   },
   {
     "commonName": "Dwarf crumbweed",
@@ -12649,7 +13749,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/dwarf-crumbweed.webp"
+    "thumbnail": "images/weeds/dwarf-crumbweed.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/a8062594-5f95-4b5c-93da-62d17ae0bc9f/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a8062594-5f95-4b5c-93da-62d17ae0bc9f/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51433159"
   },
   {
     "commonName": "Dyschoriste",
@@ -12673,7 +13776,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring - Summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Dyschoriste+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/dyschoriste.webp"
+    "thumbnail": "images/weeds/dyschoriste.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/ea94393a-8540-4ff1-87a6-46ebf3540903/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/ea94393a-8540-4ff1-87a6-46ebf3540903/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2892876"
   },
   {
     "commonName": "East indian hygrophila",
@@ -12704,7 +13810,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Autmn - Winter",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=East+Indian+hygrophila+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/east-indian-hygrophila.webp"
+    "thumbnail": "images/weeds/east-indian-hygrophila.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/c7ae3ae0-a095-4932-9b8b-ad80deaaf30f/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/c7ae3ae0-a095-4932-9b8b-ad80deaaf30f/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2911194"
   },
   {
     "commonName": "Easter cassia",
@@ -12728,7 +13837,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Year Round",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Easter+cassia+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/easter-cassia.webp"
+    "thumbnail": "images/weeds/easter-cassia.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/fa0f3882-4581-4f2f-8d14-5470f6915f9d/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/fa0f3882-4581-4f2f-8d14-5470f6915f9d/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2901068"
   },
   {
     "commonName": "Eastern cotton bush",
@@ -12765,7 +13877,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/eastern-cotton-bush.webp"
+    "thumbnail": "images/weeds/eastern-cotton-bush.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/a8a74bb4-0857-4a4d-a236-2811b25fec0f/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a8a74bb4-0857-4a4d-a236-2811b25fec0f/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2894552"
   },
   {
     "commonName": "Elastic grass",
@@ -12788,7 +13903,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Year round",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Elastic+grass+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/elastic-grass.webp"
+    "thumbnail": "images/weeds/elastic-grass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/e9affa67-d664-46c8-b38e-80136db8a145/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/e9affa67-d664-46c8-b38e-80136db8a145/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2897316"
   },
   {
     "commonName": "Elephant ear vine",
@@ -12819,7 +13937,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring and Summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Elephant+ear+vine+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/elephant-ear-vine.webp"
+    "thumbnail": "images/weeds/elephant-ear-vine.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/cda70618-01a5-4d76-93bc-8df39ff80616/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/cda70618-01a5-4d76-93bc-8df39ff80616/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2893621"
   },
   {
     "commonName": "Elephant grass",
@@ -12847,7 +13968,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Year Round",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Elephant+grass+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/elephant-grass.webp"
+    "thumbnail": "images/weeds/elephant-grass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/1d895911-5237-4d6b-9837-8d7dda704d3d/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/1d895911-5237-4d6b-9837-8d7dda704d3d/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2912193"
   },
   {
     "commonName": "Emilia",
@@ -12876,7 +14000,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Autumn - Spring",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Emilia+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/emilia.webp"
+    "thumbnail": "images/weeds/emilia.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/b6f31a74-9055-4ebf-a758-241f5889fb8f/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/b6f31a74-9055-4ebf-a758-241f5889fb8f/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2888882"
   },
   {
     "commonName": "English couch",
@@ -12910,7 +14037,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/english-couch.webp"
+    "thumbnail": "images/weeds/english-couch.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/dbf4cb43-499b-4c29-9149-66b16b832105/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/dbf4cb43-499b-4c29-9149-66b16b832105/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51442658"
   },
   {
     "commonName": "Enhances Fruit Shape",
@@ -13022,7 +14152,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/erodium.webp"
+    "thumbnail": "images/weeds/erodium.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/781137cc-eb03-4071-aba9-face6ebada13/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/781137cc-eb03-4071-aba9-face6ebada13/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2912290"
   },
   {
     "commonName": "Erodium Spp.",
@@ -13033,7 +14166,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Erodium%20Spp.%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Erodium%20Spp.%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/781137cc-eb03-4071-aba9-face6ebada13/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/781137cc-eb03-4071-aba9-face6ebada13/large",
+    "scientificName": "Erodium aureum",
+    "family": "Geraniaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2912290"
   },
   {
     "commonName": "Especially At The Highest Application Rate.",
@@ -13065,7 +14203,12 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Eucalyptus%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Eucalyptus%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/95d00d32-243a-4fe7-a81a-b4c1dc8969a8/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/95d00d32-243a-4fe7-a81a-b4c1dc8969a8/large",
+    "scientificName": "Eucalyptus melanophloia - Eucalyptus whitei",
+    "family": "Myrtaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51782104"
   },
   {
     "commonName": "Eucalyptus Spp.",
@@ -13081,7 +14224,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Eucalyptus%20Spp.%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Eucalyptus%20Spp.%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/95d00d32-243a-4fe7-a81a-b4c1dc8969a8/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/95d00d32-243a-4fe7-a81a-b4c1dc8969a8/large",
+    "scientificName": "Eucalyptus melanophloia - Eucalyptus whitei",
+    "family": "Myrtaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51782104"
   },
   {
     "commonName": "Eurasian water-milfoil",
@@ -13103,7 +14251,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Unknown in Australia",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Eurasian+water-milfoil+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/eurasian-water-milfoil.webp"
+    "thumbnail": "images/weeds/eurasian-water-milfoil.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/a302fc50-65a0-4468-9717-453b848d0c1e/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a302fc50-65a0-4468-9717-453b848d0c1e/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/7401076"
   },
   {
     "commonName": "Eve's pin cactus",
@@ -13131,7 +14282,8 @@ window.weedsRegistry = [
     "floweringPeriod": "Not known in Australia",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Eve's+pin+cactus+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/eve-s-pin-cactus.webp"
+    "thumbnail": "images/weeds/eve-s-pin-cactus.webp",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/f7f74f94-1adf-4234-a447-1e38c35c8aff"
   },
   {
     "commonName": "Evening primrose",
@@ -13160,7 +14312,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/evening-primrose.webp"
+    "thumbnail": "images/weeds/evening-primrose.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/8be3e25b-3a8b-421f-a38f-eb3ea5358772/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/8be3e25b-3a8b-421f-a38f-eb3ea5358772/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2890448"
   },
   {
     "commonName": "Except Noogoora Burr",
@@ -13171,7 +14326,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Except%20Noogoora%20Burr%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Except%20Noogoora%20Burr%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/df147005-7fbd-4b6a-9e1c-5e2367558ad6/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/df147005-7fbd-4b6a-9e1c-5e2367558ad6/large",
+    "scientificName": "Xanthium occidentale",
+    "family": "Asteraceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51311048"
   },
   {
     "commonName": "Excessive Vegetative Growth",
@@ -13182,7 +14342,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Excessive%20Vegetative%20Growth%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Excessive%20Vegetative%20Growth%20weed%20Australia",
+    "scientificName": "Streptomyces aureofaciens emend. Groth et al., 2003",
+    "family": "Streptomycetaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://www.catalogueoflife.org/data/taxon/52Y9W"
   },
   {
     "commonName": "Faba bean",
@@ -13193,7 +14356,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Faba%20bean%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Faba%20bean%20weed%20Australia",
+    "scientificName": "Faba bean yellow leaf virus",
+    "family": "Nanoviridae",
+    "alaUrl": "https://bie.ala.org.au/species/https://www.catalogueoflife.org/data/taxon/6HM8P"
   },
   {
     "commonName": "Fallopia convolvulus",
@@ -13204,7 +14370,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Fallopia%20convolvulus%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Fallopia%20convolvulus%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/275c44bb-7b55-4be3-899b-7f21b724fddb/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/275c44bb-7b55-4be3-899b-7f21b724fddb/large",
+    "scientificName": "Fallopia convolvulus",
+    "family": "Polygonaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2886719"
   },
   {
     "commonName": "False castor oil plant",
@@ -13238,7 +14409,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/false-castor-oil-plant.webp"
+    "thumbnail": "images/weeds/false-castor-oil-plant.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/93559d93-129f-4ae6-9722-1ca38b193a05/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/93559d93-129f-4ae6-9722-1ca38b193a05/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2919250"
   },
   {
     "commonName": "False Onion Weed",
@@ -13249,7 +14423,9 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=False%20Onion%20Weed%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=False%20Onion%20Weed%20weed%20Australia",
+    "scientificName": "Nothoscordum gracile",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/apni/96821"
   },
   {
     "commonName": "False sandalwood",
@@ -13281,7 +14457,10 @@ window.weedsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/weeds/false-sandalwood.webp"
+    "thumbnail": "images/weeds/false-sandalwood.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/6a871c1d-d7fc-4e0c-aa82-71296bd004f8/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/6a871c1d-d7fc-4e0c-aa82-71296bd004f8/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2901145"
   },
   {
     "commonName": "Fat-Hen",
@@ -13298,7 +14477,12 @@ window.weedsRegistry = [
       }
     ],
     "thumbnail": "images/weeds/fathen.webp",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Fat-Hen%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Fat-Hen%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/c4d98b6c-aa4b-4134-9580-6cdcf91695b6/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/c4d98b6c-aa4b-4134-9580-6cdcf91695b6/large",
+    "scientificName": "Chenopodium murale",
+    "family": "Chenopodiaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2920466"
   },
   {
     "commonName": "Fathen",
@@ -13466,7 +14650,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Feathertop+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/feathertop.webp"
+    "thumbnail": "images/weeds/feathertop.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/66adb4c4-495d-4dce-b1df-a41bb25bf9b0/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/66adb4c4-495d-4dce-b1df-a41bb25bf9b0/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2888421"
   },
   {
     "commonName": "Feathertop rhodes grass",
@@ -13523,7 +14710,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/feathertop-rhodes-grass.webp"
+    "thumbnail": "images/weeds/feathertop-rhodes-grass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/56cd73da-f30d-4851-9a04-029b85f4adde/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/56cd73da-f30d-4851-9a04-029b85f4adde/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2896194"
   },
   {
     "commonName": "Fennel",
@@ -13572,7 +14762,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/fennel.webp"
+    "thumbnail": "images/weeds/fennel.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/0ab10bcf-4cfe-43ba-b54a-8658bcdb9ab8/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/0ab10bcf-4cfe-43ba-b54a-8658bcdb9ab8/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2913766"
   },
   {
     "commonName": "Ferny and red azolla",
@@ -13595,7 +14788,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Does not Flower",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Ferny+and+Red+azolla+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/ferny-and-red-azolla.webp"
+    "thumbnail": "images/weeds/ferny-and-red-azolla.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/42903053-9f4e-40f6-ae97-c80ca3048552/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/42903053-9f4e-40f6-ae97-c80ca3048552/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2909696"
   },
   {
     "commonName": "Fiddle dock",
@@ -13626,7 +14822,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/fiddle-dock.webp"
+    "thumbnail": "images/weeds/fiddle-dock.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/df44666d-dad9-47d7-a219-701cddc0b172/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/df44666d-dad9-47d7-a219-701cddc0b172/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2911439"
   },
   {
     "commonName": "Field bindweed",
@@ -13688,7 +14887,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/field-bindweed.webp"
+    "thumbnail": "images/weeds/field-bindweed.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/9a0d5151-9be9-4405-b4e1-8855daa93559/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/9a0d5151-9be9-4405-b4e1-8855daa93559/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2909693"
   },
   {
     "commonName": "Field cress",
@@ -13716,7 +14918,10 @@ window.weedsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/weeds/field-cress.webp"
+    "thumbnail": "images/weeds/field-cress.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/32d72cd2-7712-4956-8a34-a91308dc43ac/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/32d72cd2-7712-4956-8a34-a91308dc43ac/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2920695"
   },
   {
     "commonName": "Field madder",
@@ -13773,7 +14978,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/field-madder.webp"
+    "thumbnail": "images/weeds/field-madder.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/6c423c4f-dc1d-4279-a183-b73f859be48f/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/6c423c4f-dc1d-4279-a183-b73f859be48f/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2898986"
   },
   {
     "commonName": "Field pea",
@@ -13784,7 +14992,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Field%20pea%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Field%20pea%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/5676bc1a-830b-4383-9f6e-a15cae950ae5/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/5676bc1a-830b-4383-9f6e-a15cae950ae5/large",
+    "scientificName": "Pisum sativum",
+    "family": "Fabaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2891583"
   },
   {
     "commonName": "Fierce thornapple",
@@ -13823,7 +15036,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/fierce-thornapple.webp"
+    "thumbnail": "images/weeds/fierce-thornapple.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/f83a43ae-441d-428f-82ae-682be6b0820d/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f83a43ae-441d-428f-82ae-682be6b0820d/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2893692"
   },
   {
     "commonName": "Fire flag",
@@ -13896,7 +15112,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/fireweed.webp"
+    "thumbnail": "images/weeds/fireweed.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/b76a5e5f-e230-4460-a994-eb7b000c8740/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/b76a5e5f-e230-4460-a994-eb7b000c8740/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51614244"
   },
   {
     "commonName": "Fishbone fern",
@@ -13923,7 +15142,10 @@ window.weedsRegistry = [
     "floweringPeriod": "N/A",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Fishbone+fern+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/fishbone-fern.webp"
+    "thumbnail": "images/weeds/fishbone-fern.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/a288f84a-39a4-4b88-adc0-2cc4f49fd034/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a288f84a-39a4-4b88-adc0-2cc4f49fd034/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51438836"
   },
   {
     "commonName": "Flannel weed",
@@ -13965,7 +15187,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/flannel-weed.webp"
+    "thumbnail": "images/weeds/flannel-weed.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/7b7e4c92-dece-401c-bb5d-b9e4187cf14c/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/7b7e4c92-dece-401c-bb5d-b9e4187cf14c/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2895328"
   },
   {
     "commonName": "Flat Weed",
@@ -13976,7 +15201,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Flat%20Weed%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Flat%20Weed%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/f958227f-4c48-4276-bfa0-df06fb680a3c/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f958227f-4c48-4276-bfa0-df06fb680a3c/large",
+    "scientificName": "Hypochaeris radicata",
+    "family": "Asteraceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2907368"
   },
   {
     "commonName": "Flatweed/Cats Ear",
@@ -13987,7 +15217,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Flatweed%2FCats%20Ear%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Flatweed%2FCats%20Ear%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/126b163d-a23a-4579-ada6-eeca31c7947b/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/126b163d-a23a-4579-ada6-eeca31c7947b/large",
+    "scientificName": "Hypochaeris albiflora",
+    "family": "Asteraceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51268539"
   },
   {
     "commonName": "Flax-leaf broom",
@@ -14012,7 +15247,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Flax-leaf+broom+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/flax-leaf-broom.webp"
+    "thumbnail": "images/weeds/flax-leaf-broom.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/84bec854-985f-479c-bbf4-023db348b3cb/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/84bec854-985f-479c-bbf4-023db348b3cb/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2910909"
   },
   {
     "commonName": "Flaxleaf fleabane",
@@ -14118,7 +15356,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/flaxleaf-fleabane.webp"
+    "thumbnail": "images/weeds/flaxleaf-fleabane.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/a72f1e7c-b026-42f9-a213-dfcba49adea9/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a72f1e7c-b026-42f9-a213-dfcba49adea9/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/6986247"
   },
   {
     "commonName": "Fleabane and Others",
@@ -14129,7 +15370,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Fleabane%20and%20Others%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Fleabane%20and%20Others%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/a72f1e7c-b026-42f9-a213-dfcba49adea9/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a72f1e7c-b026-42f9-a213-dfcba49adea9/large",
+    "scientificName": "Erigeron bonariensis",
+    "family": "Asteraceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/6986247"
   },
   {
     "commonName": "Fleabanes",
@@ -14173,7 +15419,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Mainly Summer but can continue into Autumn",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Floating+water+chestnut+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/floating-water-chestnut.webp"
+    "thumbnail": "images/weeds/floating-water-chestnut.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/6986ac72-f03f-4811-ba2c-7c571443e38c/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/6986ac72-f03f-4811-ba2c-7c571443e38c/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2894144"
   },
   {
     "commonName": "Flooded Gum",
@@ -14184,7 +15433,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Flooded%20Gum%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Flooded%20Gum%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/357ea000-3b97-45e5-8262-3c0c047caae2/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/357ea000-3b97-45e5-8262-3c0c047caae2/large",
+    "scientificName": "Eucalyptus grandis",
+    "family": "Myrtaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51439812"
   },
   {
     "commonName": "Florida paspalum",
@@ -14203,7 +15457,10 @@ window.weedsRegistry = [
     "floweringPeriod": "",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Florida+paspalum+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/florida-paspalum.webp"
+    "thumbnail": "images/weeds/florida-paspalum.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/baf58f86-b1d7-4858-9d36-6b2139d7d60f/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/baf58f86-b1d7-4858-9d36-6b2139d7d60f/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2907869"
   },
   {
     "commonName": "Flowering Initiation",
@@ -14214,7 +15471,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Flowering%20Initiation%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Flowering%20Initiation%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/c1cd4929-8f76-4d41-949f-110ed243c2d8/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/c1cd4929-8f76-4d41-949f-110ed243c2d8/large",
+    "scientificName": "Corymbia ficifolia",
+    "family": "Myrtaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51439689"
   },
   {
     "commonName": "Flowering Stimulation",
@@ -14225,7 +15487,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Flowering%20Stimulation%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Flowering%20Stimulation%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/c1cd4929-8f76-4d41-949f-110ed243c2d8/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/c1cd4929-8f76-4d41-949f-110ed243c2d8/large",
+    "scientificName": "Corymbia ficifolia",
+    "family": "Myrtaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51439689"
   },
   {
     "commonName": "Foetid cassia",
@@ -14258,7 +15525,10 @@ window.weedsRegistry = [
     "floweringPeriod": "",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Foetid+cassia+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/foetid-cassia.webp"
+    "thumbnail": "images/weeds/foetid-cassia.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/bf1e8e88-c035-4b57-9be6-a19b6df086fc/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/bf1e8e88-c035-4b57-9be6-a19b6df086fc/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2886076"
   },
   {
     "commonName": "FOP Resistant Annual Ryegrass + Volunteer Barley",
@@ -14269,7 +15539,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=FOP%20Resistant%20Annual%20Ryegrass%20%2B%20Volunteer%20Barley%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=FOP%20Resistant%20Annual%20Ryegrass%20%2B%20Volunteer%20Barley%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/a21e8542-f662-4b2c-b4ee-69b2a138c0db/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a21e8542-f662-4b2c-b4ee-69b2a138c0db/large",
+    "scientificName": "Lolium rigidum",
+    "family": "Poaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2919175"
   },
   {
     "commonName": "Forage rape",
@@ -14310,7 +15585,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/forage-rape.webp"
+    "thumbnail": "images/weeds/forage-rape.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/13ac7c70-b63b-4787-b94c-d6d611f40a0a/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/13ac7c70-b63b-4787-b94c-d6d611f40a0a/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2888604"
   },
   {
     "commonName": "Foxglove",
@@ -14338,7 +15616,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Flowers in early summer.",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Foxglove+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/foxglove.webp"
+    "thumbnail": "images/weeds/foxglove.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/3d724318-332a-418f-8b23-19ca12abdc11/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/3d724318-332a-418f-8b23-19ca12abdc11/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2920421"
   },
   {
     "commonName": "Fragrant False Garlic",
@@ -14349,7 +15630,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Fragrant%20False%20Garlic%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Fragrant%20False%20Garlic%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/e433d848-1ea9-4912-aac9-411767e78ce1/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/e433d848-1ea9-4912-aac9-411767e78ce1/large",
+    "scientificName": "Allium tuberosum",
+    "family": "Alliaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/6882510"
   },
   {
     "commonName": "Fragrant thunbergia",
@@ -14378,7 +15664,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring-Summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Fragrant+thunbergia+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/fragrant-thunbergia.webp"
+    "thumbnail": "images/weeds/fragrant-thunbergia.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/4feeba7d-1c61-4ccd-878e-c392deba2308/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/4feeba7d-1c61-4ccd-878e-c392deba2308/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51266578"
   },
   {
     "commonName": "From Early Bud To Flowering",
@@ -14389,7 +15678,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=From%20Early%20Bud%20To%20Flowering%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=From%20Early%20Bud%20To%20Flowering%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/c1cd4929-8f76-4d41-949f-110ed243c2d8/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/c1cd4929-8f76-4d41-949f-110ed243c2d8/large",
+    "scientificName": "Corymbia ficifolia",
+    "family": "Myrtaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51439689"
   },
   {
     "commonName": "From Early Buds To Flowering",
@@ -14400,7 +15694,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=From%20Early%20Buds%20To%20Flowering%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=From%20Early%20Buds%20To%20Flowering%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/c1cd4929-8f76-4d41-949f-110ed243c2d8/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/c1cd4929-8f76-4d41-949f-110ed243c2d8/large",
+    "scientificName": "Corymbia ficifolia",
+    "family": "Myrtaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51439689"
   },
   {
     "commonName": "Fruit Removal",
@@ -14433,7 +15732,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Fruit%20Thinning%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Fruit%20Thinning%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/4988c475-c5c9-4135-b6ad-c339e3cc7fdc/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/4988c475-c5c9-4135-b6ad-c339e3cc7fdc/large",
+    "scientificName": "Cryptoblepharus fuhni",
+    "family": "SCINCIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/6284eb85-0f58-41a0-a7fc-59645e05b579"
   },
   {
     "commonName": "Fumaria bastardii",
@@ -14444,7 +15748,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Fumaria%20bastardii%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Fumaria%20bastardii%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/0dd898fa-bee7-479c-a95e-1062ad556e0c/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/0dd898fa-bee7-479c-a95e-1062ad556e0c/large",
+    "scientificName": "Fumaria bastardii",
+    "family": "Papaveraceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2905509"
   },
   {
     "commonName": "Fumaria densiflora",
@@ -14455,7 +15764,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Fumaria%20densiflora%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Fumaria%20densiflora%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/54d1564e-df81-4b4e-85bb-1f0b46e05e7f/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/54d1564e-df81-4b4e-85bb-1f0b46e05e7f/large",
+    "scientificName": "Fumaria densiflora",
+    "family": "Papaveraceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2903861"
   },
   {
     "commonName": "Fumaria officinalis",
@@ -14466,7 +15780,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Fumaria%20officinalis%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Fumaria%20officinalis%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/f31eb44b-bcfd-403a-bf90-ea85a0d402ca/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f31eb44b-bcfd-403a-bf90-ea85a0d402ca/large",
+    "scientificName": "Fumaria officinalis",
+    "family": "Papaveraceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2904208"
   },
   {
     "commonName": "Fumitories",
@@ -14477,7 +15796,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Fumitories%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Fumitories%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/caeccaf6-20fb-43de-8666-8f70508da726/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/caeccaf6-20fb-43de-8666-8f70508da726/large",
+    "scientificName": "Fumaria",
+    "family": "Papaveraceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51291095"
   },
   {
     "commonName": "Fumitory",
@@ -14622,7 +15946,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/fumitory.webp"
+    "thumbnail": "images/weeds/fumitory.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/aed1671a-aa23-43b9-bc40-c5da3289bd97/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/aed1671a-aa23-43b9-bc40-c5da3289bd97/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51291098"
   },
   {
     "commonName": "Galenia",
@@ -14674,7 +16001,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/galenia.webp"
+    "thumbnail": "images/weeds/galenia.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/fd1c7aab-f699-4d95-9d55-a5b4f72c298b/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/fd1c7aab-f699-4d95-9d55-a5b4f72c298b/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51430443"
   },
   {
     "commonName": "Galvanised burr",
@@ -14714,7 +16044,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/galvanised-burr.webp"
+    "thumbnail": "images/weeds/galvanised-burr.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/f25df482-b6f3-4750-ace6-2099c23c07e7/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f25df482-b6f3-4750-ace6-2099c23c07e7/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2900233"
   },
   {
     "commonName": "Gamba grass",
@@ -14740,7 +16073,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Autumn - Winter",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Gamba+grass+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/gamba-grass.webp"
+    "thumbnail": "images/weeds/gamba-grass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/6e78179b-2dee-4b32-bd31-b35a36cbd698/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/6e78179b-2dee-4b32-bd31-b35a36cbd698/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2903901"
   },
   {
     "commonName": "Gambia pea",
@@ -14769,7 +16105,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/gambia-pea.webp"
+    "thumbnail": "images/weeds/gambia-pea.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/24d15206-30aa-4979-b482-2ff969e555b4/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/24d15206-30aa-4979-b482-2ff969e555b4/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2891345"
   },
   {
     "commonName": "Garden asparagus",
@@ -14798,7 +16137,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring - Summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Garden+asparagus+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/garden-asparagus.webp"
+    "thumbnail": "images/weeds/garden-asparagus.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/a676828f-93e6-47eb-a8e4-260d4e4ef657/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a676828f-93e6-47eb-a8e4-260d4e4ef657/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51737699"
   },
   {
     "commonName": "Geraldton wax flower",
@@ -14822,7 +16164,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Winter to Spring",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Geraldton+wax+flower+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/geraldton-wax-flower.webp"
+    "thumbnail": "images/weeds/geraldton-wax-flower.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/6563b7c5-5a5d-4aa0-8e33-f076f621bf08/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/6563b7c5-5a5d-4aa0-8e33-f076f621bf08/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51772200"
   },
   {
     "commonName": "Geraldton Wax Flower — Compact Plants",
@@ -14833,7 +16178,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Geraldton%20Wax%20Flower%20%E2%80%94%20Compact%20Plants%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Geraldton%20Wax%20Flower%20%E2%80%94%20Compact%20Plants%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/245ad3b6-9225-40a0-9962-6056a84e067c/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/245ad3b6-9225-40a0-9962-6056a84e067c/large",
+    "scientificName": "Stylidium",
+    "family": "Stylidiaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51684749"
   },
   {
     "commonName": "Geranium",
@@ -14879,7 +16229,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/geranium.webp"
+    "thumbnail": "images/weeds/geranium.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/967487f1-04a1-4d55-8710-3238975a7dc7/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/967487f1-04a1-4d55-8710-3238975a7dc7/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51771715"
   },
   {
     "commonName": "Geraniums",
@@ -14890,7 +16243,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Geraniums%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Geraniums%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/3bb30e08-5b23-4b04-ac34-482da7a548c3/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/3bb30e08-5b23-4b04-ac34-482da7a548c3/large",
+    "scientificName": "Geranium",
+    "family": "Geraniaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51771707"
   },
   {
     "commonName": "Ghost Gum",
@@ -14901,7 +16259,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Ghost%20Gum%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Ghost%20Gum%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/e2dc3b8c-4bd1-48ec-a001-adc0c6826c3b/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/e2dc3b8c-4bd1-48ec-a001-adc0c6826c3b/large",
+    "scientificName": "Corymbia flavescens",
+    "family": "Myrtaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2915020"
   },
   {
     "commonName": "Giant devil's fig",
@@ -14927,7 +16290,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Autumn - Spring",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Giant+devil's+fig+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/giant-devil-s-fig.webp"
+    "thumbnail": "images/weeds/giant-devil-s-fig.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/5fb1ec00-866e-4071-bb6f-b576ed1880f2/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/5fb1ec00-866e-4071-bb6f-b576ed1880f2/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2888625"
   },
   {
     "commonName": "Giant milkweed",
@@ -14946,7 +16312,10 @@ window.weedsRegistry = [
     "floweringPeriod": "",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Giant+milkweed+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/giant-milkweed.webp"
+    "thumbnail": "images/weeds/giant-milkweed.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/81d94f5a-4116-4bd7-b89c-2912949ee8bd/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/81d94f5a-4116-4bd7-b89c-2912949ee8bd/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/7194281"
   },
   {
     "commonName": "Giant parramatta grass",
@@ -14984,7 +16353,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/giant-parramatta-grass.webp"
+    "thumbnail": "images/weeds/giant-parramatta-grass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/01ca202a-e625-45b8-a54d-0cccc025e7e5/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/01ca202a-e625-45b8-a54d-0cccc025e7e5/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2897111"
   },
   {
     "commonName": "Giant pigweed",
@@ -15051,7 +16423,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/giant-pigweed.webp"
+    "thumbnail": "images/weeds/giant-pigweed.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/befc459d-b0ce-4338-b323-1d888306fb97/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/befc459d-b0ce-4338-b323-1d888306fb97/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2898516"
   },
   {
     "commonName": "Giant rat's tail grass",
@@ -15083,7 +16458,10 @@ window.weedsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/weeds/giant-rats-tail-grass.webp"
+    "thumbnail": "images/weeds/giant-rats-tail-grass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/e4b260c7-89bd-4e13-98b8-8d8404af5d63/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/e4b260c7-89bd-4e13-98b8-8d8404af5d63/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2907205"
   },
   {
     "commonName": "Giant rats tail grass",
@@ -15147,7 +16525,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Giant+reed+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/giant-reed.webp"
+    "thumbnail": "images/weeds/giant-reed.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/1d895911-5237-4d6b-9837-8d7dda704d3d/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/1d895911-5237-4d6b-9837-8d7dda704d3d/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2912193"
   },
   {
     "commonName": "Giant sensitive plant",
@@ -15193,7 +16574,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/giant-sensitive-plant.webp"
+    "thumbnail": "images/weeds/giant-sensitive-plant.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/b21a0569-a5a1-46fa-af0b-97d2d123a624/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/b21a0569-a5a1-46fa-af0b-97d2d123a624/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2887978"
   },
   {
     "commonName": "Giant tropical salvia",
@@ -15212,7 +16596,10 @@ window.weedsRegistry = [
     "floweringPeriod": "",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Giant+tropical+salvia+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/giant-tropical-salvia.webp"
+    "thumbnail": "images/weeds/giant-tropical-salvia.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/a6f168a8-9e39-4ad3-9784-8610bb9992d9/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a6f168a8-9e39-4ad3-9784-8610bb9992d9/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2901974"
   },
   {
     "commonName": "Gidgee",
@@ -15243,7 +16630,10 @@ window.weedsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/weeds/gidgee.webp"
+    "thumbnail": "images/weeds/gidgee.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/8ceaea61-8600-4a57-9862-8474e01e7a83/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/8ceaea61-8600-4a57-9862-8474e01e7a83/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2907190"
   },
   {
     "commonName": "Glory lily",
@@ -15273,7 +16663,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Summer - Autumn",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Glory+lily+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/glory-lily.webp"
+    "thumbnail": "images/weeds/glory-lily.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/f857f3b9-06ec-4f7e-b7e0-050d2d27a008/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f857f3b9-06ec-4f7e-b7e0-050d2d27a008/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51761448"
   },
   {
     "commonName": "Glossy nightshade",
@@ -15312,7 +16705,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/glossy-nightshade.webp"
+    "thumbnail": "images/weeds/glossy-nightshade.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/11efcd5c-db60-4cf7-a5a7-d3147d01c09f/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/11efcd5c-db60-4cf7-a5a7-d3147d01c09f/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51447742"
   },
   {
     "commonName": "Glush weed",
@@ -15374,7 +16770,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/glyceria.webp"
+    "thumbnail": "images/weeds/glyceria.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/0fff11fb-1d9b-427d-bb8c-43f38e6db9b4/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/0fff11fb-1d9b-427d-bb8c-43f38e6db9b4/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2896962"
   },
   {
     "commonName": "Glycine",
@@ -15401,7 +16800,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Late Autumn",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Glycine+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/glycine.webp"
+    "thumbnail": "images/weeds/glycine.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/9988cef0-91e5-4561-ba01-f48c0781c35a/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/9988cef0-91e5-4561-ba01-f48c0781c35a/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51770892"
   },
   {
     "commonName": "Golden bamboo",
@@ -15439,7 +16841,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/golden-bamboo.webp"
+    "thumbnail": "images/weeds/golden-bamboo.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/9ea5a8f9-53d6-4e6f-b649-5ae8dd1c1eb5/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/9ea5a8f9-53d6-4e6f-b649-5ae8dd1c1eb5/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51749268"
   },
   {
     "commonName": "Golden chain tree",
@@ -15464,7 +16869,10 @@ window.weedsRegistry = [
     "floweringPeriod": "flowering occurs from May to June",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Golden+chain+tree+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/golden-chain-tree.webp"
+    "thumbnail": "images/weeds/golden-chain-tree.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/8330c74a-028c-4e53-ae51-8e2a99c3ded0/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/8330c74a-028c-4e53-ae51-8e2a99c3ded0/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2889121"
   },
   {
     "commonName": "Golden dodder",
@@ -15497,7 +16905,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/golden-dodder.webp"
+    "thumbnail": "images/weeds/golden-dodder.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/43bc4cd6-c34b-49fe-bc2d-c152b0988e39/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/43bc4cd6-c34b-49fe-bc2d-c152b0988e39/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2908661"
   },
   {
     "commonName": "Golden rain tree",
@@ -15526,7 +16937,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring - Summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Golden+rain+tree+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/golden-rain-tree.webp"
+    "thumbnail": "images/weeds/golden-rain-tree.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/f0bcac1f-bc4b-4c20-a0b8-5a9626132938/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f0bcac1f-bc4b-4c20-a0b8-5a9626132938/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2913225"
   },
   {
     "commonName": "Golden rod",
@@ -15552,7 +16966,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Golden+rod+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/golden-rod.webp"
+    "thumbnail": "images/weeds/golden-rod.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/e970cdc0-69a4-498a-9370-c5cdac07f965/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/e970cdc0-69a4-498a-9370-c5cdac07f965/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2894906"
   },
   {
     "commonName": "Golden shower tree",
@@ -15582,7 +16999,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring - Autumn",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Golden+shower+tree+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/golden-shower-tree.webp"
+    "thumbnail": "images/weeds/golden-shower-tree.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/302859be-bdaa-4bf2-a6ce-df38889aefbb/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/302859be-bdaa-4bf2-a6ce-df38889aefbb/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2894458"
   },
   {
     "commonName": "Golden trumpet tree",
@@ -15606,7 +17026,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Golden+Trumpet+Tree+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/golden-trumpet-tree.webp"
+    "thumbnail": "images/weeds/golden-trumpet-tree.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/ae69fcd5-4372-4179-ae31-26a2cb7d0559/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/ae69fcd5-4372-4179-ae31-26a2cb7d0559/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2908415"
   },
   {
     "commonName": "Gorse",
@@ -15689,7 +17112,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/gorse.webp"
+    "thumbnail": "images/weeds/gorse.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/587874fc-8373-404f-a7ca-c0f750c998e2/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/587874fc-8373-404f-a7ca-c0f750c998e2/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51770334"
   },
   {
     "commonName": "Gorse/Furze",
@@ -15727,7 +17153,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Summer - Winter",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Grader+grass+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/grader-grass.webp"
+    "thumbnail": "images/weeds/grader-grass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/6859900e-fd99-4d77-88fd-83e56da0be1c/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/6859900e-fd99-4d77-88fd-83e56da0be1c/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2891763"
   },
   {
     "commonName": "Grasses",
@@ -15738,7 +17167,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Grasses%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Grasses%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/cba23066-c32c-4e12-8329-aca21a862589/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/cba23066-c32c-4e12-8329-aca21a862589/large",
+    "scientificName": "Chionochloa",
+    "family": "Poaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2888670"
   },
   {
     "commonName": "Grasses Except Mossman Burr",
@@ -15749,7 +17183,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Grasses%20Except%20Mossman%20Burr%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Grasses%20Except%20Mossman%20Burr%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/cba23066-c32c-4e12-8329-aca21a862589/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/cba23066-c32c-4e12-8329-aca21a862589/large",
+    "scientificName": "Chionochloa",
+    "family": "Poaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2888670"
   },
   {
     "commonName": "Great Brome",
@@ -15765,7 +17204,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Great%20Brome%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Great%20Brome%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/71e84597-0134-4f65-b5fb-09e8471ccb51/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/71e84597-0134-4f65-b5fb-09e8471ccb51/large",
+    "scientificName": "Bromus diandrus",
+    "family": "Poaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2891835"
   },
   {
     "commonName": "Great mullein",
@@ -15797,7 +17241,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/great-mullein.webp"
+    "thumbnail": "images/weeds/great-mullein.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/a2a738e5-c65f-4143-8569-85d06437cb5f/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a2a738e5-c65f-4143-8569-85d06437cb5f/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/7027305"
   },
   {
     "commonName": "Green amaranth",
@@ -15845,7 +17292,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/green-amaranth.webp"
+    "thumbnail": "images/weeds/green-amaranth.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/fd9bc777-482e-44e7-a3f1-b61670ceccc0/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/fd9bc777-482e-44e7-a3f1-b61670ceccc0/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51266535"
   },
   {
     "commonName": "Green cestrum",
@@ -15890,7 +17340,10 @@ window.weedsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/weeds/green-cestrum.webp"
+    "thumbnail": "images/weeds/green-cestrum.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/cc92c68e-fa43-46a7-b968-0c423af442b5/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/cc92c68e-fa43-46a7-b968-0c423af442b5/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2915438"
   },
   {
     "commonName": "Green crumbweed",
@@ -15925,7 +17378,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/green-crumbweed.webp"
+    "thumbnail": "images/weeds/green-crumbweed.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/f770b5de-91e3-4e19-8c22-14e37f5664b2/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f770b5de-91e3-4e19-8c22-14e37f5664b2/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2892047"
   },
   {
     "commonName": "Green panic",
@@ -15958,7 +17414,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/green-panic.webp"
+    "thumbnail": "images/weeds/green-panic.webp",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2910762"
   },
   {
     "commonName": "Green summer grass",
@@ -15999,7 +17456,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/green-summer-grass.webp"
+    "thumbnail": "images/weeds/green-summer-grass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/e734b29f-849a-4fa4-a9c6-265ceda94d7b/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/e734b29f-849a-4fa4-a9c6-265ceda94d7b/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2908328"
   },
   {
     "commonName": "Greenleaf desmodium",
@@ -16036,7 +17496,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/greenleaf-desmodium.webp"
+    "thumbnail": "images/weeds/greenleaf-desmodium.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/2cde8f6f-7bca-437e-ae91-13b6e4b25706/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/2cde8f6f-7bca-437e-ae91-13b6e4b25706/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51436387"
   },
   {
     "commonName": "Grevillea Spp. — Compact Plants",
@@ -16047,7 +17510,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Grevillea%20Spp.%20%E2%80%94%20Compact%20Plants%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Grevillea%20Spp.%20%E2%80%94%20Compact%20Plants%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/ab325715-e682-4c71-938c-230cb9d626dc/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/ab325715-e682-4c71-938c-230cb9d626dc/large",
+    "scientificName": "Grevillea candelabroides",
+    "family": "Proteaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2892850"
   },
   {
     "commonName": "Ground asparagus fern",
@@ -16078,7 +17546,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring - early Autumn",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Ground+asparagus+fern+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/ground-asparagus-fern.webp"
+    "thumbnail": "images/weeds/ground-asparagus-fern.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/a676828f-93e6-47eb-a8e4-260d4e4ef657/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a676828f-93e6-47eb-a8e4-260d4e4ef657/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51737699"
   },
   {
     "commonName": "Ground-Stored Potato Pre-Harvest Weed Control",
@@ -16089,7 +17560,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Ground-Stored%20Potato%20Pre-Harvest%20Weed%20Control%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Ground-Stored%20Potato%20Pre-Harvest%20Weed%20Control%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/9c656b3b-8220-412d-aadb-9e1411993c3a/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/9c656b3b-8220-412d-aadb-9e1411993c3a/large",
+    "scientificName": "Hypolepis glandulifera",
+    "family": "Dennstaedtiaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2907080"
   },
   {
     "commonName": "Groundsel",
@@ -16128,7 +17604,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/groundsel.webp"
+    "thumbnail": "images/weeds/groundsel.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/b0f59c71-89de-4228-bf2a-5cb1e393a84a/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/b0f59c71-89de-4228-bf2a-5cb1e393a84a/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51747617"
   },
   {
     "commonName": "Groundsel bush",
@@ -16199,7 +17678,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/groundsel-bush.webp"
+    "thumbnail": "images/weeds/groundsel-bush.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/b0227e03-6e72-4063-a261-4797ef9c8126/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/b0227e03-6e72-4063-a261-4797ef9c8126/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2902771"
   },
   {
     "commonName": "Growth Stimulation in Winter Pastures",
@@ -16210,7 +17692,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Growth%20Stimulation%20in%20Winter%20Pastures%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Growth%20Stimulation%20in%20Winter%20Pastures%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/feea931c-6f1c-4f43-a96e-76206b6cf46c/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/feea931c-6f1c-4f43-a96e-76206b6cf46c/large",
+    "scientificName": "Solanum pseudocapsicum",
+    "family": "Solanaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51447828"
   },
   {
     "commonName": "Guava",
@@ -16238,7 +17725,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Year Round",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Guava+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/guava.webp"
+    "thumbnail": "images/weeds/guava.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/4b7eef85-dd93-45ba-aa69-b381106b3a8d/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/4b7eef85-dd93-45ba-aa69-b381106b3a8d/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2921259"
   },
   {
     "commonName": "Guildford grass",
@@ -16274,7 +17764,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/guildford-grass.webp"
+    "thumbnail": "images/weeds/guildford-grass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/6b9fbee7-625b-454f-ac60-aa89ec7b2f69/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/6b9fbee7-625b-454f-ac60-aa89ec7b2f69/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51438089"
   },
   {
     "commonName": "Guilford Grass",
@@ -16285,7 +17778,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Guilford%20Grass%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Guilford%20Grass%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/6b9fbee7-625b-454f-ac60-aa89ec7b2f69/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/6b9fbee7-625b-454f-ac60-aa89ec7b2f69/large",
+    "scientificName": "Romulea rosea",
+    "family": "Iridaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51438089"
   },
   {
     "commonName": "Guinea grass",
@@ -16367,7 +17865,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/guinea-grass.webp"
+    "thumbnail": "images/weeds/guinea-grass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/38a5f156-122d-4a43-89bf-323b23c8f5b8/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/38a5f156-122d-4a43-89bf-323b23c8f5b8/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2905083"
   },
   {
     "commonName": "Gum Topped Bloodwood",
@@ -16378,7 +17879,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Gum%20Topped%20Bloodwood%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Gum%20Topped%20Bloodwood%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/93968ee8-a827-4fc2-9469-4c43d5ea5475/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/93968ee8-a827-4fc2-9469-4c43d5ea5475/large",
+    "scientificName": "Corymbia terminalis",
+    "family": "Myrtaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51781846"
   },
   {
     "commonName": "Gum-topped box",
@@ -16409,7 +17915,10 @@ window.weedsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/weeds/gum-topped-box.webp"
+    "thumbnail": "images/weeds/gum-topped-box.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/4ce1ad2f-63aa-48f3-9488-d125e2b6c783/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/4ce1ad2f-63aa-48f3-9488-d125e2b6c783/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2896753"
   },
   {
     "commonName": "Hairy beggarticks",
@@ -16428,7 +17937,10 @@ window.weedsRegistry = [
     "floweringPeriod": "",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Hairy+beggarticks+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/hairy-beggarticks.webp"
+    "thumbnail": "images/weeds/hairy-beggarticks.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/acd70988-3940-46dc-9896-712338a843b5/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/acd70988-3940-46dc-9896-712338a843b5/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2908675"
   },
   {
     "commonName": "Hairy cassia",
@@ -16458,7 +17970,10 @@ window.weedsRegistry = [
     "floweringPeriod": "",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Hairy+cassia+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/hairy-cassia.webp"
+    "thumbnail": "images/weeds/hairy-cassia.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/8f72e078-4499-4f17-8301-76a614e8d58d/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/8f72e078-4499-4f17-8301-76a614e8d58d/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51250680"
   },
   {
     "commonName": "Hairy commelina",
@@ -16490,7 +18005,10 @@ window.weedsRegistry = [
     "floweringPeriod": "year round",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Hairy+commelina+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/hairy-commelina.webp"
+    "thumbnail": "images/weeds/hairy-commelina.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/bdf7f0b0-d806-41c1-901e-07884eb89310/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/bdf7f0b0-d806-41c1-901e-07884eb89310/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2889635"
   },
   {
     "commonName": "Hairy indigo",
@@ -16514,7 +18032,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Summer to autumn",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Indigofera+hirsuta+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/hairy-indigo.webp"
+    "thumbnail": "images/weeds/hairy-indigo.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/1613ab2a-9870-4fea-959c-4bf592b41056/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/1613ab2a-9870-4fea-959c-4bf592b41056/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2918957"
   },
   {
     "commonName": "Hare's ear",
@@ -16550,7 +18071,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/hare-s-ear.webp"
+    "thumbnail": "images/weeds/hare-s-ear.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/2911828c-69c2-4c96-8f23-3b86f1f2a54b/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/2911828c-69c2-4c96-8f23-3b86f1f2a54b/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2899019"
   },
   {
     "commonName": "Harrisia cactus",
@@ -16580,7 +18104,10 @@ window.weedsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/weeds/harrisia-cactus.webp"
+    "thumbnail": "images/weeds/harrisia-cactus.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/f0bc34bd-07ef-47af-838b-82419a46fce3/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f0bc34bd-07ef-47af-838b-82419a46fce3/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2898760"
   },
   {
     "commonName": "Harungana",
@@ -16608,7 +18135,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring- Summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Harungana+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/harungana.webp"
+    "thumbnail": "images/weeds/harungana.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/9bc38e48-80c1-4c76-9112-a0118a916091/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/9bc38e48-80c1-4c76-9112-a0118a916091/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2889198"
   },
   {
     "commonName": "Harvest Aid",
@@ -16619,7 +18149,11 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Harvest%20Aid%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Harvest%20Aid%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/44cbc912-6f60-46c6-9d69-d80681f40a9f/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/44cbc912-6f60-46c6-9d69-d80681f40a9f/large",
+    "scientificName": "OPILIONES",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/69ce8166-070a-49ea-a3fa-f0a4614e0b7a"
   },
   {
     "commonName": "Harvest Delay — Prunes",
@@ -16630,7 +18164,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Harvest%20Delay%20%E2%80%94%20Prunes%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Harvest%20Delay%20%E2%80%94%20Prunes%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/15c2df9c-547a-4a62-8af9-8e741f5c6e05/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/15c2df9c-547a-4a62-8af9-8e741f5c6e05/large",
+    "scientificName": "Prunus campanulata",
+    "family": "Rosaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2910110"
   },
   {
     "commonName": "Harvest Delay in Prunes",
@@ -16641,7 +18180,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Harvest%20Delay%20in%20Prunes%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Harvest%20Delay%20in%20Prunes%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/15c2df9c-547a-4a62-8af9-8e741f5c6e05/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/15c2df9c-547a-4a62-8af9-8e741f5c6e05/large",
+    "scientificName": "Prunus campanulata",
+    "family": "Rosaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2910110"
   },
   {
     "commonName": "Hawkbit",
@@ -16671,7 +18215,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/hawkbit.webp"
+    "thumbnail": "images/weeds/hawkbit.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/9a5d110c-cc35-4322-a4bf-546d97fde461/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/9a5d110c-cc35-4322-a4bf-546d97fde461/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2917704"
   },
   {
     "commonName": "Hawthorn",
@@ -16748,7 +18295,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/hawthorn.webp"
+    "thumbnail": "images/weeds/hawthorn.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/38581c3d-ee7b-49ae-b3d6-78bea8ef13b2/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/38581c3d-ee7b-49ae-b3d6-78bea8ef13b2/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2897927"
   },
   {
     "commonName": "Hedge mustard",
@@ -16802,7 +18352,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/hedge-mustard.webp"
+    "thumbnail": "images/weeds/hedge-mustard.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/cde776d1-c431-4ac7-afa0-83982439d82e/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/cde776d1-c431-4ac7-afa0-83982439d82e/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2919433"
   },
   {
     "commonName": "Helicoverpa Armigera",
@@ -16813,7 +18366,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Helicoverpa%20Armigera%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Helicoverpa%20Armigera%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/e69d8ecc-3b67-41bd-bd0a-f2babd89a0f5/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/e69d8ecc-3b67-41bd-bd0a-f2babd89a0f5/large",
+    "scientificName": "Helicoverpa armigera",
+    "family": "NOCTUIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/0254d0f0-2c97-46dc-a87c-61e07b4f881a"
   },
   {
     "commonName": "Helicoverpa Punctigera",
@@ -16824,7 +18382,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Helicoverpa%20Punctigera%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Helicoverpa%20Punctigera%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/3d74e93c-19fe-428d-96c1-c7b326ca8086/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/3d74e93c-19fe-428d-96c1-c7b326ca8086/large",
+    "scientificName": "Helicoverpa punctigera",
+    "family": "NOCTUIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/9b2b68b4-3c09-4a15-ab0b-8258609d2802"
   },
   {
     "commonName": "Heliothis",
@@ -16835,7 +18398,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Heliothis%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Heliothis%20weed%20Australia",
+    "scientificName": "Heliothis hoarei",
+    "family": "NOCTUIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/df52178b-405e-4841-8d57-cc604f7489b5"
   },
   {
     "commonName": "Heliotrope.",
@@ -16846,7 +18412,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Heliotrope.%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Heliotrope.%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/71cbc7db-9dec-4fea-a6c3-f05542bd6116/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/71cbc7db-9dec-4fea-a6c3-f05542bd6116/large",
+    "scientificName": "Heliotropium europaeum",
+    "family": "Boraginaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2899950"
   },
   {
     "commonName": "Hemlock",
@@ -16895,7 +18466,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/hemlock.webp"
+    "thumbnail": "images/weeds/hemlock.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/35835d02-ee91-4203-af97-73c6b54cd92a/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/35835d02-ee91-4203-af97-73c6b54cd92a/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2899897"
   },
   {
     "commonName": "Hexham scent",
@@ -16983,7 +18557,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/hexham-scent.webp"
+    "thumbnail": "images/weeds/hexham-scent.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/d07e76a8-5d24-4234-978b-9ec1ad35a5e8/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/d07e76a8-5d24-4234-978b-9ec1ad35a5e8/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2886103"
   },
   {
     "commonName": "Hibiscus trionum",
@@ -16994,7 +18571,9 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Hibiscus%20trionum%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Hibiscus%20trionum%20weed%20Australia",
+    "scientificName": "Hibiscus trionum",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/apni/64285"
   },
   {
     "commonName": "Hickory wattle",
@@ -17025,7 +18604,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/hickory-wattle.webp"
+    "thumbnail": "images/weeds/hickory-wattle.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/053948ac-b868-4175-b033-11ac33f17b0e/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/053948ac-b868-4175-b033-11ac33f17b0e/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2919683"
   },
   {
     "commonName": "Himalayan ash",
@@ -17057,7 +18639,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Summer - Autumn",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Himalayan+ash+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/himalayan-ash.webp"
+    "thumbnail": "images/weeds/himalayan-ash.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/a51a0bd6-bd9a-4176-a3b1-b056cb2d5925/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a51a0bd6-bd9a-4176-a3b1-b056cb2d5925/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2906489"
   },
   {
     "commonName": "Hiptage",
@@ -17083,7 +18668,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Hiptage+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/hiptage.webp"
+    "thumbnail": "images/weeds/hiptage.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/db916f97-a96f-480d-95ae-bc7639140dc2/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/db916f97-a96f-480d-95ae-bc7639140dc2/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2905933"
   },
   {
     "commonName": "Hoary cress",
@@ -17158,7 +18746,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/hoary-cress.webp"
+    "thumbnail": "images/weeds/hoary-cress.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/bb0779db-cb8d-4fbf-b30f-e26fd4b508b3/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/bb0779db-cb8d-4fbf-b30f-e26fd4b508b3/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51751407"
   },
   {
     "commonName": "Holly bush",
@@ -17187,7 +18778,10 @@ window.weedsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/weeds/holly-bush.webp"
+    "thumbnail": "images/weeds/holly-bush.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/9adead60-7f0a-404e-99f3-c9ad953e1630/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/9adead60-7f0a-404e-99f3-c9ad953e1630/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2914237"
   },
   {
     "commonName": "Honey locust",
@@ -17219,7 +18813,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring - Autumn",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Honey+locust+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/honey-locust.webp"
+    "thumbnail": "images/weeds/honey-locust.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/14bc504e-93cc-4dcb-8935-f749da35ef2d/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/14bc504e-93cc-4dcb-8935-f749da35ef2d/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2895256"
   },
   {
     "commonName": "Honey mesquite",
@@ -17246,7 +18843,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring- Autumn",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Honey+mesquite+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/honey-mesquite.webp"
+    "thumbnail": "images/weeds/honey-mesquite.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/284fa017-4b8c-440d-8102-ca50eea804b6/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/284fa017-4b8c-440d-8102-ca50eea804b6/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51436745"
   },
   {
     "commonName": "Hophead barleria",
@@ -17272,7 +18872,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Autumn",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Hophead+barleria+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/hophead-barleria.webp"
+    "thumbnail": "images/weeds/hophead-barleria.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/0e620bd1-6ea0-4abf-8c68-a7ee7c9b86e9/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/0e620bd1-6ea0-4abf-8c68-a7ee7c9b86e9/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2899371"
   },
   {
     "commonName": "Hordeum leporinum",
@@ -17283,7 +18886,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Hordeum%20leporinum%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Hordeum%20leporinum%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/63c22143-f78c-4106-ba9e-d0d70fb622c8/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/63c22143-f78c-4106-ba9e-d0d70fb622c8/large",
+    "scientificName": "Hordeum leporinum",
+    "family": "Poaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2887615"
   },
   {
     "commonName": "Horehound",
@@ -17362,7 +18970,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/horehound.webp"
+    "thumbnail": "images/weeds/horehound.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/5ce342a7-e72f-4f83-a4ac-b1500c0c1e2b/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/5ce342a7-e72f-4f83-a4ac-b1500c0c1e2b/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2888290"
   },
   {
     "commonName": "Horned melon",
@@ -17391,7 +19002,10 @@ window.weedsRegistry = [
     "floweringPeriod": "January to May",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Horned+Melon+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/horned-melon.webp"
+    "thumbnail": "images/weeds/horned-melon.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/6e8d2e31-656a-4c63-9513-cfc05a04be4a/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/6e8d2e31-656a-4c63-9513-cfc05a04be4a/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2901009"
   },
   {
     "commonName": "Horned Poppy",
@@ -17402,7 +19016,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Horned%20Poppy%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Horned%20Poppy%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/6e8d2e31-656a-4c63-9513-cfc05a04be4a/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/6e8d2e31-656a-4c63-9513-cfc05a04be4a/large",
+    "scientificName": "Glaucium corniculatum",
+    "family": "Papaveraceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2901009"
   },
   {
     "commonName": "Horticultural Pesticide And Fertiliser Sprays",
@@ -17413,7 +19032,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Horticultural%20Pesticide%20And%20Fertiliser%20Sprays%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Horticultural%20Pesticide%20And%20Fertiliser%20Sprays%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/413f53e3-32de-4ba0-b081-baa32e01189f/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/413f53e3-32de-4ba0-b081-baa32e01189f/large",
+    "scientificName": "Logania vaginalis",
+    "family": "Loganiaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2915625"
   },
   {
     "commonName": "Hudson pear",
@@ -17439,7 +19063,10 @@ window.weedsRegistry = [
     "floweringPeriod": "",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Hudson+pear+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/hudson-pear.webp"
+    "thumbnail": "images/weeds/hudson-pear.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/4e5b63b7-9a64-4536-a8a3-a7d0b18d5b80/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/4e5b63b7-9a64-4536-a8a3-a7d0b18d5b80/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2901453"
   },
   {
     "commonName": "Hybrid mother-of-millions",
@@ -17471,7 +19098,10 @@ window.weedsRegistry = [
     "floweringPeriod": "year round",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Hybrid+mother-of-millions+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/hybrid-mother-of-millions.webp"
+    "thumbnail": "images/weeds/hybrid-mother-of-millions.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/528a3a09-6018-4f92-a145-d40d0847c632/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/528a3a09-6018-4f92-a145-d40d0847c632/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2903973"
   },
   {
     "commonName": "Hymenachne",
@@ -17497,7 +19127,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring - Autumn",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Hymenachne+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/hymenachne.webp"
+    "thumbnail": "images/weeds/hymenachne.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/0b9fc26c-7162-473f-b364-a53c841e7ad1/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/0b9fc26c-7162-473f-b364-a53c841e7ad1/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2895414"
   },
   {
     "commonName": "Hyptis",
@@ -17515,7 +19148,10 @@ window.weedsRegistry = [
     "floweringPeriod": "",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Hyptis+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/hyptis.webp"
+    "thumbnail": "images/weeds/hyptis.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/5ceec318-dd36-4933-9b1d-1d7268a91c41/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/5ceec318-dd36-4933-9b1d-1d7268a91c41/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2899206"
   },
   {
     "commonName": "Hyssopleaf sandmat",
@@ -17545,7 +19181,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring - Summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Hyssopleaf+sandmat+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/hyssopleaf-sandmat.webp"
+    "thumbnail": "images/weeds/hyssopleaf-sandmat.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/ace3d421-84c2-49da-a0d5-817de87dfcc7/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/ace3d421-84c2-49da-a0d5-817de87dfcc7/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51768425"
   },
   {
     "commonName": "Illyrian thistle",
@@ -17575,7 +19214,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/illyrian-thistle.webp"
+    "thumbnail": "images/weeds/illyrian-thistle.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/e48b49d3-35f7-40c0-8d52-a54654ee4df4/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/e48b49d3-35f7-40c0-8d52-a54654ee4df4/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51746085"
   },
   {
     "commonName": "Increases Average Fruit Size",
@@ -17613,7 +19255,10 @@ window.weedsRegistry = [
     "floweringPeriod": "",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Indian+blue+grass+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/indian-blue-grass.webp"
+    "thumbnail": "images/weeds/indian-blue-grass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/f8296969-ec5c-499f-a161-13fd6db89c05/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f8296969-ec5c-499f-a161-13fd6db89c05/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51446458"
   },
   {
     "commonName": "Indian hawthorn",
@@ -17640,7 +19285,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring - Summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Indian+hawthorn+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/indian-hawthorn.webp"
+    "thumbnail": "images/weeds/indian-hawthorn.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/f8296969-ec5c-499f-a161-13fd6db89c05/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f8296969-ec5c-499f-a161-13fd6db89c05/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51446458"
   },
   {
     "commonName": "Indian hedge mustard",
@@ -17756,7 +19404,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/indian-hedge-mustard.webp"
+    "thumbnail": "images/weeds/indian-hedge-mustard.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/cde776d1-c431-4ac7-afa0-83982439d82e/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/cde776d1-c431-4ac7-afa0-83982439d82e/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2919433"
   },
   {
     "commonName": "Indian mustard",
@@ -17785,7 +19436,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring - Summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Indian+mustard+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/indian-mustard.webp"
+    "thumbnail": "images/weeds/indian-mustard.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/b0c89664-a8fd-4017-ac98-140f08d83612/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/b0c89664-a8fd-4017-ac98-140f08d83612/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2906363"
   },
   {
     "commonName": "Indian pennywort",
@@ -17808,7 +19462,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Summer - Autumn",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Indian+pennywort+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/indian-pennywort.webp"
+    "thumbnail": "images/weeds/indian-pennywort.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/ec6766ed-d2ab-44a3-b3ce-22ee25a74360/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/ec6766ed-d2ab-44a3-b3ce-22ee25a74360/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/6923911"
   },
   {
     "commonName": "Indian rubber tree",
@@ -17834,7 +19491,10 @@ window.weedsRegistry = [
     "floweringPeriod": "",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Indian+rubber+tree+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/indian-rubber-tree.webp"
+    "thumbnail": "images/weeds/indian-rubber-tree.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/f8296969-ec5c-499f-a161-13fd6db89c05/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f8296969-ec5c-499f-a161-13fd6db89c05/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51446458"
   },
   {
     "commonName": "Inkweed",
@@ -17875,7 +19535,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/inkweed.webp"
+    "thumbnail": "images/weeds/inkweed.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/69ee9544-5790-42fa-a694-9e6560526e0d/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/69ee9544-5790-42fa-a694-9e6560526e0d/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2918410"
   },
   {
     "commonName": "Insect Pests",
@@ -17886,7 +19549,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Insect%20Pests%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Insect%20Pests%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/e10aa730-9b93-4e52-882c-b6059d10b855/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/e10aa730-9b93-4e52-882c-b6059d10b855/large",
+    "scientificName": "Dryococelus australis",
+    "family": "PHASMATIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/26189cec-225b-4e62-84c5-3090a13fa2f4"
   },
   {
     "commonName": "Ipomoea Vines",
@@ -17897,7 +19565,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Ipomoea%20Vines%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Ipomoea%20Vines%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/cd3be3fd-f2ee-4db0-a142-825b27dee657/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/cd3be3fd-f2ee-4db0-a142-825b27dee657/large",
+    "scientificName": "Ipomoea hederifolia",
+    "family": "Convolvulaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51270714"
   },
   {
     "commonName": "Itch grass",
@@ -17928,7 +19601,10 @@ window.weedsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/weeds/itch-grass.webp"
+    "thumbnail": "images/weeds/itch-grass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/bfaba731-9036-4bd6-bc84-5c2fe5b8b222/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/bfaba731-9036-4bd6-bc84-5c2fe5b8b222/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2886801"
   },
   {
     "commonName": "Ivy",
@@ -17957,7 +19633,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Summer - Spring",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Ivy+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/ivy.webp"
+    "thumbnail": "images/weeds/ivy.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/e5dd13ac-dd89-4e73-8db6-6cfe11fce79d/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/e5dd13ac-dd89-4e73-8db6-6cfe11fce79d/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2891997"
   },
   {
     "commonName": "Ivy gourd",
@@ -17983,7 +19662,10 @@ window.weedsRegistry = [
     "floweringPeriod": "August to September",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Ivy+gourd+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/ivy-gourd.webp"
+    "thumbnail": "images/weeds/ivy-gourd.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/eb18723f-ef36-4f11-abc6-64d6b91aadb2/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/eb18723f-ef36-4f11-abc6-64d6b91aadb2/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2894233"
   },
   {
     "commonName": "Ivyleaf speedwell",
@@ -18029,7 +19711,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/ivyleaf-speedwell.webp"
+    "thumbnail": "images/weeds/ivyleaf-speedwell.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/f3c16f51-2237-46d4-8666-6cc3b1ec292e/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f3c16f51-2237-46d4-8666-6cc3b1ec292e/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2891530"
   },
   {
     "commonName": "Jacaranda",
@@ -18057,7 +19742,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Late Spring",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Jacaranda+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/jacaranda.webp"
+    "thumbnail": "images/weeds/jacaranda.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/8deaf974-b0c6-403f-b3e6-106df2c60711/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/8deaf974-b0c6-403f-b3e6-106df2c60711/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2911572"
   },
   {
     "commonName": "Japanese climbing fern",
@@ -18076,7 +19764,10 @@ window.weedsRegistry = [
     "floweringPeriod": "",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Japanese+climbing+fern+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/japanese-climbing-fern.webp"
+    "thumbnail": "images/weeds/japanese-climbing-fern.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/228dcd7a-cb61-4187-a95f-04654bdf9856/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/228dcd7a-cb61-4187-a95f-04654bdf9856/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2893910"
   },
   {
     "commonName": "Japanese honeysuckle",
@@ -18106,7 +19797,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Year Round",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Japanese+honeysuckle+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/japanese-honeysuckle.webp"
+    "thumbnail": "images/weeds/japanese-honeysuckle.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/34642f8f-e14d-47aa-8002-d047cd4a2a72/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/34642f8f-e14d-47aa-8002-d047cd4a2a72/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2913581"
   },
   {
     "commonName": "Japanese knotweed",
@@ -18137,7 +19831,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Japanese+knotweed+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/japanese-knotweed.webp"
+    "thumbnail": "images/weeds/japanese-knotweed.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/833662a3-a5dd-42f9-a288-344696b603ab/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/833662a3-a5dd-42f9-a288-344696b603ab/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2907300"
   },
   {
     "commonName": "Japanese sunflower",
@@ -18185,7 +19882,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/japanese-sunflower.webp"
+    "thumbnail": "images/weeds/japanese-sunflower.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/374db76c-5b73-4a9c-b672-63395cd509ec/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/374db76c-5b73-4a9c-b672-63395cd509ec/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2900593"
   },
   {
     "commonName": "Jaragua grass",
@@ -18216,7 +19916,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/jaragua-grass.webp"
+    "thumbnail": "images/weeds/jaragua-grass.webp",
+    "alaUrl": "https://bie.ala.org.au/species/https://www.catalogueoflife.org/data/taxon/57CJK"
   },
   {
     "commonName": "Jarrah",
@@ -18227,7 +19928,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Jarrah%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Jarrah%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/6561942c-a25e-4782-9708-0aebcbb73561/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/6561942c-a25e-4782-9708-0aebcbb73561/large",
+    "scientificName": "Eucalyptus marginata",
+    "family": "Myrtaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51302290"
   },
   {
     "commonName": "Jerry jerry",
@@ -18256,7 +19962,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/jerry-jerry.webp"
+    "thumbnail": "images/weeds/jerry-jerry.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/3aed41d9-389a-4e38-ba8e-d1c1c8fe927d/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/3aed41d9-389a-4e38-ba8e-d1c1c8fe927d/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/7503288"
   },
   {
     "commonName": "Jewels of opar",
@@ -18281,7 +19990,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Jewels+of+Opar+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/jewels-of-opar.webp"
+    "thumbnail": "images/weeds/jewels-of-opar.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/0d852bab-4fd5-4d19-9593-53d40ca6034e/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/0d852bab-4fd5-4d19-9593-53d40ca6034e/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51414589"
   },
   {
     "commonName": "Johnson grass",
@@ -18368,7 +20080,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/johnson-grass.webp"
+    "thumbnail": "images/weeds/johnson-grass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/b7f6da39-bca1-43b6-96ce-f47326b95a33/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/b7f6da39-bca1-43b6-96ce-f47326b95a33/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/7776299"
   },
   {
     "commonName": "Joint vetch",
@@ -18396,7 +20111,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/joint-vetch.webp"
+    "thumbnail": "images/weeds/joint-vetch.webp",
+    "alaUrl": "https://bie.ala.org.au/species/NZOR-6-7652"
   },
   {
     "commonName": "Jumping cholla",
@@ -18421,7 +20137,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring–Early Summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Jumping+cholla+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/jumping-cholla.webp"
+    "thumbnail": "images/weeds/jumping-cholla.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/d0da3213-677b-4c04-966f-f1d2b346914d/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/d0da3213-677b-4c04-966f-f1d2b346914d/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2889863"
   },
   {
     "commonName": "Jute",
@@ -18456,7 +20175,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/jute.webp"
+    "thumbnail": "images/weeds/jute.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/724e85b5-6e81-4460-96fd-fa66056c63e1/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/724e85b5-6e81-4460-96fd-fa66056c63e1/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2898228"
   },
   {
     "commonName": "Kahili ginger",
@@ -18483,7 +20205,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Summer - Autumn",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Kahili+ginger+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/kahili-ginger.webp"
+    "thumbnail": "images/weeds/kahili-ginger.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/67ba8300-e3a1-47b0-aa2f-8a4b7ad55cd5/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/67ba8300-e3a1-47b0-aa2f-8a4b7ad55cd5/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2900816"
   },
   {
     "commonName": "Kangaroo grass",
@@ -18528,7 +20253,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/kangaroo-grass.webp"
+    "thumbnail": "images/weeds/kangaroo-grass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/121fcfe1-ec8b-4255-83a3-cf91f108b746/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/121fcfe1-ec8b-4255-83a3-cf91f108b746/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51291519"
   },
   {
     "commonName": "Karroo thorn",
@@ -18564,7 +20292,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Karroo+thorn+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/karroo-thorn.webp"
+    "thumbnail": "images/weeds/karroo-thorn.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/99317a72-10fa-4fea-b297-9fd56ccddb40/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/99317a72-10fa-4fea-b297-9fd56ccddb40/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2920108"
   },
   {
     "commonName": "Khaki weed",
@@ -18610,7 +20341,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/khaki-weed.webp"
+    "thumbnail": "images/weeds/khaki-weed.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/9c0d4296-01a4-4130-9270-de8e141752af/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/9c0d4296-01a4-4130-9270-de8e141752af/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2887511"
   },
   {
     "commonName": "Kidney leaf mudplantain",
@@ -18633,7 +20367,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Year Round",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Kidney+leaf+mudplantain+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/kidney-leaf-mudplantain.webp"
+    "thumbnail": "images/weeds/kidney-leaf-mudplantain.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/d399ec61-911f-4994-9ba6-0bc8e9bbb527/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/d399ec61-911f-4994-9ba6-0bc8e9bbb527/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2886410"
   },
   {
     "commonName": "Kikuyu",
@@ -18714,7 +20451,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/kikuyu.webp"
+    "thumbnail": "images/weeds/kikuyu.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/6a04193b-fe6c-4681-aabf-e4924da9b696/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/6a04193b-fe6c-4681-aabf-e4924da9b696/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2902145"
   },
   {
     "commonName": "Kikuyu Paspalum",
@@ -18725,7 +20465,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Kikuyu%20Paspalum%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Kikuyu%20Paspalum%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/6a04193b-fe6c-4681-aabf-e4924da9b696/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/6a04193b-fe6c-4681-aabf-e4924da9b696/large",
+    "scientificName": "Cenchrus clandestinus",
+    "family": "Poaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2902145"
   },
   {
     "commonName": "Knobweed",
@@ -18779,7 +20524,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring to summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Kochia+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/kochia.webp"
+    "thumbnail": "images/weeds/kochia.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/ad0bdf7d-955f-4c62-a615-23516c28cab3/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/ad0bdf7d-955f-4c62-a615-23516c28cab3/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51760919"
   },
   {
     "commonName": "Koster's curse",
@@ -18802,7 +20550,10 @@ window.weedsRegistry = [
     "floweringPeriod": "",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Koster's+curse+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/koster-s-curse.webp"
+    "thumbnail": "images/weeds/koster-s-curse.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/7318cb83-1980-4980-ae32-eeba16e4d3e5/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/7318cb83-1980-4980-ae32-eeba16e4d3e5/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/7512106"
   },
   {
     "commonName": "Kudzu",
@@ -18830,7 +20581,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Kudzu+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/kudzu.webp"
+    "thumbnail": "images/weeds/kudzu.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/a3e0b66c-2438-4531-84f9-f08895975160/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a3e0b66c-2438-4531-84f9-f08895975160/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2900392"
   },
   {
     "commonName": "Kyllinga",
@@ -18854,7 +20608,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Kyllinga+weed/Whisker+grass+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/kyllinga.webp"
+    "thumbnail": "images/weeds/kyllinga.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/307425d0-61da-4de1-a627-beb0e45c23ba/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/307425d0-61da-4de1-a627-beb0e45c23ba/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2915306"
   },
   {
     "commonName": "Lactuca serriola",
@@ -18865,7 +20622,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Lactuca%20serriola%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Lactuca%20serriola%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/8d27f474-b170-45a7-99ea-5da3ca592dc5/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/8d27f474-b170-45a7-99ea-5da3ca592dc5/large",
+    "scientificName": "Lactuca serriola",
+    "family": "Asteraceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51744654"
   },
   {
     "commonName": "Lagarosiphon",
@@ -18894,7 +20656,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Summer - Autumn",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Lagarosiphon+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/lagarosiphon.webp"
+    "thumbnail": "images/weeds/lagarosiphon.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/9bef37dd-dd80-4a61-90a3-e85df32b488b/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/9bef37dd-dd80-4a61-90a3-e85df32b488b/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2909918"
   },
   {
     "commonName": "Lamb's tongues",
@@ -18925,7 +20690,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/lamb-s-tongues.webp"
+    "thumbnail": "images/weeds/lamb-s-tongues.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/74a60f5f-df86-41d9-a7c4-5be886b67d3a/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/74a60f5f-df86-41d9-a7c4-5be886b67d3a/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2899343"
   },
   {
     "commonName": "Lance-leaved rattlepod",
@@ -18950,7 +20718,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Year round",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Lance-leaved+rattlepod+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/lance-leaved-rattlepod.webp"
+    "thumbnail": "images/weeds/lance-leaved-rattlepod.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/e2e4f820-aa47-4671-a7d8-048906edb5e7/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/e2e4f820-aa47-4671-a7d8-048906edb5e7/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2895442"
   },
   {
     "commonName": "Lantana",
@@ -19054,7 +20825,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/lantana.webp"
+    "thumbnail": "images/weeds/lantana.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/997017c2-f938-484e-8912-e06bf9cb5f47/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/997017c2-f938-484e-8912-e06bf9cb5f47/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51448660"
   },
   {
     "commonName": "Larkdaisy",
@@ -19114,7 +20888,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring - Summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Laurel+clock+vine+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/laurel-clock-vine.webp"
+    "thumbnail": "images/weeds/laurel-clock-vine.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/f598359d-dee7-4112-8852-31fdb4ff1e59/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f598359d-dee7-4112-8852-31fdb4ff1e59/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2894838"
   },
   {
     "commonName": "Lavender scallops",
@@ -19142,7 +20919,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Year round",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Lavender+scallops+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/lavender-scallops.webp"
+    "thumbnail": "images/weeds/lavender-scallops.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/0056a70b-022d-41ce-8c6e-ca51260665e0/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/0056a70b-022d-41ce-8c6e-ca51260665e0/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2918630"
   },
   {
     "commonName": "Leaf cactus",
@@ -19170,7 +20950,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Autumn - Winter",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Leaf+cactus+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/leaf-cactus.webp"
+    "thumbnail": "images/weeds/leaf-cactus.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/371ee4ea-5507-41df-8bb9-6ce380bca954/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/371ee4ea-5507-41df-8bb9-6ce380bca954/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2898069"
   },
   {
     "commonName": "Legumes",
@@ -19192,7 +20975,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Lens%20culinaris%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Lens%20culinaris%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/e5e70d23-3671-4b4f-92e9-0f9e1d993f19/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/e5e70d23-3671-4b4f-92e9-0f9e1d993f19/large",
+    "scientificName": "Lens culinaris",
+    "family": "Leguminosae",
+    "alaUrl": "https://bie.ala.org.au/species/NZOR-6-131797"
   },
   {
     "commonName": "Lesser canary grass",
@@ -19272,7 +21060,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/lesser-canary-grass.webp"
+    "thumbnail": "images/weeds/lesser-canary-grass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/a5e1de46-2e60-4b1c-bdbe-7d371509ee0a/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a5e1de46-2e60-4b1c-bdbe-7d371509ee0a/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2894969"
   },
   {
     "commonName": "Lesser swinecress",
@@ -19346,7 +21137,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/lesser-swinecress.webp"
+    "thumbnail": "images/weeds/lesser-swinecress.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/9ce882b2-37d1-49aa-b2cc-68e41fc6a32f/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/9ce882b2-37d1-49aa-b2cc-68e41fc6a32f/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2886696"
   },
   {
     "commonName": "Lettuce",
@@ -19357,7 +21151,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Lettuce%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Lettuce%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/28268f83-d4e1-4e85-916c-a85269bfb108/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/28268f83-d4e1-4e85-916c-a85269bfb108/large",
+    "scientificName": "Lactuca saligna",
+    "family": "Asteraceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2889360"
   },
   {
     "commonName": "Leucaena",
@@ -19393,7 +21192,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/leucaena.webp"
+    "thumbnail": "images/weeds/leucaena.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/36ac8ed5-4705-4914-80a4-781839a1efc9/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/36ac8ed5-4705-4914-80a4-781839a1efc9/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2909789"
   },
   {
     "commonName": "Leucas",
@@ -19427,7 +21229,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/leucas.webp"
+    "thumbnail": "images/weeds/leucas.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/257b2007-a707-4352-a247-ee57677ea346/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/257b2007-a707-4352-a247-ee57677ea346/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2900530"
   },
   {
     "commonName": "Limebush",
@@ -19473,7 +21278,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/limebush.webp"
+    "thumbnail": "images/weeds/limebush.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/2b3f5b8b-7735-4dd0-bc2c-52a7117f85a8/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/2b3f5b8b-7735-4dd0-bc2c-52a7117f85a8/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2919253"
   },
   {
     "commonName": "Lincoln weed",
@@ -19527,7 +21335,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/lincoln-weed.webp"
+    "thumbnail": "images/weeds/lincoln-weed.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/b43f64fc-eb53-47e9-b3bb-3a86a7e61d27/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/b43f64fc-eb53-47e9-b3bb-3a86a7e61d27/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2897023"
   },
   {
     "commonName": "Lion's tail",
@@ -19557,7 +21368,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/lion-s-tail.webp"
+    "thumbnail": "images/weeds/lion-s-tail.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/a07d81bb-4f1a-4c3b-8635-2d9fd42119f6/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a07d81bb-4f1a-4c3b-8635-2d9fd42119f6/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2899619"
   },
   {
     "commonName": "Lions ear",
@@ -19623,7 +21437,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/lippia.webp"
+    "thumbnail": "images/weeds/lippia.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/722bc406-1435-418b-a47a-e69c215c59a7/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/722bc406-1435-418b-a47a-e69c215c59a7/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51408442"
   },
   {
     "commonName": "Little bluestem",
@@ -19645,7 +21462,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring and summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Little+bluestem+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/little-bluestem.webp"
+    "thumbnail": "images/weeds/little-bluestem.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/fa0371b3-3d3d-46b9-91c2-24750dc66748/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/fa0371b3-3d3d-46b9-91c2-24750dc66748/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51412420"
   },
   {
     "commonName": "Liverseed grass",
@@ -19733,7 +21553,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/liverseed-grass.webp"
+    "thumbnail": "images/weeds/liverseed-grass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/5fecdd79-baa0-4de3-8b1b-756a0bae4d39/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/5fecdd79-baa0-4de3-8b1b-756a0bae4d39/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2915347"
   },
   {
     "commonName": "Loganberry",
@@ -19744,7 +21567,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Loganberry%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Loganberry%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/ce265e3d-a881-4553-815a-46cdbe80d62a/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/ce265e3d-a881-4553-815a-46cdbe80d62a/large",
+    "scientificName": "Rubus x loganobaccus",
+    "family": "Rosaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2921185"
   },
   {
     "commonName": "Lolium perenne",
@@ -19755,7 +21583,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Lolium%20perenne%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Lolium%20perenne%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/78f168b3-09c6-4a6f-b821-fdc8751da6cc/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/78f168b3-09c6-4a6f-b821-fdc8751da6cc/large",
+    "scientificName": "Lolium perenne",
+    "family": "Poaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2892858"
   },
   {
     "commonName": "Lolium rigidum",
@@ -19766,7 +21599,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Lolium%20rigidum%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Lolium%20rigidum%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/a21e8542-f662-4b2c-b4ee-69b2a138c0db/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a21e8542-f662-4b2c-b4ee-69b2a138c0db/large",
+    "scientificName": "Lolium rigidum",
+    "family": "Poaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2919175"
   },
   {
     "commonName": "London rocket",
@@ -19815,7 +21653,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/london-rocket.webp"
+    "thumbnail": "images/weeds/london-rocket.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/d501847f-54fd-4f2c-87b0-a765fb2ce1ad/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/d501847f-54fd-4f2c-87b0-a765fb2ce1ad/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2887936"
   },
   {
     "commonName": "Long storksbill",
@@ -19846,7 +21687,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/long-storksbill.webp"
+    "thumbnail": "images/weeds/long-storksbill.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/406f863e-3019-42d2-9b97-8cb083f84371/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/406f863e-3019-42d2-9b97-8cb083f84371/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2921084"
   },
   {
     "commonName": "Loosestrife",
@@ -19876,7 +21720,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/loosestrife.webp"
+    "thumbnail": "images/weeds/loosestrife.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/deb006e4-28af-43a7-b129-942cc3cab467/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/deb006e4-28af-43a7-b129-942cc3cab467/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51300296"
   },
   {
     "commonName": "Lophostemon",
@@ -19905,7 +21752,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/lophostemon.webp"
+    "thumbnail": "images/weeds/lophostemon.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/fc0a752c-c717-4aa3-9b50-9217191b06f6/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/fc0a752c-c717-4aa3-9b50-9217191b06f6/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51782385"
   },
   {
     "commonName": "Loquat",
@@ -19932,7 +21782,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Autumn",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Loquat+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/loquat.webp"
+    "thumbnail": "images/weeds/loquat.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/8a74bafe-eeab-4073-8c89-94b4db14b111/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/8a74bafe-eeab-4073-8c89-94b4db14b111/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2896507"
   },
   {
     "commonName": "Love Grasses",
@@ -19943,7 +21796,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Love%20Grasses%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Love%20Grasses%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/8b475ec1-eb4b-467a-aed8-43f1ee806fbe/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/8b475ec1-eb4b-467a-aed8-43f1ee806fbe/large",
+    "scientificName": "Eragrostis",
+    "family": "Poaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51442675"
   },
   {
     "commonName": "Lovegrass",
@@ -19991,7 +21849,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/lovegrass.webp"
+    "thumbnail": "images/weeds/lovegrass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/5f6f1640-febc-4af6-b7a6-1298f527bb05/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/5f6f1640-febc-4af6-b7a6-1298f527bb05/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2919597"
   },
   {
     "commonName": "Lovegrass, African",
@@ -20002,7 +21863,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Lovegrass%2C%20African%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Lovegrass%2C%20African%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/b49f6ec1-5f4f-4161-9e31-63430ccda676/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/b49f6ec1-5f4f-4161-9e31-63430ccda676/large",
+    "scientificName": "Eragrostis curvula",
+    "family": "Poaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2889922"
   },
   {
     "commonName": "Lovegrass/Stink Grass",
@@ -20013,7 +21879,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Lovegrass%2FStink%20Grass%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Lovegrass%2FStink%20Grass%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/5f6f1640-febc-4af6-b7a6-1298f527bb05/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/5f6f1640-febc-4af6-b7a6-1298f527bb05/large",
+    "scientificName": "Eragrostis leptocarpa",
+    "family": "Poaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2919597"
   },
   {
     "commonName": "Lucerne",
@@ -20032,7 +21903,12 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Lucerne%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Lucerne%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/98f99c6b-4fc0-46a9-9fba-84b72d4ab936/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/98f99c6b-4fc0-46a9-9fba-84b72d4ab936/large",
+    "scientificName": "Medicago sativa",
+    "family": "Fabaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51771045"
   },
   {
     "commonName": "Ludwigia Peruviana",
@@ -20043,7 +21919,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Ludwigia%20Peruviana%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Ludwigia%20Peruviana%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/6f8983e1-c137-48d0-acf9-4ed99dee1e69/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/6f8983e1-c137-48d0-acf9-4ed99dee1e69/large",
+    "scientificName": "Ludwigia peruviana",
+    "family": "Onagraceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2909389"
   },
   {
     "commonName": "Madeira vine",
@@ -20072,7 +21953,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring-Autumn",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Madeira+vine+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/madeira-vine.webp"
+    "thumbnail": "images/weeds/madeira-vine.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/b67f7c2f-b7a2-412a-884a-37102fcde6da/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/b67f7c2f-b7a2-412a-884a-37102fcde6da/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51749236"
   },
   {
     "commonName": "Madras thorn",
@@ -20097,7 +21981,10 @@ window.weedsRegistry = [
     "floweringPeriod": "",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=madras+thorn+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/madras-thorn.webp"
+    "thumbnail": "images/weeds/madras-thorn.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/b0cdd594-bb93-4f13-80d0-78f42974ee89/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/b0cdd594-bb93-4f13-80d0-78f42974ee89/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51771068"
   },
   {
     "commonName": "Madre de cacao",
@@ -20144,7 +22031,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/mallee-catchfly.webp"
+    "thumbnail": "images/weeds/mallee-catchfly.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/509921e4-f6a9-426f-97c6-150484708867/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/509921e4-f6a9-426f-97c6-150484708867/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51433008"
   },
   {
     "commonName": "Malva parviflora",
@@ -20155,7 +22045,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Malva%20parviflora%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Malva%20parviflora%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/f805090c-45cd-42f6-a6c7-65d55347616a/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f805090c-45cd-42f6-a6c7-65d55347616a/large",
+    "scientificName": "Malva parviflora",
+    "family": "Malvaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2887949"
   },
   {
     "commonName": "Malvastrum",
@@ -20185,7 +22080,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/malvastrum.webp"
+    "thumbnail": "images/weeds/malvastrum.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/c426874f-26ed-495a-884f-f8d0af9b1728/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/c426874f-26ed-495a-884f-f8d0af9b1728/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51288558"
   },
   {
     "commonName": "Mango Scale",
@@ -20237,7 +22135,10 @@ window.weedsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/weeds/manuka.webp"
+    "thumbnail": "images/weeds/manuka.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/e17a42c0-6bed-484d-8098-25abbdd05796/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/e17a42c0-6bed-484d-8098-25abbdd05796/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2896906"
   },
   {
     "commonName": "Marigold",
@@ -20262,7 +22163,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Winter to Spring",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Marigold+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/marigold.webp"
+    "thumbnail": "images/weeds/marigold.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/19f1e988-57c9-4a9e-b0f6-6d569571e377/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/19f1e988-57c9-4a9e-b0f6-6d569571e377/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51741639"
   },
   {
     "commonName": "Marigold — Compact Plants",
@@ -20273,7 +22177,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Marigold%20%E2%80%94%20Compact%20Plants%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Marigold%20%E2%80%94%20Compact%20Plants%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/60c63b9b-7107-4a5f-9b6e-109431f26965/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/60c63b9b-7107-4a5f-9b6e-109431f26965/large",
+    "scientificName": "Bidens",
+    "family": "Asteraceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51748149"
   },
   {
     "commonName": "Marsilea",
@@ -20300,7 +22209,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/marsilea.webp"
+    "thumbnail": "images/weeds/marsilea.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/38b7c03c-a112-4fde-8eb2-93294ef5d450/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/38b7c03c-a112-4fde-8eb2-93294ef5d450/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2904095"
   },
   {
     "commonName": "Matricans",
@@ -20348,7 +22260,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/matricaria.webp"
+    "thumbnail": "images/weeds/matricaria.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/b11b252f-497d-477f-92ab-6429e0e84bc7/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/b11b252f-497d-477f-92ab-6429e0e84bc7/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51744763"
   },
   {
     "commonName": "Mayne's pest",
@@ -20374,7 +22289,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring to autumn",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Glandularia+aristigera+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/mayne-s-pest.webp"
+    "thumbnail": "images/weeds/mayne-s-pest.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/9f570f52-a390-472b-ad2b-f92eadf0d4ab/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/9f570f52-a390-472b-ad2b-f92eadf0d4ab/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2898161"
   },
   {
     "commonName": "Medicago spp.",
@@ -20385,7 +22303,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Medicago%20spp.%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Medicago%20spp.%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/98f99c6b-4fc0-46a9-9fba-84b72d4ab936/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/98f99c6b-4fc0-46a9-9fba-84b72d4ab936/large",
+    "scientificName": "Medicago sativa",
+    "family": "Fabaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51771045"
   },
   {
     "commonName": "Medics",
@@ -20411,7 +22334,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Medics%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Medics%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/a441c1ce-ce2f-4f63-9d0f-6d44eddd9017/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a441c1ce-ce2f-4f63-9d0f-6d44eddd9017/large",
+    "scientificName": "Medicago",
+    "family": "Fabaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51771046"
   },
   {
     "commonName": "Melaleuca",
@@ -20422,7 +22350,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Melaleuca%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Melaleuca%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/4c9700fa-748a-4163-a130-ec84a767a882/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/4c9700fa-748a-4163-a130-ec84a767a882/large",
+    "scientificName": "Melaleuca cardiophylla",
+    "family": "Myrtaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2913966"
   },
   {
     "commonName": "Melons",
@@ -20433,7 +22366,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Melons%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Melons%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/cccb8f70-2711-47cd-8044-1ee5adfdc906/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/cccb8f70-2711-47cd-8044-1ee5adfdc906/large",
+    "scientificName": "Cucurbitaceae",
+    "family": "Cucurbitaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51762190"
   },
   {
     "commonName": "Merremia",
@@ -20484,7 +22422,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/merremia.webp"
+    "thumbnail": "images/weeds/merremia.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/ae77a015-cd54-4864-8a15-d4dfc67332a8/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/ae77a015-cd54-4864-8a15-d4dfc67332a8/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2911019"
   },
   {
     "commonName": "Mesquite",
@@ -20528,7 +22469,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/mesquite.webp"
+    "thumbnail": "images/weeds/mesquite.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/15e1334d-1f0e-422d-a11d-d170334652bd/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/15e1334d-1f0e-422d-a11d-d170334652bd/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2890863"
   },
   {
     "commonName": "Mesquite or algarroba",
@@ -20552,7 +22496,10 @@ window.weedsRegistry = [
     "floweringPeriod": "",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Mesquite+or+algarroba+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/mesquite-or-algarroba.webp"
+    "thumbnail": "images/weeds/mesquite-or-algarroba.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/15e1334d-1f0e-422d-a11d-d170334652bd/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/15e1334d-1f0e-422d-a11d-d170334652bd/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2890863"
   },
   {
     "commonName": "Messmate stringybark",
@@ -20583,7 +22530,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/messmate-stringybark.webp"
+    "thumbnail": "images/weeds/messmate-stringybark.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/46b3e9a3-9a88-49ea-9742-560d3a2be5eb/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/46b3e9a3-9a88-49ea-9742-560d3a2be5eb/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/5308808"
   },
   {
     "commonName": "Mexican clover",
@@ -20628,7 +22578,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/mexican-clover.webp"
+    "thumbnail": "images/weeds/mexican-clover.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/f8740f3b-f06e-4919-98c0-c3094e410f0b/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f8740f3b-f06e-4919-98c0-c3094e410f0b/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2916975"
   },
   {
     "commonName": "Mexican feathergrass",
@@ -20657,7 +22610,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Summer - Autumn",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Mexican+feathergrass+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/mexican-feathergrass.webp"
+    "thumbnail": "images/weeds/mexican-feathergrass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/d83c48bd-4208-4398-981f-cf2c8a1e59b8/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/d83c48bd-4208-4398-981f-cf2c8a1e59b8/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2916680"
   },
   {
     "commonName": "Mexican poppy",
@@ -20750,7 +22706,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/mexican-poppy.webp"
+    "thumbnail": "images/weeds/mexican-poppy.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/f5766917-0287-46fd-881a-73121375ea6a/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f5766917-0287-46fd-881a-73121375ea6a/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2890207"
   },
   {
     "commonName": "Miconia",
@@ -20781,7 +22740,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Variable",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Miconia+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/miconia.webp"
+    "thumbnail": "images/weeds/miconia.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/ce72174c-6358-40f8-a1cd-0f55b73af127/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/ce72174c-6358-40f8-a1cd-0f55b73af127/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2912711"
   },
   {
     "commonName": "Mikania",
@@ -20810,7 +22772,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Year Round",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Mikania+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/mikania.webp"
+    "thumbnail": "images/weeds/mikania.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/7f9f6e3c-539b-4c01-92e9-9cca03aac6cd/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/7f9f6e3c-539b-4c01-92e9-9cca03aac6cd/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2915578"
   },
   {
     "commonName": "Mile-a-minute",
@@ -20841,7 +22806,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Year round",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Mile-a-minute+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/mile-a-minute.webp"
+    "thumbnail": "images/weeds/mile-a-minute.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/da6aa2b8-15e9-434a-932e-ff3a88e76773/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/da6aa2b8-15e9-434a-932e-ff3a88e76773/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2898321"
   },
   {
     "commonName": "Milfoil",
@@ -20869,7 +22837,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/milfoil.webp"
+    "thumbnail": "images/weeds/milfoil.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/a302fc50-65a0-4468-9717-453b848d0c1e/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a302fc50-65a0-4468-9717-453b848d0c1e/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/7401076"
   },
   {
     "commonName": "Milk-flower cotoneaster",
@@ -20895,7 +22866,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring - Summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Milk-flower+cotoneaster+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/milk-flower-cotoneaster.webp"
+    "thumbnail": "images/weeds/milk-flower-cotoneaster.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/d8ae1601-8365-44e2-8caf-4150bfd32be7/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/d8ae1601-8365-44e2-8caf-4150bfd32be7/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51446312"
   },
   {
     "commonName": "Milkweed",
@@ -20946,7 +22920,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/milkweed.webp"
+    "thumbnail": "images/weeds/milkweed.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/81d94f5a-4116-4bd7-b89c-2912949ee8bd/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/81d94f5a-4116-4bd7-b89c-2912949ee8bd/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/7194281"
   },
   {
     "commonName": "Milky cotton bush",
@@ -20976,7 +22953,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/milky-cotton-bush.webp"
+    "thumbnail": "images/weeds/milky-cotton-bush.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/108200ae-d2bb-4ed9-a038-56feb1100b4d/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/108200ae-d2bb-4ed9-a038-56feb1100b4d/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2893457"
   },
   {
     "commonName": "Mimosa",
@@ -21022,7 +23002,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/mimosa.webp"
+    "thumbnail": "images/weeds/mimosa.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/88210f10-0b12-49da-8ca0-ea452b3fc633/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/88210f10-0b12-49da-8ca0-ea452b3fc633/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2899212"
   },
   {
     "commonName": "Mimosa bush",
@@ -21041,7 +23024,10 @@ window.weedsRegistry = [
     "floweringPeriod": "",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Mimosa+bush+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/mimosa-bush.webp"
+    "thumbnail": "images/weeds/mimosa-bush.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/27e086ac-d1e9-4112-9143-73b2f935df20/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/27e086ac-d1e9-4112-9143-73b2f935df20/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2899669"
   },
   {
     "commonName": "Mimosa Pigra",
@@ -21052,7 +23038,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Mimosa%20Pigra%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Mimosa%20Pigra%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/88210f10-0b12-49da-8ca0-ea452b3fc633/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/88210f10-0b12-49da-8ca0-ea452b3fc633/large",
+    "scientificName": "Mimosa pigra",
+    "family": "Fabaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2899212"
   },
   {
     "commonName": "Ming asparagus",
@@ -21076,7 +23067,8 @@ window.weedsRegistry = [
     "floweringPeriod": "Late Spring to early Summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Ming+Asparagus+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/ming-asparagus.webp"
+    "thumbnail": "images/weeds/ming-asparagus.webp",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2905634"
   },
   {
     "commonName": "Mintweed",
@@ -21195,7 +23187,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/mintweed.webp"
+    "thumbnail": "images/weeds/mintweed.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/37182ce0-8027-41f3-946a-b7428358d417/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/37182ce0-8027-41f3-946a-b7428358d417/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2905195"
   },
   {
     "commonName": "Mist flower",
@@ -21231,7 +23226,10 @@ window.weedsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/weeds/mist-flower.webp"
+    "thumbnail": "images/weeds/mist-flower.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/6563b7c5-5a5d-4aa0-8e33-f076f621bf08/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/6563b7c5-5a5d-4aa0-8e33-f076f621bf08/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51772200"
   },
   {
     "commonName": "Mistflower",
@@ -21296,7 +23294,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/mistflower.webp"
+    "thumbnail": "images/weeds/mistflower.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/fbed217b-cf8e-4138-a318-ca064d0a5c85/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/fbed217b-cf8e-4138-a318-ca064d0a5c85/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2899012"
   },
   {
     "commonName": "Mock orange",
@@ -21325,7 +23326,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Year round",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Mock+orange+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/mock-orange.webp"
+    "thumbnail": "images/weeds/mock-orange.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/93894ab5-c213-4d36-bf8d-db10096f7211/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/93894ab5-c213-4d36-bf8d-db10096f7211/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2911906"
   },
   {
     "commonName": "Molasses grass",
@@ -21355,7 +23359,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Year round",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Molasses+grass+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/molasses-grass.webp"
+    "thumbnail": "images/weeds/molasses-grass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/80b36060-d57c-48ed-8310-99cfc24134e1/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/80b36060-d57c-48ed-8310-99cfc24134e1/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2893430"
   },
   {
     "commonName": "Monkey's comb",
@@ -21383,7 +23390,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring-Summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Monkey's+comb+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/monkey-s-comb.webp"
+    "thumbnail": "images/weeds/monkey-s-comb.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/dca0311e-970d-4cc5-9151-dd2503ee863f/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/dca0311e-970d-4cc5-9151-dd2503ee863f/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2904824"
   },
   {
     "commonName": "Morning glory",
@@ -21458,7 +23468,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/morning-glory.webp"
+    "thumbnail": "images/weeds/morning-glory.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/895bb6f9-a3fa-40ba-ae9f-108a3bd2bf23/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/895bb6f9-a3fa-40ba-ae9f-108a3bd2bf23/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2891393"
   },
   {
     "commonName": "Mossman river grass",
@@ -21514,7 +23527,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/mossman-river-grass.webp"
+    "thumbnail": "images/weeds/mossman-river-grass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/0ef76e32-ffd5-4276-933f-b88267c24785/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/0ef76e32-ffd5-4276-933f-b88267c24785/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2888016"
   },
   {
     "commonName": "Moth vine",
@@ -21549,7 +23565,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Summer-Autumn",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Moth+vine+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/moth-vine.webp"
+    "thumbnail": "images/weeds/moth-vine.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/0befaaac-a391-4d31-ba07-6733e86fa074/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/0befaaac-a391-4d31-ba07-6733e86fa074/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2897514"
   },
   {
     "commonName": "Mother-in-law's tongue",
@@ -21579,7 +23598,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring- Summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Mother-in-law's+tongue+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/mother-in-law-s-tongue.webp"
+    "thumbnail": "images/weeds/mother-in-law-s-tongue.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/a58b29fd-c8e5-4493-9871-5c41afb51272/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a58b29fd-c8e5-4493-9871-5c41afb51272/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51412110"
   },
   {
     "commonName": "Mother-of-millions",
@@ -21636,7 +23658,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/mother-of-millions.webp"
+    "thumbnail": "images/weeds/mother-of-millions.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/5d4abbad-98da-413a-acb0-4efbb240ebcc/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/5d4abbad-98da-413a-acb0-4efbb240ebcc/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2905853"
   },
   {
     "commonName": "Mother-of-thousands",
@@ -21679,7 +23704,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/mother-of-thousands.webp"
+    "thumbnail": "images/weeds/mother-of-thousands.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/5b02e2c5-ebc3-41c5-a146-770596782663/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/5b02e2c5-ebc3-41c5-a146-770596782663/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2907383"
   },
   {
     "commonName": "Mountain sorrel",
@@ -21723,7 +23751,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/mountain-sorrel.webp"
+    "thumbnail": "images/weeds/mountain-sorrel.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/fb6ccc0b-25bc-47f0-ac03-780bc251e771/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/fb6ccc0b-25bc-47f0-ac03-780bc251e771/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51289963"
   },
   {
     "commonName": "Mouse-ear chickweed",
@@ -21769,7 +23800,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/mouse-ear-chickweed.webp"
+    "thumbnail": "images/weeds/mouse-ear-chickweed.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/5268416c-5402-4b39-9d66-3842c593c1f5/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/5268416c-5402-4b39-9d66-3842c593c1f5/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2918750"
   },
   {
     "commonName": "Mulga",
@@ -21799,7 +23833,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/mulga.webp"
+    "thumbnail": "images/weeds/mulga.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/5aa8c427-1ab1-432e-95ec-5cd98e4dc0a1/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/5aa8c427-1ab1-432e-95ec-5cd98e4dc0a1/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2902298"
   },
   {
     "commonName": "Mullumbimby couch",
@@ -21835,7 +23872,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/mullumbimby-couch.webp"
+    "thumbnail": "images/weeds/mullumbimby-couch.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/307425d0-61da-4de1-a627-beb0e45c23ba/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/307425d0-61da-4de1-a627-beb0e45c23ba/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2915306"
   },
   {
     "commonName": "Muskweed",
@@ -21870,7 +23910,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/muskweed.webp"
+    "thumbnail": "images/weeds/muskweed.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/e4a096c3-7ea3-40db-81e7-4803885d21c5/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/e4a096c3-7ea3-40db-81e7-4803885d21c5/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2896690"
   },
   {
     "commonName": "Musky or ferny leaf storksbill",
@@ -21901,7 +23944,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/musky-or-ferny-leaf-storksbill.webp"
+    "thumbnail": "images/weeds/musky-or-ferny-leaf-storksbill.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/8fa85b55-491e-4d60-a74d-fd64307a502d/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/8fa85b55-491e-4d60-a74d-fd64307a502d/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2911110"
   },
   {
     "commonName": "Mustard",
@@ -22014,7 +24060,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/mustard.webp"
+    "thumbnail": "images/weeds/mustard.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/cde776d1-c431-4ac7-afa0-83982439d82e/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/cde776d1-c431-4ac7-afa0-83982439d82e/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2919433"
   },
   {
     "commonName": "Mustards",
@@ -22090,7 +24139,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Winter-Spring",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Mysore+thorn+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/mysore-thorn.webp"
+    "thumbnail": "images/weeds/mysore-thorn.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/91aaf594-d939-4a50-8ad7-10fad0ef1145/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/91aaf594-d939-4a50-8ad7-10fad0ef1145/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2917416"
   },
   {
     "commonName": "Narrowleaf Ironbark",
@@ -22101,7 +24153,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Narrowleaf%20Ironbark%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Narrowleaf%20Ironbark%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/b3c7fc3e-d578-41d2-984c-5469cdc16e1f/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/b3c7fc3e-d578-41d2-984c-5469cdc16e1f/large",
+    "scientificName": "Eucalyptus panda",
+    "family": "Myrtaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51289978"
   },
   {
     "commonName": "Native amaranth",
@@ -22130,7 +24187,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/native-amaranth.webp"
+    "thumbnail": "images/weeds/native-amaranth.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/b4e57a47-1f0e-485d-93dc-aeff7f25f7fb/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/b4e57a47-1f0e-485d-93dc-aeff7f25f7fb/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2889248"
   },
   {
     "commonName": "Native jute",
@@ -22158,7 +24218,10 @@ window.weedsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/weeds/native-jute.webp"
+    "thumbnail": "images/weeds/native-jute.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/698b8cbb-63d4-4fab-954c-fcdee0a96ee2/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/698b8cbb-63d4-4fab-954c-fcdee0a96ee2/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2888101"
   },
   {
     "commonName": "Native millet",
@@ -22207,7 +24270,10 @@ window.weedsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/weeds/native-millet.webp"
+    "thumbnail": "images/weeds/native-millet.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/489dbd17-bfc1-4b46-8d12-5e71f442d546/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/489dbd17-bfc1-4b46-8d12-5e71f442d546/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2897459"
   },
   {
     "commonName": "Native rosella",
@@ -22251,7 +24317,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/native-rosella.webp"
+    "thumbnail": "images/weeds/native-rosella.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/ca688654-350e-4a51-b953-534757983b3f/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/ca688654-350e-4a51-b953-534757983b3f/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2897916"
   },
   {
     "commonName": "Native Vigna",
@@ -22262,7 +24331,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Native%20Vigna%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Native%20Vigna%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/36346bac-aba0-4a3c-befb-a67e76c71635/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/36346bac-aba0-4a3c-befb-a67e76c71635/large",
+    "scientificName": "Ixora beckleri",
+    "family": "Rubiaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2892484"
   },
   {
     "commonName": "Navua sedge",
@@ -22339,7 +24413,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/needle-grass.webp"
+    "thumbnail": "images/weeds/needle-grass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/65c84823-dd36-4339-83ed-bfd635eaeae3/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/65c84823-dd36-4339-83ed-bfd635eaeae3/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2894705"
   },
   {
     "commonName": "Needle Grasses",
@@ -22350,7 +24427,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Needle%20Grasses%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Needle%20Grasses%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/cba23066-c32c-4e12-8329-aca21a862589/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/cba23066-c32c-4e12-8329-aca21a862589/large",
+    "scientificName": "Chionochloa",
+    "family": "Poaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2888670"
   },
   {
     "commonName": "Neem tree",
@@ -22368,7 +24450,10 @@ window.weedsRegistry = [
     "floweringPeriod": "",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Neem+tree+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/neem-tree.webp"
+    "thumbnail": "images/weeds/neem-tree.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/48381f40-adf1-4f02-8b71-89b5259ac2a5/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/48381f40-adf1-4f02-8b71-89b5259ac2a5/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2895301"
   },
   {
     "commonName": "Nettle",
@@ -22410,7 +24495,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/nettle.webp"
+    "thumbnail": "images/weeds/nettle.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/6cb515a6-1ef5-4cc2-9f03-0e3e5023fcb3/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/6cb515a6-1ef5-4cc2-9f03-0e3e5023fcb3/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2887795"
   },
   {
     "commonName": "Nettleleaf goosefoot",
@@ -22441,7 +24529,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/nettleleaf-goosefoot.webp"
+    "thumbnail": "images/weeds/nettleleaf-goosefoot.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/c4d98b6c-aa4b-4134-9580-6cdcf91695b6/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/c4d98b6c-aa4b-4134-9580-6cdcf91695b6/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2920466"
   },
   {
     "commonName": "New zealand spinach",
@@ -22534,7 +24625,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/new-zealand-spinach.webp"
+    "thumbnail": "images/weeds/new-zealand-spinach.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/712f362f-8823-414c-b89f-5de603437cdb/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/712f362f-8823-414c-b89f-5de603437cdb/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2901957"
   },
   {
     "commonName": "Night jessamine",
@@ -22570,7 +24664,10 @@ window.weedsRegistry = [
     "floweringPeriod": "",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Night+Jessamine+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/night-jessamine.webp"
+    "thumbnail": "images/weeds/night-jessamine.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/3d9980dc-ce52-43df-9297-f6c831604099/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/3d9980dc-ce52-43df-9297-f6c831604099/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2911237"
   },
   {
     "commonName": "Nodding thistle",
@@ -22586,7 +24683,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Nodding%20thistle%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Nodding%20thistle%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/296e0641-0bc4-468f-b455-0f95b40127fc/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/296e0641-0bc4-468f-b455-0f95b40127fc/large",
+    "scientificName": "Carduus thoermeri",
+    "family": "Asteraceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2905599"
   },
   {
     "commonName": "Noogoora burr",
@@ -22714,7 +24816,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/noogoora-burr.webp"
+    "thumbnail": "images/weeds/noogoora-burr.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/df147005-7fbd-4b6a-9e1c-5e2367558ad6/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/df147005-7fbd-4b6a-9e1c-5e2367558ad6/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51311048"
   },
   {
     "commonName": "Northern olive",
@@ -22740,7 +24845,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Year round",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Northern+olive+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/northern-olive.webp"
+    "thumbnail": "images/weeds/northern-olive.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/a108c716-5133-4fe1-adef-28281a291e46/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a108c716-5133-4fe1-adef-28281a291e46/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51786459"
   },
   {
     "commonName": "Nothoscordum",
@@ -22751,7 +24859,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Nothoscordum%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Nothoscordum%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/b9da85ca-a257-4440-8a63-283f540445ec/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/b9da85ca-a257-4440-8a63-283f540445ec/large",
+    "scientificName": "Nothoscordum borbonicum",
+    "family": "Alliaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2889520"
   },
   {
     "commonName": "Nutgrass",
@@ -22812,7 +24925,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/nutgrass.webp"
+    "thumbnail": "images/weeds/nutgrass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/66f652a5-78ad-4566-ba48-b30a2c361a18/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/66f652a5-78ad-4566-ba48-b30a2c361a18/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2899976"
   },
   {
     "commonName": "Ochna",
@@ -22840,7 +24956,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring-Summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Ochna+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/ochna.webp"
+    "thumbnail": "images/weeds/ochna.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/9fd8f8bc-a3bb-443c-a250-ae3eca89de83/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/9fd8f8bc-a3bb-443c-a250-ae3eca89de83/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2890981"
   },
   {
     "commonName": "Old Blue Grass",
@@ -22885,7 +25004,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/oleander.webp"
+    "thumbnail": "images/weeds/oleander.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/cb900a3a-d0fd-45da-8932-6225b0f316ae/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/cb900a3a-d0fd-45da-8932-6225b0f316ae/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2899812"
   },
   {
     "commonName": "Oncosiphon pilulifer",
@@ -22896,7 +25018,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Oncosiphon%20pilulifer%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Oncosiphon%20pilulifer%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/5dbcb3e7-b8d4-434a-8fdb-1253be843d99/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/5dbcb3e7-b8d4-434a-8fdb-1253be843d99/large",
+    "scientificName": "Oncosiphon pilulifer",
+    "family": "Asteraceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2910027"
   },
   {
     "commonName": "Onehunga",
@@ -22912,7 +25039,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Onehunga%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Onehunga%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/ec00e8f0-3527-4ab0-b6b6-52a62764ccb8/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/ec00e8f0-3527-4ab0-b6b6-52a62764ccb8/large",
+    "scientificName": "Soliva sessilis",
+    "family": "Asteraceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51747637"
   },
   {
     "commonName": "Onion Weed",
@@ -22923,7 +25055,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Onion%20Weed%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Onion%20Weed%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/ce4aad0f-dab7-4dc5-a5a8-6cfbb822dc9e/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/ce4aad0f-dab7-4dc5-a5a8-6cfbb822dc9e/large",
+    "scientificName": "Trachyandra divaricata",
+    "family": "Asphodelaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51737849"
   },
   {
     "commonName": "Opium poppy",
@@ -22956,7 +25093,10 @@ window.weedsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/weeds/opium-poppy.webp"
+    "thumbnail": "images/weeds/opium-poppy.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/0951ce3a-64db-4bac-974b-5dcbaae83d73/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/0951ce3a-64db-4bac-974b-5dcbaae83d73/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2910167"
   },
   {
     "commonName": "Opposite-leaved spotflower",
@@ -22975,7 +25115,10 @@ window.weedsRegistry = [
     "floweringPeriod": "",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Opposite-leaved+spotflower+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/opposite-leaved-spotflower.webp"
+    "thumbnail": "images/weeds/opposite-leaved-spotflower.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/fb4f763c-5f3b-420b-955b-80d7c17def95/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/fb4f763c-5f3b-420b-955b-80d7c17def95/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51299883"
   },
   {
     "commonName": "Ox-eye daisy",
@@ -23006,7 +25149,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/ox-eye-daisy.webp"
+    "thumbnail": "images/weeds/ox-eye-daisy.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/42890581-2bac-4c77-a625-4e1af62dc00f/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/42890581-2bac-4c77-a625-4e1af62dc00f/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2915255"
   },
   {
     "commonName": "Oxalis",
@@ -23071,7 +25217,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/oxalis.webp"
+    "thumbnail": "images/weeds/oxalis.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/ce331d9e-12aa-422a-855a-17b245baacfd/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/ce331d9e-12aa-422a-855a-17b245baacfd/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2905109"
   },
   {
     "commonName": "Paddy Melons",
@@ -23082,7 +25231,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Paddy%20Melons%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Paddy%20Melons%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/754523df-8f56-4765-922d-ba6ef075f6ba/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/754523df-8f56-4765-922d-ba6ef075f6ba/large",
+    "scientificName": "Cucumis myriocarpus",
+    "family": "Cucurbitaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51270837"
   },
   {
     "commonName": "Paddys Lucerne",
@@ -23093,7 +25247,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Paddys%20Lucerne%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Paddys%20Lucerne%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/98f99c6b-4fc0-46a9-9fba-84b72d4ab936/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/98f99c6b-4fc0-46a9-9fba-84b72d4ab936/large",
+    "scientificName": "Medicago sativa",
+    "family": "Fabaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51771045"
   },
   {
     "commonName": "Painted spurge",
@@ -23121,7 +25280,10 @@ window.weedsRegistry = [
     "floweringPeriod": "",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Painted+spurge+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/painted-spurge.webp"
+    "thumbnail": "images/weeds/painted-spurge.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/a57cb329-ac6d-4dba-8a4a-eb462bd1d3cc/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a57cb329-ac6d-4dba-8a4a-eb462bd1d3cc/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2920947"
   },
   {
     "commonName": "Pale pigeon grass",
@@ -23151,7 +25313,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/pale-pigeon-grass.webp"
+    "thumbnail": "images/weeds/pale-pigeon-grass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/fe24dff0-0b83-45c0-a2ec-8ed19873a208/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/fe24dff0-0b83-45c0-a2ec-8ed19873a208/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2894337"
   },
   {
     "commonName": "Pampas grass",
@@ -23194,7 +25359,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/pampas-grass.webp"
+    "thumbnail": "images/weeds/pampas-grass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/45a72a60-2c24-41e4-b5ee-817f502f314d/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/45a72a60-2c24-41e4-b5ee-817f502f314d/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51442577"
   },
   {
     "commonName": "Paper mulberry",
@@ -23224,7 +25392,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Paper+mulberry+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/paper-mulberry.webp"
+    "thumbnail": "images/weeds/paper-mulberry.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/4ea28c57-fac0-4711-957f-ea60d9701be3/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/4ea28c57-fac0-4711-957f-ea60d9701be3/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2906629"
   },
   {
     "commonName": "Paperbark tea tree",
@@ -23255,7 +25426,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/paperbark-tea-tree.webp"
+    "thumbnail": "images/weeds/paperbark-tea-tree.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/afd188b2-d8ab-46c4-ae02-a7e88b96e6e7/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/afd188b2-d8ab-46c4-ae02-a7e88b96e6e7/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51782392"
   },
   {
     "commonName": "Papyrus",
@@ -23282,7 +25456,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Year round",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Papyrus+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/papyrus.webp"
+    "thumbnail": "images/weeds/papyrus.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/9059fec4-1675-414c-b3cc-4b770cf9a4d8/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/9059fec4-1675-414c-b3cc-4b770cf9a4d8/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2899308"
   },
   {
     "commonName": "Paradoxa grass",
@@ -23361,7 +25538,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/paradoxa-grass.webp"
+    "thumbnail": "images/weeds/paradoxa-grass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/7d733ddd-1ee0-438e-8ceb-1af658e31e5f/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/7d733ddd-1ee0-438e-8ceb-1af658e31e5f/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2895519"
   },
   {
     "commonName": "Paragrass",
@@ -23424,7 +25604,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Parasitic%20Weeds%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Parasitic%20Weeds%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/6a07ce77-4f50-4887-a7c1-46c558cffd85/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/6a07ce77-4f50-4887-a7c1-46c558cffd85/large",
+    "scientificName": "Christella parasitica",
+    "family": "Thelypteridaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51448040"
   },
   {
     "commonName": "Parkinsonia",
@@ -23475,7 +25660,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/parkinsonia.webp"
+    "thumbnail": "images/weeds/parkinsonia.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/341c3bec-4d71-405d-8c5c-1af5100fadfa/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/341c3bec-4d71-405d-8c5c-1af5100fadfa/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2892490"
   },
   {
     "commonName": "Parramatta grass",
@@ -23512,7 +25700,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/parramatta-grass.webp"
+    "thumbnail": "images/weeds/parramatta-grass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/01ca202a-e625-45b8-a54d-0cccc025e7e5/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/01ca202a-e625-45b8-a54d-0cccc025e7e5/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2897111"
   },
   {
     "commonName": "Parramatta Grass Species",
@@ -23523,7 +25714,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Parramatta%20Grass%20Species%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Parramatta%20Grass%20Species%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/d85c7e6c-a2a9-423d-a1f7-2110400b634b/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/d85c7e6c-a2a9-423d-a1f7-2110400b634b/large",
+    "scientificName": "Acacia parramattensis",
+    "family": "Fabaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51770573"
   },
   {
     "commonName": "Parrot's feather",
@@ -23551,7 +25747,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring - Summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Parrot's+feather+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/parrot-s-feather.webp"
+    "thumbnail": "images/weeds/parrot-s-feather.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/44349a95-9547-4a84-a064-692a6bff65e3/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/44349a95-9547-4a84-a064-692a6bff65e3/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2899913"
   },
   {
     "commonName": "Parthenium",
@@ -23618,7 +25817,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/parthenium.webp"
+    "thumbnail": "images/weeds/parthenium.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/3b7c07fe-dce7-4214-a17b-ef8409f321b6/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/3b7c07fe-dce7-4214-a17b-ef8409f321b6/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2919468"
   },
   {
     "commonName": "Paspalidium",
@@ -23652,7 +25854,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/paspalidium.webp"
+    "thumbnail": "images/weeds/paspalidium.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/29ec080c-5611-41fc-a3ba-814dcff37cd3/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/29ec080c-5611-41fc-a3ba-814dcff37cd3/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2906058"
   },
   {
     "commonName": "Paspalum",
@@ -23759,7 +25964,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/paspalum.webp"
+    "thumbnail": "images/weeds/paspalum.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/baf58f86-b1d7-4858-9d36-6b2139d7d60f/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/baf58f86-b1d7-4858-9d36-6b2139d7d60f/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2907869"
   },
   {
     "commonName": "Paspalum notatum",
@@ -23770,7 +25978,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Paspalum%20notatum%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Paspalum%20notatum%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/f7b6742e-5b70-4671-bcd6-a76f6be2feda/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f7b6742e-5b70-4671-bcd6-a76f6be2feda/large",
+    "scientificName": "Paspalum notatum",
+    "family": "Poaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2902131"
   },
   {
     "commonName": "Paspalum Spp.",
@@ -23781,7 +25994,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Paspalum%20Spp.%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Paspalum%20Spp.%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/baf58f86-b1d7-4858-9d36-6b2139d7d60f/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/baf58f86-b1d7-4858-9d36-6b2139d7d60f/large",
+    "scientificName": "Paspalum ciliatifolium",
+    "family": "Poaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2907869"
   },
   {
     "commonName": "Paterson's curse",
@@ -23878,7 +26096,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/paterson-s-curse.webp"
+    "thumbnail": "images/weeds/paterson-s-curse.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/7228bd9c-9718-4e72-8534-bf07a64fa7f1/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/7228bd9c-9718-4e72-8534-bf07a64fa7f1/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2889451"
   },
   {
     "commonName": "Patersons Curse",
@@ -23894,7 +26115,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Patersons%20Curse%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Patersons%20Curse%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/7228bd9c-9718-4e72-8534-bf07a64fa7f1/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/7228bd9c-9718-4e72-8534-bf07a64fa7f1/large",
+    "scientificName": "Echium plantagineum",
+    "family": "Boraginaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2889451"
   },
   {
     "commonName": "Peach vine",
@@ -23958,7 +26184,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/pearlwort.webp"
+    "thumbnail": "images/weeds/pearlwort.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/9c6950cf-b09a-42f5-a41c-6ef9054193c7/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/9c6950cf-b09a-42f5-a41c-6ef9054193c7/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2895131"
   },
   {
     "commonName": "Pellitory",
@@ -23988,7 +26217,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/pellitory.webp"
+    "thumbnail": "images/weeds/pellitory.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/e11a5d3e-1f78-4f90-a739-9c5ef20fefc0/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/e11a5d3e-1f78-4f90-a739-9c5ef20fefc0/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2888724"
   },
   {
     "commonName": "Pennywort",
@@ -24010,7 +26242,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Summer-Autumn",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Pennywort+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/pennywort.webp"
+    "thumbnail": "images/weeds/pennywort.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/a1f7b36a-bdbd-4ad6-bdbe-60b1b0636227/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a1f7b36a-bdbd-4ad6-bdbe-60b1b0636227/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2917788"
   },
   {
     "commonName": "Pennyworth",
@@ -24057,7 +26292,10 @@ window.weedsRegistry = [
     "floweringPeriod": "",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Pepper+tree+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/pepper-tree.webp"
+    "thumbnail": "images/weeds/pepper-tree.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/9b811cef-aab1-43bb-905f-e8e4ff310564/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/9b811cef-aab1-43bb-905f-e8e4ff310564/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2912800"
   },
   {
     "commonName": "Peppercress",
@@ -24116,7 +26354,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/peppercress.webp"
+    "thumbnail": "images/weeds/peppercress.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/e9aadb3d-5f57-49f1-a700-bca36fcb76a7/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/e9aadb3d-5f57-49f1-a700-bca36fcb76a7/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2916964"
   },
   {
     "commonName": "Peppermint gum",
@@ -24148,7 +26389,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/peppermint-gum.webp"
+    "thumbnail": "images/weeds/peppermint-gum.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/c1d6ba9e-1a90-4b48-94da-d057b092b03b/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/c1d6ba9e-1a90-4b48-94da-d057b092b03b/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51440664"
   },
   {
     "commonName": "Perennial gooseberry",
@@ -24178,7 +26422,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/perennial-gooseberry.webp"
+    "thumbnail": "images/weeds/perennial-gooseberry.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/e25ffd59-7963-42ca-9ab2-208a5dd8b076/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/e25ffd59-7963-42ca-9ab2-208a5dd8b076/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2921246"
   },
   {
     "commonName": "Perennial horse gram",
@@ -24205,7 +26452,10 @@ window.weedsRegistry = [
     "floweringPeriod": "",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Perennial+horse+gram+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/perennial-horse-gram.webp"
+    "thumbnail": "images/weeds/perennial-horse-gram.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/e25ffd59-7963-42ca-9ab2-208a5dd8b076/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/e25ffd59-7963-42ca-9ab2-208a5dd8b076/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2921246"
   },
   {
     "commonName": "Perennial phalaris",
@@ -24293,7 +26543,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/perennial-phalaris.webp"
+    "thumbnail": "images/weeds/perennial-phalaris.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/e25ffd59-7963-42ca-9ab2-208a5dd8b076/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/e25ffd59-7963-42ca-9ab2-208a5dd8b076/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2921246"
   },
   {
     "commonName": "Perennial ragweed",
@@ -24332,7 +26585,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/perennial-ragweed.webp"
+    "thumbnail": "images/weeds/perennial-ragweed.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/1f58b098-c767-4ba8-8c6b-4cf25d45384b/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/1f58b098-c767-4ba8-8c6b-4cf25d45384b/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2917981"
   },
   {
     "commonName": "Perennial ryegrass",
@@ -24360,7 +26616,10 @@ window.weedsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/weeds/perennial-ryegrass.webp"
+    "thumbnail": "images/weeds/perennial-ryegrass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/78f168b3-09c6-4a6f-b821-fdc8751da6cc/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/78f168b3-09c6-4a6f-b821-fdc8751da6cc/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2892858"
   },
   {
     "commonName": "Peruvian primrose",
@@ -24386,7 +26645,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring-Autumn",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Peruvian+primrose+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/peruvian-primrose.webp"
+    "thumbnail": "images/weeds/peruvian-primrose.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/8be3e25b-3a8b-421f-a38f-eb3ea5358772/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/8be3e25b-3a8b-421f-a38f-eb3ea5358772/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2890448"
   },
   {
     "commonName": "Phalaris paradoxa",
@@ -24397,7 +26659,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Phalaris%20paradoxa%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Phalaris%20paradoxa%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/7d733ddd-1ee0-438e-8ceb-1af658e31e5f/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/7d733ddd-1ee0-438e-8ceb-1af658e31e5f/large",
+    "scientificName": "Phalaris paradoxa",
+    "family": "Poaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2895519"
   },
   {
     "commonName": "Phasey bean",
@@ -24442,7 +26709,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/phasey-bean.webp"
+    "thumbnail": "images/weeds/phasey-bean.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/839ed303-a569-4a02-8baf-e3bf8b8039cc/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/839ed303-a569-4a02-8baf-e3bf8b8039cc/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2911589"
   },
   {
     "commonName": "Phyllanthus",
@@ -24477,7 +26747,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/phyllanthus.webp"
+    "thumbnail": "images/weeds/phyllanthus.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/aa8dd5f5-e2f3-40d0-9b33-1c213acbb219/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/aa8dd5f5-e2f3-40d0-9b33-1c213acbb219/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2914535"
   },
   {
     "commonName": "Pigeon grass",
@@ -24519,7 +26792,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/pigeon-grass.webp"
+    "thumbnail": "images/weeds/pigeon-grass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/fd37f503-08b8-4bea-9a4c-3a6d3d648650/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/fd37f503-08b8-4bea-9a4c-3a6d3d648650/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2894279"
   },
   {
     "commonName": "Pink bloodwood",
@@ -24549,7 +26825,10 @@ window.weedsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/weeds/pink-bloodwood.webp"
+    "thumbnail": "images/weeds/pink-bloodwood.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/cdf6bb6a-8588-4d7c-bbaa-086f25e7df69/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/cdf6bb6a-8588-4d7c-bbaa-086f25e7df69/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2915125"
   },
   {
     "commonName": "Pink burr",
@@ -24634,7 +26913,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/pink-convolvulus.webp"
+    "thumbnail": "images/weeds/pink-convolvulus.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/95769626-36f9-4ae3-b71f-843a6025ce58/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/95769626-36f9-4ae3-b71f-843a6025ce58/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2902519"
   },
   {
     "commonName": "Pink periwinkle",
@@ -24666,7 +26948,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Year round",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Pink+periwinkle+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/pink-periwinkle.webp"
+    "thumbnail": "images/weeds/pink-periwinkle.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/07655a82-ade2-4096-98a7-437df50e678a/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/07655a82-ade2-4096-98a7-437df50e678a/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2891035"
   },
   {
     "commonName": "Pink tephrosia",
@@ -24690,7 +26975,10 @@ window.weedsRegistry = [
     "floweringPeriod": "",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Pink+Tephrosia+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/pink-tephrosia.webp"
+    "thumbnail": "images/weeds/pink-tephrosia.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/f77d5f58-2263-4cd7-ab9a-39b7f3517d35/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f77d5f58-2263-4cd7-ab9a-39b7f3517d35/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2890310"
   },
   {
     "commonName": "Pink Wax Scale",
@@ -24701,7 +26989,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Pink%20Wax%20Scale%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Pink%20Wax%20Scale%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/2a73ef9a-fa9a-4b13-a053-1140684fca94/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/2a73ef9a-fa9a-4b13-a053-1140684fca94/large",
+    "scientificName": "Ceroplastes rubens",
+    "family": "COCCIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/5c02985a-3eb0-46cf-b228-07d9049fc05e"
   },
   {
     "commonName": "Pinkburr",
@@ -24712,7 +27005,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Pinkburr%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Pinkburr%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/43f0038c-0e36-4638-8dda-c026159ac4bb/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/43f0038c-0e36-4638-8dda-c026159ac4bb/large",
+    "scientificName": "Urena lobata",
+    "family": "Malvaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2908519"
   },
   {
     "commonName": "Plains grass",
@@ -24742,7 +27040,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/plains-grass.webp"
+    "thumbnail": "images/weeds/plains-grass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/1004b8c9-3c8d-4fc1-9ce0-22cd67afd9bf/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/1004b8c9-3c8d-4fc1-9ce0-22cd67afd9bf/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2903891"
   },
   {
     "commonName": "Plant Growth Regulator",
@@ -24753,7 +27054,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Plant%20Growth%20Regulator%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Plant%20Growth%20Regulator%20weed%20Australia",
+    "scientificName": "Streptomyces aureofaciens emend. Groth et al., 2003",
+    "family": "Streptomycetaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://www.catalogueoflife.org/data/taxon/52Y9W"
   },
   {
     "commonName": "Plantain",
@@ -24813,7 +27117,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/plantain.webp"
+    "thumbnail": "images/weeds/plantain.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/f7cbd2bf-fdff-4555-911a-d84ccb316866/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f7cbd2bf-fdff-4555-911a-d84ccb316866/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2899031"
   },
   {
     "commonName": "Plantains",
@@ -24839,7 +27146,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Plantains%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Plantains%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/b7b8ae67-3aed-46ae-b9e3-9adad900c7f2/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/b7b8ae67-3aed-46ae-b9e3-9adad900c7f2/large",
+    "scientificName": "Plantago",
+    "family": "Plantaginaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/7745425"
   },
   {
     "commonName": "Poa annua",
@@ -24855,7 +27167,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Poa%20annua%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Poa%20annua%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/7e0d032d-1739-4c77-a37c-69782ed2dd12/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/7e0d032d-1739-4c77-a37c-69782ed2dd12/large",
+    "scientificName": "Poa annua",
+    "family": "Poaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2901115"
   },
   {
     "commonName": "Poa tussock",
@@ -24897,7 +27214,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/poa-tussock.webp"
+    "thumbnail": "images/weeds/poa-tussock.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/18f680d8-a82c-4a9a-b799-4b679ba8b8d7/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/18f680d8-a82c-4a9a-b799-4b679ba8b8d7/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2911536"
   },
   {
     "commonName": "Polka dot plant",
@@ -24928,7 +27248,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring - Autumn",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Polka+dot+plant+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/polka-dot-plant.webp"
+    "thumbnail": "images/weeds/polka-dot-plant.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/f40a66d0-8ed8-443e-b8ed-cb68639253a2/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f40a66d0-8ed8-443e-b8ed-cb68639253a2/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51731549"
   },
   {
     "commonName": "Pollination support",
@@ -24939,7 +27262,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Pollination%20support%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Pollination%20support%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/3af76428-ccd7-4132-a6d5-55819e0d5c44/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/3af76428-ccd7-4132-a6d5-55819e0d5c44/large",
+    "scientificName": "Prasophyllum fecundum",
+    "family": "Orchidaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51795087"
   },
   {
     "commonName": "Polygonum aviculare",
@@ -24950,7 +27278,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Polygonum%20aviculare%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Polygonum%20aviculare%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/f4b829d1-1568-48bc-9932-b0f04d79b5c0/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f4b829d1-1568-48bc-9932-b0f04d79b5c0/large",
+    "scientificName": "Polygonum aviculare",
+    "family": "Polygonaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51444874"
   },
   {
     "commonName": "Polymeria",
@@ -24997,7 +27330,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/polymeria.webp"
+    "thumbnail": "images/weeds/polymeria.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/10af5b0c-c2ba-4770-a615-e4b8683eb166/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/10af5b0c-c2ba-4770-a615-e4b8683eb166/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2893130"
   },
   {
     "commonName": "Pome and Stone Fruit Orchards",
@@ -25008,7 +27344,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Pome%20and%20Stone%20Fruit%20Orchards%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Pome%20and%20Stone%20Fruit%20Orchards%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/919a9ce6-9fa5-4730-815c-2deed1a25e5e/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/919a9ce6-9fa5-4730-815c-2deed1a25e5e/large",
+    "scientificName": "Dactylis glomerata",
+    "family": "Poaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2915272"
   },
   {
     "commonName": "Pond apple",
@@ -25038,7 +27379,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Pond+apple+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/pond-apple.webp"
+    "thumbnail": "images/weeds/pond-apple.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/ec879bdb-56bf-40a0-b2fa-d7979b26ece0/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/ec879bdb-56bf-40a0-b2fa-d7979b26ece0/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2910491"
   },
   {
     "commonName": "Pond Weeds",
@@ -25081,7 +27425,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Year Round",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Pongamia+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/pongamia.webp"
+    "thumbnail": "images/weeds/pongamia.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/a60d65ba-a74f-4d80-ba8f-5b5ae37290da/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a60d65ba-a74f-4d80-ba8f-5b5ae37290da/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51771584"
   },
   {
     "commonName": "Poplar box",
@@ -25112,7 +27459,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/poplar-box.webp"
+    "thumbnail": "images/weeds/poplar-box.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/d6586b15-40b7-4a3d-968c-41904762bac5/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/d6586b15-40b7-4a3d-968c-41904762bac5/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2893132"
   },
   {
     "commonName": "Poplar gum",
@@ -25142,7 +27492,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/poplar-gum.webp"
+    "thumbnail": "images/weeds/poplar-gum.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/d864fce3-4fe5-4314-b3b0-a1371e9acde5/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/d864fce3-4fe5-4314-b3b0-a1371e9acde5/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2921050"
   },
   {
     "commonName": "Poppies",
@@ -25182,7 +27535,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/poppy.webp"
+    "thumbnail": "images/weeds/poppy.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/a4828641-849f-4995-8633-6b867219fa2a/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a4828641-849f-4995-8633-6b867219fa2a/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2887924"
   },
   {
     "commonName": "Potato Haulm Desiccation",
@@ -25193,7 +27549,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Potato%20Haulm%20Desiccation%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Potato%20Haulm%20Desiccation%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/a4d78f3e-1bbd-4c75-811e-e4d393834878/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a4d78f3e-1bbd-4c75-811e-e4d393834878/large",
+    "scientificName": "Gastrodia lacista",
+    "family": "Orchidaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51405963"
   },
   {
     "commonName": "Poverty weed",
@@ -25223,7 +27584,10 @@ window.weedsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/weeds/poverty-weed.webp"
+    "thumbnail": "images/weeds/poverty-weed.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/988ec592-1e71-439b-b2f7-7bd6620b1aaf/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/988ec592-1e71-439b-b2f7-7bd6620b1aaf/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51268547"
   },
   {
     "commonName": "Powell's amaranth",
@@ -25258,7 +27622,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/powell-s-amaranth.webp"
+    "thumbnail": "images/weeds/powell-s-amaranth.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/01cf046f-f739-4d16-8526-f81875ab1707/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/01cf046f-f739-4d16-8526-f81875ab1707/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2912670"
   },
   {
     "commonName": "Prairie grass",
@@ -25326,7 +27693,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/prairie-grass.webp"
+    "thumbnail": "images/weeds/prairie-grass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/9c2d3ec4-6414-403c-9661-0ddca180e4c2/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/9c2d3ec4-6414-403c-9661-0ddca180e4c2/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2898628"
   },
   {
     "commonName": "Prairie ground cherry",
@@ -25354,7 +27724,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/prairie-ground-cherry.webp"
+    "thumbnail": "images/weeds/prairie-ground-cherry.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/d75bdcd8-1b59-4418-81cf-ecac0cdb46a6/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/d75bdcd8-1b59-4418-81cf-ecac0cdb46a6/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2894210"
   },
   {
     "commonName": "Praxelis",
@@ -25376,7 +27749,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Summer- Autumn",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Praxelis+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/praxelis.webp"
+    "thumbnail": "images/weeds/praxelis.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/5971c684-fc20-440b-b505-b5bc0b8d8959/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/5971c684-fc20-440b-b505-b5bc0b8d8959/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2890697"
   },
   {
     "commonName": "Pre-conditioning",
@@ -25398,7 +27774,11 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Pre-harvest%20Treatment%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Pre-harvest%20Treatment%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/44cbc912-6f60-46c6-9d69-d80681f40a9f/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/44cbc912-6f60-46c6-9d69-d80681f40a9f/large",
+    "scientificName": "OPILIONES",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/69ce8166-070a-49ea-a3fa-f0a4614e0b7a"
   },
   {
     "commonName": "Prickly acacia",
@@ -25443,7 +27823,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/prickly-acacia.webp"
+    "thumbnail": "images/weeds/prickly-acacia.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/6b429f17-e58e-420d-9769-62219037e97d/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/6b429f17-e58e-420d-9769-62219037e97d/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/7384761"
   },
   {
     "commonName": "Prickly lettuce",
@@ -25571,7 +27954,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/prickly-lettuce.webp"
+    "thumbnail": "images/weeds/prickly-lettuce.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/8d27f474-b170-45a7-99ea-5da3ca592dc5/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/8d27f474-b170-45a7-99ea-5da3ca592dc5/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51744654"
   },
   {
     "commonName": "Prickly paddy melon",
@@ -25662,7 +28048,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/prickly-paddy-melon.webp"
+    "thumbnail": "images/weeds/prickly-paddy-melon.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/754523df-8f56-4765-922d-ba6ef075f6ba/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/754523df-8f56-4765-922d-ba6ef075f6ba/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51270837"
   },
   {
     "commonName": "Prickly poppy or mexican poppy",
@@ -25708,7 +28097,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/prickly-poppy-or-mexican-poppy.webp"
+    "thumbnail": "images/weeds/prickly-poppy-or-mexican-poppy.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/e3e44dcd-fe2c-4edd-af2e-adb496a92689/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/e3e44dcd-fe2c-4edd-af2e-adb496a92689/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51291087"
   },
   {
     "commonName": "Prickly saltwort",
@@ -25740,7 +28132,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/prickly-saltwort.webp"
+    "thumbnail": "images/weeds/prickly-saltwort.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/04aa7e54-16c3-43b6-9b9e-53bdfd09585a/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/04aa7e54-16c3-43b6-9b9e-53bdfd09585a/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51761022"
   },
   {
     "commonName": "Prickly spider flower",
@@ -25758,7 +28153,8 @@ window.weedsRegistry = [
     "floweringPeriod": "",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Prickly+spider+flower+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/prickly-spider-flower.webp"
+    "thumbnail": "images/weeds/prickly-spider-flower.webp",
+    "alaUrl": "https://bie.ala.org.au/species/ALA_DR30477_195"
   },
   {
     "commonName": "Primrose willow",
@@ -25783,7 +28179,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Year Round",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Primrose+willow+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/primrose-willow.webp"
+    "thumbnail": "images/weeds/primrose-willow.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/78fc8432-1f25-4902-a69d-585dc7c0b7c8/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/78fc8432-1f25-4902-a69d-585dc7c0b7c8/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2886796"
   },
   {
     "commonName": "Prince of wales feather",
@@ -25815,7 +28214,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/prince-of-wales-feather.webp"
+    "thumbnail": "images/weeds/prince-of-wales-feather.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/46490bdb-89a3-4c18-8bac-ae23a574c04f/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/46490bdb-89a3-4c18-8bac-ae23a574c04f/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2898669"
   },
   {
     "commonName": "Privet",
@@ -25857,7 +28259,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/privet.webp"
+    "thumbnail": "images/weeds/privet.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/f33fc2c5-e8c9-4e54-a495-c07089bb1fcd/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f33fc2c5-e8c9-4e54-a495-c07089bb1fcd/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2887006"
   },
   {
     "commonName": "Purple calandrinia",
@@ -25901,7 +28306,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/purple-calandrinia.webp"
+    "thumbnail": "images/weeds/purple-calandrinia.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/57646ff8-85af-4312-b0d7-a30723aba2a9/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/57646ff8-85af-4312-b0d7-a30723aba2a9/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2896961"
   },
   {
     "commonName": "Purple joyweed",
@@ -25930,7 +28338,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Year Round",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Purple+joyweed+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/purple-joyweed.webp"
+    "thumbnail": "images/weeds/purple-joyweed.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/39efdb87-a8a6-4bbd-97f7-d57df374e975/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/39efdb87-a8a6-4bbd-97f7-d57df374e975/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2889740"
   },
   {
     "commonName": "Purple rubber vine",
@@ -25958,7 +28369,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Purple+rubber+vine+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/purple-rubber-vine.webp"
+    "thumbnail": "images/weeds/purple-rubber-vine.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/f6180b6c-7267-441f-b45d-a6ac039acda1/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f6180b6c-7267-441f-b45d-a6ac039acda1/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51441679"
   },
   {
     "commonName": "Purple succulent",
@@ -25985,7 +28399,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Winter - Spring",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Purple+succulent+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/purple-succulent.webp"
+    "thumbnail": "images/weeds/purple-succulent.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/f6180b6c-7267-441f-b45d-a6ac039acda1/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f6180b6c-7267-441f-b45d-a6ac039acda1/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51441679"
   },
   {
     "commonName": "Purple top",
@@ -26022,7 +28439,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/purple-top.webp"
+    "thumbnail": "images/weeds/purple-top.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/a10e86dd-ce64-463c-b152-1b4f6dd7a4c8/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a10e86dd-ce64-463c-b152-1b4f6dd7a4c8/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2900088"
   },
   {
     "commonName": "Purple-Top",
@@ -26034,7 +28454,12 @@ window.weedsRegistry = [
       }
     ],
     "thumbnail": "images/weeds/purple-top.webp",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Purple-Top%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Purple-Top%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/a10e86dd-ce64-463c-b152-1b4f6dd7a4c8/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a10e86dd-ce64-463c-b152-1b4f6dd7a4c8/large",
+    "scientificName": "Burmannia disticha",
+    "family": "Burmanniaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2900088"
   },
   {
     "commonName": "Purpletop rhodes grass",
@@ -26066,7 +28491,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Purpletop+Rhodes+grass+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/purpletop-rhodes-grass.webp"
+    "thumbnail": "images/weeds/purpletop-rhodes-grass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/dd1fb71e-cb8c-458e-8c2a-372f7dd3eedd/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/dd1fb71e-cb8c-458e-8c2a-372f7dd3eedd/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2893018"
   },
   {
     "commonName": "Queensland bluegrass",
@@ -26114,7 +28542,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/queensland-bluegrass.webp"
+    "thumbnail": "images/weeds/queensland-bluegrass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/362c4c23-7fbb-4f10-9ba8-5bd78b841ab2/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/362c4c23-7fbb-4f10-9ba8-5bd78b841ab2/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2912138"
   },
   {
     "commonName": "Radiata pine",
@@ -26136,7 +28567,10 @@ window.weedsRegistry = [
     "floweringPeriod": "",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Radiata+pine+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/radiata-pine.webp"
+    "thumbnail": "images/weeds/radiata-pine.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/4802c2b1-39d7-418d-a525-6a496a4a6cd4/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/4802c2b1-39d7-418d-a525-6a496a4a6cd4/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2906641"
   },
   {
     "commonName": "Radish",
@@ -26147,7 +28581,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Radish%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Radish%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/2e8ac0ec-75c5-428d-839b-0b2b6765cfe0/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/2e8ac0ec-75c5-428d-839b-0b2b6765cfe0/large",
+    "scientificName": "Raphanus sativus",
+    "family": "Brassicaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51751441"
   },
   {
     "commonName": "Ragwort",
@@ -26213,7 +28652,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/ragwort.webp"
+    "thumbnail": "images/weeds/ragwort.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/8c364afa-5134-4484-af1c-1db8eafd43c8/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/8c364afa-5134-4484-af1c-1db8eafd43c8/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2912105"
   },
   {
     "commonName": "Rain tree",
@@ -26239,7 +28681,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring to summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Samanea+saman+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/rain-tree.webp"
+    "thumbnail": "images/weeds/rain-tree.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/fb5af3d0-7e5f-4e16-8b17-512d70094a59/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/fb5af3d0-7e5f-4e16-8b17-512d70094a59/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2901280"
   },
   {
     "commonName": "Rapeseed",
@@ -26250,7 +28695,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Rapeseed%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Rapeseed%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/ba5777e4-4a94-4807-b6ab-a8a703f3a42e/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/ba5777e4-4a94-4807-b6ab-a8a703f3a42e/large",
+    "scientificName": "Brassica x napus",
+    "family": "Brassicaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2891158"
   },
   {
     "commonName": "Raphanus raphanistrum",
@@ -26261,7 +28711,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Raphanus%20raphanistrum%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Raphanus%20raphanistrum%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/ddfefe88-f45a-4361-ad20-9002f5b8ae33/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/ddfefe88-f45a-4361-ad20-9002f5b8ae33/large",
+    "scientificName": "Raphanus raphanistrum",
+    "family": "Brassicaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2888495"
   },
   {
     "commonName": "Raspberry Primocanes",
@@ -26272,7 +28727,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Raspberry%20Primocanes%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Raspberry%20Primocanes%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/58157c45-66d8-4af6-a30a-fd5bed327802/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/58157c45-66d8-4af6-a30a-fd5bed327802/large",
+    "scientificName": "Rubus parvifolius",
+    "family": "Rosaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2901867"
   },
   {
     "commonName": "Raspweed",
@@ -26312,7 +28772,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/raspweed.webp"
+    "thumbnail": "images/weeds/raspweed.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/2cfc8049-ce54-4e3c-b3f5-54c4a3d817a9/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/2cfc8049-ce54-4e3c-b3f5-54c4a3d817a9/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2907198"
   },
   {
     "commonName": "Red Azolla",
@@ -26323,7 +28786,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Red%20Azolla%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Red%20Azolla%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/f88d44c8-394f-4935-9d2a-d2f44008d417/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f88d44c8-394f-4935-9d2a-d2f44008d417/large",
+    "scientificName": "Azolla rubra",
+    "family": "Salviniaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/7867056"
   },
   {
     "commonName": "Red bauhinia",
@@ -26356,7 +28824,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring - early Autumn",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Red+bauhinia+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/red-bauhinia.webp"
+    "thumbnail": "images/weeds/red-bauhinia.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/8b827f8e-dd99-4556-8c22-daca78f871b0/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/8b827f8e-dd99-4556-8c22-daca78f871b0/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51771027"
   },
   {
     "commonName": "Red caustic weed",
@@ -26390,7 +28861,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Red+caustic+weed+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/red-caustic-weed.webp"
+    "thumbnail": "images/weeds/red-caustic-weed.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/322d41d5-79fb-4066-8037-40a685b62994/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/322d41d5-79fb-4066-8037-40a685b62994/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2909885"
   },
   {
     "commonName": "Red cestrum",
@@ -26418,7 +28892,10 @@ window.weedsRegistry = [
     "floweringPeriod": "year round",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Red+cestrum+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/red-cestrum.webp"
+    "thumbnail": "images/weeds/red-cestrum.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/50c70e7f-638f-4613-9938-0c5588508703/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/50c70e7f-638f-4613-9938-0c5588508703/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2886718"
   },
   {
     "commonName": "Red convolvulus",
@@ -26456,7 +28933,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/red-convolvulus.webp"
+    "thumbnail": "images/weeds/red-convolvulus.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/78f2a51b-6851-4113-813c-e00d79f967ca/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/78f2a51b-6851-4113-813c-e00d79f967ca/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2889096"
   },
   {
     "commonName": "Red flinders grass",
@@ -26489,7 +28969,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/red-flinders-grass.webp"
+    "thumbnail": "images/weeds/red-flinders-grass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/a9e8df84-61db-4d53-89da-dbc99ca4ffc8/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a9e8df84-61db-4d53-89da-dbc99ca4ffc8/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2903356"
   },
   {
     "commonName": "Red Flowered Mallow",
@@ -26501,7 +28984,12 @@ window.weedsRegistry = [
       }
     ],
     "thumbnail": "images/weeds/red-flowered-mallow.webp",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Red%20Flowered%20Mallow%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Red%20Flowered%20Mallow%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/97ff2c79-216e-4cee-997a-20c5893bd5ed/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/97ff2c79-216e-4cee-997a-20c5893bd5ed/large",
+    "scientificName": "Modiola caroliniana",
+    "family": "Malvaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2914881"
   },
   {
     "commonName": "Red gum",
@@ -26532,7 +29020,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/red-gum.webp"
+    "thumbnail": "images/weeds/red-gum.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/6e488bea-e871-41dd-b998-ff425511f830/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/6e488bea-e871-41dd-b998-ff425511f830/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2921040"
   },
   {
     "commonName": "Red Leg Grass",
@@ -26543,7 +29034,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Red%20Leg%20Grass%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Red%20Leg%20Grass%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/bcb70f25-0b80-4002-8262-5b5e8a44e353/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/bcb70f25-0b80-4002-8262-5b5e8a44e353/large",
+    "scientificName": "Bothriochloa macra",
+    "family": "Poaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2904877"
   },
   {
     "commonName": "Red natal grass",
@@ -26600,7 +29096,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/red-natal-grass.webp"
+    "thumbnail": "images/weeds/red-natal-grass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/102175f2-7f8a-4975-bb26-e9baccf19efb/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/102175f2-7f8a-4975-bb26-e9baccf19efb/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2891550"
   },
   {
     "commonName": "Red Scale",
@@ -26611,7 +29110,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Red%20Scale%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Red%20Scale%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/fd8fc6ad-5762-488a-aaef-ee483b015b27/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/fd8fc6ad-5762-488a-aaef-ee483b015b27/large",
+    "scientificName": "Aonidiella aurantii",
+    "family": "DIASPIDIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/751f0c5a-4a25-49d3-a7af-ae9c29c7002f"
   },
   {
     "commonName": "Red sesbania",
@@ -26641,7 +29145,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Late Spring to Autumn",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Red+sesbania+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/red-sesbania.webp"
+    "thumbnail": "images/weeds/red-sesbania.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/ccb574f8-e4f4-4863-aacd-22128e64d82a/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/ccb574f8-e4f4-4863-aacd-22128e64d82a/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2913648"
   },
   {
     "commonName": "Red Spanglegrass",
@@ -26652,7 +29159,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Red%20Spanglegrass%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Red%20Spanglegrass%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/614730ee-da83-4f17-936d-252bab6a1e7b/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/614730ee-da83-4f17-936d-252bab6a1e7b/large",
+    "scientificName": "Red",
+    "family": "Betaflexiviridae",
+    "alaUrl": "https://bie.ala.org.au/species/ALA_DR31252_264_0"
   },
   {
     "commonName": "Red-flowered mallow",
@@ -26683,7 +29195,10 @@ window.weedsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/weeds/red-flowered-mallow.webp"
+    "thumbnail": "images/weeds/red-flowered-mallow.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/97ff2c79-216e-4cee-997a-20c5893bd5ed/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/97ff2c79-216e-4cee-997a-20c5893bd5ed/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2914881"
   },
   {
     "commonName": "Red-head cotton bush",
@@ -26713,7 +29228,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Summer-Winter",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Red-head+cotton+bush+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/red-head-cotton-bush.webp"
+    "thumbnail": "images/weeds/red-head-cotton-bush.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/4f954b0b-30b5-4b98-b505-0e3e15564502/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/4f954b0b-30b5-4b98-b505-0e3e15564502/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51430971"
   },
   {
     "commonName": "Redshank",
@@ -26749,7 +29267,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/redshank.webp"
+    "thumbnail": "images/weeds/redshank.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/348133db-e4eb-4d31-84a0-9093323868f7/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/348133db-e4eb-4d31-84a0-9093323868f7/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51292771"
   },
   {
     "commonName": "Reduces Vegetative Growth",
@@ -26760,7 +29281,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Reduces%20Vegetative%20Growth%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Reduces%20Vegetative%20Growth%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/9a75126c-4785-4a03-9860-7ad43d7ebb53/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/9a75126c-4785-4a03-9860-7ad43d7ebb53/large",
+    "scientificName": "Enigmapercis reducta",
+    "family": "HEMEROCOETIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/3761b4ec-ee1d-4630-b985-6d482e9fa139"
   },
   {
     "commonName": "Resurrection plant",
@@ -26796,7 +29322,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Year round",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Resurrection+plant+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/resurrection-plant.webp"
+    "thumbnail": "images/weeds/resurrection-plant.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/e2b0716a-d07e-4682-87a3-588b955b946d/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/e2b0716a-d07e-4682-87a3-588b955b946d/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2911886"
   },
   {
     "commonName": "Rhodes grass",
@@ -26854,7 +29383,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/rhodes-grass.webp"
+    "thumbnail": "images/weeds/rhodes-grass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/56cd73da-f30d-4851-9a04-029b85f4adde/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/56cd73da-f30d-4851-9a04-029b85f4adde/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2896194"
   },
   {
     "commonName": "Rhodes Grass — Established Stands",
@@ -26865,7 +29397,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Rhodes%20Grass%20%E2%80%94%20Established%20Stands%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Rhodes%20Grass%20%E2%80%94%20Established%20Stands%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/56cd73da-f30d-4851-9a04-029b85f4adde/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/56cd73da-f30d-4851-9a04-029b85f4adde/large",
+    "scientificName": "Chloris virgata",
+    "family": "Poaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2896194"
   },
   {
     "commonName": "Rhus tree",
@@ -26902,7 +29439,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring - Summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Rhus+tree+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/rhus-tree.webp"
+    "thumbnail": "images/weeds/rhus-tree.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/8bd3017d-c05a-4d0a-a8fe-131ff9113de8/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/8bd3017d-c05a-4d0a-a8fe-131ff9113de8/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51266659"
   },
   {
     "commonName": "Rhynchosia",
@@ -26954,7 +29494,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/rhynchosia.webp"
+    "thumbnail": "images/weeds/rhynchosia.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/7dfe7ea3-fe89-4644-a3f3-bc1efa879ed8/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/7dfe7ea3-fe89-4644-a3f3-bc1efa879ed8/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2891837"
   },
   {
     "commonName": "Rind Ageing Delay — Grapefruit",
@@ -26965,7 +29508,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Rind%20Ageing%20Delay%20%E2%80%94%20Grapefruit%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Rind%20Ageing%20Delay%20%E2%80%94%20Grapefruit%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/82bbf02c-e4a2-4ff6-891c-7c3f3d945cfa/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/82bbf02c-e4a2-4ff6-891c-7c3f3d945cfa/large",
+    "scientificName": "Citrus x aurantium",
+    "family": "Rutaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51294026"
   },
   {
     "commonName": "Rind Ageing Delay — Lemons",
@@ -26976,7 +29524,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Rind%20Ageing%20Delay%20%E2%80%94%20Lemons%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Rind%20Ageing%20Delay%20%E2%80%94%20Lemons%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/4bbbfc2c-683d-43e1-9519-9224f6f7c9e0/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/4bbbfc2c-683d-43e1-9519-9224f6f7c9e0/large",
+    "scientificName": "Citrus x limon",
+    "family": "Rutaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2902695"
   },
   {
     "commonName": "Rind Ageing Delay — Mandarins",
@@ -26987,7 +29540,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Rind%20Ageing%20Delay%20%E2%80%94%20Mandarins%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Rind%20Ageing%20Delay%20%E2%80%94%20Mandarins%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/ce576056-3a39-4945-b9b8-d6a2fe0aa3da/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/ce576056-3a39-4945-b9b8-d6a2fe0aa3da/large",
+    "scientificName": "Citrus reticulata",
+    "family": "Rutaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2910921"
   },
   {
     "commonName": "Rind Ageing Delay — Navel Oranges",
@@ -26998,7 +29556,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Rind%20Ageing%20Delay%20%E2%80%94%20Navel%20Oranges%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Rind%20Ageing%20Delay%20%E2%80%94%20Navel%20Oranges%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/82bbf02c-e4a2-4ff6-891c-7c3f3d945cfa/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/82bbf02c-e4a2-4ff6-891c-7c3f3d945cfa/large",
+    "scientificName": "Citrus x aurantium",
+    "family": "Rutaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51294026"
   },
   {
     "commonName": "Rind Ageing Delay in Grapefruit",
@@ -27009,7 +29572,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Rind%20Ageing%20Delay%20in%20Grapefruit%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Rind%20Ageing%20Delay%20in%20Grapefruit%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/82bbf02c-e4a2-4ff6-891c-7c3f3d945cfa/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/82bbf02c-e4a2-4ff6-891c-7c3f3d945cfa/large",
+    "scientificName": "Citrus x aurantium",
+    "family": "Rutaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51294026"
   },
   {
     "commonName": "Rind Ageing Delay in Lemons",
@@ -27020,7 +29588,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Rind%20Ageing%20Delay%20in%20Lemons%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Rind%20Ageing%20Delay%20in%20Lemons%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/4bbbfc2c-683d-43e1-9519-9224f6f7c9e0/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/4bbbfc2c-683d-43e1-9519-9224f6f7c9e0/large",
+    "scientificName": "Citrus x limon",
+    "family": "Rutaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2902695"
   },
   {
     "commonName": "Rind Ageing Delay in Mandarins",
@@ -27031,7 +29604,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Rind%20Ageing%20Delay%20in%20Mandarins%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Rind%20Ageing%20Delay%20in%20Mandarins%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/ce576056-3a39-4945-b9b8-d6a2fe0aa3da/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/ce576056-3a39-4945-b9b8-d6a2fe0aa3da/large",
+    "scientificName": "Citrus reticulata",
+    "family": "Rutaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2910921"
   },
   {
     "commonName": "Rind Ageing Delay in Navel Oranges",
@@ -27042,7 +29620,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Rind%20Ageing%20Delay%20in%20Navel%20Oranges%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Rind%20Ageing%20Delay%20in%20Navel%20Oranges%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/82bbf02c-e4a2-4ff6-891c-7c3f3d945cfa/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/82bbf02c-e4a2-4ff6-891c-7c3f3d945cfa/large",
+    "scientificName": "Citrus x aurantium",
+    "family": "Rutaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51294026"
   },
   {
     "commonName": "Riverina pear",
@@ -27083,7 +29666,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/riverina-pear.webp"
+    "thumbnail": "images/weeds/riverina-pear.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/baf445f5-1070-4a64-b32f-61b89e152d84/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/baf445f5-1070-4a64-b32f-61b89e152d84/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2911579"
   },
   {
     "commonName": "Rope Twitch",
@@ -27104,7 +29690,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Rope%20Twitch%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Rope%20Twitch%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/2bc65786-ae4f-4acc-ab73-89d7d7f4af85/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/2bc65786-ae4f-4acc-ab73-89d7d7f4af85/large",
+    "scientificName": "Acacia pycnantha",
+    "family": "Fabaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51436646"
   },
   {
     "commonName": "Rough poppy",
@@ -27183,7 +29774,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/rough-poppy.webp"
+    "thumbnail": "images/weeds/rough-poppy.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/465f4dcb-0ffc-407b-ad63-6f65d63b1b87/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/465f4dcb-0ffc-407b-ad63-6f65d63b1b87/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2904400"
   },
   {
     "commonName": "Rubber vine",
@@ -27262,7 +29856,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/rubber-vine.webp"
+    "thumbnail": "images/weeds/rubber-vine.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/d25eb15b-44f0-4f84-ba93-4c1b43e8b765/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/d25eb15b-44f0-4f84-ba93-4c1b43e8b765/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2889657"
   },
   {
     "commonName": "Ruellia",
@@ -27289,7 +29886,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Warmer months",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Ruellia+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/ruellia.webp"
+    "thumbnail": "images/weeds/ruellia.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/b3f498eb-3f38-47cc-8016-e4bb1a23e2fc/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/b3f498eb-3f38-47cc-8016-e4bb1a23e2fc/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2912375"
   },
   {
     "commonName": "Rumex Spp.",
@@ -27300,7 +29900,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Rumex%20Spp.%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Rumex%20Spp.%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/1526af5d-28b7-4b37-b4e2-5c383c9c9ebc/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/1526af5d-28b7-4b37-b4e2-5c383c9c9ebc/large",
+    "scientificName": "Rumex",
+    "family": "Polygonaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51291688"
   },
   {
     "commonName": "Rushes",
@@ -27311,7 +29916,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Rushes%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Rushes%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/bb61b843-08e1-41d3-a286-5a072c99f916/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/bb61b843-08e1-41d3-a286-5a072c99f916/large",
+    "scientificName": "Juncus",
+    "family": "Juncaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51773656"
   },
   {
     "commonName": "Russian knapweed",
@@ -27343,7 +29953,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/russian-knapweed.webp"
+    "thumbnail": "images/weeds/russian-knapweed.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/1004193b-9c7c-4a06-885e-60d07c297e52/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/1004193b-9c7c-4a06-885e-60d07c297e52/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51268028"
   },
   {
     "commonName": "Ryegrass",
@@ -27440,7 +30053,8 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/ryegrass.webp"
+    "thumbnail": "images/weeds/ryegrass.webp",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2914619"
   },
   {
     "commonName": "Safflower",
@@ -27456,7 +30070,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Safflower%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Safflower%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/510859bf-e6be-4f3b-b504-50014683dd86/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/510859bf-e6be-4f3b-b504-50014683dd86/large",
+    "scientificName": "Carthamus tinctorius",
+    "family": "Asteraceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2912701"
   },
   {
     "commonName": "Saffron thistle",
@@ -27635,7 +30254,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/saffron-thistle.webp"
+    "thumbnail": "images/weeds/saffron-thistle.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/1623f1b2-e80c-4612-a32e-46ba224e0e61/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/1623f1b2-e80c-4612-a32e-46ba224e0e61/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2891903"
   },
   {
     "commonName": "Sagittaria",
@@ -27663,7 +30285,8 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring-Autumn",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Sagittaria+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/sagittaria.webp"
+    "thumbnail": "images/weeds/sagittaria.webp",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2909673"
   },
   {
     "commonName": "Sago weed",
@@ -27697,7 +30320,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/sago-weed.webp"
+    "thumbnail": "images/weeds/sago-weed.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/b7b8ae67-3aed-46ae-b9e3-9adad900c7f2/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/b7b8ae67-3aed-46ae-b9e3-9adad900c7f2/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2918561"
   },
   {
     "commonName": "Salvinia",
@@ -27729,7 +30355,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/salvinia.webp"
+    "thumbnail": "images/weeds/salvinia.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/5e6726f9-0c0d-482a-b095-779136bf5da1/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/5e6726f9-0c0d-482a-b095-779136bf5da1/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2906788"
   },
   {
     "commonName": "Sand brome",
@@ -27759,7 +30388,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/sand-brome.webp"
+    "thumbnail": "images/weeds/sand-brome.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/e6e71dc7-b7b3-4fac-9771-13511e9ff89f/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/e6e71dc7-b7b3-4fac-9771-13511e9ff89f/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2912583"
   },
   {
     "commonName": "Sap-sucking Insects",
@@ -27770,7 +30402,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Sap-sucking%20Insects%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Sap-sucking%20Insects%20weed%20Australia",
+    "scientificName": "Haematopinus eurysternus",
+    "family": "HAEMATOPINIDAE",
+    "alaUrl": "https://bie.ala.org.au/species/https://biodiversity.org.au/afd/taxa/194756e7-91a0-4be9-999f-ec07fc460dfc"
   },
   {
     "commonName": "Satinleaf",
@@ -27867,7 +30502,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/scarlet-pimpernel.webp"
+    "thumbnail": "images/weeds/scarlet-pimpernel.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/1dd7ac3d-47fc-4ba5-8744-648293a66c33/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/1dd7ac3d-47fc-4ba5-8744-648293a66c33/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2894215"
   },
   {
     "commonName": "Scotch broom",
@@ -27892,7 +30530,10 @@ window.weedsRegistry = [
     "floweringPeriod": "October to December.",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Scotch+broom+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/scotch-broom.webp"
+    "thumbnail": "images/weeds/scotch-broom.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/7d4aca58-1586-4b93-b2bc-8ae6ef2bd9ef/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/7d4aca58-1586-4b93-b2bc-8ae6ef2bd9ef/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/7016661"
   },
   {
     "commonName": "Scotch thistle",
@@ -27958,7 +30599,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/scotch-thistle.webp"
+    "thumbnail": "images/weeds/scotch-thistle.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/7d4aca58-1586-4b93-b2bc-8ae6ef2bd9ef/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/7d4aca58-1586-4b93-b2bc-8ae6ef2bd9ef/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/7016661"
   },
   {
     "commonName": "Scrub nettle",
@@ -27988,7 +30632,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/scrub-nettle.webp"
+    "thumbnail": "images/weeds/scrub-nettle.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/b10cf612-740f-4430-8e68-735c78a80879/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/b10cf612-740f-4430-8e68-735c78a80879/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2920322"
   },
   {
     "commonName": "Sedges",
@@ -27999,7 +30646,9 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Sedges%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Sedges%20weed%20Australia",
+    "scientificName": "Caladenia sp. 'sedges'",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/name/apni/51695130"
   },
   {
     "commonName": "Seed Treatment",
@@ -28032,7 +30681,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring - Autumn",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Senegal+tea+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/senegal-tea.webp"
+    "thumbnail": "images/weeds/senegal-tea.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/a2317117-8337-4180-89a0-227d70df8566/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a2317117-8337-4180-89a0-227d70df8566/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2910781"
   },
   {
     "commonName": "Sensitive plant",
@@ -28080,7 +30732,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/sensitive-plant.webp"
+    "thumbnail": "images/weeds/sensitive-plant.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/090654f1-1910-4285-b994-bdc043d8caf5/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/090654f1-1910-4285-b994-bdc043d8caf5/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2898267"
   },
   {
     "commonName": "Serrated tussock",
@@ -28120,7 +30775,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/serrated-tussock.webp"
+    "thumbnail": "images/weeds/serrated-tussock.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/a3707cc8-c02c-4810-b9a1-fb4249534487/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/a3707cc8-c02c-4810-b9a1-fb4249534487/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2900389"
   },
   {
     "commonName": "Sesbania",
@@ -28185,7 +30843,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/sesbania.webp"
+    "thumbnail": "images/weeds/sesbania.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/ccb574f8-e4f4-4863-aacd-22128e64d82a/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/ccb574f8-e4f4-4863-aacd-22128e64d82a/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2913648"
   },
   {
     "commonName": "Sessile joyweed",
@@ -28213,7 +30874,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring to autumn",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Alternanthera+sessilis+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/sessile-joyweed.webp"
+    "thumbnail": "images/weeds/sessile-joyweed.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/39efdb87-a8a6-4bbd-97f7-d57df374e975/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/39efdb87-a8a6-4bbd-97f7-d57df374e975/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2889740"
   },
   {
     "commonName": "Setaria Spp.",
@@ -28224,7 +30888,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Setaria%20Spp.%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Setaria%20Spp.%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/c33b7b37-528a-4132-afc5-c6fd8279279f/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/c33b7b37-528a-4132-afc5-c6fd8279279f/large",
+    "scientificName": "Setaria oplismenoides",
+    "family": "Poaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2888529"
   },
   {
     "commonName": "Shamrock",
@@ -28260,7 +30929,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/shamrock.webp"
+    "thumbnail": "images/weeds/shamrock.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/2e62a0a4-6e24-4de3-bda3-0705f2e1e2fb/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/2e62a0a4-6e24-4de3-bda3-0705f2e1e2fb/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2906593"
   },
   {
     "commonName": "Shepherd's purse",
@@ -28361,7 +31033,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/shepherd-s-purse.webp"
+    "thumbnail": "images/weeds/shepherd-s-purse.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/1ff96fd8-c8c6-4606-8376-99dcdb23c3b1/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/1ff96fd8-c8c6-4606-8376-99dcdb23c3b1/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51751428"
   },
   {
     "commonName": "Shepherds Purse",
@@ -28377,7 +31052,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Shepherds%20Purse%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Shepherds%20Purse%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/9c5e2235-75b7-4dfa-b31b-82e77fe8e4d2/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/9c5e2235-75b7-4dfa-b31b-82e77fe8e4d2/large",
+    "scientificName": "Scandix pecten-veneris",
+    "family": "Apiaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2920602"
   },
   {
     "commonName": "Shoebutton ardisia",
@@ -28407,7 +31087,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Berry Winter-Spring",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Shoebutton+ardisia+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/shoebutton-ardisia.webp"
+    "thumbnail": "images/weeds/shoebutton-ardisia.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/89f5690c-2edb-4470-9da0-6f6e25f34f53/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/89f5690c-2edb-4470-9da0-6f6e25f34f53/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2911516"
   },
   {
     "commonName": "Shrubby stylo",
@@ -28426,7 +31109,10 @@ window.weedsRegistry = [
     "floweringPeriod": "",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Shrubby+stylo+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/shrubby-stylo.webp"
+    "thumbnail": "images/weeds/shrubby-stylo.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/f99dea9f-39ce-4453-b276-42c9c6cd3e99/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f99dea9f-39ce-4453-b276-42c9c6cd3e99/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2887654"
   },
   {
     "commonName": "Siam weed",
@@ -28481,7 +31167,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/siam-weed.webp"
+    "thumbnail": "images/weeds/siam-weed.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/01025ef4-105b-4ddc-ac98-1eb4d816abf2/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/01025ef4-105b-4ddc-ac98-1eb4d816abf2/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2910579"
   },
   {
     "commonName": "Sicklebush",
@@ -28556,7 +31245,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/sicklepod.webp"
+    "thumbnail": "images/weeds/sicklepod.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/8536413f-b9db-4ca9-9576-39da9afc8e1f/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/8536413f-b9db-4ca9-9576-39da9afc8e1f/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2915623"
   },
   {
     "commonName": "Sicklethorn",
@@ -28642,7 +31334,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/sida.webp"
+    "thumbnail": "images/weeds/sida.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/4996567a-6b3a-486f-8951-f5bef068bbf7/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/4996567a-6b3a-486f-8951-f5bef068bbf7/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2896490"
   },
   {
     "commonName": "Sida retusa",
@@ -28666,7 +31361,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/sida-retusa.webp"
+    "thumbnail": "images/weeds/sida-retusa.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/f0d4057c-c920-4789-88e5-314244f83c33/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f0d4057c-c920-4789-88e5-314244f83c33/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51285750"
   },
   {
     "commonName": "Sida-Retusa",
@@ -28678,7 +31376,9 @@ window.weedsRegistry = [
       }
     ],
     "thumbnail": "images/weeds/sida-retusa.webp",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Sida-Retusa%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Sida-Retusa%20weed%20Australia",
+    "scientificName": "Sida retusa",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/instance/apni/950331"
   },
   {
     "commonName": "Sifton bush",
@@ -28716,7 +31416,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/sifton-bush.webp"
+    "thumbnail": "images/weeds/sifton-bush.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/b3cd07d3-2548-4f5c-a1e9-fca96af06e0f/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/b3cd07d3-2548-4f5c-a1e9-fca96af06e0f/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51431815"
   },
   {
     "commonName": "Sifton Bush/Chinese Scrub",
@@ -28727,7 +31430,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Sifton%20Bush%2FChinese%20Scrub%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Sifton%20Bush%2FChinese%20Scrub%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/b3cd07d3-2548-4f5c-a1e9-fca96af06e0f/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/b3cd07d3-2548-4f5c-a1e9-fca96af06e0f/large",
+    "scientificName": "Cassinia sifton",
+    "family": "Asteraceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51431815"
   },
   {
     "commonName": "Signal grass",
@@ -28757,7 +31465,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Late Spring-early Summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Signal+grass+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/signal-grass.webp"
+    "thumbnail": "images/weeds/signal-grass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/ae2b337f-89d6-4f8f-98b9-05a44d5d8bba/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/ae2b337f-89d6-4f8f-98b9-05a44d5d8bba/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2913548"
   },
   {
     "commonName": "Silver grass",
@@ -28855,7 +31566,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/silver-grass.webp"
+    "thumbnail": "images/weeds/silver-grass.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/ec8525c1-d8bd-4fe5-b7ff-03b11a928945/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/ec8525c1-d8bd-4fe5-b7ff-03b11a928945/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2918032"
   },
   {
     "commonName": "Silver leaved ironbark",
@@ -28886,7 +31600,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/silver-leaved-ironbark.webp"
+    "thumbnail": "images/weeds/silver-leaved-ironbark.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/fc56c3b4-39d1-4d92-a4b5-997d9a9241ce/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/fc56c3b4-39d1-4d92-a4b5-997d9a9241ce/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2916605"
   },
   {
     "commonName": "Silver wattle",
@@ -28918,7 +31635,10 @@ window.weedsRegistry = [
         "crops": []
       }
     ],
-    "thumbnail": "images/weeds/silver-wattle.webp"
+    "thumbnail": "images/weeds/silver-wattle.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/f0b87088-4539-4f19-a743-395ba73c48e9/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/f0b87088-4539-4f19-a743-395ba73c48e9/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51770587"
   },
   {
     "commonName": "Silver-leaved cotoneaster",
@@ -28947,7 +31667,10 @@ window.weedsRegistry = [
     "floweringPeriod": "Spring - Summer",
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Silver-leaved+cotoneaster+weed+australia",
     "linkedProducts": [],
-    "thumbnail": "images/weeds/silver-leaved-cotoneaster.webp"
+    "thumbnail": "images/weeds/silver-leaved-cotoneaster.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/2a0dcc59-cfe5-48af-9e4a-bffb74a25d93/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/2a0dcc59-cfe5-48af-9e4a-bffb74a25d93/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51782089"
   },
   {
     "commonName": "Silverleaf desmodium",
@@ -28988,7 +31711,10 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/silverleaf-desmodium.webp"
+    "thumbnail": "images/weeds/silverleaf-desmodium.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/2cde8f6f-7bca-437e-ae91-13b6e4b25706/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/2cde8f6f-7bca-437e-ae91-13b6e4b25706/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51436387"
   },
   {
     "commonName": "Silverleaf Ironbark",
@@ -28999,7 +31725,12 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Silverleaf%20Ironbark%20weed%20Australia"
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Silverleaf%20Ironbark%20weed%20Australia",
+    "alaThumbnail": "https://images.ala.org.au/image/b3c7fc3e-d578-41d2-984c-5469cdc16e1f/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/b3c7fc3e-d578-41d2-984c-5469cdc16e1f/large",
+    "scientificName": "Eucalyptus panda",
+    "family": "Myrtaceae",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/taxon/apni/51289978"
   },
   {
     "commonName": "Silverleaf nightshade",
@@ -29061,7 +31792,10 @@ window.weedsRegistry = [
         ]
       }
     ],
-    "thumbnail": "images/weeds/silverleaf-nightshade.webp"
+    "thumbnail": "images/weeds/silverleaf-nightshade.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/fd0fd095-f609-49ef-bfe9-3c2df513dca1/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/fd0fd095-f609-49ef-bfe9-3c2df513dca1/large",
+    "alaUrl": "https://bie.ala.org.au/species/https://id.biodiversity.org.au/node/apni/2904704"
   },
   {
     "commonName": "Singapore daisy",
@@ -29108,9671 +31842,7 @@ window.weedsRegistry = [
         "source": "label"
       }
     ],
-    "thumbnail": "images/weeds/singapore-daisy.webp"
-  },
-  {
-    "commonName": "Siratro",
-    "scientificName": "Macroptilium atropurpureum",
-    "synonyms": [
-      "Siratro",
-      "Cowpea",
-      "Macroptilium",
-      "Phasey bean",
-      "Purple bean",
-      "Purple bushbean"
-    ],
-    "family": "Fabaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Purple"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Cut stump method",
-      "Foliar spray"
-    ],
-    "floweringPeriod": "Spring-Autumn",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Siratro+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "basta",
-        "productName": "BASF Basta® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "biffo",
-        "productName": "Nufarm Biffo®",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/siratro.webp"
-  },
-  {
-    "commonName": "Sisymbrium orientale",
-    "linkedProducts": [
-      {
-        "productId": "infinityultra",
-        "productName": "Bayer Infinity® Ultra Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Sisymbrium%20orientale%20weed%20Australia"
-  },
-  {
-    "commonName": "Size and Colour Enhancement in Cherries",
-    "linkedProducts": [
-      {
-        "productId": "valentprogibb",
-        "productName": "ProGibb LV Plus Plant Growth Regulator",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Size%20and%20Colour%20Enhancement%20in%20Cherries%20weed%20Australia"
-  },
-  {
-    "commonName": "Skeleton weed",
-    "scientificName": "Chondrilla juncea",
-    "synonyms": [
-      "Skeleton weed"
-    ],
-    "family": "Asteraceae",
-    "leafArrangement": "Basal",
-    "flowerColors": [
-      "Yellow"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray"
-    ],
-    "floweringPeriod": "Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Skeleton+weed+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "cortevalontreladvanced",
-        "productName": "Corteva Lontrel Advanced Herbicide",
-        "crops": []
-      },
-      {
-        "productId": "crucial",
-        "productName": "Nufarm CRUCIAL®",
-        "crops": []
-      },
-      {
-        "productId": "mcpa",
-        "productName": "Nufarm MCPA Amine 750 Herbicide",
-        "crops": []
-      },
-      {
-        "productId": "nufarmarcher750",
-        "productName": "Nufarm Archer® 750 Herbicide",
-        "crops": []
-      },
-      {
-        "productId": "nufarmmcpaamine750",
-        "productName": "Nufarm MCPA Amine 750 Herbicide",
-        "crops": []
-      },
-      {
-        "productId": "nufarmkamba750",
-        "productName": "Nufarm Kamba® 750 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "roundup_ultramax",
-        "productName": "Bayer Roundup® UltraMAX Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "associate",
-        "productName": "Nufarm Associate®",
-        "source": "label"
-      },
-      {
-        "productId": "dropzone",
-        "productName": "Nufarm DROPZONE® 640 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "weedmaster_dst",
-        "productName": "Nufarm Weedmaster® DST® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "adamapriority",
-        "productName": "Adama Priority® Herbicide",
-        "source": "label",
-        "crops": [
-          "Wheat",
-          "Barley",
-          "Triticale",
-          "Oats",
-          "Ryegrass Pastures",
-          "Fallow"
-        ]
-      }
-    ],
-    "thumbnail": "images/weeds/skeleton-weed.webp"
-  },
-  {
-    "commonName": "Slash pine",
-    "scientificName": "Pinus elliottii",
-    "synonyms": [
-      "Slash pine",
-      "Florida pine",
-      "Long-leaf pitch pine",
-      "Pine",
-      "Plantation pine",
-      "Yellow pine"
-    ],
-    "family": "Pinaceae",
-    "leafArrangement": "Whorled",
-    "flowerColors": [],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Complete removal"
-    ],
-    "floweringPeriod": "",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Slash+Pine+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/slash-pine.webp"
-  },
-  {
-    "commonName": "Slender",
-    "linkedProducts": [
-      {
-        "productId": "surefireamine625",
-        "productName": "Surefire Amine 625 Selective Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Slender%20weed%20Australia"
-  },
-  {
-    "commonName": "Slender celery",
-    "scientificName": "Cyclospermum leptophyllum",
-    "synonyms": [
-      "Slender celery",
-      "Marsh parsley"
-    ],
-    "family": "Apiaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "White"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide",
-      "Hand removal"
-    ],
-    "floweringPeriod": "Spring to Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Slender+Celery+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "adamapalmero750wg",
-        "productName": "Palmero 750 WG Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "associate",
-        "productName": "Nufarm Associate®",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/slender-celery.webp"
-  },
-  {
-    "commonName": "Slender ice-plant",
-    "scientificName": "Mesembryanthemum nodiflorum",
-    "synonyms": [
-      "Slender ice plant",
-      "Small ice plant"
-    ],
-    "family": "Aizoaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "White"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide"
-    ],
-    "floweringPeriod": "Spring to Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Slender+ice-plant+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "nufarmkamba750",
-        "productName": "Nufarm Kamba® 750 Herbicide",
-        "crops": []
-      }
-    ],
-    "thumbnail": "images/weeds/slender-ice-plant.webp"
-  },
-  {
-    "commonName": "Slender Rats Tail Grass — Established Stands",
-    "linkedProducts": [
-      {
-        "productId": "adamafirepower900",
-        "productName": "Adama Firepower 900",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Slender%20Rats%20Tail%20Grass%20%E2%80%94%20Established%20Stands%20weed%20Australia"
-  },
-  {
-    "commonName": "Slender thistle",
-    "scientificName": "Carduus tenuiflorus",
-    "synonyms": [
-      "Slender thistle",
-      "Slender-flowered thistle",
-      "Shore thistle"
-    ],
-    "family": "Asteraceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Pink",
-      "Purple"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide",
-      "Hand removal",
-      "Slashing"
-    ],
-    "floweringPeriod": "Spring to Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Slender+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "nufarm24db500",
-        "productName": "Nufarm 2,4-DB 500 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "nufarmkamba750",
-        "productName": "Nufarm Kamba® 750 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "nufarmmcpaamine750",
-        "productName": "Nufarm MCPA Amine 750 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "surefireamine625",
-        "productName": "Surefire Amine 625 Selective Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "associate",
-        "productName": "Nufarm Associate®",
-        "source": "label"
-      },
-      {
-        "productId": "surefirebuffalo",
-        "productName": "Surefire Buffalo, Bindi & Broadleaf Weedkiller",
-        "source": "label",
-        "crops": [
-          "Wheat",
-          "Barley",
-          "Cereal Rye",
-          "Oats",
-          "Triticale",
-          "Linseed",
-          "Grass Pastures"
-        ]
-      }
-    ],
-    "thumbnail": "images/weeds/slender-thistle.webp"
-  },
-  {
-    "commonName": "Slender Thistles",
-    "linkedProducts": [
-      {
-        "productId": "associate",
-        "productName": "Nufarm Associate®",
-        "source": "label"
-      },
-      {
-        "productId": "surefirebuffalo",
-        "productName": "Surefire Buffalo, Bindi & Broadleaf Weedkiller",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Slender%20Thistles%20weed%20Australia"
-  },
-  {
-    "commonName": "Slim amaranth",
-    "scientificName": "Amaranthus hybridus",
-    "synonyms": [
-      "Slim amaranth",
-      "Green amaranth",
-      "Smooth pigweed"
-    ],
-    "family": "Amaranthaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Green"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide",
-      "Cultivation"
-    ],
-    "floweringPeriod": "Summer to Autumn",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Slim+Amaranth+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "dualgold",
-        "productName": "Dual Gold® Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/slim-amaranth.webp"
-  },
-  {
-    "commonName": "Small burr grass",
-    "scientificName": "Tragus australianus",
-    "synonyms": [
-      "Small burr grass"
-    ],
-    "family": "Poaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Green"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide",
-      "Cultivation"
-    ],
-    "floweringPeriod": "Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Small+Burr+Grass+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "stomp_xtra",
-        "productName": "STOMP® XTRA",
-        "source": "label"
-      },
-      {
-        "productId": "weedmaster_dst",
-        "productName": "Nufarm Weedmaster® DST® Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/small-burr-grass.webp"
-  },
-  {
-    "commonName": "Small Flowered Mallow",
-    "linkedProducts": [
-      {
-        "productId": "striker",
-        "productName": "Nufarm Striker® Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/small-flowered-mallow.webp",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Small%20Flowered%20Mallow%20weed%20Australia"
-  },
-  {
-    "commonName": "Small leaved privet",
-    "scientificName": "Ligustrum sinense",
-    "synonyms": [
-      "Small leaved privet",
-      "Chinese privet",
-      "Chinese liguster",
-      "Chinese ligustrum",
-      "Hedge privet",
-      "Ligustrum",
-      "Narrow-leaf privet",
-      "Narrowleaf privet",
-      "Small-leaf privet"
-    ],
-    "family": "Oleaceae",
-    "leafArrangement": "Opposite",
-    "flowerColors": [
-      "White",
-      "Cream"
-    ],
-    "foliageColors": [
-      "Green",
-      "Discoloured"
-    ],
-    "controlMethods": [
-      "Cut stump method",
-      "Basal bark treatment",
-      "Stem injection"
-    ],
-    "floweringPeriod": "Spring - Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Small+leaved+privet+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/small-leaved-privet.webp"
-  },
-  {
-    "commonName": "Small-flowered mallow",
-    "scientificName": "Malva parviflora",
-    "synonyms": [
-      "Marshmallow"
-    ],
-    "family": "Malvaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Pink",
-      "White"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide",
-      "Hand removal"
-    ],
-    "floweringPeriod": "Spring to Autumn",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Small+flowered+mallow+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "crucial",
-        "productName": "Nufarm CRUCIAL®",
-        "crops": []
-      },
-      {
-        "productId": "nufarmarcher750",
-        "productName": "Nufarm Archer® 750 Herbicide",
-        "crops": []
-      },
-      {
-        "productId": "spray_seed",
-        "productName": "Syngenta SPRAY.SEED® 250 Herbicide",
-        "crops": []
-      },
-      {
-        "productId": "infinityultra",
-        "productName": "Bayer Infinity® Ultra Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "nufarm24db500",
-        "productName": "Nufarm 2,4-DB 500 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "striker",
-        "productName": "Nufarm Striker® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "terrador",
-        "productName": "Nufarm Terrad'or® 700 WG",
-        "source": "label"
-      },
-      {
-        "productId": "weedmaster_dst",
-        "productName": "Nufarm Weedmaster® DST® Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/small-flowered-mallow.webp"
-  },
-  {
-    "commonName": "Smallflower fumitory",
-    "scientificName": "Fumaria parviflora",
-    "synonyms": [
-      "Small-flowered fumitory",
-      "Fine-leaf fumitory"
-    ],
-    "family": "Papaveraceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "White",
-      "Pink"
-    ],
-    "foliageColors": [
-      "Green",
-      "Grey-green"
-    ],
-    "controlMethods": [
-      "Selective herbicide",
-      "Cultivation"
-    ],
-    "floweringPeriod": "Winter to Spring",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Smallflower+fumitory+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "associate",
-        "productName": "Nufarm Associate®",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/smallflower-fumitory.webp"
-  },
-  {
-    "commonName": "Smartweed",
-    "scientificName": "Persicaria lapathifolia",
-    "synonyms": [
-      "Pale knotweed"
-    ],
-    "family": "Polygonaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Pink",
-      "White"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray",
-      "Complete removal"
-    ],
-    "floweringPeriod": "Summer - Autumn",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Smartweed+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "kamba_m",
-        "productName": "Nufarm Kamba® M",
-        "crops": []
-      },
-      {
-        "productId": "nufarmkamba750",
-        "productName": "Nufarm Kamba® 750 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "raizon",
-        "productName": "SUREFIRE RAIZON HERBICIDE RLP",
-        "source": "label"
-      },
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label",
-        "crops": [
-          "Pasture",
-          "Forestry",
-          "Non-crop"
-        ]
-      }
-    ],
-    "thumbnail": "images/weeds/smartweed.webp"
-  },
-  {
-    "commonName": "Smooth cucumber",
-    "scientificName": "Cucumis melo",
-    "synonyms": [
-      "Smooth melon",
-      "Camel melon",
-      "Cucumber melon",
-      "Paddy melon",
-      "Gooseberry cucumber"
-    ],
-    "family": "Cucurbitaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Yellow"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide",
-      "Cultivation"
-    ],
-    "floweringPeriod": "Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Smooth+Cucumber+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "spray_seed",
-        "productName": "Syngenta SPRAY.SEED® 250 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "conqueror",
-        "productName": "Nufarm Conqueror® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "grazon_extra",
-        "productName": "Corteva Grazon® Extra Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "basta",
-        "productName": "BASF Basta® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "biffo",
-        "productName": "Nufarm Biffo®",
-        "source": "label"
-      },
-      {
-        "productId": "raizon",
-        "productName": "SUREFIRE RAIZON HERBICIDE RLP",
-        "source": "label"
-      },
-      {
-        "productId": "stomp_xtra",
-        "productName": "STOMP® XTRA",
-        "source": "label"
-      },
-      {
-        "productId": "uplfascinate",
-        "productName": "Fascinate Dry Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/smooth-cucumber.webp"
-  },
-  {
-    "commonName": "Smooth tree pear",
-    "scientificName": "Opuntia monacantha",
-    "synonyms": [
-      "Smooth tree pear",
-      "Drooping tree pear"
-    ],
-    "family": "Cactaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Yellow"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Biological control",
-      "Cut stump method",
-      "Herbicide injection"
-    ],
-    "floweringPeriod": "Spring to Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Smooth+tree+pear+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "conqueror",
-        "productName": "Nufarm Conqueror® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "grazon_extra",
-        "productName": "Corteva Grazon® Extra Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/smooth-tree-pear.webp"
-  },
-  {
-    "commonName": "Snake cactus",
-    "scientificName": "Cylindropuntia spinosior",
-    "synonyms": [
-      "Cane cholla",
-      "Spiny cholla",
-      "Walking stick cactus"
-    ],
-    "family": "Cactaceae",
-    "leafArrangement": "Whorled",
-    "flowerColors": [
-      "Purple"
-    ],
-    "foliageColors": [
-      "White"
-    ],
-    "controlMethods": [
-      "Selective herbicide"
-    ],
-    "floweringPeriod": "Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Snake+cactus+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/snake-cactus.webp"
-  },
-  {
-    "commonName": "Soap pod wattle",
-    "scientificName": "Senegalia polyacantha",
-    "synonyms": [
-      "White-stemmed thorn",
-      "Falcon's claw wattle"
-    ],
-    "family": "Fabaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "White",
-      "Cream"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Complete removal",
-      "Cut stump",
-      "Foliar spray"
-    ],
-    "floweringPeriod": "Spring to summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Senegalia+polyacantha+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/soap-pod-wattle.webp"
-  },
-  {
-    "commonName": "Soft brome",
-    "scientificName": "Bromus hordeaceus",
-    "synonyms": [
-      "Soft brome",
-      "Soft chess"
-    ],
-    "family": "Poaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Green",
-      "Brown"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide",
-      "Cultivation"
-    ],
-    "floweringPeriod": "Spring",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Soft+Brome+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "kelpieazine900",
-        "productName": "Kelpie A-Zine 900 Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/soft-brome.webp"
-  },
-  {
-    "commonName": "Soft roly-poly",
-    "scientificName": "Salsola australis",
-    "synonyms": [
-      "Roly poly",
-      "Soft roly poly",
-      "Buckbush",
-      "Tumbleweed"
-    ],
-    "family": "Chenopodiaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Green",
-      "Pink"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide",
-      "Cultivation"
-    ],
-    "floweringPeriod": "Summer to Autumn",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Soft+Roly+Poly+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "spray_seed",
-        "productName": "Syngenta SPRAY.SEED® 250 Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/soft-roly-poly.webp"
-  },
-  {
-    "commonName": "Soldier thistle",
-    "scientificName": "Picnomon acarna",
-    "synonyms": [
-      "Soldier thistle"
-    ],
-    "family": "Asteraceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Pink",
-      "Purple"
-    ],
-    "foliageColors": [
-      "Green",
-      "Grey-green"
-    ],
-    "controlMethods": [
-      "Selective herbicide",
-      "Hand removal"
-    ],
-    "floweringPeriod": "Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Soldier+thistle+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "cortevalontreladvanced",
-        "productName": "Corteva Lontrel Advanced Herbicide",
-        "crops": []
-      },
-      {
-        "productId": "crucial",
-        "productName": "Nufarm CRUCIAL®",
-        "crops": []
-      },
-      {
-        "productId": "kamba_m",
-        "productName": "Nufarm Kamba® M",
-        "crops": []
-      },
-      {
-        "productId": "nufarmarcher750",
-        "productName": "Nufarm Archer® 750 Herbicide",
-        "crops": []
-      },
-      {
-        "productId": "nufarmmcpaamine750",
-        "productName": "Nufarm MCPA Amine 750 Herbicide",
-        "crops": []
-      },
-      {
-        "productId": "nufarm24db500",
-        "productName": "Nufarm 2,4-DB 500 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "nufarmkamba750",
-        "productName": "Nufarm Kamba® 750 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "weedmaster_dst",
-        "productName": "Nufarm Weedmaster® DST® Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/soldier-thistle.webp"
-  },
-  {
-    "commonName": "Sonchus oleraceus",
-    "linkedProducts": [
-      {
-        "productId": "infinityultra",
-        "productName": "Bayer Infinity® Ultra Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Sonchus%20oleraceus%20weed%20Australia"
-  },
-  {
-    "commonName": "Sorrel",
-    "scientificName": "Acetosella vulgaris",
-    "synonyms": [
-      "Sheep sorrel",
-      "Red sorrel",
-      "Sorrell"
-    ],
-    "family": "Polygonaceae",
-    "leafArrangement": "Basal",
-    "flowerColors": [
-      "Red",
-      "Green"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray"
-    ],
-    "floweringPeriod": "Spring - Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Sorrel+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "crucial",
-        "productName": "Nufarm CRUCIAL®",
-        "crops": []
-      },
-      {
-        "productId": "nufarmarcher750",
-        "productName": "Nufarm Archer® 750 Herbicide",
-        "crops": []
-      },
-      {
-        "productId": "nufarmmcpaamine750",
-        "productName": "Nufarm MCPA Amine 750 Herbicide",
-        "crops": []
-      },
-      {
-        "productId": "adamadiuron900wg",
-        "productName": "Adama Diuron 900 WG",
-        "source": "label"
-      },
-      {
-        "productId": "kelpieazine900",
-        "productName": "Kelpie A-Zine 900 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "nufarmkamba750",
-        "productName": "Nufarm Kamba® 750 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "roundup_ultramax",
-        "productName": "Bayer Roundup® UltraMAX Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "striker",
-        "productName": "Nufarm Striker® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "surefireweedpro540",
-        "productName": "Surefire WeedPro 540 Bio Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "associate",
-        "productName": "Nufarm Associate®",
-        "source": "label"
-      },
-      {
-        "productId": "dropzone",
-        "productName": "Nufarm DROPZONE® 640 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "kamba_m",
-        "productName": "Nufarm Kamba® M",
-        "source": "label"
-      },
-      {
-        "productId": "sencor",
-        "productName": "Sencor 480 SC Selective Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "surefireglyphosate",
-        "productName": "Surefire Glyphosate 360 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "terrador",
-        "productName": "Nufarm Terrad'or® 700 WG",
-        "source": "label"
-      },
-      {
-        "productId": "weedmaster_dst",
-        "productName": "Nufarm Weedmaster® DST® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "weedmaster_duo",
-        "productName": "Nufarm weedmaster® DUO Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/sorrel.webp"
-  },
-  {
-    "commonName": "Sorrel Sub-Clover",
-    "linkedProducts": [
-      {
-        "productId": "surefireweedpro540",
-        "productName": "Surefire WeedPro 540 Bio Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Sorrel%20Sub-Clover%20weed%20Australia"
-  },
-  {
-    "commonName": "Sourgrass",
-    "scientificName": "Paspalum conjugatum",
-    "synonyms": [
-      "Sourgrass",
-      "Buffalo grass",
-      "Cow grass",
-      "Hilo grass",
-      "Johnston River grass",
-      "Paspalum grass"
-    ],
-    "family": "Poaceae",
-    "leafArrangement": "Basal",
-    "flowerColors": [
-      "Green"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray",
-      "Complete removal",
-      "Slashing and mowing",
-      "Wick wipe"
-    ],
-    "floweringPeriod": "Spring- Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Sourgrass+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "adamauraganwg",
-        "productName": "Uragan WG Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/sourgrass.webp"
-  },
-  {
-    "commonName": "Soursob",
-    "scientificName": "Oxalis pes-caprae",
-    "synonyms": [
-      "Bermuda buttercup",
-      "African wood sorrel",
-      "Soursop",
-      "Buttercup oxalis",
-      "Cape cowslip",
-      "Cape sorrel"
-    ],
-    "family": "Oxalidaceae",
-    "leafArrangement": "Basal",
-    "flowerColors": [
-      "Yellow"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide",
-      "Hand removal"
-    ],
-    "floweringPeriod": "Winter to Spring",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Soursob+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "crucial",
-        "productName": "Nufarm CRUCIAL®",
-        "crops": []
-      },
-      {
-        "productId": "roundup_ultramax",
-        "productName": "Bayer Roundup® UltraMAX Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "surefireweedpro540",
-        "productName": "Surefire WeedPro 540 Bio Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "associate",
-        "productName": "Nufarm Associate®",
-        "source": "label"
-      },
-      {
-        "productId": "surefireglyphosate",
-        "productName": "Surefire Glyphosate 360 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "weedmaster_dst",
-        "productName": "Nufarm Weedmaster® DST® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "weedmaster_duo",
-        "productName": "Nufarm weedmaster® DUO Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/soursob.webp"
-  },
-  {
-    "commonName": "South african pigeon grass",
-    "scientificName": "Setaria sphacelata syn. Setaria anceps, Setaria splendida",
-    "synonyms": [
-      "African bristle grass",
-      "Canary seed grass",
-      "Common setaria",
-      "Golden bristle grass",
-      "Golden millet",
-      "Golden setaria",
-      "Golden Timothy",
-      "Kazungula setaria",
-      "Pigeon grass",
-      "Setaria",
-      "Rhodesian grass",
-      "African pigeon grass"
-    ],
-    "family": "Poaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Purple",
-      "Cream"
-    ],
-    "foliageColors": [
-      "Bluish-green",
-      "Green",
-      "Grey"
-    ],
-    "controlMethods": [
-      "Selective herbicide"
-    ],
-    "floweringPeriod": "Flowering time varies markedly with strain and area of origin.  &#039;Nandi&#039; begins flowering in December (early summer) in the subtropics of Australia, continuing through to April or May, with a peak of flowering in January.  &#039;Kazungula&#039; flowers about a month",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=South+African+pigeon+grass+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "basta",
-        "productName": "BASF Basta® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "biffo",
-        "productName": "Nufarm Biffo®",
-        "source": "label"
-      },
-      {
-        "productId": "kelpieazine900",
-        "productName": "Kelpie A-Zine 900 Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/south-african-pigeon-grass.webp"
-  },
-  {
-    "commonName": "Sowthistle",
-    "scientificName": "Pinus radiata only",
-    "synonyms": [
-      "Common sowthistle",
-      "Milk thistle",
-      "Sow thistle"
-    ],
-    "family": "Asteraceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Yellow"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide",
-      "Cultivation",
-      "Hand removal"
-    ],
-    "floweringPeriod": "Year-round",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Common+sow+thistle+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "adamapalmero750wg",
-        "productName": "Palmero 750 WG Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "basta",
-        "productName": "BASF Basta® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "biffo",
-        "productName": "Nufarm Biffo®",
-        "source": "label"
-      },
-      {
-        "productId": "nufarm24db500",
-        "productName": "Nufarm 2,4-DB 500 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "pendimethalin",
-        "productName": "Nufarm Pendimethalin 440 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "sencor",
-        "productName": "Sencor 480 SC Selective Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "spray_seed",
-        "productName": "Syngenta SPRAY.SEED® 250 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "stomp_xtra",
-        "productName": "STOMP® XTRA",
-        "source": "label"
-      },
-      {
-        "productId": "striker",
-        "productName": "Nufarm Striker® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "surefireweedpro540",
-        "productName": "Surefire WeedPro 540 Bio Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "terrain",
-        "productName": "Nufarm Terrain Flow Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "adamadiuron900wg",
-        "productName": "Adama Diuron 900 WG",
-        "source": "label"
-      },
-      {
-        "productId": "crucial",
-        "productName": "Nufarm CRUCIAL®",
-        "source": "label"
-      },
-      {
-        "productId": "dropzone",
-        "productName": "Nufarm DROPZONE® 640 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "nufarmarcher750",
-        "productName": "Nufarm Archer® 750 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "nufarmkamba750",
-        "productName": "Nufarm Kamba® 750 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "nufarmsentry",
-        "productName": "Nufarm Sentry Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "surefireglyphosate",
-        "productName": "Surefire Glyphosate 360 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "terrador",
-        "productName": "Nufarm Terrad'or® 700 WG",
-        "source": "label"
-      },
-      {
-        "productId": "weedmaster_dst",
-        "productName": "Nufarm Weedmaster® DST® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "surefirebuffalo",
-        "productName": "Surefire Buffalo, Bindi & Broadleaf Weedkiller",
-        "source": "label",
-        "crops": [
-          "Wheat",
-          "Barley",
-          "Oats",
-          "Cereal Rye",
-          "Triticale"
-        ]
-      },
-      {
-        "productId": "adamapriority",
-        "productName": "Adama Priority® Herbicide",
-        "source": "label",
-        "crops": [
-          "Wheat",
-          "Barley",
-          "Triticale",
-          "Oats",
-          "Ryegrass Pastures",
-          "Fallow"
-        ]
-      }
-    ],
-    "thumbnail": "images/weeds/sowthistle.webp"
-  },
-  {
-    "commonName": "Spear Or Variegated Thistles*",
-    "linkedProducts": [
-      {
-        "productId": "surefireamine625",
-        "productName": "Surefire Amine 625 Selective Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Spear%20Or%20Variegated%20Thistles*%20weed%20Australia"
-  },
-  {
-    "commonName": "Spear thistle",
-    "scientificName": "Cirsium vulgare",
-    "synonyms": [
-      "Bank thistle",
-      "Bird thistle",
-      "Black thistle",
-      "Blue thistle",
-      "Boar thistle",
-      "Bull thistle",
-      "Bur thistle",
-      "Button thistle",
-      "Common bull thistle",
-      "Fuller's thistle",
-      "Green thistle",
-      "Plume thistle",
-      "Roadside thistle",
-      "Scotch thistle",
-      "Sheep thistle"
-    ],
-    "family": "Asteraceae",
-    "leafArrangement": "Basal",
-    "flowerColors": [
-      "Purple"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray"
-    ],
-    "floweringPeriod": "Year round",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Spear+thistle+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "crucial",
-        "productName": "Nufarm CRUCIAL®",
-        "crops": []
-      },
-      {
-        "productId": "grazon_extra",
-        "productName": "Corteva Grazon® Extra Herbicide",
-        "crops": []
-      },
-      {
-        "productId": "adamapalmero750wg",
-        "productName": "Palmero 750 WG Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "campbelllonhro100wg",
-        "productName": "Campbell Lonhro® 100 WG Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "nufarm24db500",
-        "productName": "Nufarm 2,4-DB 500 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "nufarmkamba750",
-        "productName": "Nufarm Kamba® 750 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "nufarmmcpaamine750",
-        "productName": "Nufarm MCPA Amine 750 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "roundup_ultramax",
-        "productName": "Bayer Roundup® UltraMAX Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "striker",
-        "productName": "Nufarm Striker® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "surefireamine625",
-        "productName": "Surefire Amine 625 Selective Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "surefireglyphosate",
-        "productName": "Surefire Glyphosate 360 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "surefireweedpro540",
-        "productName": "Surefire WeedPro 540 Bio Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "biffo",
-        "productName": "Nufarm Biffo®",
-        "source": "label"
-      },
-      {
-        "productId": "basta",
-        "productName": "BASF Basta® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "dropzone",
-        "productName": "Nufarm DROPZONE® 640 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "nufarmsentry",
-        "productName": "Nufarm Sentry Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "weedmaster_dst",
-        "productName": "Nufarm Weedmaster® DST® Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/spear-thistle.webp"
-  },
-  {
-    "commonName": "Speedwell",
-    "scientificName": "Veronica spp.",
-    "synonyms": [
-      "Speedwell"
-    ],
-    "family": "Plantaginaceae",
-    "leafArrangement": "Opposite",
-    "flowerColors": [
-      "Blue",
-      "White"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray"
-    ],
-    "floweringPeriod": "Spring",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Speedwell+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/speedwell.webp"
-  },
-  {
-    "commonName": "Speedy weed",
-    "scientificName": "Flaveria australasica",
-    "synonyms": [
-      "Speedy weed"
-    ],
-    "family": "Asteraceae",
-    "leafArrangement": "Opposite",
-    "flowerColors": [
-      "Yellow"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide",
-      "Cultivation"
-    ],
-    "floweringPeriod": "Summer to Autumn",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Speedy+Weed+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "spray_seed",
-        "productName": "Syngenta SPRAY.SEED® 250 Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/speedy_weed.webp"
-  },
-  {
-    "commonName": "Spider flower",
-    "scientificName": "Cleome spp.",
-    "synonyms": [
-      "Spider Weed"
-    ],
-    "family": "Cleomaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "White",
-      "Pink",
-      "Purple",
-      "Yellow"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray",
-      "Complete removal"
-    ],
-    "floweringPeriod": "Generally summer and warmer months. Capable of flowering 70 to 80 days after seed germination.",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Spider+Flower+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/spider-flower.webp"
-  },
-  {
-    "commonName": "Spiked pepper",
-    "scientificName": "Piper aduncum",
-    "synonyms": [
-      "Bamboo piper",
-      "Cow's foot",
-      "False kava",
-      "False matico",
-      "Jointwood",
-      "Matico pepper",
-      "Stilt root piper"
-    ],
-    "family": "Piperaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "White"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide"
-    ],
-    "floweringPeriod": "Flowering and fruiting occurs throughout the year",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Spiked+pepper+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/spiked-pepper.webp"
-  },
-  {
-    "commonName": "Spineless caltrop",
-    "scientificName": "Tribulus micrococcus",
-    "synonyms": [
-      "Spineless caltrop",
-      "Yellow vine",
-      "Spineless puncture vine"
-    ],
-    "family": "Zygophyllaceae",
-    "leafArrangement": "Opposite",
-    "flowerColors": [
-      "Yellow"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide",
-      "Cultivation"
-    ],
-    "floweringPeriod": "Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Spineless+caltrop+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "crucial",
-        "productName": "Nufarm CRUCIAL®",
-        "crops": []
-      },
-      {
-        "productId": "basta",
-        "productName": "BASF Basta® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "biffo",
-        "productName": "Nufarm Biffo®",
-        "source": "label"
-      },
-      {
-        "productId": "cortevaubeniq",
-        "productName": "Ubeniq Rinskor Active Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "nufarmkamba750",
-        "productName": "Nufarm Kamba® 750 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "sencor",
-        "productName": "Sencor 480 SC Selective Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "weedmaster_dst",
-        "productName": "Nufarm Weedmaster® DST® Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/spineless_caltrop.webp"
-  },
-  {
-    "commonName": "Spiny amaranth",
-    "scientificName": "Amaranthus spinosus",
-    "synonyms": [
-      "Needle burr",
-      "Spiny pigweed",
-      "Thorny amaranth",
-      "Thorny pigweed"
-    ],
-    "family": "Amaranthaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Green"
-    ],
-    "foliageColors": [
-      "Variegated",
-      "Green",
-      "Discoloured"
-    ],
-    "controlMethods": [
-      "Foliar spray"
-    ],
-    "floweringPeriod": "year round",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Spiny+amaranth+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "dualgold",
-        "productName": "Dual Gold® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "sencor",
-        "productName": "Sencor 480 SC Selective Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "surefireamine625",
-        "productName": "Surefire Amine 625 Selective Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "dropzone",
-        "productName": "Nufarm DROPZONE® 640 Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/spiny-amaranth.webp"
-  },
-  {
-    "commonName": "Spiny burr grass",
-    "scientificName": "Cenchrus longispinus",
-    "synonyms": [
-      "Spiny burrgrass",
-      "Innocent weed"
-    ],
-    "family": "Poaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Green"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray",
-      "Complete removal"
-    ],
-    "floweringPeriod": "Summer - Autumn",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Spiny+burr+grass+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "crucial",
-        "productName": "Nufarm CRUCIAL®",
-        "crops": []
-      },
-      {
-        "productId": "roundup_ultramax",
-        "productName": "Bayer Roundup® UltraMAX Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "surefireglyphosate",
-        "productName": "Surefire Glyphosate 360 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "surefireweedpro540",
-        "productName": "Surefire WeedPro 540 Bio Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "weedmaster_dst",
-        "productName": "Nufarm Weedmaster® DST® Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/spiny-burr-grass.webp"
-  },
-  {
-    "commonName": "Spiny rush",
-    "scientificName": "Juncus acutus subsp. acutus",
-    "synonyms": [
-      "Spiny rush",
-      "Cultivation rush",
-      "Sharp pointed rush",
-      "Sharp rush",
-      "Sharp sea rush"
-    ],
-    "family": "Juncaceae",
-    "leafArrangement": "Basal",
-    "flowerColors": [
-      "Brown"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray",
-      "Complete removal"
-    ],
-    "floweringPeriod": "Year round",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Spiny+rush+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/spiny-rush.webp"
-  },
-  {
-    "commonName": "Spiny Spider Flower",
-    "linkedProducts": [
-      {
-        "productId": "kelpieazine900",
-        "productName": "Kelpie A-Zine 900 Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Spiny%20Spider%20Flower%20weed%20Australia"
-  },
-  {
-    "commonName": "Spinyhead sida",
-    "scientificName": "Sida acuta",
-    "synonyms": [
-      "Spinyhead sida",
-      "Common wireweed"
-    ],
-    "family": "Malvaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Yellow"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide",
-      "Cultivation"
-    ],
-    "floweringPeriod": "Summer to Autumn",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Spinyhead+sida+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "dropzone",
-        "productName": "Nufarm DROPZONE® 640 Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/spinyhead-sida.webp"
-  },
-  {
-    "commonName": "Sporobolus Species",
-    "linkedProducts": [
-      {
-        "productId": "gpflupropanategranular",
-        "productName": "GP Flupropanate Granular Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Sporobolus%20Species%20weed%20Australia"
-  },
-  {
-    "commonName": "Spotted medic",
-    "scientificName": "Medicago arabica",
-    "synonyms": [
-      "Spotted burr medic",
-      "Spotted medick"
-    ],
-    "family": "Fabaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Yellow"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide"
-    ],
-    "floweringPeriod": "Spring",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Spotted+Medic+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "stomp_xtra",
-        "productName": "STOMP® XTRA",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/spotted-medic.webp"
-  },
-  {
-    "commonName": "Spotted spurge",
-    "scientificName": "Euphorbia maculata",
-    "synonyms": [
-      "Caustic weed",
-      "Eyebane",
-      "Milk purslane",
-      "Milk spurge",
-      "Prostrate spotted spurge",
-      "Prostrate spurge",
-      "Red caustic-creeper",
-      "Spotted pursley",
-      "Spotted sandmat",
-      "Spotted mat-spurge",
-      "Spotted spurge",
-      "Spurge"
-    ],
-    "family": "Euphorbiaceae",
-    "leafArrangement": "Opposite",
-    "flowerColors": [
-      "Red",
-      "Green"
-    ],
-    "foliageColors": [
-      "Green",
-      "Discoloured"
-    ],
-    "controlMethods": [
-      "Foliar spray",
-      "Complete removal"
-    ],
-    "floweringPeriod": "Spring - Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Spotted+spurge+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/spotted-spurge.webp"
-  },
-  {
-    "commonName": "Spreading night phlox",
-    "scientificName": "Zaluzianskya divaricata",
-    "synonyms": [
-      "Night phlox"
-    ],
-    "family": "Scrophulariaceae",
-    "leafArrangement": "Opposite",
-    "flowerColors": [
-      "White"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide"
-    ],
-    "floweringPeriod": "Spring",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Spreading+night+phlox+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "nufarmsentry",
-        "productName": "Nufarm Sentry Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/spreading-night-phlox.webp"
-  },
-  {
-    "commonName": "Spring grass",
-    "scientificName": "Eriochloa pseudoacrotricha",
-    "synonyms": [
-      "Perennial cupgrass",
-      "Early spring grass"
-    ],
-    "family": "Poaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Green",
-      "Purple"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide",
-      "Cultivation"
-    ],
-    "floweringPeriod": "Spring",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Spring+Grass+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "kelpieazine900",
-        "productName": "Kelpie A-Zine 900 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "stomp_xtra",
-        "productName": "STOMP® XTRA",
-        "source": "label"
-      },
-      {
-        "productId": "weedmaster_dst",
-        "productName": "Nufarm Weedmaster® DST® Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/spring-grass.webp"
-  },
-  {
-    "commonName": "Spurges",
-    "scientificName": "Euphorbia spp.",
-    "synonyms": [
-      "Spurge",
-      "Milkweed"
-    ],
-    "family": "Euphorbiaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Green",
-      "Yellow"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide",
-      "Hand removal"
-    ],
-    "floweringPeriod": "Year-round",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Spurges+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "crucial",
-        "productName": "Nufarm CRUCIAL®",
-        "crops": []
-      },
-      {
-        "productId": "adamafarmozine900wg",
-        "productName": "Adama Farmozine 900 WG",
-        "source": "label"
-      },
-      {
-        "productId": "roundup_ultramax",
-        "productName": "Bayer Roundup® UltraMAX Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "surefireglyphosate",
-        "productName": "Surefire Glyphosate 360 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "surefireweedpro540",
-        "productName": "Surefire WeedPro 540 Bio Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "weedmaster_dst",
-        "productName": "Nufarm Weedmaster® DST® Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/spurges.webp"
-  },
-  {
-    "commonName": "St Barnaby's thistle",
-    "scientificName": "Centaurea solstitialis",
-    "synonyms": [
-      "Yellow star thistle",
-      "Hardhead thistle"
-    ],
-    "family": "Asteraceae",
-    "leafArrangement": "Rosette",
-    "flowerColors": [
-      "Yellow"
-    ],
-    "foliageColors": [
-      "Green",
-      "Grey-green"
-    ],
-    "controlMethods": [
-      "Selective herbicide",
-      "Hand removal"
-    ],
-    "floweringPeriod": "Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=St+Barnaby's+thistle+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "cortevalontreladvanced",
-        "productName": "Corteva Lontrel Advanced Herbicide",
-        "crops": []
-      },
-      {
-        "productId": "nufarmarcher750",
-        "productName": "Nufarm Archer® 750 Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/st-barnaby-s-thistle.webp"
-  },
-  {
-    "commonName": "St John's wort",
-    "scientificName": "Hypericum perforatum",
-    "synonyms": [
-      "Klamath weed",
-      "St. john's wort"
-    ],
-    "family": "Hypericaceae",
-    "leafArrangement": "Opposite",
-    "flowerColors": [
-      "Yellow"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide",
-      "Biological control",
-      "Hand removal"
-    ],
-    "floweringPeriod": "Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=St+John's+wort+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "grazon_extra",
-        "productName": "Corteva Grazon® Extra Herbicide",
-        "crops": []
-      },
-      {
-        "productId": "raizon",
-        "productName": "SUREFIRE RAIZON HERBICIDE RLP",
-        "crops": []
-      },
-      {
-        "productId": "surefireglyphosate",
-        "productName": "Surefire Glyphosate 360 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "conqueror",
-        "productName": "Nufarm Conqueror® Herbicide",
-        "crops": []
-      },
-      {
-        "productId": "associate",
-        "productName": "Nufarm Associate®",
-        "source": "label"
-      },
-      {
-        "productId": "weedmaster_dst",
-        "productName": "Nufarm Weedmaster® DST® Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/st-john-s-wort.webp"
-  },
-  {
-    "commonName": "St Johns Wort",
-    "linkedProducts": [
-      {
-        "productId": "surefireglyphosate",
-        "productName": "Surefire Glyphosate 360 Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=St%20Johns%20Wort%20weed%20Australia"
-  },
-  {
-    "commonName": "Stagger weed",
-    "scientificName": "Stachys arvensis",
-    "synonyms": [
-      "Stagger weed",
-      "Stagger bush"
-    ],
-    "family": "Lamiaceae",
-    "leafArrangement": "Opposite",
-    "flowerColors": [
-      "Pink",
-      "Purple"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide",
-      "Hand removal"
-    ],
-    "floweringPeriod": "Spring to Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Stagger+weed+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "nufarmkamba750",
-        "productName": "Nufarm Kamba® 750 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "piston250",
-        "productName": "Axichem Piston 250 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "spraytop",
-        "productName": "Adama Spraytop® 250 SL Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "stomp_xtra",
-        "productName": "STOMP® XTRA",
-        "source": "label"
-      },
-      {
-        "productId": "weedmaster_dst",
-        "productName": "Nufarm Weedmaster® DST® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "associate",
-        "productName": "Nufarm Associate®",
-        "source": "label"
-      },
-      {
-        "productId": "basta",
-        "productName": "BASF Basta® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "biffo",
-        "productName": "Nufarm Biffo®",
-        "source": "label"
-      },
-      {
-        "productId": "sencor",
-        "productName": "Sencor 480 SC Selective Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/stagger-weed.webp"
-  },
-  {
-    "commonName": "Star of bethlehem",
-    "scientificName": "Ipomoea quamoclit",
-    "synonyms": [
-      "Star of Bethlehem"
-    ],
-    "family": "Asparagaceae",
-    "leafArrangement": "Basal",
-    "flowerColors": [
-      "White"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide",
-      "Hand removal"
-    ],
-    "floweringPeriod": "Spring",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Cupid's+flower+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "dropzone",
-        "productName": "Nufarm DROPZONE® 640 Herbicide",
-        "crops": [
-          "Sugarcane"
-        ],
-        "source": "permit",
-        "permitNumber": "PER95827"
-      },
-      {
-        "productId": "surefireamine625",
-        "productName": "Surefire Amine 625 Selective Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "basta",
-        "productName": "BASF Basta® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "biffo",
-        "productName": "Nufarm Biffo®",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/star-of-bethlehem.webp"
-  },
-  {
-    "commonName": "Star thistle",
-    "scientificName": "Centaurea calcitrapa",
-    "synonyms": [
-      "Star thistle",
-      "Purple star thistle"
-    ],
-    "family": "Asteraceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Purple"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray",
-      "Complete removal"
-    ],
-    "floweringPeriod": "Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Star+thistle+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "dropzone",
-        "productName": "Nufarm DROPZONE® 640 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "nufarmkamba750",
-        "productName": "Nufarm Kamba® 750 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "nufarmarcher750",
-        "productName": "Nufarm Archer® 750 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "nufarmmcpaamine750",
-        "productName": "Nufarm MCPA Amine 750 Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/star-thistle.webp"
-  },
-  {
-    "commonName": "Starburr",
-    "scientificName": "Acanthospermum hispidum",
-    "synonyms": [
-      "Hispid starburr",
-      "Bristly starbur",
-      "Bristly star bur",
-      "Bristly star-bur",
-      "Bristly starburr",
-      "Goathead",
-      "Goat's head",
-      "Goat's-head",
-      "Hispid starrburr",
-      "Slingshot weed",
-      "Texas cockspur",
-      "Upright star burr",
-      "Star burr"
-    ],
-    "family": "Asteraceae",
-    "leafArrangement": "Opposite",
-    "flowerColors": [
-      "Yellow"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide",
-      "Cultivation"
-    ],
-    "floweringPeriod": "Summer to Autumn",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Starburr+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "dropzone",
-        "productName": "Nufarm DROPZONE® 640 Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/starburr.webp"
-  },
-  {
-    "commonName": "Starfruit",
-    "scientificName": "Damasonium minus",
-    "synonyms": [
-      "Starfruit",
-      "Star fruit"
-    ],
-    "family": "Alismataceae",
-    "leafArrangement": "Rosette",
-    "flowerColors": [
-      "White"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide"
-    ],
-    "floweringPeriod": "Spring to Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Starfruit+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "mcpa",
-        "productName": "Nufarm MCPA Amine 750 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "nufarmmcpaamine750",
-        "productName": "Nufarm MCPA Amine 750 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "cortevaubeniq",
-        "productName": "Ubeniq Rinskor Active Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/starfruit.webp"
-  },
-  {
-    "commonName": "Stemless thistle",
-    "scientificName": "Onopordum acaulon",
-    "synonyms": [
-      "Stemless thistle",
-      "Horse thistle"
-    ],
-    "family": "Asteraceae",
-    "leafArrangement": "Rosette",
-    "flowerColors": [
-      "Purple"
-    ],
-    "foliageColors": [
-      "Green",
-      "Grey-green"
-    ],
-    "controlMethods": [
-      "Selective herbicide",
-      "Hand removal"
-    ],
-    "floweringPeriod": "Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Stemless+thistle+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "nufarmkamba750",
-        "productName": "Nufarm Kamba® 750 Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/stemless-thistle.webp"
-  },
-  {
-    "commonName": "Stinging nettle",
-    "scientificName": "Urtica dioica",
-    "synonyms": [
-      "Stinging nettle",
-      "Common nettle"
-    ],
-    "family": "Urticaceae",
-    "leafArrangement": "Opposite",
-    "flowerColors": [
-      "Green"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide",
-      "Hand removal",
-      "Slashing"
-    ],
-    "floweringPeriod": "Spring to Autumn",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Stinging+Nettle+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "nufarm24db500",
-        "productName": "Nufarm 2,4-DB 500 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "sencor",
-        "productName": "Sencor 480 SC Selective Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "spray_seed",
-        "productName": "Syngenta SPRAY.SEED® 250 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "dualgold",
-        "productName": "Dual Gold® Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/stinging-nettle.webp"
-  },
-  {
-    "commonName": "Stinkgrass",
-    "scientificName": "Eragrostis cilianensis",
-    "synonyms": [
-      "Stink grass",
-      "Candy grass"
-    ],
-    "family": "Poaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Green",
-      "Brown"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide",
-      "Cultivation"
-    ],
-    "floweringPeriod": "Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Stink+Grass+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "crucial",
-        "productName": "Nufarm CRUCIAL®",
-        "crops": []
-      },
-      {
-        "productId": "fuzilierherbicide",
-        "productName": "Fuzilier Selective Herbicide",
-        "crops": []
-      },
-      {
-        "productId": "adamafirepower900",
-        "productName": "Adama Firepower 900",
-        "source": "label"
-      },
-      {
-        "productId": "basta",
-        "productName": "BASF Basta® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "biffo",
-        "productName": "Nufarm Biffo®",
-        "source": "label"
-      },
-      {
-        "productId": "dualgold",
-        "productName": "Dual Gold® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "roundup_ultramax",
-        "productName": "Bayer Roundup® UltraMAX Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "spray_seed",
-        "productName": "Syngenta SPRAY.SEED® 250 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "stomp_xtra",
-        "productName": "STOMP® XTRA",
-        "source": "label"
-      },
-      {
-        "productId": "weedmaster_dst",
-        "productName": "Nufarm Weedmaster® DST® Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/stinkgrass.webp"
-  },
-  {
-    "commonName": "Stinking goosefoot",
-    "scientificName": "Chenopodium vulvaria",
-    "synonyms": [
-      "Stinking goosefoot",
-      "Notchweed"
-    ],
-    "family": "Chenopodiaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Green"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide",
-      "Cultivation"
-    ],
-    "floweringPeriod": "Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Stinking+Goosefoot+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "crucial",
-        "productName": "Nufarm CRUCIAL®",
-        "crops": []
-      },
-      {
-        "productId": "roundup_ultramax",
-        "productName": "Bayer Roundup® UltraMAX Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "weedmaster_dst",
-        "productName": "Nufarm Weedmaster® DST® Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/stinking-goosefoot.webp"
-  },
-  {
-    "commonName": "Stinking mayweed",
-    "scientificName": "Anthemis cotula",
-    "synonyms": [
-      "Stinking chamomile",
-      "Dog fennel",
-      "Mayweed"
-    ],
-    "family": "Asteraceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "White"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide",
-      "Cultivation"
-    ],
-    "floweringPeriod": "Spring to Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Stinking+mayweed+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "nufarmkamba750",
-        "productName": "Nufarm Kamba® 750 Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/stinking-mayweed.webp"
-  },
-  {
-    "commonName": "Stinking passion vine",
-    "scientificName": "Passiflora foetida",
-    "synonyms": [
-      "Stinking passionflower",
-      "Wild passionfruit",
-      "Fetid passionflower",
-      "Fit-weed",
-      "Love in a mist",
-      "Mossy passion flower",
-      "Passionflower",
-      "Red fruit passionflower"
-    ],
-    "family": "Passifloraceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "White",
-      "Purple"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide",
-      "Foliar spray",
-      "Hand removal"
-    ],
-    "floweringPeriod": "Year-round",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Stinking+Passion+Vine+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "kelpieazine900",
-        "productName": "Kelpie A-Zine 900 Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/stinking-passion-vine.webp"
-  },
-  {
-    "commonName": "Stinking roger",
-    "scientificName": "Tagetes minuta",
-    "synonyms": [
-      "Stinking Roger",
-      "Aztec marigold",
-      "Chinchilla",
-      "Dwarf marigold",
-      "False marigold",
-      "Wild marigold",
-      "Khaki bush",
-      "Mexican marigold",
-      "Tagetes",
-      "Muster John Henry",
-      "Stinkweed"
-    ],
-    "family": "Asteraceae",
-    "leafArrangement": "Opposite",
-    "flowerColors": [
-      "White",
-      "Yellow"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray",
-      "Complete removal"
-    ],
-    "floweringPeriod": "Summer - Autumn",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Stinking+Roger+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "adamauraganwg",
-        "productName": "Uragan WG Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "kelpieazine900",
-        "productName": "Kelpie A-Zine 900 Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/stinking-roger.webp"
-  },
-  {
-    "commonName": "Stinkwort",
-    "scientificName": "Dittrichia graveolens",
-    "synonyms": [
-      "Stinking fleabane",
-      "Stinkweed",
-      "Camphor inula",
-      "Cape khakiweed"
-    ],
-    "family": "Asteraceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Yellow"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide",
-      "Hand removal"
-    ],
-    "floweringPeriod": "Autumn",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Stinkwort+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "nufarmmcpaamine750",
-        "productName": "Nufarm MCPA Amine 750 Herbicide",
-        "crops": []
-      },
-      {
-        "productId": "surefireamine625",
-        "productName": "Surefire Amine 625 Selective Herbicide",
-        "crops": []
-      },
-      {
-        "productId": "dropzone",
-        "productName": "Nufarm DROPZONE® 640 Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/stinkwort.webp"
-  },
-  {
-    "commonName": "Stork’S-Bill",
-    "linkedProducts": [
-      {
-        "productId": "terrador",
-        "productName": "Nufarm Terrad'or® 700 WG",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Stork%E2%80%99S-Bill%20weed%20Australia"
-  },
-  {
-    "commonName": "Streaked rattle pod",
-    "linkedProducts": [
-      {
-        "productId": "nufarmmcpaamine750",
-        "productName": "Nufarm MCPA Amine 750 Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Streaked%20rattle%20pod%20weed%20Australia"
-  },
-  {
-    "commonName": "Streaked rattlepod",
-    "scientificName": "Crotalaria pallida",
-    "synonyms": [
-      "Streaked rattlepod",
-      "Smooth rattlepod"
-    ],
-    "family": "Fabaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Yellow"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide",
-      "Slashing"
-    ],
-    "floweringPeriod": "Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Streaked+rattle+pod+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/streaked-rattlepod.webp"
-  },
-  {
-    "commonName": "Striped inch plant",
-    "scientificName": "Callisia elegans",
-    "synonyms": [
-      "Creeping inch plant",
-      "Inch plant",
-      "Pinstriped inch plant",
-      "Striped inch plant"
-    ],
-    "family": "Commelinaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "White"
-    ],
-    "foliageColors": [
-      "Variegated",
-      "Green",
-      "Purple",
-      "Discoloured"
-    ],
-    "controlMethods": [
-      "Foliar spray"
-    ],
-    "floweringPeriod": "Winter - Spring",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Striped+inch+plant+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/striped_inch_plant.webp"
-  },
-  {
-    "commonName": "Sub-Clover",
-    "linkedProducts": [
-      {
-        "productId": "surefireweedpro540",
-        "productName": "Surefire WeedPro 540 Bio Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "adamapriority",
-        "productName": "Adama Priority® Herbicide",
-        "source": "label",
-        "crops": [
-          "Wheat",
-          "Barley",
-          "Triticale",
-          "Oats",
-          "Ryegrass Pastures",
-          "Fallow"
-        ]
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Sub-Clover%20weed%20Australia"
-  },
-  {
-    "commonName": "Subterranean clover",
-    "scientificName": "Trifolium subterraneum",
-    "synonyms": [
-      "Sub clover"
-    ],
-    "family": "Fabaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "White"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide"
-    ],
-    "floweringPeriod": "Winter to Spring",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Sub-clover+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "crucial",
-        "productName": "Nufarm CRUCIAL®",
-        "crops": []
-      },
-      {
-        "productId": "spray_seed",
-        "productName": "Syngenta SPRAY.SEED® 250 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "surefireweedpro540",
-        "productName": "Surefire WeedPro 540 Bio Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "cortevalontreladvanced",
-        "productName": "Corteva Lontrel Advanced Herbicide",
-        "crops": []
-      },
-      {
-        "productId": "nufarmarcher750",
-        "productName": "Nufarm Archer® 750 Herbicide",
-        "crops": []
-      },
-      {
-        "productId": "roundup_ultramax",
-        "productName": "Bayer Roundup® UltraMAX Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "sencor",
-        "productName": "Sencor 480 SC Selective Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "surefireglyphosate",
-        "productName": "Surefire Glyphosate 360 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "associate",
-        "productName": "Nufarm Associate®",
-        "source": "label"
-      },
-      {
-        "productId": "terrador",
-        "productName": "Nufarm Terrad'or® 700 WG",
-        "source": "label"
-      },
-      {
-        "productId": "weedmaster_dst",
-        "productName": "Nufarm Weedmaster® DST® Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/subterranean_clover.webp"
-  },
-  {
-    "commonName": "Summer grass",
-    "scientificName": "Digitaria sanguinalis",
-    "synonyms": [
-      "Crabgrass",
-      "Crab grass"
-    ],
-    "family": "Poaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Green"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray"
-    ],
-    "floweringPeriod": "Summer - Autumn",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Crab+Grass+/+Summer+Grass+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "vesta",
-        "productName": "Vesta Herbicide",
-        "crops": []
-      },
-      {
-        "productId": "crucial",
-        "productName": "Nufarm CRUCIAL®",
-        "crops": []
-      },
-      {
-        "productId": "adamafirepower900",
-        "productName": "Adama Firepower 900",
-        "crops": []
-      },
-      {
-        "productId": "gamma",
-        "productName": "Surefire Gamma",
-        "crops": []
-      },
-      {
-        "productId": "adamadiuron900wg",
-        "productName": "Adama Diuron 900 WG",
-        "source": "label"
-      },
-      {
-        "productId": "adamapalmero750wg",
-        "productName": "Palmero 750 WG Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "adamauraganwg",
-        "productName": "Uragan WG Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "arystalamitron700wg",
-        "productName": "Amitron 700 WG Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "dualgold",
-        "productName": "Dual Gold® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "imtradeclethodim240ec",
-        "productName": "Imtrade Clethodim 240 EC Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "kelpieazine900",
-        "productName": "Kelpie A-Zine 900 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "pendimethalin",
-        "productName": "Nufarm Pendimethalin 440 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "sencor",
-        "productName": "Sencor 480 SC Selective Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "spray_seed",
-        "productName": "Syngenta SPRAY.SEED® 250 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "stomp_xtra",
-        "productName": "STOMP® XTRA",
-        "source": "label"
-      },
-      {
-        "productId": "surefireweedpro540",
-        "productName": "Surefire WeedPro 540 Bio Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "triflurx",
-        "productName": "Nufarm TriflurX Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "weedmaster_dst",
-        "productName": "Nufarm Weedmaster® DST® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "basta",
-        "productName": "BASF Basta® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "biffo",
-        "productName": "Nufarm Biffo®",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/summer_grass.webp"
-  },
-  {
-    "commonName": "Sun spurge",
-    "scientificName": "Euphorbia helioscopia",
-    "synonyms": [
-      "Sun spurge",
-      "Madwoman's milk"
-    ],
-    "family": "Euphorbiaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Green",
-      "Yellow"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray",
-      "Complete removal"
-    ],
-    "floweringPeriod": "Spring - Autumn",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Sun+spurge+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "sencor",
-        "productName": "Sencor 480 SC Selective Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/sun-spurge.webp"
-  },
-  {
-    "commonName": "Sunflower",
-    "linkedProducts": [
-      {
-        "productId": "nufarmkamba750",
-        "productName": "Nufarm Kamba® 750 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "nufarmmcpaamine750",
-        "productName": "Nufarm MCPA Amine 750 Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Sunflower%20weed%20Australia"
-  },
-  {
-    "commonName": "Sunflowers",
-    "linkedProducts": [
-      {
-        "productId": "nufarmkamba750",
-        "productName": "Nufarm Kamba® 750 Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Sunflowers%20weed%20Australia"
-  },
-  {
-    "commonName": "Suppression Of Annual Ryegrass",
-    "linkedProducts": [
-      {
-        "productId": "dualgold",
-        "productName": "Dual Gold® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Suppression%20Of%20Annual%20Ryegrass%20weed%20Australia"
-  },
-  {
-    "commonName": "Swamp box",
-    "scientificName": "Lophostemon suaveolens",
-    "synonyms": [
-      "Swamp box",
-      "Swamp mahogany"
-    ],
-    "family": "Myrtaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "White"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Cut stump method",
-      "Basal bark treatment"
-    ],
-    "floweringPeriod": "Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Swamp+Box+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "graslan",
-        "productName": "Graslan Herbicide",
-        "crops": []
-      }
-    ],
-    "thumbnail": "images/weeds/swamp-box.webp"
-  },
-  {
-    "commonName": "Sweet briar",
-    "scientificName": "Rosa rubiginosa",
-    "synonyms": [
-      "Eglantine",
-      "Sweet briar rose"
-    ],
-    "family": "Rosaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Pink"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Cut stump method",
-      "Foliar spray",
-      "Basal bark treatment"
-    ],
-    "floweringPeriod": "Spring - Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Sweet+briar+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "conqueror",
-        "productName": "Nufarm Conqueror® Herbicide",
-        "crops": []
-      },
-      {
-        "productId": "raizon",
-        "productName": "SUREFIRE RAIZON HERBICIDE RLP",
-        "crops": []
-      },
-      {
-        "productId": "kelpieazine900",
-        "productName": "Kelpie A-Zine 900 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "associate",
-        "productName": "Nufarm Associate®",
-        "source": "label"
-      },
-      {
-        "productId": "grazon_extra",
-        "productName": "Corteva Grazon® Extra Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "roundup_ultramax",
-        "productName": "Bayer Roundup® UltraMAX Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "weedmaster_dst",
-        "productName": "Nufarm Weedmaster® DST® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "weedmaster_duo",
-        "productName": "Nufarm weedmaster® DUO Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/sweet_briar.webp"
-  },
-  {
-    "commonName": "Sweet summer grass",
-    "scientificName": "Brachiaria eruciformis",
-    "synonyms": [
-      "Sweet summer grass",
-      "Sweet signal grass"
-    ],
-    "family": "Poaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Green"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide",
-      "Cultivation"
-    ],
-    "floweringPeriod": "Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Sweet+Summer+Grass+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "crucial",
-        "productName": "Nufarm CRUCIAL®",
-        "crops": []
-      },
-      {
-        "productId": "adamafirepower900",
-        "productName": "Adama Firepower 900",
-        "source": "label"
-      },
-      {
-        "productId": "roundup_ultramax",
-        "productName": "Bayer Roundup® UltraMAX Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "spray_seed",
-        "productName": "Syngenta SPRAY.SEED® 250 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "surefireweedpro540",
-        "productName": "Surefire WeedPro 540 Bio Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "weedmaster_dst",
-        "productName": "Nufarm Weedmaster® DST® Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/sweet_summer_grass.webp"
-  },
-  {
-    "commonName": "Sweet vernal grass",
-    "scientificName": "Anthoxanthum odoratum",
-    "synonyms": [
-      "Sweet vernal grass"
-    ],
-    "family": "Poaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Green",
-      "Yellow"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide"
-    ],
-    "floweringPeriod": "Spring",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Sweet+Vernal+Grass+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "reglone",
-        "productName": "Reglone® Non-Residual Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/sweet_vernal_grass.webp"
-  },
-  {
-    "commonName": "Swine cress",
-    "scientificName": "Lepidium coronopus",
-    "synonyms": [
-      "Swinecress",
-      "Wart cress"
-    ],
-    "family": "Brassicaceae",
-    "leafArrangement": "Rosette",
-    "flowerColors": [
-      "White"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide",
-      "Hand removal"
-    ],
-    "floweringPeriod": "Year-round",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Swine+cress+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "nufarmkamba750",
-        "productName": "Nufarm Kamba® 750 Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/swine_cress.webp"
-  },
-  {
-    "commonName": "Sword pear",
-    "scientificName": "Opuntia humifusa",
-    "synonyms": [
-      "Devil's tongue",
-      "Eastern prickly pear"
-    ],
-    "family": "Cactaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Yellow"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Complete removal",
-      "Foliar spray"
-    ],
-    "floweringPeriod": "Spring to summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Opuntia+humifusa+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/sword_pear.webp"
-  },
-  {
-    "commonName": "Syngonium",
-    "scientificName": "Syngonium podophyllum",
-    "synonyms": [
-      "Arrowhead Vine",
-      "American evergreen",
-      "African evergreen",
-      "Arrowhead vine",
-      "Nephthytis",
-      "Fivefingers",
-      "Goosefoot"
-    ],
-    "family": "Araceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "White"
-    ],
-    "foliageColors": [
-      "Variegated",
-      "Green",
-      "Discoloured",
-      "White"
-    ],
-    "controlMethods": [
-      "Cut stump method",
-      "Foliar spray"
-    ],
-    "floweringPeriod": "Year Round",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Syngonium+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/syngonium.webp"
-  },
-  {
-    "commonName": "Tall fleabane",
-    "scientificName": "Conyza sumatrensis",
-    "synonyms": [
-      "Broadleaf fleabane",
-      "Broad-leaved fleabane",
-      "Fleabane",
-      "Guernsey fleabane",
-      "Tall fleabane",
-      "Sumatran fleabane"
-    ],
-    "family": "Asteraceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Yellow",
-      "Cream"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray"
-    ],
-    "floweringPeriod": "Summer - Autumn",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Tall+fleabane+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "adamapalmero750wg",
-        "productName": "Palmero 750 WG Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "dropzone",
-        "productName": "Nufarm DROPZONE® 640 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "kelpieazine900",
-        "productName": "Kelpie A-Zine 900 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "nufarmarcher750",
-        "productName": "Nufarm Archer® 750 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "terrain",
-        "productName": "Nufarm Terrain Flow Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "surefirebuffalo",
-        "productName": "Surefire Buffalo, Bindi & Broadleaf Weedkiller",
-        "source": "label",
-        "crops": [
-          "Turf",
-          "Couch",
-          "Kikuyu",
-          "Paspalum",
-          "Buffalo Grass",
-          "Fescue",
-          "Bent Grass",
-          "Rye Grass"
-        ]
-      }
-    ],
-    "thumbnail": "images/weeds/tall-fleabane.webp"
-  },
-  {
-    "commonName": "Tall Sedge",
-    "linkedProducts": [
-      {
-        "productId": "surefireglyphosate",
-        "productName": "Surefire Glyphosate 360 Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Tall%20Sedge%20weed%20Australia"
-  },
-  {
-    "commonName": "Tar vine",
-    "scientificName": "Boerhavia dominii",
-    "synonyms": [
-      "Tar vine",
-      "Tarvine"
-    ],
-    "family": "Nyctaginaceae",
-    "leafArrangement": "Opposite",
-    "flowerColors": [
-      "Pink"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide",
-      "Cultivation"
-    ],
-    "floweringPeriod": "Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Tar+vine+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "nufarmkamba750",
-        "productName": "Nufarm Kamba® 750 Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/tar_vine.webp"
-  },
-  {
-    "commonName": "Taro",
-    "scientificName": "Colocasia esculenta",
-    "synonyms": [
-      "Coco yam",
-      "Cocoyam",
-      "Dasheen",
-      "Eddo",
-      "Elephant ears",
-      "Elephant's ear",
-      "Taro",
-      "Wild taro"
-    ],
-    "family": "Araceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Green",
-      "Yellow"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Cut stump method",
-      "Foliar spray"
-    ],
-    "floweringPeriod": "Spring - Late Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Taro+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/taro.webp"
-  },
-  {
-    "commonName": "Telegraph weed",
-    "scientificName": "Heterotheca grandiflora",
-    "synonyms": [
-      "Telegraph weed",
-      "Heterotheca",
-      "Sticky daisy",
-      "Telegraphweed"
-    ],
-    "family": "Asteraceae",
-    "leafArrangement": "Basal",
-    "flowerColors": [
-      "Yellow"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray"
-    ],
-    "floweringPeriod": "Spring-summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Telegraph+weed+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/telegraph_weed.webp"
-  },
-  {
-    "commonName": "Thickhead",
-    "scientificName": "Crassocephalum crepidioides",
-    "synonyms": [
-      "Fireweed",
-      "Hawksbeard velvetplant",
-      "Redflower ragleaf",
-      "Thick head"
-    ],
-    "family": "Asteraceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Red",
-      "Pink",
-      "Purple",
-      "Orange"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray",
-      "Complete removal"
-    ],
-    "floweringPeriod": "Year round",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Thickhead+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "adamauraganwg",
-        "productName": "Uragan WG Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "arystalamitron700wg",
-        "productName": "Amitron 700 WG Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "kelpieazine900",
-        "productName": "Kelpie A-Zine 900 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "nufarmkamba750",
-        "productName": "Nufarm Kamba® 750 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "adamapalmero750wg",
-        "productName": "Palmero 750 WG Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "sencor",
-        "productName": "Sencor 480 SC Selective Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "basta",
-        "productName": "BASF Basta® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "biffo",
-        "productName": "Nufarm Biffo®",
-        "source": "label"
-      },
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label",
-        "crops": [
-          "Unknown"
-        ]
-      }
-    ],
-    "thumbnail": "images/weeds/thickhead.webp"
-  },
-  {
-    "commonName": "Thinning and Berry Size in Flame Seedless",
-    "linkedProducts": [
-      {
-        "productId": "valentprogibb",
-        "productName": "ProGibb LV Plus Plant Growth Regulator",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Thinning%20and%20Berry%20Size%20in%20Flame%20Seedless%20weed%20Australia"
-  },
-  {
-    "commonName": "Thinning and Berry Size in Perlette",
-    "linkedProducts": [
-      {
-        "productId": "valentprogibb",
-        "productName": "ProGibb LV Plus Plant Growth Regulator",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Thinning%20and%20Berry%20Size%20in%20Perlette%20weed%20Australia"
-  },
-  {
-    "commonName": "Thistle, Artichoke",
-    "linkedProducts": [
-      {
-        "productId": "surefireweedprobioaqua360",
-        "productName": "Surefire WeedPro BioAqua 360 Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Thistle%2C%20Artichoke%20weed%20Australia"
-  },
-  {
-    "commonName": "Thistle, Californian",
-    "linkedProducts": [
-      {
-        "productId": "surefireweedprobioaqua360",
-        "productName": "Surefire WeedPro BioAqua 360 Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Thistle%2C%20Californian%20weed%20Australia"
-  },
-  {
-    "commonName": "Thistles",
-    "linkedProducts": [
-      {
-        "productId": "nufarmkamba750",
-        "productName": "Nufarm Kamba® 750 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "surefireamine625",
-        "productName": "Surefire Amine 625 Selective Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "surefirebuffalo",
-        "productName": "Surefire Buffalo, Bindi & Broadleaf Weedkiller",
-        "source": "label"
-      },
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label",
-        "crops": [
-          "Pasture",
-          "Forestry",
-          "Non-crop"
-        ]
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Thistles%20weed%20Australia"
-  },
-  {
-    "commonName": "Thorn apples",
-    "scientificName": "Datura spp. Datura stramonium, Datura inoxia",
-    "synonyms": [
-      "Common thorn apple",
-      "Jimson weed",
-      "Devil's trumpet",
-      "Devil's weed",
-      "Tolguacha",
-      "Jamestown weed",
-      "Stinkweed",
-      "Locoweed",
-      "Datura",
-      "Pricklyburr",
-      "Devil's cucumber",
-      "Hell's bells",
-      "Moonflower"
-    ],
-    "family": "Solanaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "White",
-      "Yellow",
-      "Pink"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray",
-      "Complete removal"
-    ],
-    "floweringPeriod": "Datura stramonium generally flowers throughout the summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Thorn+apples+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "nufarmkamba750",
-        "productName": "Nufarm Kamba® 750 Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/thorn-apples.webp"
-  },
-  {
-    "commonName": "Thornapple",
-    "scientificName": "Datura spp.",
-    "synonyms": [
-      "Common thornapple",
-      "Jimsonweed",
-      "Datura",
-      "Devil's trumpet"
-    ],
-    "family": "Solanaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "White"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide",
-      "Cultivation",
-      "Hand removal"
-    ],
-    "floweringPeriod": "Summer to Autumn",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Common+Thornapple+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "crucial",
-        "productName": "Nufarm CRUCIAL®",
-        "crops": []
-      },
-      {
-        "productId": "dualgold",
-        "productName": "Dual Gold® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "kelpieazine900",
-        "productName": "Kelpie A-Zine 900 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "nufarmkamba750",
-        "productName": "Nufarm Kamba® 750 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "roundup_ultramax",
-        "productName": "Bayer Roundup® UltraMAX Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "surefireglyphosate",
-        "productName": "Surefire Glyphosate 360 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "boxergold",
-        "productName": "Syngenta Boxer Gold® Herbicide",
-        "source": "label",
-        "crops": [
-          "Potatoes"
-        ]
-      }
-    ],
-    "thumbnail": "images/weeds/thornapple.webp"
-  },
-  {
-    "commonName": "Three Corner Jack",
-    "linkedProducts": [
-      {
-        "productId": "adamadiuron900wg",
-        "productName": "Adama Diuron 900 WG",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Three%20Corner%20Jack%20weed%20Australia"
-  },
-  {
-    "commonName": "Three Cornered Jack",
-    "linkedProducts": [
-      {
-        "productId": "associate",
-        "productName": "Nufarm Associate®",
-        "source": "label"
-      },
-      {
-        "productId": "surefirebuffalo",
-        "productName": "Surefire Buffalo, Bindi & Broadleaf Weedkiller",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Three%20Cornered%20Jack%20weed%20Australia"
-  },
-  {
-    "commonName": "Three-horned Bedstraw",
-    "linkedProducts": [
-      {
-        "productId": "surefirebuffalo",
-        "productName": "Surefire Buffalo, Bindi & Broadleaf Weedkiller",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Three-horned%20Bedstraw%20weed%20Australia"
-  },
-  {
-    "commonName": "Tiger pear",
-    "scientificName": "Opuntia aurantiaca",
-    "synonyms": [
-      "Tiger pear",
-      "Jointed cactus",
-      "Jointed prickly pear",
-      "Tiger-pear"
-    ],
-    "family": "Cactaceae",
-    "leafArrangement": "Basal",
-    "flowerColors": [
-      "Yellow"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Basal bark treatment"
-    ],
-    "floweringPeriod": "Spring-Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Tiger+pear+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/tiger_pear.webp"
-  },
-  {
-    "commonName": "Tipuana",
-    "scientificName": "Tipuana tipu",
-    "synonyms": [
-      "Pride of Bolivia",
-      "Race-horse tree",
-      "Rose wood",
-      "Tipu tree",
-      "Tipuana tree",
-      "Yellow jacaranda"
-    ],
-    "family": "Fabaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Yellow"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Cut stump method",
-      "Foliar spray",
-      "Basal bark treatment",
-      "Stem injection"
-    ],
-    "floweringPeriod": "Spring- Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Tipuana+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/tipuana.webp"
-  },
-  {
-    "commonName": "To Destroy Banana Suckers",
-    "linkedProducts": [
-      {
-        "productId": "surefireamine625",
-        "productName": "Surefire Amine 625 Selective Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=To%20Destroy%20Banana%20Suckers%20weed%20Australia"
-  },
-  {
-    "commonName": "Toadrush",
-    "scientificName": "Juncus bufonius",
-    "synonyms": [
-      "Toad rush"
-    ],
-    "family": "Juncaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Green",
-      "Brown"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide"
-    ],
-    "floweringPeriod": "Spring to Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Toadrush+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "dualgold",
-        "productName": "Dual Gold® Herbicide",
-        "crops": []
-      },
-      {
-        "productId": "adamadiuron900wg",
-        "productName": "Adama Diuron 900 WG",
-        "source": "label"
-      },
-      {
-        "productId": "kelpieazine900",
-        "productName": "Kelpie A-Zine 900 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "nufarmkamba750",
-        "productName": "Nufarm Kamba® 750 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "nufarmpyroxasulfone850wg",
-        "productName": "Nufarm Pyroxasulfone 850 WG",
-        "source": "label"
-      },
-      {
-        "productId": "sencor",
-        "productName": "Sencor 480 SC Selective Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "nufarmsentry",
-        "productName": "Nufarm Sentry Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "boxergold",
-        "productName": "Syngenta Boxer Gold® Herbicide",
-        "source": "label",
-        "crops": [
-          "Barley",
-          "Oats",
-          "Triticale",
-          "Wheat",
-          "Potatoes",
-          "Chickpeas",
-          "Faba Beans",
-          "Field Peas",
-          "Lentils",
-          "Lupins"
-        ]
-      }
-    ],
-    "thumbnail": "images/weeds/toadrush.webp"
-  },
-  {
-    "commonName": "Tobacco weed",
-    "scientificName": "Elephantopus mollis",
-    "synonyms": [
-      "Elephant's Foot"
-    ],
-    "family": "Asteraceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "White"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide"
-    ],
-    "floweringPeriod": "Queensland - Flowering may occur  all year but generally occurs in May",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Tobacco+weed+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "conqueror",
-        "productName": "Nufarm Conqueror® Herbicide",
-        "crops": []
-      },
-      {
-        "productId": "grazon_extra",
-        "productName": "Corteva Grazon® Extra Herbicide",
-        "crops": []
-      },
-      {
-        "productId": "raizon",
-        "productName": "SUREFIRE RAIZON HERBICIDE RLP",
-        "crops": []
-      }
-    ],
-    "thumbnail": "images/weeds/tobacco_weed.webp"
-  },
-  {
-    "commonName": "Topped lavender",
-    "scientificName": "Lavandula stoechas",
-    "synonyms": [
-      "Italian lavender",
-      "Spanish lavender",
-      "Topped lavender"
-    ],
-    "family": "Lamiaceae",
-    "leafArrangement": "Opposite",
-    "flowerColors": [
-      "Purple"
-    ],
-    "foliageColors": [
-      "Green",
-      "Grey-green"
-    ],
-    "controlMethods": [
-      "Cut stump method",
-      "Foliar spray",
-      "Hand removal"
-    ],
-    "floweringPeriod": "Spring to Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Topped+lavender+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "associate",
-        "productName": "Nufarm Associate®",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/topped_lavender.webp"
-  },
-  {
-    "commonName": "Townsville stylo",
-    "scientificName": "Stylosanthes humilis",
-    "synonyms": [
-      "Townsville stylo",
-      "Townsville lucerne"
-    ],
-    "family": "Fabaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Yellow"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide"
-    ],
-    "floweringPeriod": "Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Townsville+stylo+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "basta",
-        "productName": "BASF Basta® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "biffo",
-        "productName": "Nufarm Biffo®",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/townsville_stylo.webp"
-  },
-  {
-    "commonName": "Trad",
-    "scientificName": "Tradescantia fluminensis",
-    "synonyms": [
-      "Wandering jew",
-      "Wandering trad",
-      "Tradescantia"
-    ],
-    "family": "Commelinaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "White"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray",
-      "Hand removal"
-    ],
-    "floweringPeriod": "Spring to Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Trad+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "dualgold",
-        "productName": "Dual Gold® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "kelpieazine900",
-        "productName": "Kelpie A-Zine 900 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "piston250",
-        "productName": "Axichem Piston 250 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "spraytop",
-        "productName": "Adama Spraytop® 250 SL Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "weedmaster_dst",
-        "productName": "Nufarm Weedmaster® DST® Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/trad.webp"
-  },
-  {
-    "commonName": "Treacle Mustard",
-    "linkedProducts": [
-      {
-        "productId": "associate",
-        "productName": "Nufarm Associate®",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Treacle%20Mustard%20weed%20Australia"
-  },
-  {
-    "commonName": "Tree hogweed",
-    "scientificName": "Commersonia bartramia",
-    "synonyms": [
-      "Brown kurrajong",
-      "Tree hogweed"
-    ],
-    "family": "Malvaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "White"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Cut stump method"
-    ],
-    "floweringPeriod": "Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Tree+Hogweed+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "crucial",
-        "productName": "Nufarm CRUCIAL®",
-        "crops": []
-      },
-      {
-        "productId": "kamba_m",
-        "productName": "Nufarm Kamba® M",
-        "crops": []
-      },
-      {
-        "productId": "nufarmkamba750",
-        "productName": "Nufarm Kamba® 750 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "weedmaster_dst",
-        "productName": "Nufarm Weedmaster® DST® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "surefirebuffalo",
-        "productName": "Surefire Buffalo, Bindi & Broadleaf Weedkiller",
-        "source": "label",
-        "crops": [
-          "Wheat",
-          "Barley",
-          "Cereal Rye",
-          "Oats",
-          "Triticale",
-          "Linseed",
-          "Grass Pastures"
-        ]
-      }
-    ],
-    "thumbnail": "images/weeds/tree_hogweed.webp"
-  },
-  {
-    "commonName": "Tree of heaven",
-    "scientificName": "Ailanthus altissima",
-    "synonyms": [
-      "Ailanthus",
-      "Baked sewage tree",
-      "China sum",
-      "Tree of heaven"
-    ],
-    "family": "Simaroubaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "White",
-      "Yellow"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Cut stump method",
-      "Basal bark treatment",
-      "Stem injection"
-    ],
-    "floweringPeriod": "Late Spring-Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Tree+of+heaven+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/tree-of-heaven.webp"
-  },
-  {
-    "commonName": "Tree tobacco",
-    "scientificName": "Nicotiana glauca.",
-    "synonyms": [
-      "Tobacco bush",
-      "Tobacco plant",
-      "Tobacco tree",
-      "Tree tobacco",
-      "Wild tobacco",
-      "Mustard tree"
-    ],
-    "family": "Solanaceae",
-    "leafArrangement": "Opposite",
-    "flowerColors": [
-      "Yellow"
-    ],
-    "foliageColors": [
-      "Bluish-green"
-    ],
-    "controlMethods": [
-      "Cut stump method",
-      "Foliar spray",
-      "Basal bark treatment"
-    ],
-    "floweringPeriod": "",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Tree+tobacco+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/tree-tobacco.webp"
-  },
-  {
-    "commonName": "Trefoil",
-    "scientificName": "Lotus spp.",
-    "synonyms": [
-      "Bird's foot trefoil",
-      "Trefoil"
-    ],
-    "family": "Fabaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Yellow"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide"
-    ],
-    "floweringPeriod": "Spring to Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Trefoil+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "nufarmkamba750",
-        "productName": "Nufarm Kamba® 750 Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/trefoil.webp"
-  },
-  {
-    "commonName": "Tridax daisy",
-    "scientificName": "Tridax procumbens",
-    "synonyms": [
-      "Tridax",
-      "Coat buttons"
-    ],
-    "family": "Asteraceae",
-    "leafArrangement": "Opposite",
-    "flowerColors": [
-      "White",
-      "Yellow"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide",
-      "Hand removal"
-    ],
-    "floweringPeriod": "Year-round",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Tridax+/+Tridax+daisy+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/tridax-daisy.webp"
-  },
-  {
-    "commonName": "Tropical chickweed",
-    "scientificName": "Drymaria cordata subsp. cordata",
-    "synonyms": [
-      "Drymaria",
-      "Heartleaf drymary",
-      "Whitesnow"
-    ],
-    "family": "Caryophyllaceae",
-    "leafArrangement": "Opposite",
-    "flowerColors": [
-      "White"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray"
-    ],
-    "floweringPeriod": "Year round",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Tropical+chickweed+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/tropical-chickweed.webp"
-  },
-  {
-    "commonName": "Tropical pickeral weed",
-    "scientificName": "Pontederia rotundifolia syn. Pontederia reniformis",
-    "synonyms": [
-      "Tropical pickeral weed"
-    ],
-    "family": "Pontederiaceae",
-    "leafArrangement": "Basal",
-    "flowerColors": [
-      "Yellow",
-      "Pink"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide"
-    ],
-    "floweringPeriod": "",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Tropical+pickeral+weed+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/tropical-pickeral-weed.webp"
-  },
-  {
-    "commonName": "Tropical soda apple",
-    "scientificName": "Solanum viarum",
-    "synonyms": [],
-    "family": "Family",
-    "leafArrangement": "Basal",
-    "flowerColors": [
-      "Orange"
-    ],
-    "foliageColors": [
-      "White"
-    ],
-    "controlMethods": [
-      "Slashing and mowing"
-    ],
-    "floweringPeriod": "",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Tropical+soda+apple+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/tropical-soda-apple.webp"
-  },
-  {
-    "commonName": "True Bug",
-    "linkedProducts": [
-      {
-        "productId": "mavrik",
-        "productName": "Mavrik Aquaflo",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=True%20Bug%20weed%20Australia"
-  },
-  {
-    "commonName": "Trumpet tree",
-    "scientificName": "Cecropia pachystachya, C. palmata and C. peltata",
-    "synonyms": [
-      "Trumpet Tree",
-      "Cecropia",
-      "Mexican bean tree",
-      "Snakewood tree"
-    ],
-    "family": "Cecropiaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "White",
-      "Yellow"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Cut stump method",
-      "Foliar spray"
-    ],
-    "floweringPeriod": "Year Round",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Trumpet+tree+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/trumpet-tree.webp"
-  },
-  {
-    "commonName": "Turf Grasses and Weeds for Line-Marking",
-    "linkedProducts": [
-      {
-        "productId": "uplfascinate",
-        "productName": "Fascinate Dry Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Turf%20Grasses%20and%20Weeds%20for%20Line-Marking%20weed%20Australia"
-  },
-  {
-    "commonName": "Turnip",
-    "linkedProducts": [
-      {
-        "productId": "kelpieazine900",
-        "productName": "Kelpie A-Zine 900 Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Turnip%20weed%20Australia"
-  },
-  {
-    "commonName": "Turnip weed",
-    "scientificName": "Rapistrum rugosum",
-    "synonyms": [
-      "Giant mustard",
-      "Rapistrum",
-      "Twiggy turnip",
-      "Bastard cabbage"
-    ],
-    "family": "Brassicaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Yellow"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray"
-    ],
-    "floweringPeriod": "Winter - Spring",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Turnip+Weed+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "crucial",
-        "productName": "Nufarm CRUCIAL®",
-        "crops": []
-      },
-      {
-        "productId": "kamba_m",
-        "productName": "Nufarm Kamba® M",
-        "crops": []
-      },
-      {
-        "productId": "nufarmmcpaamine750",
-        "productName": "Nufarm MCPA Amine 750 Herbicide",
-        "crops": []
-      },
-      {
-        "productId": "adamapalmero750wg",
-        "productName": "Palmero 750 WG Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "biffo",
-        "productName": "Nufarm Biffo®",
-        "source": "label"
-      },
-      {
-        "productId": "nufarm24db500",
-        "productName": "Nufarm 2,4-DB 500 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "nufarmkamba750",
-        "productName": "Nufarm Kamba® 750 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "roundup_ultramax",
-        "productName": "Bayer Roundup® UltraMAX Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "spray_seed",
-        "productName": "Syngenta SPRAY.SEED® 250 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "stomp_xtra",
-        "productName": "STOMP® XTRA",
-        "source": "label"
-      },
-      {
-        "productId": "surefireamine625",
-        "productName": "Surefire Amine 625 Selective Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "surefireweedpro540",
-        "productName": "Surefire WeedPro 540 Bio Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "associate",
-        "productName": "Nufarm Associate®",
-        "source": "label"
-      },
-      {
-        "productId": "basta",
-        "productName": "BASF Basta® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "dualgold",
-        "productName": "Dual Gold® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "nufarmsentry",
-        "productName": "Nufarm Sentry Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "weedmaster_dst",
-        "productName": "Nufarm Weedmaster® DST® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "surefirebuffalo",
-        "productName": "Surefire Buffalo, Bindi & Broadleaf Weedkiller",
-        "source": "label",
-        "crops": [
-          "Wheat",
-          "Barley",
-          "Cereal Rye",
-          "Oats",
-          "Triticale",
-          "Linseed",
-          "Grass Pastures"
-        ]
-      },
-      {
-        "productId": "adamapriority",
-        "productName": "Adama Priority® Herbicide",
-        "source": "label",
-        "crops": [
-          "Wheat",
-          "Barley",
-          "Triticale",
-          "Oats",
-          "Ryegrass Pastures",
-          "Fallow"
-        ]
-      }
-    ],
-    "thumbnail": "images/weeds/turnip-weed.webp"
-  },
-  {
-    "commonName": "Turnips",
-    "linkedProducts": [
-      {
-        "productId": "kelpieazine900",
-        "productName": "Kelpie A-Zine 900 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "sipcamatrazine500sc",
-        "productName": "Sipcam Atrazine 500 SC Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Turnips%20weed%20Australia"
-  },
-  {
-    "commonName": "Umbrella sedge",
-    "scientificName": "Cyperus involucratus",
-    "synonyms": [
-      "African sedge",
-      "Dwarf papyrus",
-      "Flat sedge",
-      "Umbrella plant"
-    ],
-    "family": "Cyperaceae",
-    "leafArrangement": "Basal",
-    "flowerColors": [
-      "Green"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray",
-      "Slashing and mowing"
-    ],
-    "floweringPeriod": "Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Umbrella+sedge+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/umbrella-sedge.webp"
-  },
-  {
-    "commonName": "Umbrella tree",
-    "scientificName": "Schefflera actinophylla",
-    "synonyms": [
-      "Umbrella tree",
-      "Australian ivy palm",
-      "Brassaia",
-      "Octopus tree",
-      "Queensland umbrella tree",
-      "Schefflera"
-    ],
-    "family": "Araliaceae",
-    "leafArrangement": "Palmate",
-    "flowerColors": [
-      "Red"
-    ],
-    "foliageColors": [
-      "Green",
-      "Discoloured"
-    ],
-    "controlMethods": [
-      "Cut stump method",
-      "Basal bark treatment",
-      "Stem injection"
-    ],
-    "floweringPeriod": "Summer - Autumn",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Umbrella+tree+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/umbrella-tree.webp"
-  },
-  {
-    "commonName": "Variegated thistle",
-    "scientificName": "Silybum marianum",
-    "synonyms": [
-      "Milk thistle",
-      "Mary's thistle"
-    ],
-    "family": "Asteraceae",
-    "leafArrangement": "Basal",
-    "flowerColors": [
-      "Purple"
-    ],
-    "foliageColors": [
-      "Green",
-      "White"
-    ],
-    "controlMethods": [
-      "Foliar spray",
-      "Complete removal"
-    ],
-    "floweringPeriod": "Spring - Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Milk+thistle+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "crucial",
-        "productName": "Nufarm CRUCIAL®",
-        "crops": []
-      },
-      {
-        "productId": "gamma",
-        "productName": "Surefire Gamma",
-        "crops": []
-      },
-      {
-        "productId": "kamba_m",
-        "productName": "Nufarm Kamba® M",
-        "crops": []
-      },
-      {
-        "productId": "biffo",
-        "productName": "Nufarm Biffo®",
-        "source": "label"
-      },
-      {
-        "productId": "nufarm24db500",
-        "productName": "Nufarm 2,4-DB 500 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "nufarmkamba750",
-        "productName": "Nufarm Kamba® 750 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "nufarmmcpaamine750",
-        "productName": "Nufarm MCPA Amine 750 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "roundup_ultramax",
-        "productName": "Bayer Roundup® UltraMAX Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "spray_seed",
-        "productName": "Syngenta SPRAY.SEED® 250 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "surefireglyphosate",
-        "productName": "Surefire Glyphosate 360 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "surefireweedpro540",
-        "productName": "Surefire WeedPro 540 Bio Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "associate",
-        "productName": "Nufarm Associate®",
-        "source": "label"
-      },
-      {
-        "productId": "basta",
-        "productName": "BASF Basta® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "nufarmsentry",
-        "productName": "Nufarm Sentry Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "weedmaster_dst",
-        "productName": "Nufarm Weedmaster® DST® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "surefirebuffalo",
-        "productName": "Surefire Buffalo, Bindi & Broadleaf Weedkiller",
-        "source": "label",
-        "crops": [
-          "Wheat",
-          "Barley",
-          "Cereal Rye",
-          "Oats",
-          "Triticale",
-          "Linseed",
-          "Grass Pastures"
-        ]
-      },
-      {
-        "productId": "adamapriority",
-        "productName": "Adama Priority® Herbicide",
-        "source": "label",
-        "crops": [
-          "Wheat",
-          "Barley",
-          "Triticale",
-          "Oats",
-          "Ryegrass Pastures",
-          "Fallow"
-        ]
-      }
-    ],
-    "thumbnail": "images/weeds/variegated-thistle.webp"
-  },
-  {
-    "commonName": "Vasey grass",
-    "scientificName": "Paspalum urvillei",
-    "synonyms": [
-      "Vasey grass",
-      "Giant paspalum",
-      "Tall paspalum",
-      "Upright paspalum"
-    ],
-    "family": "Poaceae",
-    "leafArrangement": "Basal",
-    "flowerColors": [
-      "Green"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray",
-      "Complete removal",
-      "Slashing and mowing",
-      "Wick wipe"
-    ],
-    "floweringPeriod": "Spring-Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Vasey+grass+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "vesta",
-        "productName": "Vesta Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/vasey-grass.webp"
-  },
-  {
-    "commonName": "Vegetative Growth Control",
-    "linkedProducts": [
-      {
-        "productId": "kensoethephon720",
-        "productName": "Kenso Agcare Ethephon 720 Growth Regulator",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Vegetative%20Growth%20Control%20weed%20Australia"
-  },
-  {
-    "commonName": "Velvety tree pear",
-    "scientificName": "Opuntia tomentosa",
-    "synonyms": [
-      "Tree pear",
-      "Velvet opuntia",
-      "Velvet tree pear",
-      "Velvety tree pear",
-      "Woolly joint prickly pear"
-    ],
-    "family": "Cactaceae",
-    "leafArrangement": "Whorled",
-    "flowerColors": [
-      "Orange"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Cut stump method",
-      "Basal bark treatment",
-      "Stem injection"
-    ],
-    "floweringPeriod": "Spring - Summer.",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Velvety+tree+pear+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/velvety-tree-pear.webp"
-  },
-  {
-    "commonName": "Vetch",
-    "scientificName": "Vicia sativa",
-    "synonyms": [
-      "Common vetch",
-      "Tares"
-    ],
-    "family": "Fabaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Purple",
-      "Pink"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray"
-    ],
-    "floweringPeriod": "Spring",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Vetch+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "cortevalontreladvanced",
-        "productName": "Corteva Lontrel Advanced Herbicide",
-        "crops": []
-      },
-      {
-        "productId": "nufarmarcher750",
-        "productName": "Nufarm Archer® 750 Herbicide",
-        "crops": []
-      },
-      {
-        "productId": "nufarmkamba750",
-        "productName": "Nufarm Kamba® 750 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "spray_seed",
-        "productName": "Syngenta SPRAY.SEED® 250 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "kamba_m",
-        "productName": "Nufarm Kamba® M",
-        "crops": []
-      },
-      {
-        "productId": "adamapriority",
-        "productName": "Adama Priority® Herbicide",
-        "source": "label",
-        "crops": [
-          "Wheat",
-          "Barley",
-          "Triticale",
-          "Oats",
-          "Ryegrass Pastures",
-          "Fallow"
-        ]
-      },
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label",
-        "crops": [
-          "Wheat",
-          "Barley",
-          "Oats",
-          "Triticale"
-        ]
-      }
-    ],
-    "thumbnail": "images/weeds/vetch.webp"
-  },
-  {
-    "commonName": "Vetches",
-    "scientificName": "Vicia spp.",
-    "synonyms": [
-      "Vetch",
-      "Tares"
-    ],
-    "family": "Fabaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Purple",
-      "Blue"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide",
-      "Cultivation"
-    ],
-    "floweringPeriod": "Spring",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Vetches+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "kamba_m",
-        "productName": "Nufarm Kamba® M",
-        "crops": []
-      },
-      {
-        "productId": "nufarmkamba750",
-        "productName": "Nufarm Kamba® 750 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label",
-        "crops": [
-          "Unknown"
-        ]
-      }
-    ],
-    "thumbnail": "images/weeds/vetches.webp"
-  },
-  {
-    "commonName": "Volunteer Barley",
-    "linkedProducts": [
-      {
-        "productId": "imtradeclethodim240ec",
-        "productName": "Imtrade Clethodim 240 EC Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "terrador",
-        "productName": "Nufarm Terrad'or® 700 WG",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Volunteer%20Barley%20weed%20Australia"
-  },
-  {
-    "commonName": "Volunteer Canola",
-    "linkedProducts": [
-      {
-        "productId": "associate",
-        "productName": "Nufarm Associate®",
-        "source": "label"
-      },
-      {
-        "productId": "infinityultra",
-        "productName": "Bayer Infinity® Ultra Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "nufarmsentry",
-        "productName": "Nufarm Sentry Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "terrador",
-        "productName": "Nufarm Terrad'or® 700 WG",
-        "source": "label"
-      },
-      {
-        "productId": "nufarmmcpaamine750",
-        "productName": "Nufarm MCPA Amine 750 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "adamapriority",
-        "productName": "Adama Priority® Herbicide",
-        "source": "label",
-        "crops": [
-          "Wheat",
-          "Barley",
-          "Triticale",
-          "Oats",
-          "Ryegrass Pastures",
-          "Fallow"
-        ]
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Volunteer%20Canola%20weed%20Australia"
-  },
-  {
-    "commonName": "Volunteer Cereals (Barley",
-    "linkedProducts": [
-      {
-        "productId": "surefireweedpro540",
-        "productName": "Surefire WeedPro 540 Bio Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Volunteer%20Cereals%20(Barley%20weed%20Australia"
-  },
-  {
-    "commonName": "Volunteer Chickpeas",
-    "linkedProducts": [
-      {
-        "productId": "associate",
-        "productName": "Nufarm Associate®",
-        "source": "label"
-      },
-      {
-        "productId": "cortevalontreladvanced",
-        "productName": "Corteva Lontrel Advanced Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Volunteer%20Chickpeas%20weed%20Australia"
-  },
-  {
-    "commonName": "Volunteer Cotton",
-    "linkedProducts": [
-      {
-        "productId": "terrador",
-        "productName": "Nufarm Terrad'or® 700 WG",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Volunteer%20Cotton%20weed%20Australia"
-  },
-  {
-    "commonName": "Volunteer Faba Beans",
-    "linkedProducts": [
-      {
-        "productId": "associate",
-        "productName": "Nufarm Associate®",
-        "source": "label"
-      },
-      {
-        "productId": "nufarmsentry",
-        "productName": "Nufarm Sentry Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "terrador",
-        "productName": "Nufarm Terrad'or® 700 WG",
-        "source": "label"
-      },
-      {
-        "productId": "cortevalontreladvanced",
-        "productName": "Corteva Lontrel Advanced Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "adamapriority",
-        "productName": "Adama Priority® Herbicide",
-        "source": "label",
-        "crops": [
-          "Wheat",
-          "Barley",
-          "Triticale",
-          "Oats",
-          "Ryegrass Pastures",
-          "Fallow"
-        ]
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Volunteer%20Faba%20Beans%20weed%20Australia"
-  },
-  {
-    "commonName": "Volunteer Field Peas",
-    "linkedProducts": [
-      {
-        "productId": "associate",
-        "productName": "Nufarm Associate®",
-        "source": "label"
-      },
-      {
-        "productId": "nufarmkamba750",
-        "productName": "Nufarm Kamba® 750 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "terrador",
-        "productName": "Nufarm Terrad'or® 700 WG",
-        "source": "label"
-      },
-      {
-        "productId": "cortevalontreladvanced",
-        "productName": "Corteva Lontrel Advanced Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "adamapriority",
-        "productName": "Adama Priority® Herbicide",
-        "source": "label",
-        "crops": [
-          "Wheat",
-          "Barley",
-          "Triticale",
-          "Oats",
-          "Ryegrass Pastures",
-          "Fallow"
-        ]
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Volunteer%20Field%20Peas%20weed%20Australia"
-  },
-  {
-    "commonName": "Volunteer Lentils",
-    "linkedProducts": [
-      {
-        "productId": "infinityultra",
-        "productName": "Bayer Infinity® Ultra Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "nufarmkamba750",
-        "productName": "Nufarm Kamba® 750 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "terrador",
-        "productName": "Nufarm Terrad'or® 700 WG",
-        "source": "label"
-      },
-      {
-        "productId": "adamapriority",
-        "productName": "Adama Priority® Herbicide",
-        "source": "label",
-        "crops": [
-          "Wheat",
-          "Barley",
-          "Triticale",
-          "Oats",
-          "Ryegrass Pastures",
-          "Fallow"
-        ]
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Volunteer%20Lentils%20weed%20Australia"
-  },
-  {
-    "commonName": "Volunteer Lupins",
-    "linkedProducts": [
-      {
-        "productId": "associate",
-        "productName": "Nufarm Associate®",
-        "source": "label"
-      },
-      {
-        "productId": "nufarmkamba750",
-        "productName": "Nufarm Kamba® 750 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "surefireweedpro540",
-        "productName": "Surefire WeedPro 540 Bio Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "terrador",
-        "productName": "Nufarm Terrad'or® 700 WG",
-        "source": "label"
-      },
-      {
-        "productId": "cortevalontreladvanced",
-        "productName": "Corteva Lontrel Advanced Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "adamapriority",
-        "productName": "Adama Priority® Herbicide",
-        "source": "label",
-        "crops": [
-          "Wheat",
-          "Barley",
-          "Triticale",
-          "Oats",
-          "Ryegrass Pastures",
-          "Fallow"
-        ]
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Volunteer%20Lupins%20weed%20Australia"
-  },
-  {
-    "commonName": "Volunteer medics",
-    "linkedProducts": [
-      {
-        "productId": "cortevalontreladvanced",
-        "productName": "Corteva Lontrel Advanced Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Volunteer%20medics%20weed%20Australia"
-  },
-  {
-    "commonName": "Volunteer Mung Beans",
-    "linkedProducts": [
-      {
-        "productId": "terrador",
-        "productName": "Nufarm Terrad'or® 700 WG",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Volunteer%20Mung%20Beans%20weed%20Australia"
-  },
-  {
-    "commonName": "Volunteer Oats",
-    "linkedProducts": [
-      {
-        "productId": "imtradeclethodim240ec",
-        "productName": "Imtrade Clethodim 240 EC Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "terrador",
-        "productName": "Nufarm Terrad'or® 700 WG",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Volunteer%20Oats%20weed%20Australia"
-  },
-  {
-    "commonName": "Volunteer or Wildling Pinus Spp.",
-    "linkedProducts": [
-      {
-        "productId": "uplfascinate",
-        "productName": "Fascinate Dry Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Volunteer%20or%20Wildling%20Pinus%20Spp.%20weed%20Australia"
-  },
-  {
-    "commonName": "Volunteer Peas",
-    "linkedProducts": [
-      {
-        "productId": "nufarmkamba750",
-        "productName": "Nufarm Kamba® 750 Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Volunteer%20Peas%20weed%20Australia"
-  },
-  {
-    "commonName": "Volunteer Pine Wildings",
-    "linkedProducts": [
-      {
-        "productId": "associate",
-        "productName": "Nufarm Associate®",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Volunteer%20Pine%20Wildings%20weed%20Australia"
-  },
-  {
-    "commonName": "Volunteer Potato",
-    "linkedProducts": [
-      {
-        "productId": "striker",
-        "productName": "Nufarm Striker® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Volunteer%20Potato%20weed%20Australia"
-  },
-  {
-    "commonName": "Volunteer Sorghum",
-    "linkedProducts": [
-      {
-        "productId": "imtradeclethodim240ec",
-        "productName": "Imtrade Clethodim 240 EC Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "surefireweedpro540",
-        "productName": "Surefire WeedPro 540 Bio Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Volunteer%20Sorghum%20weed%20Australia"
-  },
-  {
-    "commonName": "Volunteer sub-clover",
-    "linkedProducts": [
-      {
-        "productId": "cortevalontreladvanced",
-        "productName": "Corteva Lontrel Advanced Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Volunteer%20sub-clover%20weed%20Australia"
-  },
-  {
-    "commonName": "Volunteer Sunflower",
-    "linkedProducts": [
-      {
-        "productId": "associate",
-        "productName": "Nufarm Associate®",
-        "source": "label"
-      },
-      {
-        "productId": "surefireweedpro540",
-        "productName": "Surefire WeedPro 540 Bio Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label",
-        "crops": [
-          "Wheat",
-          "Barley",
-          "Triticale",
-          "Cereal Rye"
-        ]
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Volunteer%20Sunflower%20weed%20Australia"
-  },
-  {
-    "commonName": "Volunteer Vetch",
-    "linkedProducts": [
-      {
-        "productId": "nufarmsentry",
-        "productName": "Nufarm Sentry Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "terrador",
-        "productName": "Nufarm Terrad'or® 700 WG",
-        "source": "label"
-      },
-      {
-        "productId": "cortevalontreladvanced",
-        "productName": "Corteva Lontrel Advanced Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Volunteer%20Vetch%20weed%20Australia"
-  },
-  {
-    "commonName": "Volunteer Wheat",
-    "linkedProducts": [
-      {
-        "productId": "adamafirepower900",
-        "productName": "Adama Firepower 900",
-        "source": "label"
-      },
-      {
-        "productId": "imtradeclethodim240ec",
-        "productName": "Imtrade Clethodim 240 EC Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "terrador",
-        "productName": "Nufarm Terrad'or® 700 WG",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Volunteer%20Wheat%20weed%20Australia"
-  },
-  {
-    "commonName": "Vulpia",
-    "scientificName": "Vulpia spp.",
-    "synonyms": [
-      "Rat's tail fescue",
-      "Silver grass",
-      "Silvergrass",
-      "Fescue"
-    ],
-    "family": "Poaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Green",
-      "Silver"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide",
-      "Cultivation"
-    ],
-    "floweringPeriod": "Spring",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Vulpia+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "adamapalmero750wg",
-        "productName": "Palmero 750 WG Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "roundup_ultramax",
-        "productName": "Bayer Roundup® UltraMAX Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "spray_seed",
-        "productName": "Syngenta SPRAY.SEED® 250 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "terrador",
-        "productName": "Nufarm Terrad'or® 700 WG",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/vulpia.webp"
-  },
-  {
-    "commonName": "Wandering dude",
-    "scientificName": "Tradescantia fluminensis, T. pallida and T. spathacea",
-    "synonyms": [
-      "Rhoeo",
-      "Moses-in-the-cradle",
-      "Moses in a boat",
-      "Boat lily",
-      "Oyster plant",
-      "Purple heart",
-      "Spiderwort",
-      "Wandering spider wort"
-    ],
-    "family": "Commelinaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "White",
-      "Pink"
-    ],
-    "foliageColors": [
-      "Variegated",
-      "Green",
-      "Purple"
-    ],
-    "controlMethods": [
-      "Foliar spray",
-      "Complete removal"
-    ],
-    "floweringPeriod": "Spring to Autumn",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Wandering+dude+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/wandering-dude.webp"
-  },
-  {
-    "commonName": "Ward's weed",
-    "scientificName": "Carrichtera annua",
-    "synonyms": [
-      "Ward's weed"
-    ],
-    "family": "Brassicaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Yellow"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide",
-      "Cultivation"
-    ],
-    "floweringPeriod": "Winter to Spring",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Ward's+Weed+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "crucial",
-        "productName": "Nufarm CRUCIAL®",
-        "crops": []
-      },
-      {
-        "productId": "kamba_m",
-        "productName": "Nufarm Kamba® M",
-        "crops": []
-      },
-      {
-        "productId": "nufarmkamba750",
-        "productName": "Nufarm Kamba® 750 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "nufarmmcpaamine750",
-        "productName": "Nufarm MCPA Amine 750 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "dropzone",
-        "productName": "Nufarm DROPZONE® 640 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "spray_seed",
-        "productName": "Syngenta SPRAY.SEED® 250 Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/ward-s-weed.webp"
-  },
-  {
-    "commonName": "Water couch",
-    "scientificName": "Paspalum distichum",
-    "synonyms": [
-      "Water couch",
-      "Knotgrass"
-    ],
-    "family": "Poaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Green"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Glyphosate",
-      "Selective herbicide"
-    ],
-    "floweringPeriod": "Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Water+couch+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "roundup_ultramax",
-        "productName": "Bayer Roundup® UltraMAX Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "surefireglyphosate",
-        "productName": "Surefire Glyphosate 360 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "weedmaster_dst",
-        "productName": "Nufarm Weedmaster® DST® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "weedmaster_duo",
-        "productName": "Nufarm weedmaster® DUO Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/water-couch.webp"
-  },
-  {
-    "commonName": "Water hyacinth",
-    "scientificName": "Eichhornia crassipes",
-    "synonyms": [
-      "Lilac devil",
-      "Nile lily",
-      "Pickerelweed",
-      "Water orchid"
-    ],
-    "family": "Pontederiaceae",
-    "leafArrangement": "Basal",
-    "flowerColors": [
-      "Purple"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray",
-      "Complete removal"
-    ],
-    "floweringPeriod": "Summer - Winter",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Water+hyacinth+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "weedmaster_duo",
-        "productName": "Nufarm weedmaster® DUO Herbicide",
-        "crops": []
-      },
-      {
-        "productId": "reglone",
-        "productName": "Reglone® Non-Residual Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/water-hyacinth.webp"
-  },
-  {
-    "commonName": "Water lettuce",
-    "scientificName": "Pistia stratiotes",
-    "synonyms": [
-      "Water lettuce",
-      "Pistia",
-      "Floating aroid",
-      "Nile cabbage",
-      "Tropical duckweed",
-      "Shell flower",
-      "Water cabbage"
-    ],
-    "family": "Araceae",
-    "leafArrangement": "Basal",
-    "flowerColors": [
-      "Green"
-    ],
-    "foliageColors": [
-      "Green",
-      "Discoloured"
-    ],
-    "controlMethods": [
-      "Foliar spray",
-      "Complete removal"
-    ],
-    "floweringPeriod": "Summer - Autumn",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Water+lettuce+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "weedmaster_duo",
-        "productName": "Nufarm weedmaster® DUO Herbicide",
-        "crops": []
-      },
-      {
-        "productId": "reglone",
-        "productName": "Reglone® Non-Residual Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/water-lettuce.webp"
-  },
-  {
-    "commonName": "Water Lilies",
-    "linkedProducts": [
-      {
-        "productId": "reglone",
-        "productName": "Reglone® Non-Residual Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Water%20Lilies%20weed%20Australia"
-  },
-  {
-    "commonName": "Water lily",
-    "scientificName": "Nymphaea spp.",
-    "synonyms": [
-      "Water lily"
-    ],
-    "family": "Nymphaeaceae",
-    "leafArrangement": "Floating",
-    "flowerColors": [
-      "White",
-      "Blue",
-      "Pink"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Herbicide spray",
-      "Physical removal"
-    ],
-    "floweringPeriod": "Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Water+Lilies+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/water-lily.webp"
-  },
-  {
-    "commonName": "Water mimosa",
-    "scientificName": "Neptunia oleracea and N. plena",
-    "synonyms": [
-      "Sensitive neptunia"
-    ],
-    "family": "Fabaceae",
-    "leafArrangement": "Opposite",
-    "flowerColors": [
-      "Yellow"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide"
-    ],
-    "floweringPeriod": "Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Water+mimosa+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/water-mimosa.webp"
-  },
-  {
-    "commonName": "Water plantain",
-    "scientificName": "Alisma plantago-aquatica",
-    "synonyms": [
-      "Water plantain"
-    ],
-    "family": "Alismataceae",
-    "leafArrangement": "Rosette",
-    "flowerColors": [
-      "White",
-      "Pink"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Herbicide spray",
-      "Physical removal"
-    ],
-    "floweringPeriod": "Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Water+plantain+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "cortevaubeniq",
-        "productName": "Ubeniq Rinskor Active Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/water-plantain.webp"
-  },
-  {
-    "commonName": "Water primrose",
-    "scientificName": "Ludwigia peploides",
-    "synonyms": [
-      "Water primrose",
-      "Floating primrose willow"
-    ],
-    "family": "Onagraceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Yellow"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Glyphosate",
-      "Physical removal"
-    ],
-    "floweringPeriod": "Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Water+primrose+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "surefireamine625",
-        "productName": "Surefire Amine 625 Selective Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "dropzone",
-        "productName": "Nufarm DROPZONE® 640 Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/water-primrose.webp"
-  },
-  {
-    "commonName": "Water soldiers",
-    "scientificName": "Stratiotes aloides",
-    "synonyms": [
-      "Water pineapple",
-      "Water aloe"
-    ],
-    "family": "Hydrocharitaceae",
-    "leafArrangement": "Whorled",
-    "flowerColors": [
-      "White"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide"
-    ],
-    "floweringPeriod": "summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Water+soldiers+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/water-soldiers.webp"
-  },
-  {
-    "commonName": "Water Weeds",
-    "linkedProducts": [
-      {
-        "productId": "adamadiuron900wg",
-        "productName": "Adama Diuron 900 WG",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Water%20Weeds%20weed%20Australia"
-  },
-  {
-    "commonName": "Wattle",
-    "scientificName": "Acacia spp., except corkwood wattle",
-    "synonyms": [
-      "Wattle"
-    ],
-    "family": "Fabaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Yellow"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Cut stump method",
-      "Basal bark treatment",
-      "Foliar spray"
-    ],
-    "floweringPeriod": "Winter to Spring",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Wattle+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "conqueror",
-        "productName": "Nufarm Conqueror® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "raizon",
-        "productName": "SUREFIRE RAIZON HERBICIDE RLP",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/wattle.webp"
-  },
-  {
-    "commonName": "Weed Control At Harvest",
-    "linkedProducts": [
-      {
-        "productId": "reglone",
-        "productName": "Reglone® Non-Residual Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Weed%20Control%20At%20Harvest%20weed%20Australia"
-  },
-  {
-    "commonName": "Weed Control In Poppies",
-    "linkedProducts": [
-      {
-        "productId": "reglone",
-        "productName": "Reglone® Non-Residual Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Weed%20Control%20In%20Poppies%20weed%20Australia"
-  },
-  {
-    "commonName": "Weeping lovegrass",
-    "scientificName": "Eragrostis parviflora",
-    "synonyms": [
-      "African lovegrass",
-      "Weeping lovegrass"
-    ],
-    "family": "Poaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Green",
-      "Brown"
-    ],
-    "foliageColors": [
-      "Green",
-      "Blue-green"
-    ],
-    "controlMethods": [
-      "Flupropanate",
-      "Glyphosate"
-    ],
-    "floweringPeriod": "Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Weeping+Love+Grass+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "weedmaster_dst",
-        "productName": "Nufarm Weedmaster® DST® Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/weeping-lovegrass.webp"
-  },
-  {
-    "commonName": "Weevil",
-    "linkedProducts": [
-      {
-        "productId": "mavrik",
-        "productName": "Mavrik Aquaflo",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Weevil%20weed%20Australia"
-  },
-  {
-    "commonName": "Westwood pear",
-    "scientificName": "Opuntia streptacantha",
-    "synonyms": [
-      "Nopal Cardón"
-    ],
-    "family": "Cactaceae",
-    "leafArrangement": "Basal",
-    "flowerColors": [
-      "Yellow"
-    ],
-    "foliageColors": [
-      "Green",
-      "Discoloured"
-    ],
-    "controlMethods": [
-      "Selective herbicide"
-    ],
-    "floweringPeriod": "Spring",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Westwood+pear+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/westwood-pear.webp"
-  },
-  {
-    "commonName": "Wheel cactus",
-    "scientificName": "Opuntia robusta",
-    "synonyms": [
-      "Wheel cactus",
-      "Nopal tapona"
-    ],
-    "family": "Cactaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Yellow"
-    ],
-    "foliageColors": [
-      "Green",
-      "Blue-green"
-    ],
-    "controlMethods": [
-      "Biological control",
-      "Herbicide injection",
-      "Cut stump method"
-    ],
-    "floweringPeriod": "Spring to Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Wheel+Cactus+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "vesta",
-        "productName": "Vesta Herbicide",
-        "crops": []
-      }
-    ],
-    "thumbnail": "images/weeds/wheel-cactus.webp"
-  },
-  {
-    "commonName": "Whisky grass",
-    "scientificName": "Andropogon virginicus",
-    "synonyms": [
-      "Whisky grass",
-      "Andropogon",
-      "Beard grass",
-      "Broom sedge",
-      "Bluestem",
-      "Whiskey grass",
-      "Yellow bluestem"
-    ],
-    "family": "Poaceae",
-    "leafArrangement": "Basal",
-    "flowerColors": [
-      "White",
-      "Green"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray",
-      "Slashing and mowing"
-    ],
-    "floweringPeriod": "Autumn-Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Whisky+grass+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/whisky-grass.webp"
-  },
-  {
-    "commonName": "White ball acacia",
-    "scientificName": "Acaciella glauca syn. Acacia angustissima syn. Acacia boliviana Syn. Mimosa glauca",
-    "synonyms": [
-      "Redwood",
-      "Wild dividivi"
-    ],
-    "family": "Fabaceae:",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "White",
-      "Cream"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide"
-    ],
-    "floweringPeriod": "Flowering and fruiting in January to  February.",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=White+Ball+Acacia+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/white-ball-acacia.webp"
-  },
-  {
-    "commonName": "White clover",
-    "scientificName": "Trifolium repens",
-    "synonyms": [
-      "White clover",
-      "Dutch clover"
-    ],
-    "family": "Fabaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "White"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray"
-    ],
-    "floweringPeriod": "Spring - Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=White+clover+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "basta",
-        "productName": "BASF Basta® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "campbelllonhro100wg",
-        "productName": "Campbell Lonhro® 100 WG Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "surefiremultiturf",
-        "productName": "Surefire Multi Turf Herbicide",
-        "source": "label",
-        "crops": [
-          "Turf"
-        ]
-      }
-    ],
-    "thumbnail": "images/weeds/white-clover.webp"
-  },
-  {
-    "commonName": "White ginger",
-    "scientificName": "Hedychium coronarium",
-    "synonyms": [
-      "White ginger",
-      "Butterfly ginger",
-      "Butterfly lily",
-      "Cinnamon jasmine",
-      "Garland flower",
-      "Garland lily",
-      "Ginger lily",
-      "White butterfly ginger"
-    ],
-    "family": "Zingiberaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "White"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray",
-      "Complete removal"
-    ],
-    "floweringPeriod": "Summer - Autumn",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=White+ginger+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/white-ginger.webp"
-  },
-  {
-    "commonName": "White ironweed",
-    "scientificName": "Corn gromwell, Sheepweed",
-    "synonyms": [
-      "Little ironweed",
-      "White ironweed"
-    ],
-    "family": "Asteraceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "White",
-      "Purple"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide",
-      "Hand removal"
-    ],
-    "floweringPeriod": "Year-round",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=White+ironweed+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "nufarmmcpaamine750",
-        "productName": "Nufarm MCPA Amine 750 Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/white-ironweed.webp"
-  },
-  {
-    "commonName": "White Mahogany",
-    "linkedProducts": [
-      {
-        "productId": "surefireweedprobioaqua360",
-        "productName": "Surefire WeedPro BioAqua 360 Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=White%20Mahogany%20weed%20Australia"
-  },
-  {
-    "commonName": "White morning glory",
-    "scientificName": "Ipomoea alba",
-    "synonyms": [
-      "White morning glory",
-      "Moonflower",
-      "Evening glory",
-      "Giant moonflower",
-      "Moonflower vine",
-      "Moon vine",
-      "Moonvine",
-      "Tropical white morning glory"
-    ],
-    "family": "Convolvulaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "White"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Cut stump method",
-      "Foliar spray"
-    ],
-    "floweringPeriod": "Spring - Autumn",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=White+morning+glory+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/white-morning-glory.webp"
-  },
-  {
-    "commonName": "White mulberry",
-    "scientificName": "Morus alba",
-    "synonyms": [
-      "White mulberry",
-      "Common mulberry",
-      "Mulberry",
-      "Silkworm mulberry",
-      "White mulberry tree"
-    ],
-    "family": "Moraceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "White"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Cut stump method",
-      "Basal bark treatment"
-    ],
-    "floweringPeriod": "Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=White+mulberry+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/white-mulberry.webp"
-  },
-  {
-    "commonName": "White oak",
-    "scientificName": "Grevillea baileyana",
-    "synonyms": [
-      "Brown silky oak",
-      "Scrub Beefwood",
-      "Findlay's Silky",
-      "Bailey's Silky Oak",
-      "Findlay's Silky Oak"
-    ],
-    "family": "Proteaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Cream"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Cut stump method",
-      "Basal bark treatment",
-      "Complete removal"
-    ],
-    "floweringPeriod": "Late spring and early summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=White+Oak+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/white-oak.webp"
-  },
-  {
-    "commonName": "White passionflower",
-    "scientificName": "Passiflora subpeltata",
-    "synonyms": [
-      "White passionflower",
-      "Passion flower",
-      "Passion fruit",
-      "White passionfruit",
-      "Wild grenadilla"
-    ],
-    "family": "Passifloraceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "White"
-    ],
-    "foliageColors": [
-      "Purple"
-    ],
-    "controlMethods": [
-      "Cut stump method",
-      "Foliar spray",
-      "Complete removal"
-    ],
-    "floweringPeriod": "Spring- Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=White+passionflower+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/white-passionflower.webp"
-  },
-  {
-    "commonName": "White shrimp plant",
-    "scientificName": "Justicia betonica",
-    "synonyms": [
-      "Paper plume",
-      "Shrimp plant",
-      "Squirrel tail",
-      "Squirrel's tail",
-      "Squirreltail",
-      "White shrimp"
-    ],
-    "family": "Acanthaceae",
-    "leafArrangement": "Opposite",
-    "flowerColors": [
-      "White",
-      "Pink",
-      "Purple"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray",
-      "Complete removal"
-    ],
-    "floweringPeriod": "Summer to Autumn",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=White+Shrimp+Plant+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/white-shrimp-plant.webp"
-  },
-  {
-    "commonName": "Whitewood",
-    "scientificName": "Atalaya hemiglauca",
-    "synonyms": [
-      "Whitewood"
-    ],
-    "family": "Sapindaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Cream"
-    ],
-    "foliageColors": [
-      "Green",
-      "Grey-green"
-    ],
-    "controlMethods": [
-      "Cut stump method",
-      "Basal bark treatment"
-    ],
-    "floweringPeriod": "Spring",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Whitewood+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "graslan",
-        "productName": "Graslan Herbicide",
-        "crops": []
-      }
-    ],
-    "thumbnail": "images/weeds/whitewood.webp"
-  },
-  {
-    "commonName": "Wier vine",
-    "scientificName": "Clematis glycinoides",
-    "synonyms": [
-      "Headache vine",
-      "Forest clematis"
-    ],
-    "family": "Ranunculaceae",
-    "leafArrangement": "Opposite",
-    "flowerColors": [
-      "White",
-      "Cream"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray",
-      "Cut and paint"
-    ],
-    "floweringPeriod": "Spring to Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Wier+vine+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "dropzone",
-        "productName": "Nufarm DROPZONE® 640 Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/wier-vine.webp"
-  },
-  {
-    "commonName": "Wild aster",
-    "scientificName": "Aster subulatus syn. Symphyotrichum subulatum",
-    "synonyms": [
-      "Annual saltmarsh aster",
-      "Aster",
-      "Aster weed",
-      "Bushy starwort",
-      "Eastern annual saltmarsh aster",
-      "Saltmarsh aster",
-      "Sea aster",
-      "Slender aster",
-      "Slim aster",
-      "Small saltmarsh aster"
-    ],
-    "family": "Asteraceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "White"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray",
-      "Complete removal"
-    ],
-    "floweringPeriod": "Flowers at any time of the year with the main flowering occurring between November and February.",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Wild+aster+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/wild-aster.webp"
-  },
-  {
-    "commonName": "Wild carrot",
-    "scientificName": "Daucus carota",
-    "synonyms": [
-      "Wild carrot",
-      "Queen Anne's lace"
-    ],
-    "family": "Apiaceae",
-    "leafArrangement": "Rosette",
-    "flowerColors": [
-      "White"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide",
-      "Hand removal"
-    ],
-    "floweringPeriod": "Spring to Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Wild+carrot+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "spray_seed",
-        "productName": "Syngenta SPRAY.SEED® 250 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "basta",
-        "productName": "BASF Basta® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "biffo",
-        "productName": "Nufarm Biffo®",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/wild-carrot.webp"
-  },
-  {
-    "commonName": "Wild garlic",
-    "scientificName": "Allium vineale",
-    "synonyms": [
-      "Wild garlic",
-      "Crow garlic"
-    ],
-    "family": "Amaryllidaceae",
-    "leafArrangement": "Basal",
-    "flowerColors": [
-      "Purple",
-      "Pink"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide",
-      "Hand removal"
-    ],
-    "floweringPeriod": "Spring to Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Wild+garlic+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "associate",
-        "productName": "Nufarm Associate®",
-        "source": "label"
-      },
-      {
-        "productId": "nufarmkamba750",
-        "productName": "Nufarm Kamba® 750 Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/wild-garlic.webp"
-  },
-  {
-    "commonName": "Wild gooseberry",
-    "scientificName": "Physalis minima",
-    "synonyms": [
-      "Native gooseberry",
-      "Ground cherry",
-      "Annual gooseberry",
-      "Sun berry",
-      "Annual ground cherry"
-    ],
-    "family": "Solanaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Yellow"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide",
-      "Cultivation"
-    ],
-    "floweringPeriod": "Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Gooseberry+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "crucial",
-        "productName": "Nufarm CRUCIAL®",
-        "crops": []
-      },
-      {
-        "productId": "kelpieazine900",
-        "productName": "Kelpie A-Zine 900 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "spray_seed",
-        "productName": "Syngenta SPRAY.SEED® 250 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "nufarmkamba750",
-        "productName": "Nufarm Kamba® 750 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "roundup_ultramax",
-        "productName": "Bayer Roundup® UltraMAX Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "surefireglyphosate",
-        "productName": "Surefire Glyphosate 360 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "surefireweedpro540",
-        "productName": "Surefire WeedPro 540 Bio Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "basta",
-        "productName": "BASF Basta® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "biffo",
-        "productName": "Nufarm Biffo®",
-        "source": "label"
-      },
-      {
-        "productId": "dropzone",
-        "productName": "Nufarm DROPZONE® 640 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "weedmaster_dst",
-        "productName": "Nufarm Weedmaster® DST® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "adamapriority",
-        "productName": "Adama Priority® Herbicide",
-        "source": "label",
-        "crops": [
-          "Wheat",
-          "Barley",
-          "Triticale",
-          "Oats",
-          "Ryegrass Pastures",
-          "Fallow"
-        ]
-      }
-    ],
-    "thumbnail": "images/weeds/wild-gooseberry.webp"
-  },
-  {
-    "commonName": "Wild hops",
-    "scientificName": "Dodonaea viscosa",
-    "synonyms": [
-      "Sticky hop bush",
-      "Wild hops"
-    ],
-    "family": "Sapindaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Yellow",
-      "Green"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Cut stump method",
-      "Basal bark treatment",
-      "Foliar spray"
-    ],
-    "floweringPeriod": "Spring to Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Wild+hops+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "arystalamitron700wg",
-        "productName": "Amitron 700 WG Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "kelpieazine900",
-        "productName": "Kelpie A-Zine 900 Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/wild-hops.webp"
-  },
-  {
-    "commonName": "Wild Oat",
-    "linkedProducts": [
-      {
-        "productId": "nufarmpyroxasulfone850wg",
-        "productName": "Nufarm Pyroxasulfone 850 WG",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Wild%20Oat%20weed%20Australia"
-  },
-  {
-    "commonName": "Wild oats",
-    "scientificName": "Avena fatua",
-    "synonyms": [
-      "Wild oats",
-      "Common wild oat"
-    ],
-    "family": "Poaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Green"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray"
-    ],
-    "floweringPeriod": "Spring",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Wild+Oats+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "crucial",
-        "productName": "Nufarm CRUCIAL®",
-        "crops": []
-      },
-      {
-        "productId": "fuzilierherbicide",
-        "productName": "Fuzilier Selective Herbicide",
-        "crops": []
-      },
-      {
-        "productId": "gamma",
-        "productName": "Surefire Gamma",
-        "crops": []
-      },
-      {
-        "productId": "adamadiuron900wg",
-        "productName": "Adama Diuron 900 WG",
-        "source": "label"
-      },
-      {
-        "productId": "adamafarmozine900wg",
-        "productName": "Adama Farmozine 900 WG",
-        "source": "label"
-      },
-      {
-        "productId": "adamafirepower900",
-        "productName": "Adama Firepower 900",
-        "source": "label"
-      },
-      {
-        "productId": "adamauraganwg",
-        "productName": "Uragan WG Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "atlantisod",
-        "productName": "Bayer Atlantis® OD Selective Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "imtradeclethodim240ec",
-        "productName": "Imtrade Clethodim 240 EC Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "kelpieazine900",
-        "productName": "Kelpie A-Zine 900 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "nufarmpyroxasulfone850wg",
-        "productName": "Nufarm Pyroxasulfone 850 WG",
-        "source": "label"
-      },
-      {
-        "productId": "pendimethalin",
-        "productName": "Nufarm Pendimethalin 440 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "roundup_ultramax",
-        "productName": "Bayer Roundup® UltraMAX Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "sencor",
-        "productName": "Sencor 480 SC Selective Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "sipcamatrazine500sc",
-        "productName": "Sipcam Atrazine 500 SC Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "spray_seed",
-        "productName": "Syngenta SPRAY.SEED® 250 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "surefireglyphosate",
-        "productName": "Surefire Glyphosate 360 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "surefireweedpro540",
-        "productName": "Surefire WeedPro 540 Bio Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "triflurx",
-        "productName": "Nufarm TriflurX Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "basta",
-        "productName": "BASF Basta® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "biffo",
-        "productName": "Nufarm Biffo®",
-        "source": "label"
-      },
-      {
-        "productId": "nufarmsentry",
-        "productName": "Nufarm Sentry Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "piston250",
-        "productName": "Axichem Piston 250 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "spraytop",
-        "productName": "Adama Spraytop® 250 SL Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "terrador",
-        "productName": "Nufarm Terrad'or® 700 WG",
-        "source": "label"
-      },
-      {
-        "productId": "weedmaster_dst",
-        "productName": "Nufarm Weedmaster® DST® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "boxergold",
-        "productName": "Syngenta Boxer Gold® Herbicide",
-        "source": "label",
-        "crops": [
-          "Barley",
-          "Wheat"
-        ]
-      }
-    ],
-    "thumbnail": "images/weeds/wild-oats.webp"
-  },
-  {
-    "commonName": "Wild Or Prickly Lettuce",
-    "linkedProducts": [
-      {
-        "productId": "nufarmkamba750",
-        "productName": "Nufarm Kamba® 750 Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Wild%20Or%20Prickly%20Lettuce%20weed%20Australia"
-  },
-  {
-    "commonName": "Wild radish",
-    "scientificName": "Raphanus raphanistrum",
-    "synonyms": [
-      "Wild radish",
-      "Jointed charlock"
-    ],
-    "family": "Brassicaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Yellow",
-      "White",
-      "Purple"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray"
-    ],
-    "floweringPeriod": "Winter - Spring",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Wild+Radish+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "crucial",
-        "productName": "Nufarm CRUCIAL®",
-        "crops": []
-      },
-      {
-        "productId": "gamma",
-        "productName": "Surefire Gamma",
-        "crops": []
-      },
-      {
-        "productId": "kamba_m",
-        "productName": "Nufarm Kamba® M",
-        "crops": []
-      },
-      {
-        "productId": "nufarmarcher750",
-        "productName": "Nufarm Archer® 750 Herbicide",
-        "crops": []
-      },
-      {
-        "productId": "nufarmmcpaamine750",
-        "productName": "Nufarm MCPA Amine 750 Herbicide",
-        "crops": []
-      },
-      {
-        "productId": "surefireamine625",
-        "productName": "Surefire Amine 625 Selective Herbicide",
-        "crops": []
-      },
-      {
-        "productId": "adamadiuron900wg",
-        "productName": "Adama Diuron 900 WG",
-        "source": "label"
-      },
-      {
-        "productId": "adamafarmozine900wg",
-        "productName": "Adama Farmozine 900 WG",
-        "source": "label"
-      },
-      {
-        "productId": "adamapalmero750wg",
-        "productName": "Palmero 750 WG Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "adamauraganwg",
-        "productName": "Uragan WG Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "biffo",
-        "productName": "Nufarm Biffo®",
-        "source": "label"
-      },
-      {
-        "productId": "infinityultra",
-        "productName": "Bayer Infinity® Ultra Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "kelpieazine900",
-        "productName": "Kelpie A-Zine 900 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "nufarmkamba750",
-        "productName": "Nufarm Kamba® 750 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "pendimethalin",
-        "productName": "Nufarm Pendimethalin 440 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "roundup_ultramax",
-        "productName": "Bayer Roundup® UltraMAX Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "sencor",
-        "productName": "Sencor 480 SC Selective Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "stomp_xtra",
-        "productName": "STOMP® XTRA",
-        "source": "label"
-      },
-      {
-        "productId": "terrain",
-        "productName": "Nufarm Terrain Flow Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "associate",
-        "productName": "Nufarm Associate®",
-        "source": "label"
-      },
-      {
-        "productId": "basta",
-        "productName": "BASF Basta® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "dropzone",
-        "productName": "Nufarm DROPZONE® 640 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "nufarmsentry",
-        "productName": "Nufarm Sentry Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "spray_seed",
-        "productName": "Syngenta SPRAY.SEED® 250 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "terrador",
-        "productName": "Nufarm Terrad'or® 700 WG",
-        "source": "label"
-      },
-      {
-        "productId": "weedmaster_dst",
-        "productName": "Nufarm Weedmaster® DST® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "surefirebuffalo",
-        "productName": "Surefire Buffalo, Bindi & Broadleaf Weedkiller",
-        "source": "label",
-        "crops": [
-          "Wheat",
-          "Barley",
-          "Cereal Rye",
-          "Oats",
-          "Triticale",
-          "Linseed",
-          "Grass Pastures"
-        ]
-      },
-      {
-        "productId": "adamapriority",
-        "productName": "Adama Priority® Herbicide",
-        "source": "label",
-        "crops": [
-          "Wheat",
-          "Barley",
-          "Triticale",
-          "Oats",
-          "Ryegrass Pastures",
-          "Fallow"
-        ]
-      }
-    ],
-    "thumbnail": "images/weeds/wild-radish.webp"
-  },
-  {
-    "commonName": "Wild Radish — Suppression",
-    "linkedProducts": [
-      {
-        "productId": "reglone",
-        "productName": "Reglone® Non-Residual Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Wild%20Radish%20%E2%80%94%20Suppression%20weed%20Australia"
-  },
-  {
-    "commonName": "Wild Radish Docks",
-    "linkedProducts": [
-      {
-        "productId": "surefireamine625",
-        "productName": "Surefire Amine 625 Selective Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Wild%20Radish%20Docks%20weed%20Australia"
-  },
-  {
-    "commonName": "Wild Radish Wild Turnip",
-    "linkedProducts": [
-      {
-        "productId": "surefireweedpro540",
-        "productName": "Surefire WeedPro 540 Bio Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Wild%20Radish%20Wild%20Turnip%20weed%20Australia"
-  },
-  {
-    "commonName": "Wild rosemary",
-    "scientificName": "Cassinia laevis",
-    "synonyms": [
-      "Shiny cassinia",
-      "Wild rosemary"
-    ],
-    "family": "Asteraceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "White"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Cut stump method",
-      "Foliar spray"
-    ],
-    "floweringPeriod": "Summer to Autumn",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Wild+rosemary+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "graslan",
-        "productName": "Graslan Herbicide",
-        "crops": []
-      },
-      {
-        "productId": "conqueror",
-        "productName": "Nufarm Conqueror® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "grazon_extra",
-        "productName": "Corteva Grazon® Extra Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "raizon",
-        "productName": "SUREFIRE RAIZON HERBICIDE RLP",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/wild-rosemary.webp"
-  },
-  {
-    "commonName": "Wild sugarcane",
-    "scientificName": "Saccharum spontaneum",
-    "synonyms": [],
-    "family": "Poaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray",
-      "Slashing and mowing"
-    ],
-    "floweringPeriod": "",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Wild+sugarcane+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/wild-sugarcane.webp"
-  },
-  {
-    "commonName": "Wild tobacco tree",
-    "scientificName": "Solanum mauritianum",
-    "synonyms": [],
-    "family": "Family",
-    "leafArrangement": "Whorled",
-    "flowerColors": [
-      "Purple"
-    ],
-    "foliageColors": [
-      "Red"
-    ],
-    "controlMethods": [
-      "Cut stump method"
-    ],
-    "floweringPeriod": "",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Wild+tobacco+tree+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "grazon_extra",
-        "productName": "Corteva Grazon® Extra Herbicide",
-        "crops": []
-      },
-      {
-        "productId": "raizon",
-        "productName": "SUREFIRE RAIZON HERBICIDE RLP",
-        "crops": []
-      },
-      {
-        "productId": "conqueror",
-        "productName": "Nufarm Conqueror® Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/wild-tobacco-tree.webp"
-  },
-  {
-    "commonName": "Wild turnip",
-    "scientificName": "Brassica oleracea",
-    "synonyms": [
-      "Wild turnip",
-      "Mediterranean turnip"
-    ],
-    "family": "Brassicaceae",
-    "leafArrangement": "Basal",
-    "flowerColors": [
-      "Yellow"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray"
-    ],
-    "floweringPeriod": "Winter - Spring",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Long+Fruited+Wild+Turnip+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "crucial",
-        "productName": "Nufarm CRUCIAL®",
-        "crops": []
-      },
-      {
-        "productId": "kamba_m",
-        "productName": "Nufarm Kamba® M",
-        "crops": []
-      },
-      {
-        "productId": "nufarmmcpaamine750",
-        "productName": "Nufarm MCPA Amine 750 Herbicide",
-        "crops": []
-      },
-      {
-        "productId": "surefireamine625",
-        "productName": "Surefire Amine 625 Selective Herbicide",
-        "crops": []
-      },
-      {
-        "productId": "adamadiuron900wg",
-        "productName": "Adama Diuron 900 WG",
-        "source": "label"
-      },
-      {
-        "productId": "adamafarmozine900wg",
-        "productName": "Adama Farmozine 900 WG",
-        "source": "label"
-      },
-      {
-        "productId": "adamauraganwg",
-        "productName": "Uragan WG Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "biffo",
-        "productName": "Nufarm Biffo®",
-        "source": "label"
-      },
-      {
-        "productId": "nufarm24db500",
-        "productName": "Nufarm 2,4-DB 500 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "nufarmkamba750",
-        "productName": "Nufarm Kamba® 750 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "roundup_ultramax",
-        "productName": "Bayer Roundup® UltraMAX Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "sencor",
-        "productName": "Sencor 480 SC Selective Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "stomp_xtra",
-        "productName": "STOMP® XTRA",
-        "source": "label"
-      },
-      {
-        "productId": "surefireglyphosate",
-        "productName": "Surefire Glyphosate 360 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "surefireweedpro540",
-        "productName": "Surefire WeedPro 540 Bio Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "associate",
-        "productName": "Nufarm Associate®",
-        "source": "label"
-      },
-      {
-        "productId": "dropzone",
-        "productName": "Nufarm DROPZONE® 640 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "nufarmarcher750",
-        "productName": "Nufarm Archer® 750 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "nufarmsentry",
-        "productName": "Nufarm Sentry Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "terrador",
-        "productName": "Nufarm Terrad'or® 700 WG",
-        "source": "label"
-      },
-      {
-        "productId": "weedmaster_dst",
-        "productName": "Nufarm Weedmaster® DST® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "surefirebuffalo",
-        "productName": "Surefire Buffalo, Bindi & Broadleaf Weedkiller",
-        "source": "label",
-        "crops": [
-          "Wheat",
-          "Barley",
-          "Cereal Rye",
-          "Oats",
-          "Triticale",
-          "Linseed",
-          "Grass Pastures"
-        ]
-      },
-      {
-        "productId": "boxergold",
-        "productName": "Syngenta Boxer Gold® Herbicide",
-        "source": "label",
-        "crops": [
-          "Wheat"
-        ]
-      }
-    ],
-    "thumbnail": "images/weeds/wild-turnip.webp"
-  },
-  {
-    "commonName": "Willow",
-    "scientificName": "Salix spp.",
-    "synonyms": [
-      "Willow",
-      "Crack willow",
-      "Weeping willow"
-    ],
-    "family": "Salicaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Yellow",
-      "Green"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Cut stump method",
-      "Foliar spray",
-      "Stem injection"
-    ],
-    "floweringPeriod": "Spring",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Willow+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "roundup_ultramax",
-        "productName": "Bayer Roundup® UltraMAX Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/willow.webp"
-  },
-  {
-    "commonName": "Willowherb",
-    "scientificName": "Epilobium spp.",
-    "synonyms": [
-      "Willow herb"
-    ],
-    "family": "Onagraceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Pink",
-      "White"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide",
-      "Hand removal"
-    ],
-    "floweringPeriod": "Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Willow+herb+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "basta",
-        "productName": "BASF Basta® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "biffo",
-        "productName": "Nufarm Biffo®",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/willowherb.webp"
-  },
-  {
-    "commonName": "Willows",
-    "scientificName": "All Salix spp. other than S. babylonica, S. x calodendron and S. x reichardtii",
-    "synonyms": [
-      "Pussy willow",
-      "Grey sallow",
-      "Crack willow",
-      "Basket willow",
-      "Black willow"
-    ],
-    "family": "Salicaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Yellow"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Basal bark treatment",
-      "Cut stump method",
-      "Stem injection"
-    ],
-    "floweringPeriod": "Spring",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Willows+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/willows.webp"
-  },
-  {
-    "commonName": "Windgrass",
-    "scientificName": "Chloris barbata",
-    "synonyms": [],
-    "family": "Poaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray",
-      "Slashing and mowing"
-    ],
-    "floweringPeriod": "",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Windgrass+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/windgrass.webp"
-  },
-  {
-    "commonName": "Windmill grass",
-    "scientificName": "Chloris truncata",
-    "synonyms": [
-      "Windmill grass"
-    ],
-    "family": "Poaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Green",
-      "Brown"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide",
-      "Cultivation"
-    ],
-    "floweringPeriod": "Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Windmill+Grass+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "adamafirepower900",
-        "productName": "Adama Firepower 900",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/windmill-grass.webp"
-  },
-  {
-    "commonName": "Winter grass",
-    "scientificName": "Poa annua",
-    "synonyms": [
-      "Annual poa",
-      "Annual bluegrass",
-      "Annual meadow grass"
-    ],
-    "family": "Poaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Green"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide",
-      "Pre-emergent herbicide"
-    ],
-    "floweringPeriod": "Autumn to Spring",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Winter+grass+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "crucial",
-        "productName": "Nufarm CRUCIAL®",
-        "crops": []
-      },
-      {
-        "productId": "adamauraganwg",
-        "productName": "Uragan WG Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "campbelllonhro100wg",
-        "productName": "Campbell Lonhro® 100 WG Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "campbellpoachek",
-        "productName": "Campbell Poachek® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "imtradeclethodim240ec",
-        "productName": "Imtrade Clethodim 240 EC Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "kelpieazine900",
-        "productName": "Kelpie A-Zine 900 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "roundup_ultramax",
-        "productName": "Bayer Roundup® UltraMAX Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "sencor",
-        "productName": "Sencor 480 SC Selective Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "stomp_xtra",
-        "productName": "STOMP® XTRA",
-        "source": "label"
-      },
-      {
-        "productId": "surefireglyphosate",
-        "productName": "Surefire Glyphosate 360 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "surefireweedpro540",
-        "productName": "Surefire WeedPro 540 Bio Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "terrain",
-        "productName": "Nufarm Terrain Flow Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "dualgold",
-        "productName": "Dual Gold® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "weedmaster_dst",
-        "productName": "Nufarm Weedmaster® DST® Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/winter-grass.webp"
-  },
-  {
-    "commonName": "Wintergrass",
-    "linkedProducts": [
-      {
-        "productId": "terrador",
-        "productName": "Nufarm Terrad'or® 700 WG",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Wintergrass%20weed%20Australia"
-  },
-  {
-    "commonName": "Wire Grasses",
-    "linkedProducts": [
-      {
-        "productId": "surefireweedpro540",
-        "productName": "Surefire WeedPro 540 Bio Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Wire%20Grasses%20weed%20Australia"
-  },
-  {
-    "commonName": "Wiregrass",
-    "scientificName": "Aristida spp.",
-    "synonyms": [
-      "Wire grass",
-      "Three-awn grass"
-    ],
-    "family": "Poaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Brown"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide",
-      "Cultivation"
-    ],
-    "floweringPeriod": "Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Wire+Grasses+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "crucial",
-        "productName": "Nufarm CRUCIAL®",
-        "crops": []
-      }
-    ],
-    "thumbnail": "images/weeds/wiregrass.webp"
-  },
-  {
-    "commonName": "Wireweed",
-    "scientificName": "Polygonum aviculare",
-    "synonyms": [
-      "Hogweed",
-      "Knotgrass",
-      "Sheepweed",
-      "Prostrate knotweed"
-    ],
-    "family": "Polygonaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Pink",
-      "White"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray",
-      "Complete removal"
-    ],
-    "floweringPeriod": "Spring - Autumn",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Hogweed/Wireweed+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "crucial",
-        "productName": "Nufarm CRUCIAL®",
-        "crops": []
-      },
-      {
-        "productId": "gamma",
-        "productName": "Surefire Gamma",
-        "crops": []
-      },
-      {
-        "productId": "kamba_m",
-        "productName": "Nufarm Kamba® M",
-        "crops": []
-      },
-      {
-        "productId": "spray_seed",
-        "productName": "Syngenta SPRAY.SEED® 250 Herbicide",
-        "crops": []
-      },
-      {
-        "productId": "adamapalmero750wg",
-        "productName": "Palmero 750 WG Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "associate",
-        "productName": "Nufarm Associate®",
-        "source": "label"
-      },
-      {
-        "productId": "infinityultra",
-        "productName": "Bayer Infinity® Ultra Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "kelpieazine900",
-        "productName": "Kelpie A-Zine 900 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "nufarm24db500",
-        "productName": "Nufarm 2,4-DB 500 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "nufarmkamba750",
-        "productName": "Nufarm Kamba® 750 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "pendimethalin",
-        "productName": "Nufarm Pendimethalin 440 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "roundup_ultramax",
-        "productName": "Bayer Roundup® UltraMAX Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "sencor",
-        "productName": "Sencor 480 SC Selective Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "stomp_xtra",
-        "productName": "STOMP® XTRA",
-        "source": "label"
-      },
-      {
-        "productId": "surefireweedpro540",
-        "productName": "Surefire WeedPro 540 Bio Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "triflurx",
-        "productName": "Nufarm TriflurX Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "adamadiuron900wg",
-        "productName": "Adama Diuron 900 WG",
-        "source": "label"
-      },
-      {
-        "productId": "nufarmmcpaamine750",
-        "productName": "Nufarm MCPA Amine 750 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "basta",
-        "productName": "BASF Basta® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "biffo",
-        "productName": "Nufarm Biffo®",
-        "source": "label"
-      },
-      {
-        "productId": "dualgold",
-        "productName": "Dual Gold® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "nufarmsentry",
-        "productName": "Nufarm Sentry Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "striker",
-        "productName": "Nufarm Striker® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "weedmaster_dst",
-        "productName": "Nufarm Weedmaster® DST® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "surefirebuffalo",
-        "productName": "Surefire Buffalo, Bindi & Broadleaf Weedkiller",
-        "source": "label",
-        "crops": [
-          "Wheat",
-          "Barley",
-          "Cereal Rye",
-          "Oats",
-          "Triticale",
-          "Linseed",
-          "Grass Pastures"
-        ]
-      },
-      {
-        "productId": "boxergold",
-        "productName": "Syngenta Boxer Gold® Herbicide",
-        "source": "label",
-        "crops": [
-          "Barley",
-          "Wheat"
-        ]
-      },
-      {
-        "productId": "adamapriority",
-        "productName": "Adama Priority® Herbicide",
-        "source": "label",
-        "crops": [
-          "Wheat",
-          "Barley",
-          "Triticale",
-          "Oats",
-          "Ryegrass Pastures",
-          "Fallow"
-        ]
-      },
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label",
-        "crops": [
-          "Wheat",
-          "Barley",
-          "Oats",
-          "Triticale"
-        ]
-      }
-    ],
-    "thumbnail": "images/weeds/wireweed.webp"
-  },
-  {
-    "commonName": "Witchweed",
-    "scientificName": "Striga spp.",
-    "synonyms": [
-      "Witchweed"
-    ],
-    "family": "Orobanchaceae (also placed in Scrophulariaceae)",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Multi-coloured"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide"
-    ],
-    "floweringPeriod": "Flowering time varies with species and environmental conditions",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Witchweed+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/witchweed.webp"
-  },
-  {
-    "commonName": "Woody Weeds",
-    "linkedProducts": [
-      {
-        "productId": "associate",
-        "productName": "Nufarm Associate®",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Woody%20Weeds%20weed%20Australia"
-  },
-  {
-    "commonName": "Woolly top",
-    "scientificName": "Eriachne mucronata",
-    "synonyms": [
-      "Woolly top"
-    ],
-    "family": "Poaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Brown"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide"
-    ],
-    "floweringPeriod": "Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Woolly+Top+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "kelpieazine900",
-        "productName": "Kelpie A-Zine 900 Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/woolly-top.webp"
-  },
-  {
-    "commonName": "Wynn cassia",
-    "scientificName": "Chamaecrista rotundifolia",
-    "synonyms": [
-      "Round-leaf cassia",
-      "Roundleaf sensitive pea"
-    ],
-    "family": "Fabaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Yellow"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray",
-      "Slashing"
-    ],
-    "floweringPeriod": "Summer to autumn",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Chamaecrista+rotundifolia+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/wynn-cassia.webp"
-  },
-  {
-    "commonName": "Yarrow",
-    "scientificName": "Achillea millefolium",
-    "synonyms": [
-      "Yarrow",
-      "Milfoil",
-      "Thousand-leaf"
-    ],
-    "family": "Asteraceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "White"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide",
-      "Hand removal"
-    ],
-    "floweringPeriod": "Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Yarrow+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "nufarmkamba750",
-        "productName": "Nufarm Kamba® 750 Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/yarrow.webp"
-  },
-  {
-    "commonName": "Yellow bells",
-    "scientificName": "Tecoma stans",
-    "synonyms": [
-      "Yellow bells",
-      "Tecoma"
-    ],
-    "family": "Bignoniaceae",
-    "leafArrangement": "Opposite",
-    "flowerColors": [
-      "Yellow"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Cut stump method",
-      "Foliar spray",
-      "Basal bark treatment",
-      "Stem injection"
-    ],
-    "floweringPeriod": "Spring- Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Yellow+bells+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/yellow-bells.webp"
-  },
-  {
-    "commonName": "Yellow box",
-    "scientificName": "Eucalyptus melliodora",
-    "synonyms": [
-      "Yellow box"
-    ],
-    "family": "Myrtaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "White",
-      "Cream"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Cut stump method",
-      "Basal bark treatment"
-    ],
-    "floweringPeriod": "Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Yellow+box+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "associate",
-        "productName": "Nufarm Associate®",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/yellow-box.webp"
-  },
-  {
-    "commonName": "Yellow burrhead",
-    "scientificName": "Limnocharis flava",
-    "synonyms": [
-      "Yellow burrhead",
-      "Bur head",
-      "Limnocharis",
-      "Sawah flower rush",
-      "Sawah lettuce",
-      "Velvetleaf",
-      "Yellow burr head",
-      "Yellow sawah lettuce"
-    ],
-    "family": "Limnocharitaceae",
-    "leafArrangement": "Basal",
-    "flowerColors": [
-      "Yellow"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray"
-    ],
-    "floweringPeriod": "",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Yellow+burrhead+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/yellow-burrhead.webp"
-  },
-  {
-    "commonName": "Yellow Burweed",
-    "linkedProducts": [
-      {
-        "productId": "associate",
-        "productName": "Nufarm Associate®",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Yellow%20Burweed%20weed%20Australia"
-  },
-  {
-    "commonName": "Yellow ginger",
-    "scientificName": "Hedychium flavescens",
-    "synonyms": [
-      "Wild ginger",
-      "Yellow ginger",
-      "Yellow ginger lily"
-    ],
-    "family": "Zingiberaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Yellow"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Cut stump method",
-      "Foliar spray"
-    ],
-    "floweringPeriod": "Year Round",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Yellow+ginger+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/yellow-ginger.webp"
-  },
-  {
-    "commonName": "Yellow nutgrass",
-    "scientificName": "Cyperus esculentus",
-    "synonyms": [],
-    "family": "Cyperaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray"
-    ],
-    "floweringPeriod": "",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Yellow+nutgrass+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/yellow-nutgrass.webp"
-  },
-  {
-    "commonName": "Yellow oleander",
-    "scientificName": "Cascabela thevetia syn. Thevetia peruviana",
-    "synonyms": [
-      "Yellow oleander",
-      "Be still tree",
-      "Captain Cook tree",
-      "Cook tree",
-      "Foreigner's tree",
-      "Lucky nut",
-      "Mexican oleander",
-      "Still tree"
-    ],
-    "family": "Apocynaceae",
-    "leafArrangement": "Whorled",
-    "flowerColors": [
-      "Yellow",
-      "Orange"
-    ],
-    "foliageColors": [
-      "Green",
-      "Discoloured"
-    ],
-    "controlMethods": [
-      "Cut stump method",
-      "Foliar spray"
-    ],
-    "floweringPeriod": "Late Winter - Spring",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Yellow+oleander+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/yellow-oleander.webp"
-  },
-  {
-    "commonName": "Yellow sorrel",
-    "scientificName": "Oxalis stricta",
-    "synonyms": [],
-    "family": "Oxalidaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray"
-    ],
-    "floweringPeriod": "",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Yellow+sorrel+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/yellow-sorrel.webp"
-  },
-  {
-    "commonName": "Yellow weed",
-    "scientificName": "Euphorbia esula",
-    "synonyms": [
-      "Leafy spurge",
-      "Yellow weed"
-    ],
-    "family": "Euphorbiaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Yellow",
-      "Green"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Selective herbicide"
-    ],
-    "floweringPeriod": "Spring to Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Yellow+Weed+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "dualgold",
-        "productName": "Dual Gold® Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/yellow-weed.webp"
-  },
-  {
-    "commonName": "Yellowvine/Caltrop",
-    "linkedProducts": [
-      {
-        "productId": "surefireweedpro540",
-        "productName": "Surefire WeedPro 540 Bio Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Yellowvine%2FCaltrop%20weed%20Australia"
-  },
-  {
-    "commonName": "Yellowwood",
-    "scientificName": "Terminalia oblongata",
-    "synonyms": [
-      "Yellowwood",
-      "Yellow bauhinia"
-    ],
-    "family": "Combretaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Green",
-      "Cream"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Cut stump method",
-      "Basal bark treatment"
-    ],
-    "floweringPeriod": "Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Yellowwood+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "graslan",
-        "productName": "Graslan Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/yellowwood.webp"
-  },
-  {
-    "commonName": "Yorkshire fog",
-    "scientificName": "Holcus lanatus",
-    "synonyms": [
-      "Velvet grass",
-      "Tufted grass",
-      "Fog grass"
-    ],
-    "family": "Poaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Green",
-      "Pink"
-    ],
-    "foliageColors": [
-      "Green",
-      "Grey-green"
-    ],
-    "controlMethods": [
-      "Selective herbicide",
-      "Cultivation"
-    ],
-    "floweringPeriod": "Spring to Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Yorkshire+Fog+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "crucial",
-        "productName": "Nufarm CRUCIAL®",
-        "crops": []
-      },
-      {
-        "productId": "piston250",
-        "productName": "Axichem Piston 250 Herbicide",
-        "crops": []
-      },
-      {
-        "productId": "spraytop",
-        "productName": "Adama Spraytop® 250 SL Herbicide",
-        "crops": []
-      },
-      {
-        "productId": "roundup_ultramax",
-        "productName": "Bayer Roundup® UltraMAX Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "associate",
-        "productName": "Nufarm Associate®",
-        "source": "label"
-      },
-      {
-        "productId": "surefireglyphosate",
-        "productName": "Surefire Glyphosate 360 Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "weedmaster_dst",
-        "productName": "Nufarm Weedmaster® DST® Herbicide",
-        "source": "label"
-      },
-      {
-        "productId": "weedmaster_duo",
-        "productName": "Nufarm weedmaster® DUO Herbicide",
-        "source": "label"
-      }
-    ],
-    "thumbnail": "images/weeds/yorkshire-fog.webp"
-  },
-  {
-    "commonName": "Yorkshire Fog Grass",
-    "linkedProducts": [
-      {
-        "productId": "kelpieazine900",
-        "productName": "Kelpie A-Zine 900 Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Yorkshire%20Fog%20Grass%20weed%20Australia"
-  },
-  {
-    "commonName": "Yucca",
-    "scientificName": "Yucca aloifolia",
-    "synonyms": [
-      "Yucca"
-    ],
-    "family": "Agavaceae",
-    "leafArrangement": "Whorled",
-    "flowerColors": [
-      "White",
-      "Yellow"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Cut stump method",
-      "Foliar spray"
-    ],
-    "floweringPeriod": "Spring- Autumn",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Yucca+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/yucca.webp"
-  },
-  {
-    "commonName": "Zebrina",
-    "scientificName": "Tradescantia zebrina",
-    "synonyms": [
-      "Zebrina",
-      "Cockroach grass",
-      "Inch plant",
-      "Purple wandering dude",
-      "Silver inch plant",
-      "Striped trad",
-      "Striped wandering creeper",
-      "Wandering dude",
-      "Zebra plant"
-    ],
-    "family": "Commelinaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Pink"
-    ],
-    "foliageColors": [
-      "Variegated",
-      "Green",
-      "Purple",
-      "Discoloured"
-    ],
-    "controlMethods": [
-      "Foliar spray"
-    ],
-    "floweringPeriod": "Year Round",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Zebrina+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/zebrina.webp"
-  },
-  {
-    "commonName": "Zig-zag wattle",
-    "scientificName": "Acacia macradenia",
-    "synonyms": [
-      "Zig-zag wattle",
-      "Zigzag wattle"
-    ],
-    "family": "Mimosaceae",
-    "leafArrangement": "Opposite",
-    "flowerColors": [
-      "Yellow"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Cut stump method",
-      "Basal bark treatment",
-      "Stem injection"
-    ],
-    "floweringPeriod": "Winter-Spring",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Zig-zag+wattle+weed+australia",
-    "linkedProducts": [],
-    "thumbnail": "images/weeds/zig-zag-wattle.webp"
-  },
-  {
-    "commonName": "Zonal Geranium — Compact Plants",
-    "linkedProducts": [
-      {
-        "productId": "5218payback29oct2017",
-        "productName": "Payback® Plant Growth Regulator",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Zonal%20Geranium%20%E2%80%94%20Compact%20Plants%20weed%20Australia"
-  },
-  {
-    "commonName": "Stone crop",
-    "scientificName": "Crassula sieberiana",
-    "synonyms": [
-      "Australian stonecrop"
-    ],
-    "family": "Crassulaceae",
-    "leafArrangement": "Opposite",
-    "flowerColors": [
-      "White"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray",
-      "Pre-emergent herbicide"
-    ],
-    "floweringPeriod": "Autumn to spring",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Crassula+sieberiana+weed+Australia",
-    "linkedProducts": [
-      {
-        "productId": "boxergold",
-        "productName": "Syngenta Boxer Gold® Herbicide",
-        "source": "label",
-        "crops": [
-          "Barley",
-          "Oats",
-          "Triticale",
-          "Wheat",
-          "Chickpeas",
-          "Faba Beans",
-          "Field Peas",
-          "Lentils",
-          "Lupins"
-        ]
-      }
-    ]
-  },
-  {
-    "commonName": "Red fumitory",
-    "scientificName": "Fumaria muralis",
-    "synonyms": [
-      "Wall fumitory"
-    ],
-    "family": "Papaveraceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "Pink",
-      "Red"
-    ],
-    "foliageColors": [
-      "Green",
-      "Grey-green"
-    ],
-    "controlMethods": [
-      "Foliar spray",
-      "Pre-emergent herbicide"
-    ],
-    "floweringPeriod": "Winter to spring",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Fumaria+muralis+weed+Australia",
-    "linkedProducts": [
-      {
-        "productId": "boxergold",
-        "productName": "Syngenta Boxer Gold® Herbicide",
-        "source": "label",
-        "crops": [
-          "Barley",
-          "Wheat"
-        ]
-      }
-    ]
-  },
-  {
-    "commonName": "White fumitory",
-    "scientificName": "Fumaria capreolata",
-    "synonyms": [
-      "Ramping fumitory",
-      "Climbing fumitory"
-    ],
-    "family": "Papaveraceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [
-      "White",
-      "Cream"
-    ],
-    "foliageColors": [
-      "Green",
-      "Grey-green"
-    ],
-    "controlMethods": [
-      "Foliar spray",
-      "Pre-emergent herbicide"
-    ],
-    "floweringPeriod": "Winter to spring",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Fumaria+capreolata+weed+Australia",
-    "linkedProducts": [
-      {
-        "productId": "boxergold",
-        "productName": "Syngenta Boxer Gold® Herbicide",
-        "source": "label",
-        "crops": [
-          "Barley",
-          "Wheat"
-        ]
-      }
-    ]
-  },
-  {
-    "commonName": "Sand fescue",
-    "scientificName": "Vulpia fasciculata",
-    "synonyms": [
-      "Dune fescue"
-    ],
-    "family": "Poaceae",
-    "leafArrangement": "Basal",
-    "flowerColors": [
-      "Green"
-    ],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray",
-      "Pre-emergent herbicide"
-    ],
-    "floweringPeriod": "Spring to summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Vulpia+fasciculata+sand+fescue+weed+Australia",
-    "linkedProducts": [
-      {
-        "productId": "boxergold",
-        "productName": "Syngenta Boxer Gold® Herbicide",
-        "source": "label",
-        "crops": [
-          "Barley",
-          "Wheat"
-        ]
-      }
-    ]
-  },
-  {
-    "commonName": "Thornapples",
-    "scientificName": "",
-    "family": "",
-    "leafArrangement": "Alternate",
-    "flowerColors": [],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray"
-    ],
-    "floweringPeriod": "Spring to Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Thornapples+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "adamapriority",
-        "productName": "Adama Priority® Herbicide",
-        "source": "label",
-        "crops": [
-          "Wheat",
-          "Barley",
-          "Triticale",
-          "Oats",
-          "Ryegrass Pastures",
-          "Fallow"
-        ]
-      }
-    ]
-  },
-  {
-    "commonName": "Cleavers",
-    "scientificName": "",
-    "family": "",
-    "leafArrangement": "Alternate",
-    "flowerColors": [],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray"
-    ],
-    "floweringPeriod": "Spring to Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Cleavers+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "adamapriority",
-        "productName": "Adama Priority® Herbicide",
-        "source": "label",
-        "crops": [
-          "Wheat",
-          "Barley",
-          "Triticale",
-          "Oats",
-          "Ryegrass Pastures",
-          "Fallow"
-        ]
-      }
-    ]
-  },
-  {
-    "commonName": "Black Bindweed",
-    "scientificName": "",
-    "family": "",
-    "leafArrangement": "Alternate",
-    "flowerColors": [],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray"
-    ],
-    "floweringPeriod": "Spring to Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Black%20Bindweed+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "adamapriority",
-        "productName": "Adama Priority® Herbicide",
-        "source": "label",
-        "crops": [
-          "Wheat",
-          "Barley",
-          "Triticale",
-          "Oats",
-          "Ryegrass Pastures",
-          "Fallow"
-        ]
-      }
-    ]
-  },
-  {
-    "commonName": "Cowvine",
-    "scientificName": "Ipomoea lonchophylla",
-    "family": "Convolvulaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray"
-    ],
-    "floweringPeriod": "Spring to Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Cowvine+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "adamapriority",
-        "productName": "Adama Priority® Herbicide",
-        "source": "label",
-        "crops": [
-          "Wheat",
-          "Barley",
-          "Triticale",
-          "Oats",
-          "Ryegrass Pastures",
-          "Fallow"
-        ]
-      },
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label",
-        "crops": [
-          "Fallow"
-        ]
-      }
-    ]
-  },
-  {
-    "commonName": "Spiny Emex",
-    "scientificName": "",
-    "family": "",
-    "leafArrangement": "Alternate",
-    "flowerColors": [],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray"
-    ],
-    "floweringPeriod": "Spring to Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Spiny%20Emex+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "adamapriority",
-        "productName": "Adama Priority® Herbicide",
-        "source": "label",
-        "crops": [
-          "Wheat",
-          "Barley",
-          "Triticale",
-          "Oats",
-          "Ryegrass Pastures",
-          "Fallow"
-        ]
-      },
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label",
-        "crops": [
-          "Wheat",
-          "Barley",
-          "Triticale",
-          "Cereal Rye"
-        ]
-      }
-    ]
-  },
-  {
-    "commonName": "Dwarf Amaranth",
-    "scientificName": "Amaranthus macrocarpus",
-    "family": "Amaranthaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray"
-    ],
-    "floweringPeriod": "Spring to Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Dwarf%20Amaranth+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "adamapriority",
-        "productName": "Adama Priority® Herbicide",
-        "source": "label",
-        "crops": [
-          "Wheat",
-          "Barley",
-          "Triticale",
-          "Oats",
-          "Ryegrass Pastures",
-          "Fallow"
-        ]
-      }
-    ]
-  },
-  {
-    "commonName": "Common Storks Bill",
-    "scientificName": "",
-    "family": "",
-    "leafArrangement": "Alternate",
-    "flowerColors": [],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray"
-    ],
-    "floweringPeriod": "Spring to Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Common%20Storks%20Bill+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "adamapriority",
-        "productName": "Adama Priority® Herbicide",
-        "source": "label",
-        "crops": [
-          "Wheat",
-          "Barley",
-          "Triticale",
-          "Oats",
-          "Ryegrass Pastures",
-          "Fallow"
-        ]
-      }
-    ]
-  },
-  {
-    "commonName": "Fat Hen",
-    "scientificName": "",
-    "family": "",
-    "leafArrangement": "Alternate",
-    "flowerColors": [],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray"
-    ],
-    "floweringPeriod": "Spring to Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Fat%20Hen+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "adamapriority",
-        "productName": "Adama Priority® Herbicide",
-        "source": "label",
-        "crops": [
-          "Wheat",
-          "Barley",
-          "Triticale",
-          "Oats",
-          "Ryegrass Pastures",
-          "Fallow"
-        ]
-      }
-    ]
-  },
-  {
-    "commonName": "Marshmallow",
-    "scientificName": "",
-    "family": "",
-    "leafArrangement": "Alternate",
-    "flowerColors": [],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray"
-    ],
-    "floweringPeriod": "Spring to Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Marshmallow+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "adamapriority",
-        "productName": "Adama Priority® Herbicide",
-        "source": "label",
-        "crops": [
-          "Wheat",
-          "Barley",
-          "Triticale",
-          "Oats",
-          "Ryegrass Pastures",
-          "Fallow"
-        ]
-      }
-    ]
-  },
-  {
-    "commonName": "Smallflower Mallow",
-    "scientificName": "",
-    "family": "",
-    "leafArrangement": "Alternate",
-    "flowerColors": [],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray"
-    ],
-    "floweringPeriod": "Spring to Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Smallflower%20Mallow+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "adamapriority",
-        "productName": "Adama Priority® Herbicide",
-        "source": "label",
-        "crops": [
-          "Wheat",
-          "Barley",
-          "Triticale",
-          "Oats",
-          "Ryegrass Pastures",
-          "Fallow"
-        ]
-      }
-    ]
-  },
-  {
-    "commonName": "Medic",
-    "scientificName": "",
-    "family": "",
-    "leafArrangement": "Alternate",
-    "flowerColors": [],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray"
-    ],
-    "floweringPeriod": "Spring to Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Medic+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "adamapriority",
-        "productName": "Adama Priority® Herbicide",
-        "source": "label",
-        "crops": [
-          "Wheat",
-          "Barley",
-          "Triticale",
-          "Oats",
-          "Ryegrass Pastures",
-          "Fallow"
-        ]
-      },
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label",
-        "crops": [
-          "Wheat",
-          "Barley",
-          "Triticale",
-          "Cereal Rye"
-        ]
-      }
-    ]
-  },
-  {
-    "commonName": "Pigweed",
-    "scientificName": "",
-    "family": "",
-    "leafArrangement": "Alternate",
-    "flowerColors": [],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray"
-    ],
-    "floweringPeriod": "Spring to Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Pigweed+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "adamapriority",
-        "productName": "Adama Priority® Herbicide",
-        "source": "label",
-        "crops": [
-          "Wheat",
-          "Barley",
-          "Triticale",
-          "Oats",
-          "Ryegrass Pastures",
-          "Fallow"
-        ]
-      }
-    ]
-  },
-  {
-    "commonName": "Stonecrop",
-    "scientificName": "",
-    "family": "",
-    "leafArrangement": "Alternate",
-    "flowerColors": [],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray"
-    ],
-    "floweringPeriod": "Spring to Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Stonecrop+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "adamapriority",
-        "productName": "Adama Priority® Herbicide",
-        "source": "label",
-        "crops": [
-          "Wheat",
-          "Barley",
-          "Triticale",
-          "Oats",
-          "Ryegrass Pastures",
-          "Fallow"
-        ]
-      }
-    ]
-  },
-  {
-    "commonName": "Tares",
-    "scientificName": "",
-    "family": "",
-    "leafArrangement": "Alternate",
-    "flowerColors": [],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray"
-    ],
-    "floweringPeriod": "Spring to Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Tares+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "adamapriority",
-        "productName": "Adama Priority® Herbicide",
-        "source": "label",
-        "crops": [
-          "Wheat",
-          "Barley",
-          "Triticale",
-          "Oats",
-          "Ryegrass Pastures",
-          "Fallow"
-        ]
-      }
-    ]
-  },
-  {
-    "commonName": "Volunteer Chickpea",
-    "scientificName": "Cicer arietinum",
-    "family": "Fabaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray"
-    ],
-    "floweringPeriod": "Spring to Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Volunteer%20Chickpea+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "adamapriority",
-        "productName": "Adama Priority® Herbicide",
-        "source": "label",
-        "crops": [
-          "Wheat",
-          "Barley",
-          "Triticale",
-          "Oats",
-          "Ryegrass Pastures",
-          "Fallow"
-        ]
-      },
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label",
-        "crops": [
-          "Wheat",
-          "Barley",
-          "Oats",
-          "Triticale",
-          "Cereal Rye"
-        ]
-      }
-    ]
-  },
-  {
-    "commonName": "Volunteer Sunflowers",
-    "scientificName": "Helianthus annuus",
-    "family": "Asteraceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray"
-    ],
-    "floweringPeriod": "Spring to Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Volunteer%20Sunflowers+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "adamapriority",
-        "productName": "Adama Priority® Herbicide",
-        "source": "label",
-        "crops": [
-          "Wheat",
-          "Barley",
-          "Triticale",
-          "Oats",
-          "Ryegrass Pastures",
-          "Fallow"
-        ]
-      }
-    ]
-  },
-  {
-    "commonName": "Wild Turnip Weed",
-    "scientificName": "Brassica tournefortii",
-    "family": "Brassicaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray"
-    ],
-    "floweringPeriod": "Spring to Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Wild%20Turnip%20Weed+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "adamapriority",
-        "productName": "Adama Priority® Herbicide",
-        "source": "label",
-        "crops": [
-          "Wheat",
-          "Barley",
-          "Triticale",
-          "Oats",
-          "Ryegrass Pastures",
-          "Fallow"
-        ]
-      }
-    ]
-  },
-  {
-    "commonName": "Volunteer Pulses",
-    "scientificName": "Various pulse species",
-    "family": "Fabaceae",
-    "leafArrangement": "Alternate",
-    "flowerColors": [],
-    "foliageColors": [
-      "Green"
-    ],
-    "controlMethods": [
-      "Foliar spray"
-    ],
-    "floweringPeriod": "Spring to Summer",
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Volunteer%20Pulses+weed+australia",
-    "linkedProducts": [
-      {
-        "productId": "adamapriority",
-        "productName": "Adama Priority® Herbicide",
-        "source": "label",
-        "crops": [
-          "Fallow"
-        ]
-      }
-    ]
-  },
-  {
-    "commonName": "African Boxthorn",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=African%20Boxthorn%20weed%20Australia"
-  },
-  {
-    "commonName": "African Turnip Weed",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=African%20Turnip%20Weed%20weed%20Australia"
-  },
-  {
-    "commonName": "Alligator Weed",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Alligator%20Weed%20weed%20Australia"
-  },
-  {
-    "commonName": "Apple Box",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Apple%20Box%20weed%20Australia"
-  },
-  {
-    "commonName": "Australian Blackthorn",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Australian%20Blackthorn%20weed%20Australia"
-  },
-  {
-    "commonName": "Banksia",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Banksia%20weed%20Australia"
-  },
-  {
-    "commonName": "Biddy Bush",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Biddy%20Bush%20weed%20Australia"
-  },
-  {
-    "commonName": "Bitou Bush",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Bitou%20Bush%20weed%20Australia"
-  },
-  {
-    "commonName": "Blackberry Nightshade",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Blackberry%20Nightshade%20weed%20Australia"
-  },
-  {
-    "commonName": "Blue Heliotrope",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Blue%20Heliotrope%20weed%20Australia"
-  },
-  {
-    "commonName": "Boggabri Weed",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Boggabri%20Weed%20weed%20Australia"
-  },
-  {
-    "commonName": "Bracken Fern",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Bracken%20Fern%20weed%20Australia"
-  },
-  {
-    "commonName": "Bridal Creeper",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Bridal%20Creeper%20weed%20Australia"
-  },
-  {
-    "commonName": "Broadleaf Weeds",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Broadleaf%20Weeds%20weed%20Australia"
-  },
-  {
-    "commonName": "Camel Melon",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Camel%20Melon%20weed%20Australia"
-  },
-  {
-    "commonName": "Camphor Laurel",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Camphor%20Laurel%20weed%20Australia"
-  },
-  {
-    "commonName": "Cape Broom",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Cape%20Broom%20weed%20Australia"
-  },
-  {
-    "commonName": "Chinee Apple",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Chinee%20Apple%20weed%20Australia"
-  },
-  {
-    "commonName": "Climbing Buckwheat",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Climbing%20Buckwheat%20weed%20Australia"
-  },
-  {
-    "commonName": "Cockspur Thorn",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Cockspur%20Thorn%20weed%20Australia"
-  },
-  {
-    "commonName": "Common Sensitive Plant",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Common%20Sensitive%20Plant%20weed%20Australia"
-  },
-  {
-    "commonName": "Common Sowthistle",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Common%20Sowthistle%20weed%20Australia"
-  },
-  {
-    "commonName": "Crofton Weed",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Crofton%20Weed%20weed%20Australia"
-  },
-  {
-    "commonName": "Cucumber Melon",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Cucumber%20Melon%20weed%20Australia"
-  },
-  {
-    "commonName": "Eastern Cotton Bush",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Eastern%20Cotton%20Bush%20weed%20Australia"
-  },
-  {
-    "commonName": "English Broom",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=English%20Broom%20weed%20Australia"
-  },
-  {
-    "commonName": "Flax Leaf Broom",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Flax%20Leaf%20Broom%20weed%20Australia"
-  },
-  {
-    "commonName": "Flax-leaf Fleabane",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Flax-leaf%20Fleabane%20weed%20Australia"
-  },
-  {
-    "commonName": "Giant Bramble",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Giant%20Bramble%20weed%20Australia"
-  },
-  {
-    "commonName": "Golden Dodder",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Golden%20Dodder%20weed%20Australia"
-  },
-  {
-    "commonName": "Groundsel Bush",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Groundsel%20Bush%20weed%20Australia"
-  },
-  {
-    "commonName": "Harrisia Cactus",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Harrisia%20Cactus%20weed%20Australia"
-  },
-  {
-    "commonName": "Hogweed",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Hogweed%20weed%20Australia"
-  },
-  {
-    "commonName": "Indian Hedge Mustard",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Indian%20Hedge%20Mustard%20weed%20Australia"
-  },
-  {
-    "commonName": "Japanese Sunflower",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Japanese%20Sunflower%20weed%20Australia"
-  },
-  {
-    "commonName": "Kangaroo Thorn",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Kangaroo%20Thorn%20weed%20Australia"
-  },
-  {
-    "commonName": "Messmate Stringybark",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Messmate%20Stringybark%20weed%20Australia"
-  },
-  {
-    "commonName": "Montpellier Broom",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Montpellier%20Broom%20weed%20Australia"
-  },
-  {
-    "commonName": "New Zealand Spinach",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=New%20Zealand%20Spinach%20weed%20Australia"
-  },
-  {
-    "commonName": "Noogoora Burr",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Noogoora%20Burr%20weed%20Australia"
-  },
-  {
-    "commonName": "Parthenium Weed",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Parthenium%20Weed%20weed%20Australia"
-  },
-  {
-    "commonName": "Paterson's Curse",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Paterson's%20Curse%20weed%20Australia"
-  },
-  {
-    "commonName": "Peppermint Gum",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Peppermint%20Gum%20weed%20Australia"
-  },
-  {
-    "commonName": "Polymeria Pusilla",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Polymeria%20Pusilla%20weed%20Australia"
-  },
-  {
-    "commonName": "Prickly Lettuce",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Prickly%20Lettuce%20weed%20Australia"
-  },
-  {
-    "commonName": "Prickly Paddy Melon",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Prickly%20Paddy%20Melon%20weed%20Australia"
-  },
-  {
-    "commonName": "Red Gum",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Red%20Gum%20weed%20Australia"
-  },
-  {
-    "commonName": "Red Pigweed",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Red%20Pigweed%20weed%20Australia"
-  },
-  {
-    "commonName": "Rubber Vine",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Rubber%20Vine%20weed%20Australia"
-  },
-  {
-    "commonName": "Saffron Thistle Weed",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Saffron%20Thistle%20Weed%20weed%20Australia"
-  },
-  {
-    "commonName": "Saint John's Wort",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Saint%20John's%20Wort%20weed%20Australia"
-  },
-  {
-    "commonName": "Saltbush",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Saltbush%20weed%20Australia"
-  },
-  {
-    "commonName": "Slender Celery",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Slender%20Celery%20weed%20Australia"
-  },
-  {
-    "commonName": "Spear Thistle",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Spear%20Thistle%20weed%20Australia"
-  },
-  {
-    "commonName": "Stagger Weed",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Stagger%20Weed%20weed%20Australia"
-  },
-  {
-    "commonName": "Subterranean Clover",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Subterranean%20Clover%20weed%20Australia"
-  },
-  {
-    "commonName": "Sweet Briar",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Sweet%20Briar%20weed%20Australia"
-  },
-  {
-    "commonName": "Tree-of-Heaven",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Tree-of-Heaven%20weed%20Australia"
-  },
-  {
-    "commonName": "Turnip Weed",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Turnip%20Weed%20weed%20Australia"
-  },
-  {
-    "commonName": "Variegated Thistle",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Variegated%20Thistle%20weed%20Australia"
-  },
-  {
-    "commonName": "Volunteer Faba Bean",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Volunteer%20Faba%20Bean%20weed%20Australia"
-  },
-  {
-    "commonName": "Volunteer Field Pea",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Volunteer%20Field%20Pea%20weed%20Australia"
-  },
-  {
-    "commonName": "Wait-a-while",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Wait-a-while%20weed%20Australia"
-  },
-  {
-    "commonName": "Wild Oats",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Wild%20Oats%20weed%20Australia"
-  },
-  {
-    "commonName": "Wild Turnip",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Wild%20Turnip%20weed%20Australia"
-  },
-  {
-    "commonName": "Yellow Box",
-    "linkedProducts": [
-      {
-        "productId": "adamagrindstone",
-        "productName": "Adama Grindstone® Herbicide",
-        "source": "label"
-      }
-    ],
-    "imageUrl": "https://www.google.com/search?tbm=isch&q=Yellow%20Box%20weed%20Australia"
-  }
-];
+    "thumbnail": "images/weeds/singapore-daisy.webp",
+    "alaThumbnail": "https://images.ala.org.au/image/1421277b-33a3-4eaa-b5d1-e1bf54c99414/thumbnail",
+    "alaLargeImage": "https://images.ala.org.au/image/1421277b-33a3-4eaa-b5d1-e1bf54c99414/large",
+    "alaUrl": "https://bie.ala.org.au/species/http
