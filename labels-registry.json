@@ -2815,7 +2815,20 @@
       "company": "Adama",
       "sdsPdf": "SDS Labels/Adama_Priority_SDS.pdf",
       "status": "added"
+    },
+    {
+      "key": "adamagrindstone",
+      "jsFile": "js/labels/adamagrindstone.js",
+      "name": "Adama Grindstone® Herbicide",
+      "pdfFilename": "Adama_Grindstone_Label.pdf",
+      "labelPdf": "Source labels/Adama_Grindstone_Label.pdf",
+      "apvma": "91978/134072",
+      "activeIngredient": "240 g/L Aminopyralid",
+      "group": "Group 4 Herbicide (Synthetic Auxin)",
+      "company": "Adama",
+      "sdsPdf": "SDS Labels/Adama_Grindstone_SDS.pdf",
+      "status": "added"
     }
   ],
-  "totalLabels": 241
+  "totalLabels": 242
 }

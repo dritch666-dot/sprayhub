@@ -4011,5 +4011,17 @@ window.sdsRegistry = [
       "company": "Syngenta",
       "ghsSignalWord": "WARNING",
       "hazardStatement": "H227: Combustible liquid."
+  },
+  {
+      "filename": "Adama_Grindstone_SDS.pdf",
+      "displayName": "Adama Grindstone Herbicide SDS",
+      "filepath": "SDS Labels/Adama_Grindstone_SDS.pdf",
+      "productName": "Adama Grindstone® Herbicide",
+      "activeIngredient": "Aminopyralid (240 g/L)",
+      "poisonsSchedule": "S6",
+      "poisonsScheduleLabel": "Schedule 6 - Poison",
+      "company": "Adama",
+      "ghsSignalWord": "WARNING",
+      "hazardStatement": "H319: Causes serious eye irritation. H411: Toxic to aquatic life with long lasting effects."
   }
 ];

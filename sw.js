@@ -1,25 +1,12 @@
-const CACHE_NAME = 'sprayhub-v206';
+const CACHE_NAME = 'sprayhub-v196';
 
 const ASSETS = [
   './',
   './index.html',
   './lawn-turf-guide.html',
   './manifest.json',
-  './robots.txt',
-  './sitemap.xml',
-  './images/favicon.ico',
-  './images/favicon-16.png',
-  './images/favicon-32.png',
-  './images/favicon-192.png',
-  './images/favicon-512.png',
-  './images/apple-touch-icon.png',
-  './images/android-chrome-192.png',
-  './images/android-chrome-512.png',
-  './images/logo-stacked.png',
-  './images/logo-white.png',
-  './css/styles.css?v=206',
-  './css/components.css?v=206',
-  './css/desktop.css?v=206',
+  './css/styles.css',
+  './css/components.css',
   './js/app.js',
   './js/calculators.js',
   './js/database.js',
@@ -296,6 +283,7 @@ const ASSETS = [
   './js/labels/imiguard350.js',
   './js/labels/fuzilierherbicide.js',
   './js/labels/adamabumper625ec.js',
+  './js/labels/adamagrindstone.js',
   './js/labels/bayerflint500wg.js',
   './js/labels/basftermidorresidual.js',
   './js/labels/kensoethephon720.js',
@@ -320,32 +308,7 @@ self.addEventListener('activate', (e) => {
 });
 
 self.addEventListener('fetch', (e) => {
-  var url = new URL(e.request.url);
-  /* HTML & CSS: stale-while-revalidate — serve cache, refresh in background */
-  if (url.pathname.endsWith('.html') || url.pathname === '/' || url.pathname.endsWith('.css')) {
-    e.respondWith(
-      caches.open(CACHE_NAME).then((cache) =>
-        cache.match(e.request).then((cached) => {
-          var fetched = fetch(e.request).then((response) => {
-            if (response.ok) cache.put(e.request, response.clone());
-            return response;
-          }).catch(() => cached);
-          return cached || fetched;
-        })
-      )
-    );
-    return;
-  }
-  /* Everything else: cache-first */
   e.respondWith(
-    caches.match(e.request).then((cached) => {
-      if (cached) return cached;
-      /* Fallback: try matching without query string */
-      if (url.search) {
-        url.search = '';
-        return caches.match(url.toString()).then((c2) => c2 || fetch(e.request));
-      }
-      return fetch(e.request);
-    })
+    caches.match(e.request).then((cached) => cached || fetch(e.request))
   );
 });
