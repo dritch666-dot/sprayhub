@@ -3,31 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Lawn & Turf Care Guide — Australian Herbicide & Insecticide Rates | Spray Hub</title>
-<meta name="description" content="Complete Australian lawn and turf care guide. Herbicide, insecticide, and fungicide rates for Buffalo, Couch, Kikuyu, and Zoysia grasses. Weed and pest identification with product recommendations.">
-<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
-<link rel="canonical" href="https://sprayhub.com.au/lawn-turf-guide.html">
-<link rel="alternate" hreflang="en-AU" href="https://sprayhub.com.au/lawn-turf-guide.html">
-
-<!-- Open Graph -->
-<meta property="og:type" content="article">
-<meta property="og:site_name" content="Spray Hub">
-<meta property="og:title" content="Lawn & Turf Care Guide — Australian Edition">
-<meta property="og:description" content="Herbicide, insecticide, and fungicide rates for Australian lawns. Buffalo, Couch, Kikuyu, Zoysia — weed and pest ID with product recommendations.">
-<meta property="og:url" content="https://sprayhub.com.au/lawn-turf-guide.html">
-<meta property="og:image" content="https://sprayhub.com.au/images/og-sprayhub.png">
-<meta property="og:locale" content="en_AU">
-
-<!-- Twitter Card -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Lawn & Turf Care Guide — Australian Edition">
-<meta name="twitter:description" content="Herbicide, insecticide, and fungicide rates for Australian lawns. Weed and pest ID with product recommendations.">
-<meta name="twitter:image" content="https://sprayhub.com.au/images/og-sprayhub.png">
-
-<!-- Favicon -->
-<link rel="icon" href="images/favicon.ico" sizes="any">
-<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
-<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+<title>Lawn & Turf Care Guide — Australian Edition</title>
 <style>
 :root {
   --primary: #16a34a;
@@ -205,7 +181,7 @@ body {
 .desktop-main {
   margin-left: 240px; padding-top: 44px; padding-bottom: 44px; min-height: 100vh;
 }
-.content { max-width: 900px; margin: 0 auto; padding: 24px 32px; }
+.content { max-width: 1200px; margin: 0 auto; padding: 20px 24px; }
 .section { display: none; }
 .section.active { display: block; }
 
@@ -214,7 +190,7 @@ body {
   background: var(--card-bg);
   border-radius: var(--radius);
   box-shadow: var(--shadow-md);
-  padding: 18px;
+  padding: 14px;
   margin-bottom: 16px;
   border: 1px solid var(--border);
 }
@@ -240,6 +216,46 @@ body {
 /* Grass Type Cards */
 .grass-grid { display: grid; grid-template-columns: 1fr; gap: 14px; }
 @media (min-width: 600px) { .grass-grid { grid-template-columns: 1fr 1fr; } }
+@media (min-width: 900px) { .grass-grid { grid-template-columns: 1fr 1fr 1fr; } }
+
+/* Problem Cards Grid */
+.problem-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+@media (min-width: 700px) {
+  .problem-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Season Grid */
+.season-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+  margin-bottom: 16px;
+}
+@media (min-width: 900px) {
+  .season-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+/* State Cards Grid */
+.state-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+  margin-bottom: 16px;
+}
+@media (min-width: 600px) {
+  .state-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
 
 .grass-card {
   background: var(--card-bg);
@@ -582,8 +598,8 @@ body {
 <aside class="desktop-sidebar" id="desktop-sidebar">
   <nav class="sidebar-nav">
     <div class="sidebar-group-label">MAIN APP</div>
-    <a class="sidebar-item" href="https://www.sprayhub.com.au/" style="text-decoration:none; color:inherit;">
-      <span class="sidebar-icon">🌱</span> Spray Hub
+    <a class="sidebar-item" href="index-desktop.html" style="text-decoration:none; color:inherit;">
+      <span class="sidebar-icon">📋</span> Product Label Search
     </a>
     <div class="sidebar-group-label">LAWN &amp; TURF GUIDE</div>
     <button class="sidebar-item active" data-section="grass" onclick="showSectionSidebar('grass')">
@@ -612,6 +628,15 @@ body {
       <span class="sidebar-icon">🌱</span> Fertilisers
     </button>
     <div class="sidebar-group-label">CARE</div>
+    <button class="sidebar-item" data-section="soil" onclick="showSectionSidebar('soil')">
+      <span class="sidebar-icon">🧪</span> Soil Science
+    </button>
+    <button class="sidebar-item" data-section="states" onclick="showSectionSidebar('states')">
+      <span class="sidebar-icon">🗺️</span> State Guide
+    </button>
+    <button class="sidebar-item" data-section="watering" onclick="showSectionSidebar('watering')">
+      <span class="sidebar-icon">💧</span> Watering Guide
+    </button>
     <button class="sidebar-item" data-section="calendar" onclick="showSectionSidebar('calendar')">
       <span class="sidebar-icon">📅</span> Seasonal Care
     </button>
@@ -650,7 +675,7 @@ body {
   <h1>Lawn &amp; Turf Care Guide</h1>
   <p>Australian Edition — Grass Types, Products, Weeds, Pests, Diseases &amp; Seasonal Care</p>
   <div class="mobile-header-actions">
-    <a href="https://www.sprayhub.com.au/" class="mobile-header-btn">Back to Label Search</a>
+    <a href="index-desktop.html" class="mobile-header-btn">Back to Label Search</a>
     <button class="mobile-header-btn" onclick="toggleTheme()">Dark Mode</button>
   </div>
 </div>
@@ -665,6 +690,9 @@ body {
   <button class="nav-tab" onclick="showSection('insecticides')">Insecticides</button>
   <button class="nav-tab" onclick="showSection('fungicides')">Fungicides</button>
   <button class="nav-tab" onclick="showSection('fertilisers')">Fertilisers</button>
+  <button class="nav-tab" onclick="showSection('soil')">Soil Science</button>
+  <button class="nav-tab" onclick="showSection('states')">States</button>
+  <button class="nav-tab" onclick="showSection('watering')">Watering</button>
   <button class="nav-tab" onclick="showSection('calendar')">Seasonal Care</button>
   <button class="nav-tab" onclick="showSection('products')">All Products</button>
 </div>
@@ -841,6 +869,7 @@ body {
 <input type="text" class="search-box" id="weedSearch" placeholder="Search weeds..." oninput="filterCards('weedSearch','weed-list')">
 
 <div id="weed-list">
+<div class="problem-grid">
 
 <div class="problem-card" data-search="bindii jo jo soliva sessilis prickle broadleaf">
   <div class="card-with-thumb">
@@ -1107,6 +1136,9 @@ body {
     <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=Hypochaeris+radicata+cats+ear+flatweed+lawn+weed" target="_blank" rel="noopener">📷 View Images</a>
     <a class="prod-link-btn" href="Source labels/Nufarm_Dicamba_M_Herbicide_Label.pdf" target="_blank">🏷 Dicamba M</a>
   </div>
+</div>
+
+</div>
 </div>
 
 </div>
@@ -1774,11 +1806,213 @@ body {
 
 </div>
 
+
+<!-- ========== SOIL SCIENCE & NUTRITION ========== -->
+<div class="section" id="sec-soil">
+
+<div class="card">
+  <h2>Soil Science & Nutrition</h2>
+  <p>Healthy soil is the foundation of a healthy lawn. Understanding your soil's pH, nutrient levels, and structure will dramatically improve turf quality and reduce fertiliser waste.</p>
+</div>
+
+<div class="card">
+  <h3>Understanding Your Soil pH</h3>
+  <p>Most Australian lawn grasses thrive at pH 6.0–7.0. Test your soil annually with a home kit ($15–25 from Bunnings) or send to a lab for detailed analysis ($50–80).</p>
+  <ul>
+    <li><strong>Too Acidic (pH &lt; 5.5):</strong> Apply garden lime (calcium carbonate) at 200 g/m². Acidic soils lock up nutrients, causing yellowing and poor growth.</li>
+    <li><strong>Too Alkaline (pH &gt; 7.5):</strong> Apply elemental sulphur at 30–50 g/m² or use ammonium sulphate fertiliser. Alkaline soils cause iron deficiency (interveinal chlorosis).</li>
+    <li><strong>Just Right (pH 6.0–7.0):</strong> Nutrients are available, soil organisms thrive, disease pressure is lower.</li>
+  </ul>
+</div>
+
+<div class="card">
+  <h3>NPK Deep Dive</h3>
+  <p><strong>Nitrogen (N):</strong> Drives leaf growth and deep green colour. Warm-season lawns need 20–40 g N/m²/year; cool-season types need 15–30 g/year. Too much causes soft, disease-prone growth and thatch buildup.</p>
+  <p><strong>Phosphorus (P):</strong> Critical for root development and establishment. Most established Australian soils have adequate P. Over-application pollutes waterways. Use high-P only for new turf (first 6–8 weeks).</p>
+  <p><strong>Potassium (K):</strong> Strengthens cell walls, improves drought tolerance, cold hardiness, and disease resistance. Often overlooked. Apply high-K (3:1:8 ratio) in late autumn for winter preparation.</p>
+</div>
+
+<div class="card">
+  <h3>Trace Elements</h3>
+  <ul>
+    <li><strong>Iron (Fe):</strong> Deep green colour without excessive growth. Chelated iron (Iron Guard, FeSO₄) works best. Apply year-round for colour maintenance.</li>
+    <li><strong>Manganese (Mn):</strong> Deficiency causes interveinal chlorosis. More common in alkaline soils.</li>
+    <li><strong>Magnesium (Mg):</strong> Essential for chlorophyll. Apply Epsom salts (MgSO₄) at 20 g/m² if deficient.</li>
+    <li><strong>Calcium (Ca):</strong> Improves soil structure. Gypsum (CaSO₄) helps clay soils without changing pH.</li>
+  </ul>
+</div>
+
+<div class="card">
+  <h3>Hydrophobic (Water-Repelling) Soils</h3>
+  <p>Very common in sandy Australian soils, especially Perth, Adelaide, and parts of Sydney. Water beads on the surface and runs off instead of soaking in, leading to drought stress despite regular watering.</p>
+  <p><strong>How to fix:</strong></p>
+  <ul>
+    <li>Apply soil wetting agent (Seasol Super Soil Wetter, Lawn Soaker) in spring and autumn.</li>
+    <li>For severe cases: use granular wetting agent + fork holes throughout the lawn + slow deep watering over multiple sessions (20–30 mm per session, 2–3 times weekly).</li>
+    <li>Test soil water absorption: place a can on the lawn, fill it with water, and time how long it takes to soak in. Less than 5 minutes = normal. More than 30 minutes = hydrophobic.</li>
+  </ul>
+</div>
+
+<div class="card">
+  <h3>Cation Exchange Capacity (CEC)</h3>
+  <p>CEC determines how well your soil holds onto nutrients. Soil type determines CEC:</p>
+  <ul>
+    <li><strong>Sandy soils:</strong> Low CEC (2–5). Nutrients leach quickly. Need frequent light feeding with slow-release products.</li>
+    <li><strong>Clay soils:</strong> High CEC (20–40). Holds nutrients well. Less frequent but heavier feeding works better.</li>
+    <li><strong>Loam (ideal):</strong> Medium CEC (10–20). Balanced approach to feeding.</li>
+  </ul>
+</div>
+
+</div>
+
+<!-- ========== STATE-BY-STATE GUIDE ========== -->
+<div class="section" id="sec-states">
+
+<div class="card">
+  <h2>Australian State & Territory Guide</h2>
+  <p>Lawn care varies significantly by region due to climate, soil type, and local pest/disease pressure. Select your state for tailored recommendations.</p>
+</div>
+
+<div class="state-grid">
+
+<div class="card">
+  <h3>Queensland ☀️</h3>
+  <p><strong>Climate:</strong> Subtropical to tropical. Hot humid summers, mild dry winters.</p>
+  <p><strong>Best Grasses:</strong> Buffalo (Sir Walter), Couch (TifTuf), Zoysia (Empire, Sir Grange)</p>
+  <p><strong>Key Challenges:</strong> Year-round weed pressure, fall armyworm (spring–summer), brown patch in humid areas</p>
+  <p><strong>Seasonal Timing:</strong> Mow year-round. Pre-emergent for winter grass: March. Main fertilise: Sept + Nov + March. Aerate: October.</p>
+</div>
+
+<div class="card">
+  <h3>New South Wales 🏔️</h3>
+  <p><strong>Climate:</strong> Varies — subtropical coast, temperate highlands, semi-arid west.</p>
+  <p><strong>Best Grasses:</strong> Buffalo (coastal/shade), Couch (inland/sun), Kikuyu (budget/large areas)</p>
+  <p><strong>Key Challenges:</strong> Winter grass (Sydney basin), nutgrass (Northern Rivers), drought in western areas</p>
+  <p><strong>Seasonal Timing:</strong> Similar to QLD but more winter dormancy south of Sydney. Pre-emergent Feb–March.</p>
+</div>
+
+<div class="card">
+  <h3>Victoria 🌊</h3>
+  <p><strong>Climate:</strong> Temperate, cool winters, variable rainfall (Melbourne's "4 seasons in a day").</p>
+  <p><strong>Best Grasses:</strong> Tall Fescue (year-round green), Couch (TifTuf stays greener), Kikuyu (tough areas)</p>
+  <p><strong>Key Challenges:</strong> Cool-season diseases (Fusarium), winter waterlogging, summer drought stress</p>
+  <p><strong>Seasonal Timing:</strong> Main growth Sept–April. Oversow couch with ryegrass April for winter green. Aerate October.</p>
+</div>
+
+<div class="card">
+  <h3>South Australia 🌡️</h3>
+  <p><strong>Climate:</strong> Mediterranean — hot dry summers, mild wet winters. Highly variable rainfall.</p>
+  <p><strong>Best Grasses:</strong> Couch (Adelaide), Zoysia (low-water), Buffalo (shade areas)</p>
+  <p><strong>Key Challenges:</strong> Hydrophobic soils (sand-based), water restrictions, extreme summer heat (40°C+)</p>
+  <p><strong>Seasonal Timing:</strong> Heavy water restrictions — choose drought-tolerant varieties. Wetting agents essential. Spring + autumn application.</p>
+</div>
+
+<div class="card">
+  <h3>Western Australia 🐪</h3>
+  <p><strong>Climate:</strong> Mediterranean (Perth), tropical (Kimberley), arid (interior).</p>
+  <p><strong>Best Grasses:</strong> Couch (most popular), Zoysia (low water), Buffalo (shade areas)</p>
+  <p><strong>Key Challenges:</strong> Sandy hydrophobic soils (worst in Australia), water restrictions, couch mite, African Black Beetle</p>
+  <p><strong>Seasonal Timing:</strong> Wetting agents March + September. Pre-emergent Feb (winter grass). Acelepryn Nov for grubs.</p>
+</div>
+
+<div class="card">
+  <h3>Tasmania ❄️</h3>
+  <p><strong>Climate:</strong> Cool temperate maritime. Cold winters, mild summers, reliable rainfall.</p>
+  <p><strong>Best Grasses:</strong> Tall Fescue (stays green year-round), Perennial Ryegrass, Kentucky Bluegrass</p>
+  <p><strong>Key Challenges:</strong> Slow warm-season recovery, Fusarium patch, moss in shady damp areas</p>
+  <p><strong>Seasonal Timing:</strong> Main growth Oct–March. Fertilise Oct + Dec. Minimal pest pressure compared to mainland.</p>
+</div>
+
+<div class="card">
+  <h3>Australian Capital Territory ⛰️</h3>
+  <p><strong>Climate:</strong> Cold winters (frost Nov–March), warm to hot summers, low humidity.</p>
+  <p><strong>Best Grasses:</strong> Tall Fescue (best year-round), Couch (TifTuf for full sun), Buffalo (shade)</p>
+  <p><strong>Key Challenges:</strong> Frost damage, winter dormancy of warm-season grasses, dry summers</p>
+  <p><strong>Seasonal Timing:</strong> Frost-free period Oct–March. Oversow warm-season with ryegrass May. Fertilise Sept + Nov.</p>
+</div>
+
+</div>
+
+</div>
+
+<!-- ========== WATERING & IRRIGATION ========== -->
+<div class="section" id="sec-watering">
+
+<div class="card">
+  <h2>Watering & Irrigation Guide</h2>
+  <p>Proper watering is critical for lawn health. Deep, infrequent watering encourages deep roots and drought tolerance. Shallow daily watering creates shallow-rooted, drought-sensitive lawns prone to heat stress and disease.</p>
+</div>
+
+<div class="card">
+  <h3>The Footprint Test</h3>
+  <p>Walk across your lawn. If your footprints remain visible (grass doesn't spring back), it's time to water. This simple test tells you when your lawn actually needs water, rather than watering on a fixed schedule.</p>
+</div>
+
+<div class="card">
+  <h3>Watering Dos and Don'ts</h3>
+  <ul>
+    <li><strong>✓ DO</strong> water deeply and infrequently (2–3 times per week, 20–30 mm per session depending on season)</li>
+    <li><strong>✓ DO</strong> water early morning (6–8 am) to reduce evaporation and disease risk</li>
+    <li><strong>✗ DON'T</strong> water in the evening — wet leaves overnight = fungal disease</li>
+    <li><strong>✗ DON'T</strong> water daily — shallow watering creates shallow roots and weak turf</li>
+    <li><strong>✓ DO</strong> use a rain gauge or catch-cup test to measure sprinkler output</li>
+    <li><strong>✓ DO</strong> water less in cooler months (autumn/winter)</li>
+    <li><strong>✗ DON'T</strong> overwater in winter — sitting wet turf + cool temps = fungal disease</li>
+  </ul>
+</div>
+
+<div class="card">
+  <h3>Catch Cup Test</h3>
+  <p>Place 6+ straight-sided containers (small cans, cups) across your lawn in a grid pattern. Run your sprinklers for 15 minutes. Measure the water depth in each cup.</p>
+  <p><strong>What you learn:</strong></p>
+  <ul>
+    <li><strong>Average depth:</strong> How much water you're applying per 15 minutes. Multiply by 4 to get mm/hour (e.g. 6 mm in 15 min = 24 mm/hour).</li>
+    <li><strong>Coverage variation:</strong> Some cups will have more water than others. Uneven coverage = adjust sprinkler heads or overlap zones.</li>
+    <li><strong>How long to run:</strong> Once you know mm/hour, you can calculate run time. For 25 mm: run time = 25 mm ÷ (mm/hour).</li>
+  </ul>
+</div>
+
+<div class="card">
+  <h3>Watering by Season (Australian Lawns)</h3>
+  <table class="product-table">
+    <thead><tr><th>Season</th><th>Frequency</th><th>Amount per Session</th><th>Best Time</th><th>Notes</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Spring</strong> (Sept–Nov)</td><td>2–3 times/week</td><td>20–25 mm</td><td>Early morning (6–8 am)</td><td>Growth phase. Deep watering builds root system before summer.</td></tr>
+      <tr><td><strong>Summer</strong> (Dec–Feb)</td><td>2–3 times/week</td><td>25–30 mm</td><td>Early morning (before 8 am)</td><td>Peak heat. Raise mowing height 5–10 mm to shade soil. Let lawn slightly stress between waterings.</td></tr>
+      <tr><td><strong>Autumn</strong> (March–May)</td><td>1–2 times/week</td><td>15–20 mm</td><td>Morning</td><td>Growth slowing. Prepare lawn for cooler months. Reduce frequency as temps drop.</td></tr>
+      <tr><td><strong>Winter</strong> (June–Aug)</td><td>Natural rainfall</td><td>10–15 mm (supplement if dry)</td><td>Late morning (avoid frost hours)</td><td>Minimal evaporation. Over-watering causes fungal disease. Only supplement if no rain for 3+ weeks.</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="card">
+  <h3>Irrigation Systems</h3>
+  <ul>
+    <li><strong>Pop-up sprinklers:</strong> Best for residential lawns. Even coverage, adjustable heads, can integrate into timer systems. Cost: $200–600 installed.</li>
+    <li><strong>Drip irrigation:</strong> For garden beds only, not lawns. Water-efficient but slow coverage.</li>
+    <li><strong>Manual sprinklers:</strong> Cheapest option (~$30) but labor-intensive and uneven coverage.</li>
+    <li><strong>Smart controllers with weather stations:</strong> Most water-efficient. Automatically adjust schedules based on rainfall and temperature. Cost: $400–800 installed.</li>
+  </ul>
+</div>
+
+<div class="card">
+  <h3>Water Restrictions</h3>
+  <p>Most Australian capital cities have permanent water restrictions. Check your local water authority for:</p>
+  <ul>
+    <li>Allowed watering days (often 2–3 days per week)</li>
+    <li>Allowed watering times (usually early morning or evening, never midday)</li>
+    <li>Restrictions on sprinklers vs. hand watering</li>
+  </ul>
+  <p><strong>Tip:</strong> Choose drought-tolerant grass varieties (Zoysia, TifTuf Couch, Sir Grange Zoysia) to reduce watering needs by 30–50%.</p>
+</div>
+
+</div>
+
 <!-- ========== ALL PRODUCTS ========== -->
 <div class="section" id="sec-products">
 <div class="card">
   <h2>Complete Product List &mdash; Labels Needed for App</h2>
-  <p>All products mentioned in this guide that need their labels sourced and added to the Spray Hub app.</p>
+  <p>All products mentioned in this guide that need their labels sourced and added to the Product Label Search app.</p>
 </div>
 
 <input type="text" class="search-box" id="productSearch" placeholder="Search products..." oninput="filterTable('productSearch','product-master')">
@@ -1843,13 +2077,13 @@ body {
       <span class="footer-brand-name">Lawn &amp; Turf Care Guide</span>
     </span>
     <nav class="footer-nav" aria-label="Footer navigation">
-      <a href="https://www.sprayhub.com.au/">Spray Hub</a>
+      <a href="index-desktop.html">Product Label Search</a>
       <span class="footer-nav-sep"></span>
-      <a href="https://www.sprayhub.com.au/#about">About</a>
-      <a href="https://www.sprayhub.com.au/#contact">Contact</a>
-      <a href="https://www.sprayhub.com.au/#disclaimer">Disclaimer</a>
-      <a href="https://www.sprayhub.com.au/#privacy">Privacy Policy</a>
-      <a href="https://www.sprayhub.com.au/#terms">Terms of Use</a>
+      <a href="index-desktop.html#about">About</a>
+      <a href="index-desktop.html#contact">Contact</a>
+      <a href="index-desktop.html#disclaimer">Disclaimer</a>
+      <a href="index-desktop.html#privacy">Privacy Policy</a>
+      <a href="index-desktop.html#terms">Terms of Use</a>
       <span class="footer-nav-sep"></span>
       <a href="https://apvma.gov.au" target="_blank" rel="noopener noreferrer">APVMA.gov.au</a>
       <a href="https://portal.apvma.gov.au/pubcris" target="_blank" rel="noopener noreferrer">PubCRIS</a>
@@ -1907,7 +2141,8 @@ function updateSidebarActive(id) {
 function getSectionLabel(id) {
   var map = { grass: 'Grass Types', weeds: 'Weeds', pests: 'Pests', diseases: 'Diseases',
     herbicides: 'Herbicides', insecticides: 'Insecticides', fungicides: 'Fungicides',
-    fertilisers: 'Fertilisers', calendar: 'Seasonal Care', products: 'All Products' };
+    fertilisers: 'Fertilisers', soil: 'Soil Science', states: 'State Guide', watering: 'Watering Guide',
+    calendar: 'Seasonal Care', products: 'All Products' };
   return map[id] || id;
 }
 
