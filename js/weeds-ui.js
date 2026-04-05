@@ -454,11 +454,12 @@
 
       // Local thumbnail (from images/ folder) or ALA thumbnail fallback
       var thumbSrc = w.thumbnail || w.alaThumbnail || '';
+      var thumbGoogleUrl = 'https://www.google.com/search?tbm=isch&q=' + encodeURIComponent(w.commonName + ' weed australia');
       var alaThumbnailHtml = '';
       if (thumbSrc) {
-        alaThumbnailHtml = '<div class="weed-ala-thumb">'
+        alaThumbnailHtml = '<a href="' + thumbGoogleUrl + '" target="_blank" rel="noopener" class="weed-ala-thumb" title="Search images: ' + w.commonName.replace(/"/g, '&quot;') + '">'
           + '<img src="' + thumbSrc + '" alt="' + w.commonName.replace(/"/g, '&quot;') + '" loading="lazy" onerror="this.parentElement.style.display=\'none\'">'
-          + '</div>';
+          + '</a>';
       }
 
       var alaLink = w.alaUrl

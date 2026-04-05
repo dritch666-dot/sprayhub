@@ -399,11 +399,12 @@
 
       // Local thumbnail (from images/ folder) or ALA thumbnail fallback
       var thumbSrc = p.thumbnail || p.alaThumbnail || '';
+      var thumbGoogleUrl = 'https://www.google.com/search?tbm=isch&q=' + encodeURIComponent(p.commonName + ' pest australia');
       var alaThumbnailHtml = '';
       if (thumbSrc) {
-        alaThumbnailHtml = '<div class="pest-ala-thumb">'
+        alaThumbnailHtml = '<a href="' + thumbGoogleUrl + '" target="_blank" rel="noopener" class="pest-ala-thumb" title="Search images: ' + p.commonName.replace(/"/g, '&quot;') + '">'
           + '<img src="' + thumbSrc + '" alt="' + p.commonName.replace(/"/g, '&quot;') + '" loading="lazy" onerror="this.parentElement.style.display=\'none\'">'
-          + '</div>';
+          + '</a>';
       }
 
       var alaLink = p.alaUrl

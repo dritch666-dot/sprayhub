@@ -357,11 +357,12 @@
 
       // Local thumbnail (from images/ folder) or ALA thumbnail fallback
       var thumbSrc = d.thumbnail || d.alaThumbnail || '';
+      var thumbGoogleUrl = 'https://www.google.com/search?tbm=isch&q=' + encodeURIComponent(d.commonName + ' plant disease australia');
       var alaThumbnailHtml = '';
       if (thumbSrc) {
-        alaThumbnailHtml = '<div class="disease-ala-thumb">'
+        alaThumbnailHtml = '<a href="' + thumbGoogleUrl + '" target="_blank" rel="noopener" class="disease-ala-thumb" title="Search images: ' + d.commonName.replace(/"/g, '&quot;') + '">'
           + '<img src="' + thumbSrc + '" alt="' + d.commonName.replace(/"/g, '&quot;') + '" loading="lazy" onerror="this.parentElement.style.display=\'none\'">'
-          + '</div>';
+          + '</a>';
       }
 
       var alaLink = d.alaUrl
