@@ -1100,14 +1100,16 @@
   .desktop-main .premium-search-container,
   .desktop-main .premium-search-container:not(.desktop-search-bar) {
     max-width: 100% !important;
+    width: 100% !important;
     margin-left: 0 !important;
     margin-right: 0 !important;
-    border-radius: 12px !important;
-    padding: 14px 12px !important;
-    margin-bottom: 12px !important;
+    border-radius: 10px !important;
+    padding: 12px 8px !important;
+    margin-bottom: 10px !important;
     background: var(--card-bg, #fff) !important;
     border: 1px solid var(--border, #e2e8f0) !important;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06) !important;
+    box-sizing: border-box !important;
   }
 
   .desktop-main .premium-search-container--compact {
@@ -1142,14 +1144,43 @@
     font-size: 0.68rem !important;
   }
 
-  /* Filter grid: tighter gap */
+  /* Filter grid: tighter gap, full width */
   .filter-fields-grid {
     gap: 4px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .filter-fields-grid .search-input-wrap--mini {
+    min-width: 0 !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
   }
 
   .premium-search-input--mini {
     font-size: 0.82rem !important;
-    padding: 8px 10px !important;
+    padding: 8px 26px 8px 32px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .search-input-wrap {
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .search-input-wrap input,
+  .search-input.premium-search-input {
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .category-pills-wrap {
+    justify-content: center !important;
+  }
+
+  .search-scope-row {
+    justify-content: center !important;
   }
 
   /* ── Product cards: full-width, proper padding ── */
@@ -1180,7 +1211,7 @@
   /* ── Main container: minimal side padding for max card width ── */
   .desktop-main .main-container,
   .main-container {
-    padding: 0 10px !important;
+    padding: 0 4px !important;
     margin: 8px auto !important;
   }
 
