@@ -262,13 +262,14 @@ body {
   border-radius: var(--radius);
   box-shadow: var(--shadow-sm);
   border: 1px solid var(--border);
-  overflow: hidden;
+  overflow: visible;
 }
 .grass-card-header {
   padding: 12px 16px;
   color: white;
   font-weight: 700;
   font-size: 0.95em;
+  border-radius: var(--radius) var(--radius) 0 0;
 }
 .grass-warm .grass-card-header { background: linear-gradient(135deg, #16a34a, #15803d); }
 .grass-cool .grass-card-header { background: linear-gradient(135deg, #0284c7, #0369a1); }
@@ -373,6 +374,12 @@ body {
   margin-bottom: 12px;
   border: 1px solid var(--border);
   box-shadow: var(--shadow-sm);
+  overflow: visible;
+}
+/* Thumb link wrapper */
+.card-thumb-link, .grass-thumb-link {
+  display: block;
+  line-height: 0;
 }
 .problem-card h4 {
   font-size: 0.9em;
@@ -405,15 +412,18 @@ body {
   display: flex;
   gap: 14px;
   align-items: flex-start;
+  overflow: visible;
 }
 .card-thumb-wrap {
   flex-shrink: 0;
   width: 90px;
   height: 90px;
   border-radius: 8px;
-  overflow: hidden;
+  overflow: visible;
   background: #f1f5f9;
   border: 1px solid var(--border);
+  position: relative;
+  z-index: 1;
 }
 [data-theme="dark"] .card-thumb-wrap {
   background: #1e293b;
@@ -424,10 +434,16 @@ body {
   height: 90px;
   object-fit: cover;
   border-radius: 8px;
-  transition: opacity 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
+  position: relative;
 }
-.card-thumb:hover { opacity: 0.8; }
+.card-thumb:hover {
+  transform: scale(2.5);
+  z-index: 9999;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
 .card-thumb-wrap.loading {
   display: flex;
   align-items: center;
@@ -482,15 +498,18 @@ body {
   display: flex;
   gap: 12px;
   align-items: flex-start;
+  overflow: visible;
 }
 .grass-thumb-wrap {
   flex-shrink: 0;
   width: 100px;
   height: 80px;
   border-radius: 8px;
-  overflow: hidden;
+  overflow: visible;
   background: #f1f5f9;
   border: 1px solid var(--border);
+  position: relative;
+  z-index: 1;
 }
 .grass-thumb {
   width: 100px;
@@ -498,8 +517,15 @@ body {
   object-fit: cover;
   border-radius: 8px;
   cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
 }
-.grass-thumb:hover { opacity: 0.8; }
+.grass-thumb:hover {
+  transform: scale(2.5);
+  z-index: 9999;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
 .grass-detail-col { flex: 1; min-width: 0; }
 
 /* Search */
@@ -2250,22 +2276,45 @@ window.addEventListener('scroll', function() {
     wrap.classList.add('loading');
   }
 
+  // Store search terms per element for Google Image links
+  var searchTermMap = {};
+
   function setThumbImage(elId, url) {
     var wrap = document.getElementById(elId);
     if (!wrap) return;
+    var isGrass = wrap.id.indexOf('grass') === 0;
     var img = document.createElement('img');
     img.src = url;
     img.alt = '';
-    img.className = wrap.id.indexOf('grass') === 0 ? 'grass-thumb' : 'card-thumb';
+    img.className = isGrass ? 'grass-thumb' : 'card-thumb';
     img.onerror = function() {
       // Remove broken image and restore emoji
-      if (wrap.contains(img)) wrap.removeChild(img);
+      var child = wrap.querySelector('a') || img;
+      if (wrap.contains(child)) wrap.removeChild(child);
       restoreEmoji(elId);
     };
     img.onload = function() { wrap.classList.remove('loading'); };
+
+    // Build Google Image Search link
+    var searchQ = searchTermMap[elId] || '';
+    var suffix = isGrass ? ' grass lawn australia' : (
+      elId.indexOf('weed') === 0 ? ' weed australia' :
+      elId.indexOf('pest') === 0 ? ' pest australia' :
+      ' plant disease australia'
+    );
+    var googleUrl = 'https://www.google.com/search?tbm=isch&q=' + encodeURIComponent(searchQ + suffix);
+
+    var link = document.createElement('a');
+    link.href = googleUrl;
+    link.target = '_blank';
+    link.rel = 'noopener';
+    link.className = isGrass ? 'grass-thumb-link' : 'card-thumb-link';
+    link.title = 'Search images: ' + searchQ;
+    link.appendChild(img);
+
     wrap.textContent = '';
     wrap.classList.remove('loading');
-    wrap.appendChild(img);
+    wrap.appendChild(link);
   }
 
   function fetchWikiByTitle(title, elId, nextFn) {
@@ -2314,6 +2363,9 @@ window.addEventListener('scroll', function() {
     var elId = item.id;
     var commonName = item.common || '';
     var altTitle = wikiAlt[sciName];
+
+    // Store common name for Google Image Search link
+    searchTermMap[elId] = commonName || sciName;
 
     // Step 1: Try Wikipedia with scientific name
     fetchWikiByTitle(sciName, elId, function() {
