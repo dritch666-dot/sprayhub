@@ -1117,6 +1117,52 @@
     margin-bottom: 10px !important;
   }
 
+  /* ══ CRITICAL: Override desktop split-panel layout for mobile ══ */
+  .desktop-search-bar {
+    flex-direction: column !important;
+    padding: 12px 8px !important;
+    gap: 8px !important;
+  }
+
+  .desktop-search-left {
+    flex: 1 1 100% !important;
+    min-width: 0 !important;
+    width: 100% !important;
+    padding-right: 0 !important;
+  }
+
+  .desktop-search-right {
+    flex: 1 1 100% !important;
+    min-width: 0 !important;
+    width: 100% !important;
+    padding-left: 0 !important;
+    border-left: none !important;
+  }
+
+  .desktop-filter-label {
+    font-size: 0.68rem !important;
+    margin-bottom: 4px !important;
+  }
+
+  .desktop-filter-grid {
+    width: 100% !important;
+    gap: 4px !important;
+    box-sizing: border-box !important;
+  }
+
+  .desktop-filter-grid .search-input-wrap--mini {
+    min-width: 0 !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .desktop-search-bar .premium-search-input--mini {
+    width: 100% !important;
+    box-sizing: border-box !important;
+    padding: 8px 26px 8px 32px !important;
+    font-size: 0.82rem !important;
+  }
+
   /* Tighter search input — beat desktop specificity */
   .desktop-main .premium-search-container .search-input.premium-search-input,
   .desktop-main .premium-search-input {
