@@ -20,7 +20,7 @@ productDatabase['altacor'] = {
   apvma:            "91353",
   labelPdf:         "Source labels/FMC_AltacorXForce_Label.pdf",
   sdsPdf:           "SDS Labels/ALTACOR_HORT_INSECTICIDE.pdf",
-  signalHeading:    "Caution",
+  signalHeading:    "Read Safety Directions",
 
   // ── Classification ─────────────────────────────────────────────
   classification: {

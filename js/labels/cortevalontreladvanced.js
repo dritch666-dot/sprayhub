@@ -15,7 +15,7 @@ productDatabase['cortevalontreladvanced'] = {
   modeOfAction:     "Synthetic auxin - broadleaf weed control",
   formulation:      "Liquid",
   color:            "#059669",
-  apvma:            "",
+  apvma:            "65587",
   labelPdf:         "Source labels/Corteva_Lontrel_Advanced_Herbicide_Label.pdf",
   sdsPdf:         "SDS Labels/LONTREL_ADVANCED_HERBICIDE.pdf",
   signalHeading:    "CAUTION",

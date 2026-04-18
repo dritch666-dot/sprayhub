@@ -8,7 +8,7 @@ productDatabase['movento'] = {
     "category": "Insecticides",
     "color": "#7e22ce",
     "apvma": "61864",
-    "signalHeading": "CAUTION",
+    "signalHeading": "Poison",
     "classification": {
         "type": "Insecticide",
         "target": ["Aphids", "Whitefly", "Mealybug", "Scale", "Mites", "Psyllids"],

@@ -20,7 +20,7 @@ productDatabase['corragen'] = {
   company: "FMC",
   labelPdf:         "Source labels/FMC_Coragen_Label.pdf",
   sdsPdf:           "SDS Labels/FMC_Coragen_SDS.pdf",
-  signalHeading:    "Caution",
+  signalHeading:    "Read Safety Directions",
 
   // ── Classification ──────────────────────────────────────────
   classification: {

@@ -15,7 +15,7 @@ productDatabase['imiguard350'] = {
   formulation:      "Suspension Concentrate (SC)",
   color:            "#1e3a8a",
   company: "Imtrade",
-  apvma:            "Unknown",
+  apvma:            "66688",
   labelPdf:         "Source labels/Rainbow_Imiguard_350_Insecticide_Label.pdf",
   sdsPdf:         "SDS Labels/imiguard 350 sds.pdf",
   signalHeading:    "Poison",

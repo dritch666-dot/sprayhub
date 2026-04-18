@@ -18,7 +18,7 @@ productDatabase['cortevazorvec'] = {
   apvma:            "68375",
   labelPdf:         "Source labels/Corteva_Agriscience_Zorvec_Enicade_Fungicide_Label.pdf",
   sdsPdf:           "SDS Labels/ZORVEC_ENICADE_FUNGICIDE.pdf",
-  signalHeading:    "Caution",
+  signalHeading:    "Read Safety Directions",
   classification: {
     type: "Fungicide",
     target: ["Downy mildew", "Late blight", "Phytophthora diseases"],

@@ -11,7 +11,7 @@ productDatabase['conqueror'] = {
     "apvma": "57783",
     "labelPdf": "Source labels/Nufarm_Conqueror_Label.pdf",
     "sdsPdf": "SDS Labels/CONQUEROR_HERBICIDE.pdf",
-    "signalHeading": "Warning",
+    "signalHeading": "Poison",
     "classification": {
         "type": "Herbicide",
         "target": [

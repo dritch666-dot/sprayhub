@@ -136,7 +136,7 @@ productDatabase['starane'] = {
     ],
     "note": "Weed Resistance Warning: Group I Herbicide.",
     "labelPdf": "Source labels/Corteva_StaraneAdvanced_Label.pdf",
-    "signalHeading": "Caution",
+    "signalHeading": "Read Safety Directions",
     "sdsPdf": "SDS Labels/STARANE_ADVANCED_HERBICIDE.pdf",
         "classification": {
         "type": "Herbicide",

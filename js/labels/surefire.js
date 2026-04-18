@@ -11,7 +11,7 @@ productDatabase['surefire'] = {
     "apvma": "68398",
     "labelPdf": "Source labels/Pct_Holdings_Surefire_Termiticide_And_Insecticide_Label.pdf",
     "sdsPdf": "SDS Labels/SureFire_Termiticide_&_Insecticide.pdf",
-    "signalHeading": "Caution",
+    "signalHeading": "Poison",
     "classification": {
         "type": "Insecticide",
         "target": [

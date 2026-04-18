@@ -20,7 +20,7 @@ productDatabase['nordox750wg'] = {
   apvma:            "68624",
   labelPdf:         "Source labels/Nordox_Nordox750WG_Label.pdf",
   sdsPdf:           "SDS Labels/NORDOX_750_WG_COPPER_FUNGICIDE.pdf",
-  signalHeading:    "Poison",
+  signalHeading:    "Caution",
 
   // ── Classification ────────────────────────────────────────────
   classification: {

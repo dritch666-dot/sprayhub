@@ -11,7 +11,7 @@ productDatabase['hasten'] = {
     "apvma": "47999",
     "labelPdf": "Source labels/Victorian_Chemical_Company_Proprietary_Hasten_Spray_Adjuvant_Label.pdf",
     "sdsPdf": "SDS Labels/HASTEN_SPRAY_ADJUVANT.pdf",
-    "signalHeading": "Poison",
+    "signalHeading": "Read Safety Directions",
     "classification": {
         "type": "Adjuvant",
         "target": [

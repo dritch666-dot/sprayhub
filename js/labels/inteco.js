@@ -16,7 +16,7 @@ productDatabase['inteco'] = {
   modeOfAction:     "Oily, water-miscible solution applied during seed treatment to optimise attachment of active ingredient to seed. Treated seed shows improved handling with a smoother surface and reduced dust from abrasion during transport.",
   formulation:      "Liquid (Oil-based)",
   color:            "#78716c",
-  apvma:            "Not APVMA registered (adjuvant)",
+  apvma:            "",
   company: "Bayer",
   labelPdf:         "Source labels/Inteco Product Label.pdf",
   sdsPdf:           "SDS Labels/Inteco SDS.pdf",

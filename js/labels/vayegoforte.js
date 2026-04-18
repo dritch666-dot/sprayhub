@@ -8,7 +8,7 @@ productDatabase.vayegoforte = {
   "formulation": "Suspension Concentrate (SC)",
   "modeOfAction": "Ryanodine receptor modulator — disrupts muscle contraction in target insects",
   "category": "Insecticides",
-  "signalHeading": "CAUTION",
+  "signalHeading": "Poison",
   "apvma": "87936",
   "classification": {
       "type": "Insecticide",

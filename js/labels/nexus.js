@@ -11,7 +11,7 @@ productDatabase['nexus'] = {
     "apvma": "58840",
     "labelPdf": "Source labels/VicChem_Nexus_Label.pdf",
     "sdsPdf": "SDS Labels/NEXUS_SPRAY_ADJUVANT.pdf",
-    "signalHeading": "Poison",
+    "signalHeading": "Read Safety Directions",
     "classification": {
         "type": "Adjuvant",
         "target": [

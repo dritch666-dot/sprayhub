@@ -33,7 +33,7 @@ productDatabase['cando'] = {
     "note": "CanDo provides enhanced performance when compared with mineral oil or vegetable oil based adjuvants.",
     "labelPdf": "Source labels/Nufarm_CanDo_Label.pdf",
     "sdsPdf": "SDS Labels/CANDO_CONCENTRATE_SPRAY_ADJUVANT.pdf",
-    "signalHeading": "Not classified as hazardous",
+    "signalHeading": "Read Safety Directions",
     "apvma": "89989",
     "classification": {
         "type": "Herbicide",

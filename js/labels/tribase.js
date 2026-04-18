@@ -258,7 +258,7 @@ productDatabase['tribase'] = {
     "note": "Liquid copper fungicide formulation. Protectant multi-site fungicide.",
     "labelPdf": "Source labels/Nufarm_TriBaseBlue_Label.pdf",
     "sdsPdf": "SDS Labels/TRI-BASE_BLUE.pdf",
-    "signalHeading": "Harmful / Ecotoxic",
+    "signalHeading": "Caution",
     "apvma": "53568",
         "classification": {
         "type": "Fungicide",

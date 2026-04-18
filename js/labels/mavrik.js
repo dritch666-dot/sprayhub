@@ -17,10 +17,10 @@ productDatabase['mavrik'] = {
   modeOfAction:     "Disrupts insect nervous system; rapid knockdown and control",
   formulation:      "Oil in Water Emulsion",
   color:            "#4338ca",
-  apvma:            "Mavrik Aquaflo",
+  apvma:            "",
   labelPdf:         "Source labels/Adama_Mavrik_Label.pdf",
   sdsPdf:           "SDS Labels/ADAMA_MAVRIK_AQUAFLO_INSECTICIDE.pdf",
-  signalHeading:    "Warning",
+  signalHeading:    "Poison",
 
   classification: {
     type: "Herbicide",

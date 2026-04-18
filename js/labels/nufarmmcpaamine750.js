@@ -18,7 +18,7 @@ productDatabase['nufarmmcpaamine750'] = {
   apvma:            "60505",
   labelPdf:         "Source labels/Nufarm-MCPA-Amine-750-Label.pdf",
   sdsPdf:           "SDS Labels/NUFARM-MCPA-AMINE-750-SDS.pdf",
-  signalHeading:    "Caution",
+  signalHeading:    "Poison",
   classification: {
     type: "Herbicide",
     target: ["Broadleaf weeds"],

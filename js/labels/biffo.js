@@ -11,7 +11,7 @@ productDatabase['biffo'] = {
     "apvma": "62489",
     "labelPdf": "Source labels/Nufarm_Biffo_Label.pdf",
     "sdsPdf": "SDS Labels/BIFFO_NON-SELECTIVE_HERBICIDE.pdf",
-    "signalHeading": "Warning",
+    "signalHeading": "Caution",
     "classification": {
         "type": "Herbicide",
         "target": [

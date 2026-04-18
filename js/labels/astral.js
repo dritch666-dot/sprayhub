@@ -11,7 +11,7 @@ productDatabase['astral'] = {
     "apvma": "68017",
     "labelPdf": "Source labels/Nufarm_Astral_Label.pdf",
     "sdsPdf": "SDS Labels/ASTRAL_250EC_INSECTICIDE_MITICIDE.pdf",
-    "signalHeading": "Caution",
+    "signalHeading": "Poison",
     "classification": {
         "type": "Insecticide",
         "target": [
