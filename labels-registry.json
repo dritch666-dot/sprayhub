@@ -2840,7 +2840,20 @@
       "company": "Adama",
       "sdsPdf": "SDS Labels/Adama_Grindstone_SDS.pdf",
       "status": "added"
+    },
+    {
+      "key": "primextragold",
+      "jsFile": "js/labels/primextragold.js",
+      "name": "Syngenta Primextra® Gold Herbicide",
+      "pdfFilename": "Syngenta_PRIMEXTRA GOLD_Label.pdf",
+      "labelPdf": "Source labels/Syngenta_PRIMEXTRA GOLD_Label.pdf",
+      "apvma": "50885/127344",
+      "activeIngredient": "370 g/L Atrazine + 290 g/L S-Metolachlor",
+      "group": "Group 5 + 15 Herbicide (Triazine + α-Chloroacetamide)",
+      "company": "Syngenta",
+      "sdsPdf": "SDS Labels/Syngenta_Primextra Gold_SDS.pdf",
+      "status": "added"
     }
   ],
-  "totalLabels": 242
+  "totalLabels": 244
 }

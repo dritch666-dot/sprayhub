@@ -2867,6 +2867,18 @@ window.sdsRegistry = [
     "ghsSignalWord": "Not hazardous"
   },
   {
+    "filename": "Surefire_Weedpro-Bioaqua-360_SDS.pdf",
+    "displayName": "Surefire WeedPro BioAqua 360 Herbicide SDS",
+    "filepath": "SDS Labels/Surefire_Weedpro-Bioaqua-360_SDS.pdf",
+    "productName": "Surefire WeedPro BioAqua 360 Herbicide",
+    "activeIngredient": "360 g/L Glyphosate",
+    "poisonsSchedule": "S5",
+    "poisonsScheduleLabel": "S5 — Caution",
+    "company": "Surefire",
+    "ghsSignalWord": "WARNING",
+    "hazardStatement": "H320: Causes eye irritation.; H412: Harmful to aquatic life with long lasting effects."
+  },
+  {
     "filename": "XENTARI_WG_BTA.pdf",
     "displayName": "Xentari Wg Bta",
     "filepath": "SDS Labels/XENTARI_WG_BTA.pdf",
@@ -3918,18 +3930,6 @@ window.sdsRegistry = [
     "hazardStatement": "H315: Causes skin irritation. H320: Causes eye irritation. H411: Toxic to aquatic life with long lasting effects."
   },
   {
-    "filename": "Surefire_Weedpro-Bioaqua-360_SDS.pdf",
-    "displayName": "Weedpro Bioaqua 360 Herbicide SDS",
-    "filepath": "SDS Labels/Surefire_Weedpro-Bioaqua-360_SDS.pdf",
-    "productName": "Weedpro Bioaqua 360 Herbicide",
-    "activeIngredient": "Glyphosate (as isopropylamine salt)",
-    "poisonsSchedule": "S5",
-    "poisonsScheduleLabel": "Schedule 5 - Caution",
-    "company": "Surefire",
-    "ghsSignalWord": "WARNING",
-    "hazardStatement": "H320: Causes eye irritation. H412: Harmful to aquatic life with long lasting effects."
-  },
-  {
     "filename": "VANIVA SDS.pdf",
     "displayName": "Syngenta Vaniva 450SC Nematicide SDS",
     "filepath": "SDS Labels/VANIVA SDS.pdf",
@@ -3976,5 +3976,17 @@ window.sdsRegistry = [
     "company": "Adama",
     "ghsSignalWord": "WARNING",
     "hazardStatement": "H319: Causes serious eye irritation. H411: Toxic to aquatic life with long lasting effects."
+  },
+  {
+    "filename": "Syngenta_Primextra Gold_SDS.pdf",
+    "displayName": "Syngenta Primextra Gold Herbicide SDS",
+    "filepath": "SDS Labels/Syngenta_Primextra Gold_SDS.pdf",
+    "productName": "Syngenta Primextra® Gold Herbicide",
+    "activeIngredient": "Atrazine + S-Metolachlor",
+    "poisonsSchedule": "S5",
+    "poisonsScheduleLabel": "Schedule 5 - Caution",
+    "company": "Syngenta",
+    "ghsSignalWord": "WARNING",
+    "hazardStatement": "H319: Causes serious eye irritation. H373: May cause damage to organs (Heart) through prolonged or repeated exposure if swallowed."
   }
 ];

@@ -111,7 +111,7 @@
         '<div class="label-request-header">' +
           '<div class="label-request-header-icon">📰</div>' +
           '<h3 class="label-request-title">What\'s New</h3>' +
-          '<p class="label-request-subtitle">Recent updates to Spray Hub</p>' +
+          '<p class="label-request-subtitle">Recent updates to Product Label Search</p>' +
           '<button class="close-modal-btn" id="close-changelog" aria-label="Close">&times;</button>' +
         '</div>' +
         '<div class="label-request-form cl-entries" id="cl-entries"></div>' +

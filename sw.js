@@ -1,4 +1,4 @@
-const CACHE_NAME = 'sprayhub-v219';
+const CACHE_NAME = 'sprayhub-v220';
 
 const ASSETS = [
   './',
@@ -63,6 +63,7 @@ const ASSETS = [
   './js/labels/outright.js',
   './js/labels/paramite.js',
   './js/labels/piston250.js',
+  './js/labels/primextragold.js',
   './js/labels/protak.js',
   './js/labels/raizon.js',
   './js/labels/red_dye.js',

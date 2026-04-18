@@ -2247,6 +2247,14 @@ window.weedsRegistry = [
         "productId": "dualgold",
         "productName": "Dual Gold® Herbicide",
         "source": "label"
+      },
+      {
+        "productId": "primextragold",
+        "productName": "Syngenta Primextra® Gold Herbicide",
+        "source": "label",
+        "crops": [
+          "Unknown"
+        ]
       }
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Awnless%20Barnyard%20Grass%20weed%20Australia",
@@ -2883,6 +2891,14 @@ window.weedsRegistry = [
         "crops": [
           "Potatoes"
         ]
+      },
+      {
+        "productId": "primextragold",
+        "productName": "Syngenta Primextra® Gold Herbicide",
+        "source": "label",
+        "crops": [
+          "Unknown"
+        ]
       }
     ],
     "thumbnail": "images/weeds/barnyard-grass.webp"
@@ -3238,6 +3254,14 @@ window.weedsRegistry = [
         "source": "label",
         "crops": [
           "Fallow"
+        ]
+      },
+      {
+        "productId": "primextragold",
+        "productName": "Syngenta Primextra® Gold Herbicide",
+        "source": "label",
+        "crops": [
+          "Unknown"
         ]
       }
     ],
@@ -3670,6 +3694,14 @@ window.weedsRegistry = [
         "productId": "weedmaster_dst",
         "productName": "Nufarm Weedmaster® DST® Herbicide",
         "source": "label"
+      },
+      {
+        "productId": "primextragold",
+        "productName": "Syngenta Primextra® Gold Herbicide",
+        "source": "label",
+        "crops": [
+          "Unknown"
+        ]
       }
     ],
     "thumbnail": "images/weeds/billygoat-weed.webp"
@@ -4152,6 +4184,14 @@ window.weedsRegistry = [
         "source": "label",
         "crops": [
           "Potatoes"
+        ]
+      },
+      {
+        "productId": "primextragold",
+        "productName": "Syngenta Primextra® Gold Herbicide",
+        "source": "label",
+        "crops": [
+          "Unknown"
         ]
       }
     ],
@@ -6577,6 +6617,14 @@ window.weedsRegistry = [
           "Oats",
           "Ryegrass Pastures",
           "Fallow"
+        ]
+      },
+      {
+        "productId": "primextragold",
+        "productName": "Syngenta Primextra® Gold Herbicide",
+        "source": "label",
+        "crops": [
+          "Unknown"
         ]
       }
     ],
@@ -9736,6 +9784,14 @@ window.weedsRegistry = [
         "crops": [
           "Potatoes"
         ]
+      },
+      {
+        "productId": "primextragold",
+        "productName": "Syngenta Primextra® Gold Herbicide",
+        "source": "label",
+        "crops": [
+          "Unknown"
+        ]
       }
     ],
     "thumbnail": "images/weeds/common-pigweed.webp"
@@ -11531,6 +11587,14 @@ window.weedsRegistry = [
         "productId": "basta",
         "productName": "BASF Basta® Herbicide",
         "source": "label"
+      },
+      {
+        "productId": "primextragold",
+        "productName": "Syngenta Primextra® Gold Herbicide",
+        "source": "label",
+        "crops": [
+          "Unknown"
+        ]
       }
     ],
     "thumbnail": "images/weeds/crowsfoot-grass.webp"
@@ -15405,6 +15469,14 @@ window.weedsRegistry = [
         "productId": "biffo",
         "productName": "Nufarm Biffo®",
         "source": "label"
+      },
+      {
+        "productId": "primextragold",
+        "productName": "Syngenta Primextra® Gold Herbicide",
+        "source": "label",
+        "crops": [
+          "Unknown"
+        ]
       }
     ],
     "thumbnail": "images/weeds/giant-pigweed.webp"
@@ -16358,6 +16430,14 @@ window.weedsRegistry = [
         "productId": "stomp_xtra",
         "productName": "STOMP® XTRA",
         "source": "label"
+      },
+      {
+        "productId": "primextragold",
+        "productName": "Syngenta Primextra® Gold Herbicide",
+        "source": "label",
+        "crops": [
+          "Unknown"
+        ]
       }
     ],
     "thumbnail": "images/weeds/green-summer-grass.webp"
@@ -16742,6 +16822,14 @@ window.weedsRegistry = [
         "productId": "weedmaster_duo",
         "productName": "Nufarm weedmaster® DUO Herbicide",
         "source": "label"
+      },
+      {
+        "productId": "primextragold",
+        "productName": "Syngenta Primextra® Gold Herbicide",
+        "source": "label",
+        "crops": [
+          "Unknown"
+        ]
       }
     ],
     "thumbnail": "images/weeds/guinea-grass.webp"
@@ -20143,6 +20231,14 @@ window.weedsRegistry = [
         "productId": "basta",
         "productName": "BASF Basta® Herbicide",
         "source": "label"
+      },
+      {
+        "productId": "primextragold",
+        "productName": "Syngenta Primextra® Gold Herbicide",
+        "source": "label",
+        "crops": [
+          "Unknown"
+        ]
       }
     ],
     "thumbnail": "images/weeds/liverseed-grass.webp"
@@ -20464,6 +20560,14 @@ window.weedsRegistry = [
         "productId": "surefireweedpro540",
         "productName": "Surefire WeedPro 540 Bio Herbicide",
         "source": "label"
+      },
+      {
+        "productId": "primextragold",
+        "productName": "Syngenta Primextra® Gold Herbicide",
+        "source": "label",
+        "crops": [
+          "Unknown"
+        ]
       }
     ],
     "imageUrl": "https://www.google.com/search?tbm=isch&q=Lovegrass%2FStink%20Grass%20weed%20Australia",
@@ -21130,6 +21234,14 @@ window.weedsRegistry = [
         "productId": "dropzone",
         "productName": "Nufarm DROPZONE® 640 Herbicide",
         "source": "label"
+      },
+      {
+        "productId": "primextragold",
+        "productName": "Syngenta Primextra® Gold Herbicide",
+        "source": "label",
+        "crops": [
+          "Unknown"
+        ]
       }
     ],
     "thumbnail": "images/weeds/mexican-clover.webp"
@@ -21704,6 +21816,14 @@ window.weedsRegistry = [
           "Triticale",
           "Linseed",
           "Grass Pastures"
+        ]
+      },
+      {
+        "productId": "primextragold",
+        "productName": "Syngenta Primextra® Gold Herbicide",
+        "source": "label",
+        "crops": [
+          "Unknown"
         ]
       }
     ],
@@ -23230,6 +23350,14 @@ window.weedsRegistry = [
           "Oats",
           "Ryegrass Pastures",
           "Fallow"
+        ]
+      },
+      {
+        "productId": "primextragold",
+        "productName": "Syngenta Primextra® Gold Herbicide",
+        "source": "label",
+        "crops": [
+          "Unknown"
         ]
       }
     ],
@@ -30213,6 +30341,14 @@ window.weedsRegistry = [
         "productId": "dualgold",
         "productName": "Dual Gold® Herbicide",
         "source": "label"
+      },
+      {
+        "productId": "primextragold",
+        "productName": "Syngenta Primextra® Gold Herbicide",
+        "source": "label",
+        "crops": [
+          "Unknown"
+        ]
       }
     ],
     "thumbnail": "images/weeds/slim-amaranth.webp"
@@ -31025,6 +31161,14 @@ window.weedsRegistry = [
         "productId": "kelpieazine900",
         "productName": "Kelpie A-Zine 900 Herbicide",
         "source": "label"
+      },
+      {
+        "productId": "primextragold",
+        "productName": "Syngenta Primextra® Gold Herbicide",
+        "source": "label",
+        "crops": [
+          "Unknown"
+        ]
       }
     ],
     "thumbnail": "images/weeds/south-african-pigeon-grass.webp"
@@ -31176,6 +31320,14 @@ window.weedsRegistry = [
           "Oats",
           "Ryegrass Pastures",
           "Fallow"
+        ]
+      },
+      {
+        "productId": "primextragold",
+        "productName": "Syngenta Primextra® Gold Herbicide",
+        "source": "label",
+        "crops": [
+          "Unknown"
         ]
       }
     ],
@@ -31526,6 +31678,14 @@ window.weedsRegistry = [
         "productId": "dropzone",
         "productName": "Nufarm DROPZONE® 640 Herbicide",
         "source": "label"
+      },
+      {
+        "productId": "primextragold",
+        "productName": "Syngenta Primextra® Gold Herbicide",
+        "source": "label",
+        "crops": [
+          "Unknown"
+        ]
       }
     ],
     "thumbnail": "images/weeds/spiny-amaranth.webp"
@@ -32090,6 +32250,14 @@ window.weedsRegistry = [
         "productId": "biffo",
         "productName": "Nufarm Biffo®",
         "source": "label"
+      },
+      {
+        "productId": "primextragold",
+        "productName": "Syngenta Primextra® Gold Herbicide",
+        "source": "label",
+        "crops": [
+          "Unknown"
+        ]
       }
     ],
     "thumbnail": "images/weeds/star-of-bethlehem.webp"
@@ -32879,6 +33047,14 @@ window.weedsRegistry = [
         "productId": "biffo",
         "productName": "Nufarm Biffo®",
         "source": "label"
+      },
+      {
+        "productId": "primextragold",
+        "productName": "Syngenta Primextra® Gold Herbicide",
+        "source": "label",
+        "crops": [
+          "Unknown"
+        ]
       }
     ],
     "thumbnail": "images/weeds/summer_grass.webp"
@@ -33667,6 +33843,14 @@ window.weedsRegistry = [
         "source": "label",
         "crops": [
           "Potatoes"
+        ]
+      },
+      {
+        "productId": "primextragold",
+        "productName": "Syngenta Primextra® Gold Herbicide",
+        "source": "label",
+        "crops": [
+          "Unknown"
         ]
       }
     ],
@@ -38781,6 +38965,14 @@ window.weedsRegistry = [
           "Ryegrass Pastures",
           "Fallow"
         ]
+      },
+      {
+        "productId": "primextragold",
+        "productName": "Syngenta Primextra® Gold Herbicide",
+        "source": "label",
+        "crops": [
+          "Unknown"
+        ]
       }
     ],
     "thumbnail": "images/weeds/common-pigweed.webp",
@@ -38981,5 +39173,33 @@ window.weedsRegistry = [
     ],
     "alaThumbnail": "https://images.ala.org.au/image/1255e8a2-a4c6-4a00-a1d4-befc1758ba5c/thumbnail",
     "alaLargeImage": "https://images.ala.org.au/image/1255e8a2-a4c6-4a00-a1d4-befc1758ba5c/large"
+  },
+  {
+    "commonName": "Passionfruit Vine",
+    "linkedProducts": [
+      {
+        "productId": "primextragold",
+        "productName": "Syngenta Primextra® Gold Herbicide",
+        "source": "label",
+        "crops": [
+          "Unknown"
+        ]
+      }
+    ],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Passionfruit%20Vine%20weed%20Australia"
+  },
+  {
+    "commonName": "Wild Rose",
+    "linkedProducts": [
+      {
+        "productId": "primextragold",
+        "productName": "Syngenta Primextra® Gold Herbicide",
+        "source": "label",
+        "crops": [
+          "Unknown"
+        ]
+      }
+    ],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Wild%20Rose%20weed%20Australia"
   }
 ];
