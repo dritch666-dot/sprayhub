@@ -2867,18 +2867,6 @@ window.sdsRegistry = [
     "ghsSignalWord": "Not hazardous"
   },
   {
-    "filename": "Weedpro_Bioaqua_360_Herbicide.pdf",
-    "displayName": "Weedpro Bioaqua 360 Herbicide",
-    "filepath": "SDS Labels/Weedpro_Bioaqua_360_Herbicide.pdf",
-    "productName": null,
-    "activeIngredient": "360 g/L Glyphosate",
-    "poisonsSchedule": "S5",
-    "poisonsScheduleLabel": "S5 — Caution",
-    "company": "WeedPro",
-    "ghsSignalWord": "WARNING",
-    "hazardStatement": "H320: Causes eye irritation.; H412: Harmful to aquatic life with long lasting effects."
-  },
-  {
     "filename": "XENTARI_WG_BTA.pdf",
     "displayName": "Xentari Wg Bta",
     "filepath": "SDS Labels/XENTARI_WG_BTA.pdf",

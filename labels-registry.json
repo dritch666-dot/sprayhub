@@ -2078,6 +2078,18 @@
       "status": "active"
     },
     {
+      "key": "surefireweedprobioaqua360",
+      "name": "Surefire WeedPro BioAqua 360 Herbicide",
+      "activeIngredient": "360 g/L Glyphosate (present as the isopropylamine salt)",
+      "group": "Group M Herbicide",
+      "color": "#92400e",
+      "jsFile": "js/labels/surefireweedprobioaqua360.js",
+      "labelPdf": "Source labels/Weedpro-Bio-Aqua 360_Label.pdf",
+      "pdfFilename": "Weedpro-Bio-Aqua 360_Label.pdf",
+      "status": "registered",
+      "sdsPdf": "SDS Labels/Surefire_Weedpro-Bioaqua-360_SDS.pdf"
+    },
+    {
       "key": "synertrolhorti",
       "name": "Synertrol Horti Botanical Oil Concentrate",
       "activeIngredient": "Emulsifiable Botanical Oil (850 g/L)",

@@ -17,7 +17,7 @@ productDatabase['surefireweedprobioaqua360'] = {
   color:            "#92400e",
   apvma:            "82251/109582",
   labelPdf:         "Source labels/Weedpro-Bio-Aqua 360_Label.pdf",
-  sdsPdf:           "SDS Labels/Weedpro_Bioaqua_360_Herbicide.pdf",
+  sdsPdf:           "SDS Labels/Surefire_Weedpro-Bioaqua-360_SDS.pdf",
   signalHeading:    "Caution",
   classification: {
     type: "Herbicide",
