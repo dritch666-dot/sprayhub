@@ -16,7 +16,7 @@ productDatabase.reactorred = {
       "timing": []
   },
   "labelPdf": "Source labels/PCT_RedDyeMarker_Label.pdf",
-    "sdsPdf": "SDS Labels/Reactor_RED_Spray_Marker_Dye.pdf",
+    "sdsPdf": "SDS Labels/PCT_REACTOR_RED_DYE_SDS.pdf",
   "crops": [
     {
       "crop": "Spray Marking",

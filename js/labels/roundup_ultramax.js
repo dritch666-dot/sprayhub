@@ -11,7 +11,7 @@ productDatabase['roundup_ultramax'] = {
     "apvma": "94751",
     "labelPdf": "Source labels/Bayer_RoundupUltraMAX_Label.pdf",
     "sdsPdf": "SDS Labels/Roundup_UltraMAX_Herbicide.pdf",
-    "signalHeading": "Warning",
+    "signalHeading": "Caution",
     "classification": {
         "type": "Herbicide",
         "target": [

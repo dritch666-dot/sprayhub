@@ -10,7 +10,7 @@ productDatabase['agrifos600'] = {
     "color": "#0891b2",
     "apvma": "54430/136197",
     "labelPdf": "Source labels/Agrichem_AGRI-FOS-600_Label.pdf",
-    "sdsPdf": "SDS Labels/AGRICHEM_AGRI-FOS_600_FUNGICIDE_SDS.pdf",
+    "sdsPdf": "SDS Labels/SDS - Agrichem Agri-Fos 600.pdf",
     "signalHeading": "Caution",
     "classification": {
         "type": "Fungicide",

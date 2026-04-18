@@ -10,7 +10,7 @@ productDatabase['bulldock'] = {
     "color": "#c2410c",
     "labelPdf": "Source labels/Bayer_Bulldock25EC_Label.pdf",
     "sdsPdf": "SDS Labels/BULLDOCK_25_EC_INSECTICIDE.pdf",
-    "signalHeading": "Warning",
+    "signalHeading": "Poison",
     "classification": {
         "type": "Insecticide",
         "target": [
