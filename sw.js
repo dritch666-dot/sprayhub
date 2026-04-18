@@ -1,4 +1,4 @@
-const CACHE_NAME = 'sprayhub-v220';
+const CACHE_NAME = 'sprayhub-v201';
 
 const ASSETS = [
   './',
@@ -7,7 +7,6 @@ const ASSETS = [
   './manifest.json',
   './css/styles.css',
   './css/components.css',
-  './css/desktop.css',
   './js/app.js',
   './js/calculators.js',
   './js/database.js',
@@ -106,6 +105,7 @@ const ASSETS = [
   './js/labels/vigilant.js',
   './js/labels/pendimethalin.js',
   './js/labels/terrain.js',
+  './js/labels/tervigo.js',
   './js/labels/mcpa.js',
   './js/labels/triflurx.js',
   './js/labels/cando.js',

@@ -253,7 +253,7 @@
     },
     {
       "key": "alphascud",
-      "name": "Alpha-Scud® 300 SC Insecticide",
+      "name": "Alpha-Scud\u00ae 300 SC Insecticide",
       "activeIngredient": "300 g/L Alpha-Cypermethrin",
       "group": "Group 3A Insecticide",
       "color": "#8b0000",
@@ -265,7 +265,7 @@
     },
     {
       "key": "altacor",
-      "name": "Altacor® X-Force Insecticide",
+      "name": "Altacor\u00ae X-Force Insecticide",
       "activeIngredient": "700 g/kg Chlorantraniliprole",
       "group": "Group 28 Insecticide",
       "color": "#5b21b6",
@@ -300,7 +300,7 @@
     },
     {
       "key": "associate",
-      "name": "Nufarm Associate®",
+      "name": "Nufarm Associate\u00ae",
       "activeIngredient": "Metsulfuron-methyl (600 g/kg)",
       "group": "Group 2 (Sulfonylurea)",
       "color": "#10b981",
@@ -324,7 +324,7 @@
     },
     {
       "key": "avatarevo",
-      "name": "Avatar® eVo Insecticide",
+      "name": "Avatar\u00ae eVo Insecticide",
       "activeIngredient": "303 g/kg Indoxacarb",
       "group": "Group 22A Insecticide",
       "color": "#475569",
@@ -431,7 +431,7 @@
     },
     {
       "key": "basta",
-      "name": "BASF Basta® Herbicide",
+      "name": "BASF Basta\u00ae Herbicide",
       "activeIngredient": "Glufosinate-ammonium (200 g/L)",
       "group": "Group 10 (Glufosinate)",
       "color": "#9333ea",
@@ -478,7 +478,7 @@
     },
     {
       "key": "biffo",
-      "name": "Nufarm Biffo®",
+      "name": "Nufarm Biffo\u00ae",
       "activeIngredient": "Glufosinate-ammonium (200 g/L)",
       "group": "Group 10 (Glufosinate)",
       "color": "#14b8a6",
@@ -501,7 +501,7 @@
     },
     {
       "key": "botector",
-      "name": "Nufarm Botector® Fungicide",
+      "name": "Nufarm Botector\u00ae Fungicide",
       "activeIngredient": "Aureobasidium pullulans (DSM 14940 and DSM 14941)",
       "group": "Group BM02 Fungicide",
       "color": "#4a7c59",
@@ -537,7 +537,7 @@
     },
     {
       "key": "calibre100ec",
-      "name": "Nufarm Calibre® 100 EC Miticide",
+      "name": "Nufarm Calibre\u00ae 100 EC Miticide",
       "activeIngredient": "100 g/L Hexythiazox",
       "group": "Group 10A Insecticide",
       "color": "#854d0e",
@@ -618,7 +618,7 @@
     },
     {
       "key": "chess",
-      "name": "CHESS® Insecticide",
+      "name": "CHESS\u00ae Insecticide",
       "activeIngredient": "500 g/kg Pymetrozine",
       "group": "Group 9B Insecticide",
       "color": "#0f172a",
@@ -630,7 +630,7 @@
     },
     {
       "key": "conqueror",
-      "name": "Nufarm Conqueror® Herbicide",
+      "name": "Nufarm Conqueror\u00ae Herbicide",
       "activeIngredient": "Picloram (100 g/L) + Triclopyr (300 g/L)",
       "group": "Group 4 (Pyridine)",
       "color": "#16a34a",
@@ -654,7 +654,7 @@
     },
     {
       "key": "corragen",
-      "name": "Coragen® Insecticide",
+      "name": "Coragen\u00ae Insecticide",
       "activeIngredient": "200 g/L Chlorantraniliprole",
       "group": "Group 28 Insecticide",
       "color": "#2e6b8a",
@@ -783,7 +783,7 @@
     },
     {
       "key": "crucial",
-      "name": "Nufarm CRUCIAL®",
+      "name": "Nufarm CRUCIAL\u00ae",
       "activeIngredient": "Glyphosate (600 g/L)",
       "group": "Group M (Glyphosate)",
       "color": "#3b82f6",
@@ -831,9 +831,9 @@
     },
     {
       "key": "designer",
-      "name": "Designer® Enhanced Wetter and Sticker",
+      "name": "Designer\u00ae Enhanced Wetter and Sticker",
       "activeIngredient": "385 g/L Organosilicone Surfactant Fluid, 255 g/L Synthetic Latex",
-      "group": "Adjuvant — Organosilicone Wetter and Sticker",
+      "group": "Adjuvant \u2014 Organosilicone Wetter and Sticker",
       "color": "#78350f",
       "jsFile": "js/labels/designer.js",
       "labelPdf": "Source labels/Loveland_Products_Inc_Designer_Enhanced_Wetter_And_Sticker_Label.pdf",
@@ -843,7 +843,7 @@
     },
     {
       "key": "dipeldf",
-      "name": "DiPel® DF Biological Insecticide",
+      "name": "DiPel\u00ae DF Biological Insecticide",
       "activeIngredient": "Bacillus thuringiensis subsp. kurstaki, strain ABTS-351",
       "group": "Group 11 (Biological Insecticide)",
       "color": "#059669",
@@ -855,7 +855,7 @@
     },
     {
       "key": "dithane",
-      "name": "Dithane® Rainshield® Neo Tec® Fungicide",
+      "name": "Dithane\u00ae Rainshield\u00ae Neo Tec\u00ae Fungicide",
       "activeIngredient": "750 g/kg Mancozeb",
       "group": "Group M3 (Multi-site Fungicide / EBDC)",
       "color": "#1e40af",
@@ -867,7 +867,7 @@
     },
     {
       "key": "dropzone",
-      "name": "Nufarm DROPZONE® Herbicide",
+      "name": "Nufarm DROPZONE\u00ae Herbicide",
       "activeIngredient": "2,4-D amine (640 g/L)",
       "group": "Group 4 (Phenoxy)",
       "color": "#f97316",
@@ -891,7 +891,7 @@
     },
     {
       "key": "entrustorganic",
-      "name": "Entrust® Organic* Qalcova® active Insecticide",
+      "name": "Entrust\u00ae Organic* Qalcova\u00ae active Insecticide",
       "activeIngredient": "240 g/L Spinosad",
       "group": "Group 5 Insecticide",
       "color": "#22d3ee",
@@ -1007,7 +1007,7 @@
     },
     {
       "key": "grazon_extra",
-      "name": "Corteva Grazon® Extra Herbicide",
+      "name": "Corteva Grazon\u00ae Extra Herbicide",
       "activeIngredient": "Triclopyr (300 g/L) + Picloram (100 g/L) + Aminopyralid (8 g/L)",
       "group": "Group 4 (Pyridine/Carboxylic Acid)",
       "color": "#b45309",
@@ -1059,12 +1059,12 @@
       "activeIngredient": "500 g/L Trichlorfon",
       "group": "Group 1B Insecticide",
       "company": "Imtrade Australia",
-      "sdsPdf": "SDS Labels/Imt-TYRANEX®-500-VeripHy®-SL-Insecticide-Issue-Date-Apr-2022.pdf",
+      "sdsPdf": "SDS Labels/Imt-TYRANEX\u00ae-500-VeripHy\u00ae-SL-Insecticide-Issue-Date-Apr-2022.pdf",
       "jsFile": "js/labels/imtradetyranex500.js"
     },
     {
       "key": "kamba_m",
-      "name": "Nufarm Kamba® M",
+      "name": "Nufarm Kamba\u00ae M",
       "activeIngredient": "MCPA (340 g/L) + Dicamba (80 g/L)",
       "group": "Group 4 (Phenoxy/Benzoic)",
       "color": "#ef4444",
@@ -1087,7 +1087,7 @@
     },
     {
       "key": "kocide",
-      "name": "Kocide® Blue Xtra® Fungicide",
+      "name": "Kocide\u00ae Blue Xtra\u00ae Fungicide",
       "activeIngredient": "350 g/kg COPPER present as Cupric hydroxide",
       "group": "Group M1 (Fungicide)",
       "color": "#0d9488",
@@ -1099,7 +1099,7 @@
     },
     {
       "key": "lancer",
-      "name": "Lancer® 970 Insecticide",
+      "name": "Lancer\u00ae 970 Insecticide",
       "activeIngredient": "970 g/kg Acephate",
       "group": "Group 1B Insecticide",
       "color": "#8b6914",
@@ -1111,7 +1111,7 @@
     },
     {
       "key": "lunaexperience",
-      "name": "Luna Experience® FUNGICIDE",
+      "name": "Luna Experience\u00ae FUNGICIDE",
       "activeIngredient": "200 g/L TEBUCONAZOLE 200 g/L FLUOPYRAM",
       "group": "Group 3 7 Fungicide",
       "color": "#16a34a",
@@ -1135,7 +1135,7 @@
     },
     {
       "key": "magnate",
-      "name": "Magnate® Fungicide",
+      "name": "Magnate\u00ae Fungicide",
       "activeIngredient": "500 g/L Imazalil",
       "group": "Group C (DMI Fungicide / Imidazole)",
       "color": "#7e22ce",
@@ -1217,7 +1217,7 @@
     },
     {
       "key": "nimitz",
-      "name": "Nimitz® 480 EC Nematicide",
+      "name": "Nimitz\u00ae 480 EC Nematicide",
       "activeIngredient": "480 g/L Fluensulfone",
       "group": "Group UN Nematicide",
       "color": "#6b3a2a",
@@ -1304,7 +1304,7 @@
     },
     {
       "key": "nufarmkamba750",
-      "name": "Nufarm Kamba® 750 Herbicide",
+      "name": "Nufarm Kamba\u00ae 750 Herbicide",
       "pdfFilename": "Nufarm-Kamba-750-Label.pdf",
       "apvma": "69302/142276",
       "activeIngredient": "750 g/L Dicamba",
@@ -1399,7 +1399,7 @@
     },
     {
       "key": "orius430sc",
-      "name": "Orius® 430 SC Fungicide",
+      "name": "Orius\u00ae 430 SC Fungicide",
       "activeIngredient": "430 g/L Tebuconazole",
       "group": "Group 3 (DMI Fungicide / Triazole)",
       "color": "#059669",
@@ -1423,7 +1423,7 @@
     },
     {
       "key": "paramite",
-      "name": "ParaMite® Selective Miticide",
+      "name": "ParaMite\u00ae Selective Miticide",
       "activeIngredient": "Etoxazole (110 g/L)",
       "group": "Group 10B (Miticide)",
       "color": "#0ea5e9",
@@ -1479,7 +1479,7 @@
     },
     {
       "key": "penncozeb",
-      "name": "Penncozeb® Fungicide",
+      "name": "Penncozeb\u00ae Fungicide",
       "activeIngredient": "Mancozeb (800 g/kg)",
       "group": "Group M3 (Multi-site Fungicide)",
       "color": "#1c1917",
@@ -1491,7 +1491,7 @@
     },
     {
       "key": "penncozeb750df",
-      "name": "Penncozeb® 750 DF Fungicide",
+      "name": "Penncozeb\u00ae 750 DF Fungicide",
       "activeIngredient": "Mancozeb (750 g/kg)",
       "group": "Group M3 (Multi-site Fungicide)",
       "color": "#4338ca",
@@ -1503,7 +1503,7 @@
     },
     {
       "key": "pirimor",
-      "name": "PIRIMOR® WG Aphicide",
+      "name": "PIRIMOR\u00ae WG Aphicide",
       "activeIngredient": "500 g/kg Pirimicarb",
       "group": "Group 1A Insecticide",
       "color": "#e879f9",
@@ -1539,7 +1539,7 @@
     },
     {
       "key": "proclaimopti",
-      "name": "PROCLAIM® Opti Insecticide",
+      "name": "PROCLAIM\u00ae Opti Insecticide",
       "activeIngredient": "44 g/kg Emamectin (as Emamectin Benzoate)",
       "group": "Group 6 Insecticide",
       "color": "#fb923c",
@@ -1737,7 +1737,7 @@
     },
     {
       "key": "roundup_ultramax",
-      "name": "Bayer Roundup® UltraMAX Herbicide",
+      "name": "Bayer Roundup\u00ae UltraMAX Herbicide",
       "activeIngredient": "Glyphosate (570 g/L, potassium salt)",
       "group": "Group 9 (Glycine Derivative)",
       "color": "#1d4ed8",
@@ -1749,7 +1749,7 @@
     },
     {
       "key": "rovralaquaflo",
-      "name": "Rovral® Aquaflo Fungicide",
+      "name": "Rovral\u00ae Aquaflo Fungicide",
       "activeIngredient": "500 g/L Iprodione",
       "group": "Group 2 Fungicide",
       "color": "#4a7c59",
@@ -1761,7 +1761,7 @@
     },
     {
       "key": "salibro",
-      "name": "Salibro® Reklemel® active Nematicide",
+      "name": "Salibro\u00ae Reklemel\u00ae active Nematicide",
       "activeIngredient": "500 g/L Fluazaindolizine",
       "group": "Group N-UN Nematicide",
       "color": "#34d399",
@@ -1773,7 +1773,7 @@
     },
     {
       "key": "samurai",
-      "name": "Samurai® Systemic Insecticide",
+      "name": "Samurai\u00ae Systemic Insecticide",
       "activeIngredient": "500 g/kg Clothianidin",
       "group": "Group 4A Insecticide",
       "color": "#38bdf8",
@@ -1820,7 +1820,7 @@
     },
     {
       "key": "simodis",
-      "name": "SIMODIS® PLINAZOLIN® technology Insecticide",
+      "name": "SIMODIS\u00ae PLINAZOLIN\u00ae technology Insecticide",
       "activeIngredient": "100 g/L Isocycloseram",
       "group": "Group 30 Insecticide",
       "color": "#f87171",
@@ -1866,7 +1866,7 @@
     },
     {
       "key": "sorcerer",
-      "name": "Sorcerer® 36 Miticide/Insecticide",
+      "name": "Sorcerer\u00ae 36 Miticide/Insecticide",
       "activeIngredient": "Abamectin (36 g/L)",
       "group": "Group 6 (Insecticide)",
       "color": "#b91c1c",
@@ -1878,7 +1878,7 @@
     },
     {
       "key": "spray_seed",
-      "name": "Syngenta Spray.Seed® Herbicide",
+      "name": "Syngenta Spray.Seed\u00ae Herbicide",
       "activeIngredient": "Paraquat (135 g/L) + Diquat (115 g/L)",
       "group": "Group 22 (Bipyridinium)",
       "color": "#7c3aed",
@@ -1890,7 +1890,7 @@
     },
     {
       "key": "spraytop",
-      "name": "Adama Spraytop® 250 SL",
+      "name": "Adama Spraytop\u00ae 250 SL",
       "activeIngredient": "Paraquat (250 g/L)",
       "group": "Group 22 (Bipyridinium)",
       "color": "#b91c1c",
@@ -1925,7 +1925,7 @@
     },
     {
       "key": "stomp_xtra",
-      "name": "STOMP® XTRA",
+      "name": "STOMP\u00ae XTRA",
       "activeIngredient": "Pendimethalin (455 g/L)",
       "group": "Group D (Dinitroaniline)",
       "color": "#ec4899",
@@ -1937,7 +1937,7 @@
     },
     {
       "key": "striker",
-      "name": "Nufarm Striker® Herbicide",
+      "name": "Nufarm Striker\u00ae Herbicide",
       "activeIngredient": "240 g/L Oxyfluorfen",
       "group": "Group 14 (Diphenyl Ether)",
       "color": "#0d9488",
@@ -2228,7 +2228,7 @@
     },
     {
       "key": "terrador",
-      "name": "Nufarm Terrad'or® 700 WG",
+      "name": "Nufarm Terrad'or\u00ae 700 WG",
       "activeIngredient": "Tiafenacil (700 g/kg)",
       "group": "Group G (Herbicide)",
       "color": "#16a34a",
@@ -2249,9 +2249,21 @@
       "status": "registered"
     },
     {
+      "key": "tervigo",
+      "name": "Syngenta Tervigo\u00ae Nematicide",
+      "activeIngredient": "20 g/L Abamectin",
+      "group": "Group 6 Insecticide",
+      "color": "#7e22ce",
+      "jsFile": "js/labels/tervigo.js",
+      "labelPdf": "Source labels/Syngenta_Tervigo_Label.pdf",
+      "pdfFilename": "Syngenta_Tervigo_Label.pdf",
+      "sdsPdf": "SDS Labels/Syngenta_Tervigo_SDS.pdf",
+      "status": "registered"
+    },
+    {
       "key": "thiovitjet",
-      "name": "Thiovit® Jet Microgranule Fungicide/Miticide",
-      "activeIngredient": "Sulfur — elemental sulphur (800 g/kg)",
+      "name": "Thiovit\u00ae Jet Microgranule Fungicide/Miticide",
+      "activeIngredient": "Sulfur \u2014 elemental sulphur (800 g/kg)",
       "group": "Group M2 (Multi-site Fungicide/Miticide)",
       "color": "#7e22ce",
       "jsFile": "js/labels/thiovitjet.js",
@@ -2286,7 +2298,7 @@
     },
     {
       "key": "tribase",
-      "name": "Tri-Base Blue® Fungicide",
+      "name": "Tri-Base Blue\u00ae Fungicide",
       "activeIngredient": "190 g/litre copper as tribasic copper sulphate",
       "group": "Group M1 (Fungicide)",
       "color": "#0d9488",
@@ -2432,7 +2444,7 @@
     },
     {
       "key": "vaniva",
-      "name": "VANIVA® 450SC TYMIRIUM™ technology Nematicide",
+      "name": "VANIVA\u00ae 450SC TYMIRIUM\u2122 technology Nematicide",
       "activeIngredient": "450 g/L Cyclobutrifluram",
       "group": "Group N-3 Nematicide / Group 7 Fungicide",
       "color": "#a3e635",
@@ -2444,7 +2456,7 @@
     },
     {
       "key": "vayegoforte",
-      "name": "Vayego Forte® INSECTICIDE",
+      "name": "Vayego Forte\u00ae INSECTICIDE",
       "activeIngredient": "480 g/L TETRANILIPROLE",
       "group": "GROUP 28 INSECTICIDE",
       "color": "#16a34a",
@@ -2503,8 +2515,8 @@
     },
     {
       "key": "vivusmax",
-      "name": "VIVUS MAX® Helicoverpa Biocontrol",
-      "activeIngredient": "5 × 10⁹ PIBs of Nucleopolyhedrovirus of Helicoverpa armigera per mL",
+      "name": "VIVUS MAX\u00ae Helicoverpa Biocontrol",
+      "activeIngredient": "5 \u00d7 10\u2079 PIBs of Nucleopolyhedrovirus of Helicoverpa armigera per mL",
       "group": "Biological Insecticide",
       "color": "#fbbf24",
       "jsFile": "js/labels/vivusmax.js",
@@ -2526,7 +2538,7 @@
     },
     {
       "key": "weedmaster_dst",
-      "name": "Nufarm weedmaster® DST® Herbicide",
+      "name": "Nufarm weedmaster\u00ae DST\u00ae Herbicide",
       "activeIngredient": "Glyphosate (600 g/L)",
       "group": "Group 9 (Glycine Derivative)",
       "color": "#0284c7",
@@ -2538,7 +2550,7 @@
     },
     {
       "key": "weedmaster_duo",
-      "name": "Nufarm weedmaster® DUO Herbicide",
+      "name": "Nufarm weedmaster\u00ae DUO Herbicide",
       "activeIngredient": "Glyphosate (600 g/L)",
       "group": "Group 9 (Glycine Derivative)",
       "color": "#6366f1",
@@ -2561,7 +2573,7 @@
     },
     {
       "key": "xentariwg",
-      "name": "XenTari® WG Biological Insecticide",
+      "name": "XenTari\u00ae WG Biological Insecticide",
       "activeIngredient": "Bacillus thuringiensis subsp. aizawai, Strain ABTS-1857",
       "group": "Group 11 (Biological Insecticide)",
       "color": "#831843",
@@ -2573,7 +2585,7 @@
     },
     {
       "key": "zampro",
-      "name": "Zampro® Fungicide",
+      "name": "Zampro\u00ae Fungicide",
       "activeIngredient": "300 g/L Ametoctradin + 225 g/L Dimethomorph",
       "group": "Group 45 + Group 40 Fungicide",
       "color": "#1e3a5f",
@@ -2653,7 +2665,7 @@
     {
       "key": "fmctrojan",
       "jsFile": "js/labels/fmctrojan.js",
-      "name": "FMC Trojan® Insecticide",
+      "name": "FMC Trojan\u00ae Insecticide",
       "pdfFilename": "FMC_Trojan_Label.pdf",
       "apvma": "63180",
       "activeIngredient": "150 g/L Gamma-cyhalothrin",
@@ -2664,7 +2676,7 @@
     {
       "key": "fmcexirel",
       "jsFile": "js/labels/fmcexirel.js",
-      "name": "FMC Exirel® Insecticide",
+      "name": "FMC Exirel\u00ae Insecticide",
       "pdfFilename": "fmc_exirel_insecticide_label.pdf",
       "apvma": "64103",
       "activeIngredient": "100 g/L Cyantraniliprole",
@@ -2675,7 +2687,7 @@
     {
       "key": "atlantisod",
       "jsFile": "js/labels/atlantisod.js",
-      "name": "Bayer Atlantis® OD Selective Herbicide",
+      "name": "Bayer Atlantis\u00ae OD Selective Herbicide",
       "pdfFilename": "Atlantis OD Selective Herbicide Product Label.pdf",
       "apvma": "62551/B/0209",
       "activeIngredient": "30 g/L Mesosulfuron-methyl",
@@ -2686,7 +2698,7 @@
     {
       "key": "infinityultra",
       "jsFile": "js/labels/infinityultra.js",
-      "name": "Bayer Infinity® Ultra Herbicide",
+      "name": "Bayer Infinity\u00ae Ultra Herbicide",
       "pdfFilename": "Infinity Ultra Product Label.pdf",
       "apvma": "91984/146943",
       "activeIngredient": "250 g/L Pyrasulfotole + 125 g/L Diflufenican",
@@ -2697,7 +2709,7 @@
     {
       "key": "inteco",
       "jsFile": "js/labels/inteco.js",
-      "name": "Bayer Inteco™ Seed Treatment Additive",
+      "name": "Bayer Inteco\u2122 Seed Treatment Additive",
       "pdfFilename": "Inteco Product Label.pdf",
       "apvma": "",
       "activeIngredient": "80% Soybean Oil Refining Raffinate + 20% Surfactants",
@@ -2708,7 +2720,7 @@
     {
       "key": "interrupt240sc",
       "jsFile": "js/labels/interrupt240sc.js",
-      "name": "Bayer Interrupt® 240 SC Miticide",
+      "name": "Bayer Interrupt\u00ae 240 SC Miticide",
       "pdfFilename": "Interrupt 240 SC Product Label.pdf",
       "apvma": "92500/135730",
       "activeIngredient": "240 g/L Spiromesifen",
@@ -2730,7 +2742,7 @@
     {
       "key": "syngentakaratezeon",
       "jsFile": "js/labels/syngentakaratezeon.js",
-      "name": "Syngenta Karate Zeon® Insecticide",
+      "name": "Syngenta Karate Zeon\u00ae Insecticide",
       "pdfFilename": "Syngenta_KARATE ZEON _label.pdf",
       "apvma": "51422/113164",
       "activeIngredient": "250 g/L Lambda-cyhalothrin",
@@ -2741,7 +2753,7 @@
     {
       "key": "adamabumper625ec",
       "jsFile": "js/labels/adamabumper625ec.js",
-      "name": "ADAMA Bumper® 625 EC Fungicide",
+      "name": "ADAMA Bumper\u00ae 625 EC Fungicide",
       "pdfFilename": "Adama_Bumper 625 EC_label.pdf",
       "apvma": "69815/134544",
       "activeIngredient": "625 g/L Propiconazole",
@@ -2752,7 +2764,7 @@
     {
       "key": "bayerflint500wg",
       "jsFile": "js/labels/bayerflint500wg.js",
-      "name": "Bayer Flint® 500 WG Fungicide",
+      "name": "Bayer Flint\u00ae 500 WG Fungicide",
       "pdfFilename": "Bayer_Flint 500 WG Fungicide_Label.pdf",
       "apvma": "53871/111093",
       "activeIngredient": "500 g/kg Trifloxystrobin",
@@ -2763,7 +2775,7 @@
     {
       "key": "basftermidorresidual",
       "jsFile": "js/labels/basftermidorresidual.js",
-      "name": "BASF Termidor® Residual Termiticide and Insecticide",
+      "name": "BASF Termidor\u00ae Residual Termiticide and Insecticide",
       "pdfFilename": "BASF_termidor_residual_label.pdf",
       "apvma": "54624/121259",
       "activeIngredient": "100 g/L Fipronil",
@@ -2785,7 +2797,7 @@
     {
       "key": "campbelllonhro100wg",
       "jsFile": "js/labels/campbelllonhro100wg.js",
-      "name": "Campbell Lonhro® 100 WG Herbicide",
+      "name": "Campbell Lonhro\u00ae 100 WG Herbicide",
       "pdfFilename": "CAMPBELL_Lonhro-WG_label.pdf",
       "apvma": "88829",
       "activeIngredient": "100 g/kg Iodosulfuron-Methyl-Sodium",
@@ -2796,7 +2808,7 @@
     {
       "key": "campbellpoachek",
       "jsFile": "js/labels/campbellpoachek.js",
-      "name": "Campbell Poachek® Herbicide",
+      "name": "Campbell Poachek\u00ae Herbicide",
       "pdfFilename": "CAMBBELLS_Poachek_Label.pdf",
       "apvma": "47841",
       "activeIngredient": "175 g/L Endothal (present as the dipotassium salt)",
@@ -2807,7 +2819,7 @@
     {
       "key": "boxergold",
       "jsFile": "js/labels/boxergold.js",
-      "name": "Syngenta Boxer Gold® Herbicide",
+      "name": "Syngenta Boxer Gold\u00ae Herbicide",
       "pdfFilename": "Syngenta_BOXER GOLD_Label.pdf",
       "apvma": "61234",
       "activeIngredient": "800 g/L Prosulfocarb + 120 g/L S-Metolachlor",
@@ -2818,12 +2830,12 @@
     {
       "key": "adamapriority",
       "jsFile": "js/labels/adamapriority.js",
-      "name": "Adama Priority® Herbicide",
+      "name": "Adama Priority\u00ae Herbicide",
       "pdfFilename": "Adama_Priority_Label.pdf",
       "labelPdf": "Source labels/Adama_Priority_Label.pdf",
       "apvma": "89643/138036",
       "activeIngredient": "200 g/L Florasulam",
-      "group": "Group 2 Herbicide (ALS Inhibitor — Triazolopyrimidine)",
+      "group": "Group 2 Herbicide (ALS Inhibitor \u2014 Triazolopyrimidine)",
       "company": "Adama",
       "sdsPdf": "SDS Labels/Adama_Priority_SDS.pdf",
       "status": "added"
@@ -2831,7 +2843,7 @@
     {
       "key": "adamagrindstone",
       "jsFile": "js/labels/adamagrindstone.js",
-      "name": "Adama Grindstone® Herbicide",
+      "name": "Adama Grindstone\u00ae Herbicide",
       "pdfFilename": "Adama_Grindstone_Label.pdf",
       "labelPdf": "Source labels/Adama_Grindstone_Label.pdf",
       "apvma": "91978/134072",
@@ -2844,16 +2856,16 @@
     {
       "key": "primextragold",
       "jsFile": "js/labels/primextragold.js",
-      "name": "Syngenta Primextra® Gold Herbicide",
+      "name": "Syngenta Primextra\u00ae Gold Herbicide",
       "pdfFilename": "Syngenta_PRIMEXTRA GOLD_Label.pdf",
       "labelPdf": "Source labels/Syngenta_PRIMEXTRA GOLD_Label.pdf",
       "apvma": "50885/127344",
       "activeIngredient": "370 g/L Atrazine + 290 g/L S-Metolachlor",
-      "group": "Group 5 + 15 Herbicide (Triazine + α-Chloroacetamide)",
+      "group": "Group 5 + 15 Herbicide (Triazine + \u03b1-Chloroacetamide)",
       "company": "Syngenta",
       "sdsPdf": "SDS Labels/Syngenta_Primextra Gold_SDS.pdf",
       "status": "added"
     }
   ],
-  "totalLabels": 244
+  "totalLabels": 245
 }

@@ -15368,6 +15368,14 @@ window.pestsRegistry = [
           "Fruiting vegetables (Tomato, Capsicum, Chilli, Eggplant)",
           "Cucurbits (Cucumber, Zucchini, Rockmelon, Melon, Watermelon, Pumpkin, Asian melon)"
         ]
+      },
+      {
+        "productId": "tervigo",
+        "productName": "Syngenta Tervigo® Nematicide",
+        "source": "label",
+        "crops": [
+          "Unknown"
+        ]
       }
     ],
     "thumbnail": "images/pests/root-knot-nematode.webp",

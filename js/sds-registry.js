@@ -3976,5 +3976,17 @@ window.sdsRegistry = [
     "company": "Syngenta",
     "ghsSignalWord": "WARNING",
     "hazardStatement": "H319: Causes serious eye irritation. H373: May cause damage to organs (Heart) through prolonged or repeated exposure if swallowed."
+  },
+  {
+    "filename": "Syngenta_Tervigo_SDS.pdf",
+    "displayName": "Syngenta Tervigo Nematicide SDS",
+    "filepath": "SDS Labels/Syngenta_Tervigo_SDS.pdf",
+    "productName": "Syngenta Tervigo® Nematicide",
+    "activeIngredient": "20 g/L Abamectin",
+    "poisonsSchedule": "S6",
+    "poisonsScheduleLabel": "Schedule 6 - Poison",
+    "company": "Syngenta",
+    "ghsSignalWord": "WARNING",
+    "hazardStatement": "H302 + H332: Harmful if swallowed or if inhaled. H373: May cause damage to organs (Nervous system) through prolonged or repeated exposure."
   }
 ];
