@@ -29,6 +29,7 @@ productDatabase['basta'] = {
             "weeds": [
                 {
                     "weed": "Apple of Peru, Argentine peppercress, Barley grass, Brome grasses, Clover (subterranean), Patterson's curse, Peanuts, Sago weed, Townsville stylo",
+                    pestList: ["Apple Of Peru","Argentine Peppercress","Barley Grass","Brome Grasses","Clover (Subterranean)","Patterson's Curse","Peanuts","Sago Weed","Townsville Stylo"],
                     "states": [
                         "All"
                     ],
@@ -52,6 +53,7 @@ productDatabase['basta'] = {
                 },
                 {
                     "weed": "Amaranthus spp., Awnless barnyard grass, Barnyard grass, Bell vine, Billy goat weed, Bitter cress, Black bindweed (buckwheat), Bladder ketmia, Calopo, Caltrop burr, Cape weed, Cobbler's peg, Common morning glory, Crowsfoot grass, Dead nettle, Dwarf crumbweed, Fat hen, Flax-leaf fleabane, Fumitory, Green crumbweed, Liverseed grass, Medics (annual), Milk thistle, Mint weed, New Zealand spinach, Pigweed, Pinkburr, Potato weed, Prairie grass, Prickly lettuce, Red natal grass, Ryegrass (annual), Saffron thistle, St. Barnaby's thistle, Scarlet pimpernel, Setaria, Sheep thistle, Silver grass, Sorghum/sudax, Square weed, Stagger weed, Star of Bethlehem, Summer grass, Thickhead, Three cornered jack, Tomato (volunteer), Turnip weed, Variegated thistle, Wheat (volunteer), Wild carrot, Wild gooseberry, Wild mustard, Wild oats, Wild radish, Wireweed",
+                    pestList: ["Amaranthus Spp.","Awnless Barnyard Grass","Barnyard Grass","Bell Vine","Billy Goat Weed","Bitter Cress","Black Bindweed (Buckwheat)","Bladder Ketmia","Calopo","Caltrop Burr","Cape Weed","Cobbler's Peg","Common Morning Glory","Crowsfoot Grass","Dead Nettle","Dwarf Crumbweed","Fat Hen","Flax-leaf Fleabane","Fumitory","Green Crumbweed","Liverseed Grass","Medics (Annual)","Milk Thistle","Mint Weed","New Zealand Spinach","Pigweed","Pinkburr","Potato Weed","Prairie Grass","Prickly Lettuce","Red Natal Grass","Ryegrass (Annual)","Saffron Thistle","St. Barnaby's Thistle","Scarlet Pimpernel","Setaria","Sheep Thistle","Silver Grass","Sorghum/sudax","Square Weed","Stagger Weed","Star Of Bethlehem","Summer Grass","Thickhead","Three Cornered Jack","Tomato (Volunteer)","Turnip Weed","Variegated Thistle","Wheat (Volunteer)","Wild Carrot","Wild Gooseberry","Wild Mustard","Wild Oats","Wild Radish","Wireweed"],
                     "states": [
                         "All"
                     ],
@@ -147,6 +149,7 @@ productDatabase['basta'] = {
             "weeds": [
                 {
                     "weed": "Spear thistle, Cleavers, Hawkbit, Cat's ear, Dandelion, plus any weeds listed in Table 1",
+                    pestList: ["Spear Thistle","Cleavers","Hawkbit","Cat's Ear","Dandelion","Plus Any Weeds Listed In Table 1"],
                     "states": [
                         "All"
                     ],

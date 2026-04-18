@@ -77,7 +77,7 @@ productDatabase['success_neo'] = {
         cropList: ["Bulb vegetables", "Including but not limited to bulb onion", "spring onion", "leek"],
         weeds: [
           { weed: "Western flower thrips", pestList: ["Western Flower Thrips"], states: ["All"], rate: "400", unit: "mL/ha", notes: "Use this product as part of a WFT Resistance Management strategy (see end of table 4 for details)." },
-          { weed: "Onion thrips (Thrips tabaci)", pestList: ["Onion Thrips"], states: ["All"], rate: "500", unit: "mL/ha", notes: "Use as part of a season-long program utilizing all IPM techniques. Apply up to three “back to back” applications of Success Neo at 7 day intervals. Always apply Success Neo in sufficient water to ensure thorough coverage of foliage." }
+          { weed: "Onion thrips (Thrips tabaci)", pestList: ["Onion Thrips"], states: ["All"], rate: "500", unit: "mL/ha", notes: "Use as part of a season-long program utilizing all IPM techniques. Apply up to three \"back to back\" applications of Success Neo at 7 day intervals. Always apply Success Neo in sufficient water to ensure thorough coverage of foliage." }
         ]
       },
       {
@@ -100,16 +100,16 @@ productDatabase['success_neo'] = {
         crop: "Fruiting vegetables; including but not limited to Eggplant Okra Peppers (Capsicums & Chillies), Sweet corn (see also under separate listing below) Tomatoes",
         cropList: ["Fruiting vegetables", "including but not limited to Eggplant Okra Peppers (Capsicums & Chillies)", "Sweet corn Tomatoes"],
         weeds: [
-          { weed: "Potato moth (tomato leaf miner) Helicoverpa", pestList: ["Potato Moth (Tomato Leaf Miner) Helicoverpa"], states: ["All"], rate: "200", rateMax: "400", unit: "mL/ha", notes: "Use the per hectare rate when applying to bush tomatoes and the dilute rate (per 100 L) in trellised crops (see the “DILUTE SPRAYING” Section in this booklet). Use the lower rate as part of an IPM program when Helicoverpa is the dominant pest and good crop coverage is possible. Use higher rates during periods of high insect pressure or when crop coverage is difficult. Addition of a non-ionic wetting agent may improve control." },
+          { weed: "Potato moth (tomato leaf miner) Helicoverpa", pestList: ["Potato Moth (Tomato Leaf Miner) Helicoverpa"], states: ["All"], rate: "200", rateMax: "400", unit: "mL/ha", notes: "Use the per hectare rate when applying to bush tomatoes and the dilute rate (per 100 L) in trellised crops (see the \"DILUTE SPRAYING\" Section in this booklet). Use the lower rate as part of an IPM program when Helicoverpa is the dominant pest and good crop coverage is possible. Use higher rates during periods of high insect pressure or when crop coverage is difficult. Addition of a non-ionic wetting agent may improve control." },
           { weed: "Western flower thrips", pestList: ["Western Flower Thrips"], states: ["All"], rate: "400", unit: "mL/ha", notes: "Use this product as part of the WFT Resistance Management strategy (see end of table 4 for details)." },
-          { weed: "Tomato potato psyllid (Bactericera cockerelli)", pestList: ["Tomato Potato Psyllid"], states: ["All"], rate: "400", unit: "mL/ha", notes: "Use as part of a season long program utilising all IPM techniques. Apply up to four “back to back” applications of Success Neo at 7 day intervals. Always apply Success Neo in sufficient water to ensure thorough coverage of foliage." }
+          { weed: "Tomato potato psyllid (Bactericera cockerelli)", pestList: ["Tomato Potato Psyllid"], states: ["All"], rate: "400", unit: "mL/ha", notes: "Use as part of a season long program utilising all IPM techniques. Apply up to four \"back to back\" applications of Success Neo at 7 day intervals. Always apply Success Neo in sufficient water to ensure thorough coverage of foliage." }
         ]
       },
       {
         crop: "Leafy vegetables; including but not limited to Lettuce, Endive Silverbeet, Spinach & Brassica leafy vegetables (*see list at end of table 3)",
         cropList: ["Leafy vegetables", "including but not limited to Lettuce", "Endive Silverbeet", "Spinach & Brassica leafy vegetables (*see list at end of table 3)"],
         weeds: [
-          { weed: "Loopers", pestList: ["Loopers"], states: ["All"], rate: "200", unit: "mL/ha", notes: "See above under “ALL VEGETABLES” Use the lower rate as part of an IPM program when Helicoverpa is the dominant pest and good crop coverage is possible. Use higher rates during periods of high insect pressure or when crop coverage is difficult." },
+          { weed: "Loopers", pestList: ["Loopers"], states: ["All"], rate: "200", unit: "mL/ha", notes: "See above under \"ALL VEGETABLES\" Use the lower rate as part of an IPM program when Helicoverpa is the dominant pest and good crop coverage is possible. Use higher rates during periods of high insect pressure or when crop coverage is difficult." },
           { weed: "Helicoverpa", pestList: ["Helicoverpa"], states: ["All"], rate: "200", rateMax: "400", unit: "mL/ha" },
           { weed: "Western flower thrips", pestList: ["Western Flower Thrips"], states: ["All"], rate: "400", unit: "mL/ha", notes: "Use this product as part of the WFT Resistance Management strategy (see end of table 4 for details)." }
         ]
@@ -127,17 +127,17 @@ productDatabase['success_neo'] = {
         crop: "Root and tuber vegetables; including but not limited to Beetroot, Carrots Celeriac, Galangal Parsnips Potatoes Radishes (incl. Daikon) Sweet potato Swedes, Turnips",
         cropList: ["Root", "tuber vegetables", "including but not limited to Beetroot", "Carrots Celeriac", "Galangal Parsnips Potatoes Radishes (incl. Daikon) Sweet potato Swedes", "Turnips"],
         weeds: [
-          { weed: "Lightbrown apple moth, Loopers", pestList: ["Lightbrown Apple Moth", "Loopers"], states: ["All"], rate: "200", unit: "mL/ha", notes: "See above under “ALL VEGETABLES” Use the lower rate when good coverage can be achieved and the high rate in maturing crops if crop canopies prevent good coverage. Entrenched larvae will not be controlled. Only target foliar infestations of potato moth. Potato moth larvae within stems or below the soil will not be controlled." },
+          { weed: "Lightbrown apple moth, Loopers", pestList: ["Lightbrown Apple Moth", "Loopers"], states: ["All"], rate: "200", unit: "mL/ha", notes: "See above under \"ALL VEGETABLES\" Use the lower rate when good coverage can be achieved and the high rate in maturing crops if crop canopies prevent good coverage. Entrenched larvae will not be controlled. Only target foliar infestations of potato moth. Potato moth larvae within stems or below the soil will not be controlled." },
           { weed: "Helicoverpa", pestList: ["Helicoverpa"], states: ["All"], rate: "200", rateMax: "400", unit: "mL/ha" },
           { weed: "Potato moth", pestList: ["Potato Moth"], states: ["All"], rate: "200", rateMax: "400", unit: "mL/ha" },
-          { weed: "Tomato potato psyllid (Bactericera cockerelli)", pestList: ["Tomato Potato Psyllid"], states: ["All"], rate: "400", unit: "mL/ha", notes: "Use as part of a season long program utilizing all IPM techniques. Apply up to four “back to back” applications of Success® Neo at 7 day intervals. Always apply Success® Neo in sufficient water to ensure thorough coverage of foliage." }
+          { weed: "Tomato potato psyllid (Bactericera cockerelli)", pestList: ["Tomato Potato Psyllid"], states: ["All"], rate: "400", unit: "mL/ha", notes: "Use as part of a season long program utilizing all IPM techniques. Apply up to four \"back to back\" applications of Success® Neo at 7 day intervals. Always apply Success® Neo in sufficient water to ensure thorough coverage of foliage." }
         ]
       },
       {
         crop: "Stalk & Stem vegetables; including but not limited to Celery and Rhubarb",
         cropList: ["Stalk & Stem vegetables", "including but not limited to Celery", "Rhubarb"],
         weeds: [
-          { weed: "Helicoverpa", pestList: ["Helicoverpa"], states: ["All"], rate: "400", unit: "mL/ha", notes: "See comments under “ALL VEGETABLES” above" }
+          { weed: "Helicoverpa", pestList: ["Helicoverpa"], states: ["All"], rate: "400", unit: "mL/ha", notes: "See comments under \"ALL VEGETABLES\" above" }
         ]
       },
       {
@@ -160,7 +160,7 @@ productDatabase['success_neo'] = {
         crop: "Avocados (see also under Tropical & Sub- Tropical Fruit Crops below)",
         cropList: ["Avocados"],
         weeds: [
-          { weed: "Leafrollers (including Avocado leafroller, Ivy leafroller and Lightbrown apple moth), Loopers (including Ectropis looper)", pestList: ["Leafrollers (Including Avocado Leafroller", "Ivy Leafroller And Lightbrown Apple Moth)", "Loopers (Including Ectropis Looper)"], states: ["All"], rate: "20", unit: "mL/100L", notes: "See comments under “FOR ALL TREE, VINE & BERRYFRUIT CROPS” above" }
+          { weed: "Leafrollers (including Avocado leafroller, Ivy leafroller and Lightbrown apple moth), Loopers (including Ectropis looper)", pestList: ["Leafrollers (Including Avocado Leafroller", "Ivy Leafroller And Lightbrown Apple Moth)", "Loopers (Including Ectropis Looper)"], states: ["All"], rate: "20", unit: "mL/100L", notes: "See comments under \"FOR ALL TREE, VINE & BERRYFRUIT CROPS\" above" }
         ]
       },
       {
@@ -174,7 +174,7 @@ productDatabase['success_neo'] = {
         crop: "Berryfruit; including but not limited to Blackberries Blueberries Boysenberries Cranberries Currants Gooseberries Raspberries Strawberries",
         cropList: ["Berryfruit", "including but not limited to Blackberries Blueberries Boysenberries Cranberries Currants Gooseberries Raspberries Strawberries"],
         weeds: [
-          { weed: "Loopers", pestList: ["Loopers"], states: ["All"], rate: "20", unit: "mL/100L", notes: "See comments under “FOR ALL TREE, VINE & BERRYFRUIT CROPS” above" },
+          { weed: "Loopers", pestList: ["Loopers"], states: ["All"], rate: "20", unit: "mL/100L", notes: "See comments under \"FOR ALL TREE, VINE & BERRYFRUIT CROPS\" above" },
           { weed: "Lightbrown apple moth, Helicoverpa", pestList: ["Lightbrown Apple Moth", "Helicoverpa"], states: ["All"], rate: "20", rateMax: "40", unit: "mL/100L", notes: "Use the higher rate in dense canopies and when larvae have begun webbing leaves and fruit. Use the lower rate under an IPM system or where good coverage is assured." },
           { weed: "Western flower thrips", pestList: ["Western Flower Thrips"], states: ["All"], rate: "40", unit: "mL/100L", notes: "Use this product as part of the WFT Resistance Management strategy (see end of table 4 for details)." }
         ]

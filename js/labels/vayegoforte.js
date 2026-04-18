@@ -49,8 +49,8 @@ productDatabase.vayegoforte = {
       ]
     },
     {
-      "crop": "Sorghum and millet - sorghum, millet, hungry rice, Job’s tears, teff or tef",
-      cropList: ["Sorghum And Millet - Sorghum","Millet","Hungry Rice","Job’S Tears","Teff Or Tef"],
+      "crop": "Sorghum and millet - sorghum, millet, hungry rice, Job's tears, teff or tef",
+      cropList: ["Sorghum And Millet - Sorghum","Millet","Hungry Rice","Job'S Tears","Teff Or Tef"],
       "weeds": [
         {
           "weed": "Fall armyworm (Spodoptera frugiperda)",

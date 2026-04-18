@@ -453,6 +453,7 @@ productDatabase.raizon = {
       "weeds": [
         {
           "weed": "Blackberry in association with: Docks, Ragwort, St John's wort, Thistles",
+          pestList: ["Blackberry In Association With: Docks","Ragwort","St John's Wort","Thistles"],
           "states": ["All"],
                     "rate": "100", "rateMax": "100", "unit": "mL/ha", 
           note: "One application may give satisfactory control, but subsequent regrowth and seedlings should be re-sprayed after hardening off. If other Group I herbicides used, allow two seasons regrowth before respraying."

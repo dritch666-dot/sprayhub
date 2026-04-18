@@ -55,6 +55,7 @@ productDatabase['dualgold'] = {
       weeds: [
         {
           weed: "Barnyard Grass, Blackberry Nightshade, Chickweed (suppression), Deadnettle, Fat Hen, Feathertop Rhodes Grass, Love Grass, Pigeon Grass, Pigweed (suppression), Potato Weed, Shepherd's Purse, Stinging Nettle, Summer Grass, Wireweed (suppression) [+ additional state-specific species; see note]",
+          pestList: ["Barnyard Grass","Blackberry Nightshade","Chickweed","Deadnettle","Fat Hen","Feathertop Rhodes Grass","Love Grass","Pigeon Grass","Pigweed","Potato Weed","Shepherd's Purse","Stinging Nettle","Summer Grass","Wireweed (Suppression) [+ Additional State-specific Species; See Note]"],
           states: ["Qld", "NSW", "Vic", "Tas", "NT"],
           rate: "1.5",
           rateMax: "2",
@@ -71,6 +72,7 @@ productDatabase['dualgold'] = {
       weeds: [
         {
           weed: "Annual Ryegrass, Apple of Peru, Awnless Barnyard Grass, Blackberry Nightshade, Chickweed (suppression), Common Cotula, Common Sowthistle (suppression), Crowsfoot Grass, Deadnettle, Fat Hen, Feathertop Rhodes Grass, Fiddle Dock, Fierce Thornapple (suppression), Italian Ryegrass, Liverseed Grass, Love Grass, Nettleleaf Goosefoot (suppression), Pigeon Grass, Pigweed (suppression), Potato Weed, Redroot Amaranth (suppression), Shepherd's Purse, Stinging Nettle, Summer Grass, Twiggy Turnip (suppression), Winter Grass, Wireweed (suppression), Yellow Weed",
+          pestList: ["Annual Ryegrass","Apple Of Peru","Awnless Barnyard Grass","Blackberry Nightshade","Chickweed","Common Cotula","Common Sowthistle","Crowsfoot Grass","Deadnettle","Fat Hen","Feathertop Rhodes Grass","Fiddle Dock","Fierce Thornapple","Italian Ryegrass","Liverseed Grass","Love Grass","Nettleleaf Goosefoot","Pigeon Grass","Pigweed","Potato Weed","Redroot Amaranth","Shepherd's Purse","Stinging Nettle","Summer Grass","Twiggy Turnip","Winter Grass","Wireweed","Yellow Weed"],
           states: ["All"],
           rate: "1",
           rateMax: "2",
@@ -276,6 +278,7 @@ productDatabase['dualgold'] = {
       weeds: [
         {
           weed: "Annual Ryegrass, Apple of Peru, Awnless Barnyard Grass, Blackberry Nightshade, Chickweed (suppression), Common Cotula, Common Sowthistle (suppression), Crowsfoot Grass, Deadnettle, Fat Hen, Feathertop Rhodes Grass, Fiddle Dock, Fierce Thornapple (suppression), Italian Ryegrass, Liverseed Grass, Love Grass, Nettleleaf Goosefoot (suppression), Pigeon Grass, Pigweed (suppression), Potato Weed, Redroot Amaranth (suppression), Shepherd's Purse, Stinging Nettle, Summer Grass, Twiggy Turnip (suppression), Winter Grass, Wireweed (suppression), Yellow Weed",
+          pestList: ["Annual Ryegrass","Apple Of Peru","Awnless Barnyard Grass","Blackberry Nightshade","Chickweed","Common Cotula","Common Sowthistle","Crowsfoot Grass","Deadnettle","Fat Hen","Feathertop Rhodes Grass","Fiddle Dock","Fierce Thornapple","Italian Ryegrass","Liverseed Grass","Love Grass","Nettleleaf Goosefoot","Pigeon Grass","Pigweed","Potato Weed","Redroot Amaranth","Shepherd's Purse","Stinging Nettle","Summer Grass","Twiggy Turnip","Winter Grass","Wireweed","Yellow Weed"],
           states: ["All"],
           rate: "1",
           rateMax: "2",

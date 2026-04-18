@@ -121,6 +121,7 @@ productDatabase['spray_seed'] = {
                 },
                 {
                     "weed": "Seedling Brassica weeds: Ball Mustard, Charlock, Indian Hedge Mustard, Long Fruited Wild Turnip, Muskweed, Shepherds Purse, Short Fruited Wild Turnip, Ward's Weed, Wild Radish",
+                    pestList: ["Seedling Brassica Weeds: Ball Mustard","Charlock","Indian Hedge Mustard","Long Fruited Wild Turnip","Muskweed","Shepherds Purse","Short Fruited Wild Turnip","Ward's Weed","Wild Radish"],
                     "states": [
                         "NSW",
                         "Vic",
@@ -355,6 +356,7 @@ productDatabase['spray_seed'] = {
                 },
                 {
                     "weed": "Seedling Brassica weeds: Ball Mustard, Charlock, Indian Hedge Mustard, Long Fruited Wild Turnip, Muskweed, Shepherds Purse, Short Fruited Wild Turnip, Ward's Weed, Wild Radish",
+                    pestList: ["Seedling Brassica Weeds: Ball Mustard","Charlock","Indian Hedge Mustard","Long Fruited Wild Turnip","Muskweed","Shepherds Purse","Short Fruited Wild Turnip","Ward's Weed","Wild Radish"],
                     "states": [
                         "NSW",
                         "Vic",

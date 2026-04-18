@@ -34,6 +34,7 @@ productDatabase['vendex'] = {
             "weeds": [
                 {
                     "weed": "Two-spotted mite (Tetranychus urticae), European red mite (Panonychus ulmi)",
+                    pestList: ["Two-spotted Mite (Tetranychus Urticae)","European Red Mite (Panonychus Ulmi)"],
                     "pestList": ["Two-spotted mite", "European red mite"],
                     "states": ["All"],
                     "rate": "20",
@@ -86,6 +87,7 @@ productDatabase['vendex'] = {
             "weeds": [
                 {
                     "weed": "Tea red spider mite (Oligonychus coffeae), Six spotted mite (Eotetranychus sexmaculatus)",
+                    pestList: ["Tea Red Spider Mite (Oligonychus Coffeae)","Six Spotted Mite (Eotetranychus Sexmaculatus)"],
                     "pestList": ["Tea red spider mite", "Six spotted mite"],
                     "states": ["All"],
                     "rate": "38",
@@ -105,6 +107,7 @@ productDatabase['vendex'] = {
             "weeds": [
                 {
                     "weed": "Two-spotted mite (Tetranychus urticae), Banana spider mite (Tetranychus lambi)",
+                    pestList: ["Two-spotted Mite (Tetranychus Urticae)","Banana Spider Mite (Tetranychus Lambi)"],
                     "pestList": ["Two-spotted mite", "Banana spider mite"],
                     "states": ["All"],
                     "rate": "370",
@@ -190,6 +193,7 @@ productDatabase['vendex'] = {
             "weeds": [
                 {
                     "weed": "Two-spotted mite (Tetranychus urticae), European red mite (Panonychus ulmi)",
+                    pestList: ["Two-spotted Mite (Tetranychus Urticae)","European Red Mite (Panonychus Ulmi)"],
                     "pestList": ["Two-spotted mite", "European red mite"],
                     "states": ["All"],
                     "rate": "40",

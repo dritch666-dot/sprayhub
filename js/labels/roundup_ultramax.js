@@ -70,8 +70,8 @@ productDatabase['roundup_ultramax'] = {
                     "note": "320–625 mL/ha at <8 cm; 625–950 mL/ha at >8 cm."
                 },
                 {
-                    "weed": "Amsinckia, dock (seedling), Paterson’s curse, saffron thistle, Scotch thistle, spear thistle, variegated thistle, wild turnip",
-                    pestList: ["Amsinckia","Dock","Paterson’S Curse","Saffron Thistle","Scotch Thistle","Spear Thistle","Variegated Thistle","Wild Turnip"],
+                    "weed": "Amsinckia, dock (seedling), Paterson's curse, saffron thistle, Scotch thistle, spear thistle, variegated thistle, wild turnip",
+                    pestList: ["Amsinckia","Dock","Paterson'S Curse","Saffron Thistle","Scotch Thistle","Spear Thistle","Variegated Thistle","Wild Turnip"],
                     "states": [
                         "All"
                     ],
@@ -112,8 +112,8 @@ productDatabase['roundup_ultramax'] = {
                     "note": "Lower rate for young weeds; higher rate at full tillering. In Tasmania use 950 mL–1.9 L/ha for perennial weeds."
                 },
                 {
-                    "weed": "Annual ryegrass, brome grass, capeweed, Paterson’s curse, saffron thistle, Scotch thistle, silvergrass, soursob, spear thistle, variegated thistle, wild mustard, wild radish, wild turnip, winter grass",
-                    pestList: ["Annual Ryegrass","Brome Grass","Capeweed","Paterson’S Curse","Saffron Thistle","Scotch Thistle","Silvergrass","Soursob","Spear Thistle","Variegated Thistle","Wild Mustard","Wild Radish","Wild Turnip","Winter Grass"],
+                    "weed": "Annual ryegrass, brome grass, capeweed, Paterson's curse, saffron thistle, Scotch thistle, silvergrass, soursob, spear thistle, variegated thistle, wild mustard, wild radish, wild turnip, winter grass",
+                    pestList: ["Annual Ryegrass","Brome Grass","Capeweed","Paterson'S Curse","Saffron Thistle","Scotch Thistle","Silvergrass","Soursob","Spear Thistle","Variegated Thistle","Wild Mustard","Wild Radish","Wild Turnip","Winter Grass"],
                     "states": [
                         "All"
                     ],
@@ -541,8 +541,8 @@ productDatabase['roundup_ultramax'] = {
                     "note": "Boom/aerial: 5 L + 60 g Associate® per ha. Add Pulse® Penetrant at 200–500 mL/100 L."
                 },
                 {
-                    "weed": "St John’s wort (Hypericum perforarum)",
-                    pestList: ["St John’S Wort"],
+                    "weed": "St John's wort (Hypericum perforarum)",
+                    pestList: ["St John'S Wort"],
                     "states": [
                         "All"
                     ],
@@ -571,8 +571,8 @@ productDatabase['roundup_ultramax'] = {
             cropList: ["Annual Weeds","Domestic","Commercial","Agricultural"],
             "weeds": [
                 {
-                    "weed": "Amaranth, Bathurst burr, barley grass, brome grass, barnyard grass, caltrop, canary grass, capeweed, chickweed, cobbler’s peg, deadnettle, doublegee, fumitory, ground cherry, hedge mustard, lesser swinecress, liverseed grass, mintweed, noogoora burr, paradoxa grass, Paterson’s curse, pigweed, potato weed, ryegrass, saffron thistle, silvergrass, milk (sow) thistle, spear thistle, spiny burrgrass, spurge, sub clover, thornapple, wild mustard, wild oats, wild turnip, winter grass, variegated thistle, volunteer cereal",
-                    pestList: ["Amaranth","Bathurst Burr","Barley Grass","Brome Grass","Barnyard Grass","Caltrop","Canary Grass","Capeweed","Chickweed","Cobbler’S Peg","Deadnettle","Doublegee","Fumitory","Ground Cherry","Hedge Mustard","Lesser Swinecress","Liverseed Grass","Mintweed","Noogoora Burr","Paradoxa Grass","Paterson’S Curse","Pigweed","Potato Weed","Ryegrass","Saffron Thistle","Silvergrass","Milk Thistle","Spear Thistle","Spiny Burrgrass","Spurge","Sub Clover","Thornapple","Wild Mustard","Wild Oats","Wild Turnip","Winter Grass","Variegated Thistle","Volunteer Cereal"],
+                    "weed": "Amaranth, Bathurst burr, barley grass, brome grass, barnyard grass, caltrop, canary grass, capeweed, chickweed, cobbler's peg, deadnettle, doublegee, fumitory, ground cherry, hedge mustard, lesser swinecress, liverseed grass, mintweed, noogoora burr, paradoxa grass, Paterson's curse, pigweed, potato weed, ryegrass, saffron thistle, silvergrass, milk (sow) thistle, spear thistle, spiny burrgrass, spurge, sub clover, thornapple, wild mustard, wild oats, wild turnip, winter grass, variegated thistle, volunteer cereal",
+                    pestList: ["Amaranth","Bathurst Burr","Barley Grass","Brome Grass","Barnyard Grass","Caltrop","Canary Grass","Capeweed","Chickweed","Cobbler'S Peg","Deadnettle","Doublegee","Fumitory","Ground Cherry","Hedge Mustard","Lesser Swinecress","Liverseed Grass","Mintweed","Noogoora Burr","Paradoxa Grass","Paterson'S Curse","Pigweed","Potato Weed","Ryegrass","Saffron Thistle","Silvergrass","Milk Thistle","Spear Thistle","Spiny Burrgrass","Spurge","Sub Clover","Thornapple","Wild Mustard","Wild Oats","Wild Turnip","Winter Grass","Variegated Thistle","Volunteer Cereal"],
                     "states": [
                         "All"
                     ],

@@ -24,12 +24,14 @@ productDatabase.sencor = {
       "weeds": [
         {
           "weed": "False castor oil (thornapples), shepherd's purse, fat hen (Qld, NSW, ACT, Vic, Tas, SA only)",
+          pestList: ["False Castor Oil (Thornapples)","Shepherd's Purse","Fat Hen (Qld","Nsw","Act","Vic","Tas","Sa Only)"],
           "states": ["All"],
                     "rate": "1100", "rateMax": "2200", "unit": "mL/ha",
           note: "Direct seeded asparagus: Apply to moist soil after sowing before crop emerges, then irrigate. Follow up 4-8 weeks later if needed. Seedling asparagus (transplanted): DO NOT spray before seedlings are 4 cm high and well established. Spray emerged, young, actively growing weeds. Use higher rate on older weeds. Established asparagus in beds: Apply after transplanting crowns or preparing beds, before spears emerge, or after cutting for the season. Overhead irrigate within a few days. Use higher rate on heavier soils."
         },
         {
           "weed": "Winter weed control: Chickweed, shepherd's purse, nettle, deadnettle; Spring and summer weed control: False castor oil (thornapples), shepherd's purse, fat hen (WA only)",
+          pestList: ["Winter Weed Control: Chickweed","Shepherd's Purse","Nettle","Deadnettle; Spring","Summer Weed Control: False Castor Oil (Thornapples)","Shepherd's Purse","Fat Hen (Wa Only)"],
           "states": ["All"],
                     "rate": "800", "rateMax": "1500", "unit": "mL/ha",
           note: "DO NOT spray until asparagus seedlings are at least 4 cm high. Some temporary burning may occur. Use the higher rate on heavier soils."
@@ -42,6 +44,7 @@ productDatabase.sencor = {
       "weeds": [
         {
           "weed": "Controlled: seedlings of: capeweed, catsear, charlock, chickweed, common cotula, corn gromwell (sheepweed, white ironweed), corn spurry, creeping speedwell, crown beard (dogweed), deadnettle, dock, fat hen, field madder, fumitory, hare's ear (treacle mustard), heliotrope, hogweed (wireweed), horehound, Indian hedge mustard, lesser swinecress, mouse-ear chickweed, mountain sorrel (purple calandrinia), rough poppy, scarlet pimpernel, scrub nettle (stinging nettle), shepherd's purse, sorrel, sowthistle, spiny emex (threecornered jacks), storksbill, toad rush, wild radish, wild turnip, winter grass, yellow burrweed. Suppressed: Annual ryegrass, sub clover (Vic, Tas, SA only). Additional for Tas only: Buxbaum's speedwell, Powell's amaranth, stagger weed, sun spurge, great brome. Additional for SA only: Buchan weed, fog grass.",
+          pestList: ["Controlled: Seedlings Of: Capeweed","Catsear","Charlock","Chickweed","Common Cotula","Corn Gromwell (Sheepweed","White Ironweed)","Corn Spurry","Creeping Speedwell","Crown Beard (Dogweed)","Deadnettle","Dock","Fat Hen","Field Madder","Fumitory","Hare's Ear (Treacle Mustard)","Heliotrope","Hogweed (Wireweed)","Horehound","Indian Hedge Mustard","Lesser Swinecress","Mouse-ear Chickweed","Mountain Sorrel (Purple Calandrinia)","Rough Poppy","Scarlet Pimpernel","Scrub Nettle (Stinging Nettle)","Shepherd's Purse","Sorrel","Sowthistle","Spiny Emex (Threecornered Jacks)","Storksbill","Toad Rush","Wild Radish","Wild Turnip","Winter Grass","Yellow Burrweed. Suppressed: Annual Ryegrass","Sub Clover (Vic","Tas","Sa Only). Additional For Tas Only: Buxbaum's Speedwell","Powell's Amaranth","Stagger Weed","Sun Spurge","Great Brome. Additional For Sa Only: Buchan Weed","Fog Grass."],
           "states": ["All"],
                     "rate": "280 mL/ha (Light sandy soils i.e. sandy loam to loamy sands); 435 mL/ha (Medium soils, loams. Silt plus clay content 40 to 60%); 580 mL/ha (Heavy soils, clay loams. Silt plus clay content over 60%)",
           "rateMax": "580",
@@ -119,6 +122,7 @@ productDatabase.sencor = {
       "weeds": [
         {
           "weed": "Controlled: as per Barley (Vic, SA, Tas). Suppressed: Annual ryegrass, sub clover (Qld, NSW, ACT, Vic, Tas, SA only). Additional for Tas only: Buxbaum's speedwell, Powell's amaranth, stagger weed, sun spurge. Additional for SA only: Buchan weed, fog grass.",
+          pestList: ["Controlled: As Per Barley (Vic","Sa","Tas). Suppressed: Annual Ryegrass","Sub Clover (Qld","Nsw","Act","Vic","Tas","Sa Only). Additional For Tas Only: Buxbaum's Speedwell","Powell's Amaranth","Stagger Weed","Sun Spurge. Additional For Sa Only: Buchan Weed","Fog Grass."],
           "states": ["All"],
                     "rate": "280 mL/ha (Light sandy soils i.e. sandy loam to loamy sands); 435 mL/ha (Medium soils, loams. Silt plus clay content 40 to 60%); 580 mL/ha (Heavy soils, clay loams. Silt plus clay content over 60%); 730 mL/ha (Koo-wee-rup swamp and volcanic soils)",
           "rateMax": "730",
@@ -145,8 +149,8 @@ productDatabase.sencor = {
       cropList: ["Pineapples"],
       "weeds": [
         {
-          "weed": "Amaranth, apple of Peru, awnless barnyard grass, balloon cotton bush, black pigweed, bluetop, caltrop, coastal button grass, cobbler’s peg, crowsfoot grass, fat hen, gooseberry, green panic, green summer grass, guinea grass, Ipomoea spp. (bellvine, convolvulus, Star of Bethlehem), needle burr, Noogoora burr, paspalum, phasey bean, pigweed, potato weed, round-leaf cassia, shepherd’s purse, sowthistle, summer grass, thick head (Qld, NT only)",
-          pestList: ["Amaranth","Apple Of Peru","Awnless Barnyard Grass","Balloon Cotton Bush","Black Pigweed","Bluetop","Caltrop","Coastal Button Grass","Cobbler’S Peg","Crowsfoot Grass","Fat Hen","Gooseberry","Green Panic","Green Summer Grass","Guinea Grass","Ipomoea Spp.","Needle Burr","Noogoora Burr","Paspalum","Phasey Bean","Pigweed","Potato Weed","Round-Leaf Cassia","Shepherd’S Purse","Sowthistle","Summer Grass","Thick Head"],
+          "weed": "Amaranth, apple of Peru, awnless barnyard grass, balloon cotton bush, black pigweed, bluetop, caltrop, coastal button grass, cobbler's peg, crowsfoot grass, fat hen, gooseberry, green panic, green summer grass, guinea grass, Ipomoea spp. (bellvine, convolvulus, Star of Bethlehem), needle burr, Noogoora burr, paspalum, phasey bean, pigweed, potato weed, round-leaf cassia, shepherd's purse, sowthistle, summer grass, thick head (Qld, NT only)",
+          pestList: ["Amaranth","Apple Of Peru","Awnless Barnyard Grass","Balloon Cotton Bush","Black Pigweed","Bluetop","Caltrop","Coastal Button Grass","Cobbler'S Peg","Crowsfoot Grass","Fat Hen","Gooseberry","Green Panic","Green Summer Grass","Guinea Grass","Ipomoea Spp.","Needle Burr","Noogoora Burr","Paspalum","Phasey Bean","Pigweed","Potato Weed","Round-Leaf Cassia","Shepherd'S Purse","Sowthistle","Summer Grass","Thick Head"],
           "states": ["All"],
                     "rate": "1600", "rateMax": "1600", "unit": "mL/ha",
           note: "Plant crop: Apply single broadcast spray prior to weed emergence immediately after planting (0-15 days) and before planting material grows roots/new leaves. Ratoon crop: Apply single directed/broadcast spray within 30 days of plant crop harvest, maximizing contact with soil. DO NOT apply if ratoon crop contains high percentage of suckers or slips/buttons. DO NOT apply more than one application per plant or ratoon crop. DO NOT apply by aircraft to pineapples. DO NOT disturb soil surface after application. Soil should preferably be slightly moist. Incorporation by rain or irrigation within 7 days is necessary for best results. Can be used alone or in mixtures with other residual herbicides (e.g., Balance® 750 WG)."
@@ -205,6 +209,7 @@ productDatabase.sencor = {
       "weeds": [
         {
           "weed": "Controlled: As per Barley (Vic, SA, Tas) plus barnyard grass, bull's head, crowsfoot grass, nightshade, pigweed, black pigweed, summer grass, green summer grass (Qld, NT only)",
+          pestList: ["Controlled: As Per Barley (Vic","Sa","Tas) Plus Barnyard Grass","Bull's Head","Crowsfoot Grass","Nightshade","Pigweed","Black Pigweed","Summer Grass","Green Summer Grass (Qld","Nt Only)"],
           "states": ["All"],
                     "rate": "1450", "rateMax": "1450", "unit": "mL/ha", "rateText": "1.45 L/ha (15 mL/100 m of row)",
           note: "Apply in a 1 metre wide band centered on the inter-row during or shortly after final irrigation furrow formation. Apply to soil moist to the surface. Apply through applicators fitted with flat fan nozzles at pressures not exceeding 200 kPa. DO NOT follow autumn plantings of tomatoes with cucurbits or capsicums in the same season."

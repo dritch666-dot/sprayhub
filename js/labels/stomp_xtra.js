@@ -148,6 +148,7 @@ productDatabase['stomp_xtra'] = {
             "weeds": [
                 {
                     "weed": "Awnless Barnyard Grass, Bittercress, Bladder Ketmia, Chickweed, Deadnettle, Fat Hen, Green Fat Hen, Pigweed, Prickly Lettuce, Shepherd's Purse, Wireweed",
+                    pestList: ["Awnless Barnyard Grass","Bittercress","Bladder Ketmia","Chickweed","Deadnettle","Fat Hen","Green Fat Hen","Pigweed","Prickly Lettuce","Shepherd's Purse","Wireweed"],
                     "states": [
                         "Qld",
                         "NSW",
@@ -334,6 +335,7 @@ productDatabase['stomp_xtra'] = {
             "weeds": [
                 {
                     "weed": "Awnless Barnyard Grass, Bittercress, Bladder Ketmia, Chickweed, Deadnettle, Fat Hen, Green Fat Hen, Pigweed, Prickly Lettuce, Shepherd's Purse, Wireweed",
+                    pestList: ["Awnless Barnyard Grass","Bittercress","Bladder Ketmia","Chickweed","Deadnettle","Fat Hen","Green Fat Hen","Pigweed","Prickly Lettuce","Shepherd's Purse","Wireweed"],
                     "states": [
                         "All"
                     ],
@@ -399,6 +401,7 @@ productDatabase['stomp_xtra'] = {
                 },
                 {
                     "weed": "As main list PLUS: Cobbler's Pegs (Bidens pilosa), Curious Weed (Schkuhria pinnata), Stinking Roger (Tagetes minuta) — citrus, deciduous fruits, nuts only, with simazine tank mix",
+                    pestList: ["As Main List Plus: Cobbler's Pegs (Bidens Pilosa)","Curious Weed (Schkuhria Pinnata)","Stinking Roger (Tagetes Minuta) — Citrus","Deciduous Fruits","Nuts Only","With Simazine Tank Mix"],
                     "states": [
                         "All"
                     ],
@@ -505,6 +508,7 @@ productDatabase['stomp_xtra'] = {
             "weeds": [
                 {
                     "weed": "Awnless Barnyard Grass, Bittercress, Bladder Ketmia, Chickweed, Deadnettle, Fat Hen, Green Fat Hen, Pigweed, Prickly Lettuce, Shepherd's Purse, Wireweed",
+                    pestList: ["Awnless Barnyard Grass","Bittercress","Bladder Ketmia","Chickweed","Deadnettle","Fat Hen","Green Fat Hen","Pigweed","Prickly Lettuce","Shepherd's Purse","Wireweed"],
                     "states": [
                         "Tas"
                     ],
@@ -519,6 +523,7 @@ productDatabase['stomp_xtra'] = {
                 },
                 {
                     "weed": "Awnless Barnyard Grass, Bittercress, Bladder Ketmia, Chickweed, Deadnettle, Fat Hen, Green Fat Hen, Pigweed, Prickly Lettuce, Shepherd's Purse, Wireweed",
+                    pestList: ["Awnless Barnyard Grass","Bittercress","Bladder Ketmia","Chickweed","Deadnettle","Fat Hen","Green Fat Hen","Pigweed","Prickly Lettuce","Shepherd's Purse","Wireweed"],
                     "states": [
                         "Tas"
                     ],

@@ -111,7 +111,7 @@ productDatabase['productnamevertentoplinazolint'] = {
       crop: "Citrus",
       cropList: ["Citrus"],
       weeds: [
-          { weed: "Fuller’s rose weevil, Kelly’s citrus thrips and Light brown apple moth", pestList: ["Fuller\u2019s Rose Weevil", "Kelly\u2019s Citrus Thrips and Light Brown Apple Moth"], states: ["All"], rate: "5", unit: "mL/100", rateText: "5 mL/100 L + a non ionic surfacctant", notes: "WHP: 14 days. No more then 2 applications per year and not exceeding 200ml/ha per application" }
+          { weed: "Fuller's rose weevil, Kelly's citrus thrips and Light brown apple moth", pestList: ["Fuller\u2019s Rose Weevil", "Kelly\u2019s Citrus Thrips and Light Brown Apple Moth"], states: ["All"], rate: "5", unit: "mL/100", rateText: "5 mL/100 L + a non ionic surfacctant", notes: "WHP: 14 days. No more then 2 applications per year and not exceeding 200ml/ha per application" }
       ]
     },
     {

@@ -69,6 +69,7 @@ productDatabase.reactor = {
       "weeds": [
         {
           "weed": "Spray oils and surfactants",
+          pestList: ["Spray Oils","Surfactants"],
           "pestList": [],
           "states": ["All"],
           "rate": 300,

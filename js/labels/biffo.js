@@ -162,6 +162,7 @@ productDatabase['biffo'] = {
             "weeds": [
                 {
                     "weed": "Apple of Peru, Argentine Peppercress, Barley Grass, Brome Grasses, Cape Tulip, Clover (Subterranean), Clover Glycine, Cow Pea, Greenleaf Desmodium, Patterson's Curse, Peanuts, Perennial Bindweed, Sago Weed, Shamrock, Siratro, Townsville Stylo",
+                    pestList: ["Apple Of Peru","Argentine Peppercress","Barley Grass","Brome Grasses","Cape Tulip","Clover (Subterranean)","Clover Glycine","Cow Pea","Greenleaf Desmodium","Patterson's Curse","Peanuts","Perennial Bindweed","Sago Weed","Shamrock","Siratro","Townsville Stylo"],
                     "states": [
                         "All"
                     ],
@@ -173,6 +174,7 @@ productDatabase['biffo'] = {
                 },
                 {
                     "weed": "Amaranthus spp., Barnyard Grass, Bell Vine, Billy Goat Weed, Bitter Cress, Black Bindweed (Buckwheat), Blady Grass, Bordered Panic, Calopo, Cape Weed, Cobbler's Peg, Common Storksbill, Dead Nettle, Fat Hen, Fumitory, Green Crumbweed, Liverseed Grass, Medics (Annual), Milk Thistle (Sowthistle), New Zealand Spinach, Panicum spp., Pigweed, Pinkburr, Potato Weed, Red Natal Grass, Ryegrass (Annual), Saffron Thistle, Scarlet Pimpernel, Setaria, Silver Grass, Sorghum/Sudax, Square Weed, Stagger Weed, Star of Bethlehem, Summer Grass, Thickhead, Three Cornered Jack (Doublegee/Spiny Emex), Tomato, Wild Carrot, Wild Gooseberry, Wild Mustard, Wild Oats, Wireweed",
+                    pestList: ["Amaranthus Spp.","Barnyard Grass","Bell Vine","Billy Goat Weed","Bitter Cress","Black Bindweed (Buckwheat)","Blady Grass","Bordered Panic","Calopo","Cape Weed","Cobbler's Peg","Common Storksbill","Dead Nettle","Fat Hen","Fumitory","Green Crumbweed","Liverseed Grass","Medics (Annual)","Milk Thistle (Sowthistle)","New Zealand Spinach","Panicum Spp.","Pigweed","Pinkburr","Potato Weed","Red Natal Grass","Ryegrass (Annual)","Saffron Thistle","Scarlet Pimpernel","Setaria","Silver Grass","Sorghum/sudax","Square Weed","Stagger Weed","Star Of Bethlehem","Summer Grass","Thickhead","Three Cornered Jack (Doublegee/spiny Emex)","Tomato","Wild Carrot","Wild Gooseberry","Wild Mustard","Wild Oats","Wireweed"],
                     "states": [
                         "All"
                     ],

@@ -42,7 +42,7 @@ productDatabase['biopestoil'] = {
       crop: "Cotton",
       cropList: ["Cotton"],
       weeds: [
-        { weed: "Cotton Aphids", pestList: ["Cotton Aphids"], states: ["All"], rate: "2 to 5 L/ha", rateMax: "5", unit: "L/ha", rateText: "2 to 5 L/ha", notes: "Apply by ground rig using minimum of 80 L/ha of water. Use alone to control early to mid-season populations of less than 20 aphids per terminal. Do not rely on Biopest Cinagro Paraffinic Oil’ alone to control more than 20 aphids per terminal shoot. If populations of aphids exceed 20 per terminal, use Biopest Cinagro Paraffinic Oil’ in a mixture with a registered aphicide." },
+        { weed: "Cotton Aphids", pestList: ["Cotton Aphids"], states: ["All"], rate: "2 to 5 L/ha", rateMax: "5", unit: "L/ha", rateText: "2 to 5 L/ha", notes: "Apply by ground rig using minimum of 80 L/ha of water. Use alone to control early to mid-season populations of less than 20 aphids per terminal. Do not rely on Biopest Cinagro Paraffinic Oil' alone to control more than 20 aphids per terminal shoot. If populations of aphids exceed 20 per terminal, use Biopest Cinagro Paraffinic Oil' in a mixture with a registered aphicide." },
         { weed: "Defoliation Aid", pestList: ["Defoliation Aid"], states: ["All"], rate: "2", unit: "L/ha", notes: "Apply in combination with thidiazuron (e.g. DROPP) defoliant." },
         { weed: "Carrier for certain ULV insecticides", pestList: ["Carrier For Certain Ulv Insecticides"], states: ["All"], rate: "3 to 5 L/ha", rateMax: "5", unit: "L/ha", rateText: "3 to 5 L/ha", notes: "Apply in combination with ULV insecticide as specified on the insecticide label to ensure insecticide reaches its target." }
       ]
@@ -59,7 +59,7 @@ productDatabase['biopestoil'] = {
       crop: "Wetting agent/adjuvant/ carrier as recommended on fungicide and insecticide labels",
       cropList: ["Wetting agent/adjuvant/ carrier as recommended on fungicide", "insecticide labels"],
       weeds: [
-        { weed: "Refer to particular pesticide label", pestList: ["Refer To Particular Pesticide Label"], states: ["All"], rate: "500 mL to 5 L", rateMax: "5", unit: "L/100L", rateText: "500 mL to 5 L", notes: "Biopest Cinagro Paraffinic Oil’ acts as a carrier/adjuvant/wetting agent which may improve the performance of certain pesticides. Always check pesticide label for correct rates." }
+        { weed: "Refer to particular pesticide label", pestList: ["Refer To Particular Pesticide Label"], states: ["All"], rate: "500 mL to 5 L", rateMax: "5", unit: "L/100L", rateText: "500 mL to 5 L", notes: "Biopest Cinagro Paraffinic Oil' acts as a carrier/adjuvant/wetting agent which may improve the performance of certain pesticides. Always check pesticide label for correct rates." }
       ]
     },
     {
@@ -135,7 +135,7 @@ productDatabase['biopestoil'] = {
                         { weed: "White Wax Scale, Pink Wax Scale, Black Scale", pestList: ["White Wax Scale", "Pink Wax Scale", "Black Scale"], states: ["All"], rate: "0.5 – 1.0 L", rateMax: "1.0", unit: "L/100L", rateText: "0.5 – 1.0 L", notes: "Apply December/early January. Repeat in February." },
         { weed: "Soft Brown Scale", pestList: ["Soft Brown Scale"], states: ["All"], rate: "0.5 – 1.0 L", rateMax: "1.0", unit: "L/100L", rateText: "0.5 – 1.0 L", notes: "Apply in January/April." },
         { weed: "Circular Black Scale", pestList: ["Circular Black Scale"], states: ["All"], rate: "0.5 to 1.0 L", rateMax: "1.0", unit: "L/100L", rateText: "0.5 to 1.0 L", notes: "Apply between August – December. A second application may be necessary for heavy infestations." },
-                { weed: "Citrus Leaf- miner", pestList: ["Citrus Leaf- Miner"], states: ["All"], rate: "250 mL – 1 L (f", rateMax: "1", unit: "L/100L", rateText: "250 mL – 1 L (for Citrus Leaf-miner control only) 500 mL – 1 L (when combining with Scale & Black Sp", notes: "Apply thoroughly and evenly to flush growth, wetting both sides of all immature leaves to point of run-off. Spray every 5 – 14 days during flush periods, commencing as soon as pest’s silvery mites are observed on young leaves. The interval will be shorter during summer and early autumn. Cease spraying when leaves become mature. Four sprays in one year should be sufficient to achieve control and no more than 8 sprays should be applied." }
+                { weed: "Citrus Leaf- miner", pestList: ["Citrus Leaf- Miner"], states: ["All"], rate: "250 mL – 1 L (f", rateMax: "1", unit: "L/100L", rateText: "250 mL – 1 L (for Citrus Leaf-miner control only) 500 mL – 1 L (when combining with Scale & Black Sp", notes: "Apply thoroughly and evenly to flush growth, wetting both sides of all immature leaves to point of run-off. Spray every 5 – 14 days during flush periods, commencing as soon as pest's silvery mites are observed on young leaves. The interval will be shorter during summer and early autumn. Cease spraying when leaves become mature. Four sprays in one year should be sufficient to achieve control and no more than 8 sprays should be applied." }
       ]
     },
     {

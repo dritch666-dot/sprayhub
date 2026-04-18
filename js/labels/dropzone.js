@@ -1414,6 +1414,7 @@ productDatabase['dropzone'] = {
                 },
                 {
                     "weed": "Bindy eye, Star burr, Ageratum/Blue Top, Cobbler's pegs, Convolvulus vines, Fleabanes, Ipomoea vines, Jute, Leucas, Needle burr, Spear thistle, Water primrose",
+                    pestList: ["Bindy Eye","Star Burr","Ageratum/blue Top","Cobbler's Pegs","Convolvulus Vines","Fleabanes","Ipomoea Vines","Jute","Leucas","Needle Burr","Spear Thistle","Water Primrose"],
                     "states": [
                         "All"
                     ],

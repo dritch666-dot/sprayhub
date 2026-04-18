@@ -92,6 +92,7 @@ productDatabase['flupropanate'] = {
                 },
                 {
                     "weed": "Giant Parramatta Grass (Sporobolus fertilis), Giant Rat's Tail Fescue (S. pyramidalis), S. natalensis",
+                    pestList: ["Giant Parramatta Grass (Sporobolus Fertilis)","Giant Rat's Tail Fescue (S. Pyramidalis)","S. Natalensis"],
                     "states": [
                         "NSW"
                     ],
