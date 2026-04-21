@@ -901,6 +901,116 @@ body {
   .section { display: block !important; page-break-inside: avoid; }
   body { background: white; }
 }
+
+/* ────────── Thumbnail Tiles (clickable, hover-zoom) ────────── */
+.tg-thumb-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 12px;
+  padding-bottom: 14px; /* room for scale on hover */
+}
+.tg-thumb {
+  position: relative;
+  display: block;
+  width: 170px;
+  height: 118px;
+  border-radius: 10px;
+  overflow: hidden;
+  text-decoration: none;
+  color: white;
+  border: 1px solid var(--border);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  cursor: zoom-in;
+  flex-shrink: 0;
+  isolation: isolate;
+}
+.tg-thumb:hover {
+  transform: scale(1.18);
+  box-shadow: 0 14px 34px rgba(126, 34, 206, 0.4);
+  z-index: 50;
+}
+.tg-thumb:focus-visible {
+  outline: 3px solid var(--primary);
+  outline-offset: 2px;
+}
+.tg-thumb-bg {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, var(--primary, #a855f7), var(--primary-dark, #6b21a8));
+  z-index: 0;
+}
+.tg-thumb-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  opacity: 0;
+  transition: opacity 0.35s ease;
+  z-index: 1;
+}
+.tg-thumb-img.loaded { opacity: 1; }
+.tg-thumb.has-img .tg-thumb-emoji { display: none; }
+.tg-thumb-emoji {
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.4em;
+  filter: drop-shadow(0 2px 6px rgba(0,0,0,0.45));
+  z-index: 2;
+  pointer-events: none;
+}
+.tg-thumb-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(180deg, transparent 0%, rgba(0,0,0,0.82) 100%);
+  color: white;
+  padding: 18px 8px 6px;
+  font-size: 0.72em;
+  font-weight: 600;
+  text-align: left;
+  z-index: 3;
+  line-height: 1.25;
+}
+.tg-thumb-zoom {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  background: rgba(0,0,0,0.55);
+  color: white;
+  font-size: 0.72em;
+  padding: 2px 6px;
+  border-radius: 5px;
+  z-index: 3;
+  backdrop-filter: blur(4px);
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+.tg-thumb:hover .tg-thumb-zoom { opacity: 1; }
+
+/* Category-specific gradient themes */
+.tg-thumb.theme-species .tg-thumb-bg { background: linear-gradient(135deg, #a855f7, #6b21a8); }
+.tg-thumb.theme-sign .tg-thumb-bg    { background: linear-gradient(135deg, #f59e0b, #b45309); }
+.tg-thumb.theme-chem .tg-thumb-bg    { background: linear-gradient(135deg, #0284c7, #075985); }
+.tg-thumb.theme-product .tg-thumb-bg { background: linear-gradient(135deg, #16a34a, #14532d); }
+.tg-thumb.theme-bait .tg-thumb-bg    { background: linear-gradient(135deg, #ec4899, #9d174d); }
+.tg-thumb.theme-barrier .tg-thumb-bg { background: linear-gradient(135deg, #64748b, #334155); }
+
+/* Dark-mode tweaks */
+[data-theme="dark"] .tg-thumb { border-color: #475569; }
+[data-theme="dark"] .tg-thumb:hover { box-shadow: 0 14px 34px rgba(168, 85, 247, 0.45); }
+
+/* Phone: 2 columns */
+@media (max-width: 600px) {
+  .tg-thumb { width: calc(50% - 6px); height: 104px; }
+  .tg-thumb:hover { transform: scale(1.08); }
+}
 </style>
 </head>
 <body>
@@ -1082,9 +1192,7 @@ body {
   <p><strong>Biology:</strong> Colonies 1 to 2 million workers, usually nest in a living or dead tree stump within 50 to 100 m of the structure they attack. Foraging workers tunnel underground, build mud leads to reach timber, and can attack through hairline cracks as small as 1 mm.</p>
   <p><strong>Soldier ID:</strong> 5 to 7 mm, pale yellow pear-shaped head, mandibles crossed saber-like, emits a milky-white defensive fluid from the <em>fontanelle</em> on the forehead when attacked.</p>
   <p><strong>Control:</strong> Responds well to fipronil (Surefire, Termidor Residual) via the Transfer Effect. Bifenthrin (Zeus, Termighty) provides effective remedial barrier. Bait systems with chlorfluazuron (Exterra) or hexaflumuron (Sentricon) work well because Coptotermes workers readily feed in stations.</p>
-  <div style="margin-top:8px">
-    <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=Coptotermes+acinaciformis+soldier+termite+australia" target="_blank" rel="noopener">📷 View Images</a>
-  </div>
+  <div class="tg-thumb-row"><a class="tg-thumb theme-species" href="https://www.google.com/search?tbm=isch&q=Coptotermes+acinaciformis+soldier+termite+australia" target="_blank" rel="noopener" data-wiki="Coptotermes_acinaciformis" aria-label="View images of Coptotermes acinaciformis"><span class="tg-thumb-bg"></span><span class="tg-thumb-emoji">🐜</span><span class="tg-thumb-zoom">🔍 Zoom</span><span class="tg-thumb-caption">Coptotermes acinaciformis</span></a></div>
 </div>
 
 <div class="problem-card" data-search="mastotermes darwiniensis giant northern tropical queensland mareeba">
@@ -1096,9 +1204,7 @@ body {
   <p><strong>Biology:</strong> The world's most primitive living termite — a living fossil closely related to cockroaches. Workers are larger (up to 13 mm) and more aggressive than any other Australian species. Will attack living trees, crops, rubber, leather, plastic conduit and even lead sheathing. A mature colony can destroy a house in six months.</p>
   <p><strong>Soldier ID:</strong> 8 to 13 mm, dark reddish-brown head, large pincer-like mandibles with serrations. Workers are pale cream with a visible gut through the abdomen.</p>
   <p><strong>Control:</strong> Requires <strong>double the standard soil chemical rates</strong> and/or physical barriers. Responds to fipronil but slowly — bait take can be inconsistent. In Mareeba Shire, local regulations require additional barriers (physical + chemical) on every new build. Always engage a pest manager experienced with Mastotermes.</p>
-  <div style="margin-top:8px">
-    <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=Mastotermes+darwiniensis+soldier+termite+australia" target="_blank" rel="noopener">📷 View Images</a>
-  </div>
+  <div class="tg-thumb-row"><a class="tg-thumb theme-species" href="https://www.google.com/search?tbm=isch&q=Mastotermes+darwiniensis+soldier+termite+australia" target="_blank" rel="noopener" data-wiki="Mastotermes_darwiniensis" aria-label="View images of Mastotermes darwiniensis"><span class="tg-thumb-bg"></span><span class="tg-thumb-emoji">🐜</span><span class="tg-thumb-zoom">🔍 Zoom</span><span class="tg-thumb-caption">Mastotermes darwiniensis</span></a></div>
 </div>
 
 <div class="problem-card" data-search="schedorhinotermes intermedius major minor soldier subterranean nsw qld">
@@ -1110,9 +1216,7 @@ body {
   <p><strong>Biology:</strong> Unique for having two soldier castes — <em>major soldiers</em> (6 to 8 mm, large head) and <em>minor soldiers</em> (4 to 5 mm, small head). Both have a distinctive <strong>bulbous "onion-shaped" head</strong>. Colony size 200,000 to 500,000. Typically nests in a tree stump, retaining wall, or under a concrete slab.</p>
   <p><strong>Soldier ID:</strong> Yellow-brown bulbous onion-shaped head, mandibles that cross at the tips, often found in the same lead as Coptotermes.</p>
   <p><strong>Control:</strong> Notoriously <strong>difficult to bait</strong> — workers are reluctant to feed in monitoring stations. Fipronil soil treated zones (Transfer Effect) and direct application (foam or dust) to active workings remain the most reliable treatments. Always confirm identification with a soldier specimen before choosing a bait-only strategy.</p>
-  <div style="margin-top:8px">
-    <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=Schedorhinotermes+intermedius+soldier+dimorphic+termite" target="_blank" rel="noopener">📷 View Images</a>
-  </div>
+  <div class="tg-thumb-row"><a class="tg-thumb theme-species" href="https://www.google.com/search?tbm=isch&q=Schedorhinotermes+intermedius+soldier+dimorphic+termite" target="_blank" rel="noopener" data-wiki="Schedorhinotermes" aria-label="View images of Schedorhinotermes intermedius"><span class="tg-thumb-bg"></span><span class="tg-thumb-emoji">🐜</span><span class="tg-thumb-zoom">🔍 Zoom</span><span class="tg-thumb-caption">Schedorhinotermes intermedius</span></a></div>
 </div>
 
 <div class="problem-card" data-search="heterotermes ferox subterranean nsw vic southern low moisture">
@@ -1123,9 +1227,7 @@ body {
   <p><strong>Biology:</strong> Smaller colonies (10,000 to 50,000 workers) than Coptotermes. Prefers decaying timber — fence posts, buried tree roots, retaining wall timbers. Less aggressive to sound structural timber but will attack it if moisture is present.</p>
   <p><strong>Soldier ID:</strong> 4 to 5 mm, pale yellow rectangular head, long saber-like mandibles, lacking the fontanelle droplet seen in Coptotermes.</p>
   <p><strong>Control:</strong> Any registered fipronil or bifenthrin soil treatment. Responds very well to bait systems. Address the moisture source first — heterotermes rarely attacks dry, well-ventilated timber.</p>
-  <div style="margin-top:8px">
-    <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=Heterotermes+ferox+subterranean+termite+soldier" target="_blank" rel="noopener">📷 View Images</a>
-  </div>
+  <div class="tg-thumb-row"><a class="tg-thumb theme-species" href="https://www.google.com/search?tbm=isch&q=Heterotermes+ferox+subterranean+termite+soldier" target="_blank" rel="noopener" data-wiki="Heterotermes" aria-label="View images of Heterotermes ferox"><span class="tg-thumb-bg"></span><span class="tg-thumb-emoji">🐜</span><span class="tg-thumb-zoom">🔍 Zoom</span><span class="tg-thumb-caption">Heterotermes ferox</span></a></div>
 </div>
 
 <div class="problem-card" data-search="nasutitermes walkeri nasal snout subterranean arboreal">
@@ -1136,9 +1238,7 @@ body {
   <p><strong>Biology:</strong> Nests in living or dead trees — builds conspicuous dark brown arboreal nests ("termite castles") up to 600 mm across in fork of a tree trunk. Workers forage down to ground level via mud galleries on the tree bark. Generally prefers decaying timber but will attack weathered sapwood in structures adjacent to host trees.</p>
   <p><strong>Soldier ID:</strong> Very distinctive — pear-shaped body and a long pointed "nose" (nasute) through which they squirt a sticky defensive secretion. Mandibles vestigial.</p>
   <p><strong>Control:</strong> Nest destruction is the most effective strategy — locate the arboreal nest and drench it with fipronil via drilled injection holes. Continuous chemical soil treated zone around the building to prevent ground foraging.</p>
-  <div style="margin-top:8px">
-    <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=Nasutitermes+walkeri+nasute+soldier+australia" target="_blank" rel="noopener">📷 View Images</a>
-  </div>
+  <div class="tg-thumb-row"><a class="tg-thumb theme-species" href="https://www.google.com/search?tbm=isch&q=Nasutitermes+walkeri+nasute+soldier+australia" target="_blank" rel="noopener" data-wiki="Nasutitermes" aria-label="View images of Nasutitermes walkeri"><span class="tg-thumb-bg"></span><span class="tg-thumb-emoji">🐜</span><span class="tg-thumb-zoom">🔍 Zoom</span><span class="tg-thumb-caption">Nasutitermes walkeri</span></a></div>
 </div>
 
 <div class="problem-card" data-search="cryptotermes brevis west indian drywood non subterranean">
@@ -1150,9 +1250,7 @@ body {
   <p><strong>Biology:</strong> Unlike the subterranean species above, <strong>drywood termites do not need soil contact</strong>. They nest entirely inside dry timber — furniture, skirting, roof trusses, crates — and are commonly spread by the movement of infested furniture and shipping pallets. Colonies are small (under 3,000) but hundreds of separate colonies can infest one structure.</p>
   <p><strong>Diagnosis:</strong> Characteristic hexagonal pellets of pale "frass" (faecal droppings) that sift out of tiny kick-out holes in infested timber. No mud tubes (because they don't need soil moisture).</p>
   <p><strong>Control:</strong> <strong>Soil treated zones do NOT work</strong> — drywoods never touch soil. Treatment options: whole-structure fumigation (sulfuryl fluoride), borate-based wood preservatives (Bora-Care, fipronil-treated timbers), or localised injection/dusting of infested members. Notify Biosecurity Queensland on 13 25 23 if you suspect Cryptotermes brevis.</p>
-  <div style="margin-top:8px">
-    <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=Cryptotermes+brevis+west+indian+drywood+termite" target="_blank" rel="noopener">📷 View Images</a>
-  </div>
+  <div class="tg-thumb-row"><a class="tg-thumb theme-species" href="https://www.google.com/search?tbm=isch&q=Cryptotermes+brevis+west+indian+drywood+termite" target="_blank" rel="noopener" data-wiki="Cryptotermes_brevis" aria-label="View images of Cryptotermes brevis"><span class="tg-thumb-bg"></span><span class="tg-thumb-emoji">🐜</span><span class="tg-thumb-zoom">🔍 Zoom</span><span class="tg-thumb-caption">Cryptotermes brevis</span></a></div>
 </div>
 
 </div>
@@ -1169,10 +1267,7 @@ body {
       <tr><td><strong>Wings</strong></td><td>Four wings, all the same length and shape, shed easily after swarming</td><td>Four wings, front pair clearly longer than the hind pair</td></tr>
     </tbody>
   </table>
-  <div style="margin-top: 10px;">
-    <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=termite+vs+ant+identification+alate+winged+comparison" target="_blank" rel="noopener">📷 Termite vs Ant — Images</a>
-    <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=termite+caste+queen+worker+soldier+alate+colony" target="_blank" rel="noopener">📷 Termite Caste Anatomy</a>
-  </div>
+  <div class="tg-thumb-row"><a class="tg-thumb theme-species" href="https://www.google.com/search?tbm=isch&q=termite+vs+ant+identification+alate+winged+comparison" target="_blank" rel="noopener" data-wiki="Termite" aria-label="View images of Termite vs Ant ID"><span class="tg-thumb-bg"></span><span class="tg-thumb-emoji">🐜</span><span class="tg-thumb-zoom">🔍 Zoom</span><span class="tg-thumb-caption">Termite vs Ant ID</span></a><a class="tg-thumb theme-species" href="https://www.google.com/search?tbm=isch&q=termite+caste+queen+worker+soldier+alate+colony" target="_blank" rel="noopener" data-wiki="Termite" aria-label="View images of Termite caste anatomy"><span class="tg-thumb-bg"></span><span class="tg-thumb-emoji">👑</span><span class="tg-thumb-zoom">🔍 Zoom</span><span class="tg-thumb-caption">Termite caste anatomy</span></a></div>
 </div>
 
 </div>
@@ -1190,49 +1285,49 @@ body {
 <div class="sign-card">
   <h4><span class="sign-icon">🏔️</span> Mud Tubes (Leads)</h4>
   <p>Pencil-thick earthen tubes on foundations, piers, brick walls or trees. Termites build these to maintain moisture while travelling between the soil and their food. If you break one open and see creamy workers or yellow soldiers inside, it is active.</p>
-  <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=termite+mud+tubes+leads+on+wall+foundation" target="_blank" rel="noopener">📷 View Images</a>
+  <div class="tg-thumb-row"><a class="tg-thumb theme-sign" href="https://www.google.com/search?tbm=isch&q=termite+mud+tubes+leads+on+wall+foundation" target="_blank" rel="noopener" aria-label="View images of Mud tubes (leads)"><span class="tg-thumb-bg"></span><span class="tg-thumb-emoji">🏔️</span><span class="tg-thumb-zoom">🔍 Zoom</span><span class="tg-thumb-caption">Mud tubes (leads)</span></a></div>
 </div>
 
 <div class="sign-card">
   <h4><span class="sign-icon">🪵</span> Hollow-Sounding Timber</h4>
   <p>Tap skirting boards, window frames and architraves with a screwdriver handle. A crisp solid tap is healthy timber. A <em>dull hollow rattle</em> means termites have eaten the inside out and left only a paper-thin veneer. Don't puncture it — that alerts the colony.</p>
-  <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=termite+damage+hollow+timber+skirting+board" target="_blank" rel="noopener">📷 View Images</a>
+  <div class="tg-thumb-row"><a class="tg-thumb theme-sign" href="https://www.google.com/search?tbm=isch&q=termite+damage+hollow+timber+skirting+board" target="_blank" rel="noopener" aria-label="View images of Hollow timber damage"><span class="tg-thumb-bg"></span><span class="tg-thumb-emoji">🪵</span><span class="tg-thumb-zoom">🔍 Zoom</span><span class="tg-thumb-caption">Hollow timber damage</span></a></div>
 </div>
 
 <div class="sign-card">
   <h4><span class="sign-icon">🌊</span> Rippled or Bubbled Paint</h4>
   <p>Paint on skirting, architraves or door frames that looks like it has water damage — soft, rippled, slightly bulging. Workers excavate just underneath the paint layer and the moisture they bring with them lifts the paint film.</p>
-  <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=termite+damage+rippled+bubbled+paint+skirting" target="_blank" rel="noopener">📷 View Images</a>
+  <div class="tg-thumb-row"><a class="tg-thumb theme-sign" href="https://www.google.com/search?tbm=isch&q=termite+damage+rippled+bubbled+paint+skirting" target="_blank" rel="noopener" aria-label="View images of Rippled / bubbled paint"><span class="tg-thumb-bg"></span><span class="tg-thumb-emoji">🌊</span><span class="tg-thumb-zoom">🔍 Zoom</span><span class="tg-thumb-caption">Rippled / bubbled paint</span></a></div>
 </div>
 
 <div class="sign-card">
   <h4><span class="sign-icon">✈️</span> Alate Swarms (Flying Termites)</h4>
   <p>Winged reproductives emerge on warm, humid evenings in spring and early summer (especially after rain). If you see hundreds of identical winged insects circling a porch light and then shedding their wings onto windowsills and benchtops, a nearby colony has just launched.</p>
-  <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=termite+alate+swarm+flying+winged+reproductive" target="_blank" rel="noopener">📷 View Images</a>
+  <div class="tg-thumb-row"><a class="tg-thumb theme-sign" href="https://www.google.com/search?tbm=isch&q=termite+alate+swarm+flying+winged+reproductive" target="_blank" rel="noopener" aria-label="View images of Alate swarms"><span class="tg-thumb-bg"></span><span class="tg-thumb-emoji">✈️</span><span class="tg-thumb-zoom">🔍 Zoom</span><span class="tg-thumb-caption">Alate swarms</span></a></div>
 </div>
 
 <div class="sign-card">
   <h4><span class="sign-icon">🍚</span> Frass (Drywood Only)</h4>
   <p>Small piles of pale hexagonal pellets below ceilings or along skirting. Drywood termites (Cryptotermes) push their droppings out of tiny kick-out holes. Subterranean species don't produce visible frass.</p>
-  <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=drywood+termite+frass+hexagonal+pellets" target="_blank" rel="noopener">📷 View Images</a>
+  <div class="tg-thumb-row"><a class="tg-thumb theme-sign" href="https://www.google.com/search?tbm=isch&q=drywood+termite+frass+hexagonal+pellets" target="_blank" rel="noopener" data-wiki="Frass" aria-label="View images of Drywood frass"><span class="tg-thumb-bg"></span><span class="tg-thumb-emoji">🍚</span><span class="tg-thumb-zoom">🔍 Zoom</span><span class="tg-thumb-caption">Drywood frass</span></a></div>
 </div>
 
 <div class="sign-card">
   <h4><span class="sign-icon">🪶</span> Discarded Wings</h4>
   <p>A scattering of translucent, identical-length wings on window sills, benches or pool surfaces a day or two after a storm. Reproductive alates drop their wings within a few hours of landing.</p>
-  <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=discarded+termite+wings+windowsill" target="_blank" rel="noopener">📷 View Images</a>
+  <div class="tg-thumb-row"><a class="tg-thumb theme-sign" href="https://www.google.com/search?tbm=isch&q=discarded+termite+wings+windowsill" target="_blank" rel="noopener" aria-label="View images of Discarded wings"><span class="tg-thumb-bg"></span><span class="tg-thumb-emoji">🪶</span><span class="tg-thumb-zoom">🔍 Zoom</span><span class="tg-thumb-caption">Discarded wings</span></a></div>
 </div>
 
 <div class="sign-card">
   <h4><span class="sign-icon">🕳️</span> Stuck Doors &amp; Windows</h4>
   <p>Frames distorting in an otherwise dry building because termites have removed structural timber and the frame is settling. Frequently mistaken for moisture damage.</p>
-  <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=termite+damaged+door+frame+distortion" target="_blank" rel="noopener">📷 View Images</a>
+  <div class="tg-thumb-row"><a class="tg-thumb theme-sign" href="https://www.google.com/search?tbm=isch&q=termite+damaged+door+frame+distortion" target="_blank" rel="noopener" aria-label="View images of Stuck doors & windows"><span class="tg-thumb-bg"></span><span class="tg-thumb-emoji">🕳️</span><span class="tg-thumb-zoom">🔍 Zoom</span><span class="tg-thumb-caption">Stuck doors & windows</span></a></div>
 </div>
 
 <div class="sign-card">
   <h4><span class="sign-icon">👂</span> Audible Tapping</h4>
   <p>Soldier termites tap their heads against the gallery wall in rhythm — a faint, clicking, almost popcorn-like sound. Audible at night in quiet rooms with a heavily infested wall.</p>
-  <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=termite+soldier+head+banging+tapping+gallery" target="_blank" rel="noopener">📷 View Images</a>
+  <div class="tg-thumb-row"><a class="tg-thumb theme-sign" href="https://www.google.com/search?tbm=isch&q=termite+soldier+head+banging+tapping+gallery" target="_blank" rel="noopener" aria-label="View images of Audible tapping"><span class="tg-thumb-bg"></span><span class="tg-thumb-emoji">👂</span><span class="tg-thumb-zoom">🔍 Zoom</span><span class="tg-thumb-caption">Audible tapping</span></a></div>
 </div>
 
 </div>
@@ -1273,7 +1368,7 @@ body {
   <p><strong>Key property:</strong> <em>Non-repellent</em> — termites cannot detect treated soil and tunnel through it freely. Picks up a lethal dose and carries it back to the colony (the <strong>Transfer Effect</strong>) — grooming and trophallaxis propagate the chemical through the whole nest, wiping it out.</p>
   <p><strong>Residual:</strong> <span class="chem-tag">8+ years in soil</span> <span class="chem-tag">APVMA registered</span></p>
   <p><strong>Australian products in Spray Hub:</strong> Surefire Termiticide (APVMA 68398), BASF Termidor Residual (APVMA 54624).</p>
-  <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=fipronil+molecule+structure+termite+transfer+effect" target="_blank" rel="noopener">📷 View Images</a>
+  <div class="tg-thumb-row"><a class="tg-thumb theme-chem" href="https://www.google.com/search?tbm=isch&q=fipronil+molecule+structure+termite+transfer+effect" target="_blank" rel="noopener" data-wiki="Fipronil" aria-label="View images of Fipronil"><span class="tg-thumb-bg"></span><span class="tg-thumb-emoji">⚛️</span><span class="tg-thumb-zoom">🔍 Zoom</span><span class="tg-thumb-caption">Fipronil</span></a></div>
 </div>
 
 <div class="chem-card chem-bifenthrin">
@@ -1283,7 +1378,7 @@ body {
   <p><strong>Key property:</strong> <em>Repellent</em> — termites can detect treated soil and will attempt to avoid it. This is useful as a deterrent barrier but defeats the Transfer Effect — a single gap in the treated zone lets the colony bypass it completely.</p>
   <p><strong>Residual:</strong> <span class="chem-tag">5–10 years in soil</span> <span class="chem-tag">Repellent barrier</span></p>
   <p><strong>Australian products in Spray Hub:</strong> PCT Cropro Zeus (APVMA 58368), Termighty (APVMA 68679).</p>
-  <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=bifenthrin+pyrethroid+molecule+structure" target="_blank" rel="noopener">📷 View Images</a>
+  <div class="tg-thumb-row"><a class="tg-thumb theme-chem" href="https://www.google.com/search?tbm=isch&q=bifenthrin+pyrethroid+molecule+structure" target="_blank" rel="noopener" data-wiki="Bifenthrin" aria-label="View images of Bifenthrin"><span class="tg-thumb-bg"></span><span class="tg-thumb-emoji">⚛️</span><span class="tg-thumb-zoom">🔍 Zoom</span><span class="tg-thumb-caption">Bifenthrin</span></a></div>
 </div>
 
 <div class="chem-card chem-imidacloprid">
@@ -1293,7 +1388,7 @@ body {
   <p><strong>Key property:</strong> Non-repellent with mild transfer effect (not as pronounced as fipronil). Slower acting; foraging workers can live for several days, which is enough to carry chemical back to the colony.</p>
   <p><strong>Residual:</strong> <span class="chem-tag">3–7 years in soil</span> <span class="chem-tag">Non-repellent</span></p>
   <p><strong>Australian product in Spray Hub:</strong> Surefire Spectrum 200 SC (termite management section).</p>
-  <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=imidacloprid+neonicotinoid+molecule+structure" target="_blank" rel="noopener">📷 View Images</a>
+  <div class="tg-thumb-row"><a class="tg-thumb theme-chem" href="https://www.google.com/search?tbm=isch&q=imidacloprid+neonicotinoid+molecule+structure" target="_blank" rel="noopener" data-wiki="Imidacloprid" aria-label="View images of Imidacloprid"><span class="tg-thumb-bg"></span><span class="tg-thumb-emoji">⚛️</span><span class="tg-thumb-zoom">🔍 Zoom</span><span class="tg-thumb-caption">Imidacloprid</span></a></div>
 </div>
 
 <div class="chem-card chem-chlorant">
@@ -1303,7 +1398,7 @@ body {
   <p><strong>Key property:</strong> Extremely low mammalian toxicity — Altriset is classified "unscheduled" under the SUSMP. Non-repellent. Slower onset than fipronil but the same colony-elimination dynamic.</p>
   <p><strong>Residual:</strong> <span class="chem-tag">Label-specific</span> <span class="chem-tag">Very low mammalian toxicity</span></p>
   <p><strong>Australian product (not currently in Spray Hub):</strong> Syngenta Altriset. Listed here for completeness — used where low-toxicity profile is preferred (e.g. near vegetable gardens, fishponds).</p>
-  <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=chlorantraniliprole+altriset+molecule+structure" target="_blank" rel="noopener">📷 View Images</a>
+  <div class="tg-thumb-row"><a class="tg-thumb theme-chem" href="https://www.google.com/search?tbm=isch&q=chlorantraniliprole+altriset+molecule+structure" target="_blank" rel="noopener" data-wiki="Chlorantraniliprole" aria-label="View images of Chlorantraniliprole"><span class="tg-thumb-bg"></span><span class="tg-thumb-emoji">⚛️</span><span class="tg-thumb-zoom">🔍 Zoom</span><span class="tg-thumb-caption">Chlorantraniliprole</span></a></div>
 </div>
 
 <div class="chem-card chem-igr">
@@ -1312,7 +1407,7 @@ body {
   <p><strong>Mode of action:</strong> Chitin synthesis inhibitors — blocks formation of the insect cuticle during moulting. Workers die unable to moult; queen and nymph populations collapse.</p>
   <p><strong>Key property:</strong> Delivered through bait stations, not soil treatment. Slow but catastrophic to the colony because workers feed the bait matrix to nymphs and queens. Core chemistry of <strong>Sentricon AlwaysActive</strong> (hexaflumuron), <strong>Exterra</strong> (chlorfluazuron), <strong>Trelona ATBB</strong> (novaluron) and the <strong>Nemesis</strong> bait.</p>
   <p><strong>Residual:</strong> <span class="chem-tag">Bait-delivered</span> <span class="chem-tag">Colony elimination</span></p>
-  <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=termite+bait+station+hexaflumuron+chlorfluazuron+IGR" target="_blank" rel="noopener">📷 View Images</a>
+  <div class="tg-thumb-row"><a class="tg-thumb theme-chem" href="https://www.google.com/search?tbm=isch&q=termite+bait+station+hexaflumuron+chlorfluazuron+IGR" target="_blank" rel="noopener" data-wiki="Insect_growth_regulator" aria-label="View images of IGR bait chemistry"><span class="tg-thumb-bg"></span><span class="tg-thumb-emoji">🧪</span><span class="tg-thumb-zoom">🔍 Zoom</span><span class="tg-thumb-caption">IGR bait chemistry</span></a></div>
 </div>
 
 </div>
@@ -1358,11 +1453,11 @@ body {
       <span>pH 5–7 mix</span>
       <span>8+ yr residual</span>
     </div>
+    <div class="tg-thumb-row"><a class="tg-thumb theme-product" href="https://www.google.com/search?tbm=isch&q=Surefire+Termiticide+Insecticide+fipronil+100+bottle" target="_blank" rel="noopener" data-wiki="Fipronil" aria-label="View images of Surefire Termiticide"><span class="tg-thumb-bg"></span><span class="tg-thumb-emoji">🧴</span><span class="tg-thumb-zoom">🔍 Zoom</span><span class="tg-thumb-caption">Surefire Termiticide</span></a></div>
     <div class="feature-product-actions">
       <a class="prod-link-btn" href="https://www.sprayhub.com.au/?q=surefire+termiticide" target="_blank">🏷 View Full Label</a>
       <a class="prod-link-btn" href="Source labels/Pct_Holdings_Surefire_Termiticide_And_Insecticide_Label.pdf" target="_blank">📄 Label PDF</a>
       <a class="prod-link-btn" href="SDS Labels/SureFire_Termiticide_&_Insecticide.pdf" target="_blank">📑 SDS</a>
-      <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=Surefire+Termiticide+Insecticide+fipronil+100+bottle" target="_blank" rel="noopener">📷 View Images</a>
     </div>
   </div>
 </div>
@@ -1385,11 +1480,11 @@ body {
       <span>A$2M warranty</span>
       <span>8+ yr residual</span>
     </div>
+    <div class="tg-thumb-row"><a class="tg-thumb theme-product" href="https://www.google.com/search?tbm=isch&q=BASF+Termidor+Residual+termiticide+bottle+fipronil" target="_blank" rel="noopener" data-wiki="Fipronil" aria-label="View images of BASF Termidor Residual"><span class="tg-thumb-bg"></span><span class="tg-thumb-emoji">🧴</span><span class="tg-thumb-zoom">🔍 Zoom</span><span class="tg-thumb-caption">BASF Termidor Residual</span></a></div>
     <div class="feature-product-actions">
       <a class="prod-link-btn" href="https://www.sprayhub.com.au/?q=termidor+residual" target="_blank">🏷 View Full Label</a>
       <a class="prod-link-btn" href="Source labels/BASF_termidor_residual_label.pdf" target="_blank">📄 Label PDF</a>
       <a class="prod-link-btn" href="SDS Labels/BASF_Termidor Residual_SDS.pdf" target="_blank">📑 SDS</a>
-      <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=BASF+Termidor+Residual+termiticide+bottle+fipronil" target="_blank" rel="noopener">📷 View Images</a>
     </div>
   </div>
 </div>
@@ -1411,11 +1506,11 @@ body {
       <span>Contact+Stomach</span>
       <span>Fast knockdown</span>
     </div>
+    <div class="tg-thumb-row"><a class="tg-thumb theme-product" href="https://www.google.com/search?tbm=isch&q=PCT+Cropro+Zeus+Termiticide+Insecticide+bifenthrin+bottle" target="_blank" rel="noopener" data-wiki="Bifenthrin" aria-label="View images of PCT Cropro Zeus"><span class="tg-thumb-bg"></span><span class="tg-thumb-emoji">🧴</span><span class="tg-thumb-zoom">🔍 Zoom</span><span class="tg-thumb-caption">PCT Cropro Zeus</span></a></div>
     <div class="feature-product-actions">
       <a class="prod-link-btn" href="https://www.sprayhub.com.au/?q=cropro+zeus" target="_blank">🏷 View Full Label</a>
       <a class="prod-link-btn" href="Source labels/Pct_Holdings_Cropro_Zeus_Termiticide_And_Insecticide_Label.pdf" target="_blank">📄 Label PDF</a>
       <a class="prod-link-btn" href="SDS Labels/CroPro_ZEUS_Termiticide_and_Insecticide.pdf" target="_blank">📑 SDS</a>
-      <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=PCT+Cropro+Zeus+Termiticide+Insecticide+bifenthrin+bottle" target="_blank" rel="noopener">📷 View Images</a>
     </div>
   </div>
 </div>
@@ -1437,11 +1532,11 @@ body {
       <span>Wide spectrum</span>
       <span>Perimeter band</span>
     </div>
+    <div class="tg-thumb-row"><a class="tg-thumb theme-product" href="https://www.google.com/search?tbm=isch&q=Termighty+Termiticide+bifenthrin+termite+solutions+bottle" target="_blank" rel="noopener" data-wiki="Bifenthrin" aria-label="View images of Termighty"><span class="tg-thumb-bg"></span><span class="tg-thumb-emoji">🧴</span><span class="tg-thumb-zoom">🔍 Zoom</span><span class="tg-thumb-caption">Termighty</span></a></div>
     <div class="feature-product-actions">
       <a class="prod-link-btn" href="https://www.sprayhub.com.au/?q=termighty" target="_blank">🏷 View Full Label</a>
       <a class="prod-link-btn" href="Source labels/PestProducts_Termighty_Label.pdf" target="_blank">📄 Label PDF</a>
       <a class="prod-link-btn" href="SDS Labels/TERMIGHTY_TERMITICIDE_&_INSECTICIDE.pdf" target="_blank">📑 SDS</a>
-      <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=Termighty+Termiticide+bifenthrin+termite+solutions+bottle" target="_blank" rel="noopener">📷 View Images</a>
     </div>
   </div>
 </div>
@@ -1463,9 +1558,9 @@ body {
       <span>Neonicotinoid</span>
       <span>Multi-use</span>
     </div>
+    <div class="tg-thumb-row"><a class="tg-thumb theme-product" href="https://www.google.com/search?tbm=isch&q=Surefire+Spectrum+200+SC+imidacloprid+bottle" target="_blank" rel="noopener" data-wiki="Imidacloprid" aria-label="View images of Surefire Spectrum 200"><span class="tg-thumb-bg"></span><span class="tg-thumb-emoji">🧴</span><span class="tg-thumb-zoom">🔍 Zoom</span><span class="tg-thumb-caption">Surefire Spectrum 200</span></a></div>
     <div class="feature-product-actions">
       <a class="prod-link-btn" href="https://www.sprayhub.com.au/?q=surefire+spectrum+200" target="_blank">🏷 View Full Label</a>
-      <a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=Surefire+Spectrum+200+SC+imidacloprid+bottle" target="_blank" rel="noopener">📷 View Images</a>
     </div>
   </div>
 </div>
@@ -1749,10 +1844,10 @@ body {
   <table class="product-table">
     <thead><tr><th>System</th><th>Active Ingredient</th><th>Mechanism</th><th>Notes</th></tr></thead>
     <tbody>
-      <tr><td><strong>Sentricon AlwaysActive (Corteva)</strong></td><td>Hexaflumuron 0.5%</td><td>In-ground monitoring + IGR bait</td><td>AlwaysActive stations contain active bait from day one, eliminating the "monitor then switch" stage. Registered for continuous use without manual replacement.<br><a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=Sentricon+AlwaysActive+termite+bait+station+Corteva" target="_blank" rel="noopener">📷 View Images</a></td></tr>
-      <tr><td><strong>Exterra (Ensystex)</strong></td><td>Chlorfluazuron</td><td>In-ground monitoring + IGR bait</td><td>Large in-ground station housing multiple timber inserts. Well suited to Coptotermes and Heterotermes pressure.<br><a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=Exterra+Ensystex+termite+bait+station+Australia" target="_blank" rel="noopener">📷 View Images</a></td></tr>
-      <tr><td><strong>Trelona ATBB (BASF)</strong></td><td>Novaluron</td><td>Above-ground and in-ground IGR bait</td><td>"Advance Termite Bait System" — baits can be placed in direct contact with active workings as well as on perimeter stations.<br><a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=Trelona+ATBB+BASF+termite+bait+station+novaluron" target="_blank" rel="noopener">📷 View Images</a></td></tr>
-      <tr><td><strong>Nemesis (Sumitomo)</strong></td><td>Chlorfluazuron</td><td>Above-ground bait</td><td>Direct-to-workings bait installed over an active termite lead. Not a perimeter monitoring system.<br><a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=Nemesis+Sumitomo+termite+bait+chlorfluazuron" target="_blank" rel="noopener">📷 View Images</a></td></tr>
+      <tr><td><strong>Sentricon AlwaysActive (Corteva)</strong></td><td>Hexaflumuron 0.5%</td><td>In-ground monitoring + IGR bait</td><td>AlwaysActive stations contain active bait from day one, eliminating the "monitor then switch" stage. Registered for continuous use without manual replacement.<br><a class="tg-thumb theme-bait" href="https://www.google.com/search?tbm=isch&q=Sentricon+AlwaysActive+termite+bait+station+Corteva" target="_blank" rel="noopener" data-wiki="Sentricon" aria-label="View images of Sentricon AlwaysActive"><span class="tg-thumb-bg"></span><span class="tg-thumb-emoji">🎯</span><span class="tg-thumb-zoom">🔍 Zoom</span><span class="tg-thumb-caption">Sentricon AlwaysActive</span></a></td></tr>
+      <tr><td><strong>Exterra (Ensystex)</strong></td><td>Chlorfluazuron</td><td>In-ground monitoring + IGR bait</td><td>Large in-ground station housing multiple timber inserts. Well suited to Coptotermes and Heterotermes pressure.<br><a class="tg-thumb theme-bait" href="https://www.google.com/search?tbm=isch&q=Exterra+Ensystex+termite+bait+station+Australia" target="_blank" rel="noopener" aria-label="View images of Exterra"><span class="tg-thumb-bg"></span><span class="tg-thumb-emoji">🎯</span><span class="tg-thumb-zoom">🔍 Zoom</span><span class="tg-thumb-caption">Exterra</span></a></td></tr>
+      <tr><td><strong>Trelona ATBB (BASF)</strong></td><td>Novaluron</td><td>Above-ground and in-ground IGR bait</td><td>"Advance Termite Bait System" — baits can be placed in direct contact with active workings as well as on perimeter stations.<br><a class="tg-thumb theme-bait" href="https://www.google.com/search?tbm=isch&q=Trelona+ATBB+BASF+termite+bait+station+novaluron" target="_blank" rel="noopener" aria-label="View images of Trelona ATBB"><span class="tg-thumb-bg"></span><span class="tg-thumb-emoji">🎯</span><span class="tg-thumb-zoom">🔍 Zoom</span><span class="tg-thumb-caption">Trelona ATBB</span></a></td></tr>
+      <tr><td><strong>Nemesis (Sumitomo)</strong></td><td>Chlorfluazuron</td><td>Above-ground bait</td><td>Direct-to-workings bait installed over an active termite lead. Not a perimeter monitoring system.<br><a class="tg-thumb theme-bait" href="https://www.google.com/search?tbm=isch&q=Nemesis+Sumitomo+termite+bait+chlorfluazuron" target="_blank" rel="noopener" aria-label="View images of Nemesis Bait"><span class="tg-thumb-bg"></span><span class="tg-thumb-emoji">🎯</span><span class="tg-thumb-zoom">🔍 Zoom</span><span class="tg-thumb-caption">Nemesis Bait</span></a></td></tr>
     </tbody>
   </table>
   <p><strong>Key limitation:</strong> baiting systems require the termites to find the station. On a property with light or intermittent termite pressure, that can take months. For this reason most pest managers recommend baiting <em>in combination</em> with a soil treated zone — the barrier prevents entry, the baiting ring monitors for new approaches.</p>
@@ -1764,10 +1859,10 @@ body {
   <table class="product-table">
     <thead><tr><th>Product</th><th>Type</th><th>How It Works</th></tr></thead>
     <tbody>
-      <tr><td><strong>Termimesh</strong></td><td>Marine-grade stainless-steel mesh (0.67 mm aperture)</td><td>Wrapped around every slab penetration (pipes, conduits). Aperture is smaller than a termite worker's head.<br><a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=Termimesh+stainless+steel+termite+mesh+slab+penetration" target="_blank" rel="noopener">📷 View Images</a></td></tr>
-      <tr><td><strong>Granitgard</strong></td><td>Graded granite aggregate (2 to 2.8 mm particle size)</td><td>Layer of uniform granite particles around every slab penetration and perimeter. Particles are too big for termites to carry and the gaps between them are too small to tunnel through.<br><a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=Granitgard+granite+termite+barrier+slab" target="_blank" rel="noopener">📷 View Images</a></td></tr>
-      <tr><td><strong>Kordon</strong> (Bayer)</td><td>Deltamethrin-impregnated reflective blanket</td><td>Hybrid physical + chemical barrier — the blanket is laid before the slab is poured, and the deltamethrin repels any termite that contacts the blanket edge.<br><a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=Kordon+Bayer+termite+reflective+blanket+deltamethrin" target="_blank" rel="noopener">📷 View Images</a></td></tr>
-      <tr><td><strong>HomeGuard</strong> (FMC)</td><td>Bifenthrin-impregnated membrane</td><td>Similar to Kordon but using bifenthrin. Installed pre-slab, acts as both a DPC and a chemical barrier.<br><a class="view-images-btn" href="https://www.google.com/search?tbm=isch&q=HomeGuard+FMC+termite+bifenthrin+membrane" target="_blank" rel="noopener">📷 View Images</a></td></tr>
+      <tr><td><strong>Termimesh</strong></td><td>Marine-grade stainless-steel mesh (0.67 mm aperture)</td><td>Wrapped around every slab penetration (pipes, conduits). Aperture is smaller than a termite worker's head.<br><a class="tg-thumb theme-barrier" href="https://www.google.com/search?tbm=isch&q=Termimesh+stainless+steel+termite+mesh+slab+penetration" target="_blank" rel="noopener" aria-label="View images of Termimesh"><span class="tg-thumb-bg"></span><span class="tg-thumb-emoji">🕸️</span><span class="tg-thumb-zoom">🔍 Zoom</span><span class="tg-thumb-caption">Termimesh</span></a></td></tr>
+      <tr><td><strong>Granitgard</strong></td><td>Graded granite aggregate (2 to 2.8 mm particle size)</td><td>Layer of uniform granite particles around every slab penetration and perimeter. Particles are too big for termites to carry and the gaps between them are too small to tunnel through.<br><a class="tg-thumb theme-barrier" href="https://www.google.com/search?tbm=isch&q=Granitgard+granite+termite+barrier+slab" target="_blank" rel="noopener" aria-label="View images of Granitgard"><span class="tg-thumb-bg"></span><span class="tg-thumb-emoji">🪨</span><span class="tg-thumb-zoom">🔍 Zoom</span><span class="tg-thumb-caption">Granitgard</span></a></td></tr>
+      <tr><td><strong>Kordon</strong> (Bayer)</td><td>Deltamethrin-impregnated reflective blanket</td><td>Hybrid physical + chemical barrier — the blanket is laid before the slab is poured, and the deltamethrin repels any termite that contacts the blanket edge.<br><a class="tg-thumb theme-barrier" href="https://www.google.com/search?tbm=isch&q=Kordon+Bayer+termite+reflective+blanket+deltamethrin" target="_blank" rel="noopener" aria-label="View images of Kordon"><span class="tg-thumb-bg"></span><span class="tg-thumb-emoji">🛡️</span><span class="tg-thumb-zoom">🔍 Zoom</span><span class="tg-thumb-caption">Kordon</span></a></td></tr>
+      <tr><td><strong>HomeGuard</strong> (FMC)</td><td>Bifenthrin-impregnated membrane</td><td>Similar to Kordon but using bifenthrin. Installed pre-slab, acts as both a DPC and a chemical barrier.<br><a class="tg-thumb theme-barrier" href="https://www.google.com/search?tbm=isch&q=HomeGuard+FMC+termite+bifenthrin+membrane" target="_blank" rel="noopener" aria-label="View images of HomeGuard"><span class="tg-thumb-bg"></span><span class="tg-thumb-emoji">🛡️</span><span class="tg-thumb-zoom">🔍 Zoom</span><span class="tg-thumb-caption">HomeGuard</span></a></td></tr>
     </tbody>
   </table>
 </div>
@@ -2026,6 +2121,42 @@ window.addEventListener('scroll', function() {
   var bt = document.getElementById('backTop');
   if (bt) bt.classList.toggle('visible', window.scrollY > 400);
 });
+
+// Load Wikipedia thumbnails for tiles that have a data-wiki page reference.
+// Falls back silently to the gradient+emoji tile if the fetch fails or no image exists.
+(function() {
+  var thumbs = document.querySelectorAll('.tg-thumb[data-wiki]');
+  if (!thumbs.length) return;
+  thumbs.forEach(function(t) {
+    var page = t.getAttribute('data-wiki');
+    if (!page) return;
+    fetch('https://en.wikipedia.org/api/rest_v1/page/summary/' + encodeURIComponent(page))
+      .then(function(r) { return r.ok ? r.json() : null; })
+      .then(function(data) {
+        if (!data) return;
+        var src = (data.thumbnail && data.thumbnail.source) ||
+                  (data.originalimage && data.originalimage.source);
+        if (!src) return;
+        var img = document.createElement('img');
+        img.className = 'tg-thumb-img';
+        img.loading = 'lazy';
+        img.alt = data.title || page;
+        img.src = src;
+        img.onload = function() {
+          img.classList.add('loaded');
+          t.classList.add('has-img');
+        };
+        // Insert after the bg span so it sits above the gradient but below caption/zoom
+        var bg = t.querySelector('.tg-thumb-bg');
+        if (bg && bg.nextSibling) {
+          t.insertBefore(img, bg.nextSibling);
+        } else {
+          t.appendChild(img);
+        }
+      })
+      .catch(function() { /* silent fail — gradient tile remains */ });
+  });
+})();
 </script>
 
 </body>

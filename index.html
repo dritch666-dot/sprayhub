@@ -241,10 +241,10 @@
     navigator.serviceWorker.getRegistration().then(function(reg) {
       if (reg) {
         reg.update();
-        /* If SW is older than v202, unregister and force reload */
+        /* If SW is older than v203, unregister and force reload */
         if (reg.active && reg.active.scriptURL) {
           fetch('/sw.js?_=' + Date.now()).then(function(r) { return r.text(); }).then(function(t) {
-            if (t.indexOf('v202') === -1) {
+            if (t.indexOf('v203') === -1) {
               reg.unregister().then(function() { location.reload(); });
             }
           }).catch(function(){});
