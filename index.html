@@ -241,10 +241,10 @@
     navigator.serviceWorker.getRegistration().then(function(reg) {
       if (reg) {
         reg.update();
-        /* If SW is older than v205, unregister and force reload */
+        /* If SW is older than v206, unregister and force reload */
         if (reg.active && reg.active.scriptURL) {
           fetch('/sw.js?_=' + Date.now()).then(function(r) { return r.text(); }).then(function(t) {
-            if (t.indexOf('v205') === -1) {
+            if (t.indexOf('v206') === -1) {
               reg.unregister().then(function() { location.reload(); });
             }
           }).catch(function(){});
@@ -289,6 +289,9 @@
         <span class="sidebar-count" id="sidebar-diseases">-</span>
       </button>
       <div class="sidebar-group-label">GUIDES</div>
+            <a class="sidebar-item" href="mosquito-control-guide.html" style="text-decoration:none; color:inherit;">
+              <span class="sidebar-icon">🦟</span> Mosquito Control
+            </a>
             <a class="sidebar-item" href="cockroach-control-guide.html" style="text-decoration:none; color:inherit;">
               <span class="sidebar-icon">🪳</span> Cockroach Control
             </a>
@@ -418,6 +421,9 @@
             <a class="tools-menu-item" href="lawn-turf-guide.html" style="text-decoration:none; color:inherit; display:flex; align-items:center;">🌿 Lawn & Turf Guide</a>
             <a class="tools-menu-item" href="termite-control-guide.html" style="text-decoration:none; color:inherit; display:flex; align-items:center;">🛡️ Termite Control Guide</a>
             <a class="tools-menu-item" href="house-fly-control-guide.html" style="text-decoration:none; color:inherit; display:flex; align-items:center;">🪰 House Fly Control Guide</a>
+        <a class="tools-menu-item" href="mosquito-control-guide.html" style="text-decoration:none; color:inherit;">
+          🦟 Mosquito Control Guide
+        </a>
         <a class="tools-menu-item" href="cockroach-control-guide.html" style="text-decoration:none; color:inherit;">
           🪳 Cockroach Control Guide
         </a>
@@ -1761,6 +1767,7 @@
     <a href="lawn-turf-guide.html" style="text-decoration:none;color:inherit;">🌿 Lawn & Turf Guide</a>
     <a href="termite-control-guide.html" style="text-decoration:none;color:inherit;">🛡️ Termite Control Guide</a>
     <a href="house-fly-control-guide.html" style="text-decoration:none;color:inherit;">🪰 House Fly Control Guide</a>
+    <a href="mosquito-control-guide.html" style="text-decoration:none;color:inherit;">🦟 Mosquito Control Guide</a>
     <a href="cockroach-control-guide.html" style="text-decoration:none;color:inherit;">🪳 Cockroach Control Guide</a>
     <div class="mob-sub-sep"></div>
     <button onclick="openPanel('about');mobNavCloseAll();">ℹ️ About</button>
