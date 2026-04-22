@@ -241,10 +241,10 @@
     navigator.serviceWorker.getRegistration().then(function(reg) {
       if (reg) {
         reg.update();
-        /* If SW is older than v203, unregister and force reload */
+        /* If SW is older than v204, unregister and force reload */
         if (reg.active && reg.active.scriptURL) {
           fetch('/sw.js?_=' + Date.now()).then(function(r) { return r.text(); }).then(function(t) {
-            if (t.indexOf('v203') === -1) {
+            if (t.indexOf('v204') === -1) {
               reg.unregister().then(function() { location.reload(); });
             }
           }).catch(function(){});
@@ -294,6 +294,9 @@
       </a>
       <a class="sidebar-item" href="termite-control-guide.html" style="text-decoration:none; color:inherit;">
         <span class="sidebar-icon">🛡️</span> Termite Control
+      </a>
+      <a class="sidebar-item" href="house-fly-control-guide.html" style="text-decoration:none; color:inherit;">
+        <span class="sidebar-icon">🪰</span> House Fly Control
       </a>
       <div class="sidebar-group-label">REGISTRIES</div>
       <button class="sidebar-item" data-section="apvma" onclick="switchAgriSubTab('apvma')">
@@ -411,6 +414,7 @@
             <div style="border-top:1px solid rgba(255,255,255,0.15); margin:4px 0;"></div>
             <a class="tools-menu-item" href="lawn-turf-guide.html" style="text-decoration:none; color:inherit; display:flex; align-items:center;">🌿 Lawn & Turf Guide</a>
             <a class="tools-menu-item" href="termite-control-guide.html" style="text-decoration:none; color:inherit; display:flex; align-items:center;">🛡️ Termite Control Guide</a>
+            <a class="tools-menu-item" href="house-fly-control-guide.html" style="text-decoration:none; color:inherit; display:flex; align-items:center;">🪰 House Fly Control Guide</a>
           </div>
         </div>
         <div class="nav-divider"></div>
@@ -1750,6 +1754,7 @@
     <div class="mob-sub-sep"></div>
     <a href="lawn-turf-guide.html" style="text-decoration:none;color:inherit;">🌿 Lawn & Turf Guide</a>
     <a href="termite-control-guide.html" style="text-decoration:none;color:inherit;">🛡️ Termite Control Guide</a>
+    <a href="house-fly-control-guide.html" style="text-decoration:none;color:inherit;">🪰 House Fly Control Guide</a>
     <div class="mob-sub-sep"></div>
     <button onclick="openPanel('about');mobNavCloseAll();">ℹ️ About</button>
     <button onclick="openPanel('contact');mobNavCloseAll();">📧 Contact</button>

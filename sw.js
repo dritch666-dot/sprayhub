@@ -1,10 +1,11 @@
-const CACHE_NAME = 'sprayhub-v203';
+const CACHE_NAME = 'sprayhub-v204';
 
 const ASSETS = [
   './',
   './index.html',
   './lawn-turf-guide.html',
   './termite-control-guide.html',
+  './house-fly-control-guide.html',
   './manifest.json',
   './css/styles.css',
   './css/components.css',
