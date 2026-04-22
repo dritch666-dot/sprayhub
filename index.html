@@ -241,10 +241,10 @@
     navigator.serviceWorker.getRegistration().then(function(reg) {
       if (reg) {
         reg.update();
-        /* If SW is older than v208, unregister and force reload */
+        /* If SW is older than v209, unregister and force reload */
         if (reg.active && reg.active.scriptURL) {
           fetch('/sw.js?_=' + Date.now()).then(function(r) { return r.text(); }).then(function(t) {
-            if (t.indexOf('v208') === -1) {
+            if (t.indexOf('v209') === -1) {
               reg.unregister().then(function() { location.reload(); });
             }
           }).catch(function(){});
@@ -289,6 +289,9 @@
         <span class="sidebar-count" id="sidebar-diseases">-</span>
       </button>
       <div class="sidebar-group-label">GUIDES</div>
+            <a class="sidebar-item" href="fall-armyworm-management-guide.html" style="text-decoration:none; color:inherit;">
+              <span class="sidebar-icon">🐛</span> Fall Armyworm (FAW)
+            </a>
             <a class="sidebar-item" href="weed-resistance-guide.html" style="text-decoration:none; color:inherit;">
               <span class="sidebar-icon">🌾</span> Weed Resistance & HRAC
             </a>
@@ -427,6 +430,9 @@
             <a class="tools-menu-item" href="lawn-turf-guide.html" style="text-decoration:none; color:inherit; display:flex; align-items:center;">🌿 Lawn & Turf Guide</a>
             <a class="tools-menu-item" href="termite-control-guide.html" style="text-decoration:none; color:inherit; display:flex; align-items:center;">🛡️ Termite Control Guide</a>
             <a class="tools-menu-item" href="house-fly-control-guide.html" style="text-decoration:none; color:inherit; display:flex; align-items:center;">🪰 House Fly Control Guide</a>
+        <a class="tools-menu-item" href="fall-armyworm-management-guide.html" style="text-decoration:none; color:inherit;">
+          🐛 Fall Armyworm (FAW) Guide
+        </a>
         <a class="tools-menu-item" href="weed-resistance-guide.html" style="text-decoration:none; color:inherit;">
           🌾 Weed Resistance & HRAC Guide
         </a>
@@ -1780,6 +1786,7 @@
     <a href="lawn-turf-guide.html" style="text-decoration:none;color:inherit;">🌿 Lawn & Turf Guide</a>
     <a href="termite-control-guide.html" style="text-decoration:none;color:inherit;">🛡️ Termite Control Guide</a>
     <a href="house-fly-control-guide.html" style="text-decoration:none;color:inherit;">🪰 House Fly Control Guide</a>
+    <a href="fall-armyworm-management-guide.html" style="text-decoration:none;color:inherit;">🐛 Fall Armyworm (FAW) Guide</a>
     <a href="weed-resistance-guide.html" style="text-decoration:none;color:inherit;">🌾 Weed Resistance & HRAC Guide</a>
     <a href="fruit-fly-control-guide.html" style="text-decoration:none;color:inherit;">🍊 Fruit Fly Control Guide</a>
     <a href="mosquito-control-guide.html" style="text-decoration:none;color:inherit;">🦟 Mosquito Control Guide</a>
