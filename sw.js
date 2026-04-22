@@ -1,4 +1,4 @@
-const CACHE_NAME = 'sprayhub-v207';
+const CACHE_NAME = 'sprayhub-v210';
 
 const ASSETS = [
   './',
@@ -197,6 +197,7 @@ const ASSETS = [
   './js/labels/basfcolliss.js',
   './js/labels/basfefficon.js',
   './js/labels/basfmerivon.js',
+  './js/labels/basfseclira.js',
   './js/labels/basfvivando.js',
   './js/labels/bayeralion.js',
   './js/labels/campbellabsolve.js',

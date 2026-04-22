@@ -3294,6 +3294,18 @@ window.sdsRegistry = [
     "hazardStatement": "H302 Harmful if swallowed; H373 May cause damage to organs through prolonged or repeated exposure; H400 Very toxic to aquatic life; H410 Very toxic to aquatic life with long lasting effects"
   },
   {
+    "filename": "BASF_Seclira_SDS.pdf",
+    "displayName": "BASF Seclira Pressurised Insecticide SDS",
+    "filepath": "SDS Labels/BASF_Seclira_SDS.pdf",
+    "productName": "BASF Seclira® Pressurised Insecticide",
+    "company": "BASF",
+    "activeIngredient": "5 g/kg Dinotefuran",
+    "poisonsSchedule": "Unscheduled",
+    "poisonsScheduleLabel": "Not Scheduled (SUSMP) — Read Safety Directions",
+    "ghsSignalWord": "",
+    "hazardStatement": "H401 Toxic to aquatic life; H411 Toxic to aquatic life with long lasting effects"
+  },
+  {
     "filename": "Kenso_Ethephon-720-SDS.pdf",
     "displayName": "Kenso Ethephon 720 Growth Regulator SDS",
     "filepath": "SDS Labels/Kenso_Ethephon-720-SDS.pdf",

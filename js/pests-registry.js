@@ -54,6 +54,14 @@ window.pestsRegistry = [
         "crops": [
           "Urban Pest Control — Houseflies"
         ]
+      },
+      {
+        "productId": "basfseclira",
+        "productName": "BASF Seclira® Pressurised Insecticide",
+        "source": "label",
+        "crops": [
+          "Unknown"
+        ]
       }
     ],
     "thumbnail": "images/pests/adult-houseflies.webp",
@@ -136,6 +144,14 @@ window.pestsRegistry = [
         "source": "label",
         "crops": [
           "Urban Pest Control — Cockroaches & Spiders"
+        ]
+      },
+      {
+        "productId": "basfseclira",
+        "productName": "BASF Seclira® Pressurised Insecticide",
+        "source": "label",
+        "crops": [
+          "Unknown"
         ]
       }
     ],
@@ -366,6 +382,14 @@ window.pestsRegistry = [
         "crops": [
           "Nuisance Ants — External Areas"
         ]
+      },
+      {
+        "productId": "basfseclira",
+        "productName": "BASF Seclira® Pressurised Insecticide",
+        "source": "label",
+        "crops": [
+          "Unknown"
+        ]
       }
     ],
     "thumbnail": "images/pests/argentine-ant.webp",
@@ -589,6 +613,14 @@ window.pestsRegistry = [
         "source": "label",
         "crops": [
           "Urban Pest Control — Cockroaches & Spiders"
+        ]
+      },
+      {
+        "productId": "basfseclira",
+        "productName": "BASF Seclira® Pressurised Insecticide",
+        "source": "label",
+        "crops": [
+          "Unknown"
         ]
       }
     ],
@@ -1498,6 +1530,14 @@ window.pestsRegistry = [
         "crops": [
           "Domestic, commercial, industrial & public buildings — General pests"
         ]
+      },
+      {
+        "productId": "basfseclira",
+        "productName": "BASF Seclira® Pressurised Insecticide",
+        "source": "label",
+        "crops": [
+          "Unknown"
+        ]
       }
     ],
     "thumbnail": "images/pests/bed-bugs.webp",
@@ -1692,6 +1732,14 @@ window.pestsRegistry = [
         "crops": [
           "Urban Pest Control — Ants (External / Nuisance)"
         ]
+      },
+      {
+        "productId": "basfseclira",
+        "productName": "BASF Seclira® Pressurised Insecticide",
+        "source": "label",
+        "crops": [
+          "Unknown"
+        ]
       }
     ],
     "thumbnail": "images/pests/black-house-ant.webp",
@@ -1723,6 +1771,14 @@ window.pestsRegistry = [
         "source": "label",
         "crops": [
           "Urban Pest Control — Cockroaches & Spiders"
+        ]
+      },
+      {
+        "productId": "basfseclira",
+        "productName": "BASF Seclira® Pressurised Insecticide",
+        "source": "label",
+        "crops": [
+          "Unknown"
         ]
       }
     ],
@@ -4787,6 +4843,14 @@ window.pestsRegistry = [
           "Sports Fields",
           "Bowling Greens"
         ]
+      },
+      {
+        "productId": "basfseclira",
+        "productName": "BASF Seclira® Pressurised Insecticide",
+        "source": "label",
+        "crops": [
+          "Unknown"
+        ]
       }
     ],
     "thumbnail": "images/pests/coastal-brown-ant.webp",
@@ -6316,6 +6380,14 @@ window.pestsRegistry = [
         "crops": [
           "Urban Pest Control — Spot Treatment Pests (Contact Only)"
         ]
+      },
+      {
+        "productId": "basfseclira",
+        "productName": "BASF Seclira® Pressurised Insecticide",
+        "source": "label",
+        "crops": [
+          "Unknown"
+        ]
       }
     ],
     "thumbnail": "images/pests/daddy-long-legs-spiders.webp",
@@ -6632,6 +6704,14 @@ window.pestsRegistry = [
         "source": "label",
         "crops": [
           "Urban Pest Control — Cockroaches & Web-spinning Spiders"
+        ]
+      },
+      {
+        "productId": "basfseclira",
+        "productName": "BASF Seclira® Pressurised Insecticide",
+        "source": "label",
+        "crops": [
+          "Unknown"
         ]
       }
     ],
@@ -9654,6 +9734,14 @@ window.pestsRegistry = [
         "crops": [
           "Urban Pest Control — Spot Treatment Pests (Contact Only)"
         ]
+      },
+      {
+        "productId": "basfseclira",
+        "productName": "BASF Seclira® Pressurised Insecticide",
+        "source": "label",
+        "crops": [
+          "Unknown"
+        ]
       }
     ],
     "thumbnail": "images/pests/house-crickets.webp",
@@ -12258,6 +12346,14 @@ window.pestsRegistry = [
           "Buildings",
           "Structures"
         ]
+      },
+      {
+        "productId": "basfseclira",
+        "productName": "BASF Seclira® Pressurised Insecticide",
+        "source": "label",
+        "crops": [
+          "Unknown"
+        ]
       }
     ],
     "thumbnail": "images/pests/mosquitoes.webp",
@@ -12663,6 +12759,14 @@ window.pestsRegistry = [
         "crops": [
           "Turf — Recreational, Domestic & Commercial"
         ]
+      },
+      {
+        "productId": "basfseclira",
+        "productName": "BASF Seclira® Pressurised Insecticide",
+        "source": "label",
+        "crops": [
+          "Unknown"
+        ]
       }
     ],
     "thumbnail": "images/pests/nesting-ants.webp",
@@ -12789,6 +12893,14 @@ window.pestsRegistry = [
         "crops": [
           "Turf — Recreational, Domestic & Commercial"
         ]
+      },
+      {
+        "productId": "basfseclira",
+        "productName": "BASF Seclira® Pressurised Insecticide",
+        "source": "label",
+        "crops": [
+          "Unknown"
+        ]
       }
     ],
     "thumbnail": "images/pests/nuisance-ants.webp",
@@ -12858,6 +12970,14 @@ window.pestsRegistry = [
         "productName": "Surefire Termiticide and Insecticide",
         "source": "label",
         "crops": []
+      },
+      {
+        "productId": "basfseclira",
+        "productName": "BASF Seclira® Pressurised Insecticide",
+        "source": "label",
+        "crops": [
+          "Unknown"
+        ]
       }
     ],
     "family": "FORMICIDAE"
@@ -13091,6 +13211,14 @@ window.pestsRegistry = [
         "source": "label",
         "crops": [
           "Urban Pest Control — Cockroaches & Spiders"
+        ]
+      },
+      {
+        "productId": "basfseclira",
+        "productName": "BASF Seclira® Pressurised Insecticide",
+        "source": "label",
+        "crops": [
+          "Unknown"
         ]
       }
     ],
@@ -13768,6 +13896,14 @@ window.pestsRegistry = [
         "crops": [
           "Urban Pest Control — Ants (External / Nuisance)"
         ]
+      },
+      {
+        "productId": "basfseclira",
+        "productName": "BASF Seclira® Pressurised Insecticide",
+        "source": "label",
+        "crops": [
+          "Unknown"
+        ]
       }
     ],
     "thumbnail": "images/pests/pharaoh-s-ant.webp",
@@ -13797,6 +13933,14 @@ window.pestsRegistry = [
         "source": "label",
         "crops": [
           "Urban Pest Control — Spot Treatment Pests (Contact Only)"
+        ]
+      },
+      {
+        "productId": "basfseclira",
+        "productName": "BASF Seclira® Pressurised Insecticide",
+        "source": "label",
+        "crops": [
+          "Unknown"
         ]
       }
     ],
@@ -15160,6 +15304,14 @@ window.pestsRegistry = [
         "crops": [
           "Urban Pest Control — Cockroaches & Web-spinning Spiders"
         ]
+      },
+      {
+        "productId": "basfseclira",
+        "productName": "BASF Seclira® Pressurised Insecticide",
+        "source": "label",
+        "crops": [
+          "Unknown"
+        ]
       }
     ],
     "thumbnail": "images/pests/redback-spider.webp",
@@ -16462,6 +16614,14 @@ window.pestsRegistry = [
         "source": "label",
         "crops": [
           "Urban Pest Control — Cockroaches & Spiders"
+        ]
+      },
+      {
+        "productId": "basfseclira",
+        "productName": "BASF Seclira® Pressurised Insecticide",
+        "source": "label",
+        "crops": [
+          "Unknown"
         ]
       }
     ],
@@ -19346,6 +19506,14 @@ window.pestsRegistry = [
         "productName": "Surefire Termiticide and Insecticide",
         "source": "label",
         "crops": []
+      },
+      {
+        "productId": "basfseclira",
+        "productName": "BASF Seclira® Pressurised Insecticide",
+        "source": "label",
+        "crops": [
+          "Unknown"
+        ]
       }
     ],
     "thumbnail": "images/pests/web-spinning-spiders-including-black-house-spider.webp",
@@ -20196,5 +20364,25 @@ window.pestsRegistry = [
     ],
     "thumbnail": "images/pests/yellow-winged-locust.webp",
     "family": "ACRIDIDAE"
+  },
+  {
+    "commonName": "Stored Product Pests",
+    "scientificName": "",
+    "pestType": "",
+    "order": "",
+    "cropsAffected": [],
+    "damageType": "",
+    "controlMethods": [],
+    "imageUrl": "https://www.google.com/search?tbm=isch&q=Stored%20Product%20Pests+pest+australia",
+    "linkedProducts": [
+      {
+        "productId": "basfseclira",
+        "productName": "BASF Seclira® Pressurised Insecticide",
+        "source": "label",
+        "crops": [
+          "Unknown"
+        ]
+      }
+    ]
   }
 ];

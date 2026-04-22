@@ -418,6 +418,18 @@
       "sdsPdf": "SDS Labels/Merivon_Fungicide.pdf"
     },
     {
+      "key": "basfseclira",
+      "name": "BASF Seclira\u00ae Pressurised Insecticide",
+      "activeIngredient": "5 g/kg Dinotefuran",
+      "group": "Group 4A Insecticide",
+      "color": "#7e22ce",
+      "jsFile": "js/labels/basfseclira.js",
+      "labelPdf": "Source labels/BASF_Seclira_Label.pdf",
+      "pdfFilename": "BASF_Seclira_Label.pdf",
+      "status": "active",
+      "sdsPdf": "SDS Labels/BASF_Seclira_SDS.pdf"
+    },
+    {
       "key": "basfvivando",
       "name": "VIVANDO Fungicide",
       "activeIngredient": "500 g/L SDHI active ingredient (pending full label details)",
