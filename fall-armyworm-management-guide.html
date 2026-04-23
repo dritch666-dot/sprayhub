@@ -277,9 +277,11 @@ body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans
 .problem-card p { font-size: 0.83em; margin: 0 0 6px; }
 .problem-card .tag { display: inline-block; background: var(--primary-light); color: var(--primary-dark); padding: 2px 8px; border-radius: 999px; font-size: 0.68em; font-weight: 700; margin-right: 4px; margin-bottom: 4px; }
 [data-theme="dark"] .problem-card .tag { background: rgba(239, 68, 68, 0.2); color: #fca5a5; }
-.problem-card .tg-thumb { width: 100%; aspect-ratio: 16/10; background: #f1f5f9; border-radius: 7px; overflow: hidden; margin-bottom: 10px; display: flex; align-items: center; justify-content: center; font-size: 2em; color: var(--primary); }
+.problem-card .tg-thumb { width: 100%; aspect-ratio: 16/10; background: #f1f5f9; border-radius: 7px; overflow: hidden; margin-bottom: 10px; display: flex; align-items: center; justify-content: center; font-size: 2em; color: var(--primary); cursor: zoom-in; text-decoration: none; transition: transform 0.2s ease, box-shadow 0.2s ease; position: relative; }
+.problem-card a.tg-thumb:hover { transform: scale(1.03); box-shadow: 0 6px 18px rgba(0,0,0,0.18); }
+.problem-card a.tg-thumb:focus-visible { outline: 3px solid var(--primary); outline-offset: 2px; }
 [data-theme="dark"] .problem-card .tg-thumb { background: rgba(255,255,255,0.05); }
-.problem-card .tg-thumb img { width: 100%; height: 100%; object-fit: cover; }
+.problem-card .tg-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
 
 .chem-pill { display: inline-block; padding: 3px 9px; border-radius: 999px; font-size: 0.68em; font-weight: 700; letter-spacing: 0.02em; margin-right: 5px; margin-bottom: 4px; }
 .group-1a  { background: #fde2e4; color: #9f1239; }
@@ -522,42 +524,42 @@ body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans
   </div>
   <div class="problem-grid">
     <div class="problem-card">
-      <div class="tg-thumb" data-wiki="Spodoptera_frugiperda">🐛</div>
+      <a class="tg-thumb" href="https://en.wikipedia.org/wiki/Spodoptera_frugiperda" target="_blank" rel="noopener" data-wiki="Spodoptera_frugiperda" title="Open Fall armyworm on Wikipedia">🐛</a>
       <h4>Fall armyworm</h4>
       <p class="scientific">Spodoptera frugiperda</p>
       <p>Pale inverted-Y mark on head capsule. Four prominent dark spots in a square on the 8th abdominal segment. Larva dark to yellow-brown with pale longitudinal stripes. Adult wingspan 32–40 mm; males have a distinct white spot on forewing.</p>
       <span class="tag">Invasive (2020)</span><span class="tag">Grasses + 350 hosts</span><span class="tag">Migratory</span>
     </div>
     <div class="problem-card">
-      <div class="tg-thumb" data-wiki="Mythimna_convecta">🪲</div>
+      <a class="tg-thumb" href="https://en.wikipedia.org/wiki/Mythimna_convecta" target="_blank" rel="noopener" data-wiki="Mythimna_convecta" title="Open Common armyworm on Wikipedia">🪲</a>
       <h4>Common armyworm</h4>
       <p class="scientific">Mythimna convecta</p>
       <p>Native. No Y-mark, no square of spots. Usually greenish-brown with narrow dorsal stripes. Major pasture pest in winter cereals. Overwinters in southern Australia — populations build slowly compared to FAW.</p>
       <span class="tag">Native</span><span class="tag">Winter cereals</span>
     </div>
     <div class="problem-card">
-      <div class="tg-thumb" data-wiki="Persectania_ewingii">🐛</div>
+      <a class="tg-thumb" href="https://en.wikipedia.org/wiki/Persectania_ewingii" target="_blank" rel="noopener" data-wiki="Persectania_ewingii" title="Open Southern armyworm on Wikipedia">🐛</a>
       <h4>Southern armyworm</h4>
       <p class="scientific">Persectania ewingii</p>
       <p>Native. Darker than common armyworm with a prominent pale dorsal stripe. A cool-climate pasture and cereal pest in VIC, TAS and southern SA/WA. Rarely a problem in summer crops.</p>
       <span class="tag">Native</span><span class="tag">Temperate</span>
     </div>
     <div class="problem-card">
-      <div class="tg-thumb" data-wiki="Spodoptera_litura">🪲</div>
+      <a class="tg-thumb" href="https://en.wikipedia.org/wiki/Spodoptera_litura" target="_blank" rel="noopener" data-wiki="Spodoptera_litura" title="Open Cluster caterpillar on Wikipedia">🪲</a>
       <h4>Cluster caterpillar</h4>
       <p class="scientific">Spodoptera litura</p>
       <p>Native <em>Spodoptera</em>. Gregarious early instars leave skeletonised patches. No inverted-Y; darker head with a pair of lateral black spots on each segment. Many chemistry groups overlap with FAW but the best treatment windows differ.</p>
       <span class="tag">Native Spodoptera</span><span class="tag">Broadleaves + grasses</span>
     </div>
     <div class="problem-card">
-      <div class="tg-thumb" data-wiki="Helicoverpa_armigera">🐛</div>
+      <a class="tg-thumb" href="https://en.wikipedia.org/wiki/Helicoverpa_armigera" target="_blank" rel="noopener" data-wiki="Helicoverpa_armigera" title="Open Cotton bollworm on Wikipedia">🐛</a>
       <h4>Cotton bollworm / Heliothis</h4>
       <p class="scientific">Helicoverpa armigera</p>
       <p>Not an armyworm. Larger at maturity, variable colour (green / brown / pink), bores into fruit and reproductive tissue (cobs, heads, bolls). Chemistry overlaps strongly with FAW (Group 28, 5, 22A) but scouting threshold and timing differ.</p>
       <span class="tag">Major crop pest</span><span class="tag">Boring damage</span>
     </div>
     <div class="problem-card">
-      <div class="tg-thumb" data-wiki="Herpetogramma_licarsisalis">🦗</div>
+      <a class="tg-thumb" href="https://en.wikipedia.org/wiki/Herpetogramma_licarsisalis" target="_blank" rel="noopener" data-wiki="Herpetogramma_licarsisalis" title="Open Lawn armyworm on Wikipedia">🦗</a>
       <h4>Lawn armyworm / sod webworm</h4>
       <p class="scientific">Herpetogramma licarsisalis</p>
       <p>Different species, different family. Small green-brown larvae, web-tunnel feeders in turf. Frequently confused with FAW in lawn settings — FAW adults lay eggs directly on turf blades and damage is chewing, not tunnelling.</p>
