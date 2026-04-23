@@ -275,7 +275,10 @@ a:hover { text-decoration: underline; }
 
 /* Sections */
 .content { padding: 32px 32px 80px; max-width: 1080px; }
-.guide-section { margin-bottom: 48px; scroll-margin-top: 80px; }
+.guide-section { display: none; margin-bottom: 48px; scroll-margin-top: 80px; }
+.guide-section.active { display: block; }
+body.non-intro .hero { display: none; }
+@media print { .guide-section { display: block !important; } .hero { display: block !important; } }
 .guide-section .section-header { margin-bottom: 20px; }
 .guide-section h2 {
   margin: 0 0 6px; font-size: 26px; font-weight: 800;
@@ -518,7 +521,7 @@ a:hover { text-decoration: underline; }
     <div class="logo"><span class="logo-emoji">🐛</span> SprayHub</div>
     <div class="group">
       <div class="group-title">On this page</div>
-      <a href="#intro" class="nav-link">Intro</a>
+      <a href="#intro" class="nav-link active">Intro</a>
       <a href="#why-it-matters" class="nav-link">Why it matters</a>
       <a href="#arrival" class="nav-link">Arrival timeline</a>
       <a href="#species" class="nav-link">Species &amp; look-alikes</a>
@@ -553,7 +556,10 @@ a:hover { text-decoration: underline; }
   <main class="main">
     <div class="mobile-header">
       <div class="logo"><span>🐛</span> Fall Armyworm Guide</div>
-      <button class="theme-toggle" onclick="toggleTheme()">🌓</button>
+      <div style="display:flex; gap:6px; align-items:center;">
+        <a href="https://www.sprayhub.com.au/" style="background:var(--primary); color:#fff; padding:6px 10px; border-radius:6px; font-size:13px; text-decoration:none; white-space:nowrap;">← Back to app</a>
+        <button class="theme-toggle" onclick="toggleTheme()">🌓</button>
+      </div>
     </div>
     <nav class="mobile-nav-tabs">
       <a href="#intro">Intro</a>
@@ -599,7 +605,7 @@ a:hover { text-decoration: underline; }
 
     <div class="content">
 
-      <section id="intro" class="guide-section">
+      <section id="intro" class="guide-section active">
         <div class="section-header"><h2>Intro</h2><p class="section-sub">The invasive that reset every summer-crop IPM program east of the WA border.</p></div>
         <p><em>Spodoptera frugiperda</em> — fall armyworm, or FAW — was first detected in Australia on the Torres Strait islands in January 2020 and on the Bamaga mainland the following month. Inside 24 months it had established across every tropical and sub-tropical grain-growing region in the country. FAW is a migratory noctuid moth from the Americas with a voracious larval appetite for grass crops: maize, sorghum, sweet corn, rice, sugarcane and turf all take direct hits, and more than 350 host plants have been recorded worldwide. It out-breeds, out-migrates and out-eats the native armyworms Australian growers had managed for decades with a pyrethroid and an OP.</p>
         <p>This guide exists because three things happened simultaneously: FAW arrived, growers needed answers in days not months, and the Australian chemistry market scrambled onto emergency and minor-use permits to fill the gap. By early 2026 there are over 90 APVMA permits covering FAW across crops and situations. That's a lot of label reading. The outline below pulls it together into a single field manual — built for the grower walking a maize paddock at dawn, not for a literature review.</p>
@@ -1286,18 +1292,46 @@ function toggleFaq(btn) {
 
 window.addEventListener('scroll', function() {
   var btn = document.querySelector('.back-to-top');
-  if (window.scrollY > 600) btn.classList.add('visible'); else btn.classList.remove('visible');
-
-  var sections = document.querySelectorAll('.guide-section');
-  var y = window.scrollY + 100;
-  var active = null;
-  sections.forEach(function(s){ if (s.offsetTop <= y) active = s.id; });
-  if (active) {
-    document.querySelectorAll('.sidebar .nav-link, .mobile-nav-tabs a').forEach(function(l){
-      l.classList.toggle('active', l.getAttribute('href') === '#' + active);
-    });
-  }
+  if (btn) { if (window.scrollY > 600) btn.classList.add('visible'); else btn.classList.remove('visible'); }
 });
+
+/* Section switching — show one guide-section at a time */
+function showGuideSection(id) {
+  if (!id) return;
+  var target = document.getElementById(id);
+  if (!target || !target.classList.contains('guide-section')) return;
+  document.querySelectorAll('.guide-section').forEach(function(s){ s.classList.remove('active'); });
+  target.classList.add('active');
+  document.querySelectorAll('.sidebar .nav-link, .mobile-nav-tabs a').forEach(function(l){
+    var href = l.getAttribute('href') || '';
+    l.classList.toggle('active', href === '#' + id);
+  });
+  document.body.classList.toggle('non-intro', id !== 'intro');
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+/* Hook sidebar + mobile-nav-tabs — intercept in-page anchor clicks */
+document.addEventListener('click', function(e) {
+  var link = e.target.closest('.sidebar .nav-link, .mobile-nav-tabs a');
+  if (!link) return;
+  var href = link.getAttribute('href') || '';
+  if (!href.startsWith('#')) return; /* external links pass through */
+  var id = href.slice(1);
+  if (!id) return;
+  var target = document.getElementById(id);
+  if (!target || !target.classList.contains('guide-section')) return;
+  e.preventDefault();
+  history.replaceState(null, '', '#' + id);
+  showGuideSection(id);
+});
+
+/* Initial load — respect URL hash if it points at a valid section */
+(function(){
+  var hash = (location.hash || '').slice(1);
+  if (hash && document.getElementById(hash) && document.getElementById(hash).classList.contains('guide-section')) {
+    showGuideSection(hash);
+  }
+})();
 
 /* Wikipedia thumbnail loader */
 (function(){
