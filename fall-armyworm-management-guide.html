@@ -271,17 +271,34 @@ body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans
 .scout-card .instar { display: inline-block; background: var(--primary); color: #fff; padding: 2px 8px; border-radius: 999px; font-size: 0.7em; font-weight: 700; margin-bottom: 6px; letter-spacing: 0.3px; }
 
 .problem-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; margin: 10px 0; }
-.problem-card { background: var(--bg-card-solid); border: 1px solid var(--border); border-radius: 10px; padding: 12px 14px; box-shadow: var(--shadow-sm); display: flex; flex-direction: column; }
+.problem-card { background: var(--bg-card-solid); border: 1px solid var(--border); border-radius: 10px; padding: 12px 14px; box-shadow: var(--shadow-sm); display: flex; flex-direction: column; overflow: visible; }
 .problem-card h4 { margin: 0 0 4px; font-size: 1em; color: var(--primary-dark); }
 .problem-card .scientific { font-style: italic; font-size: 0.82em; color: var(--text-sub); margin: 0 0 6px; }
 .problem-card p { font-size: 0.83em; margin: 0 0 6px; }
 .problem-card .tag { display: inline-block; background: var(--primary-light); color: var(--primary-dark); padding: 2px 8px; border-radius: 999px; font-size: 0.68em; font-weight: 700; margin-right: 4px; margin-bottom: 4px; }
 [data-theme="dark"] .problem-card .tag { background: rgba(239, 68, 68, 0.2); color: #fca5a5; }
-.problem-card .tg-thumb { width: 100%; aspect-ratio: 16/10; background: #f1f5f9; border-radius: 7px; overflow: hidden; margin-bottom: 10px; display: flex; align-items: center; justify-content: center; font-size: 2em; color: var(--primary); cursor: zoom-in; text-decoration: none; transition: transform 0.2s ease, box-shadow 0.2s ease; position: relative; }
-.problem-card a.tg-thumb:hover { transform: scale(1.03); box-shadow: 0 6px 18px rgba(0,0,0,0.18); }
-.problem-card a.tg-thumb:focus-visible { outline: 3px solid var(--primary); outline-offset: 2px; }
-[data-theme="dark"] .problem-card .tg-thumb { background: rgba(255,255,255,0.05); }
-.problem-card .tg-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+/* ────────── Thumbnail Tiles (clickable, hover-zoom) ────────── */
+.tg-thumb { position: relative; display: block; width: 100%; aspect-ratio: 16/10; border-radius: 8px; overflow: hidden; text-decoration: none; color: white; border: 1px solid var(--border); box-shadow: 0 1px 4px rgba(0,0,0,0.08); transition: transform 0.25s ease, box-shadow 0.25s ease; cursor: zoom-in; margin-bottom: 10px; isolation: isolate; }
+.tg-thumb:hover { transform: scale(1.12); box-shadow: 0 14px 34px rgba(220, 38, 38, 0.35); z-index: 50; }
+.tg-thumb:focus-visible { outline: 3px solid var(--primary); outline-offset: 2px; }
+.tg-thumb-bg { position: absolute; inset: 0; background: linear-gradient(135deg, var(--primary, #dc2626), var(--primary-dark, #991b1b)); z-index: 0; }
+.tg-thumb-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; opacity: 0; transition: opacity 0.35s ease; z-index: 1; }
+.tg-thumb-img.loaded { opacity: 1; }
+.tg-thumb.has-img .tg-thumb-emoji { display: none; }
+.tg-thumb-emoji { position: absolute; top: 42%; left: 50%; transform: translate(-50%, -50%); font-size: 2.6em; filter: drop-shadow(0 2px 6px rgba(0,0,0,0.45)); z-index: 2; pointer-events: none; }
+.tg-thumb-caption { position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(180deg, transparent 0%, rgba(0,0,0,0.82) 100%); color: white; padding: 18px 10px 8px; font-size: 0.74em; font-weight: 600; text-align: left; z-index: 3; line-height: 1.25; }
+.tg-thumb-zoom { position: absolute; top: 6px; right: 6px; background: rgba(0,0,0,0.55); color: white; font-size: 0.72em; padding: 2px 6px; border-radius: 5px; z-index: 3; backdrop-filter: blur(4px); opacity: 0; transition: opacity 0.2s; }
+.tg-thumb:hover .tg-thumb-zoom { opacity: 1; }
+
+/* Category-specific gradient themes */
+.tg-thumb.theme-species .tg-thumb-bg { background: linear-gradient(135deg, #dc2626, #991b1b); }
+.tg-thumb.theme-life    .tg-thumb-bg { background: linear-gradient(135deg, #a855f7, #6b21a8); }
+.tg-thumb.theme-sign    .tg-thumb-bg { background: linear-gradient(135deg, #f59e0b, #b45309); }
+.tg-thumb.theme-chem    .tg-thumb-bg { background: linear-gradient(135deg, #0284c7, #075985); }
+.tg-thumb.theme-product .tg-thumb-bg { background: linear-gradient(135deg, #16a34a, #14532d); }
+[data-theme="dark"] .tg-thumb { border-color: #475569; }
+[data-theme="dark"] .tg-thumb:hover { box-shadow: 0 14px 34px rgba(248, 113, 113, 0.45); }
 
 .chem-pill { display: inline-block; padding: 3px 9px; border-radius: 999px; font-size: 0.68em; font-weight: 700; letter-spacing: 0.02em; margin-right: 5px; margin-bottom: 4px; }
 .group-1a  { background: #fde2e4; color: #9f1239; }
@@ -524,42 +541,42 @@ body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans
   </div>
   <div class="problem-grid">
     <div class="problem-card">
-      <a class="tg-thumb" href="https://en.wikipedia.org/wiki/Spodoptera_frugiperda" target="_blank" rel="noopener" data-wiki="Spodoptera_frugiperda" title="Open Fall armyworm on Wikipedia">🐛</a>
+      <a class="tg-thumb theme-species" href="https://www.google.com/search?tbm=isch&q=Spodoptera+frugiperda+fall+armyworm+larva+moth" target="_blank" rel="noopener" data-wiki="Spodoptera_frugiperda" aria-label="View images of fall armyworm"><span class="tg-thumb-bg"></span><span class="tg-thumb-emoji">🐛</span><span class="tg-thumb-zoom">🔍 Zoom</span><span class="tg-thumb-caption">Spodoptera frugiperda</span></a>
       <h4>Fall armyworm</h4>
       <p class="scientific">Spodoptera frugiperda</p>
       <p>Pale inverted-Y mark on head capsule. Four prominent dark spots in a square on the 8th abdominal segment. Larva dark to yellow-brown with pale longitudinal stripes. Adult wingspan 32–40 mm; males have a distinct white spot on forewing.</p>
       <span class="tag">Invasive (2020)</span><span class="tag">Grasses + 350 hosts</span><span class="tag">Migratory</span>
     </div>
     <div class="problem-card">
-      <a class="tg-thumb" href="https://en.wikipedia.org/wiki/Mythimna_convecta" target="_blank" rel="noopener" data-wiki="Mythimna_convecta" title="Open Common armyworm on Wikipedia">🪲</a>
+      <a class="tg-thumb theme-species" href="https://www.google.com/search?tbm=isch&q=Mythimna+convecta+common+armyworm+moth" target="_blank" rel="noopener" data-wiki="Mythimna_convecta" aria-label="View images of common armyworm"><span class="tg-thumb-bg"></span><span class="tg-thumb-emoji">🪲</span><span class="tg-thumb-zoom">🔍 Zoom</span><span class="tg-thumb-caption">Mythimna convecta</span></a>
       <h4>Common armyworm</h4>
       <p class="scientific">Mythimna convecta</p>
       <p>Native. No Y-mark, no square of spots. Usually greenish-brown with narrow dorsal stripes. Major pasture pest in winter cereals. Overwinters in southern Australia — populations build slowly compared to FAW.</p>
       <span class="tag">Native</span><span class="tag">Winter cereals</span>
     </div>
     <div class="problem-card">
-      <a class="tg-thumb" href="https://en.wikipedia.org/wiki/Persectania_ewingii" target="_blank" rel="noopener" data-wiki="Persectania_ewingii" title="Open Southern armyworm on Wikipedia">🐛</a>
+      <a class="tg-thumb theme-species" href="https://www.google.com/search?tbm=isch&q=Persectania+ewingii+southern+armyworm" target="_blank" rel="noopener" data-wiki="Persectania_ewingii" aria-label="View images of southern armyworm"><span class="tg-thumb-bg"></span><span class="tg-thumb-emoji">🐛</span><span class="tg-thumb-zoom">🔍 Zoom</span><span class="tg-thumb-caption">Persectania ewingii</span></a>
       <h4>Southern armyworm</h4>
       <p class="scientific">Persectania ewingii</p>
       <p>Native. Darker than common armyworm with a prominent pale dorsal stripe. A cool-climate pasture and cereal pest in VIC, TAS and southern SA/WA. Rarely a problem in summer crops.</p>
       <span class="tag">Native</span><span class="tag">Temperate</span>
     </div>
     <div class="problem-card">
-      <a class="tg-thumb" href="https://en.wikipedia.org/wiki/Spodoptera_litura" target="_blank" rel="noopener" data-wiki="Spodoptera_litura" title="Open Cluster caterpillar on Wikipedia">🪲</a>
+      <a class="tg-thumb theme-species" href="https://www.google.com/search?tbm=isch&q=Spodoptera+litura+cluster+caterpillar+larva" target="_blank" rel="noopener" data-wiki="Spodoptera_litura" aria-label="View images of cluster caterpillar"><span class="tg-thumb-bg"></span><span class="tg-thumb-emoji">🪲</span><span class="tg-thumb-zoom">🔍 Zoom</span><span class="tg-thumb-caption">Spodoptera litura</span></a>
       <h4>Cluster caterpillar</h4>
       <p class="scientific">Spodoptera litura</p>
       <p>Native <em>Spodoptera</em>. Gregarious early instars leave skeletonised patches. No inverted-Y; darker head with a pair of lateral black spots on each segment. Many chemistry groups overlap with FAW but the best treatment windows differ.</p>
       <span class="tag">Native Spodoptera</span><span class="tag">Broadleaves + grasses</span>
     </div>
     <div class="problem-card">
-      <a class="tg-thumb" href="https://en.wikipedia.org/wiki/Helicoverpa_armigera" target="_blank" rel="noopener" data-wiki="Helicoverpa_armigera" title="Open Cotton bollworm on Wikipedia">🐛</a>
+      <a class="tg-thumb theme-species" href="https://www.google.com/search?tbm=isch&q=Helicoverpa+armigera+cotton+bollworm+heliothis+larva" target="_blank" rel="noopener" data-wiki="Helicoverpa_armigera" aria-label="View images of cotton bollworm / heliothis"><span class="tg-thumb-bg"></span><span class="tg-thumb-emoji">🐛</span><span class="tg-thumb-zoom">🔍 Zoom</span><span class="tg-thumb-caption">Helicoverpa armigera</span></a>
       <h4>Cotton bollworm / Heliothis</h4>
       <p class="scientific">Helicoverpa armigera</p>
       <p>Not an armyworm. Larger at maturity, variable colour (green / brown / pink), bores into fruit and reproductive tissue (cobs, heads, bolls). Chemistry overlaps strongly with FAW (Group 28, 5, 22A) but scouting threshold and timing differ.</p>
       <span class="tag">Major crop pest</span><span class="tag">Boring damage</span>
     </div>
     <div class="problem-card">
-      <a class="tg-thumb" href="https://en.wikipedia.org/wiki/Herpetogramma_licarsisalis" target="_blank" rel="noopener" data-wiki="Herpetogramma_licarsisalis" title="Open Lawn armyworm on Wikipedia">🦗</a>
+      <a class="tg-thumb theme-species" href="https://www.google.com/search?tbm=isch&q=Herpetogramma+licarsisalis+lawn+armyworm+sod+webworm" target="_blank" rel="noopener" data-wiki="Herpetogramma_licarsisalis" aria-label="View images of lawn armyworm / sod webworm"><span class="tg-thumb-bg"></span><span class="tg-thumb-emoji">🦗</span><span class="tg-thumb-zoom">🔍 Zoom</span><span class="tg-thumb-caption">Herpetogramma licarsisalis</span></a>
       <h4>Lawn armyworm / sod webworm</h4>
       <p class="scientific">Herpetogramma licarsisalis</p>
       <p>Different species, different family. Small green-brown larvae, web-tunnel feeders in turf. Frequently confused with FAW in lawn settings — FAW adults lay eggs directly on turf blades and damage is chewing, not tunnelling.</p>
@@ -1306,23 +1323,38 @@ window.addEventListener('scroll', function() {
   if (bt) bt.classList.toggle('visible', window.scrollY > 400);
 });
 
-/* Wikipedia thumbnail loader for .tg-thumb elements */
+// Load Wikipedia thumbnails for tiles that have a data-wiki page reference.
+// Falls back silently to the gradient+emoji tile if the fetch fails or no image exists.
 (function() {
   var thumbs = document.querySelectorAll('.tg-thumb[data-wiki]');
   if (!thumbs.length) return;
   thumbs.forEach(function(t) {
-    var title = t.getAttribute('data-wiki');
-    if (!title) return;
-    var url = 'https://en.wikipedia.org/w/api.php?action=query&titles=' + encodeURIComponent(title) +
-              '&prop=pageimages&format=json&pithumbsize=400&origin=*';
-    fetch(url).then(function(r){return r.json();}).then(function(d){
-      var pages = d && d.query && d.query.pages;
-      if (!pages) return;
-      var first = pages[Object.keys(pages)[0]];
-      if (first && first.thumbnail && first.thumbnail.source) {
-        t.innerHTML = '<img src="' + first.thumbnail.source + '" alt="' + title.replace(/_/g,' ') + '" loading="lazy">';
-      }
-    }).catch(function(){});
+    var page = t.getAttribute('data-wiki');
+    if (!page) return;
+    fetch('https://en.wikipedia.org/api/rest_v1/page/summary/' + encodeURIComponent(page))
+      .then(function(r) { return r.ok ? r.json() : null; })
+      .then(function(data) {
+        if (!data) return;
+        var src = (data.thumbnail && data.thumbnail.source) ||
+                  (data.originalimage && data.originalimage.source);
+        if (!src) return;
+        var img = document.createElement('img');
+        img.className = 'tg-thumb-img';
+        img.loading = 'lazy';
+        img.alt = data.title || page;
+        img.src = src;
+        img.onload = function() {
+          img.classList.add('loaded');
+          t.classList.add('has-img');
+        };
+        var bg = t.querySelector('.tg-thumb-bg');
+        if (bg && bg.nextSibling) {
+          t.insertBefore(img, bg.nextSibling);
+        } else {
+          t.appendChild(img);
+        }
+      })
+      .catch(function() { /* silent fail — gradient tile remains */ });
   });
 })();
 </script>
