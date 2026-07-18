@@ -1,8 +1,9 @@
-const CACHE_NAME = 'sprayhub-v218';
+const CACHE_NAME = 'sprayhub-v219';
 
 const ASSETS = [
   './',
   './index.html',
+  './erosion-control-guide.html',
   './lawn-turf-guide.html',
   './termite-control-guide.html',
   './house-fly-control-guide.html',
@@ -311,10 +312,4 @@ self.addEventListener('install', (e) => {
   self.skipWaiting();
 });
 
-self.addEventListener('activate', (e) => {
-  e.waitUntil(
-    caches.keys().then((keys) =>
-      Promise.all(keys.filter((k) => k !== CACHE_NAME).map((k) => caches.delete(k)))
-    ).then(() => self.clients.claim())
-  );
-});
+self.addEventListener('activate
