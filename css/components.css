@@ -1508,7 +1508,7 @@ mark.search-highlight-pest {
   border-bottom: none;
 }
 .autocomplete-item:hover {
-  background: var(--bg-hover, #f1f5f9);
+  background: var(--bg-hover, var(--border, #f1f5f9));
 }
 .autocomplete-item strong {
   color: var(--primary, #6366f1);
@@ -1805,7 +1805,7 @@ mark.search-highlight-pest {
   grid-column: 1 / -1;
   text-align: center;
   padding: 32px 20px;
-  color: var(--text-primary);
+  color: var(--text-main);
 }
 .no-results-icon {
   font-size: 2.2rem;
@@ -1816,7 +1816,7 @@ mark.search-highlight-pest {
   font-size: 1.1rem;
   font-weight: 600;
   margin-bottom: 8px;
-  color: var(--text-primary);
+  color: var(--text-main);
 }
 .no-results-explanation {
   font-size: 0.88rem;
@@ -2581,7 +2581,7 @@ mark.search-highlight-pest {
 }
 
 .agro-toggle-btn:hover {
-  background: var(--surface-hover);
+  background: var(--surface-hover, var(--border, #e2e8f0));
   border-color: var(--primary);
   color: var(--primary);
 }
@@ -2751,7 +2751,7 @@ mark.search-highlight-pest {
 }
 
 .app-footer-link {
-  background: var(--bg-card, #f1f5f9);
+  background: var(--card-bg, #f1f5f9);
   border: 1px solid var(--border, #e2e8f0);
   border-radius: 8px;
   padding: 6px 14px;
@@ -2781,7 +2781,7 @@ mark.search-highlight-pest {
   width: 44px;
   height: 44px;
   background: var(--card-bg);
-  color: var(--text-primary);
+  color: var(--text-main);
   border: 2px solid var(--border);
   border-radius: 50%;
   font-size: 1.1rem;
@@ -3132,7 +3132,7 @@ mark.search-highlight-pest {
 .permit-detail-number {
   font-weight: 600;
   font-size: 0.85rem;
-  color: var(--text-primary);
+  color: var(--text-main);
 }
 .permit-detail-pill {
   display: inline-flex;
@@ -3183,7 +3183,7 @@ mark.search-highlight-pest {
 .permit-detail-row {
   font-size: 0.82rem;
   line-height: 1.4;
-  color: var(--text-primary);
+  color: var(--text-main);
 }
 .permit-detail-label {
   font-weight: 600;
@@ -3191,7 +3191,7 @@ mark.search-highlight-pest {
   margin-right: 4px;
 }
 .permit-detail-value {
-  color: var(--text-primary);
+  color: var(--text-main);
 }
 [data-theme="dark"] .permit-detail-card {
   background: rgba(245, 158, 11, 0.08);
@@ -3404,7 +3404,7 @@ mark.search-highlight-pest {
   border-radius: 50%;
   object-fit: cover;
   flex-shrink: 0;
-  background: var(--bg-card, #f1f5f9);
+  background: var(--card-bg, #f1f5f9);
   border: 1.5px solid var(--border, #e2e8f0);
   cursor: pointer;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -3930,7 +3930,7 @@ mark.search-highlight-pest {
 .weed-card-title {
   font-size: 1rem;
   font-weight: 700;
-  color: var(--text, #1e293b);
+  color: var(--text-main, #1e293b);
 }
 .weed-card-badges {
   display: flex;
@@ -3950,7 +3950,7 @@ mark.search-highlight-pest {
   line-height: 1.4;
 }
 .weed-synonyms strong {
-  color: var(--text, #1e293b);
+  color: var(--text-main, #1e293b);
 }
 
 /* Badges */
@@ -3980,7 +3980,7 @@ mark.search-highlight-pest {
   line-height: 1.5;
 }
 .weed-meta-row strong {
-  color: var(--text, #1e293b);
+  color: var(--text-main, #1e293b);
   margin-right: 4px;
 }
 
@@ -4187,7 +4187,7 @@ mark.search-highlight-pest {
 .weed-products-label {
   font-size: 0.78rem;
   font-weight: 700;
-  color: var(--text, #1e293b);
+  color: var(--text-main, #1e293b);
   margin-bottom: 6px;
 }
 .weed-products-count {
@@ -4264,7 +4264,7 @@ mark.search-highlight-pest {
 .pest-filter-label {
   font-size: 0.8rem;
   font-weight: 700;
-  color: var(--text, #1e293b);
+  color: var(--text-main, #1e293b);
   margin-bottom: 6px;
 }
 .pest-pill-row {
@@ -4362,7 +4362,7 @@ mark.search-highlight-pest {
 .pest-card-title {
   font-size: 1rem;
   font-weight: 700;
-  color: var(--text, #1e293b);
+  color: var(--text-main, #1e293b);
 }
 .pest-card-badges {
   display: flex;
@@ -4406,7 +4406,7 @@ mark.search-highlight-pest {
   line-height: 1.5;
 }
 .pest-meta-row strong {
-  color: var(--text, #1e293b);
+  color: var(--text-main, #1e293b);
   margin-right: 4px;
 }
 
@@ -4478,7 +4478,7 @@ mark.search-highlight-pest {
 .pest-products-label {
   font-size: 0.78rem;
   font-weight: 700;
-  color: var(--text, #1e293b);
+  color: var(--text-main, #1e293b);
   margin-bottom: 6px;
 }
 .pest-products-count {
@@ -4564,7 +4564,7 @@ mark.search-highlight-pest {
 
 .disease-filter-section { margin-top: 12px; }
 .disease-filter-label {
-  font-size: 0.8rem; font-weight: 700; color: var(--text, #1e293b); margin-bottom: 6px;
+  font-size: 0.8rem; font-weight: 700; color: var(--text-main, #1e293b); margin-bottom: 6px;
 }
 .disease-pill-row { display: flex; flex-wrap: wrap; gap: 5px; }
 .disease-pill {
@@ -4605,7 +4605,7 @@ mark.search-highlight-pest {
   display: flex; justify-content: space-between; align-items: flex-start;
   gap: 8px; flex-wrap: wrap;
 }
-.disease-card-title { font-size: 1rem; font-weight: 700; color: var(--text, #1e293b); }
+.disease-card-title { font-size: 1rem; font-weight: 700; color: var(--text-main, #1e293b); }
 .disease-card-badges { display: flex; gap: 5px; flex-wrap: wrap; }
 .disease-sci-name {
   font-style: italic; font-size: 0.82rem; color: var(--text-sub, #64748b); margin-top: 2px;
@@ -4620,7 +4620,7 @@ mark.search-highlight-pest {
 .disease-meta-row {
   font-size: 0.8rem; color: var(--text-sub, #64748b); margin-top: 6px; line-height: 1.5;
 }
-.disease-meta-row strong { color: var(--text, #1e293b); margin-right: 4px; }
+.disease-meta-row strong { color: var(--text-main, #1e293b); margin-right: 4px; }
 
 .disease-crop-chip {
   display: inline-flex; padding: 1px 8px; border-radius: 10px;
@@ -4647,7 +4647,7 @@ mark.search-highlight-pest {
 .disease-products-section {
   margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--border, #e2e8f0);
 }
-.disease-products-label { font-size: 0.78rem; font-weight: 700; color: var(--text, #1e293b); margin-bottom: 6px; }
+.disease-products-label { font-size: 0.78rem; font-weight: 700; color: var(--text-main, #1e293b); margin-bottom: 6px; }
 .disease-products-count {
   background: #0284c7; color: #fff; padding: 1px 6px; border-radius: 8px;
   font-size: 0.68rem; margin-left: 4px;
@@ -5555,7 +5555,7 @@ mark.search-highlight-pest {
 .ala-card-title {
   font-weight: 700;
   font-size: 1rem;
-  color: var(--text, #1e293b);
+  color: var(--text-main, #1e293b);
   margin-bottom: 2px;
 }
 .ala-card-sci {
