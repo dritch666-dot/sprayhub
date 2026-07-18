@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guides — Spray Hub | Australian Agronomy Control Guides</title>
+<meta name="description" content="Spray Hub control guides — pest, weed, disease and agronomy how-to references for Australian conditions. Termite, cockroach, mosquito, fruit fly, house fly, fall armyworm, weed resistance, lawn & turf, erosion control and more.">
+<link rel="canonical" href="https://sprayhub.com.au/guides.html">
+<meta name="theme-color" content="#16a34a">
+<style>
+:root{--primary:#16a34a;--primary-dark:#15803d;--primary-light:#dcfce7;--bg:#f8fafc;--card:#fff;--text:#1e293b;--sub:#64748b;--border:#e2e8f0;--shadow:0 2px 10px rgba(0,0,0,.06);}
+[data-theme="dark"]{--primary:#4ade80;--primary-dark:#16a34a;--primary-light:rgba(22,163,74,.18);--bg:#0f172a;--card:#1e293b;--text:#f1f5f9;--sub:#94a3b8;--border:#334155;}
+*{box-sizing:border-box;margin:0;padding:0;font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;}
+body{background:var(--bg);color:var(--text);line-height:1.5;min-height:100vh;}
+[data-theme="dark"] body{background:linear-gradient(135deg,#0f172a,#1e293b);}
+.topbar{position:sticky;top:0;z-index:10;display:flex;align-items:center;gap:12px;background:linear-gradient(90deg,#166534,#16a34a,#15803d);color:#fff;padding:0 18px;height:46px;box-shadow:0 1px 4px rgba(0,0,0,.15);}
+.topbar .logo{font-size:1.25rem;}
+.topbar .ttl{font-weight:700;font-size:.98rem;}
+.topbar .back{margin-left:auto;color:#fff;text-decoration:none;font-size:.82rem;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.28);padding:6px 12px;border-radius:7px;}
+.topbar .back:hover{background:rgba(255,255,255,.28);}
+.theme{background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.28);color:#fff;width:32px;height:32px;border-radius:50%;cursor:pointer;font-size:.95rem;}
+.wrap{max-width:1000px;margin:0 auto;padding:26px 18px 60px;}
+.head{margin-bottom:18px;}
+.head h1{font-size:1.7rem;color:var(--primary-dark);margin-bottom:4px;}
+[data-theme="dark"] .head h1{color:#4ade80;}
+.head p{color:var(--sub);font-size:.95rem;}
+.search{width:100%;padding:12px 16px;font-size:.95rem;border:1px solid var(--border);border-radius:10px;margin:16px 0 22px;background:var(--card);color:var(--text);}
+.search:focus{outline:none;border-color:var(--primary);box-shadow:0 0 0 3px rgba(22,163,74,.15);}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px;}
+.card{display:block;text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--border);border-radius:14px;padding:18px;box-shadow:var(--shadow);transition:transform .13s,box-shadow .13s,border-color .13s;}
+.card:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(0,0,0,.12);border-color:var(--primary);}
+.card .em{font-size:2rem;display:block;margin-bottom:8px;}
+.card h3{font-size:1.02rem;color:var(--primary-dark);margin-bottom:4px;}
+[data-theme="dark"] .card h3{color:#4ade80;}
+.card p{font-size:.82rem;color:var(--sub);}
+.tag{display:inline-block;font-size:.66rem;font-weight:700;text-transform:uppercase;letter-spacing:.03em;padding:2px 8px;border-radius:10px;margin-top:10px;background:var(--primary-light);color:var(--primary-dark);}
+[data-theme="dark"] .tag{color:#86efac;}
+.empty{color:var(--sub);text-align:center;padding:30px;display:none;}
+footer{border-top:1px solid var(--border);text-align:center;color:var(--sub);font-size:.8rem;padding:18px;}
+</style>
+</head>
+<body>
+<header class="topbar">
+  <span class="logo">🧭</span>
+  <span class="ttl">Spray Hub · Guides</span>
+  <a class="back" href="index.html">← Back to Label Search</a>
+  <button class="theme" onclick="document.body.dataset.theme=document.body.dataset.theme==='dark'?'':'dark';this.textContent=document.body.dataset.theme==='dark'?'☀️':'🌙';" aria-label="Toggle theme">🌙</button>
+</header>
+<div class="wrap">
+  <div class="head">
+    <h1>📖 Control Guides</h1>
+    <p>Practical, Australian-conditions how-to references for pests, weeds, diseases and agronomy topics. Every guide links back to matching products in Spray Hub.</p>
+  </div>
+  <input class="search" id="q" placeholder="🔍 Search guides — e.g. termite, weed, erosion, mosquito…" oninput="filterGuides()">
+  <div class="grid" id="grid">
+    <a class="card" href="erosion-control-guide.html" data-k="erosion slope soil native plants revegetation"><span class="em">⛰️</span><h3>Erosion Control</h3><p>Slope stabilisation with Australian native plants — matting, zoned species, planting.</p><span class="tag">Agronomy</span></a>
+    <a class="card" href="weed-resistance-guide.html" data-k="weed resistance hrac herbicide rotation ryegrass"><span class="em">🌾</span><h3>Weed Resistance &amp; HRAC</h3><p>HRAC group rotation, double-knock, IWM and the WeedSmart Big 6.</p><span class="tag">Weeds</span></a>
+    <a class="card" href="lawn-turf-guide.html" data-k="lawn turf grass mowing fertiliser buffalo couch kikuyu"><span class="em">🌿</span><h3>Lawn &amp; Turf Care</h3><p>Grass types by climate zone, weed control, feeding and renovation.</p><span class="tag">Agronomy</span></a>
+    <a class="card" href="vegetable-garden-pest-disease-guide.html" data-k="vegetable garden veggie home pests diseases"><span class="em">🥬</span><h3>Veggie Garden</h3><p>Home &amp; small-plot pest and disease identification and control.</p><span class="tag">Home</span></a>
+    <a class="card" href="fall-armyworm-management-guide.html" data-k="fall armyworm faw maize sorghum corn caterpillar irac"><span class="em">🐛</span><h3>Fall Armyworm (FAW)</h3><p>Scouting, thresholds, IRAC-group rotation and biological options.</p><span class="tag">Pests</span></a>
+    <a class="card" href="fruit-fly-control-guide.html" data-k="fruit fly qff mediterranean traps baiting cover spray"><span class="em">🍊</span><h3>Fruit Fly Control</h3><p>Monitoring, protein baiting, cover sprays and area-wide management.</p><span class="tag">Pests</span></a>
+    <a class="card" href="mosquito-control-guide.html" data-k="mosquito larvae breeding water larvicide arbovirus"><span class="em">🦟</span><h3>Mosquito Control</h3><p>Breeding-site source reduction, larvicides and adult control.</p><span class="tag">Pests</span></a>
+    <a class="card" href="cockroach-control-guide.html" data-k="cockroach german american roach baits ipm sanitation"><span class="em">🪳</span><h3>Cockroach Control</h3><p>Species ID, lifecycle, IPM, baits and residual chemistry.</p><span class="tag">Pests</span></a>
+    <a class="card" href="termite-control-guide.html" data-k="termite white ant barrier baiting chemistry species"><span class="em">🛡️</span><h3>Termite Control</h3><p>Species, lifecycle, barriers, baiting systems and chemistry.</p><span class="tag">Pests</span></a>
+    <a class="card" href="house-fly-control-guide.html" data-k="house fly musca larvae baits sanitation space spray"><span class="em">🪰</span><h3>House Fly Control</h3><p>Lifecycle, sanitation, baits, residual and space treatments.</p><span class="tag">Pests</span></a>
+  </div>
+  <div class="empty" id="empty">No guides match that search.</div>
+</div>
+<footer>🧭 Spray Hub Guides · <a href="index.html" style="color:var(--primary-dark)">Product Label Search</a> · © 2026 Always read the label.</footer>
+<script>
+try{ if(window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches){document.body.dataset.theme='dark';document.querySelector('.theme').textContent='☀️';} }catch(e){}
+function filterGuides(){
+  var q=document.getElementById('q').value.toLowerCase().trim(),n=0;
+  document.querySelectorAll('#grid .card').forEach(function(c){
+    var hit=(c.textContent+' '+(c.dataset.k||'')).toLowerCase().indexOf(q)>-1;
+    c.style.display=hit?'':'none'; if(hit)n++;
+  });
+  document.getElementById('empty').style.display=n?'none':'block';
+}
+</script>
+</body>
+</html>

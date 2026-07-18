@@ -288,48 +288,23 @@
         <span class="sidebar-icon">🦠</span> Diseases
         <span class="sidebar-count" id="sidebar-diseases">-</span>
       </button>
-      <div class="sidebar-group-label">GUIDES</div>
-            <a class="sidebar-item" href="vegetable-garden-pest-disease-guide.html" style="text-decoration:none; color:inherit;">
-              <span class="sidebar-icon">🥬</span> Veggie Garden Guide
-            </a>
-            <a class="sidebar-item" href="fall-armyworm-management-guide.html" style="text-decoration:none; color:inherit;">
-              <span class="sidebar-icon">🐛</span> Fall Armyworm (FAW)
-            </a>
-            <a class="sidebar-item" href="weed-resistance-guide.html" style="text-decoration:none; color:inherit;">
-              <span class="sidebar-icon">🌾</span> Weed Resistance & HRAC
-            </a>
-            <a class="sidebar-item" href="fruit-fly-control-guide.html" style="text-decoration:none; color:inherit;">
-              <span class="sidebar-icon">🍊</span> Fruit Fly Control
-            </a>
-            <a class="sidebar-item" href="mosquito-control-guide.html" style="text-decoration:none; color:inherit;">
-              <span class="sidebar-icon">🦟</span> Mosquito Control
-            </a>
-            <a class="sidebar-item" href="cockroach-control-guide.html" style="text-decoration:none; color:inherit;">
-              <span class="sidebar-icon">🪳</span> Cockroach Control
-            </a>
-      <a class="sidebar-item" href="erosion-control-guide.html" style="text-decoration:none; color:inherit;">
-        <span class="sidebar-icon">⛰️</span> Erosion Control
+      <div class="sidebar-group-label">REFERENCE &amp; DATA</div>
+      <a class="sidebar-item" href="guides.html" style="text-decoration:none; color:inherit;">
+        <span class="sidebar-icon">📖</span> Guides
       </a>
-      <a class="sidebar-item" href="lawn-turf-guide.html" style="text-decoration:none; color:inherit;">
-        <span class="sidebar-icon">🌿</span> Lawn & Turf Care
-      </a>
-      <a class="sidebar-item" href="termite-control-guide.html" style="text-decoration:none; color:inherit;">
-        <span class="sidebar-icon">🛡️</span> Termite Control
-      </a>
-      <a class="sidebar-item" href="house-fly-control-guide.html" style="text-decoration:none; color:inherit;">
-        <span class="sidebar-icon">🪰</span> House Fly Control
-      </a>
-      <div class="sidebar-group-label">REGISTRIES</div>
-      <button class="sidebar-item" data-section="apvma" onclick="switchAgriSubTab('apvma')">
-        <span class="sidebar-icon">🏛️</span> APVMA Registry
-      </button>
-      <button class="sidebar-item" data-section="sds" onclick="switchAgriSubTab('sds')">
-        <span class="sidebar-icon">🛡️</span> SDS Database
-      </button>
-      <button class="sidebar-item" data-section="permits" onclick="switchAgriSubTab('permits')">
-        <span class="sidebar-icon">📋</span> Permits
-      </button>
-      <div class="sidebar-group-label sidebar-collapsible" onclick="toggleSidebarGroup(this)">CALCULATORS <span class="sidebar-chevron">▸</span></div>
+      <div class="sidebar-group-label sidebar-collapsible" onclick="toggleSidebarGroup(this)">REGISTRIES <span class="sidebar-chevron">▸</span></div>
+      <div class="sidebar-group-items" style="display:none;">
+        <button class="sidebar-item" data-section="apvma" onclick="switchAgriSubTab('apvma')">
+          <span class="sidebar-icon">🏛️</span> APVMA Registry
+        </button>
+        <button class="sidebar-item" data-section="sds" onclick="switchAgriSubTab('sds')">
+          <span class="sidebar-icon">🛡️</span> SDS Database
+        </button>
+        <button class="sidebar-item" data-section="permits" onclick="switchAgriSubTab('permits')">
+          <span class="sidebar-icon">📋</span> Permits
+        </button>
+      </div>
+      <div class="sidebar-group-label sidebar-collapsible" onclick="toggleSidebarGroup(this)">CALCULATORS &amp; TOOLS <span class="sidebar-chevron">▸</span></div>
       <div class="sidebar-group-items" style="display:none;">
         <button class="sidebar-item" data-section="tank" onclick="switchAgriSubTab('tank')">
           <span class="sidebar-icon">🚜</span> Tank Mix
@@ -340,9 +315,6 @@
         <button class="sidebar-item" data-section="container" onclick="switchAgriSubTab('container')">
           <span class="sidebar-icon">📦</span> Container Coverage
         </button>
-      </div>
-      <div class="sidebar-group-label sidebar-collapsible" onclick="toggleSidebarGroup(this)">TOOLS <span class="sidebar-chevron">▸</span></div>
-      <div class="sidebar-group-items" style="display:none;">
         <button class="sidebar-item sidebar-tool" onclick="openPanel('units')">
           <span class="sidebar-icon">📏</span> Unit Converter
         </button>
@@ -433,28 +405,7 @@
             <button class="tools-menu-item" onclick="switchAgriSubTab('pests'); closeIdMenu();">🐛 Pests & Insects</button>
             <button class="tools-menu-item" onclick="switchAgriSubTab('diseases'); closeIdMenu();">🦠 Diseases</button>
             <div style="border-top:1px solid rgba(255,255,255,0.15); margin:4px 0;"></div>
-            <a class="tools-menu-item" href="erosion-control-guide.html" style="text-decoration:none; color:inherit; display:flex; align-items:center;">⛰️ Erosion Control Guide</a>
-            <a class="tools-menu-item" href="lawn-turf-guide.html" style="text-decoration:none; color:inherit; display:flex; align-items:center;">🌿 Lawn & Turf Guide</a>
-            <a class="tools-menu-item" href="termite-control-guide.html" style="text-decoration:none; color:inherit; display:flex; align-items:center;">🛡️ Termite Control Guide</a>
-            <a class="tools-menu-item" href="house-fly-control-guide.html" style="text-decoration:none; color:inherit; display:flex; align-items:center;">🪰 House Fly Control Guide</a>
-        <a class="tools-menu-item" href="vegetable-garden-pest-disease-guide.html" style="text-decoration:none; color:inherit;">
-          🥬 Veggie Garden Guide Guide
-        </a>
-        <a class="tools-menu-item" href="fall-armyworm-management-guide.html" style="text-decoration:none; color:inherit;">
-          🐛 Fall Armyworm (FAW) Guide
-        </a>
-        <a class="tools-menu-item" href="weed-resistance-guide.html" style="text-decoration:none; color:inherit;">
-          🌾 Weed Resistance & HRAC Guide
-        </a>
-        <a class="tools-menu-item" href="fruit-fly-control-guide.html" style="text-decoration:none; color:inherit;">
-          🍊 Fruit Fly Control Guide
-        </a>
-        <a class="tools-menu-item" href="mosquito-control-guide.html" style="text-decoration:none; color:inherit;">
-          🦟 Mosquito Control Guide
-        </a>
-        <a class="tools-menu-item" href="cockroach-control-guide.html" style="text-decoration:none; color:inherit;">
-          🪳 Cockroach Control Guide
-        </a>
+            <a class="tools-menu-item" href="guides.html" style="text-decoration:none; color:inherit; display:flex; align-items:center;">📖 All Guides</a>
           </div>
         </div>
         <div class="nav-divider"></div>
@@ -1793,16 +1744,7 @@
     <button onclick="openPanel('calc');mobNavCloseAll();">🔢 Calculator</button>
     <button onclick="openPanel('history');mobNavCloseAll();">📜 History</button>
     <div class="mob-sub-sep"></div>
-    <a href="erosion-control-guide.html" style="text-decoration:none;color:inherit;">⛰️ Erosion Control Guide</a>
-    <a href="lawn-turf-guide.html" style="text-decoration:none;color:inherit;">🌿 Lawn & Turf Guide</a>
-    <a href="termite-control-guide.html" style="text-decoration:none;color:inherit;">🛡️ Termite Control Guide</a>
-    <a href="house-fly-control-guide.html" style="text-decoration:none;color:inherit;">🪰 House Fly Control Guide</a>
-    <a href="vegetable-garden-pest-disease-guide.html" style="text-decoration:none;color:inherit;">🥬 Veggie Garden Guide Guide</a>
-    <a href="fall-armyworm-management-guide.html" style="text-decoration:none;color:inherit;">🐛 Fall Armyworm (FAW) Guide</a>
-    <a href="weed-resistance-guide.html" style="text-decoration:none;color:inherit;">🌾 Weed Resistance & HRAC Guide</a>
-    <a href="fruit-fly-control-guide.html" style="text-decoration:none;color:inherit;">🍊 Fruit Fly Control Guide</a>
-    <a href="mosquito-control-guide.html" style="text-decoration:none;color:inherit;">🦟 Mosquito Control Guide</a>
-    <a href="cockroach-control-guide.html" style="text-decoration:none;color:inherit;">🪳 Cockroach Control Guide</a>
+    <a href="guides.html" style="text-decoration:none;color:inherit;">📖 All Guides</a>
     <div class="mob-sub-sep"></div>
     <button onclick="openPanel('about');mobNavCloseAll();">ℹ️ About</button>
     <button onclick="openPanel('contact');mobNavCloseAll();">📧 Contact</button>
