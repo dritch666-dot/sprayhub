@@ -292,42 +292,12 @@
       <a class="sidebar-item" href="guides.html" style="text-decoration:none; color:inherit;">
         <span class="sidebar-icon">📖</span> Guides
       </a>
-      <div class="sidebar-group-label sidebar-collapsible" onclick="toggleSidebarGroup(this)">REGISTRIES <span class="sidebar-chevron">▸</span></div>
-      <div class="sidebar-group-items" style="display:none;">
-        <button class="sidebar-item" data-section="apvma" onclick="switchAgriSubTab('apvma')">
-          <span class="sidebar-icon">🏛️</span> APVMA Registry
-        </button>
-        <button class="sidebar-item" data-section="sds" onclick="switchAgriSubTab('sds')">
-          <span class="sidebar-icon">🛡️</span> SDS Database
-        </button>
-        <button class="sidebar-item" data-section="permits" onclick="switchAgriSubTab('permits')">
-          <span class="sidebar-icon">📋</span> Permits
-        </button>
-      </div>
-      <div class="sidebar-group-label sidebar-collapsible" onclick="toggleSidebarGroup(this)">CALCULATORS &amp; TOOLS <span class="sidebar-chevron">▸</span></div>
-      <div class="sidebar-group-items" style="display:none;">
-        <button class="sidebar-item" data-section="tank" onclick="switchAgriSubTab('tank')">
-          <span class="sidebar-icon">🚜</span> Tank Mix
-        </button>
-        <button class="sidebar-item" data-section="cost" onclick="switchAgriSubTab('cost')">
-          <span class="sidebar-icon">💰</span> Cost Compare
-        </button>
-        <button class="sidebar-item" data-section="container" onclick="switchAgriSubTab('container')">
-          <span class="sidebar-icon">📦</span> Container Coverage
-        </button>
-        <button class="sidebar-item sidebar-tool" onclick="openPanel('units')">
-          <span class="sidebar-icon">📏</span> Unit Converter
-        </button>
-        <button class="sidebar-item sidebar-tool" onclick="openPanel('finance')">
-          <span class="sidebar-icon">💸</span> Finance / GST
-        </button>
-        <button class="sidebar-item sidebar-tool" onclick="openPanel('calc')">
-          <span class="sidebar-icon">🔢</span> Calculator
-        </button>
-        <button class="sidebar-item sidebar-tool" onclick="openPanel('history')">
-          <span class="sidebar-icon">📜</span> History
-        </button>
-      </div>
+      <button class="sidebar-item" id="sb-registries" onclick="showReferenceHub('registries')">
+        <span class="sidebar-icon">🏛️</span> Registries
+      </button>
+      <button class="sidebar-item" id="sb-tools" onclick="showReferenceHub('tools')">
+        <span class="sidebar-icon">🧮</span> Calculators &amp; Tools
+      </button>
     </nav>
     <div class="sidebar-footer">
       <div class="sidebar-stats" id="sidebar-stats">-</div>
@@ -438,6 +408,50 @@
 
     <!-- Ag Tool Content Area -->
     <div class="agri-content-area">
+
+      <!-- ===== Reference & Data hubs (Registries, Calculators & Tools) ===== -->
+      <style>
+        .refhub-wrap{max-width:1000px;margin:0 auto;padding:6px 2px 40px;}
+        .refhub-head h1{font-size:1.5rem;color:#15803d;margin:0 0 4px;display:flex;align-items:center;gap:10px;}
+        .refhub-head p{color:var(--text-sub);font-size:.92rem;margin:0 0 18px;max-width:70ch;line-height:1.5;}
+        .refhub-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px;}
+        .refhub-card{display:flex;flex-direction:column;align-items:flex-start;text-align:left;background:var(--card-bg);border:1px solid var(--border);border-radius:14px;padding:18px;cursor:pointer;font:inherit;color:var(--text-main);width:100%;transition:transform .13s,box-shadow .13s,border-color .13s;box-shadow:0 2px 10px rgba(0,0,0,.06);}
+        .refhub-card:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(0,0,0,.12);border-color:#16a34a;}
+        .refhub-em{font-size:1.9rem;line-height:1;margin-bottom:8px;}
+        .refhub-title{font-size:1rem;font-weight:700;color:#15803d;}
+        .refhub-desc{font-size:.82rem;color:var(--text-sub);line-height:1.45;margin-top:4px;}
+        .refhub-tag{margin-top:12px;font-size:.64rem;font-weight:700;text-transform:uppercase;letter-spacing:.03em;padding:2px 8px;border-radius:10px;background:#dcfce7;color:#15803d;}
+        [data-theme="dark"] .refhub-head h1,[data-theme="dark"] .refhub-title{color:#4ade80;}
+        [data-theme="dark"] .refhub-tag{background:rgba(22,163,74,.18);color:#86efac;}
+        [data-theme="dark"] .refhub-card:hover{border-color:#4ade80;}
+      </style>
+
+      <div id="agri-registries-hub" class="hidden">
+        <div class="refhub-wrap">
+          <div class="refhub-head"><h1>🏛️ Registries</h1><p>Official Australian ag-chem reference data — product registrations, safety sheets and permits, all in one place.</p></div>
+          <div class="refhub-grid">
+            <button class="refhub-card" onclick="switchAgriSubTab('apvma')"><span class="refhub-em">🏛️</span><span class="refhub-title">APVMA Registry</span><span class="refhub-desc">Search registered agricultural chemical products by name, active constituent or company.</span><span class="refhub-tag">Registry</span></button>
+            <button class="refhub-card" onclick="switchAgriSubTab('sds')"><span class="refhub-em">🛡️</span><span class="refhub-title">SDS Database</span><span class="refhub-desc">Safety Data Sheets — hazards, safe handling, first aid and disposal information.</span><span class="refhub-tag">Safety</span></button>
+            <button class="refhub-card" onclick="switchAgriSubTab('permits')"><span class="refhub-em">📋</span><span class="refhub-title">Permits</span><span class="refhub-desc">APVMA minor-use &amp; emergency permits (PER numbers) with crop and situation detail.</span><span class="refhub-tag">Registry</span></button>
+          </div>
+        </div>
+      </div>
+
+      <div id="agri-tools-hub" class="hidden">
+        <div class="refhub-wrap">
+          <div class="refhub-head"><h1>🧮 Calculators &amp; Tools</h1><p>Everyday spray-job maths and handy utilities — rates, costs, coverage, conversions and more.</p></div>
+          <div class="refhub-grid">
+            <button class="refhub-card" onclick="switchAgriSubTab('tank')"><span class="refhub-em">🚜</span><span class="refhub-title">Tank Mix</span><span class="refhub-desc">Batch product rates to your tank size and water volume.</span><span class="refhub-tag">Calculator</span></button>
+            <button class="refhub-card" onclick="switchAgriSubTab('cost')"><span class="refhub-em">💰</span><span class="refhub-title">Cost Compare</span><span class="refhub-desc">Compare product cost per hectare across options and pack sizes.</span><span class="refhub-tag">Calculator</span></button>
+            <button class="refhub-card" onclick="switchAgriSubTab('container')"><span class="refhub-em">📦</span><span class="refhub-title">Container Coverage</span><span class="refhub-desc">Work out how much area a container will treat.</span><span class="refhub-tag">Calculator</span></button>
+            <button class="refhub-card" onclick="openPanel('units')"><span class="refhub-em">📏</span><span class="refhub-title">Unit Converter</span><span class="refhub-desc">Convert rates, areas, volumes and weights.</span><span class="refhub-tag">Tool</span></button>
+            <button class="refhub-card" onclick="openPanel('finance')"><span class="refhub-em">💸</span><span class="refhub-title">Finance / GST</span><span class="refhub-desc">Quick GST and finance calculations.</span><span class="refhub-tag">Tool</span></button>
+            <button class="refhub-card" onclick="openPanel('calc')"><span class="refhub-em">🔢</span><span class="refhub-title">Calculator</span><span class="refhub-desc">General-purpose calculator.</span><span class="refhub-tag">Tool</span></button>
+            <button class="refhub-card" onclick="openPanel('history')"><span class="refhub-em">📜</span><span class="refhub-title">History</span><span class="refhub-desc">Your recent searches and calculations.</span><span class="refhub-tag">Tool</span></button>
+          </div>
+        </div>
+      </div>
+
 
       <!-- Tank Mix -->
       <div id="agri-tank" class="hidden">
@@ -1641,6 +1655,35 @@
         window.scrollTo(0, 0);
       };
     })();
+
+    // ===== Reference & Data hubs (Registries, Calculators & Tools) =====
+    window.showReferenceHub = function(which){
+      // hide every content section in the ag content area
+      document.querySelectorAll('.agri-content-area > [id^="agri-"]').forEach(function(s){ s.classList.add('hidden'); s.style.display=''; });
+      var hub = document.getElementById('agri-' + which + '-hub');
+      if (hub) hub.classList.remove('hidden');
+      // sidebar active state: clear all, mark this hub link
+      document.querySelectorAll('.desktop-sidebar .sidebar-item').forEach(function(i){ i.classList.remove('active'); });
+      var link = document.getElementById(which === 'registries' ? 'sb-registries' : 'sb-tools');
+      if (link) link.classList.add('active');
+      var m = document.getElementById('desktop-main'); if (m) m.scrollTop = 0; window.scrollTo(0, 0);
+    };
+    // Outermost switchAgriSubTab wrapper — installed after all deferred scripts so the
+    // reference hubs hide whenever any section is shown, and hub-owned tabs keep the
+    // correct sidebar link highlighted.
+    document.addEventListener('DOMContentLoaded', function(){
+      var prev = window.switchAgriSubTab;
+      window.switchAgriSubTab = function(tab){
+        var rh = document.getElementById('agri-registries-hub'); if (rh) rh.classList.add('hidden');
+        var th = document.getElementById('agri-tools-hub'); if (th) th.classList.add('hidden');
+        var out = prev ? prev.apply(this, arguments) : undefined;
+        var sbr = document.getElementById('sb-registries'); if (sbr) sbr.classList.remove('active');
+        var sbt = document.getElementById('sb-tools'); if (sbt) sbt.classList.remove('active');
+        if (['apvma','sds','permits'].indexOf(tab) > -1) { if (sbr) sbr.classList.add('active'); }
+        else if (['tank','cost','container'].indexOf(tab) > -1) { if (sbt) sbt.classList.add('active'); }
+        return out;
+      };
+    });
 
     // Collapsible sidebar groups
     function toggleSidebarGroup(label) {
