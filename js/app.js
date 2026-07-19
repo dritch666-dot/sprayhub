@@ -183,6 +183,7 @@ function openPanel(panel) {
     }
 
     if (panel === 'history') renderHistoryFull();
+    if (panel === 'finance' && typeof setGstMode === 'function') setGstMode(gstMode);
 }
 
 function closePanel() {
@@ -192,11 +193,17 @@ function closePanel() {
     }
 }
 
+var _modalDownOnOverlay = false;
+function modalMouseDown(e) {
+    _modalDownOnOverlay = !!(e.target && e.target.id === 'modal-overlay');
+}
 function closeModalOnBackdrop(e) {
-    // If the click is precisely on the dark background (not inside the modal content box)
-    if (e.target.id === 'modal-overlay') {
+    // Only close when the press STARTED and ended on the dark backdrop itself.
+    // Stops the modal closing when the user drags from inside onto the backdrop.
+    if (e.target.id === 'modal-overlay' && _modalDownOnOverlay) {
         closePanel();
     }
+    _modalDownOnOverlay = false;
 }
 
 // Keyboard Support

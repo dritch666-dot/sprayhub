@@ -945,9 +945,21 @@ let gstMode = 'add';
 
 function setGstMode(mode) {
   gstMode = mode;
-  document.getElementById('gst-add-btn').style.background = mode === 'add' ? 'var(--card-bg)' : 'var(--bg)';
-  document.getElementById('gst-remove-btn').style.background = mode === 'remove' ? 'var(--card-bg)' : 'var(--bg)';
+  styleGstButtons();
   calculateGST();
+}
+
+function styleGstButtons() {
+  function paint(btn, active) {
+    if (!btn) return;
+    btn.style.background = active ? 'var(--finance-gold)' : 'transparent';
+    btn.style.color = active ? '#1e293b' : 'var(--text-sub)';
+    btn.style.borderColor = active ? 'var(--finance-gold)' : 'var(--border)';
+    btn.style.fontWeight = active ? '800' : '600';
+    btn.style.boxShadow = active ? '0 2px 8px rgba(245,158,11,.35)' : 'none';
+  }
+  paint(document.getElementById('gst-add-btn'), gstMode === 'add');
+  paint(document.getElementById('gst-remove-btn'), gstMode === 'remove');
 }
 
 function calculateGST() {
@@ -965,11 +977,10 @@ function calculateGST() {
 }
 
 function quickGST(mode) {
-  gstMode = mode;
   openPanel('finance');
-  document.getElementById('gst-add-btn').style.background = mode === 'add' ? 'var(--card-bg)' : 'var(--bg)';
-  document.getElementById('gst-remove-btn').style.background = mode === 'remove' ? 'var(--card-bg)' : 'var(--bg)';
-  document.getElementById('gst-amount').focus();
+  setGstMode(mode);
+  const amt = document.getElementById('gst-amount');
+  if (amt) amt.focus();
 }
 
 function calculatePct() {
@@ -1007,12 +1018,38 @@ function deleteChar() {
   updateCalc();
 }
 
+// Percent-aware evaluation: for + and - the % is of the running total to the left
+// (100+10% = 110, 100-10% = 90); for * and / (or standalone) it's a plain fraction
+// (200*10% = 20, 50% = 0.5). Normal operator precedence is preserved.
+function percentAwareEval(expr) {
+  const tokens = expr.match(/(\d+\.?\d*|\.\d+|[+\-*/%])/g) || [];
+  const out = [];
+  for (let i = 0; i < tokens.length; i++) {
+    const t = tokens[i];
+    if (t === '%') {
+      const num = parseFloat(out[out.length - 1]) || 0;
+      const op = out[out.length - 2];
+      if (op === '+' || op === '-') {
+        const leftExpr = out.slice(0, out.length - 2).join('');
+        let leftVal = 0;
+        if (leftExpr) { try { leftVal = Function('return ' + leftExpr)(); } catch (e) { leftVal = 0; } }
+        out[out.length - 1] = '(' + (leftExpr ? leftVal * num / 100 : num / 100) + ')';
+      } else {
+        out[out.length - 1] = '(' + (num / 100) + ')';
+      }
+    } else {
+      out.push(t);
+    }
+  }
+  return Function('return ' + (out.join('') || '0'))();
+}
+
 function calculateResult() {
   if (!calcExpression) return;
   try {
     const safeExpr = calcExpression.replace(/[^0-9+\-*/%.]/g, '');
     const originalExpr = calcExpression; // capture before overwriting
-    const res = new Function('return ' + safeExpr.replace(/%/g, '/100'))();
+    const res = percentAwareEval(safeExpr);
     document.getElementById('calc-history').innerText = originalExpr + " =";
     calcExpression = res.toString();
     if (!Number.isInteger(res)) calcExpression = parseFloat(res.toFixed(8)).toString();
