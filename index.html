@@ -1705,6 +1705,18 @@
       };
     });
 
+    // Open a Reference & Data hub directly from a ?view= URL param
+    // (used by the guide pages' "All Guides" link so it lands on the in-app hub).
+    window.addEventListener('load', function(){
+      try {
+        var v = new URLSearchParams(location.search).get('view');
+        if (v && ['guides','registries','tools'].indexOf(v) > -1 && window.showReferenceHub) {
+          // defer so the app's own window.onload init (which shows Search) runs first
+          setTimeout(function(){ window.showReferenceHub(v); }, 80);
+        }
+      } catch(e){}
+    });
+
     // Collapsible sidebar groups
     function toggleSidebarGroup(label) {
       label.classList.toggle('open');
