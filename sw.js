@@ -1,4 +1,4 @@
-const CACHE_NAME = 'sprayhub-v223';
+const CACHE_NAME = 'sprayhub-v224';
 
 const ASSETS = [
   './',

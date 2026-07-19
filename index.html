@@ -1763,6 +1763,22 @@
 
       // Sidebar footer stats
       if (el('sidebar-stats')) el('sidebar-stats').textContent = productCount + ' products · ' + companyCount + ' companies';
+
+      // Bottom footer version — company count is live, and the build number tracks the
+      // deployed service-worker cache version so it never goes stale again.
+      var fv = el('footer-version');
+      if (fv) {
+        var applyFooter = function (build) {
+          fv.textContent = 'v1.15 · Build ' + build + ' · ' + companyCount + ' companies';
+        };
+        if (window.caches && caches.keys) {
+          caches.keys().then(function (keys) {
+            var nums = keys.map(function (k) { var m = k.match(/sprayhub-v(\d+)/); return m ? +m[1] : 0; });
+            var b = nums.length ? Math.max.apply(null, nums) : 0;
+            applyFooter(b > 0 ? b : '—');
+          }).catch(function () { applyFooter('—'); });
+        } else { applyFooter('—'); }
+      }
     });
   </script>
   </div><!-- /desktop-main -->
@@ -1791,7 +1807,7 @@
 
       <!-- Right: Version & legal -->
       <span class="footer-right">
-        <span class="footer-version">v1.15 · Build 204 · 38 companies</span>
+        <span class="footer-version" id="footer-version">v1.15 · Build 204 · 38 companies</span>
         <span class="footer-sep">·</span>
         <span class="footer-copyright">© 2026 Spray Hub. Always read the label.</span>
       </span>
