@@ -289,9 +289,9 @@
         <span class="sidebar-count" id="sidebar-diseases">-</span>
       </button>
       <div class="sidebar-group-label">REFERENCE &amp; DATA</div>
-      <a class="sidebar-item" href="guides.html" style="text-decoration:none; color:inherit;">
+      <button class="sidebar-item" id="sb-guides" onclick="showReferenceHub('guides')">
         <span class="sidebar-icon">📖</span> Guides
-      </a>
+      </button>
       <button class="sidebar-item" id="sb-registries" onclick="showReferenceHub('registries')">
         <span class="sidebar-icon">🏛️</span> Registries
       </button>
@@ -415,7 +415,7 @@
         .refhub-head h1{font-size:1.5rem;color:#15803d;margin:0 0 4px;display:flex;align-items:center;gap:10px;}
         .refhub-head p{color:var(--text-sub);font-size:.92rem;margin:0 0 18px;max-width:70ch;line-height:1.5;}
         .refhub-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px;}
-        .refhub-card{display:flex;flex-direction:column;align-items:flex-start;text-align:left;background:var(--card-bg);border:1px solid var(--border);border-radius:14px;padding:18px;cursor:pointer;font:inherit;color:var(--text-main);width:100%;transition:transform .13s,box-shadow .13s,border-color .13s;box-shadow:0 2px 10px rgba(0,0,0,.06);}
+        .refhub-card{display:flex;flex-direction:column;align-items:flex-start;text-align:left;text-decoration:none;background:var(--card-bg);border:1px solid var(--border);border-radius:14px;padding:18px;cursor:pointer;font:inherit;color:var(--text-main);width:100%;transition:transform .13s,box-shadow .13s,border-color .13s;box-shadow:0 2px 10px rgba(0,0,0,.06);}
         .refhub-card:hover{transform:translateY(-3px);box-shadow:0 10px 24px rgba(0,0,0,.12);border-color:#16a34a;}
         .refhub-em{font-size:1.9rem;line-height:1;margin-bottom:8px;}
         .refhub-title{font-size:1rem;font-weight:700;color:#15803d;}
@@ -425,6 +425,24 @@
         [data-theme="dark"] .refhub-tag{background:rgba(22,163,74,.18);color:#86efac;}
         [data-theme="dark"] .refhub-card:hover{border-color:#4ade80;}
       </style>
+
+      <div id="agri-guides-hub" class="hidden">
+        <div class="refhub-wrap">
+          <div class="refhub-head"><h1>📖 Guides</h1><p>Practical, Australian-conditions how-to references for pests, weeds, diseases and agronomy topics. Every guide links back to matching products in Spray Hub.</p></div>
+          <div class="refhub-grid">
+            <a class="refhub-card" href="erosion-control-guide.html"><span class="refhub-em">⛰️</span><span class="refhub-title">Erosion Control</span><span class="refhub-desc">Slope stabilisation with Australian native plants — matting, zoned species, planting.</span><span class="refhub-tag">Agronomy</span></a>
+            <a class="refhub-card" href="weed-resistance-guide.html"><span class="refhub-em">🌾</span><span class="refhub-title">Weed Resistance &amp; HRAC</span><span class="refhub-desc">HRAC group rotation, double-knock, IWM and the WeedSmart Big 6.</span><span class="refhub-tag">Weeds</span></a>
+            <a class="refhub-card" href="lawn-turf-guide.html"><span class="refhub-em">🌿</span><span class="refhub-title">Lawn &amp; Turf Care</span><span class="refhub-desc">Grass types by climate zone, weed control, feeding and renovation.</span><span class="refhub-tag">Agronomy</span></a>
+            <a class="refhub-card" href="vegetable-garden-pest-disease-guide.html"><span class="refhub-em">🥬</span><span class="refhub-title">Veggie Garden</span><span class="refhub-desc">Home &amp; small-plot pest and disease identification and control.</span><span class="refhub-tag">Home</span></a>
+            <a class="refhub-card" href="fall-armyworm-management-guide.html"><span class="refhub-em">🐛</span><span class="refhub-title">Fall Armyworm (FAW)</span><span class="refhub-desc">Scouting, thresholds, IRAC-group rotation and biological options.</span><span class="refhub-tag">Pests</span></a>
+            <a class="refhub-card" href="fruit-fly-control-guide.html"><span class="refhub-em">🍊</span><span class="refhub-title">Fruit Fly Control</span><span class="refhub-desc">Monitoring, protein baiting, cover sprays and area-wide management.</span><span class="refhub-tag">Pests</span></a>
+            <a class="refhub-card" href="mosquito-control-guide.html"><span class="refhub-em">🦟</span><span class="refhub-title">Mosquito Control</span><span class="refhub-desc">Breeding-site source reduction, larvicides and adult control.</span><span class="refhub-tag">Pests</span></a>
+            <a class="refhub-card" href="cockroach-control-guide.html"><span class="refhub-em">🪳</span><span class="refhub-title">Cockroach Control</span><span class="refhub-desc">Species ID, lifecycle, IPM, baits and residual chemistry.</span><span class="refhub-tag">Pests</span></a>
+            <a class="refhub-card" href="termite-control-guide.html"><span class="refhub-em">🛡️</span><span class="refhub-title">Termite Control</span><span class="refhub-desc">Species, lifecycle, barriers, baiting systems and chemistry.</span><span class="refhub-tag">Pests</span></a>
+            <a class="refhub-card" href="house-fly-control-guide.html"><span class="refhub-em">🪰</span><span class="refhub-title">House Fly Control</span><span class="refhub-desc">Lifecycle, sanitation, baits, residual and space treatments.</span><span class="refhub-tag">Pests</span></a>
+          </div>
+        </div>
+      </div>
 
       <div id="agri-registries-hub" class="hidden">
         <div class="refhub-wrap">
@@ -1664,7 +1682,7 @@
       if (hub) hub.classList.remove('hidden');
       // sidebar active state: clear all, mark this hub link
       document.querySelectorAll('.desktop-sidebar .sidebar-item').forEach(function(i){ i.classList.remove('active'); });
-      var link = document.getElementById(which === 'registries' ? 'sb-registries' : 'sb-tools');
+      var link = document.getElementById('sb-' + which);
       if (link) link.classList.add('active');
       var m = document.getElementById('desktop-main'); if (m) m.scrollTop = 0; window.scrollTo(0, 0);
     };
@@ -1674,9 +1692,11 @@
     document.addEventListener('DOMContentLoaded', function(){
       var prev = window.switchAgriSubTab;
       window.switchAgriSubTab = function(tab){
+        var gh = document.getElementById('agri-guides-hub'); if (gh) gh.classList.add('hidden');
         var rh = document.getElementById('agri-registries-hub'); if (rh) rh.classList.add('hidden');
         var th = document.getElementById('agri-tools-hub'); if (th) th.classList.add('hidden');
         var out = prev ? prev.apply(this, arguments) : undefined;
+        var sbg = document.getElementById('sb-guides'); if (sbg) sbg.classList.remove('active');
         var sbr = document.getElementById('sb-registries'); if (sbr) sbr.classList.remove('active');
         var sbt = document.getElementById('sb-tools'); if (sbt) sbt.classList.remove('active');
         if (['apvma','sds','permits'].indexOf(tab) > -1) { if (sbr) sbr.classList.add('active'); }
